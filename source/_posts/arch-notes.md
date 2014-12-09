@@ -10,6 +10,8 @@ tags:
 https://wiki.archlinux.org
 https://wiki.archlinux.org/index.php/Beginners%27_Guide
 
+<!-- more -->
+
 ## installation
 
 [Installing GUI (Cinnamon Desktop) and Basic Softwares in Arch Linux](http://www.tecmint.com/install-cinnamon-desktop-in-arch-linux/)

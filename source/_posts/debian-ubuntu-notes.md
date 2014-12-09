@@ -11,6 +11,8 @@ toc: true
 
 [The Debian Administrator's Handbook](http://debian-handbook.info/browse/stable/)
 
+<!-- more -->
+
 ## Package managers
 [What is the difference between dpkg and aptitude/apt-get? - Ask Ubuntu](http://askubuntu.com/questions/309113/what-is-the-difference-between-dpkg-and-aptitude-apt-get)
 [6.4. Frontends: aptitude, synaptic](http://debian-handbook.info/browse/stable/sect.apt-frontends.html)
