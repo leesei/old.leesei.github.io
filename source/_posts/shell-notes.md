@@ -11,9 +11,16 @@ Most of the following are compatible to `bash` and `zsh`.
 
 <!-- more -->
 
+**Bash**:
 http://justinlilly.com/bash/forgotten_friend_1.html
 http://justinlilly.com/bash/forgotten_friend_2.html
 http://justinlilly.com/bash/forgotten_friend_3.html
+**Zsh**:
+http://zsh.sourceforge.net/Doc/Release/zsh_toc.html
+http://grml.org/zsh/zsh-lovers.html
+http://www.zzapper.co.uk/zshtips.html
+http://fendrich.se/blog/2012/09/28/no/
+http://www.tuxradar.com/content/z-shell-made-easy
 
 ## Choosing shell
 [Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh - Hyperpolyglot](http://hyperpolyglot.org/unix-shells)
@@ -184,6 +191,8 @@ fi
 ```
 
 ## shell script constructs
+
+http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html
 
 ### `if`
 

@@ -7,3 +7,6 @@ tags:
 ---
 
 https://github.com/robbyrussell/oh-my-zsh/wiki
+
+https://github.com/mbrubeck/compleat
+https://github.com/zsh-users/zsh-syntax-highlighting
