@@ -33,7 +33,7 @@ external_link: true # Open external links in new tab
 filename_case: 1
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 highlight:
   enable: true
   line_number: true
@@ -86,7 +86,7 @@ exclude_generator:
 # hexo-generator-feed
 feed:
   type: atom
-  path: /atom.xml
+  path: atom.xml
   limit: 20
 
 # hexo-generator-sitemap
