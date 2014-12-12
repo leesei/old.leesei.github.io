@@ -1,9 +1,9 @@
 title: Shell notes
+toc: true
 date: 2014-12-08 12:03:44
 tags:
 - shell
 - notes
-toc: true
 ---
 
 Notes on shell usage.
@@ -11,31 +11,29 @@ Most of the following are compatible to `bash` and `zsh`.
 
 <!-- more -->
 
-**Bash**:
-http://justinlilly.com/bash/forgotten_friend_1.html
-http://justinlilly.com/bash/forgotten_friend_2.html
-http://justinlilly.com/bash/forgotten_friend_3.html
-**Zsh**:
-http://zsh.sourceforge.net/Doc/Release/zsh_toc.html
-http://grml.org/zsh/zsh-lovers.html
-http://www.zzapper.co.uk/zshtips.html
-http://fendrich.se/blog/2012/09/28/no/
-http://www.tuxradar.com/content/z-shell-made-easy
-
 ## Choosing shell
+
 [Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh - Hyperpolyglot](http://hyperpolyglot.org/unix-shells)
 
 Most distro comes with `bash` as default login shell.
 Since `bash` is ubiqutious and more feature-rich than POSIX shell (`/bin/sh`), it is recommanded to write shell scripts in `bash`.
 Since `zsh` is `bash` (and hence POSIX) -compatible. Most command lines found on the web can be pasted in `zsh` directly (unlike `fish` which is not POSIX-compatible). It is recommanded to use `zsh` as the interactive shell.
-Although `zsh` has more powerful syntax, it may not be worthy to use them to avoid lock-in and maintain portability.
+However I found `fish` [design](http://fishshell.com/docs/current/design.html) quite sensible. I'll try to use external binaries as mush as possible instead of relying on shell features. On the same line of thought, eventhough `zsh` has more powerful syntax than `bash`, it may not be worthy to use them to avoid lock-in and maintain portability.
 
-### dotfiles
+### login shell
+
+You can set a shell as your default shell with `chsh`.
+But interactive shells must be added to `/etc/shells` first before used as a login shell.
+
+http://fishshell.com/docs/2.1/faq.html#faq-default
+
+## dotfiles
+
 > most contain useful aliases, functions and scripts
 
 It is recommanded to use source control to store your config files (_dotfiles_, as they usually begins with a `.`) and use symlinks (`ln -s`) to deploy them to the machine.
 
-#### switching OS and host
+### switching OS and host
 
 ```sh
 SYS_OS=`uname -a`   # linux or mac
@@ -59,20 +57,32 @@ fi
 Honorable mentions:
 - http://dotfiles.github.io/
 - http://chneukirchen.org/dotfiles/
-{% label TODO warning %} add my links in /caravan
-
-### login shell
-You can set a shell as your default shell with `chsh`.
-But interactive shells must be added to `/etc/shells` first before used as a login shell.
-
-http://fishshell.com/docs/2.1/faq.html#faq-default
+{% label TODO warning %} add my links in /caravan/github-watch/dotfiles
 
 ## Common tasks
 
-### Key bindings
+### detect undefined vars 
+
+its more meaningful in scripts to report error then to continue with empty string
+
+```sh
+set -u  # throw error on uninitialised variable, `set -o nounset`
+set -e  # exit on statement error, `set -o errexit`
+```
+
+### key bindings
+
 [Bash Shortcuts Quick Reference](http://www.ice2o.com/bash_quick_ref.html)
 
+### color
+
+http://misc.flogisoft.com/bash/tip_colors_and_formatting
+http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+
+zsh have color macros predefined, see themes in `oh-my-zsh`
+
 ### calculation
+
 ```bash
 # do math calculation in $(( )), it is faster then `expr`
 # and we can specify the number system with 8#, 10#, 16#
@@ -84,14 +94,14 @@ $(expr ${a} + 1)  # slower
 
 or use `bc`, or use `math` (inspired by `fish`)
 
-{%codeblock math lang:sh %}
+```sh math
 #!/bin/sh
 # thin wrapper around bc for easier math expression in shell
 # inspired by fish
 echo "$@" | bc -l
-{% endcodeblock %}
+```
 
-## Shell expansion
+## shell expansion
 
 ### history expansion
 
@@ -306,3 +316,18 @@ Test()
     eval "$@" && echo "True" || echo "False";
 }
 ```
+
+## Reference
+
+**Bash**:
+http://justinlilly.com/bash/forgotten_friend_1.html
+http://justinlilly.com/bash/forgotten_friend_2.html
+http://justinlilly.com/bash/forgotten_friend_3.html
+**Zsh**:
+http://zsh.sourceforge.net/Doc/Release/zsh_toc.html
+http://grml.org/zsh/zsh-lovers.html
+http://www.zzapper.co.uk/zshtips.html
+http://fendrich.se/blog/2012/09/28/no/
+http://www.tuxradar.com/content/z-shell-made-easy
+**Fish**:
+https://wiki.archlinux.org/index.php/Fish

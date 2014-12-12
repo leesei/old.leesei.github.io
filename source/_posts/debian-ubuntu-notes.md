@@ -1,4 +1,5 @@
 title: Debian/Ubuntu notes
+toc: true
 date: 2014-12-08 13:04:28
 tags:
 - debian
@@ -6,10 +7,11 @@ tags:
 - linux
 - package-manager
 - notes
-toc: true
 ---
 
 [The Debian Administrator's Handbook](http://debian-handbook.info/browse/stable/)
+[Ubuntu Desktop Guide](https://help.ubuntu.com/lts/ubuntu-help/index.html)
+[CommunityHelpWiki - Community Help Wiki](https://help.ubuntu.com/community/CommunityHelpWiki)
 
 <!-- more -->
 

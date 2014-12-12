@@ -20,8 +20,12 @@ http://antergos.com/
 ## pacman
 https://wiki.archlinux.org/index.php/Pacman_Tips
 
+http://www.hahack.com/wiki/arch-pacman.html
+
 ### repo source
 `/etc/pacman.conf`
+`/etc/pacman.d/mirrorlist`
+
 https://wiki.archlinux.org/index.php/Official_repositories
 
 ## yaourt
