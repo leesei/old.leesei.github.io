@@ -1,12 +1,16 @@
-title: Git note
+title: Git notes
 toc: true
 date: 2014-12-11 17:34:15
 tags:
-- git
 - shell-tool
+- git
+- notes
 ---
 
 http://ndpsoftware.com/git-cheatsheet.html
+
+[Low Level Manager: using git-flow with github](http://www.lowlevelmanager.com/2011/03/using-git-flow-with-github.html)
+[GitHub Workflow (used by Frameworks team at BBC News)](http://www.integralist.co.uk/posts/github-workflow.html)
 
 ## Merging from forked repo
 
@@ -41,6 +45,10 @@ git rebase master
 # apply uncommitted changes
 git stash pop
 ```
+
+## check diff before merge
+
+http://stackoverflow.com/questions/4944376/how-to-check-real-git-diff-before-merging-from-remote-branch
 
 ## Deleting branch
 

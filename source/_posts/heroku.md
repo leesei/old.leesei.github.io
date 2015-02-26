@@ -1,7 +1,10 @@
 title: Heroku
 toc: true
 date: 2014-12-11 17:39:03
+categories:
+- web
 tags:
+- shell-tool
 - heroku
 ---
 

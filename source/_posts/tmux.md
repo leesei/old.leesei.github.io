@@ -2,6 +2,9 @@ title: Tmux
 toc: true
 date: 2014-12-11 17:59:04
 tags:
+- shell-tool
+- tmux
+- tmuxifier
 ---
 
 tmux includes `.bash_profile`/`.profile` but not `.bashrc`
@@ -27,13 +30,13 @@ http://tonkersten.com/2011/07/104-switching-to-tmux/
 
 ## tmuxifier
 
-```
+```sh
 git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 ```
 
 ## tmux not loading bashrc 
 
-```
+```sh
 $echo case $- in *i*) . ~/.bashrc;; esac >> .bash_profile 
 ```
 

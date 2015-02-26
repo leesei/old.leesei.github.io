@@ -1,0 +1,60 @@
+title: awk notes
+toc: true
+date: 2015-01-13 12:56:24
+tags:
+- shell-tool
+- awk
+- notes
+---
+
+[AWK](http://en.wikipedia.org/wiki/AWK) is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.
+
+```sh
+awk '{PROGRAM}' file
+awk -f <PROGRAM.awk> file
+```
+
+<!-- more -->
+
+program is executed on a row basis, with optional rules to switch the statements (block) to execute
+each row is parsed into fields by the seperator
+
+```
+NR      Number of Row
+NF      Number of Fields
+$()     field substitution
+```
+
+
+```sh
+# print line number and second last field
+awk '{ print "Line " NR ": " $(NF-1) }' test.txt
+```
+
+[AWK Programming](http://www.softpanorama.org/Tools/awk.shtml)
+[awk is a beautiful tool](http://www.eriwen.com/tools/awk-is-a-beautiful-tool/)
+[Update on Famous Awk One-Liners Explained: String and Array Creation - good coders code, great reuse](http://www.catonmat.net/blog/update-on-famous-awk-one-liners-explained/)
+[The GNU Awk User’s Guide](http://www.gnu.org/software/gawk/manual/gawk.html)
+[awk使用手册 - fanqiang.com](http://fanqiang.chinaunix.net/program/other/2005-09-07/3621.shtml)
+[Famous Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)
+[Famous Awk One-Liners Explained, Part II: Text Conversion and Substitution - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)
+[Famous Awk One-Liners Explained, Part III: Selective Printing and Deleting of Certain Lines - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-three/)
+[Update on Famous Awk One-Liners Explained: String and Array Creation - good coders code, great reuse](http://www.catonmat.net/blog/update-on-famous-awk-one-liners-explained/)
+[Awk, Nawk and GNU Awk Cheat Sheet - good coders code, great reuse](http://www.catonmat.net/blog/awk-nawk-and-gawk-cheat-sheet/)
+http://www.pement.org/awk/awk1line.txt
+
+## print number of lines
+
+```sh
+awk 'BEGIN {sum=0} {sum=sum+1} END {print sum}' filename
+awk 'END{print NR}' filename
+```
+
+Task | Command
+--- | ---
+显示文件的第一列 | `awk '{print $1}' <file>`
+反序显示文件的前两列 | `awk '{print $2,”\t”,$1}' <file>`
+输出前两列的总和 | `awk '{print $1 + $2}' <file>`
+查找所有包括”money” 行并输出最后一列 | `awk '/money/ {print $NF}' <file>`
+查找第二列中包含 “money” | `awk '$2 ~ /money/ {print $0}' <file>`
+查找第三列中不包括”A” | `awk '$3 !~ /A$/ {print $0}' <file>`

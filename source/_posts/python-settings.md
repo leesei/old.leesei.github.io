@@ -4,6 +4,7 @@ date: 2014-12-11 17:27:59
 tags:
 - python
 - settings
+- pip
 - package-manager
 ---
 

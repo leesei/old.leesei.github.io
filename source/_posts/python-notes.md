@@ -96,6 +96,24 @@ Use `@property` declaration to abstract member access (simpler then `__getattrib
 `int(float)` is rounding, use `floor()` for C-like casting
 use open delimiters to override indentation rules
 
+## Learn
+
+Python Fundamentals Training
+http://www.youtube.com/playlist?list=PL26BA8B9FC33789FF
+http://simeonfranklin.com/python-fundamentals/
+4 day comprehensive tutorial, target audiences are not advanced
+
+Google Python Class
+https://developers.google.com/edu/python/
+
+Python (all parts in one)
+http://www.youtube.com/watch?v=Ajmj5itd2s8
+quite good
+
+Slightly Advanced Python - Some Python Internals
+http://www.youtube.com/watch?v=23s9Wc3aWGY
+class contruction, attr lookup, bytecode (assembly)
+
 ## Reference
 
 [Overview — Python 3 documentation](https://docs.python.org/3/)

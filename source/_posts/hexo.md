@@ -14,7 +14,7 @@ Validate YAML with [Online YAML Parser](http://yaml-online-parser.appspot.com/).
 
 <!-- more -->
 
-Custom index page :
+Custom index page:
 https://github.com/xing5/blog
 https://github.com/timnew/timnew.github.com/tree/hexo https://github.com/timnew/landscape/tree/master
 
@@ -39,7 +39,8 @@ https://github.com/kywk/hexo-tag-eval
 
 ## Themes
 
-I need: categories page, tags page, TOC.
+I need: archive page (list), categories page, tags page, TOC.
+It's better to show tags and categories in archive and main index.
 
 https://github.com/hexojs/hexo/wiki/Themes
 
@@ -53,11 +54,14 @@ http://www.hahack.com/codes/hexo-theme-wixo/
 ### Writing themes
 
 http://hexo.io/docs/helpers.html
+http://jr0cket.co.uk/hexo-themes-test/
+http://jr0cket.co.uk/tags/hexo/
 http://jr0cket.co.uk/hexo/customising-the-hexo-theme.html
 http://jr0cket.co.uk/hexo/deconstructing-the-hexo-theme.html
+http://kuangqi.me/tricks/hexo-optimizations-for-mainland-china/
+http://kuangqi.me/tricks/enable-table-of-contents-on-hexo/
 
 and study source code of Hexo and other themes
-
 
 ## Add doc
 

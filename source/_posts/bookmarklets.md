@@ -14,13 +14,29 @@ Useful properties includes:
 - URL
 - DOM
 
+[Bookmarkleteer: Create and Share Bookmarklets Online](http://bookmarkleteer.com/), [source](https://github.com/coolaj86/bookmarkleteer)
+[How To Make a Bookmarklet For Your Web Application | BetterExplained](http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/)
+[Implementing bookmarklets in JavaScript](http://www.2ality.com/2011/06/implementing-bookmarklets.html)
+
 ### Repository
 
 [Bookmarklets | Bookmarklet Search Engine](http://marklets.com/)
+[Ben Alman » Bookmarklets](http://benalman.com/projects/bookmarklets/)
+[janmoesen/bookmarklets](https://github.com/janmoesen/bookmarklets)
+[Bookmarklets](http://linkstore.ru/book/index-en.jsp)
+[Jesse's Bookmarklets Site](https://www.squarefree.com/bookmarklets/)
+[Bookmarklets - Tool Categories](http://www.bookmarklets.com/tools/categor.html)
 
 ### Creating bookmarklets
-* Create any bookmark, edit it to change the title and paste the `javascript:` link to the url.
-* Some services allows you to drag and drop the link to your bookmark bar to create the bookmarklet. (Use the url-escaped `javascript:` link)
+
+* Create any bookmark, edit it to change the title and paste the `javascript:` link as the url.
+* Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the `javascript:` link is url-escaped).
+* You may organize bookmarklets in fully documented `.js` and 
+** use this to generate the link:
+```sh
+echo -n "javascript:"; uglifyjs --no-copyright file.js ; echo
+```
+** put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
 
 <!-- more -->
 
@@ -28,7 +44,7 @@ Useful properties includes:
 
 Generates a `mailto:` link with the webpage's URL and title.
 I use this frequently to share links.
-I register Gmail to handle `mailto:` according to [this](http://webapps.stackexchange.com/a/33951).
+I registered Gmail to handle `mailto:` according to [this](http://webapps.stackexchange.com/a/33951).
 
 ```js Email Link
 javascript:void(window.open("mailto:?SUBJECT="+document.title+"&BODY="+escape(location.href), "_blank","width=628,left="+screen.width*.5+",height=600,top="+screen.height*.1+",resizable,scrollbars=no"))
@@ -81,6 +97,28 @@ javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!
 
 List all the links in Markdown contained in the hovered portion of the page. 
 [GrabLinks - BrettTerpstra.com](http://brettterpstra.com/projects/grablinks/), [gist](https://gist.github.com/ttscoff/5834741).
+
+Bookmarklet on website.
+
+## Read Cookie
+
+This is rudimentary, could have parsed it a little bit.
+But why here if we have DevTools?
+
+```js Read Cookie
+javascript:if(document.cookie.length<1){alert('No cookie for this site.')}else{alert('Cookie for this site:\n'+document.cookie)}
+```
+
+## Pocket
+
+[Pocket: How to Save](https://getpocket.com/add)
+[Pocket | Using the Pocket Bookmarklet](http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet)
+
+Bookmarklet on website (click "install the bookmarklet").
+
+## Google Bookmark
+
+[Google Bookmarks - Chrome Help](https://support.google.com/chrome/answer/100215?hl=en)
 
 Bookmarklet on website.
 
