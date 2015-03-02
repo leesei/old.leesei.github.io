@@ -1,9 +1,11 @@
 title: Go notes
-toc: true
 date: 2015-02-16 17:58:42
+categories:
+- comp.lang
 tags:
 - golang
 - notes
+toc: true
 ---
 
 # Reference

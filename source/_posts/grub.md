@@ -1,15 +1,15 @@
 title: GRUB
-toc: true
 date: 2014-12-17 13:38:19
 categories:
 - linux
 tags:
 - grub
+toc: true
 ---
 
 ## Restore GRUB after Windows install
 
-```bash
+```sh
 # check Linux partition
 sudo fdisk -l
 # mount Linux root (say sda5)
@@ -24,7 +24,7 @@ sudo update-grub
 
 ## Restore Windows after GRUB install
 
-```bash
+```sh
 # boot to DOS mode with CD
 bootrec /fixmbr
 ```

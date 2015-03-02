@@ -1,9 +1,11 @@
 title: Bookmarklets
-toc: true
 date: 2014-12-08 14:19:53
+categories:
+- web
 tags:
 - bookmarklet
 - browser
+toc: true
 ---
 
 Bookmarklets are bookmark of Javascript code as the link (with protocol `javascript:`) that can be used to implement custom feature inside browser.
@@ -17,6 +19,8 @@ Useful properties includes:
 [Bookmarkleteer: Create and Share Bookmarklets Online](http://bookmarkleteer.com/), [source](https://github.com/coolaj86/bookmarkleteer)
 [How To Make a Bookmarklet For Your Web Application | BetterExplained](http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/)
 [Implementing bookmarklets in JavaScript](http://www.2ality.com/2011/06/implementing-bookmarklets.html)
+
+<!-- more -->
 
 ### Repository
 

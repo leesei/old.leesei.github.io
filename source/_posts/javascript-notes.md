@@ -1,9 +1,11 @@
 title: Javascript notes
-toc: true
 date: 2014-12-11 17:04:13
+categories:
+- comp.lang
 tags:
 - javascript
 - notes
+toc: true
 ---
 
 ### tricks
@@ -80,6 +82,7 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [Promises and design patterns in AngularJS | Xebia Blog](http://blog.xebia.com/2014/02/23/promises-and-design-patterns-in-angularjs/)
 [Promises in Node.js with Q – An Alternative to Callbacks - StrongLoop](http://blog.strongloop.com/promises-in-node-js-with-q-an-alternative-to-callbacks/)
 [Why I am switching to promises](http://spion.github.io/posts/why-i-am-switching-to-promises.html)
+[JavaScript Promises: There and back again - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/)
 
 ### generators
 
@@ -124,6 +127,7 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [HTML templating with ES6 template strings](http://www.2ality.com/2015/01/template-strings-html.html)
 [Template strings: embedded DSLs in ECMAScript 6](http://www.2ality.com/2011/09/quasi-literals.html)
 [A closer look at Underscore templates](http://www.2ality.com/2012/06/underscore-templates.html)
+[Getting Literal With ES6 Template Strings](http://updates.html5rocks.com/2015/01/ES6-Template-Strings)
 
 ### modules
 

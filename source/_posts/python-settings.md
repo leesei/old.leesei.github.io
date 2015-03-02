@@ -1,26 +1,26 @@
 title: Python settings
-toc: true
 date: 2014-12-11 17:27:59
+categories:
+- comp.lang
 tags:
 - python
 - settings
 - pip
 - package-manager
+toc: true
 ---
-
-# Python settings
 
 ## Installing pip
 
 http://www.pip-installer.org/en/latest/installing.html
 
 ### from package manager
-```bash
+```sh
 sudo apt-get install python-pip
 ```
 
 ### latest
-```bash
+```sh
 sudo -v
 curl -OL https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
 sudo python ez_setup.py
@@ -30,13 +30,13 @@ sudo python get-pip.py
 
 ## Packages
 
-```bash
+```sh
 sudo pip install httpie pygments
 sudo pip install asciinema TermRecord
 sudo pip install landslide
 ```
 
-```bash
+```sh
 sudo apt-get install ipython python-pygame
 ```
 
@@ -47,14 +47,14 @@ sudo apt-get install ipython python-pygame
 http://webapp-improved.appspot.com/tutorials/virtualenv.html
 http://code4reference.com/2014/05/python-virtual-environment/
 
-```bash
+```sh
 sudo pip install virtualenv
 source virtualenv-auto-activate.sh in .bashrc
 ```
 
 Usage:
 
-```bash
+```sh
 # create env in current directory
 virtualenv env
 . env/bin/activate
@@ -64,7 +64,7 @@ deactivate
 
 ## List installed packages
 
-```bash
+```sh
 pip list
 pip freeze
 ```

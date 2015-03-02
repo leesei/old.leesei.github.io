@@ -1,8 +1,7 @@
 title: Model of Grief
-toc: true
 date: 2014-12-26 21:40:56
 categories:
-- academic
+- trivia
 tags:
 - psychology
 - model-of-grief

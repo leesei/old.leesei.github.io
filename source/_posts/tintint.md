@@ -1,9 +1,7 @@
 title: TinTint 點點印
-toc: true
 date: 2015-01-23 11:52:03
 categories:
-- lifehack
-tags:
+- trivia
 ---
 
 TinTint is a book printing company based in Taiwan.

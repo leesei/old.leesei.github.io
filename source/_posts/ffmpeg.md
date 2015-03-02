@@ -1,16 +1,37 @@
 title: avconv/ffmpeg
-toc: true
 date: 2015-01-13 01:27:30
+categories:
+- linux
 tags:
 - shell-tool
 - ffmpeg
 - avconv
+toc: true
 ---
 
+FFmpeg is a library and utility for AV format convertion.
+Libav is a fork of FFmpeg with more transparent governance.
+The paramters for `ffmepg` and `avconv` are *MOSTLY* compatible.
+
 [The FFmpeg/Libav situation](http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html)
+[FFmpeg versus Libav · mpv-player/mpv Wiki](https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav)
 
 ```
-avconv [global options] [[infile options][-i infile]]... {[outfile options] outfile}...
+ffmpeg [global options] [[infile options][-i infile]]... {[outfile options] outfile}...
+```
+
+<!-- more -->
+
+## FFMpeg on Debian
+
+> http://stackoverflow.com/a/9477756/665507
+
+If you wanted real FFMpeg on Ubuntu/Debian:
+
+```sh
+sudo add-apt-repository ppa:jon-severinsson/ffmpeg
+sudo apt-get update
+sudo apt-get install ffmpeg
 ```
 
 ## trim clip
@@ -43,7 +64,6 @@ ffmpeg -pix_fmt yuv420p -s 352x288 -i in.yuv -pix_fmt nv12 out.yuv
 
 [Documentation](http://ffmpeg.org/documentation.html)
 [ffmpeg Documentation](http://ffmpeg.org/ffmpeg.html)
-
 
 [FFmpeg](http://trac.ffmpeg.org/)
 [FFmpeg - ArchWiki](https://wiki.archlinux.org/index.php/FFmpeg)

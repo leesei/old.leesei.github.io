@@ -1,6 +1,7 @@
 title: Shell Recording
-toc: true
 date: 2015-01-14 12:48:30
+categories:
+- linux
 tags:
 - shell-tool
 - termrecord

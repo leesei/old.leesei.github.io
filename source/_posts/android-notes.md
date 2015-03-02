@@ -1,5 +1,4 @@
 title: Android notes
-toc: true
 date: 2014-12-17 13:45:27
 categories:
 - android
@@ -10,7 +9,10 @@ tags:
 - input
 - logcat
 - notes
+toc: true
 ---
+
+Notes for console tools available on Android system.
 
 > attach adbpull, adbpush, adbview, adbcmd here
 
@@ -28,22 +30,6 @@ tags:
 
   ```sh
   cat /proc/bus/input/devices
-  ```
-
-* pulling database from device
-
-  ```sh
-  # pull databases/
-  cd /data/data; busybox find . -type d -name databases -type d | busybox xargs busybox tar cf /sdcard/databases.tar
-  adbpull databases.tar
-  tar xf databases.tar
-  ```
-
-  ```sh
-  # pull data/data
-  cd /data/data; busybox tar cf /sdcard/data.tar .
-  adbpull data.tar
-  tar xf data.tar
   ```
 
 ## adb

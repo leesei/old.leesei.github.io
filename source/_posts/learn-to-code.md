@@ -1,8 +1,10 @@
 title: Learn to code
-toc: true
 date: 2014-12-08 13:59:06
+categories:
+- comp.lang
 tags:
 - programming
+toc: true
 ---
 
 Learn how to code
@@ -28,6 +30,7 @@ sustainably minize lead time to business impact
 [Coursera](https://www.coursera.org/)
 [code school](http://codeschool.org/)
 [Tutorials for Jackson, Security Testing, Awk, JDB, Hadoop, Hive, HBase, XStream, Java8, Guava, Memcached, EasyMock, CICS, Object Oriented Analysis & Design, Tika, DOM, AngularJS, IMS-DB, NGN, Sed, WCF, JPA, Apache POI, Signals and Systems, JOGL, DB2, PhoneGap, SVG, VSAM, COBOL, XSD, XPath, Redis, XSLT, Java XML, VBA, JFreeChart, Lucene, Selenium, DTD, Powerpoint, Tcl/Tk, XML, Software Engineering and many more latest technologies](http://www.tutorialspoint.com/)
+[reSRC ·](http://resrc.io/)
 [No Excuse List](http://noexcuselist.com/)
 [Free Online Learning at GCFLearnFree](http://www.gcflearnfree.org/)
 [VideoLectures.NET - VideoLectures.NET](http://videolectures.net/)
@@ -90,6 +93,15 @@ http://studio.code.org/
 
 [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
 [Machine Learning with Knowledge Graphs - VideoLectures.NET](http://videolectures.net/eswc2014_tresp_machine_learning/)
+
+## Web
+
+[Web Fundamentals — Google Developers](https://developers.google.com/web/fundamentals/)
+[WebPlatform Docs · WebPlatform Docs · WPD · WebPlatform.org](https://docs.webplatform.org/wiki/Main_Page)
+[HTML CSS: The Right Way](http://htmlcsstherightway.org/)
+[Learn Web Development](http://killer-web-development.com/)
+[HTML5 Rocks - A resource for open web HTML5 developers](http://www.html5rocks.com/en/)
+[CodeVisually | Web Developer Tools & Resources](http://codevisually.com/)
 
 ## English
 

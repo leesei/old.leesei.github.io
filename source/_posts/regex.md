@@ -1,6 +1,7 @@
 title: Regular expression
-toc: true
 date: 2015-02-26 17:55:43
+categories:
+- comp.lang
 tags:
 - regex
 - javascript
@@ -8,6 +9,7 @@ tags:
 - ruby
 - perl
 - notes
+toc: true
 ---
 
 [Regular expression](http://en.wikipedia.org/wiki/Regular_expression) is a formal language for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary [here](http://www.greenend.org.uk/rjk/tech/regexp.html).

@@ -1,9 +1,11 @@
 title: Windows Desktop
-toc: true
 date: 2015-01-15 16:34:10
+categories:
+- uncategorized
 tags:
 - windows
 - desktop
+toc: true
 ---
 
 Beware of where you download from, especially don't use download.com.

@@ -1,8 +1,11 @@
 title: Hexo
 date: 2014-12-09 17:18:32
+categories:
+- web
 tags:
 - hexo
 - notes
+toc: true
 ---
 
 http://hexo.io/
@@ -39,7 +42,13 @@ https://github.com/kywk/hexo-tag-eval
 
 ## Themes
 
-I need: archive page (list), categories page, tags page, TOC.
+I need: 
+- archive page (list)
+- categories page
+- tags page
+- tag cloud sorted by posts
+- TOC
+
 It's better to show tags and categories in archive and main index.
 
 https://github.com/hexojs/hexo/wiki/Themes

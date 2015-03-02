@@ -1,12 +1,14 @@
 title: Ruby settings
-toc: true
 date: 2015-01-13 13:14:43
+categories:
+- comp.lang
 tags:
 - python
 - settings
 - rvm
 - gem
 - package-manager
+toc: true
 ---
 
 ## Install `rvm`
@@ -37,7 +39,7 @@ rvm info    # general rvm info
 rvm gemdir  # current gem directory 
 ```
 
-# modules
+## modules
 
 gem or rvm install?
 

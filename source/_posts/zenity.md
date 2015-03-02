@@ -1,5 +1,4 @@
 title: Zenity
-toc: true
 date: 2014-12-12 11:56:40
 categories:
 - linux
@@ -7,6 +6,7 @@ tags:
 - x
 - gtk
 - shell
+toc: true
 ---
 
 https://help.gnome.org/users/zenity/stable/

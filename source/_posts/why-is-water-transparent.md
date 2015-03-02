@@ -1,8 +1,7 @@
 title: Why is water transparent?
-toc: true
 date: 2015-01-23 11:23:40
 categories:
-- academic
+- trivia
 tags:
 - physics
 ---

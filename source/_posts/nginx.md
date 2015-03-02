@@ -1,11 +1,11 @@
 title: Nginx
-toc: true
 date: 2014-12-11 17:57:51
 categories:
 - web
 tags:
 - nginx
 - notes
+toc: true
 ---
 
 ## References
@@ -38,7 +38,7 @@ Server files are usually put in `sites-available/` and symlinked to `sites-enabl
 > https://github.com/JasonGiedymin/nginx-init-ubuntu  
 > https://github.com/hulihanapplications/nginx-init-debian
 
-```bash
+```sh
 $ sudo service nginx 
 configtest    force-reload  reload        restart       start         status        stop 
 ```
@@ -71,7 +71,7 @@ server {
 
 Setup group and ownership of www folder
 
-```bash
+```sh
 sudo -v
 usermod -a -G www-data ${USER}
 chown -R www-data:www-data /home/www

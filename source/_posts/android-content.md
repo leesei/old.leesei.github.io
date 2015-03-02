@@ -1,5 +1,4 @@
 title: Android content command
-toc: true
 date: 2015-01-13 13:02:49
 categories:
 - android
@@ -7,7 +6,12 @@ tags:
 - shell-tool
 - content
 - settings
+toc: true
 ---
+
+Notes for interacting with ContentProvider in console on Android system.
+
+<!-- more -->
 
 ## `content` command
 
@@ -43,6 +47,22 @@ usage: adb shell content query --uri <URI> [--user <USER_ID>] [--projection <PRO
   Example:
   # Select "name" and "value" columns from secure settings where "name" is equal to "new_setting" and sort the result by name in ascending order.
   adb shell content query --uri content://settings/secure --projection name:value --where "name=\'new_setting\'" --sort "name ASC"
+```
+
+## pulling database from device
+
+```sh
+# pull databases/
+cd /data/data; busybox find . -type d -name databases -type d | busybox xargs busybox tar cf /sdcard/databases.tar
+adbpull databases.tar
+tar xf databases.tar
+```
+
+```sh
+# pull data/data
+cd /data/data; busybox tar cf /sdcard/data.tar .
+adbpull data.tar
+tar xf data.tar
 ```
 
 ## `settings` command

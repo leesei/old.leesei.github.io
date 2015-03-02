@@ -1,9 +1,11 @@
 title: SSH
-toc: true
 date: 2014-12-17 13:45:59
+categories:
+- linux
 tags:
 - shell-tool
 - ssh
+toc: true
 ---
 
 ## password-less login

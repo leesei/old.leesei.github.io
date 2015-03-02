@@ -1,9 +1,11 @@
 title: Shell notes
-toc: true
 date: 2014-12-08 12:03:44
+categories:
+- linux
 tags:
 - shell
 - notes
+toc: true
 ---
 
 Notes on shell usage.
@@ -100,7 +102,7 @@ zsh have color macros predefined, see themes in `oh-my-zsh`
 
 ### calculation
 
-```bash
+```sh
 # do math calculation in $(( )), it is faster then `expr`
 # and we can specify the number system with 8#, 10#, 16#
 # useful for doing operation on variables with leeding zeros
@@ -211,7 +213,7 @@ http://wiki.bash-hackers.org/syntax/pe
 http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html
 {% label TODO warning %} add zsh manual
 
-```bash
+```sh
 # to upper
 echo $string | tr [:lower:] [:upper:]
 newstring=${string^^}
@@ -253,7 +255,7 @@ tmp=${path%/}        # strip trailing '/'
 ## trap 
 > `bash` specific?
 
-```bash
+```sh
 # clean up
 trap cleanUp INT TERM EXIT
 # cannot be killed
@@ -263,7 +265,7 @@ trap - INT TERM EXIT
 ### proper critical section
 > `bash` specific?
 
-```bash
+```sh
 if [ ! -e $lockfile ]; then
     trap "rm -f $lockfile; exit" INT TERM EXIT
     touch $lockfile
@@ -347,7 +349,7 @@ done
 
 ### `until`
 
-```bash
+```sh
 until [ -z $1 ] ; do
     echo $1
     shift
@@ -372,7 +374,7 @@ done
 
 ### function
 
-```bash
+```sh
 # test element in array
 in_array()
 {

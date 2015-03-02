@@ -1,5 +1,4 @@
 title: Debian/Ubuntu notes
-toc: true
 date: 2014-12-08 13:04:28
 categories:
 - linux
@@ -9,6 +8,7 @@ tags:
 - desktop
 - package-manager
 - notes
+toc: true
 ---
 
 [The Debian Administrator's Handbook](http://debian-handbook.info/browse/stable/)

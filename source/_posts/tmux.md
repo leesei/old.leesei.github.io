@@ -1,10 +1,12 @@
 title: Tmux
-toc: true
 date: 2014-12-11 17:59:04
+categories:
+- linux
 tags:
 - shell-tool
 - tmux
 - tmuxifier
+toc: true
 ---
 
 tmux includes `.bash_profile`/`.profile` but not `.bashrc`

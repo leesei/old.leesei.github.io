@@ -1,8 +1,10 @@
 title: OpenCV
-toc: true
 date: 2014-12-31 20:00:33
+categories:
+- uncategorized
 tags:
 - open-cv
+toc: true
 ---
 
 [OpenCV](http://opencv.org/) (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 

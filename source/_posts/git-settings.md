@@ -1,13 +1,13 @@
 title: Git Settings
-toc: true
 date: 2014-12-17 13:53:33
+categories:
+- uncategorized
 tags:
 - git
 - hub
 - settings
+toc: true
 ---
-
-# Git settings
 
 Backup:
 
@@ -18,7 +18,7 @@ Backup:
 ```
 
 
-# hub
+## hub
 
 https://github.com/github/hub
 
@@ -26,7 +26,7 @@ https://github.com/github/hub
 go get github.com/github/hub
 ```
 
-# Reference
+## Reference
 
 http://justinlilly.com/dotfiles/git.html
 

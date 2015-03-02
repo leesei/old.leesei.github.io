@@ -1,9 +1,11 @@
 title: MongoDB
-toc: true
 date: 2014-12-17 12:35:01
+categories:
+- uncategorized
 tags:
 - mongodb
 - notes
+toc: true
 ---
 
 ## drop database

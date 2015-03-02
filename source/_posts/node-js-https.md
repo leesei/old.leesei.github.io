@@ -1,9 +1,12 @@
 title: Node.js HTTPS server
 date: 2014-12-17 13:41:00
+categories:
+- comp.lang
 tags:
 - node-js
 - openssl
 - snippets
+toc: true
 ---
 
 ## cert generation
@@ -15,7 +18,7 @@ openssl req -new -key privatekey.pem -x509 -days 7300 -out certificate.pem
 
 ## server
 
-```javascript
+```javascript http-server.js
 var express = require('express');
 var app = express();
 

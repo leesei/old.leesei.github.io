@@ -1,8 +1,10 @@
 title: Perl
-toc: true
 date: 2015-01-07 11:12:55
+categories:
+- comp.lang
 tags:
 - perl
+toc: true
 ---
 
 [The Perl Programming Language - www.perl.org](https://www.perl.org/)

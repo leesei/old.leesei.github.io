@@ -1,10 +1,13 @@
 title: zsh settings
 date: 2014-12-08 13:56:31
+categories:
+- linux
 tags:
 - shell
 - zsh
 - oh-my-zsh
 - settings
+toc: true
 ---
 
 [ZshWiki](http://zshwiki.org/home/)

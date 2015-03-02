@@ -1,14 +1,12 @@
 title: Heroku
-toc: true
 date: 2014-12-11 17:39:03
 categories:
 - web
 tags:
 - shell-tool
 - heroku
+toc: true
 ---
-
-# Heroku Toolbelt
 
 https://toolbelt.heroku.com/
 
@@ -16,7 +14,7 @@ https://blog.heroku.com/archives/2014/12/5/http_git_now_generally_available
 
 * [hk](https://github.com/heroku/hk) - Fast Heroku Client
 
-```bash
+```sh
 $ su
 # L=/usr/local/bin/hk && curl -sL -A "`uname -sp`" https://hk.heroku.com/hk.gz | zcat >$L && chmod +x $L
 ```
@@ -61,7 +59,7 @@ $ su
 
   Or use [`vim-on-heroku.sh`](https://gist.github.com/naaman/2847793)
 
-```bash
+```sh
 #!/usr/bin/env bash
 mkdir vim
 curl https://s3.amazonaws.com/heroku-vim/vim-7.3.tar.gz --location --silent | tar xz -C vim

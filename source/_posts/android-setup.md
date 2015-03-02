@@ -1,5 +1,4 @@
 title: Android setup
-toc: true
 date: 2015-01-13 13:09:32
 categories:
 - android
@@ -7,7 +6,12 @@ tags:
 - linux
 - adb
 - settings
+toc: true
 ---
+
+Connecting to Android devices on Linux.
+
+<!-- more -->
 
 ## Get vendorID
 

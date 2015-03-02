@@ -1,5 +1,4 @@
 title: Linux Desktop
-toc: true
 date: 2014-12-12 16:06:50
 categories:
 - linux
@@ -7,9 +6,19 @@ tags:
 - desktop
 - xinput
 - xdg-utils
+- gjs
+toc: true
 ---
 
+This post is about using GNU/Linux with desktop environment for daily use.
+
+To distinguish GNU and Linux, and why it it not "correct" to say Linux system, read: [Linux and GNU](http://www.gnu.org/gnu/linux-and-gnu.html) and 
+[GNU/Linux FAQ](http://www.gnu.org/gnu/gnu-linux-faq.html#why)
+
+[Main Linux problems on the desktop, 2015 edition](http://linuxfonts.narod.ru/why.linux.is.not.ready.for.the.desktop.current.html)
 [Linux video tools](http://www.videohelp.com/tools/sections/linux-video-tools)
+
+<!-- more -->
 
 ## File Association
 

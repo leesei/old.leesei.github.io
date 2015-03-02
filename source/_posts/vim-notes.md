@@ -1,13 +1,12 @@
 title: vim notes
-toc: true
 date: 2015-01-14 12:48:30
+categories:
+- linux
 tags:
 - shell-tool
 - vim
 - notes
 ---
-
-## vi
 
 [vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) is a screen-oriented text editor originally created for the Unix operating system
 

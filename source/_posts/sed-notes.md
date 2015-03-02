@@ -1,10 +1,12 @@
 title: sed notes
-toc: true
 date: 2015-01-13 12:55:35
+categories:
+- linux
 tags:
 - shell-tool
 - sed
 - notes
+toc: true
 ---
 
 [sed](http://en.wikipedia.org/wiki/Sed) (stream editor) is a Unix utility that parses and transforms text, using a simple, compact programming language.

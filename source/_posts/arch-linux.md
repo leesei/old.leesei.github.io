@@ -7,6 +7,7 @@ tags:
 - desktop
 - package-manager
 - notes
+toc: true
 ---
 
 https://wiki.archlinux.org
@@ -16,8 +17,10 @@ https://wiki.archlinux.org/index.php/Beginners%27_Guide
 
 ## installation
 
+[Antergos Linux](http://antergos.com/)
+
+[Arch Linux 2014.05.01 Released - Installation and Configuration Guide with Screenshots](http://www.tecmint.com/arch-linux-installation-guide/)
 [Installing GUI (Cinnamon Desktop) and Basic Softwares in Arch Linux](http://www.tecmint.com/install-cinnamon-desktop-in-arch-linux/)
-http://antergos.com/
 
 https://wiki.archlinux.org/index.php/List_of_applications
 

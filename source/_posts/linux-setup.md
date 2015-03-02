@@ -1,10 +1,10 @@
 title: Linux setup
-toc: true
 date: 2015-01-23 13:47:38
 categories:
 - linux
 tags:
 - desktop
+toc: true
 ---
 
 Arch Linux has IMO the best Linux [wiki](https://www.archlinux.org/).
@@ -22,6 +22,13 @@ Creating a bootable USB key in Linux is [stright forward](https://wiki.archlinux
 ```
 dd if=[iso] of=[usb device] bs=4M
 ```
+
+Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) modify the partition lable of the ISO, that can cause problem during bootup.
+
+- UNetbootin
+- Linux Live USB Creator
+- Universal USB Installer
+- Live USB Creator
 
 ## Marbele Mouse
 

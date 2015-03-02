@@ -1,9 +1,11 @@
 title: Python notes
-toc: true
 date: 2014-12-11 16:55:24
+categories:
+- comp.lang
 tags:
 - python
 - notes
+toc: true
 ---
 
 All python code are executed statements, no such thing as declaration

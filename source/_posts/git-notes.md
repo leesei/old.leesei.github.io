@@ -1,10 +1,12 @@
 title: Git notes
-toc: true
 date: 2014-12-11 17:34:15
+categories:
+- linux
 tags:
 - shell-tool
 - git
 - notes
+toc: true
 ---
 
 http://ndpsoftware.com/git-cheatsheet.html
@@ -12,13 +14,15 @@ http://ndpsoftware.com/git-cheatsheet.html
 [Low Level Manager: using git-flow with github](http://www.lowlevelmanager.com/2011/03/using-git-flow-with-github.html)
 [GitHub Workflow (used by Frameworks team at BBC News)](http://www.integralist.co.uk/posts/github-workflow.html)
 
+<!-- more -->
+
 ## Merging from forked repo
 
 https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests
 
 https://help.github.com/articles/syncing-a-fork
 
-```bash
+```sh
 # setup fork origin as upstream
 git remote add upstream <fork origin url>
 
@@ -52,7 +56,7 @@ http://stackoverflow.com/questions/4944376/how-to-check-real-git-diff-before-mer
 
 ## Deleting branch
 
-```bash
+```sh
 # delete remote branch
 git push origin :<branch>
 
@@ -68,13 +72,13 @@ git branch -d <branch>
 
 ## Set tracking branch
 
-```bash
+```sh
 git branch --set-upstream feature_branch origin/origin_branch
 ```
 
 ## gitweb
 
-```bash
+```sh
 # start server
 git instaweb -d webrick --start
 
@@ -86,7 +90,7 @@ git instaweb -d webrick --stop
 
 ## Get current branch in shell
 
-```bash
+```sh
 parse_git_branch(){
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/';
 }
@@ -94,7 +98,7 @@ parse_git_branch(){
 
 ## create repo archive
 
-```bash
+```sh
 git archive master -o <repo>.<tag>.zip
 ```
 
@@ -102,7 +106,7 @@ git archive master -o <repo>.<tag>.zip
 
 ### using project with submodules
 
-```bash
+```sh
 # clone project with submodules
 git submodule init
 git submodule sync
@@ -112,7 +116,7 @@ git submodule status
 
 ## Old notes 
 
-```bash
+```sh
 git checkout -b redesign
 
 # update working branch

@@ -1,4 +1,5 @@
 title: Restify Express
+date: 2014-12-17 13:49:46
 categories:
 - web
 tags:
@@ -6,7 +7,6 @@ tags:
   - restify
   - express
   - snippets
-date: 2014-12-17 13:49:46
 ---
 
 Stack Restify over Express 

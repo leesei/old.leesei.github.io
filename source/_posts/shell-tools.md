@@ -1,6 +1,7 @@
 title: Shell Tools
-toc: true
 date: 2015-01-14 12:48:30
+categories:
+- linux
 tags:
 - shell-tool
 - convert
@@ -15,6 +16,7 @@ tags:
 - pt
 - tar
 - tr
+toc: true
 ---
 
 > http://www.commandlinefu.com/commands/browse
@@ -70,6 +72,10 @@ grep -l pattern file
 
 # grep | xarg combo
 grep -lZ pattern file | xargs -0 ls -l
+
+# find files without word "foo"
+grep -L "foo" *
+grep -c "foo" * | grep ":0" | awk -F: '{ print $1 }'
 ```
 
 ## pt
@@ -141,15 +147,12 @@ crontab -r   ## !! dangerous !!
 ```sh
 #min hour dom month dow command
 30 8-18/2 * * 1-5 ./path/to/backup_wiki.sh
+# Minutes [0-59]
+# Hour [0-23]
+# Day of Month [1-31]
+# Month [1-12] - January is 1, obviously
+# Day of Week [0-6] - Sunday is 0
+# Command to run (can have spaces)
 ```
 
-* Minutes [0-59]
-* Hour [0-23]
-* Day of Month [1-31]
-* Month [1-12] - January is 1, obviously
-* Day of Week [0-6] - Sunday is 0
-* Command to run (can have spaces)
-
-- cron log
-
-  Usually `/var/log/cron.log` or `/var/log/messages`
+Logs for `cron` can usually be found in `/var/log/cron.log` or `/var/log/messages`

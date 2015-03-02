@@ -1,5 +1,4 @@
 title: Windows Manager
-toc: true
 date: 2014-12-12 11:43:59
 categories:
 - linux
@@ -10,6 +9,7 @@ tags:
 - window-tiling
 - x
 - windows-manager
+toc: true
 ---
 
 [Window manager - ArchWiki](https://wiki.archlinux.org/index.php/Window_Manager)
