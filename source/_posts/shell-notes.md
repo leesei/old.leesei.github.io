@@ -62,7 +62,7 @@ fi
 Honorable mentions:
 - http://dotfiles.github.io/
 - http://chneukirchen.org/dotfiles/
-{% label TODO warning %} add my links in /caravan/github-watch/dotfiles
+> TODO: add my links in /caravan/github-watch/dotfiles
 
 [Steve's Blog: bash aliases](http://siannopollo.blogspot.hk/2007/11/bash-aliases.html)
 
@@ -126,7 +126,7 @@ echo "$@" | bc -l
 
 http://www.eriwen.com/bash/effective-shorthand/
 http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/
-{% label TODO warning %} add zsh manual
+> TODO: add zsh manual
 
 ```sh
 man history
@@ -211,7 +211,7 @@ echo 1 2 3 4 5 6 7 8 9 10
 http://tldp.org/LDP/abs/html/string-manipulation.html
 http://wiki.bash-hackers.org/syntax/pe
 http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html
-{% label TODO warning %} add zsh manual
+> TODO: add zsh manual
 
 ```sh
 # to upper
@@ -396,7 +396,8 @@ Test()
 
 ## Reference
 
-http://aurelio.net/articles/shell-reference.html
+[Bash Shell Quick Reference, by Aurelio Jargas](http://aurelio.net/articles/shell-reference.html)
+[The Linux Command Line by William E. Shotts, Jr.](http://linuxcommand.org/tlcl.php)
 
 **Bash**:
 http://justinlilly.com/bash/forgotten_friend_1.html

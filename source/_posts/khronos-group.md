@@ -36,4 +36,14 @@ http://stackoverflow.com/questions/982911/cuda-opencl-pgi-etc-but-what-happened-
 
 OpenCV
 
+> TODO: add link to [opencv]
+
 All OpenXXX are frameworks and API that require driver implementation by chip vendor.
+
+## Resources
+
+[AdrienHerubel-imgui](https://github.com/AdrienHerubel/imgui)
+[GLEW- The OpenGL Extension Wrangler Library](http://glew.sourceforge.net/)
+[GLFW - An OpenGL library](http://www.glfw.org/)
+[News - pygame - python game development](http://www.pygame.org/news.html)
+[Simple DirectMedia Layer - Homepage](http://www.libsdl.org/)

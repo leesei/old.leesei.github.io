@@ -26,14 +26,15 @@ git clone git://github.com/creationix/nvm.git ~/.nvm
 ```sh
 nvm ls-remote
 
-NODE_VERSION=v0.10.35
+NODE_VERSION=v0.12.1
 nvm install ${NODE_VERSION}
 nvm use ${NODE_VERSION}
 nvm alias default ${NODE_VERSION}
 
 # copy global modules
-nvm copy-packages <previous-version>
-npm update
+# backup global module list and install]
+# nvm copy-packages <previous-version>
+# npm update
 
 # add global module to NODE_PATH for require() to pick them up
 NODE_PATH=$(npm root -g)
@@ -41,13 +42,9 @@ NODE_PATH=$(npm root -g)
 
 ## Using PPA
 
-> This is the recommended way to install Node.js for node service.
+> This is the recommended way to install Node.js for deamons.
 
-```sh
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
-```
+[nodesource/distributions](https://github.com/nodesource/distributions)
 
 ## npm
 
@@ -59,7 +56,7 @@ but npm update fails to update itself (isaacs/npm#4046, isaacs/npm#4099)
 curl -L https://npmjs.org/install.sh | sh
 ```
 
-## npmrc without sudo
+### npmrc without sudo
 
 > for system installs, not needed for `nvm`  
 > https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
@@ -78,19 +75,23 @@ export PATH=~/.npm-packages/bin:$PATH
 
 ```sh
 # dev tools
-npm install -g bower browserify coffee # grunt-cli grunt-init
+npm install -g bower browserify coffee wiredep
 # linters
 npm install -g csslint jshint jsonlint
 # debug
 npm install -g bench-rest node-inspector
 # generators
-npm install -g ionic cordova # yo
+npm install -g cordova ionic # yo
 # bin
-npm install -g bedecked chance ecstatic gfms gfm2html
+npm install -g bedecked chance ecstatic gfms gfm2html hexo-gli
 # log tools
 npm install -g bunyan logcat
 # global modules
-npm install -g ip nightmare nomnom lodash request
+npm install -g ip nomnom lodash
+# automation
+npm install -g cheerio nightmare phantasma
+# workshops, http://nodeschool.io/#workshoppers
+npm install -g makemehapi how-to-npm browserify-adventure
 ```
 
 ## List globally installed modules
@@ -101,7 +102,8 @@ npm ls -g --depth 0
 \ls $(npm root -g)
 ```
 
-To get a list for installing in another machine (or backup the list)
+To get a list for instalthemes/.keepling in another machine (or backup the list)
+> npm must be updated alone or it will cause error
 > remove npm before `npm install -g`
 
 ```sh
@@ -111,10 +113,11 @@ npm ls -g --depth 0 | grep -P '(?<= ).*(?=@)' -o | grep -v npm | tr '\n' ' ' && 
 ```
 
 ```
-bedecked bench-rest bower browserify bunyan chance cheerio cordova csslint dotjs dotjs-node ecstatic gfm2html gfms gulp hexo ionic ip jshint json jsonlint lodash logcat makemehapi nightmare node-inspector nodemon nomnom request yuicompressor
+# company
+bedecked bench-rest bower browserify bunyan chance cheerio coffee cordova csslint ecstatic gfm2html gfms hexo-cli hexo-deployer-git ionic ip jshint jsonlint lodash logcat nightmare node-inspector nomnom phantasma wiredep 
 ```
 
-## Running Node alongside webservers
+## Running Node alongside web servers
 
 https://github.com/sindresorhus/guides/blob/master/run-node-server-alongside-apache.md
 

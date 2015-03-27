@@ -19,14 +19,14 @@ tags:
 toc: true
 ---
 
-> http://www.commandlinefu.com/commands/browse
+http://www.commandlinefu.com/commands/browse
 
 ## ImageMagick
 
 http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html
 
 ```sh
-# resizing image
+# resizing image`
 convert -resize 300x300 image.jpg image-small.jpg
 
 # add shadow
@@ -110,6 +110,30 @@ find . -mtime 5 -type f
 
 http://www.thegeekstuff.com/2010/08/cpio-utility/
 
+copy files to destination folder keeping the tree sturcture of the path specified 
+
+```sh
+# in ~/source
+# these files are reachable in ~/source with their relative paths
+cat ~/filelist
+frameworks/av/media/libstagefright/foundation/ANetworkSession.cpp
+frameworks/av/media/libstagefright/wifi-display/Android.mk
+frameworks/av/media/libstagefright/wifi-display/MediaSender.cpp
+frameworks/av/media/libstagefright/wifi-display/source/Converter.cpp
+frameworks/av/media/libstagefright/wifi-display/source/PlaybackSession.cpp
+frameworks/av/media/libstagefright/wifi-display/source/TSPacketizer.cpp
+frameworks/av/media/libstagefright/wifi-display/source/WifiDisplaySource.cpp
+frameworks/av/media/libstagefright/wifi-display/source/WifiDisplaySource.h
+frameworks/av/media/libstagefright/wifi-display/VideoFormats.cpp
+frameworks/av/media/libstagefright/wifi-display/wfd.cpp
+
+cpio -pud ~/dest < ~/filelist
+
+# cpio single file
+echo "frameworks/base/cmds/pm/src/com/android/commands/pm/Pm.java" \
+| cpio -pud ${ANDROID_PATCH}/board/common/
+```
+
 ## cut
 
 ```sh
@@ -144,7 +168,7 @@ crontab -e
 crontab -r   ## !! dangerous !!
 ```
 
-```sh
+```
 #min hour dom month dow command
 30 8-18/2 * * 1-5 ./path/to/backup_wiki.sh
 # Minutes [0-59]

@@ -8,22 +8,25 @@ subtitle: εмβяαςε мλ sμρεя gεεκ ροωεя.
 description: leesei|blog|hexo
 author: leesei
 email: leesei@gmail.com
-language: en-US
+language: en
+timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://leesei.github.io
 root: /
-permalink: :year/:month/:day/:title/
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: code
+permalink: :title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -34,6 +37,7 @@ filename_case: 1
 render_drafts: false
 post_asset_folder: false
 relative_link: true
+future: true
 highlight:
   enable: true
   line_number: true
@@ -53,21 +57,12 @@ archive: 2
 category: 1
 tag: 1
 
-# Server
-## Hexo uses Connect as a server
-## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
-port: 4000
-server_ip: localhost
-logger: true
-logger_format: dev
-
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
-time_format: H:mm:ss
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -78,10 +73,16 @@ pagination_dir: page
 disqus_shortname: leesei
 
 # Extensions
-## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
-## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: freemind
-exclude_generator:
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: codeland
+# theme: hueman
+
+# hexo-server
+server:
+  port: 4000
+  log: true
+  ip: 0.0.0.0
 
 # hexo-generator-feed
 feed:
@@ -95,7 +96,8 @@ sitemap:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+# hexo-deployer-git
 deploy:
-  type: github
+  type: git
   repository: git@github.com:leesei/leesei.github.io.git
   branch: master

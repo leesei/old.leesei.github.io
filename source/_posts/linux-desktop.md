@@ -28,6 +28,13 @@ https://www.google.com.hk/search?q=linux+associate+file+extension+with+applicati
 https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
 http://ubuntugenius.wordpress.com/2009/11/19/create-your-own-file-types-in-ubuntu-with-assogiate/
 
+How to set gpicview to default image viewer? Use following command line:
+```sh
+xdg-mime default gpicview.desktop `grep 'MimeType=' /usr/share/applications/gpicview.desktop | sed -e 's/.*=//' -e 's/;/ /g'`
+```
+
+NOTE: [xdg-utils](http://portland.freedesktop.org/wiki/XdgUtils) is needed here. It's a tool released by Portland project of Freedesktop.org. Most modern Linux distros have this tool installed by default.
+
 ### `.desktop` folders
 
 ```

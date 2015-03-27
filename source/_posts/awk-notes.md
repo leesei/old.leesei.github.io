@@ -21,8 +21,6 @@ awk -f <PROGRAM.awk> file
 program is executed on a row basis, with optional rules to switch the statements (block) to execute
 each row is parsed into fields by the seperator
 
-
-
 ```
 NR      Number of Row
 NF      Number of Fields

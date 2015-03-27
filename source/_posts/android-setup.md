@@ -48,6 +48,7 @@ cd <android-sdk>
 adb kill-server
 adb devices
 # use `sudo` to start server if you see "permissions denied"
+sudo $(which adb) devices
 ```
 
 ## Add udev rule

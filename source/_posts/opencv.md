@@ -14,6 +14,7 @@ toc: true
 [How The Camera is Becoming the World's Most Important Sensor - Greg Borenstein - YouTube](https://www.youtube.com/watch?v=QLvoCiO5DqU)
 
 [atduskgreg-opencv-processing · GitHub](https://github.com/atduskgreg/opencv-processing)
+[atduskgreg-opencv-processing-book · GitHub](https://github.com/atduskgreg/opencv-processing-book)
 
 [So I Suck At 24: Automating Card Games Using OpenCV and Python | Arnab Nandi](http://arnab.org/blog/so-i-suck-24-automating-card-games-using-opencv-and-python)
 

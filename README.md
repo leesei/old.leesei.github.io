@@ -13,9 +13,10 @@ git clone https://github.com/leesei/leesei.github.io
 # install dependencies
 cd leesei.github.io; npm install
 # fetch theme
-git clone --branch leesei.github.io https://github.com/leesei/hexo-theme-freemind.git themes/freemind
+git clone --branch leesei.github.io https://github.com/leesei/hexo-theme-codeland.git themes/freemind
 # local serve
 hexo server
 # deploy with hexo-console-optimize
-hexo o -d
+# hexo optimize
+hexo deploy
 ```

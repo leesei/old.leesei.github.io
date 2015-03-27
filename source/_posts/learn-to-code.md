@@ -29,11 +29,14 @@ sustainably minize lead time to business impact
 [edX | Free online courses from the world's best universities](https://www.edx.org/)
 [Coursera](https://www.coursera.org/)
 [code school](http://codeschool.org/)
-[Tutorials for Jackson, Security Testing, Awk, JDB, Hadoop, Hive, HBase, XStream, Java8, Guava, Memcached, EasyMock, CICS, Object Oriented Analysis & Design, Tika, DOM, AngularJS, IMS-DB, NGN, Sed, WCF, JPA, Apache POI, Signals and Systems, JOGL, DB2, PhoneGap, SVG, VSAM, COBOL, XSD, XPath, Redis, XSLT, Java XML, VBA, JFreeChart, Lucene, Selenium, DTD, Powerpoint, Tcl/Tk, XML, Software Engineering and many more latest technologies](http://www.tutorialspoint.com/)
+[Tutorials for ... and many more latest technologies](http://www.tutorialspoint.com/)
 [reSRC ·](http://resrc.io/)
 [No Excuse List](http://noexcuselist.com/)
 [Free Online Learning at GCFLearnFree](http://www.gcflearnfree.org/)
 [VideoLectures.NET - VideoLectures.NET](http://videolectures.net/)
+
+Mostly paid contents:
+[Learn by Doing - Code School](https://www.codeschool.com/)
 
 ## Documentation Browser
 

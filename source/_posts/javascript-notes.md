@@ -100,13 +100,19 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 ### ES6
 
 [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
+[Using ECMAScript 6 today](http://www.2ality.com/2014/08/es6-today.html)
 [A guide to 2ality’s posts on ECMAScript.next/ECMAScript 6](http://www.2ality.com/2012/11/guide-esnext.html)
 [Video: An overview of ECMAScript 6](http://www.2ality.com/2013/06/video-es6.html)
 [Four talks on ECMAScript 6/ECMAScript.next](http://www.2ality.com/2012/11/es6-talks.html)
 [ECMAScript.next: for-of, iterators, generators](http://www.2ality.com/2012/06/for-of-ff13.html)
 [ECMAScript 6: new OOP features besides classes](http://www.2ality.com/2014/12/es6-oop.html)
 [sindresorhus/esnext-showcase](https://github.com/sindresorhus/esnext-showcase)
+[Learn ES6 · Babel](http://babeljs.io/docs/learn-es6/)
+[DailyJS: Transpilers: This Time It's Different](http://dailyjs.com/2015/02/26/babel/)
+[jQuery UK - EcmaScript 6 - Google Slides](https://docs.google.com/presentation/d/1PvAHvODY_L3AiumgyjNFl4IPr82dq74vJxmMPOeU8uE/edit#slide=id.p)
 
+[#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part I - YouTube](https://www.youtube.com/watch?v=Fg3bEZIcnUw)
+[#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part II - YouTube](https://www.youtube.com/watch?v=Vhhq1WpzsnM)
 
 #### workflow
 
@@ -117,7 +123,7 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 #### transpilers
 
 [google/traceur-compiler](https://github.com/google/traceur-compiler)
-[6to5 · Turn ES6+ code into readable vanilla ES5](http://6to5.org/)
+[Babel · The transpiler for writing next generation JavaScript](http://babeljs.io/)
 [esnext - Tomorrow’s JavaScript syntax today](http://esnext.github.io/esnext/#)
 [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 
@@ -176,3 +182,5 @@ unbound method: class method
 # references
 
 [Resources – JS Central](http://www.jscentral.org/resources.html)
+[Speaking JavaScript](http://speakingjs.com/es5/index.html)
+[Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)

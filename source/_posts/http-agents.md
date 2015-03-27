@@ -13,9 +13,14 @@ tags:
 toc: true
 ---
 
-http://curl.haxx.se/docs/manpage.html
+## cURL
 
-## curlify
+http://curl.haxx.se/docs/manpage.html
+http://www.thegeekstuff.com/2012/04/curl-examples/
+
+### curlify
+
+Converts browser/Node request to `curl` commnad line.
 
 [Node curlify](https://github.com/azproduction/node-request-as-curl)
 [Chrome DevTools](https://developer.chrome.com/devtools/docs/network#copying-requests-as-curl-commands)
@@ -24,17 +29,14 @@ http://curl.haxx.se/docs/manpage.html
 [NickCarneiro/curlconverter](https://github.com/NickCarneiro/curlconverter)
 [Convert curl command syntax to python requests code](http://curl.trillworks.com/#node)
 
-## curl
-
-http://www.thegeekstuff.com/2012/04/curl-examples/
-
 ## wget
 
 http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/
 
 ## httpie
 
-https://github.com/jakubroztocil/httpie
+HTTP client for CLI, more senible than cURL
+[HTTPie: a CLI, cURL-like tool for humans](https://github.com/jakubroztocil/httpie)
 
 ## PostMan
 
@@ -52,4 +54,31 @@ https://www.getpostman.com/docs
 ## Python
 
 [kennethreitz/requests](https://github.com/kennethreitz/requests)
+
+# HTTP POST payload format
+
+## prerequisite
+
+```sh
+# https://github.com/jakubroztocil/httpie
+brew install httpie
+
+# https://www.npmjs.com/package/httpbin.js
+npm install -g httpbin.js
+npm install -g bunyan
+```
+
+## Term1 (server)
+
+```sh
+httpbin.js | bunyan
+```
+
+## Term2 (http agent)
+
+```sh
+# check request header and body
+http -v --json POST http://localhost:35000/prq/xyz?a=b\&c=d key=value foo=bar
+http -v --form POST http://localhost:35000/prq/xyz?a=b\&c=d key=value foo=bar
+```
 

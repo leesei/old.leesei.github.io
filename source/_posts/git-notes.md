@@ -14,7 +14,14 @@ http://ndpsoftware.com/git-cheatsheet.html
 [Low Level Manager: using git-flow with github](http://www.lowlevelmanager.com/2011/03/using-git-flow-with-github.html)
 [GitHub Workflow (used by Frameworks team at BBC News)](http://www.integralist.co.uk/posts/github-workflow.html)
 
+[tj/git-extras](https://github.com/tj/git-extras)
+
 <!-- more -->
+
+## hub
+
+[hub · the command-line wrapper for git](https://hub.github.com/)
+[github/hub](https://github.com/github/hub)
 
 ## Merging from forked repo
 
@@ -76,6 +83,22 @@ git branch -d <branch>
 git branch --set-upstream feature_branch origin/origin_branch
 ```
 
+## abandoning merge
+
+```sh
+git merge --abort  # git > 1.7.4
+git reset --merge  # git < 1.7.4
+git reset --hard HEAD # git < 1.6.2
+```
+
+## create repo archive
+
+```sh
+git archive master -o <repo>.<tag>.zip
+```
+
+Tagging and pushing tag to Github will allow you to download the zipped code.
+
 ## gitweb
 
 ```sh
@@ -94,12 +117,6 @@ git instaweb -d webrick --stop
 parse_git_branch(){
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/';
 }
-```
-
-## create repo archive
-
-```sh
-git archive master -o <repo>.<tag>.zip
 ```
 
 ## submodules

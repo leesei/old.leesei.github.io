@@ -21,4 +21,6 @@ tags:
 [The 5 Stages of Loss and Grief | Psych Central](http://psychcentral.com/lib/the-5-stages-of-loss-and-grief/000617)
 
 In Link's acceptance of his death in Majora's Mask:
-[Game Theory: Is Link Dead in Majora's Mask? - YouTube](https://www.youtube.com/watch?v=7S1SVkysIRw&list=PL35FE5C4B157509C9&index=16)
+[Game Theory: Is Link Dead in Majora's Mask? - YouTube](https://www.youtube.com/watch?v=7S1SVkysIRw)
+{% youtube 7S1SVkysIRw %}
+
