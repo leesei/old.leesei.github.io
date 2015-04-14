@@ -1,4 +1,4 @@
-title: Node.js settings
+title: "Node.js settings"
 date: 2014-12-11 17:31:11
 categories:
 - comp.lang
@@ -75,7 +75,7 @@ export PATH=~/.npm-packages/bin:$PATH
 
 ```sh
 # dev tools
-npm install -g bower browserify coffee wiredep
+npm install -g bower browserify coffee nodemon wiredep
 # linters
 npm install -g csslint jshint jsonlint
 # debug
@@ -83,7 +83,7 @@ npm install -g bench-rest node-inspector
 # generators
 npm install -g cordova ionic # yo
 # bin
-npm install -g bedecked chance ecstatic gfms gfm2html hexo-gli
+npm install -g bedecked chance ecstatic gfms gfm2html hexo-cli
 # log tools
 npm install -g bunyan logcat
 # global modules
@@ -102,7 +102,7 @@ npm ls -g --depth 0
 \ls $(npm root -g)
 ```
 
-To get a list for instalthemes/.keepling in another machine (or backup the list)
+To get a list for installing in another machine (or backup the list)
 > npm must be updated alone or it will cause error
 > remove npm before `npm install -g`
 
@@ -113,8 +113,7 @@ npm ls -g --depth 0 | grep -P '(?<= ).*(?=@)' -o | grep -v npm | tr '\n' ' ' && 
 ```
 
 ```
-# company
-bedecked bench-rest bower browserify bunyan chance cheerio coffee cordova csslint ecstatic gfm2html gfms hexo-cli hexo-deployer-git ionic ip jshint jsonlint lodash logcat nightmare node-inspector nomnom phantasma wiredep 
+bedecked bench-rest bower browserify bunyan chance cheerio coffee cordova csslint ecstatic gfm2html gfms hexo-cli ionic ip jshint jsonlint lodash logcat nightmare node-inspector nodemon nomnom phantasma wiredep 
 ```
 
 ## Running Node alongside web servers

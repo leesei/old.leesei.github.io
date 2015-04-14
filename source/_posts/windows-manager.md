@@ -1,4 +1,4 @@
-title: Windows Manager
+title: "Windows Manager"
 date: 2014-12-12 11:43:59
 categories:
 - linux
@@ -18,7 +18,7 @@ toc: true
 
 Package       | Remark
 --------      | -------
-[gTile][]     | With UI, need [patch](https://github.com/shuairan/gTile/pull/16) for Cinnamon 1.8.8, close on [escape](https://github.com/shuairan/gTile/issues/2)
+[gTile][]     | For Cinnomon
 [QuickTile][] | no UI
 [xtile][]     |
 [ctrlwm][]    |

@@ -1,7 +1,7 @@
-title: Hadoop
+title: "Hadoop"
 date: 2015-01-15 16:03:23
 categories:
-- uncategorized
+- app
 tags:
 - hadoop
 ---

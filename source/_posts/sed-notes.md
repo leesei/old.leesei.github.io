@@ -1,7 +1,7 @@
-title: sed notes
+title: "sed notes"
 date: 2015-01-13 12:55:35
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - sed

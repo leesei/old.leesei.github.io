@@ -1,4 +1,4 @@
-title: Heroku
+title: "Heroku"
 date: 2014-12-11 17:39:03
 categories:
 - web
@@ -8,9 +8,7 @@ tags:
 toc: true
 ---
 
-https://toolbelt.heroku.com/
-
-https://blog.heroku.com/archives/2014/12/5/http_git_now_generally_available
+* [heroku toolbelt](https://toolbelt.heroku.com/)
 
 * [hk](https://github.com/heroku/hk) - Fast Heroku Client
 
@@ -21,13 +19,13 @@ $ su
 
 ## commands
 
-- create new heroku app
+- create a new heroku app
 
   `heroku apps:create <NAME>`  
   this should have added remote repo `heroku`  
   `git remote -v`
 
-- with existing app
+- with existing git repo
 
   `heroku git:remote -a <NAME>`  
   `git remote add heroku git@heroku.com:<NAME>.git`
@@ -36,14 +34,13 @@ $ su
 
   `git push heroku master`  
 
-  To force an compile on Heroku:  
-  `git commit -am "empty" --allow-empty # force a git commit`
+  To force an compile on Heroku, see `heroku-repo` below
 
 - restart server
 
   `heroku restart`
 
-- ssh
+- terminal
 
   `heroku run bash`  
   > All changes are lost when server is restarted
@@ -67,16 +64,23 @@ export PATH=$PATH:/app/vim/bin
 ```
 
 - [heroku-push](https://github.com/ddollar/heroku-push)
-  
- `heroku plugins:install https://github.com/ddollar/heroku-push`
+
+  `heroku plugins:install https://github.com/ddollar/heroku-push`
 
 - [heroku-config](https://github.com/ddollar/heroku-config)
-  
- `heroku plugins:install git://github.com/ddollar/heroku-config.git`
+
+  `heroku plugins:install git://github.com/ddollar/heroku-config.git`
 
 ```
 # pull Heroku config as .env
 heroku config:pull --overwrite --interactive
+```
+
+- [heroku-repo](https://github.com/heroku/heroku-repo)
+
+```sh
+heroku plugins:install https://github.com/heroku/heroku-repo.git
+heroku repo:rebuild
 ```
 
 ## Help extract (20141211)

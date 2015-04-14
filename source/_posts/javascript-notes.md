@@ -1,4 +1,4 @@
-title: Javascript notes
+title: "JavaScript notes"
 date: 2014-12-11 17:04:13
 categories:
 - comp.lang
@@ -8,7 +8,7 @@ tags:
 toc: true
 ---
 
-### tricks
+## tricks
 
 ```javascript
 // delete n elements at index i, insert args at that position
@@ -27,12 +27,18 @@ f1.call(thisArg[, arg1[, arg2[, ...]]])
 [A guide to 2ality’s posts on the JavaScript language](http://www.2ality.com/2012/08/guide-jslang.html)
 > refer to its categorization
 
-### style
+## pitfalls
+
+[JavaScript Not Working? Here are 10 Common JavaScript Problems | Toptal](http://www.toptal.com/javascript/10-most-common-javascript-mistakes)
+
+[An interesting kind of JavaScript memory leak - Meteor](https://www.meteor.com/blog/2013/08/13/an-interesting-kind-of-javascript-memory-leak)
+
+## style
 
 [Brace styles and JavaScript](http://www.2ality.com/2013/01/brace-styles.html)
 [Video: JavaScript coding tips](http://www.2ality.com/2014/08/javascript-coding-tips.html)
 
-### types
+## types
 
 [12 JavaScript quirks](http://www.2ality.com/2013/04/12quirks.html)
 [JavaScript’s type system](http://www.2ality.com/2013/09/types.html)
@@ -47,28 +53,27 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [ECMAScript 6: maps and sets](http://www.2ality.com/2015/01/es6-maps-sets.html)
 [ECMAScript 6 sets: union, intersection, difference](http://www.2ality.com/2015/01/es6-set-operations.html)
 
-
-### syntax
+## syntax
 
 [Expressions versus statements in JavaScript](http://www.2ality.com/2012/09/expressions-vs-statements.html)
 
-### scoping
+## scoping
 
 [JavaScript variable scoping and its pitfalls](http://www.2ality.com/2011/02/javascript-variable-scoping-and-its.html)
 [Variable declarations: three rules you can break](http://www.2ality.com/2012/11/var-statement-rules.html)
 
-### flow control
+## flow control
 
 [Asynchronous programming and continuation-passing style in JavaScript](http://www.2ality.com/2012/06/continuation-passing-style.html)
 
 > add promise and generator
 
-### CSP
+## CSP
 
 [CSP and transducers in JavaScript](http://phuu.net/2014/08/31/csp-and-transducers.html)
 [ubolonton/js-csp](https://github.com/ubolonton/js-csp)
 
-### promise
+## promise
 
 [Asynchronous JavaScript Interfaces](http://medikoo.com/asynchronous-javascript-interfaces/)
 [async-to-q.js](https://gist.github.com/wavded/6116786)
@@ -84,11 +89,12 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [Why I am switching to promises](http://spion.github.io/posts/why-i-am-switching-to-promises.html)
 [JavaScript Promises: There and back again - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/)
 
-### generators
+## generators
 
 [The Definitive Guide to the JavaScript Generators](http://gajus.com/blog/2/the-definetive-guide-to-the-javascript-generators)
 [Analysis of generators and other async patterns in node](http://spion.github.io/posts/analysis-generators-and-other-async-patterns-node.html)
 [ES6 Generators Deliver Go Style Concurrency](http://swannodette.github.io/2013/08/24/es6-generators-and-csp/)
+[ES6 generators in depth](http://www.2ality.com/2015/03/es6-generators.html)
 [Generators: the Gnarly Bits](http://updates.html5rocks.com/2014/10/Generators-the-Gnarly-Bits)
 [Generators vs Fibers - How To Node - NodeJS](http://howtonode.org/generators-vs-fibers)
 [How should I format the ECMAScript 6 generator asterisk?](http://www.2ality.com/2014/08/formatting-generator-asterisk.html)
@@ -96,38 +102,40 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [StrongLoop | Generators in Node.js: Common Misconceptions and Three Good Use Cases](http://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/)
 [Generators Are Like Arrays](https://gist.github.com/jkrems/04a2b34fb9893e4c2b5c)
 
-
-### ES6
+## ES6
 
 [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 [Using ECMAScript 6 today](http://www.2ality.com/2014/08/es6-today.html)
-[A guide to 2ality’s posts on ECMAScript.next/ECMAScript 6](http://www.2ality.com/2012/11/guide-esnext.html)
-[Video: An overview of ECMAScript 6](http://www.2ality.com/2013/06/video-es6.html)
-[Four talks on ECMAScript 6/ECMAScript.next](http://www.2ality.com/2012/11/es6-talks.html)
-[ECMAScript.next: for-of, iterators, generators](http://www.2ality.com/2012/06/for-of-ff13.html)
-[ECMAScript 6: new OOP features besides classes](http://www.2ality.com/2014/12/es6-oop.html)
-[sindresorhus/esnext-showcase](https://github.com/sindresorhus/esnext-showcase)
+[Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
 [Learn ES6 · Babel](http://babeljs.io/docs/learn-es6/)
-[DailyJS: Transpilers: This Time It's Different](http://dailyjs.com/2015/02/26/babel/)
 [jQuery UK - EcmaScript 6 - Google Slides](https://docs.google.com/presentation/d/1PvAHvODY_L3AiumgyjNFl4IPr82dq74vJxmMPOeU8uE/edit#slide=id.p)
 
+[Video: An overview of ECMAScript 6](http://www.2ality.com/2013/06/video-es6.html)
+[Four talks on ECMAScript 6/ECMAScript.next](http://www.2ality.com/2012/11/es6-talks.html)
 [#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part I - YouTube](https://www.youtube.com/watch?v=Fg3bEZIcnUw)
 [#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part II - YouTube](https://www.youtube.com/watch?v=Vhhq1WpzsnM)
 
-#### workflow
+[A guide to 2ality’s posts on ECMAScript.next/ECMAScript 6](http://www.2ality.com/2012/11/guide-esnext.html)
+[ECMAScript.next: for-of, iterators, generators](http://www.2ality.com/2012/06/for-of-ff13.html)
+[ECMAScript 6: new OOP features besides classes](http://www.2ality.com/2014/12/es6-oop.html)
+[sindresorhus/esnext-showcase](https://github.com/sindresorhus/esnext-showcase)
+
+### workflow
 
 [Traceur, Gulp, Browserify and ES6 - Matt Greer](http://www.mattgreer.org/articles/traceur-gulp-browserify-es6/)
 [Practical Workflows for ES6 Modules](http://guybedford.com/practical-workflows-for-es6-modules)
 [addyosmani/es6-tools](https://github.com/addyosmani/es6-tools)
+[DailyJS: Transpilers: This Time It's Different](http://dailyjs.com/2015/02/26/babel/)
 
-#### transpilers
+### transpilers
 
 [google/traceur-compiler](https://github.com/google/traceur-compiler)
 [Babel · The transpiler for writing next generation JavaScript](http://babeljs.io/)
+[facebook/jstransform](https://github.com/facebook/jstransform)
 [esnext - Tomorrow’s JavaScript syntax today](http://esnext.github.io/esnext/#)
 [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/)
 
-#### template strings
+### template strings
 
 [Using ES6 template strings for regular expressions](http://www.2ality.com/2012/12/template-strings-xregexp.html)
 [HTML templating with ES6 template strings](http://www.2ality.com/2015/01/template-strings-html.html)
@@ -135,16 +143,16 @@ Objects are like map, but see [The pitfalls of using objects as maps in JavaScri
 [A closer look at Underscore templates](http://www.2ality.com/2012/06/underscore-templates.html)
 [Getting Literal With ES6 Template Strings](http://updates.html5rocks.com/2015/01/ES6-Template-Strings)
 
-### modules
+## modules
 
 [Declaring module exports (Node.js, AMD)](http://www.2ality.com/2012/04/declaring-module-exports.html)
 
-### functional programming
+## functional programming
 
 [Functional Programming in Javascript === Garbage « Thomas Reynolds](http://awardwinningfjords.com/2014/04/21/functional-programming-in-javascript-equals-garbage.html)
 [Read JavaScript Allongé | Leanpub](https://leanpub.com/javascript-allonge/read)
 
-### property, protoypal inheritance
+## property, protoypal inheritance
 
 [JavaScript: __proto__](http://www.2ality.com/2012/10/proto.html)
 [Object properties in JavaScript](http://www.2ality.com/2012/10/javascript-properties.html)
@@ -166,21 +174,19 @@ http://phrogz.net/JS/classes/OOPinJS.html
 http://phrogz.net/JS/classes/OOPinJS2.html  
 http://metaduck.com/05-dump-this.html
 
-### information hiding (private member)
+## information hiding (private member)
 
 http://www.crockford.com/javascript/private.html
 
 // proper inheritance  
 http://metaduck.com/08-module-pattern-inheritance.html
 
-### functions
+## functions
 
 function become method automatically  
 bound method: instance method  
 unbound method: class method
 
-# references
+## references
 
-[Resources – JS Central](http://www.jscentral.org/resources.html)
-[Speaking JavaScript](http://speakingjs.com/es5/index.html)
-[Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
+[JavaScript reference - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)

@@ -1,7 +1,7 @@
-title: Zenity
+title: "Zenity"
 date: 2014-12-12 11:56:40
 categories:
-- linux
+- app
 tags:
 - x
 - gtk

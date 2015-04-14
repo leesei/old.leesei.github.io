@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: leesei's notebook
-subtitle: εмβяαςε мλ sμρεя gεεκ ροωεя.
-description: leesei|blog|hexo
+title: "leesei's notebook"
+subtitle: "εмβяαςε мλ sμρεя gεεκ ροωεя."
+description: "Technical blog for the future me and other beings."
 author: leesei
 email: leesei@gmail.com
 language: en
@@ -40,7 +40,7 @@ relative_link: true
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   tab_replace:
 
 # Category & Tag
@@ -53,7 +53,7 @@ tag_map:
 ## 1: Disable pagination
 ## 0: Fully Disable
 ## 1 to show titles only
-archive: 2
+archive: 1
 category: 1
 tag: 1
 
@@ -76,13 +76,26 @@ disqus_shortname: leesei
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: codeland
-# theme: hueman
 
 # hexo-server
 server:
   port: 4000
   log: true
   ip: 0.0.0.0
+
+# hexo-generator-archive
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+# hexo-generator-category
+category_generator:
+  per_page: 20
+
+# hexo-generator-tag
+tag_generator:
+  per_page: 20
 
 # hexo-generator-feed
 feed:

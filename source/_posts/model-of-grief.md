@@ -1,4 +1,4 @@
-title: Model of Grief
+title: "Model of Grief"
 date: 2014-12-26 21:40:56
 categories:
 - trivia

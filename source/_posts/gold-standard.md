@@ -1,4 +1,4 @@
-title: Gold Standard
+title: "Gold Standard"
 date: 2014-12-26 21:41:31
 categories:
 - trivia

@@ -1,4 +1,4 @@
-title: Bookmarklets
+title: "Bookmarklets"
 date: 2014-12-08 14:19:53
 categories:
 - web
@@ -8,8 +8,8 @@ tags:
 toc: true
 ---
 
-Bookmarklets are bookmark of Javascript code as the link (with protocol `javascript:`) that can be used to implement custom feature inside browser.
-They are simple way to extend browser without resorting to browser extension and plugins.
+Bookmarklets are bookmark of JavaScript code as the link (with protocol `javascript:`) that can be used to implement custom features inside browser.
+They are simple ways to extend browser without resorting to browser extensions and plugins.
 You can access `document` and `window` of the current page in the bookmarklet.
 Useful properties includes:
 - title
@@ -36,11 +36,11 @@ Useful properties includes:
 * Create any bookmark, edit it to change the title and paste the `javascript:` link as the url.
 * Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the `javascript:` link is url-escaped).
 * You may organize bookmarklets in fully documented `.js` and 
-** use this to generate the link:
+  - use this to generate the link:
 ```sh
 echo -n "javascript:"; uglifyjs --no-copyright file.js ; echo
 ```
-** put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
+  - put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
 
 <!-- more -->
 
@@ -89,7 +89,7 @@ javascript:void(location.href='https://leesei-proxy.appspot.com/?url='+encodeURI
 
 ## jQuerify
 
-Loads [jQuery](http://jquery.com/) (by [Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)) on any website, use Dev Console to play with it.
+Loads [jQuery](http://jquery.com/) (from [Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)) on any website, use Dev Console to play with it.
 
 ```js jQuerify
 javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!")%7Dvar e;e=document.createElement("script");e.addEventListener("load",t);e.src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";document.head.appendChild(e)%7D())
@@ -107,7 +107,7 @@ Bookmarklet on website.
 ## Read Cookie
 
 This is rudimentary, could have parsed it a little bit.
-But why here if we have DevTools?
+But why need this if we have DevTool?
 
 ```js Read Cookie
 javascript:if(document.cookie.length<1){alert('No cookie for this site.')}else{alert('Cookie for this site:\n'+document.cookie)}

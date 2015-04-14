@@ -1,7 +1,7 @@
-title: Shell Tools
+title: "Shell Tools"
 date: 2015-01-14 12:48:30
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - convert
@@ -104,6 +104,18 @@ find . -size 0 -o -atime +365
 
 # find all files modified 5 days ago
 find . -mtime 5 -type f
+```
+
+### operate files using inum
+
+This is useful when the file name is particularly long or contains wierd characters.
+
+```sh
+# list inum of files
+ls -i
+
+cd "$(find -inum 123456)"
+mv "$(find -inum 123456)" ../some/where/
 ```
 
 ## cpio

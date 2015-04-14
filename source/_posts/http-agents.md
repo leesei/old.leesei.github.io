@@ -1,4 +1,4 @@
-title: HTTP agents
+title: "HTTP agents"
 date: 2014-12-11 14:42:17
 categories:
 - web
@@ -10,6 +10,7 @@ tags:
 - postman
 - web-dev
 - http-agent
+- har
 toc: true
 ---
 
@@ -54,6 +55,17 @@ https://www.getpostman.com/docs
 ## Python
 
 [kennethreitz/requests](https://github.com/kennethreitz/requests)
+
+# HAR and request/response bin
+
+[HAR 1.2 Spec | Software is hard](http://www.softwareishard.com/blog/har-12-spec/)
+[HTTP Archive Viewer](http://www.softwareishard.com/har/viewer/)
+[HAR Resources | A community curated list of resources, tools, projects and applications that support HTTP Archive (HAR)](https://ahmadnassri.github.io/har-resources/)
+
+[Mockbin by Mashape](https://mockbin.com/)
+[httpbin(1): HTTP Client Testing Service](http://httpbin.org/)
+
+[Mockable: Quickly create REST and SOAP mocks](https://www.mockable.io/)
 
 # HTTP POST payload format
 

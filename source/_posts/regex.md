@@ -1,4 +1,4 @@
-title: Regular expression
+title: "Regular expression"
 date: 2015-02-26 17:55:43
 categories:
 - comp.lang
@@ -45,7 +45,7 @@ These highlight matches in test string.
 [RegExr: Learn, Build, & Test RegEx](http://www.regexr.com/) (JavaScript)
 [Regex Builder](http://ysmood.github.io/regex-builder/) (JavaScript)
 [RegExp playground](http://leaverou.github.io/regexplained/) (JavaScript)
-[New Fiddle](http://refiddle.com/) (JavaScript, Ruby, .Net)
+[ReFiddle](http://refiddle.com/) (JavaScript, Ruby, .Net)
 [Python Regex Tool](http://www.pythonregex.com/)
 [Rubular: a Ruby regular expression editor and tester](http://rubular.com/)
 
@@ -56,14 +56,15 @@ These highlight matches in test string.
 
 ## Perl (PCRE)
 
-This is impremented in `grep` in Perl mode (`-P`)
+`grep` support this in Perl mode (`-P`)
 
 [perlre - perldoc.perl.org](http://perldoc.perl.org/perlre.html)
 [Perl Regular Expression Syntax - 1.44.0](http://www.boost.org/doc/libs/1_44_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
 
 ## JavaScript
 
-JavaScript's Regex does not have look behind and named captures. Use [XRegExp](http://xregexp.com/) if you need them.
+JavaScript's Regex does not have look behind and named captures.
+Use [XRegExp](http://xregexp.com/) if you need them.
 
 [JavaScript: an overview of the regular expression API](http://www.2ality.com/2011/04/javascript-overview-of-regular.html)
 [The flag /g of JavaScript’s regular expressions](http://www.2ality.com/2013/08/regexp-g.html)

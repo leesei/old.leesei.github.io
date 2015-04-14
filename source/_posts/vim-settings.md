@@ -1,7 +1,7 @@
-title: vim settings
+title: "vim settings"
 date: 2014-12-11 17:26:19
 categories:
-- linux
+- app
 tags:
 - vim
 - settings

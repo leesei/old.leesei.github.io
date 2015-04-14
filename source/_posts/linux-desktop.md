@@ -1,4 +1,4 @@
-title: Linux Desktop
+title: "Linux Desktop"
 date: 2014-12-12 16:06:50
 categories:
 - linux
@@ -10,9 +10,9 @@ tags:
 toc: true
 ---
 
-This post is about using GNU/Linux with desktop environment for daily use.
+This post is about using GNU/Linux with [desktop environment](http://en.wikipedia.org/wiki/Desktop_environment) for daily use.
 
-To distinguish GNU and Linux, and why it it not "correct" to say Linux system, read: [Linux and GNU](http://www.gnu.org/gnu/linux-and-gnu.html) and 
+To distinguish GNU and Linux, and why it is not "correct" to say Linux system, read: [Linux and GNU](http://www.gnu.org/gnu/linux-and-gnu.html) and 
 [GNU/Linux FAQ](http://www.gnu.org/gnu/gnu-linux-faq.html#why)
 
 [Main Linux problems on the desktop, 2015 edition](http://linuxfonts.narod.ru/why.linux.is.not.ready.for.the.desktop.current.html)
@@ -81,6 +81,12 @@ Look up with `locate xorg.conf.d | grep d$`
 [JavaScript 與 Desktop - WebKit - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14282187.html)
 [JavaScript 與 Desktop - Desktop and WebKit - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14456843.html)
 [JavaScript 與 Desktop - DBus - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14229429.html)
+
+## mount `.iso` without root
+
+[Script: mountiso « IgnorantGuru's Blog](https://igurublog.wordpress.com/downloads/script-mountiso/)
+
+[HOW TO: Allow Mounting Of ISO Files By A Regular User « IgnorantGuru's Blog](https://igurublog.wordpress.com/2011/01/22/how-to-allow-mounting-of-iso-files-by-a-regular-user/)
 
 ## Wine
 

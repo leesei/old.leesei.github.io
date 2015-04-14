@@ -1,7 +1,7 @@
-title: Screenshot
+title: "Screenshot"
 date: 2015-03-14 01:08:43
 categories:
-- linux
+- app
 tags:
 - desktop
 toc: true

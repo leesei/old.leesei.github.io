@@ -1,4 +1,4 @@
-title: Android content command
+title: "Android content command"
 date: 2015-01-13 13:02:49
 categories:
 - android

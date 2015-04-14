@@ -1,7 +1,7 @@
-title: Shell Recording
+title: "Shell Recording"
 date: 2015-01-14 12:48:30
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - termrecord

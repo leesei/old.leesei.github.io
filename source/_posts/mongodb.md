@@ -1,7 +1,7 @@
-title: MongoDB
+title: "MongoDB"
 date: 2014-12-17 12:35:01
 categories:
-- uncategorized
+- app
 tags:
 - mongodb
 - notes

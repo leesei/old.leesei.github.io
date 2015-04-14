@@ -1,4 +1,4 @@
-title: Linux setup
+title: "Linux setup"
 date: 2015-01-23 13:47:38
 categories:
 - linux
@@ -9,6 +9,10 @@ toc: true
 
 Arch Linux has IMO the best Linux [wiki](https://www.archlinux.org/).
 Most of the Linux tricks can be found there.
+
+<!-- more -->
+
+> add [linux-installs.md](https://gist.github.com/leesei/65bf019431fc418f8ce3) here
 
 ## Distros
 
@@ -29,6 +33,7 @@ Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) m
 - Linux Live USB Creator
 - Universal USB Installer
 - Live USB Creator
+- [Rufus - Create bootable USB drives the easy way](https://rufus.akeo.ie/)
 
 ## Marbele Mouse
 
@@ -111,7 +116,27 @@ Section "InputClass"
 EndSection
 ```
 
-## xb360 pad
+## XBox360 gamepad
+
+### Wired gamepad
+
+Wired XBox360 pad should work out of the box using `xpad` driver
+
+### Wireless gamepad (using `xboxdrv`)
 
 http://pingus.seul.org/~grumbel/xboxdrv/
+
+```bash
+sudo add-apt-repository ppa:grumbel/ppa
+sudo apt-get update
+sudo apt-get install xboxdrv
+```
+
+```bash
+xboxdrv -L
+xboxdrv --daemon
+```
+
+http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html
+
 [Xbox360Controller - Community Help Wiki](https://help.ubuntu.com/community/Xbox360Controller)

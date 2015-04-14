@@ -1,4 +1,4 @@
-title: Learn to code
+title: "Learn to code"
 date: 2014-12-08 13:59:06
 categories:
 - comp.lang
@@ -35,6 +35,10 @@ sustainably minize lead time to business impact
 [Free Online Learning at GCFLearnFree](http://www.gcflearnfree.org/)
 [VideoLectures.NET - VideoLectures.NET](http://videolectures.net/)
 
+[JanVanRyswyck/awesome-talks](https://github.com/JanVanRyswyck/awesome-talks)
+
+[What are the best resources (sites, books or tutorials) for learning programming? - Quora](http://www.quora.com/What-are-the-best-resources-sites-books-or-tutorials-for-learning-programming)
+
 Mostly paid contents:
 [Learn by Doing - Code School](https://www.codeschool.com/)
 
@@ -65,7 +69,15 @@ http://ocw.mit.edu/index.htm
 
 ## For kids
 
-http://studio.code.org/
+[Code.org](http://studio.code.org/)
+
+where President Obama learned JavaScript programming
+
+## Computing fundamentals
+
+[Programming Languages - YouTube](https://www.youtube.com/playlist?list=PL7141DE955793D3F0)
+[Hardware Basics - YouTube](https://www.youtube.com/watch?v=9-KUm9YpPm0)
+[Operating System Basics - YouTube](https://www.youtube.com/watch?v=9GDX-IyZ_C8)
 
 ## Computer science
 
@@ -79,43 +91,59 @@ http://studio.code.org/
 
 ## C
 
+[Google's C++ Class - Google for Education](https://developers.google.com/edu/c++/)
+
 ## JavaScript
 
-[Explaining to non-programmers what JavaScript is](http://www.2ality.com/2012/07/js-and-non-programmers.html) 
+[Explaining to non-programmers what JavaScript is](http://www.2ality.com/2012/07/js-and-non-programmers.html)
+
+[JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[Resources – JS Central](http://www.jscentral.org/resources.html)
+[JSbooks - free javascript books](http://jsbooks.revolunet.com/)
+[Speaking JavaScript](http://speakingjs.com/es5/index.html)
 
 ## Node 
 > also read [JavaScript](#javascript)
 
+### Cast
+
+[Node Tuts](http://nodetuts.com/index.html) 
+[Learn All The Nodes](http://www.learnallthenodes.com/)
+
 ## Python
+
+[Google's Python Class - Google for Education](https://developers.google.com/edu/python/)
+[PythonBooks - Learn Python the easy way !](http://pythonbooks.revolunet.com/)
 
 ## Go
 
 ## Java
-
-## Artificial Intelligence
-
-[Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/)
-[Machine Learning with Knowledge Graphs - VideoLectures.NET](http://videolectures.net/eswc2014_tresp_machine_learning/)
 
 ## Web
 
 [Web Fundamentals — Google Developers](https://developers.google.com/web/fundamentals/)
 [WebPlatform Docs · WebPlatform Docs · WPD · WebPlatform.org](https://docs.webplatform.org/wiki/Main_Page)
 [HTML CSS: The Right Way](http://htmlcsstherightway.org/)
-[Learn Web Development](http://killer-web-development.com/)
+[Dive Into HTML5](http://diveintohtml5.info/)
 [HTML5 Rocks - A resource for open web HTML5 developers](http://www.html5rocks.com/en/)
+[Learn Web Development](http://killer-web-development.com/)
+[How to keep up to date on Front-End Technologies - The Recipe](http://uptodate.frontendrescue.org/)
 [CodeVisually | Web Developer Tools & Resources](http://codevisually.com/)
+[Web development tutorials | w3resource](http://www.w3resource.com/index.php)
+[Move The Web Forward | Guide to getting involved with standards and browser development](http://movethewebforward.org/)
 
-## English
+[Web开发中需要了解的东西 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/6043.html)
 
-[The Elements of Style](http://www.crockford.com/wrrrld/style.html)
+[Web developer tools](https://mothereff.in/)
 
-[English Language Centre Study Zone: Welcome!](http://web2.uvcs.uvic.ca/courses/elc/studyzone/)
+### demos
 
-[ELC Study Zone: All Grammar Topics](http://web2.uvcs.uvic.ca/courses/elc/studyzone/grammar.htm)
+[HTML5 Demos and Examples](http://html5demos.com/)
+[HTML5 Demos](http://html5-demos.appspot.com/)
 
-[English Grammar: What are the trickiest rules in English grammar? - Quora](http://www.quora.com/English-Grammar/What-are-the-trickiest-rules-in-English-grammar)
+### list of resources
 
-[Free online speed reading software | Spreeder.com](http://www.spreeder.com/app.php)
-
-http://www.quora.com/English-Grammar/What-are-the-trickiest-rules-in-English-grammar/answer/Daniel-Mokrauer-Madden/comment/1941285
+[The Toolbox: a directory of the best time-saving apps and tools](http://thetoolbox.cc/)
+[shit for making websites](http://shitformakingwebsites.com/)
+[Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!](http://microjs.com/#)

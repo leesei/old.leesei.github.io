@@ -1,7 +1,7 @@
-title: vim notes
+title: "vim notes"
 date: 2015-01-14 12:48:30
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - vim

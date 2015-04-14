@@ -1,4 +1,4 @@
-title: zsh settings
+title: "zsh settings"
 date: 2014-12-08 13:56:31
 categories:
 - linux

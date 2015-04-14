@@ -1,9 +1,10 @@
-title: Khronos Group
+title: "Khronos Group"
 date: 2015-01-05 15:58:27
 categories:
-- uncategorized
+- comp.lang
 tags:
-- open-gl
+- opengl
+- webgl
 toc: true
 ---
 

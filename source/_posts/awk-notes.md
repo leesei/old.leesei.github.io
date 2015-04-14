@@ -1,7 +1,7 @@
-title: awk notes
+title: "awk notes"
 date: 2015-01-13 12:56:24
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - awk

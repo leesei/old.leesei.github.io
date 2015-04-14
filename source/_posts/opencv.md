@@ -1,9 +1,9 @@
-title: OpenCV
+title: "OpenCV"
 date: 2014-12-31 20:00:33
 categories:
-- uncategorized
+- comp.lang
 tags:
-- open-cv
+- opencv
 toc: true
 ---
 

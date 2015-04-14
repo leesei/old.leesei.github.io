@@ -1,7 +1,7 @@
-title: Git Settings
+title: "Git Settings"
 date: 2014-12-17 13:53:33
 categories:
-- uncategorized
+- app
 tags:
 - git
 - hub
@@ -20,7 +20,8 @@ Backup:
 
 ## hub
 
-https://github.com/github/hub
+[hub · the command-line wrapper for git](https://hub.github.com/)
+[github/hub](https://github.com/github/hub)
 
 ```sh
 go get github.com/github/hub

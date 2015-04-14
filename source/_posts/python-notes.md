@@ -1,4 +1,4 @@
-title: Python notes
+title: "Python notes"
 date: 2014-12-11 16:55:24
 categories:
 - comp.lang

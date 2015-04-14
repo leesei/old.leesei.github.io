@@ -1,7 +1,7 @@
-title: Git notes
+title: "Git notes"
 date: 2014-12-11 17:34:15
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - git
@@ -17,11 +17,6 @@ http://ndpsoftware.com/git-cheatsheet.html
 [tj/git-extras](https://github.com/tj/git-extras)
 
 <!-- more -->
-
-## hub
-
-[hub · the command-line wrapper for git](https://hub.github.com/)
-[github/hub](https://github.com/github/hub)
 
 ## Merging from forked repo
 
@@ -74,7 +69,7 @@ git push origin :refs/heads/<branch-with-dash>
 git branch -d <branch>
 
 # delete local branch (force)
-git branch -d <branch>
+git branch -D <branch>
 ```
 
 ## Set tracking branch

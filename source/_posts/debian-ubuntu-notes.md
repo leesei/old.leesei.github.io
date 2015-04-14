@@ -1,4 +1,4 @@
-title: Debian/Ubuntu notes
+title: "Debian/Ubuntu notes"
 date: 2014-12-08 13:04:28
 categories:
 - linux
@@ -37,6 +37,41 @@ inxi -r
 cat /etc/apt/sources.list
 ls /etc/apt/sources.list.d
 ```
+
+### installed packages
+
+```sh
+dpkg -l
+```
+
+### files in package
+
+[List files of a Debian or Ubuntu package | Slopjong](http://slopjong.de/2013/01/29/list-files-of-a-debian-package/)
+
+For installed packages:
+```sh
+dpkg -L vim
+```
+
+For not-yet-installed packages:
+```sh
+# (optional) download package from repo with:
+apt-get --download-only vim
+dpkg --contents vim_7.3.547-6ubuntu5_amd64.deb
+```
+
+### outdated release
+
+When you would like to keep using the release without upgrade
+
+```sh
+sudo sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+
+# for mint
+sudo sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list.d/official-package-repositories.list
+```
+
+[How to fix Ubuntu/Debian apt-get 404 Not Found Package Repository Errors (Saucy, Raring, Quantal, Oneiric, Natty…) | sMyl.es](https://smyl.es/how-to-fix-ubuntudebian-apt-get-404-not-found-package-repository-errors-saucy-raring-quantal-oneiric-natty/)
 
 ## Init
 

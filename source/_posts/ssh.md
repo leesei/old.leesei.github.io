@@ -1,7 +1,7 @@
-title: SSH
+title: "SSH"
 date: 2014-12-17 13:45:59
 categories:
-- linux
+- app
 tags:
 - shell-tool
 - ssh
@@ -10,7 +10,7 @@ toc: true
 
 ## password-less login
 
-http://www.thecomputerkid.com/2013/07/password-less-ssh.html
+[The Computer Kid: Password-less SSH](http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE)
 
 Also see `ssh ssh-copy-id` command
 
@@ -19,7 +19,6 @@ Also see `ssh ssh-copy-id` command
 ```sh
 # generate ssh key pair (if you don't have one)
 ssh-keygen -t rsa
-
 
 scp ~/.ssh/id_rsa.pub user@server:~/
 ```
@@ -39,11 +38,11 @@ chmod 640 ~/.ssh/authorized_keys
 
 ## ssh tunneling
 
-http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/
+[Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net](http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/)
 
 ## sshfs
 
-http://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/
+[How to Mount a Remote Folder using SSH on Ubuntu](http://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/)
 [How to mount a remote directory over ssh on Linux - Xmodulo](http://xmodulo.com/how-to-mount-remote-directory-over-ssh-on-linux.html)
 
 ```sh

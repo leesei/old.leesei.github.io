@@ -1,4 +1,4 @@
-title: Voting System
+title: "Voting Systems"
 categories:
   - trivia
 toc: true
@@ -20,7 +20,7 @@ tags:
 
 ### Gerrymandering
 
-[Gerrymandering Explained - YouTube](https://www.youtube.com/watch?v=Mky11UJb9AY))
+[Gerrymandering Explained - YouTube](https://www.youtube.com/watch?v=Mky11UJb9AY)
 {% youtube Mky11UJb9AY %}
 
 stretegic changing electorial boundaries to get advantage
@@ -33,6 +33,8 @@ Solution:
 - indepdent commission
 - [shortest split-line](https://www.youtube.com/watch?v=kUS9uvYyn3A) (it's math)
 - proportional gerrymandering (to reflect voter's intention)
+
+[Gerrymandering from DataGenetics](http://datagenetics.com/blog/march12015/index.html)
 
 ### Spoiler Effect
 

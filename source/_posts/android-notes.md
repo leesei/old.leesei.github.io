@@ -1,4 +1,4 @@
-title: Android notes
+title: "Android notes"
 date: 2014-12-17 13:45:27
 categories:
 - android
@@ -57,6 +57,35 @@ start adbd
 ```sh
 adb connect <DEVICE_IP_ADDRESS>:5555
 ```
+
+## Remote mouse
+
+[悟空遥控器](https://play.google.com/store/apps/details?id=com.wukongtv.wkremote.client) is an Android app that is able to allow mobile to control Android STB remotely. The server app does not require rooting and system integration. It draws the cursor on an overlay layer and issue commands to `Input` framework.
+
+[Programmatically Injecting Events on Android - Part 1 - PocketMagic](http://www.pocketmagic.net/injecting-events-programatically-on-android/)
+[Programmatically Injecting Events on Android - Part 2 - PocketMagic](http://www.pocketmagic.net/programmatically-injecting-events-on-android-part-2/)
+[Android Overlay Mouse Cursor - PocketMagic](http://www.pocketmagic.net/android-overlay-cursor/)
+
+## logcat
+
+### logcat filtering (Eclipse and Android Studio)
+
+pid:
+text:
+app: package name (`com.example.android.bluetoothlegatt`)
+tag: `^(?!.*(DeskClock|dalvik|wpa)).*$`, `^(?!(BluetoothAdapter|AbsListView))`
+
+### android-log-viewer
+
+https://bitbucket.org/mlopatkin/android-log-viewer
+
+### logcat (node)
+
+https://www.npmjs.com/package/logcat
+
+### pidcat (python)
+
+https://github.com/JakeWharton/pidcat
 
 ## aapt
 
@@ -210,24 +239,3 @@ Usage:
        Assets to be ignored. Default pattern is:
        !.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~
 ```
-
-## logcat
-
-### logcat filtering (Eclipse and Android Studio)
-
-pid:
-text:
-app: package name (`com.example.android.bluetoothlegatt`)
-tag: `^(?!.*(DeskClock|dalvik|wpa)).*$`, `^(?!(BluetoothAdapter|AbsListView))`
-
-### android-log-viewer
-
-https://bitbucket.org/mlopatkin/android-log-viewer
-
-### logcat (node)
-
-https://www.npmjs.com/package/logcat
-
-### pidcat (python)
-
-https://github.com/JakeWharton/pidcat
