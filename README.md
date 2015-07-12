@@ -2,7 +2,7 @@
 
 This is a technical blog for me to organize my knowledge.  
 I was previously using [Gists](https://gist.github.com/) and ~~[My Gists](https://www.mygists.info/)~~ (now down) for tags support.  
-But then I discovered [Hexo](http://hexo.io/) with can do much more, and can be modified OFFLINE with my favorite editor.  
+But then I discovered [Hexo](http://hexo.io/) which can do much more, and can be edited OFFLINE with my favorite editor.  
 So I switched to Hexo and uses Github pages for hosting.
 
 ## Usage

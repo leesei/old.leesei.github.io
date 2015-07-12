@@ -8,7 +8,7 @@ subtitle: "εмβяαςε мλ sμρεя gεεκ ροωεя."
 description: "Technical blog for the future me and other beings."
 author: leesei
 email: leesei@gmail.com
-language: en
+language: default
 timezone: Asia/Hong_Kong
 
 # URL
@@ -75,7 +75,8 @@ disqus_shortname: leesei
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: codeland
+# theme: codeland
+theme: freemind
 
 # hexo-server
 server:
