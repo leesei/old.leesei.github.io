@@ -21,12 +21,15 @@ sed -f <PROGRAM.sed> file
 http://eriwen.com/tools/get-sed-savvy-1/
 http://eriwen.com/tools/get-sed-savvy-2/
 http://eriwen.com/tools/get-sed-savvy-3/
-http://www.grymoire.com/Unix/Sed.html
 http://www.catonmat.net/blog/awk-one-liners-explained-part-one/
 http://www.catonmat.net/blog/sed-one-liners-explained-part-two/
 http://www.catonmat.net/blog/sed-one-liners-explained-part-three/
 http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/
 http://sed.sourceforge.net/sed1line.txt
+[Sed by Example, Part 1](http://www.funtoo.org/Sed_by_Example,_Part_1)
+[Sed by Example, Part 2](http://www.funtoo.org/Sed_by_Example,_Part_2)
+[Sed by Example, Part 3](http://www.funtoo.org/Sed_by_Example,_Part_3)
+[Sed - An Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html)
 
 ```sh
 # trim leading and trailing whitespace

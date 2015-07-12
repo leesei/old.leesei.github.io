@@ -10,6 +10,8 @@ toc: true
 
 All python code are executed statements, no such thing as declaration
 
+[What’s New In Python 3.0](https://docs.python.org/3/whatsnew/3.0.html)
+
 ## Terminology
 
 Python     | Java
@@ -19,7 +21,7 @@ type       | Class
 attributes | member/field
 try-except-raise | try-catch-throw
 
-> c.f. JavaScript objects are inherently dict, non-local declarations are made global
+> c.f. JavaScript objects are inherently a dict, non-local declarations are made global
 
 ## Builtin types
 

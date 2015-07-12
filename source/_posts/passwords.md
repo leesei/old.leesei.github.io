@@ -21,6 +21,16 @@ toc: ture
 
 [How I cracked my neighbor’s WiFi password without breaking a sweat | Ars Technica](http://arstechnica.com/security/2012/08/wireless-password-easily-cracked/)
 
+[Your Password is Too Damn Short](http://blog.codinghorror.com/your-password-is-too-damn-short/)
+
+## The World without Password
+
+[GRC's | SQRL Secure Quick Reliable Login](https://www.grc.com/sqrl/sqrl.htm)
+
 ## Password Manager
 
 [Schneier on Security: Password Safe](https://www.schneier.com/passsafe.html)
+
+[1Password](https://agilebits.com/onepassword)
+
+[The Intermediate Guide to Mastering Passwords with LastPass](http://lifehacker.com/5645162/the-intermediate-guide-to-mastering-passwords-with-lastpass)

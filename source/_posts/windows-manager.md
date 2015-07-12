@@ -13,6 +13,8 @@ toc: true
 ---
 
 [Window manager - ArchWiki](https://wiki.archlinux.org/index.php/Window_Manager)
+[Extended Window Manager Hints](http://standards.freedesktop.org/wm-spec/wm-spec-latest.html)
+[How-to: Picking a Window Manager in Linux](http://www.engadget.com/2012/10/30/how-to-picking-a-window-manager-linux/)
 
 ## Window Tiling
 
@@ -71,16 +73,3 @@ win2=$(xwininfo| awk '/^xwininfo: W/ { print $4 }')
 wmctrl -i -r $win1 -e 0,0,0,$((width/2)),$height
 wmctrl -i -r $win2 -e 0,$((width/2)),0,$((width/2)),$height
 ```
-
-## X stuffs
-
-http://linux.die.net/man/1/xprop
-[Extended Window Manager Hints](http://standards.freedesktop.org/wm-spec/wm-spec-latest.html)
-
-[X and ModeLines](http://howto-pages.org/ModeLines/)
-
-## UI stack
-
-[Xplain](http://magcius.github.io/xplain/article/)
-[The Linux Graphics Stack | Clean Rinse](http://blog.mecheye.net/2012/06/the-linux-graphics-stack/)
-[Wayland](http://wayland.freedesktop.org/)

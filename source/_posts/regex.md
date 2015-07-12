@@ -12,7 +12,7 @@ tags:
 toc: true
 ---
 
-[Regular expression](http://en.wikipedia.org/wiki/Regular_expression) is a formal language for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary [here](http://www.greenend.org.uk/rjk/tech/regexp.html).
+[Regular expression](http://www.wikiwand.com/en/Regular_expression) is a formal language for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary [here](http://www.greenend.org.uk/rjk/tech/regexp.html).
 
 [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 
@@ -25,6 +25,7 @@ toc: true
 [RegexOne - Learn Regular Expressions](http://regexone.com/)
 [Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns](http://www.regular-expressions.info/)
 [Tech Stuff - Regular Expressions - A Gentle User Guide and Tutorial](http://zytrax.com/tech/web/regex.htm)
+[Learn Regular Expressions in 20 Minutes | Tutorialzine](http://tutorialzine.com/2014/12/learn-regular-expressions-in-20-minutes/)
 
 [Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions - YouTube](https://www.youtube.com/watch?v=EkluES9Rvak)
 
@@ -36,6 +37,8 @@ Use these visualizers to help you understand the regexes.
 
 [Regulex：JavaScript Regular Expression Visualizer.](http://jex.im/regulex/)
 [Regexper](http://www.regexper.com/) (JavaScript)
+
+[txt2re: headache relief for programmers :: regular expression generator](http://txt2re.com/)
 
 ## Tester
 
@@ -49,17 +52,33 @@ These highlight matches in test string.
 [Python Regex Tool](http://www.pythonregex.com/)
 [Rubular: a Ruby regular expression editor and tester](http://rubular.com/)
 
-## POSIX
+## POSIX ERE
 
 [Tech Stuff - Regular Expressions - A Gentle User Guide and Tutorial](http://zytrax.com/tech/web/regex.htm)
 [Regular expression - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Regular_expression#Standards)
+[The conditional expression [Bash Hackers Wiki]](http://wiki.bash-hackers.org/syntax/ccmd/conditional_expression)
+[Patterns and pattern matching [Bash Hackers Wiki]](http://wiki.bash-hackers.org/syntax/pattern)
+
+[Bash double bracket regex comparison using negative lookahead error return 2 - Stack Overflow](http://stackoverflow.com/questions/30905017/bash-double-bracket-regex-comparison-using-negative-lookahead-error-return-2)
 
 ## Perl (PCRE)
 
-`grep` support this in Perl mode (`-P`)
+I think Perl's regex is the most expressive and portable (via wide support of Perl Compatible Regular Expressions).
+`grep` support PCRE with `-P` option.
+
+```sh
+man 3 pcrepattern
+man 3 pcresyntax
+man 1 perlre
+```
 
 [perlre - perldoc.perl.org](http://perldoc.perl.org/perlre.html)
+[perlretut - perldoc.perl.org](http://perldoc.perl.org/perlretut.html)
 [Perl Regular Expression Syntax - 1.44.0](http://www.boost.org/doc/libs/1_44_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html)
+
+```sh
+echo "123\n456" | perl -n -e '/[15](\d+)/ && print "$1\n"'
+```
 
 ## JavaScript
 

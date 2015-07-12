@@ -15,18 +15,15 @@ http://leesei.github.io/hexo-testground/2014/12/01/hello-world/#Customization
 
 Validate YAML with [Online YAML Parser](http://yaml-online-parser.appspot.com/).
 
-<!-- more -->
+[Hexo 源码略读（一）：init.js – Canvas](http://cinvro.com/post/hexo-source-1/)
 
-Custom index page:
-https://github.com/xing5/blog
-https://github.com/timnew/timnew.github.com/tree/hexo https://github.com/timnew/landscape/tree/master
+<!-- more -->
 
 ## Plugins
 
 https://github.com/hexojs/hexo/wiki/Plugins
 http://hexo.io/docs/plugins.html
-[](about:blank)
-hexo-console-optimize
+
 hexo-console-rename
 hexo-generator-alias
 hexo-admin
@@ -39,14 +36,18 @@ https://github.com/akfish/hexo-diagram http://jumly.tmtk.net/
 https://github.com/akfish/hexo-series
 https://github.com/wzpan/hexo-tag-bootstrap
 https://github.com/kywk/hexo-tag-eval
+https://github.com/oohcoder/hexo-tag-plantuml
+
+https://github.com/FlashSoft/hexo-console-optimize
 
 ## Themes
 
 I need: 
-- archive page (list)
+- archive page (title only; link to months, see [jacman](http://wuchong.me/jacman/archives/))
 - categories page
 - tags page
-- tag cloud sorted by posts
+- tags widget sorted by posts
+- categories widget
 - TOC
 
 It's better to show tags and categories in archive and main index.
@@ -59,6 +60,14 @@ https://github.com/xiangming/landscape-plus
 http://wuchong.me/jacman/
 https://github.com/zhanglun/hexo-theme/tree/master/Tinny
 http://www.hahack.com/codes/hexo-theme-wixo/
+
+[kywk/hexo-theme-spp](https://github.com/kywk/hexo-theme-spp) Good for CV
+
+Custom index page:
+https://github.com/xing5/blog
+http://jslite.io/tags/
+https://github.com/timnew/timnew.github.com/tree/hexo 
+https://github.com/timnew/landscape/tree/master
 
 ### Writing themes
 

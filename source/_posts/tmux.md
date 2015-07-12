@@ -18,6 +18,7 @@ https://wiki.archlinux.org/index.php/tmux
 http://www.rdegges.com/tools-i-use-tmux/
 http://mutelight.org/practical-tmux
 http://robots.thoughtbot.com/a-tmux-crash-course
+http://tangosource.com/blog/a-tmux-crash-course-tips-and-tweaks/
 
 ## .tmux.conf
 
@@ -28,9 +29,13 @@ http://justinlilly.com/dotfiles/tmux.html
 http://zanshin.net/2013/09/05/my-tmux-configuration/
 http://tonkersten.com/2011/07/104-switching-to-tmux/
 
+[jimeh/tmux-themepack](https://github.com/jimeh/tmux-themepack)
+
 `bind -n (-n: no prefix)`
 
 ## tmuxifier
+
+[jimeh/tmuxifier](https://github.com/jimeh/tmuxifier)
 
 ```sh
 git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
@@ -44,5 +49,5 @@ $echo case $- in *i*) . ~/.bashrc;; esac >> .bash_profile
 
 ## key bindings (cheatsheet)
 
-http://www.dayid.org/os/notes/tm.html
-https://stevehhh.com/tmux-quick-reference/
+[dayid's screen and tmux cheat sheet](http://www.dayid.org/os/notes/tm.html)
+[tmux cheatsheet](https://gist.github.com/andreyvit/2921703)

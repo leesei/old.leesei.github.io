@@ -34,6 +34,12 @@ Converts browser/Node request to `curl` commnad line.
 
 http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awesome-examples/
 
+```sh
+# download all links in file, to specific folder
+wget -P./download -i list.txt
+```
+
+
 ## httpie
 
 HTTP client for CLI, more senible than cURL
@@ -48,8 +54,10 @@ https://www.getpostman.com/docs
 
 [hapijs/wreck](https://github.com/hapijs/wreck) (previously `nipple`)
 [request/request](https://github.com/request/request)
+[alyssaq/prequest](https://github.com/alyssaq/prequest) (promisified `request`)
 [tomas/needle](https://github.com/tomas/needle)
 [visionmedia/superagent](https://github.com/visionmedia/superagent)
+[mzabriskie/axios](https://github.com/mzabriskie/axios)
 [Hulken by hellgrenj](http://hellgrenj.github.io/hulken/)
 
 ## Python

@@ -64,9 +64,83 @@ Honorable mentions:
 - http://chneukirchen.org/dotfiles/
 > TODO: add my links in /caravan/github-watch/dotfiles
 
+[Using Dropbox as a Settings Repository](http://coda.caseykuhlman.com//entries/2014/dropbox-as-a-settings-repository.html)
+
 [Steve's Blog: bash aliases](http://siannopollo.blogspot.hk/2007/11/bash-aliases.html)
 
+## environment variable
+
+[Environment variable - Wikiwand](http://www.wikiwand.com/en/Environment_variable)
+[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
+
 ## Common tasks
+
+[Useless Use of Cat Award](http://www.smallo.ruhr.de/award.html)
+
+Follow [The Art of Unix Programming](http://www.faqs.org/docs/artu/), implemnet filters.
+[Simple filters in Perl, Ruby, and Bourne shell - TechRepublic](http://www.techrepublic.com/blog/software-engineer/simple-filters-in-perl-ruby-and-bourne-shell/)
+
+### parsing command line
+
+[SHELLdorado - cmdargs](http://www.shelldorado.com/goodcoding/cmdargs.html)
+[Command Line Options: How To Parse In Bash Using “getopt” — BahmanM.com](http://www.bahmanm.com/blogs/command-line-options-how-to-parse-in-bash-using-getopt)
+
+```sh
+#!/bin/bash
+# http://www.bahmanm.com/blogs/command-line-options-how-to-parse-in-bash-using-getopt
+
+# “a” and “arga” have optional arguments with default values.
+# “b” and “argb” have no arguments, acting as sort of a flag.
+# “c” and “argc” have required arguments.
+
+# e.g.:
+# ./getopt.sh  1 -a'a' -b 2 -c'c' 3 4
+# ./getopt.sh  1 --arga='a' 2 --argc='c' 3 4
+
+# set an initial value for the flag
+ARG_B=0
+
+# read the options
+TEMP=`getopt -o a::bc: --long arga::,argb,argc: -n 'getopt.sh' -- "$@"`
+if [[ $? -ne 0 ]]; then
+    echo -e "\e[1;31m""getopt error""\e[0m"
+    exit 2
+fi
+
+eval set -- "$TEMP"
+
+# extract options and their arguments into variables.
+while true ; do
+    case "$1" in
+        -a|--arga)
+            case "$2" in
+                "") ARG_A='some default value' ; shift 2 ;;
+                *) ARG_A=$2 ; shift 2 ;;
+            esac ;;
+        -b|--argb) ARG_B=1 ; shift ;;
+        -c|--argc)
+            case "$2" in
+                "") shift 2 ;;
+                *) ARG_C=$2 ; shift 2 ;;
+            esac ;;
+        --) shift ; break ;;
+        *) echo "Internal error!" ; exit 2 ;;
+    esac
+done
+
+# do something with the variables -- in this case the lamest possible one :-)
+echo "ARG_A = $ARG_A"
+echo "ARG_B = $ARG_B"
+echo "ARG_C = $ARG_C"
+
+# positional args
+args=("$@")
+echo \#: [${#args[@]}]
+echo @: [${args[@]}]
+for ((i=0; i<${#args[@]}; i++)); do
+    echo ${args[i]};
+done
+```
 
 ### redirection
 
@@ -79,6 +153,31 @@ $ command arg1 > file arg2 arg3
 $ command arg1 arg2 > file arg3
 $ command arg1 arg2 arg3 > file
 ```
+
+### Here Doc
+
+[linux - How can I write a here doc to a file in Bash script? - Stack Overflow](http://stackoverflow.com/questions/2953081/how-can-i-write-a-here-doc-to-a-file-in-bash-script)
+[Here Documents](http://tldp.org/LDP/abs/html/here-docs.html)
+
+This is a technique to embed string block in scripts and feed it to an interactive command.
+
+```sh
+interactive-program <<LimitString
+command #1
+command #2
+...
+LimitString
+```
+
+Single quote (`'`) the commands to prevent string interpolation.
+
+```sh
+cat << 'EOF'
+I want to print ${FOO} literally
+EOF
+```
+
+`<<-` will suppress leading tabs (not spaces).
 
 ### detect undefined vars 
 
@@ -113,146 +212,14 @@ $(expr ${a} + 1)  # slower
 
 or use `bc`, or use `math` (inspired by `fish`)
 
-```sh math
+```sh
 #!/bin/sh
 # thin wrapper around bc for easier math expression in shell
 # inspired by fish
 echo "$@" | bc -l
 ```
 
-## shell expansion
-
-### history expansion
-
-http://www.eriwen.com/bash/effective-shorthand/
-http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/
-> TODO: add zsh manual
-
-```sh
-man history
-```
-
-Each line of history is a *command*, consisting of more than one *words* (0-indexed).
-
-```sh
-cp myfile.txt my/directory/path
-cd !$  # cd my/directory/path
-
-vi /etc/fstabs  # oops!
-sudo !!  # sudo vi /etc/fstab
-
-echo 1 2 3 4 5 6 7 8 9 10  # test word designators
-/path/to/file/a.b.c        # test modifiers
-```
-
-
-Event designators:
-`!` start a history substitution, will use last command if no event designator specified
-`!!` expands to the last command
-`!42` expands to the 42nd command in the history list
-`!-3` 3 commands before (all arguments)
-`!string` most recent command stating with *string*
-`!?string?` most recent command stating with *string*
-`^foo^bar` last command with the first occurrence of *foo* replaced with *bar*
-`!#` expands to current command typed so far
-
-Word Designators:
-Word designators follow event designators, separated by `:`
-
-`:0` command name
-`:n` n-th word, 0-indexed, of the command (= n-th argument, 1-indexed)
-`:x-y` range of words from x to y (0-indexed, -y is synonymous with 0-y)
-`:^` 1st word, 0-indexed (= first arguement)
-`:$` last word (= last argument)
-`:*` all words but the zeroth (synonymous with 1-$)
-`:n*` n-th (0-indexed) to last words (synonymous with n-$) (= n-th to last argument)
-
-Shortcuts:
-`!*` `!:*`
-`!$` `!:$`
-`!^` `!:^`
-
-Modifiers:
-Modifiers follow word designators, seperated by `:`
-
-`:h` head pathname (`dirname`)
-`:t` tail pathname (`basename`)
-`:e` suffix
-`:r` remove suffix
-`:p` print but not execute (TAB in mordern shell does this)
-`:q`/`:x` quote substituted words to prevent further substitutions
-`:Q` unquote words
-`:u` uppercase all words
-`:l` lowercase all words
-`:s/foo/bar/` replace *foo* with *bar*
-`:gs/foo/bar/` global replace *foo* with *bar*
-
-`!!:$:e` suffix of the last argument of the last command
-`!!:$:h` basepath of the last argument of the last command
-
-```sh
-ls /path/to/file/a.b.c
-!$:h   # /path/to/file
-!$:t   # a.b.c
-!$:e   # c
-!$:r   # /path/to/file/a.b
-
-echo 1 2 3 4 5 6 7 8 9 10
-!:q    #'echo' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
-!:2-5  # 2 3 4 5
-!:*    # 1 2 3 4 5 6 7 8 9 10
-!:1-3:s/1/foo/:s/2/bar/:s/3/baz/:q  # 'foo' 'bar' 'baz'
-```
-
-
-### string manipulation/expansion
-> After reading `fish` shell's philosophy, I now think using `sed` is better than relying on shell feature.
-
-http://tldp.org/LDP/abs/html/string-manipulation.html
-http://wiki.bash-hackers.org/syntax/pe
-http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html
-> TODO: add zsh manual
-
-```sh
-# to upper
-echo $string | tr [:lower:] [:upper:]
-newstring=${string^^}
-# to lower
-echo $string | tr [:upper:] [:lower:]
-newstring=${string,,}
-
-# substring extraction
-substring=${string:1:-2}
-
-# string expansion
-${var:-default} # means $var if $var is defined and otherwise "default"
-${var:-} # default $var to null string to avoid error when `set -u` is used
-${var:+value} # means if $var is defined use "value"; otherwise nothing
-
-# string substitution
-${string/substring/replacement}   # replace "substring" with "replacement"
-${string//substring/replacement}  # replace all occurrences of "substring" with "replacement"
-${string/#substring/replacement}  # replace front match (^) "substring" with "replacement"
-${string/%substring/replacement}  # replace end match ($) "substring" with "replacement"
-
-# file path manipulation
-$(dirname "$path")   # get dir from full path
-$(basename "$path")  # get file name from full path
-
-FILE="example.tar.gz"
-${FILE%%.*}          # "example", stripped longest extension
-${FILE%.*}           # "example.tar", stripped shortest extension
-${FILE#*.}           # "tar.gz", longest extension
-${FILE##*.}          # "gz", shortest extension
-
-if [ ${path:0:1} = '/' ]; then
-    tmp=${path:1}    # strip leading '/'
-fi
-tmp=${path#/}        # strip leading '/'
-tmp=${path%/}        # strip trailing '/'
-```
-
-## trap 
+### trap 
 > `bash` specific?
 
 ```sh
@@ -277,7 +244,7 @@ else
 fi
 ```
 
-## shell script constructs
+## Shell Script Constructs
 
 http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html
 
@@ -358,18 +325,72 @@ done
 
 ### array
 
+[Bash associative array examples | Andy Balaam's Blog](http://www.artificialworlds.net/blog/2012/10/17/bash-associative-array-examples/)
+[Bash arrays | Andy Balaam's Blog](http://www.artificialworlds.net/blog/2013/09/18/bash-arrays/)
+[The Ultimate Bash Array Tutorial with 15 Examples](http://www.thegeekstuff.com/2010/06/bash-array-tutorial/)
+
 ```sh
 cherries+=(54758)
 cherries+=(54761)
 cherries+=(55075)
+# stringify array
 echo ${cherries[@]}
 
-# convert string to array
+# construct array form string
 FILES=("${@}")
 NUMFILES=${#FILES[@]}
 for (( i = 0; i < ${NUMFILES}; i++ )); do
     echo ${FILES[${i}]}
 done
+# "${!array[*]}" "${array[*]}"?
+# keys: ${!array[@]}
+# values ${array[@]}
+```
+
+#### passing array to function
+
+[bash how to pass array as an argument to a function - Stack Overflow](http://stackoverflow.com/questions/16461656/bash-how-to-pass-array-as-an-argument-to-a-function)
+[Passing arrays as parameters in bash - Stack Overflow](http://stackoverflow.com/questions/1063347/passing-arrays-as-parameters-in-bash)
+
+```sh
+# stringify and reconstruct
+foo()
+{
+    array=("$@")
+    echo "array is ${array[@]}"
+}
+
+array=(one two three)
+foo "${array[@]}"
+```
+
+```sh
+# by reference
+foo()
+{
+    # note: must use a name different from "array"
+    local -n a=$1
+    echo "array is ${a[@]}"
+}
+
+array=(one two three)
+foo array
+```
+
+```sh
+# by reference
+foo()
+{
+    # note: must use a name different from "array1", "array2"
+    declare -a argAry1=("${!1}")
+    declare -a argAry2=("${!2}")
+    declare -p argAry1
+    declare -p argAry2
+}
+
+array1=(one two three)
+array2=(a b c)
+foo array1[@] array2[@]
 ```
 
 ### function
@@ -398,16 +419,30 @@ Test()
 
 [Bash Shell Quick Reference, by Aurelio Jargas](http://aurelio.net/articles/shell-reference.html)
 [The Linux Command Line by William E. Shotts, Jr.](http://linuxcommand.org/tlcl.php)
+[Shell / Command Line | Linux.org](http://www.linux.org/forums/shell-command-line.49/)
+[GNU/Linux Command-Line Tools Summary](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)
+[Heiner's SHELLdorado](http://www.shelldorado.com/)
 
 **Bash**:
+[BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+[Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
+[Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/)
+[Bash Hackers Wiki Frontpage [Bash Hackers Wiki]](http://wiki.bash-hackers.org/doku.php)
 http://justinlilly.com/bash/forgotten_friend_1.html
 http://justinlilly.com/bash/forgotten_friend_2.html
 http://justinlilly.com/bash/forgotten_friend_3.html
+http://www.dsj.net/compedge/shellbasics.html
+http://www.dsj.net/compedge/shellbasics1.html
+http://www.dsj.net/compedge/regex.html
+http://www.dsj.net/compedge/morebashfun2.html
+http://www.dsj.net/compedge/bashit.html
+
 **Zsh**:
 http://zsh.sourceforge.net/Doc/Release/zsh_toc.html
 http://grml.org/zsh/zsh-lovers.html
 http://www.zzapper.co.uk/zshtips.html
 http://fendrich.se/blog/2012/09/28/no/
 http://www.tuxradar.com/content/z-shell-made-easy
+
 **Fish**:
 https://wiki.archlinux.org/index.php/Fish

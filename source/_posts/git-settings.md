@@ -17,7 +17,6 @@ Backup:
 .ssh/git.id_rsa{,.pub}
 ```
 
-
 ## hub
 
 [hub · the command-line wrapper for git](https://hub.github.com/)

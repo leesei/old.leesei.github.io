@@ -48,7 +48,7 @@ avconv -ss <second/hh:mm:ss[.xxx]> -i <infile> -t <second/hh:mm:ss[.xxx]> -c cop
 
 ```sh
 # keyframe seek, time is reset, `-to` should be the duration
-ffmpeg  -ss <second/hh:mm:ss[.xxx]> -i <infile> -to <second/hh:mm:ss[.xxx]> -c copy <outfile>
+ffmpeg -ss <second/hh:mm:ss[.xxx]> -i <infile> -to <second/hh:mm:ss[.xxx]> -c copy <outfile>
 ```
 
 use `-c:a` and `-c:v` to specify audio and video codecs

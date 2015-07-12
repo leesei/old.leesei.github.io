@@ -122,3 +122,7 @@ $ sudo dpkg-reconfigure tzdata
 ```
 
 > http://www.christopherirish.com/2012/03/21/how-to-set-the-timezone-on-ubuntu-server/
+
+## installed pacakges
+
+> add [linux-installs.md](https://gist.github.com/leesei/65bf019431fc418f8ce3) here

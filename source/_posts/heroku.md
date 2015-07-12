@@ -17,6 +17,23 @@ $ su
 # L=/usr/local/bin/hk && curl -sL -A "`uname -sp`" https://hk.heroku.com/hk.gz | zcat >$L && chmod +x $L
 ```
 
+[Buildpack API | Heroku Dev Center](https://devcenter.heroku.com/articles/buildpack-api)
+
+[Process Types and the Procfile | Heroku Dev Center](https://devcenter.heroku.com/articles/procfile)
+
+[Heroku Node.js Support | Heroku Dev Center](https://devcenter.heroku.com/articles/nodejs-support)
+
+##  Heroku Button
+
+[Creating a 'Deploy to Heroku' Button | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-button)
+[Setting Up Apps Using the Platform API | Heroku Dev Center](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
+[app.json Schema | Heroku Dev Center](https://devcenter.heroku.com/articles/app-json-schema)
+
+## Docker
+
+[Local Development with Docker | Heroku Dev Center](https://devcenter.heroku.com/articles/introduction-local-development-with-docker)
+[Getting Started with Node.js and Heroku Local Docker Development | Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-node-js-and-heroku-local-docker-dev)
+
 ## commands
 
 - create a new heroku app
@@ -34,7 +51,10 @@ $ su
 
   `git push heroku master`  
 
-  To force an compile on Heroku, see `heroku-repo` below
+  To force an compile on Heroku,  
+  `git commit --allow-empty -m "Message"`
+
+  Also see `heroku-repo` below
 
 - restart server
 

@@ -4,6 +4,8 @@ categories:
 - comp.lang
 tags:
 - golang
+- gopm
+- package-manager
 - notes
 toc: true
 ---
@@ -29,6 +31,11 @@ toc: true
 [flag - The Go Programming Language](http://golang.org/pkg/flag/)
 [Projects - go-wiki - A list of Go projects. - Go Language Community Wiki - Google Project Hosting](https://code.google.com/p/go-wiki/wiki/Projects)
 
+### gopm
+
+[gpmgo/gopm](https://github.com/gpmgo/gopm)
+[Gopm Registry - Versioning caching and delivery for your Go packages](http://gopm.io/)
+
 # Learn
 
 ## Official
@@ -40,6 +47,10 @@ toc: true
 [Effective Go - The Go Programming Language](http://golang.org/doc/effective_go.html)
 [Frequently Asked Questions (FAQ) - The Go Programming Language](http://golang.org/doc/faq)
 [Wiki Pages - go-wiki - Go Language Community Wiki - Google Project Hosting](https://code.google.com/p/go-wiki/w/list)
+
+## Book
+
+[Building Web Apps with Go - GitBook](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 
 ## Design
 
@@ -54,6 +65,9 @@ toc: true
 [Google I/O 2011: Writing Web Apps in Go - YouTube](https://www.youtube.com/watch?v=-i0hat7pdpk&feature=relmfu)
 [Google I/O 2012 - Go Concurrency Patterns - YouTube](https://www.youtube.com/watch?v=f6kdp27TYZs)
 [Google I/O 2013 - Advanced Go Concurrency Patterns - YouTube](https://www.youtube.com/watch?v=QDDwwePbDtw)
+
+Building a Trie data structure.
+[Tries - YouTube](https://www.youtube.com/watch?v=9HqbKLcxQmo)
 
 ### Go Blog
 

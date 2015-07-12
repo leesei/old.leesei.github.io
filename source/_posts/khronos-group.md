@@ -17,12 +17,15 @@ EGL is an interface between Khronos rendering APIs (such as OpenGL ES or OpenVG)
 
 ## Shading Languages
 
-http://en.wikipedia.org/wiki/Shader
+[Shader - Wikiwand](http://www.wikiwand.com/en/Shader)
 [High-level shading language (HLSL)](http://en.wikipedia.org/wiki/High-level_shader_language) by Microsoft
 [OpenGL Shading Language (GLSL/GLslang)](http://en.wikipedia.org/wiki/GLSL) by Khronos Group
 [Cg (C for Graphics)](http://en.wikipedia.org/wiki/Cg_(programming_language)) by Nvidia, enables programmer to use C-like syntax to create shaders, generate HLSL or GLSL code.
 The shader programs are loaded to a OpenGL application (context/shell) for execution.
 http://www0.cs.ucl.ac.uk/staff/ucacbbl/cigpu2008/slides/shader-vs-cuda.pdf
+
+[Primer : Shaders](http://notes.underscorediscovery.com/shaders-a-primer/)
+[Shaders : second stage](http://notes.underscorediscovery.com/shaders-second-stage/)
 
 ## [GPGPU](http://en.wikipedia.org/wiki/GPGPU)
 
@@ -40,6 +43,13 @@ OpenCV
 > TODO: add link to [opencv]
 
 All OpenXXX are frameworks and API that require driver implementation by chip vendor.
+
+## WebGL
+
+http://get.webgl.org/
+chrome://gpu/
+chrome://flags/
+
 
 ## Resources
 

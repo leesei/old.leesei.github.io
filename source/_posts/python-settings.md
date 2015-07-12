@@ -34,6 +34,7 @@ sudo python get-pip.py
 sudo pip install httpie pygments
 sudo pip install asciinema TermRecord
 sudo pip install landslide
+sudo pip install git-up
 ```
 
 ```sh

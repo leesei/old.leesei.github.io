@@ -11,9 +11,11 @@ tags:
 toc: true
 ---
 
+[My Ruby Development Environment](http://jimeh.me/blog/2011/11/01/my-ruby-development-environment/)
+
 ## Install `rvm`
 
-https://rvm.io/
+[RVM: Ruby Version Manager](https://rvm.io/)
 
 ```sh
 \curl -L https://get.rvm.io | bash -s stable

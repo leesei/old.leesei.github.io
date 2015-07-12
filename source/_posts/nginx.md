@@ -10,30 +10,38 @@ toc: true
 
 ## References
 
-http://wiki.nginx.org/
-http://nginx.org/en/docs/
-http://wiki.nginx.org/Pitfalls
-http://nginx.org/en/docs/beginners_guide.html
-http://tengine.taobao.org/book/index.html
-https://github.com/agentzh/nginx-tutorials
-http://michael.lustfield.net/nginx/dummies-guide-to-setting-up-nginx
+[nginx documentation](http://nginx.org/en/docs/)
+[Beginner’s Guide](http://nginx.org/en/docs/beginners_guide.html)
 
-Prebuilt Nginx binary with SPDY support:  
-http://blog.phusion.nl/2013/08/21/use-nginx-spdy-without-compiling-nginx-and-without-a-recent-openssl/
+[nginx - ArchWiki](https://wiki.archlinux.org/index.php/Nginx)
+[Nginx Community](http://wiki.nginx.org/Main)
+[Pitfalls - Nginx Community](http://wiki.nginx.org/Pitfalls)
 
+[Nginx开发从入门到精通 — Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+[agentzh's Nginx Tutorials](http://openresty.org/download/agentzh-nginx-tutorials-en.html) [download](http://openresty.org/#eBooks) [source](https://github.com/openresty/nginx-tutorials)
+[Nginx Guide - Tuts+ Code Tutorials](http://code.tutsplus.com/series/nginx-guide--cms-792)
+[The Architecture of Open Source Applications (Volume 2): nginx](http://www.aosabook.org/en/nginx.html)
+
+[Nginx vs. Apache - Michael Lustfield](https://michael.lustfield.net/nginx/nginx-vs-apache)
+
+[Use Nginx + SPDY, without compiling Nginx and without a recent OpenSSL - Phusion Blog](http://old.blog.phusion.nl/2013/08/21/use-nginx-spdy-without-compiling-nginx-and-without-a-recent-openssl/)
 
 ## Config files structure
 
-> http://blog.martinfjordvald.com/2010/07/nginx-primer/  
 > https://github.com/h5bp/server-configs-nginx  
 > https://github.com/Umkus/nginx-boilerplate  
 > https://github.com/perusio/nginx_ensite  
 
-Main config filer (nginx.conf) sits in the Nginx config folder (e.g. `/etc/nginx`).  
+[Nginx Configuration Primer](http://blog.martinfjordvald.com/2010/07/nginx-primer/)
+[Nginx Primer 2: From Apache to Nginx](https://blog.martinfjordvald.com/2011/02/nginx-primer-2-from-apache-to-nginx/)
+[Understanding the Nginx Configuration Inheritance Model](https://blog.martinfjordvald.com/2012/08/understanding-the-nginx-configuration-inheritance-model/)
+
+
+Main config filer (`nginx.conf`) sits in the Nginx config folder (e.g. `/etc/nginx`).  
 There are `sites-available/` and `sites-enabled/`, default setting file includes `sites-enabled/*`.  
 Server files are usually put in `sites-available/` and symlinked to `sites-enabled/`.
 
-## init script
+## init (Debian/Ubuntu)
 
 > https://github.com/JasonGiedymin/nginx-init-ubuntu  
 > https://github.com/hulihanapplications/nginx-init-debian
@@ -41,6 +49,14 @@ Server files are usually put in `sites-available/` and symlinked to `sites-enabl
 ```sh
 $ sudo service nginx 
 configtest    force-reload  reload        restart       start         status        stop 
+```
+
+## systemd
+
+
+```sh
+sudo systemctl enable nginx.service
+sudo systemctl start nginx.service
 ```
 
 ## Static file serving
@@ -87,7 +103,7 @@ server {
 }
 ```
 
-## Node/nginx
+## Node/Nginx
 
 Add this to `hosts`:
 
@@ -156,6 +172,9 @@ location /nginx_status {
 ```
 
 ## Modules
+
+[OpenResty - a fast web app server by extending nginx](http://openresty.org/)
+[3rdPartyModules - Nginx Community](http://wiki.nginx.org/3rdPartyModules)
 
 Module        | Link
 ------        | -----

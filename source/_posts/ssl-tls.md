@@ -28,6 +28,9 @@ As it turns out, CA are not trust worthy at all. There are many instances of CA 
 
 [Another fraudulent certificate raises the same old questions about certificate authorities | Ars Technica](http://arstechnica.com/security/2011/08/earlier-this-year-an-iranian/)
 
+[BetterCrypto⋅org](https://bettercrypto.org/)
+[RFC 7525 - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)](https://tools.ietf.org/html/rfc7525)
+
 http://arstechnica.com/search/?ie=UTF-8&q=+Certificate+Authorities
 
 

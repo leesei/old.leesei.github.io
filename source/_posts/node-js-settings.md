@@ -7,6 +7,7 @@ tags:
 - settings
 - nvm
 - npm
+- jspm
 - package-manager
 toc: true
 ---
@@ -26,7 +27,7 @@ git clone git://github.com/creationix/nvm.git ~/.nvm
 ```sh
 nvm ls-remote
 
-NODE_VERSION=v0.12.1
+NODE_VERSION=v0.12.3
 nvm install ${NODE_VERSION}
 nvm use ${NODE_VERSION}
 nvm alias default ${NODE_VERSION}
@@ -71,19 +72,32 @@ Then add this to `~/.profile` or `~/.bashrc`:
 export PATH=~/.npm-packages/bin:$PATH
 ```
 
+## jspm
+
+[jspm.io - Frictionless Browser Package Management](http://jspm.io/)
+
+
 ## Node modules
+
+### `node-gyp` and Python 3
+
+`node-gyp` does not supports Python 3, use these on system with Python 3 as default:
+- `PYTHON=$(which python2) npm intall`
+- `npm config set -g python $(which python2)`
 
 ```sh
 # dev tools
-npm install -g bower browserify coffee nodemon wiredep
+npm install -g bower browserify coffee nodemon
+# gulp
+npm install -g gulp gulp-watch gulp-shell
 # linters
 npm install -g csslint jshint jsonlint
 # debug
 npm install -g bench-rest node-inspector
 # generators
-npm install -g cordova ionic # yo
+npm install -g cordova ionic
 # bin
-npm install -g bedecked chance ecstatic gfms gfm2html hexo-cli
+npm install -g bedecked chance ecstatic fancy-server gfms gfm2html hexo-cli markdown-tools rfc
 # log tools
 npm install -g bunyan logcat
 # global modules
@@ -113,8 +127,20 @@ npm ls -g --depth 0 | grep -P '(?<= ).*(?=@)' -o | grep -v npm | tr '\n' ' ' && 
 ```
 
 ```
-bedecked bench-rest bower browserify bunyan chance cheerio coffee cordova csslint ecstatic gfm2html gfms hexo-cli ionic ip jshint jsonlint lodash logcat nightmare node-inspector nodemon nomnom phantasma wiredep 
+bedecked bench-rest bower browserify bunyan chance cheerio coffee cordova csslint ecstatic fancy-server gfm2html gfms gulp gulp-shell gulp-watch hexo-cli ionic ip jshint jsonlint lodash logcat markdown-tools nightmare node-inspector nodemon nomnom phantasma rfc
 ```
+
+## npm fails
+
+Try clearing npm cache with:
+
+```sh
+npm cache clean
+```
+
+Hope that helps.
+
+[when all else fails, clear you cache](http://codebetter.com/glennblock/2012/02/27/my-tale-of-npm-woe-when-all-else-fails-clear-you-cache/)
 
 ## Running Node alongside web servers
 
