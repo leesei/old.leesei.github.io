@@ -23,14 +23,10 @@ keymon > screenkey
 
 steam
 
+oracle-jdk
 # https://github.com/Nowaker/aur-packages#oracle-jdk
 
 pdfchain  # gcc 4.8
-
-# shell check
-sudo apt-get install ghc libghc-parsec3-dev libghc-json-dev libghc-regex-compat-dev libghc-quickcheck2-dev cabal-install
-git clone https://github.com/koalaman/shellcheck
-cd shellcheck; cabal install
 ```
 
 ```sh
@@ -68,7 +64,6 @@ graphviz hugin inkscape pencil pinta shotwell xdot
 ttf-liberation wqy-zenhei 
 
 # input method
-# [黑眼珠2: GNOME3： 選擇您的輸入法(openSUSE 13.1)](http://swyear.blogspot.hk/2013/12/gnome3-opensuse-131.html)
 fcitx-im fcitx-configtool fcitx-table-extra 
 gcin
 
@@ -161,9 +156,7 @@ sudo usermod -a -G wireshark ${USER}
 
 ### Chinese
 
-#### font
-
-[Debian 8 (jessie) 安裝筆記 中文環境篇 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/31556973.html)
+[黑眼珠2: GNOME3： 選擇您的輸入法(openSUSE 13.1)](http://swyear.blogspot.hk/2013/12/gnome3-opensuse-131.html)
 
 #### fcitx
 
@@ -192,3 +185,7 @@ export XMODIFIERS=@im=gcin
 export LC_CTYPE=zh_TW.UTF-8
 gcin &
 ```
+
+#### font
+
+[Debian 8 (jessie) 安裝筆記 中文環境篇 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/31556973.html)

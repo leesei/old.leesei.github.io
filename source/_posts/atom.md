@@ -23,7 +23,7 @@ toc: true
 [Documentation](https://atom.io/docs)  
 
 | SublimeText | Atom        |
-| =========== | =========== |
+| ----------- | ----------- |
 | Syntax      | Grammar     |
 
 ## Package Management

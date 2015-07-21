@@ -174,7 +174,7 @@ register_sidebar(array(
 ```
 
 Add to the desired location in the theme:
-```php
+```html
 <div id="sidebar">
     <?php if ( !dynamic_sidebar("my-sidebar") ) : ?>
     <div class="sidebar-box">
@@ -186,7 +186,7 @@ Add to the desired location in the theme:
 ```
 
 Different sidebar depending on page, usually in `sidebar.php`:
-```php
+```html
 <?php
 <div id="sidebar">
     if ( is_front_page() ) {
@@ -225,12 +225,11 @@ register_nav_menus( array(
 ```
 
 Add to the desired location in the theme:
-```php
+```html
 <div id="header-bottom">
     <?php wp_nav_menu('top-navigation') ?>
 </div>
 ```
-
 
 ### Customizer
 
@@ -277,7 +276,7 @@ Customizer: Theme as documentation
 ### Child Themes
 
 You can easily inherit from an existing theme and override the functions.  
-But the theme may not be child friendly (using `get_template_directory()` instead of `get_stylesheet_directory()`, not using templates). And my experience is that overriding files may cause the child theme to breakdown altogether.  
+But the theme may not be child friendly (e.g.: using `get_template_directory()` instead of `get_stylesheet_directory()`, not using templates). And my experience is that overriding files may cause the child theme to breakdown altogether.  
 I now prefer make a copy of the desired theme, change the code directly and track the modification via git.  
 
 [Child Themes « WordPress Codex](https://codex.wordpress.org/Child_Themes)  

@@ -12,8 +12,8 @@ tags:
 [Code point - Wikiwand](http://www.wikiwand.com/en/Code_point)
 [UTS #10: Unicode Collation Algorithm](http://www.unicode.org/reports/tr10/)
 
-[BMP](http://www.wikiwand.com/en/Plane_(Unicode)#/Basic_Multilingual_Plane)
-[SMP](http://www.wikiwand.com/en/Plane_(Unicode)#/Supplementary_Multilingual_Plane)
+[BMP](http://www.wikiwand.com/en/Plane_%28Unicode%29#/Basic_Multilingual_Plane)
+[SMP](http://www.wikiwand.com/en/Plane_%28Unicode%29#/Supplementary_Multilingual_Plane)
 
 ## Encoding
 

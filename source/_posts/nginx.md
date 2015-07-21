@@ -191,3 +191,4 @@ Fancy Indexes | https://github.com/aperezdc/ngx-fancyindex
 Log If        | https://github.com/cfsego/ngx_log_if/
 Lua           | https://github.com/chaoslawful/lua-nginx-module
 PageSpeeed    | http://ngxpagespeed.com/ngx_pagespeed_example/
+MP4 streaming | http://nginx.org/en/docs/http/ngx_http_mp4_module.html

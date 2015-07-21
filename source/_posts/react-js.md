@@ -185,12 +185,6 @@ var HelloMessage = React.createClass({
 React.renderComponent(<HelloMessage name="John" />, mountNode);
 ```
 
-## React Native
-
-[James Long](http://jlongster.com/First-Impressions-using-React-Native)
-[Use React Native: site and newsletter](http://www.reactnative.com/)
-[Introducing React Native: Building Apps with JavaScript](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript)
-
 ## Testing
 
 [Easily testing React components with react-test-tree — Qubit Engineering — Medium](https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d)

@@ -10,7 +10,7 @@ toc: true
 ---
 
 [Massive open online course - Wikiwand](http://www.wikiwand.com/en/Massive_open_online_course)
-Digital Aristotle: Thoughts on the Future of Education - YouTube](https://www.youtube.com/watch?v=7vsCAM17O-M)
+[Digital Aristotle: Thoughts on the Future of Education - YouTube](https://www.youtube.com/watch?v=7vsCAM17O-M)
 
 [No Excuse List](http://noexcuselist.com/)
 [Khan Academy](https://www.khanacademy.org/)

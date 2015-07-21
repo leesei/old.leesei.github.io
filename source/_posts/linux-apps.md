@@ -108,7 +108,7 @@ see also `game-engines.md`
 
 [Sublime Text](http://www.sublimetext.com), [Sublime Text 3](http://www.sublimetext.com/3) is currently in beta.
 [Atom](https://atom.io/)
-- [Nuclide - a unified IDE](http://nuclide.io/)
+[Nuclide - a unified IDE](http://nuclide.io/), Atom derivative
 [Komodo Edit | Komodo IDE](http://komodoide.com/komodo-edit/)
 [Light Table](http://lighttable.com/)
 

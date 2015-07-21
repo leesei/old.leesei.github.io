@@ -8,6 +8,8 @@ tags:
 - greasemonkey
 ---
 
+# User Scripts
+
 Userscripts are scripts that users install in their browser to make on-the-fly changes to web page content after or before the page is loaded.
 
 [Tampermonkey - Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)

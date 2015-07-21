@@ -12,7 +12,7 @@ toc: true
 
 ## Installing pip
 
-http://www.pip-installer.org/en/latest/installing.html
+[Installation — pip 7.1.0 documentation](https://pip.pypa.io/en/latest/installing.html)
 
 ### from package manager
 ```sh
@@ -62,6 +62,10 @@ virtualenv env
 pip install -r requirements.txt  # if any
 deactivate
 ```
+
+## WinPython
+
+[WinPython](http://winpython.github.io/)
 
 ## List installed packages
 

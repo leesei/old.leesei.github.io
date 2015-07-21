@@ -18,8 +18,6 @@ toc: true
 [The God Login](http://blog.codinghorror.com/the-god-login/)
 [How to get better at UI and UX design](http://ui-patterns.com/blog/How-to-get-better-at-UI-design)
 
-[UX Design for Mobile Developers Course - Udacity](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849)
-Udacity -- UX Design for Mobile Developers
 [Ux for Beginner](http://maximebodereau.gitbooks.io/ux/content/)
 [UX Design and Development course](http://www.anotheruiguy.com/ux-design-dev/_book/)
 [Human Computer Interaction: User Experience and User Interface Design Certificate | Coursera](https://www.coursera.org/specialization/humancomputerinteraction/28)

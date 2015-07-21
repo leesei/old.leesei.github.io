@@ -4,8 +4,9 @@
 
 # Site
 title: "leesei's notebook"
-subtitle: "εмβяαςε мλ sμρεя gεεκ ροωεя."
 description: "Technical blog for the future me and other beings."
+# requires theme support
+subtitle: "εмβяαςε мλ sμρεя gεεκ ροωεя."
 author: leesei
 email: leesei@gmail.com
 language: default

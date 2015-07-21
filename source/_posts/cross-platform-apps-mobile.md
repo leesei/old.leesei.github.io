@@ -81,10 +81,13 @@ Embedding the latest Chromium WebView to your app instead of using the system's 
 
 ## React Native
 
+Write React JSX and deploy to iOS.
 [React Native | A framework for building native apps using React](http://facebook.github.io/react-native/)
 [facebook/react-native](https://github.com/facebook/react-native)
 
-Write React JSX and deploy to iOS.
+[Use React Native: site and newsletter](http://www.reactnative.com/)
+[First Impressions using React Native - James Long](http://jlongster.com/First-Impressions-using-React-Native)
+[Introducing React Native: Building Apps with JavaScript](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript)
 
 ## NativeScript
 
@@ -146,5 +149,5 @@ The language itself is similar to JavaScript. The `.hx` can be compiled to [mult
 
 ## Honorable Mentions
 
-[Create native mobile apps for multiple platforms │ HTML5/JavaScript and C++ developer tools](http://www.mosync.com/)
-[Home - rhomobile.com](http://rhomobile.com/)
+[MoSync](http://www.mosync.com/)
+[RhoMobile Suite](http://rhomobile.com/)
