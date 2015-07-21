@@ -20,3 +20,5 @@ tags:
 [Logo Evolution of 25 Famous Brands - Hongkiat](http://www.hongkiat.com/blog/logo-evolution/)
 
 [21 Logo Evolutions of the World’s Well Known Logo Designs | Bored Panda](http://www.boredpanda.com/21-logo-evolutions-pepsi-cola-apple-nike-nokia/)
+
+[你知道嗎 ? 蘋果 LOGO 中的彩虹也有其意義 - UNWIRE.HK](http://unwire.hk/2015/06/28/apple-rainbow/fun-tech/)

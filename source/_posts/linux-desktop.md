@@ -17,6 +17,7 @@ This post is about using GNU/Linux with [desktop environment](http://www.wikiwan
 [Getting Started with Linux: The Complete Guide](http://lifehacker.com/5778882/getting-started-with-linux-the-complete-guide)
 [Introduction to Linux](http://www.tldp.org/LDP/intro-linux/html/index.html)
 [The Linux System Administrator's Guide](http://www.tldp.org/LDP/sag/html/index.html)
+[The UNIX Hater's Handbook](http://web.mit.edu/~simsong/www/ugh.pdf) (PDF)
 
 ## GNU and Linux
 

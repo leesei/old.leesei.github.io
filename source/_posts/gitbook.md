@@ -50,6 +50,9 @@ To export to PDF and other ebook format:
 [GitBook API Documentation](http://developer.gitbook.com/)
 [GitbookIO/plugin](https://github.com/GitbookIO/plugin) (sample)
 
+[Extend blocks | GitBook API Documentation](http://developer.gitbook.com/plugins/blocks.html)
+[Hooks | GitBook API Documentation](http://developer.gitbook.com/plugins/hooks.html)
+
 ## no integration needed
 
 [rlmv/gitbook-plugin-anchors](https://github.com/rlmv/gitbook-plugin-anchors)
@@ -69,7 +72,6 @@ To export to PDF and other ebook format:
 [GitbookIO/plugin-mathjax](https://github.com/GitbookIO/plugin-mathjax)
 [LingyuCoder/gitbook-plugin-fancybox](https://github.com/LingyuCoder/gitbook-plugin-fancybox)
 [xgrommx/gitbook-plugin-video](https://github.com/xgrommx/gitbook-plugin-video)[chudaol/gitbook-plugin-modal-youtube-video](https://github.com/chudaol/gitbook-plugin-modal-youtube-video)
-
 
 [chudaol/gitbook-plugin-quiz](https://github.com/chudaol/gitbook-plugin-quiz)
 [GitbookIO/plugin-quizzes](https://github.com/GitbookIO/plugin-quizzes)

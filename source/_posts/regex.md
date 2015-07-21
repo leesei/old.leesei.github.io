@@ -3,6 +3,7 @@ date: 2015-02-26 17:55:43
 categories:
 - comp.lang
 tags:
+- formal-language
 - regex
 - javascript
 - python
@@ -12,7 +13,7 @@ tags:
 toc: true
 ---
 
-[Regular expression](http://www.wikiwand.com/en/Regular_expression) is a formal language for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary [here](http://www.greenend.org.uk/rjk/tech/regexp.html).
+[Regular expression](http://www.wikiwand.com/en/Regular_expression) is a [formal language](http://www.wikiwand.com/en/Formal_language) for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary [here](http://www.greenend.org.uk/rjk/tech/regexp.html).
 
 [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 

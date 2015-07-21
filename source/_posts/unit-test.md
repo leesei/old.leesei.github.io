@@ -38,6 +38,13 @@ Framework
 
 [Automating User Interface Testing on Android - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/automating-user-interface-testing-on-android--cms-23969)
 
+[LAVA](https://validation.linaro.org/)
+[LAVA Manual — LAVA Server 2015.07 documentation](https://validation.linaro.org/static/docs/#)
+
+## JavaScript
+
+[Sinon.JS - Documentation](http://sinonjs.org/)
+
 ## Continuous Integration
 
 [Continuous integration - Wikiwand](https://www.wikiwand.com/en/Continuous_integration)

@@ -8,6 +8,11 @@ tags:
 toc: true
 ---
 
+[ssh-keygen - man page](https://www.mankier.com/1/ssh-keygen)
+
+[Generating SSH keys - User Documentation](https://help.github.com/articles/generating-ssh-keys/)
+[Working with SSH key passphrases - User Documentation](https://help.github.com/articles/working-with-ssh-key-passphrases/)
+
 ## password-less login
 
 [The Computer Kid: Password-less SSH](http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE)
@@ -38,6 +43,7 @@ chmod 640 ~/.ssh/authorized_keys
 
 ## ssh tunneling
 
+[SSH Tunneling Explained | Source Open](https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/)
 [Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net](http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/)
 
 ## sshfs

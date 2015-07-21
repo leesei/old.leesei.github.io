@@ -49,14 +49,12 @@ The WordPress admin panel at `http://localhost/wordpress/wp-admin`.
 [The Beginner's Guide to Selecting a WordPress Theme - Tuts+ Code Article](http://code.tutsplus.com/articles/the-beginners-guide-to-selecting-a-wordpress-theme--wp-35032)
 [Choosing the Right WordPress Theme - Market Blog](http://marketblog.envato.com/tips/choosing-the-right-wordpress-theme/)
 
-[Hybrid Core WordPress theme framework](http://themehybrid.com/hybrid-core)
-[Whiteboard Framework for WordPress](http://whiteboardframework.com/)
-
 https://wordpress.org/themes/exclusive
 https://wordpress.org/themes/expert
 https://wordpress.org/themes/sento
 https://wordpress.org/themes/minamaze
 https://wordpress.org/themes/educate
+https://wordpress.org/themes/wordplus/
 
 ## Customizing Layout
 

@@ -9,11 +9,11 @@ tags:
 
 [Unicode - Wikiwand](https://www.wikiwand.com/en/Unicode)
 [Universal Character Set characters - Wikiwand](http://www.wikiwand.com/en/Universal_Character_Set_characters)
+[Code point - Wikiwand](http://www.wikiwand.com/en/Code_point)
+[UTS #10: Unicode Collation Algorithm](http://www.unicode.org/reports/tr10/)
 
 [BMP](http://www.wikiwand.com/en/Plane_(Unicode)#/Basic_Multilingual_Plane)
 [SMP](http://www.wikiwand.com/en/Plane_(Unicode)#/Supplementary_Multilingual_Plane)
-
-Code Point
 
 ## Encoding
 
@@ -23,8 +23,13 @@ Code Point
 
 ## Emoji
 
+[Emoji - Wikiwand](https://www.wikiwand.com/en/Emoji)
+[How emoji conquered the world | The Verge](http://www.theverge.com/2013/3/4/3966140/how-emoji-conquered-the-world)
+[The Oral History Of The Poop Emoji (Or, How Google Brought Poop To America) | Fast Company | Business + Innovation](http://www.fastcompany.com/3037803/the-oral-history-of-the-poop-emoji-or-how-google-brought-poop-to-america)
+
 [iEmoji.com](http://www.iemoji.com/)
 [Emoji cheat sheet for GitHub, Basecamp and other services](http://www.emoji-cheat-sheet.com/)
+[emot.es - All your favorite emoticons in one place ( ͡° ͜ʖ ͡°)](http://emot.es/)
 
 ## Character Table
 

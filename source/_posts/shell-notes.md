@@ -18,9 +18,9 @@ Most of the following are compatible to `bash` and `zsh`.
 [Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh - Hyperpolyglot](http://hyperpolyglot.org/unix-shells)
 
 Most distro comes with `bash` as default login shell.
-Since `bash` is ubiqutious and more feature-rich than POSIX shell (`/bin/sh`), it is recommanded to write shell scripts in `bash`.
-Since `zsh` is `bash` (and hence POSIX) -compatible. Most command lines found on the web can be pasted in `zsh` directly (unlike `fish` which is not POSIX-compatible). It is recommanded to use `zsh` as the interactive shell.
-However I found `fish` [design](http://fishshell.com/docs/current/design.html) quite sensible. I'll try to use external binaries as mush as possible instead of relying on shell features. On the same line of thought, eventhough `zsh` has more powerful syntax than `bash`, it may not be worthy to use them to avoid lock-in and maintain portability.
+Since `bash` is ubiquitous and more feature-rich than POSIX shell (`/bin/sh`), it is recommended to write shell scripts in `bash`.
+Since `zsh` is `bash` (and hence POSIX) -compatible. Most command lines found on the web can be pasted in `zsh` directly (unlike `fish` which is not POSIX-compatible). It is recommended to use `zsh` as the interactive shell.
+However I found `fish` [design](http://fishshell.com/docs/current/design.html) quite sensible. I'll try to use external binaries as mush as possible instead of relying on shell features. On the same line of thought, even-though `zsh` has more powerful syntax than `bash`, it may not be worthy to use them to avoid lock-in and maintain portability.
 
 Fish featured on Ars:
 [Fish: the friendly interactive shell | Ars Technica](http://arstechnica.com/information-technology/2005/12/linux-20051218/2/)
@@ -36,7 +36,7 @@ http://fishshell.com/docs/2.1/faq.html#faq-default
 
 > most contain useful aliases, functions and scripts
 
-It is recommanded to use source control to store your config files (_dotfiles_, as they usually begins with a `.`) and use symlinks (`ln -s`) to deploy them to the machine.
+It is recommended to use source control to store your config files (_dotfiles_, as they usually begins with a `.`) and use symlinks (`ln -s`) to deploy them to the machine.
 
 ### switching OS and host
 
@@ -77,7 +77,7 @@ Honorable mentions:
 
 [Useless Use of Cat Award](http://www.smallo.ruhr.de/award.html)
 
-Follow [The Art of Unix Programming](http://www.faqs.org/docs/artu/), implemnet filters.
+Follow [The Art of Unix Programming](http://www.faqs.org/docs/artu/), implement filters.
 [Simple filters in Perl, Ruby, and Bourne shell - TechRepublic](http://www.techrepublic.com/blog/software-engineer/simple-filters-in-perl-ruby-and-bourne-shell/)
 
 ### parsing command line
@@ -184,7 +184,7 @@ EOF
 it's more meaningful in scripts to report error then to continue with empty string
 
 ```sh
-set -u  # throw error on uninitialised variable, `set -o nounset`
+set -u  # throw error on uninitialized variable, `set -o nounset`
 set -e  # exit on statement error, `set -o errexit`
 ```
 
@@ -204,7 +204,7 @@ zsh have color macros predefined, see themes in `oh-my-zsh`
 ```sh
 # do math calculation in $(( )), it is faster then `expr`
 # and we can specify the number system with 8#, 10#, 16#
-# useful for doing operation on variables with leeding zeros
+# useful for doing operation on variables with leading zeros
 a=005
 $((10#${a} + 1))
 $(expr ${a} + 1)  # slower

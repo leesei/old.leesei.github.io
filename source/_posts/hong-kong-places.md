@@ -10,3 +10,7 @@ date: 2015-05-25 21:55:08
 [U HK 港生活](http://hk.ulifestyle.com.hk/index.html)
 
 [香港巴士大典](http://hkbus.wikia.com/wiki/首頁)
+
+[蒲廠GUIDE|網上搜索工廠吃喝玩樂|你的潮玩拍檔|](http://www.funatfactory.com/index.php)
+
+[香港餐廳指南 – 飲食資訊 | OpenRice 香港開飯喇](http://www.openrice.com/zh/hongkong)

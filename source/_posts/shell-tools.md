@@ -26,6 +26,7 @@ toc: true
 ---
 
 [All commands | commandlinefu.com](http://www.commandlinefu.com/commands/browse)
+[explainshell.com - match command-line arguments to their help text](http://explainshell.com/)
 [Core utilities - ArchWiki](https://wiki.archlinux.org/index.php/Core_utilities)
 [Tools & Reference - Linode Guides & Tutorials](https://www.linode.com/docs/tools-reference/)
 [Linux 101 Hacks eBook, by Ramesh Natarajan](http://www.thegeekstuff.com/linux-101-hacks-ebook/)

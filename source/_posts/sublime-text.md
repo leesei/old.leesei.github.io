@@ -54,7 +54,7 @@ toc: true
 }
 ```
 
-```json
+```js
 {
     "folders":
     [
@@ -235,6 +235,7 @@ Package                               | Remark
 [Console API Snippets (JavaScript)][] |
 Diagram                               | [Syntax](https://github.com/jvantuyl/sublime_diagram_plugin/tree/master/Syntaxes) only
 [Dotfiles Syntax Highlighting][]      | Could have added these rules to ApplySyntax or `ShellScript (Bash).sublime-settings`
+[EJS][]                               |
 [fish-shell][]                        |
 [Gnuplot][]                           |
 [GoSublime][]                         |
@@ -242,6 +243,7 @@ Diagram                               | [Syntax](https://github.com/jvantuyl/sub
 [JSFormat][]                          |
 [SublimeJSCSFormatter][]              |
 [MarkdownEditing][]                   | Also includes color scheme and snippets for Markdown
+[Nunjucks Syntax][]                   |
 [nginx][]                             |
 [OpenGL Shading Language (GLSL)][]    |
 [Python Improved][]                   |
@@ -304,7 +306,8 @@ Package                               | Remark
 [SublimeLinter-annotations][]         | Highlights *TODO*, *FIXME*
 [Sublime​Linter-cppcheck][]            |
 [SublimeLinter-csslint][]             |
-[SublimeLinter-html-tidy][]           |
+[SublimeLinter-html-tidy][]           | This causes [error](https://github.com/SublimeLinter/SublimeLinter-html-tidy/issues/33) in `paths`
+[SublimeLinter-contrib-htmlhint][]    |
 [SublimeLinter-javac][]               |
 [SublimeLinter-jshint][]              |
 [SublimeLinter-json][]                |
@@ -340,6 +343,7 @@ Package                               | Remark
 [Dotfiles Syntax Highlighting]: https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting
 [EasyMotion]: https://packagecontrol.io/packages/EasyMotion
 [EditorConfig]: https://packagecontrol.io/packages/EditorConfig
+[EJS]: https://packagecontrol.io/packages/EJS
 [-Emmet]: https://packagecontrol.io/packages/Emmet
 [Filter Lines]: https://packagecontrol.io/packages/Filter%20Lines
 [fish-shell]: https://packagecontrol.io/packages/fish-shell
@@ -356,6 +360,7 @@ Package                               | Remark
 [Move By Symbols]: https://packagecontrol.io/packages/Move%20By%20Symbols
 [Neon Color Scheme]: https://packagecontrol.io/packages/Neon%20Color%20Scheme
 [nginx]: https://packagecontrol.io/packages/nginx
+[Nunjucks Syntax]: https://packagecontrol.io/packages/Nunjucks%20Syntax
 [OmniMarkupPreviewer]: https://packagecontrol.io/packages/OmniMarkupPreviewer
 [Open URL]: https://packagecontrol.io/packages/Open%20URL
 [OpenGL Shading Language (GLSL)]: https://packagecontrol.io/packages/OpenGL%20Shading%20Language%20(GLSL)
@@ -367,12 +372,12 @@ Package                               | Remark
 [ScopeHunter]: https://packagecontrol.io/packages/ScopeHunter
 [SCSS]: https://packagecontrol.io/packages/SCSS
 [SideBarEnhancements]: https://packagecontrol.io/packages/SideBarEnhancements
-[StringUtilities]: https://packagecontrol.io/packages/StringUtilities
 [StringEncode]: https://packagecontrol.io/packages/StringEncode
+[StringUtilities]: https://packagecontrol.io/packages/StringUtilities
 [SublimeCodeIntel]: https://packagecontrol.io/packages/SublimeCodeIntel
 [SublimeJSCSFormatter]: https://packagecontrol.io/packages/JSCS-Formatter
-[SublimeLinter]: https://packagecontrol.io/packages/SublimeLinter
 [SublimeLinter-annotations]: https://packagecontrol.io/packages/SublimeLinter-annotations
+[SublimeLinter-contrib-htmlhint]: https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint
 [Sublime​Linter-cppcheck]: https://packagecontrol.io/packages/SublimeLinter-cppcheck
 [SublimeLinter-csslint]: https://packagecontrol.io/packages/SublimeLinter-csslint
 [SublimeLinter-html-tidy]: https://packagecontrol.io/packages/SublimeLinter-html-tidy
@@ -383,6 +388,7 @@ Package                               | Remark
 [SublimeLinter-pep8]: https://packagecontrol.io/packages/SublimeLinter-pep8
 [SublimeLinter-ruby]: https://packagecontrol.io/packages/SublimeLinter-ruby
 [SublimeLinter-shellcheck]: https://packagecontrol.io/packages/SublimeLinter-shellcheck
+[SublimeLinter]: https://packagecontrol.io/packages/SublimeLinter
 [SublimeTmpl]: https://packagecontrol.io/packages/SublimeTmpl
 [SublimeXiki]: https://packagecontrol.io/packages/SublimeXiki
 [Terminal]: https://packagecontrol.io/packages/Terminal

@@ -104,23 +104,25 @@ Dynamite undermining
 
 ### Rifle
 
-Name        | Country | Year | Reloading | Caliber | Magazine Size |
+ Name       | Country | Year | Reloading | Caliber | Magazine Size
+:----------:|:-------:|:----:|:---------:|:-------:|:-------------:
 M1 "GARAND" | US      | ~1930 | Bolt Action | 30.06 | 
 Colt Browning M1895 | US | 1895 | Semi-Auto | 0.30 |
 
 ### Machine Guns
 
-Name        | Country | Year | Type | Action | Reloading | Caliber | Remark
+ Name       | Country | Year | Type | Action | Reloading | Caliber | Remark
+:----------:|:-------:|:----:|:----:|:------:|:---------:|:-------:|:------:
 Browning M1917 A1 | US | 1917 | MG | Recoil | Belt | .30 | stationary, water cooling, used in WW II and Korean War
 Type 92 HMG | Japan | 1932 | MG | Recoil | 30 rounds feed strip | 7.7mm | stationary, accurate defensive weapon
 Browning M1919 A4 | US | 1919 | MG | Recoil | Belt | .30 | used in WW II, especially in the Pacific
-Bren MkI | British | 1935 | LMG | Recoil | 30 rounds mag | .030 | | Replaceable Barrel, used up to 80s
+Bren MkI | British | 1935 | LMG | Recoil | 30 rounds mag | .030 | Replaceable Barrel, used up to 80s
 Browning Automatic Rifle (B.A.R.) | US | 1918 | LMG |Recoil | 20 rounds mag | 0.30 | 
 M249 Squad Automatic Weapon (SAW)| US | 1984 | MG |Recoil|20 rounds mag | 5.56mm NATO | Replaceable barrel 
 HECKLER & KOCH MP5 | US | 1966 | SMG/Machine Pistol | Blow Back | 30 rounds mag | 9mm pistol | 3 modes (Full Auto, Burst, Semi Auto), short range
 
-Name        | Country | Year | Type | Action | Reloading | Ammo | Remark
+ Name       | Country | Year | Type | Action | Reloading | Ammo | Remark
+:----------:|:-------:|:----:|:----:|:------:|:---------:|:----:|:------:
 Kalashnikov PKM | Soviet Union | 1969 | MG |  | Belt | 7.62mm | Replaceable barrel 
 Browning M2 | US | 1921 | MG | | Belt | .50 | 
-
-Browning AN/M2| US| 1929/35 | AA/MG | Recoil | Belt | .30/.50 | 
+Browning AN/M2 | US| 1929/35 | AA/MG | Recoil | Belt | .30/.50 | 

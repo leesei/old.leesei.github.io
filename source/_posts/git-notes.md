@@ -50,6 +50,22 @@ toc: true
 [Git Magic - Preface](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 [Git for Everyone](http://anotheruiguy.gitbooks.io/gitforeveryone/content/)
 
+## Github
+
+[git - Multiple github accounts on the same computer? - Stack Overflow](http://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
+
+Use HTTPS (but you have to enter credentials everytime):
+```sh
+git remote set-url origin https://USERNAME@github.com/USERNAME/PROJECTNAME.git
+```
+
+You can use multiple SSH keys use alias to distinguish between them:
+[Quick Tip: How to Work with GitHub and Multiple Accounts - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-work-with-github-and-multiple-accounts--net-22574)
+[Github for work and play (multiple accounts) | ricardian ambivalence](http://ricardianambivalence.com/2013/09/22/github-for-work-and-play-multiple-accounts/)
+[github - Switch between user identities in one Git on one computer - Stack Overflow](http://stackoverflow.com/questions/9347458/switch-between-user-identities-in-one-git-on-one-computer)
+[git - Multiple github accounts on the same computer? - Stack Overflow](http://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer)
+[Error: Permission denied (publickey) - User Documentation](https://help.github.com/articles/error-permission-denied-publickey/)
+
 ## Workflow
 
 [A successful Git branching model » nvie.com](http://nvie.com/posts/a-successful-git-branching-model/)
@@ -82,10 +98,12 @@ toc: true
 
 ## Tips
 
-[A few git tips you didn't know about](http://mislav.uniqpath.com/2010/07/git-tips/)
-[25 Tips for Intermediate Git Users](https://www.andyjeffries.co.uk/25-tips-for-intermediate-git-users/)
+[A few git tips you didn't know about](http://mislav.uniqpath.com/2010/07/git-tips/)  
+[25 Tips for Intermediate Git Users](https://www.andyjeffries.co.uk/25-tips-for-intermediate-git-users/)  
 [Git tips and tricks](http://blog.mixu.net/2012/04/06/git-tips-and-tricks/)
-[tj/git-extras](https://github.com/tj/git-extras)
+[tj/git-extras](https://github.com/tj/git-extras)  
+
+[The Elements of Commit Style](http://mcandre.gitbooks.io/elements-of-commit-style/content/index.html)
 
 <!-- more -->
 

@@ -50,6 +50,7 @@ http://get.webgl.org/
 chrome://gpu/
 chrome://flags/
 
+[WebGL Essentials - Tuts+ Code Tutorials](http://code.tutsplus.com/series/webgl-essentials--net-35335)
 
 ## Resources
 

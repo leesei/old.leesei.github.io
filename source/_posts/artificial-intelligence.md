@@ -36,7 +36,12 @@ http://qr.ae/0PWdV
 
 [Data Mining Certificate | Coursera](https://www.coursera.org/specialization/datamining/20)
 
+[The Art and Science of Data-Driven Journalism](http://towcenter.gitbooks.io/the-art-and-science-of-data-driven-journalism/content/)
+
 [onurakpolat/awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata)
+
+[Introduction to Data Science](http://www.infoq.com/presentations/introduction-data-science)
+[Explore Your Data: The Fundamentals of Network Analysis](http://www.infoq.com/presentations/network-analysis)
 
 ## Business
 

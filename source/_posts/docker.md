@@ -9,13 +9,18 @@ tags:
 ---
 
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/)
+[Supported installation](https://docs.docker.com/installation/)
+[Using the command line](https://docs.docker.com/reference/commandline/cli/)
 [Understand the architecture](http://docs.docker.com/introduction/understanding-docker/)
 [Get started with images](https://docs.docker.com/userguide/dockerimages/)
 [Dockerfile reference](http://docs.docker.com/reference/builder/)
 [Best practices for writing Dockerfiles](https://docs.docker.com/articles/dockerfile_best-practices/)
 [Docker Hub Registry - Repositories of Docker Images](https://registry.hub.docker.com/)
 
+[Docker Basic Command | Fast Deploying Systems With Docker](http://chunchio.gitbooks.io/docker/content/DockerBasicCommand.html)
+
 [Docker —— 从入门到实践](http://yeasy.gitbooks.io/docker_practice/content/)
+[Docker中文教程](http://letong.gitbooks.io/docker/content/)
 [全面易懂的Docker指令大全](http://joshhu.gitbooks.io/dockercommands/content/index.html)
 
 * InfoQ

@@ -217,6 +217,7 @@ xinput set-int-prop "Kensington Kensington Slimblade Trackball" "Evdev Wheel Emu
 1 2    : L/R button
 3      : Middle button
 4 5 6 7: scroll down/up/left/right
+8 9    : back/forward
 
 ### scroll wheel
 

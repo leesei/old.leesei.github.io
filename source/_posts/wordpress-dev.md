@@ -13,6 +13,7 @@ tags:
 
 ## Resources
 
+[WordPress Development Stack Exchange](http://wordpress.stackexchange.com/)
 [Instant WordPress](http://www.instantwp.com/)  
 [Command line interface for WordPress | WP-CLI](http://wp-cli.org/)  
 
@@ -22,6 +23,7 @@ tags:
 [WordPress Arena](http://wparena.com/)
 [WordPress News, Hacks, Tips, Tutorials, Plugins and Themes - WP Engineer](http://wpengineer.com/)
 [WordPress Hacks - WP Engineer](http://wpengineer.com/category/wordpress-hacks/)
+[WP Smith - My Journey with WordPress & Genesis](http://wpsmith.net/)
 [Home - Pippins Plugins](https://pippinsplugins.com/)
 
 ### Books 
@@ -104,13 +106,15 @@ if(!term_exists('sample-category')) {
 
 ## Plugins
 
-[WordPress › WordPress Plugins](https://wordpress.org/plugins/)
-
 [Plugins « WordPress Codex](http://codex.wordpress.org/Plugins)  
+
+[WordPress › WordPress Plugins](https://wordpress.org/plugins/)  
 [Writing a Plugin « WordPress Codex](http://codex.wordpress.org/Writing_a_Plugin)  
+[Plugin API « WordPress Codex](http://codex.wordpress.org/Plugin_API)  
 [How To Improve WordPress Plugins - WP Engineer](http://wpengineer.com/353/how-to-improve-wordpress-plugins/#more-353)  
 
 [The WordPress Plugin Boilerplate | A Foundation For Building High-Quality WordPress Plugins](http://wppb.io/)  
+[Developing Plugins With WordPress Boilerplates: Why Boilerplates Matter - Tuts+ Code Article](http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-why-boilerplates-matter--wp-29298)
 [Developing Plugins With WordPress Boilerplates: Building a Plugin - Tuts+ Code Article](http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-building-a-plugin--wp-29300)  
 
 [Aesop Story Engine](http://aesopstoryengine.com/)  
@@ -124,10 +128,9 @@ if(!term_exists('sample-category')) {
 [Theme Customization API « WordPress Codex](http://codex.wordpress.org/Theme_Customization_API)  
 [Stepping into Templates « WordPress Codex](https://codex.wordpress.org/Stepping_Into_Templates)  
 [Template Tags « WordPress Codex](https://codex.wordpress.org/Template_Tags)  
-[Theme Features « WordPress Codex](https://codex.wordpress.org/Theme_Features)  
+[Theme Features « WordPress Codex](https://codex.wordpress.org/Theme_Features)
 
-[The Tuts+ Guide to Template Tags - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-tuts-guide-to-template-tags--cms-805)  
-[A Walkthrough on Conditional Tags in WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/a-walkthrough-on-conditional-tags-in-wordpress--cms-804)  
+[Writing Maintainable WordPress Themes - Tuts+ Code Tutorials](http://code.tutsplus.com/series/writing-maintainable-wordpress-themes--cms-659)
 
 [Writing Maintainable WordPress Themes | Tom McFarlin](http://tommcfarlin.com/maintainable-wordpress-themes/)  
 [Separation of Concerns with WordPress Templates | Tom McFarlin](https://tommcfarlin.com/separation-of-concerns-with-wordpress-templates/)  
@@ -135,30 +138,118 @@ if(!term_exists('sample-category')) {
 [Adding Scripts and Styles to WordPress the Right Way With Enqueueing - WPMU DEV](http://premium.wpmudev.org/blog/adding-scripts-and-styles-wordpress-enqueueing/)  
 
 [10 Checks to the Perfect WordPress theme - WP Engineer](http://wpengineer.com/236/perfect-wordpress-theme/)
+
 [Widgetizing Themes — Automattic](http://automattic.com/code/widgets/themes/)
 [Widgetizing Themes « WordPress Codex](http://codex.wordpress.org/Widgetizing_Themes)
 
+[Easily Adaptable WordPress Loop Templates: Basic Loops, Mullet Loops, and More.. | Perishable Press](https://perishablepress.com/easily-adaptable-wordpress-loop-templates/)
+
+Also see [Widgets](#widgets)  
+
 ### Customizing Theme
 
-[» The WordPress Theme Customizer: a Comprehensive Developer’s Guide](http://themefoundation.com/wordpress-theme-customizer/)
-
 [Deactivate WordPress Default Widgets - WP Engineer](http://wpengineer.com/1650/deactivate-wordpress-default-widgets/)
-
-[paulund/wordpress-theme-customizer-custom-controls](https://github.com/paulund/Wordpress-Theme-Customizer-Custom-Controls)
 
 [WordPress › Customizer Framework « WordPress Plugins](https://wordpress.org/plugins/customizer-framework/)  
 [WordPress › Custom Sidebars « WordPress Plugins](https://wordpress.org/plugins/custom-sidebars/)  
 [WordPress › Stag Custom Sidebars « WordPress Plugins](https://wordpress.org/plugins/stag-custom-sidebars/)  
 [WordPress › Easy Custom Sidebars « WordPress Plugins](https://wordpress.org/plugins/easy-custom-sidebars/)  
 
+### Adding Sidebar
+
+[Function Reference/register sidebars « WordPress Codex](https://codex.wordpress.org/Function_Reference/register_sidebars)
+[Function Reference/dynamic sidebar « WordPress Codex](https://codex.wordpress.org/Function_Reference/dynamic_sidebar)
+
+Define sidebar in `functions.php`:
+```php
+register_sidebar(array(
+    'name' => __('MySidebar', 'theme'),
+    'id' => 'my-sidebar',
+    'description' => __('this is a custom sidebar', 'theme'),
+    'before_widget' => '<div class="sidebar-box">',
+    'after_widget' => '</div>',
+    'before_title' => '<span class="sidebar-title">',
+    'after_title' => '</span><div class="dots"></div>'
+))
+```
+
+Add to the desired location in the theme:
+```php
+<div id="sidebar">
+    <?php if ( !dynamic_sidebar("my-sidebar") ) : ?>
+    <div class="sidebar-box">
+        <span class="sidebar-title">MySidebar</span>
+        <p>Add Widgets to the sidebar 'MySidebar'</p>
+    </div>
+    <?php endif; ?>
+</div><!-- sidebar -->
+```
+
+Different sidebar depending on page, usually in `sidebar.php`:
+```php
+<?php
+<div id="sidebar">
+    if ( is_front_page() ) {
+        if ( !dynamic_sidebar("front-page-sidebar") ) : ?>
+            <li>front-page-sidebar is empty</li>
+        <?php endif;
+    }
+    elseif ( is_category('news') || in_category('news') ) {
+        if ( !dynamic_sidebar("news-sidebar") ) : ?>
+            <li>news-sidebar is empty</li>
+        <?php endif;
+    }
+    elseif ( is_single() ) {  // is_singular() for both Posts/Pages
+        if ( !dynamic_sidebar("post-sidebar") ) : ?>
+            <li>post-sidebar is empty</li>
+        <?php endif;
+    }
+    elseif ( is_page() ) {
+        if ( !dynamic_sidebar("page-sidebar") ) : ?>
+            <li>page-sidebar is empty</li>
+        <?php endif;
+    }
+?>
+```
+
+### Adding Nav Meni
+
+[Function Reference/register nav menus « WordPress Codex](https://codex.wordpress.org/Function_Reference/register_nav_menus)
+[Function Reference/wp nav menu « WordPress Codex](https://codex.wordpress.org/Function_Reference/wp_nav_menu)
+
+Define nav_menu in `functions.php`:
+```php
+register_nav_menus( array(
+    'top-navigation' => __('Top Navigation', 'theme')
+) );
+```
+
+Add to the desired location in the theme:
+```php
+<div id="header-bottom">
+    <?php wp_nav_menu('top-navigation') ?>
+</div>
+```
+
+
+### Customizer
+
+[» The WordPress Theme Customizer: a Comprehensive Developer’s Guide](http://themefoundation.com/wordpress-theme-customizer/)
+[A Guide to the WordPress Theme Customizer - Tuts+ Code Tutorials](http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722)
+[Digging Into the Theme Customizer - Tuts+ Code Tutorials](http://code.tutsplus.com/series/digging-into-the-theme-customizer--wp-33847)
+
+[paulund/wordpress-theme-customizer-custom-controls](https://github.com/paulund/Wordpress-Theme-Customizer-Custom-Controls)
+
 Customizer: Theme as documentation  
 [bueltge/Documentation](https://github.com/bueltge/Documentation)  
 [The Customizer on Vimeo](https://vimeo.com/51533540)  
 [WordPress Theme Customizer Custom Controls - WP Engineer](http://wpengineer.com/2527/wordpress-theme-customizer-custom-controls/#more-2527)  
 
-[Easily Adaptable WordPress Loop Templates: Basic Loops, Mullet Loops, and More.. | Perishable Press](https://perishablepress.com/easily-adaptable-wordpress-loop-templates/)
+### Framework
 
-Also see [Widgets](#widgets)
+[Hybrid Core WordPress theme framework](http://themehybrid.com/hybrid-core)  
+[Whiteboard Framework for WordPress](http://whiteboardframework.com/)  
+[How Theme Frameworks Actually Work - Tuts+ Code Tutorials](http://code.tutsplus.com/series/how-theme-frameworks-actually-work--cms-713)  
 
 ### Query
 
@@ -166,11 +257,15 @@ Also see [Widgets](#widgets)
 [How To Setup Custom Queries For WP_Query Pagination | Tom McFarlin](https://tommcfarlin.com/wp_query-pagination/)  
 [Separation of Concerns: Queries and Helper Functions | Tom McFarlin](https://tommcfarlin.com/separation-of-concerns-with-queries-and-helper-functions/)  
 
+[wp query - When should you use WP_Query vs query_posts() vs get_posts()? - WordPress Development Stack Exchange](http://wordpress.stackexchange.com/questions/1753/when-should-you-use-wp-query-vs-query-posts-vs-get-posts)
+
 [Mastering WP_Query - Tuts+ Code Tutorials](http://code.tutsplus.com/series/mastering-wp_query--cms-818)
 
 ### Settings
 
+[Settings API « WordPress Codex](https://codex.wordpress.org/Settings_API)
 [Sanitization with the WordPress Settings API | Tom McFarlin](https://tommcfarlin.com/tag/sanitization-with-the-wordpress-settings-api/)
+[The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)
 
 ### ThemeShaper
 
@@ -201,19 +296,16 @@ I now prefer make a copy of the desired theme, change the code directly and trac
 
 ## Tuts+
 
-[The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)  
-[Making the Perfect WordPress Theme - Tuts+ Code Tutorials](http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987)  
-[A Walkthrough on Conditional Tags in WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/a-walkthrough-on-conditional-tags-in-wordpress--cms-804)  
-[Quick Tips to Boost Your WordPress Website's Speed - Tuts+ Code Tutorials](http://code.tutsplus.com/series/quick-tips-to-boost-your-wordpress-websites-speed--cms-800)  
 [WordPress - Tuts+ Code Category](http://code.tutsplus.com/categories/wordpress)  
 
+[The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)  
+[Making the Perfect WordPress Theme - Tuts+ Code Tutorials](http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987)  
+[Quick Tips to Boost Your WordPress Website's Speed - Tuts+ Code Tutorials](http://code.tutsplus.com/series/quick-tips-to-boost-your-wordpress-websites-speed--cms-800)  
+[The Tuts+ Guide to Template Tags - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-tuts-guide-to-template-tags--cms-805)  
+[A Walkthrough on Conditional Tags in WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/a-walkthrough-on-conditional-tags-in-wordpress--cms-804)  
 [A Beginner’s Guide to Using WordPress - Tuts+ Course](http://webdesign.tutsplus.com/courses/a-beginners-guide-to-using-wordpress)  
+[The Beginner’s Guide to WordPress Taxonomies - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-beginners-guide-to-wordpress-taxonomies--cms-706)  
 [The Beginner's Guide to Selecting a WordPress Theme - Tuts+ Code Article](http://code.tutsplus.com/articles/the-beginners-guide-to-selecting-a-wordpress-theme--wp-35032)  
-
-[Trim the Bloat: Keeping WordPress Healthy - Tuts+ Code Tutorials](http://code.tutsplus.com/series/trim-the-bloat-keeping-wordpress-healthy--cms-758)
-
-[Understanding and Working with Content Types in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/understanding-and-working-with-content-types-in-wordpress--cms-20937)  
-[Understanding and Working with Data in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/an-introduction-to-understanding-and-working-with-data-in-wordpress--cms-20567)  
-[Understanding and Working with Posts in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/understanding-and-working-with-posts-in-wordpress--cms-21032)  
-[Understanding and Working with Relationships Between Data in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/understanding-and-working-with-relationships-between-data-in-wordpress--cms-20632)  
-[Understanding and Working with User Data in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/understanding-and-working-with-user-data-in-wordpress--cms-20940)  
+[Trim the Bloat: Keeping WordPress Healthy - Tuts+ Code Tutorials](http://code.tutsplus.com/series/trim-the-bloat-keeping-wordpress-healthy--cms-758)  
+[Fifty Actions of WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/fifty-actions-of-wordpress--cms-708)
+[Understanding and Working with Data in WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/understanding-and-working-with-data-in-wordpress--cms-670)  

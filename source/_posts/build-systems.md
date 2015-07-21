@@ -31,6 +31,8 @@ Examples:
 
 [CMake](http://www.cmake.org/)
 [unbornchikken-cmake-js · GitHub](https://github.com/unbornchikken/cmake-js)
+[Learning CMake: A beginner's guide](http://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/)
+
 
 ## Gradle
 

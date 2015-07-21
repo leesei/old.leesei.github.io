@@ -9,8 +9,10 @@ tags:
 toc: true
 ---
 
-[Massive Open Online Course (MOOC)](http://en.wikipedia.org/wiki/Massive_open_online_course)
+[Massive open online course - Wikiwand](http://www.wikiwand.com/en/Massive_open_online_course)
+Digital Aristotle: Thoughts on the Future of Education - YouTube](https://www.youtube.com/watch?v=7vsCAM17O-M)
 
+[No Excuse List](http://noexcuselist.com/)
 [Khan Academy](https://www.khanacademy.org/)
 [edX | Free online courses from the world's best universities](https://www.edx.org/)
 [Coursera](https://www.coursera.org/)
@@ -22,7 +24,7 @@ toc: true
 [VideoLectures.NET - VideoLectures.NET](http://videolectures.net/)
 [Video Library | Common Craft](https://www.commoncraft.com/videolist)
 
-## Education Youtube Channels
+## Educational Youtube Channels
 
 ### TED
 

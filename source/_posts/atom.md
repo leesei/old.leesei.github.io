@@ -71,6 +71,8 @@ atom.contextMenu.add {
 
 ## My Installed Packages
 
+[Atom Setup | Front End Engineering, May 2015](http://jacobthemyth.gitbooks.io/front-end-engineering-may-2015/content/notes/misc/atom-setup.html)
+
 ### Color scheme/Themes
 
 [atom-material-ui](https://atom.io/themes/atom-material-ui)  

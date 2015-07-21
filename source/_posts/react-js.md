@@ -45,8 +45,8 @@ toc: true
 ## Flux
 
 Flux is an architecture style for web applications. It is *not a library*, though there are some example implementations.  
-Flux promotes one way data flow:  
-  DISPATCHER -> STORES -> COMPONENTS  
+Flux promotes one way data flow:
+  DISPATCHER -> STORES -> COMPONENTS
 Components pass an "intent" (also called an "action") to the dispatcher.
 
 [Flux | Application Architecture for Building User Interfaces](http://facebook.github.io/flux/)
@@ -60,7 +60,6 @@ Components pass an "intent" (also called an "action") to the dispatcher.
 [Creating A Simple Shopping Cart with React.js and Flux ♥ Scotch](http://scotch.io/tutorials/javascript/creating-a-simple-shopping-cart-with-react-js-and-flux)
 
 [Integrating React and Flux with Angular | MobileAppTracking Developers](https://developers.mobileapptracking.com/addressing-angular-weaknesses-with-react-and-flux/)
-
 
 ### christianalfoni
 
@@ -96,11 +95,13 @@ Components pass an "intent" (also called an "action") to the dispatcher.
 
 ### Comparison
 
+[The State of Flux](https://reactjsnews.com/the-state-of-flux/)
 [voronianski-flux-comparison · GitHub](https://github.com/voronianski/flux-comparison)
 [5 React.js + Flux tools - Progville](http://www.progville.com/javascript/5-react-js-flux-tools/)
-[The State of Flux](https://reactjsnews.com/the-state-of-flux/)
 
 ## Components
+
+### UI widgets
 
 [Material UI - Material Design React Components](http://material-ui.com/)
 [react-materialize-react-materialize · GitHub](https://github.com/react-materialize/react-materialize)
@@ -112,11 +113,19 @@ Components pass an "intent" (also called an "action") to the dispatcher.
 [Boron](http://madscript.com/boron/) (modal dialog)
 [JedWatson-react-hammerjs · GitHub](https://github.com/JedWatson/react-hammerjs)
 [Lapple-react-transitive-number · GitHub](https://github.com/Lapple/react-transitive-number)
+[ReactFitText Test Page](http://softwarepsychonaut.com/react-fittext/)
 [RxMarbles: Interactive diagrams of Rx Observables](http://rxmarbles.com/)
 [Griddle - React Grid Component](http://griddlegriddle.github.io/Griddle/)
 [STRML-react-grid-layout · GitHub](https://github.com/STRML/react-grid-layout)
 [twisty-formsy-react-components · GitHub](https://github.com/twisty/formsy-react-components)
 [Wildhoney-Maple.js · GitHub](https://github.com/Wildhoney/Maple.js)
+
+### Router
+
+[mtscout6-react-router-bootstrap · GitHub](https://github.com/mtscout6/react-router-bootstrap)
+[rackt-react-router · GitHub](https://github.com/rackt/react-router)
+[react-router-component :: viewdocs.io](http://strml.viewdocs.io/react-router-component)
+[React Router Mega Demo](http://react-router-mega-demo.herokuapp.com/)
 
 ### CSS
 
@@ -146,6 +155,7 @@ Components pass an "intent" (also called an "action") to the dispatcher.
 
 ## JSX: curse or blessing
 
+[JSX in Depth | React](http://facebook.github.io/react/docs/jsx-in-depth.html)
 [JSX Looks Like An Abomination — JavaScript Scene — Medium](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918)
 [How I learned to stop worrying and love React](http://firstdoit.com/react-1/)
 
@@ -174,6 +184,12 @@ var HelloMessage = React.createClass({
 
 React.renderComponent(<HelloMessage name="John" />, mountNode);
 ```
+
+## React Native
+
+[James Long](http://jlongster.com/First-Impressions-using-React-Native)
+[Use React Native: site and newsletter](http://www.reactnative.com/)
+[Introducing React Native: Building Apps with JavaScript](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript)
 
 ## Testing
 

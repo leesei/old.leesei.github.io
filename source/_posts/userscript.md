@@ -38,6 +38,10 @@ Similar movement for website styles
 [Restyle the web with Stylish! - userstyles.org](https://userstyles.org/)
 [Minimalist for Everything - Chrome Web Store](https://chrome.google.com/webstore/detail/minimalist-for-everything/bmihblnpomgpjkfddepdpdafhhepdbek)
 
+## setting CSS with user script
+
+[Edit Wide Github | OpenUserJS](https://openuserjs.org/scripts/xthexder/Wide_Github/source)
+
 ## style repo
 
 [Restyle the web with Stylish! - userstyles.org](https://userstyles.org/)

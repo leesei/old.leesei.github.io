@@ -38,4 +38,9 @@ These are vulnerbilities that **exploits trust on user's browser**. Malicious sc
 
 The counter-measure is to create unique tokens for each form or each login.
 
-CORS
+## CORS
+
+## Buffer Overflow
+
+[Writing buffer overflow exploits - a tutorial for beginners](http://www.eecis.udel.edu/~bmiller/cis459/2007s/readings/buff-overflow.html)
+

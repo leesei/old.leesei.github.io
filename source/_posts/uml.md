@@ -15,7 +15,6 @@ toc: true
 [UML Diagram Types With Examples for Each Type of UML Diagrams](http://creately.com/blog/diagrams/uml-diagram-types-examples/)
 
 [UML and Software Modeling Tools](http://www.slideshare.net/Zed4rReal/uml-and-software-modeling-toolspptx)
-[Our list of online modeling tools](http://modeling-languages.com/web-based-modeling-tools/)
 
 <!-- more -->
 
@@ -26,8 +25,8 @@ I used to use the GUI tool [Dia](https://wiki.gnome.org/Apps/Dia/). But it was v
 I am frustrated with the UI diagram apps:
 - layout of components takes time
 - it is difficult to modify the diagrams in UI (especially for batch operations, e.g. rename, grouping)
-- application lock-in becaused of the binary file format
-- not trackable by VCS
+- application lock-in because of the binary file format
+- binary file is not trackable by VCS
 - hard to integrate to other system
 
 So I focused on tools that provides a DSL for drawing UML from plain text.
@@ -42,7 +41,7 @@ Tool           | Language   | Diagrams           | Remark
 [js-sequence-diagrams][] | JavaScript | Sequence | live
 [UMLGraph][]   | Java       | Sequence, Class    |
 [ckwnc][]      | ?          | Sequence           | live **only**, C-like syntax
-[Graphviz][]   | C          | Digraph            | supports `dot`, layout/rendering layer for PlantUML and UMLGraph
+[Graphviz][]   | C          | Digraph            | layout/rendering layer for PlantUML and UMLGraph, with browser port [viz.js](https://github.com/mdaines/viz.js), [dagre](https://github.com/cpettitt/dagre), [dagre-d3](https://github.com/cpettitt/dagre-d3)
 
 [PlantUML]: http://plantuml.sourceforge.net/
 [blockdiag]: http://blockdiag.com/en/
@@ -60,13 +59,17 @@ I ended up choosing PlantUML because:
 - styleable
 - supports more diagram types
 - easy to setup
-- binings to more projects indicates widespread usage
+- bindings to more projects indicates widespread usage
 
 BTW, blockdiag would be the first runner up. It also features several unique diagram types.
 
 [Draw More, Work Less](http://www.slideshare.net/MichaelBarSinai/generated-siagramspublic)
 
 ### PlantUML
+
+The automatic layout of PlantUML is a curse *and* a blessing.
+On one hand you are free of the hassle of arranging the elements, on the other hand you have little control over the position of how your elements.
+Hackery like `horizontalLineBetweenDifferentPackageAllowed` and hidden edges are needed to tame the layout engine.
 
 PlantUML also embed other tools besides UML:
 DITAA, Salt, JCCKit, Sudoku, XEarth
@@ -86,28 +89,27 @@ DITAA, Salt, JCCKit, Sudoku, XEarth
 
 ### GaaS (graph as a service)
 
+With an HTTP client and scraping code, any DSL with web editor could be made as a service. This is especially easy if the DSL is provided as a library of course.
+
 [Your Graphviz, UMLGraph or PlantUML for your README](http://www.gravizo.com/)
 
-PlantUML's [service](http://plantuml.sourceforge.net/server.html) mode, see[jQuery](http://plantuml.sourceforge.net/jquery.html) and Javascript [async](http://plantuml.sourceforge.net/demojavascript.html) and [sync](http://plantuml.sourceforge.net/demojavascript2.html) integration.
+PlantUML's [service](http://plantuml.sourceforge.net/server.html) mode, see[jQuery](http://plantuml.sourceforge.net/jquery.html) and JavaScript [async](http://plantuml.sourceforge.net/demojavascript.html) and [sync](http://plantuml.sourceforge.net/demojavascript2.html) integration.
 
 ## GUI Tools
 
-[Gaphor UML Modelling](http://gaphor.sourceforge.net/download.php)  (Python)
-
-[Modelio Open Source Community](https://www.modelio.org/index.php)
-
-[UMLet - Free UML Tool for Fast UML Diagrams](http://www.umlet.com/)
+[UML Diagramming Tools | Diagramming.org](http://www.diagramming.org/)
+[Our list of online modeling tools](http://modeling-languages.com/web-based-modeling-tools/)
 
 [ArgoUML](http://argouml.tigris.org/)
-
+[Gaphor UML Modelling](http://gaphor.sourceforge.net/download.php)  (Python)
+[Modelio Open Source Community](https://www.modelio.org/index.php)
+[UMLet - Free UML Tool for Fast UML Diagrams](http://www.umlet.com/)
 [Violet UML Editor : easy to use, completely free](http://alexdp.free.fr/violetumleditor/page.php)
 
-[Lucidchart Diagrams - Desktop - Chrome Web Store](https://chrome.google.com/webstore/detail/lucidchart-diagrams-deskt/djejicklhojeokkfmdelnempiecmdomj?hl=en)
+### Chrome Apps
 
-[Gliffy Diagrams - Chrome Web Store](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=en)
+[Draw.io Desktop - Chrome Web Store](https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla): the diagram is saved as XML with unknown encoding
+[Gliffy Diagrams - Chrome Web Store](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad): the diagram is saved as JSON
+[Lucidchart Diagrams - Desktop - Chrome Web Store](https://chrome.google.com/webstore/detail/lucidchart-diagrams-deskt/djejicklhojeokkfmdelnempiecmdomj)
+[Sketchboard.io - Chrome Web Store](https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil)
 
-[Draw.io Desktop - Chrome Web Store](https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla)
-
-[Sketchboard.io - Chrome Web Store](https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil?hl=en)
-
-[UML Diagramming Tools | Diagramming.org](http://www.diagramming.org/)

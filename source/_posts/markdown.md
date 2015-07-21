@@ -19,6 +19,7 @@ http://johnmacfarlane.net/babelmark2/?text=%23+Hello+there%0A%0AThis+is+a+paragr
 
 [Markdown Tutorial](http://markdowntutorial.com/)
 [Introduction | Learn Markdown](http://gitbookio.gitbooks.io/markdown/content/)
+[Mastering Markdown](http://roachhd.gitbooks.io/master-markdown/content/)
 [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 
 [How can the backtick character ` be included in code? - Meta Stack Exchange](http://meta.stackexchange.com/questions/55437/how-can-the-backtick-character-be-included-in-code)

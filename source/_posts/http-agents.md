@@ -59,6 +59,7 @@ https://www.getpostman.com/docs
 [visionmedia/superagent](https://github.com/visionmedia/superagent)
 [mzabriskie/axios](https://github.com/mzabriskie/axios)
 [Hulken by hellgrenj](http://hellgrenj.github.io/hulken/)
+[sindresorhus/got](https://github.com/sindresorhus/got)
 
 ## Python
 

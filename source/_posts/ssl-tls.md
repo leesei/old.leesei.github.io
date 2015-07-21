@@ -14,10 +14,17 @@ toc: true
 The authentication relied on Certificate Authorities (CA) and a public key infrastructure using [X.509](http://en.wikipedia.org/wiki/X.509) certificates.
 The server register with a CA and sign its public key with the key of CA for a fee. The client, after receiving the public key from server, verifies it with the CA.
 
+[ImperialViolet - Overclocking SSL](https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html)
+[Is TLS Fast Yet?](https://istlsfastyet.com/)
+[BetterCrypto⋅org](https://bettercrypto.org/)
+
+[How the NSA (may have) put a backdoor in RSA’s cryptography: A technical primer | Ars Technica](http://arstechnica.com/security/2014/01/how-the-nsa-may-have-put-a-backdoor-in-rsas-cryptography-a-technical-primer/)
 [Critics slam SSL authority for minting certificate for impersonating sites | Ars Technica](http://arstechnica.com/business/2012/02/critics-slam-ssl-authority-for-minting-cert-used-to-impersonate-sites/)
+
 [How to obtain and install an SSL/TLS certificate, for free | Ars Technica](http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/)
 [Web served, part 2: Securing things with SSL/TLS | Ars Technica](http://arstechnica.com/information-technology/2012/11/securing-your-web-server-with-ssltls/#p4)
-[How the NSA (may have) put a backdoor in RSA’s cryptography: A technical primer | Ars Technica](http://arstechnica.com/security/2014/01/how-the-nsa-may-have-put-a-backdoor-in-rsas-cryptography-a-technical-primer/)
+
+## The issue: CA
 
 As it turns out, CA are not trust worthy at all. There are many instances of CA issueing fraudulent certificates (willingly or being hacked).
 
@@ -28,9 +35,6 @@ As it turns out, CA are not trust worthy at all. There are many instances of CA 
 
 [Another fraudulent certificate raises the same old questions about certificate authorities | Ars Technica](http://arstechnica.com/security/2011/08/earlier-this-year-an-iranian/)
 
-[BetterCrypto⋅org](https://bettercrypto.org/)
 [RFC 7525 - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)](https://tools.ietf.org/html/rfc7525)
 
 http://arstechnica.com/search/?ie=UTF-8&q=+Certificate+Authorities
-
-

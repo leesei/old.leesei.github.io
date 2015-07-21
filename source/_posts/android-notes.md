@@ -15,6 +15,7 @@ toc: true
 Notes for console tools available on Android system.
 
 [Android (and Friends) Reading Guide | Linux.org](http://www.linux.org/threads/android-and-friends-reading-guide.6146/)
+[hellogv的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/hellogv)
 
 ## Dev
 

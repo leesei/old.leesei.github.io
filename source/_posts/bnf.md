@@ -4,12 +4,13 @@ categories:
 - comp.lang
 tags:
 - bnf
+- formal-language
 toc: true
 ---
 
-Backus–Naur Form (BNF) is a notation that formally defines a context free grammar.
+[Backus–Naur Form (BNF)](http://www.wikiwand.com/en/Backus–Naur_Form) is a notation that [formally](http://www.wikiwand.com/en/Formal_language) defines a [context free grammar](http://www.wikiwand.com/en/Context-free_grammar).
 
-[Extended Backus–Naur Form (EBNF)](http://en.wikipedia.org/wikiExtended_Backus%E2%80%93Naur_Form) was adopted as [ISO 14977](http://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf).
+[Extended Backus–Naur Form (EBNF)](http://www.wikiwand.com/en/Extended_Backus%E2%80%93Naur_Form) was adopted as [ISO 14977](http://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf).
 
 IETF defines [Augmented BNF (ABNF)](http://tools.ietf.org/html/rfc5234) to be used in RFC documents.
 

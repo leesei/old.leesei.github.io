@@ -20,6 +20,8 @@ sustainably minimize lead time to business impact
 ### On Learning
 
 [Why did I lose my drive to learn more? - Quora](http://www.quora.com/Why-did-I-lose-my-drive-to-learn-more)
+[The Joy of Software Development](https://josd.captnemo.in/content/)
+
 [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
 
 ### Iterative Improvement
@@ -72,6 +74,8 @@ Read the answers by:
 
 [Introduction | 97 Things Every Programmer Should Know](http://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/)
 
+[The SOLID Principles - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-solid-principles--cms-634)
+
 ## Documentation Browser
 
 [DevDocs](http://devdocs.io/)
@@ -121,11 +125,13 @@ where President Obama learned JavaScript programming
 [Programming Languages - University of Washington | Coursera](https://www.coursera.org/course/proglang)
 [Fundamentals of Computing Certificate | Coursera](https://www.coursera.org/specialization/fundamentalscomputing2/37)
 [CS50: Introduction to Computer Science | edX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#.VIpv3eqUfF4)
-[Programming Should Be More than Coding](http://www.infoq.com/presentations/programming-design-coding)
-[The Rule of Three](http://blog.codinghorror.com/rule-of-three/)
-[Algorithms for Dummies (Part 1): Big-O Notation and Sorting - Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/02/13/algorithms-for-dummies-part-1-sorting/)
+
+## Architecture Design
 
 [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+[The Single Responsibility Principle | 8th Light](http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+[The Rule of Three](http://blog.codinghorror.com/rule-of-three/)
+[Programming Should Be More than Coding](http://www.infoq.com/presentations/programming-design-coding)
 
 ### CSP
 
@@ -134,6 +140,7 @@ where President Obama learned JavaScript programming
 
 ### Algorithm
 
+[Algorithms for Dummies (Part 1): Big-O Notation and Sorting - Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/02/13/algorithms-for-dummies-part-1-sorting/)
 [SORTING](http://sorting.at/)
 [Red Blob Games](http://www.redblobgames.com/)
 [SIGHT & LIGHT - How to create 2D visibility/shadow effects for your game](http://ncase.me/sight-and-light/)
@@ -157,6 +164,7 @@ where President Obama learned JavaScript programming
 [CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [CSS Diner - Where we feast on CSS Selectors!](http://flukeout.github.io/)
 [CSS Flexbox Video Series: Introduction & Basics — 1/6 | Wes Bos](http://wesbos.com/flexbox-basics/)
+[弹性盒模型指南 | bubkoo](http://bubkoo.com/2015/04/17/a-visual-guide-to-css3-flexbox-properties/)
 
 [CSS Cheat Sheet | OverAPI.com](http://overapi.com/css/)
 [bevacqua/css](https://github.com/bevacqua/css)
@@ -189,12 +197,19 @@ where President Obama learned JavaScript programming
 
 [List of languages that compile to JS · jashkenas/coffeescript Wiki](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 
+### Derivatives
+
+[A Little Coffee Guidebook](http://coffee.brianshumate.com/content/)
+
 ### Books
 
 [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 [Exploring ES6 | Leanpub](https://leanpub.com/exploring-es6/read)
 [Understanding ECMAScript 6 | Leanpub](https://leanpub.com/understandinges6/read)
 [Learn Javascript - GitBook](https://www.gitbook.com/book/gitbookio/javascript/details)
+[Introduction to Javascript](http://shawnr.gitbooks.io/introduction-to-javascript/content/)
+[JS Jottings](http://steven2y.gitbooks.io/js-jottings/content/)
+
 [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
 [JavaScript Allongé, The "Six" Edition | Leanpub](https://leanpub.com/javascriptallongesix/read)
 [Eloquent JavaScript](http://eloquentjavascript.net/)
@@ -252,6 +267,10 @@ where President Obama learned JavaScript programming
 [The Go Programming Language](https://golang.org/)
 [A Tour of Go](https://tour.golang.org/)
 
+## Haskell
+
+[A Happy Haskell](http://jplahn.gitbooks.io/a-happy-haskell/content/)
+
 ## Java
 
 [Heroku | The Next Twenty Years of Java: Where We've Been and Where We're Going](https://blog.heroku.com/archives/2015/6/4/the_next_twenty_years_of_java_where_we_ve_been_and_where_we_re_going)
@@ -300,8 +319,14 @@ where President Obama learned JavaScript programming
 
 [PHP Training Courses - Learn the world's most popular web programming language from the PHP Experts.](http://www.zend.com/en/services/training#PHP Courses)
 [The Best Way to Learn PHP - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/the-best-way-to-learn-php--net-22287)
-[PHP: a fractal of bad design / fuzzy notepad](http://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)
+
+### the bad
+
 [Is PHP a badly designed programming language? - Quora](https://www.quora.com/Is-PHP-a-badly-designed-programming-language)
+[Why is PHP hated by so many developers? - Quora](https://www.quora.com/Why-is-PHP-hated-by-so-many-developers)
+[PHP: a fractal of bad design / fuzzy notepad](http://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)
+[PHP Sadness](http://phpsadness.com/)
+[The PHP Singularity](http://blog.codinghorror.com/the-php-singularity/)
 
 ## Rust
 
@@ -325,6 +350,7 @@ where President Obama learned JavaScript programming
 [Single page apps in depth (a.k.a. Mixu' single page app book)](http://singlepageappbook.com/single-page.html)
 
 [The Problem with Native JavaScript APIs - O'Reilly Media](http://www.oreilly.com/programming/free/native-javascript-apis.csp)
+[High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/index.html)
 
 [pazguille/offline-first](https://github.com/pazguille/offline-first)
 
