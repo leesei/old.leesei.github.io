@@ -1,0 +1,663 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Sublime Text | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Sublime Text"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Sublime Text</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text: The text editor you’ll fall in love with</a><br><a href="https://github.com/SublimeTextIssues" target="_blank" rel="external">Sublime Text Issues</a></p>
+<a id="more"></a>
+<h2 id="Must_Read_Docs">Must Read Docs</h2><p><a href="http://www.sublimetext.com/docs/3/" target="_blank" rel="external">Sublime Text 3 Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/" target="_blank" rel="external">Sublime Text Unofficial Documentation</a></p>
+<h2 id="Project_Files">Project Files</h2><p><a href="http://www.sublimetext.com/docs/3/projects.html" target="_blank" rel="external">Projects - Sublime Text 3 Documentation</a><br><a href="http://code.tutsplus.com/tutorials/sublime-text-2-project-bliss--net-27256" target="_blank" rel="external">Sublime Text 2 Project Bliss - Tuts+ Code Tutorial</a></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">folders</span>":</span><br><span class="line">    <span class="value">[</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">path</span>": <span class="value"><span class="string">"src"</span></span>,</span><br><span class="line">            "<span class="attribute">folder_exclude_patterns</span>": <span class="value">[<span class="string">"backup"</span>]</span>,</span><br><span class="line">            "<span class="attribute">follow_symlinks</span>": <span class="value"><span class="literal">true</span></span><br><span class="line">        </span>&#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">path</span>": <span class="value"><span class="string">"docs"</span></span>,</span><br><span class="line">            "<span class="attribute">name</span>": <span class="value"><span class="string">"Documentation"</span></span>,</span><br><span class="line">            "<span class="attribute">file_exclude_patterns</span>": <span class="value">[<span class="string">"*.css"</span>]</span><br><span class="line">        </span>&#125;</span><br><span class="line">    ]</span>,</span><br><span class="line">    "<span class="attribute">settings</span>":</span><br><span class="line">    <span class="value">&#123;</span><br><span class="line">        "<span class="attribute">tab_size</span>": <span class="value"><span class="number">8</span></span><br><span class="line">    </span>&#125;</span>,</span><br><span class="line">    "<span class="attribute">build_systems</span>":</span><br><span class="line">    <span class="value">[</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">name</span>": <span class="value"><span class="string">"List"</span></span>,</span><br><span class="line">            "<span class="attribute">shell_cmd</span>": <span class="value"><span class="string">"ls -l"</span></span><br><span class="line">        </span>&#125;</span><br><span class="line">    ]</span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"folders"</span>:</span><br><span class="line">    [</span><br><span class="line">        &#123; <span class="comment">// theme</span></span><br><span class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/themes/twentyeleven"</span>,</span><br><span class="line">            <span class="string">"name"</span>: <span class="string">"Twenty Eleven Theme"</span>,</span><br><span class="line">            <span class="string">"file_exclude_patterns"</span>:[</span><br><span class="line">                <span class="string">"._*"</span>,</span><br><span class="line">                <span class="string">"*.ico"</span>,</span><br><span class="line">                <span class="string">"*.swf"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">"folder_exclude_patterns"</span>: [</span><br><span class="line">                <span class="string">"images"</span></span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123; <span class="comment">// plugins folder</span></span><br><span class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/plugins"</span>,</span><br><span class="line">            <span class="string">"name"</span>: <span class="string">"Plugins Folder"</span>,</span><br><span class="line">            <span class="string">"file_exclude_patterns"</span>:[</span><br><span class="line">                <span class="string">"._*"</span>, <span class="comment">// you need to specify this *again*</span></span><br><span class="line">                <span class="string">"*.bak"</span>,</span><br><span class="line">                <span class="string">"*.sample"</span>,</span><br><span class="line">                <span class="string">"*.tar"</span>,</span><br><span class="line">                <span class="string">"*.tgz"</span>,</span><br><span class="line">                <span class="string">"*.zip"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">"folder_exclude_patterns"</span>: [</span><br><span class="line">                <span class="string">"akismet"</span><span class="comment">//,</span></span><br><span class="line">                <span class="comment">// add any other plugins you wish to exclude</span></span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    <span class="string">"settings"</span>:</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="string">"tab_size"</span>: <span class="number">4</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Customization_after_install">Customization after install</h2><p><a href="https://github.com/mrmartineau/SublimeTextSetupWiki/wiki" target="_blank" rel="external">Home · mrmartineau/SublimeTextSetupWiki Wiki</a><br><a href="http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2" target="_blank" rel="external">Perfect Workflow in Sublime Text 2 - Tuts+ Course</a> (The full version on Youtube was taken down.)<br><a href="https://scotch.io/tag/sublime-text" target="_blank" rel="external">Tag Archive for “sublime-text” | Scotch</a><br><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP" target="_blank" rel="external">Sublime Text Tutorials - YouTube</a><br><a href="https://github.com/SublimeText/" target="_blank" rel="external">Sublime Text Packages</a></p>
+<p><a href="https://www.shortcutfoo.com/app/dojos/sublime-text-2-win" target="_blank" rel="external">Sublimetext commands and shortcuts | ShortcutFoo</a></p>
+<h3 id="Console">Console</h3><p>Use <kbd>Ctrl</kbd>+<kbd>`</kbd> to enter Sublime’s Python console</p>
+<h3 id="Install_Directory">Install Directory</h3><ul>
+<li><strong>Windows</strong>: </li>
+<li><strong>OS X</strong>: </li>
+<li><strong>Linux</strong>: <code>/opt/sublime_text/</code></li>
+</ul>
+<h3 id="Data_Directory">Data Directory</h3><ul>
+<li><strong>Windows</strong>: <code>%APPDATA%\Sublime Text 3</code></li>
+<li><strong>OS X</strong>: <code>~/Library/Application Support/Sublime Text 3</code></li>
+<li><strong>Linux</strong>: <code>~/.config/sublime-text-3</code></li>
+</ul>
+<h3 id="Package_Directory">Package Directory</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sublime.packages_path()</span><br></pre></td></tr></table></figure>
+<p>Default packages are located at <code>&lt;Install Directory&gt;/Packages</code>.</p>
+<h3 id="Package_Control">Package Control</h3><p><a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control - the Sublime Text package manager</a></p>
+<p>Follow the instruction to install Package Control via Sublime console.</p>
+<p>Installed packages (Package Control &gt; Settings - User):<br><code>&lt;DATA&gt;/Packages/User/Package Control.sublime-settings</code></p>
+<blockquote>
+<p>You can do batch install by editing this file and restarting Sublime Text.</p>
+</blockquote>
+<h2 id="Extension_Development">Extension Development</h2><p>Sublime Text’s extensions are usually compatible with TextMate. This design choice make migration from TextMate easy and helps to build Sublime Text’s user base.</p>
+<p>It is recommended to use <a href="https://packagecontrol.io/packages/AAAPackageDev" target="_blank" rel="external">AAAPackageDev</a> to write extensions, which now use YAML over JSON by defaults for the definitions.<br><a href="https://packagecontrol.io/packages/PackageResourceViewer" target="_blank" rel="external">PackageResourceViewer</a> is great for viewing files of installed packages (other than visiting the repository).</p>
+<p><a href="http://docs.sublimetext.info/en/latest/extensibility/extensibility.html" target="_blank" rel="external">Extending Sublime Text — Sublime Text Unofficial Documentation</a></p>
+<p><a href="http://www.sublimetext.com/docs/plugin-examples" target="_blank" rel="external">Sublime Text - Plugin Examples</a><br><a href="http://www.sublimetext.com/docs/api-reference" target="_blank" rel="external">Sublime Text - Plugin API Reference</a></p>
+<p><a href="http://code.tutsplus.com/tutorials/how-to-create-a-sublime-text-2-plugin--net-22685" target="_blank" rel="external">How to Create a Sublime Text 2 Plugin - Tuts+ Code Tutorial</a><br><a href="http://clarknikdelpowell.com/blog/creating-sublime-text-3-plugins-part-1/" target="_blank" rel="external">Creating Sublime Text 3 Plugins – Part 1 | Clark/Nikdel/Powell</a><br><a href="http://clarknikdelpowell.com/blog/creating-sublime-text-3-plugins-part-2/" target="_blank" rel="external">Creating Sublime Text 3 Plugins – Part 2 | Clark/Nikdel/Powell</a></p>
+<p><a href="https://github.com/SublimeText/PackageTesting" target="_blank" rel="external">SublimeText/PackageTesting</a></p>
+<h3 id="Theme_Development">Theme Development</h3><p>Actually there are two things here:</p>
+<ul>
+<li>theme of Sublime Text</li>
+<li>color scheme</li>
+</ul>
+<p><a href="http://manual.macromates.com/en/themes" target="_blank" rel="external">TextMate Manual » Themes</a></p>
+<p>Online editor:<br><a href="http://tmtheme-editor.herokuapp.com/" target="_blank" rel="external">TmTheme Editor</a><br><a href="https://github.com/aziz/tmTheme-Editor" target="_blank" rel="external">aziz/tmTheme-Editor</a></p>
+<p>Local editor:<br><a href="http://mattdmo.com/guide-to-installing-colorschemeeditor-for-sublime-text-3/" target="_blank" rel="external">A Guide to Installing ColorSchemeEditor for Sublime Text 3 | MattDMo.com</a><br><a href="https://github.com/facelessuser/ColorSchemeEditor" target="_blank" rel="external">facelessuser/ColorSchemeEditor</a></p>
+<h3 id="Syntax_Development">Syntax Development</h3><p><a href="http://manual.macromates.com/en/language_grammars" target="_blank" rel="external">TextMate Manual » Language Grammars</a><br><a href="http://manual.macromates.com/en/scope_selectors" target="_blank" rel="external">TextMate Manual » Scope Selectors</a></p>
+<p><a href="http://www.sublimetext.com/docs/3/syntax.html" target="_blank" rel="external">Syntax - Sublime Text 3 Documentation</a><br><a href="http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Unofficial Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions (reference) — Sublime Text Unofficial Documentation</a><br><a href="http://sublimetext.info/docs/en/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Help</a> (deprecated)</p>
+<p><a href="https://bitbucket.org/klorenz/syntaxhighlighttools" target="_blank" rel="external">klorenz / SyntaxHighlightTools — Bitbucket</a> has docs on tmPreferences.</p>
+<p><a href="http://tmtheme-editor.herokuapp.com/stats" target="_blank" rel="external">TmTheme Editor Stats</a> to see what scopes are being recognized by themes.</p>
+<p><a href="http://www.sublimetext.com/forum/viewtopic.php?p=48270" target="_blank" rel="external">Sublime Forum • View topic - How to highlight a nested scope?</a><br><a href="https://www.google.com.hk/search?q=sublime+tmlanguage+site:www.sublimetext.com" target="_blank" rel="external">sublime tmlanguage site:www.sublimetext.com - Google Search</a></p>
+<p>Use <a href="https://regex101.com/#python" target="_blank" rel="external">Regex101</a> to test the regex (use <code>gm</code> flags).<br><a href="https://regex101.com/r/cX0eW3" target="_blank" rel="external">https://regex101.com/r/cX0eW3</a></p>
+<h3 id="Snippets_Development">Snippets Development</h3><p><a href="http://www.hongkiat.com/blog/sublime-code-snippets/" target="_blank" rel="external">Working with Code Snippets in Sublime Text - Hongkiat</a><br><a href="http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/quickly-insert-text-and-code-with-sublime-text-snippets/" target="_blank" rel="external">Quickly Insert Text &amp; Code with Sublime Text Snippets :: Scott Granneman</a></p>
+<p><a href="http://docs.sublimetext.info/en/latest/extensibility/snippets.html" target="_blank" rel="external">Snippets — Sublime Text Unofficial Documentation</a></p>
+<h3 id="Publishing_to_Package_Control">Publishing to Package Control</h3><p><a href="https://packagecontrol.io/docs#Package_Developers" target="_blank" rel="external">Docs - Package Control</a><br><a href="https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json" target="_blank" rel="external">example-repository.json</a></p>
+<h2 id="My_Installed_Packages">My Installed Packages</h2><h3 id="Color_scheme/Themes">Color scheme/Themes</h3><table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Base16%20Color%20Schemes" target="_blank" rel="external">Base 16 Color Schemes</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Dayle%20Rees%20Color%20Schemes" target="_blank" rel="external">Dayle Rees Color Schemes</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Neon%20Color%20Scheme" target="_blank" rel="external">Neon Color Scheme</a></td>
+<td>Using this one</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Theme%20-%20Flatland" target="_blank" rel="external">Theme - Flatland</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Theme%20-%20Soda" target="_blank" rel="external">Theme - Soda</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://packagecontrol.io/browse/labels/color%20scheme" target="_blank" rel="external">color scheme - Labels - Package Control</a><br><a href="https://packagecontrol.io/browse/labels/theme" target="_blank" rel="external">theme - Labels - Package Control</a></p>
+<h3 id="Syntax/Snippets">Syntax/Snippets</h3><table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://packagecontrol.io/packages/AngularJS" target="_blank" rel="external">-AngularJS</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/ApplySyntax" target="_blank" rel="external">ApplySyntax</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Async%20Snippets" target="_blank" rel="external">Async Snippets</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Awk" target="_blank" rel="external">Awk</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Babel" target="_blank" rel="external">Babel</a></td>
+<td>Supports ES6 and React JSX</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Better%20CoffeeScript" target="_blank" rel="external">Better CoffeeScript</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Better%20JavaScript" target="_blank" rel="external">Better JavaScript</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Creole" target="_blank" rel="external">Creole</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/C%20Improved" target="_blank" rel="external">C Improved</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Console%20API%20Snippets%20(JavaScript)" target="_blank" rel="external">Console API Snippets (JavaScript)</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Diagram</td>
+<td><a href="https://github.com/jvantuyl/sublime_diagram_plugin/tree/master/Syntaxes" target="_blank" rel="external">Syntax</a> only</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting" target="_blank" rel="external">Dotfiles Syntax Highlighting</a></td>
+<td>Could have added these rules to ApplySyntax or <code>ShellScript (Bash).sublime-settings</code></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/EJS" target="_blank" rel="external">EJS</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/fish-shell" target="_blank" rel="external">fish-shell</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Gnuplot" target="_blank" rel="external">Gnuplot</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/GoSublime" target="_blank" rel="external">GoSublime</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/INI" target="_blank" rel="external">INI</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/JSFormat" target="_blank" rel="external">JSFormat</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/JSCS-Formatter" target="_blank" rel="external">SublimeJSCSFormatter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/MarkdownEditing" target="_blank" rel="external">MarkdownEditing</a></td>
+<td>Also includes color scheme and snippets for Markdown</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Nunjucks%20Syntax" target="_blank" rel="external">Nunjucks Syntax</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/nginx" target="_blank" rel="external">nginx</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/OpenGL%20Shading%20Language%20(GLSL)" target="_blank" rel="external">OpenGL Shading Language (GLSL)</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Python%20Improved" target="_blank" rel="external">Python Improved</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter" target="_blank" rel="external">RAML Syntax Highlighter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SCSS" target="_blank" rel="external">SCSS</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Tmux" target="_blank" rel="external">Tmux</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://packagecontrol.io/browse/labels/language%20syntax" target="_blank" rel="external">language syntax - Labels - Package Control</a><br><a href="https://packagecontrol.io/browse/labels/snippets" target="_blank" rel="external">snippets - Labels - Package Control</a></p>
+<h3 id="Plugins">Plugins</h3><table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://packagecontrol.io/packages/AdvancedNewFile" target="_blank" rel="external">AdvancedNewFile</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Alignment" target="_blank" rel="external">Alignment</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/" target="_blank" rel="external">AndroidImport</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/BetterFindBuffer" target="_blank" rel="external">BetterFindBuffer</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/BracketHighlighter" target="_blank" rel="external">BracketHighlighter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/C%2B%2B%20Starting%20Kit" target="_blank" rel="external">-C++ Starting Kit</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/DataConverter" target="_blank" rel="external">DataConverter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/DocBlockr" target="_blank" rel="external">DocBlockr</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/EasyMotion" target="_blank" rel="external">EasyMotion</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/EditorConfig" target="_blank" rel="external">EditorConfig</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Emmet" target="_blank" rel="external">-Emmet</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Filter%20Lines" target="_blank" rel="external">Filter Lines</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Function%20Name%20Display" target="_blank" rel="external">Function Name Display</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Github%20Tools" target="_blank" rel="external">Github Tools</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Keymaps" target="_blank" rel="external">Keymaps</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Move%20By%20Symbols" target="_blank" rel="external">Move By Symbols</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/MarkdownTOC" target="_blank" rel="external">MarkdownTOC</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/OmniMarkupPreviewer" target="_blank" rel="external">OmniMarkupPreviewer</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Open%20URL" target="_blank" rel="external">Open URL</a></td>
+<td>Open URL with <kbd>Ctrl</kbd>+<kbd>U</kbd></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Origami" target="_blank" rel="external">Origami</a></td>
+<td>Better pane management</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SideBarEnhancements" target="_blank" rel="external">SideBarEnhancements</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/StringEncode" target="_blank" rel="external">StringEncode</a></td>
+<td>Not char encode</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/StringUtilities" target="_blank" rel="external">StringUtilities</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeCodeIntel" target="_blank" rel="external">SublimeCodeIntel</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeTmpl" target="_blank" rel="external">SublimeTmpl</a></td>
+<td>BAD: it hijacks key combo</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeXiki" target="_blank" rel="external">SublimeXiki</a></td>
+<td><a href="http://xiki.org/" target="_blank" rel="external">E<strong>x</strong>ecutable w<strong>iki</strong></a></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Text%20Pastry" target="_blank" rel="external">Text Pastry</a></td>
+<td>Useful for creating and modifying selections, see <a href="https://github.com/duydao/Text-Pastry/wiki" target="_blank" rel="external">wiki</a></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Terminal" target="_blank" rel="external">Terminal</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/WordHighlight" target="_blank" rel="external">WordHighlight</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="Plugins_development">Plugins development</h3><table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://packagecontrol.io/packages/AAAPackageDev" target="_blank" rel="external">AAAPackageDev</a></td>
+<td><em>THE</em> plugin for package development</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/PackageResourceViewer" target="_blank" rel="external">PackageResourceViewer</a></td>
+<td>View files in package without the hassle of extrating <code>.sublime-package</code></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/ColorSchemeEditor" target="_blank" rel="external">ColorSchemeEditor</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="htnginxtps://packagecontrol.io/packages/SaneSnippets" target="_blank" rel="external">-SaneSnippets</a></td>
+<td>Define snippets with sane syntax</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/ScopeHunter" target="_blank" rel="external">ScopeHunter</a></td>
+<td>Shows scopes, useful for debugging syntax files</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Linter">Linter</h3><table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter" target="_blank" rel="external">SublimeLinter</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-annotations" target="_blank" rel="external">SublimeLinter-annotations</a></td>
+<td>Highlights <em>TODO</em>, <em>FIXME</em></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-cppcheck" target="_blank" rel="external">Sublime​Linter-cppcheck</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-csslint" target="_blank" rel="external">SublimeLinter-csslint</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-html-tidy" target="_blank" rel="external">SublimeLinter-html-tidy</a></td>
+<td>This causes <a href="https://github.com/SublimeLinter/SublimeLinter-html-tidy/issues/33" target="_blank" rel="external">error</a> in <code>paths</code></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint" target="_blank" rel="external">SublimeLinter-contrib-htmlhint</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-javac" target="_blank" rel="external">SublimeLinter-javac</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-jshint" target="_blank" rel="external">SublimeLinter-jshint</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-json" target="_blank" rel="external">SublimeLinter-json</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-lua" target="_blank" rel="external">SublimeLinter-lua</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-pep8" target="_blank" rel="external">SublimeLinter-pep8</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-ruby" target="_blank" rel="external">SublimeLinter-ruby</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-shellcheck" target="_blank" rel="external">SublimeLinter-shellcheck</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://packagecontrol.io/browse/labels/SublimeLinter" target="_blank" rel="external">SublimeLinter - Labels - Package Control</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/ssl-tls/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/us-and-canada-border/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-04-02 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/app/">app<span>28</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/package-control/">package-control<span>1</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/sublime-text/">sublime-text<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Must_Read_Docs"><span class="toc-article-text">Must Read Docs</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Project_Files"><span class="toc-article-text">Project Files</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Customization_after_install"><span class="toc-article-text">Customization after install</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Console"><span class="toc-article-text">Console</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Install_Directory"><span class="toc-article-text">Install Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Data_Directory"><span class="toc-article-text">Data Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package_Directory"><span class="toc-article-text">Package Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package_Control"><span class="toc-article-text">Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Extension_Development"><span class="toc-article-text">Extension Development</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Theme_Development"><span class="toc-article-text">Theme Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax_Development"><span class="toc-article-text">Syntax Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Snippets_Development"><span class="toc-article-text">Snippets Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Publishing_to_Package_Control"><span class="toc-article-text">Publishing to Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#My_Installed_Packages"><span class="toc-article-text">My Installed Packages</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Color_scheme/Themes"><span class="toc-article-text">Color scheme/Themes</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax/Snippets"><span class="toc-article-text">Syntax/Snippets</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins_development"><span class="toc-article-text">Plugins development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Linter"><span class="toc-article-text">Linter</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

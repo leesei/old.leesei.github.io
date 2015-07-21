@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>UML | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="UML"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> UML</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://en.wikipedia.org/wiki/Unified_Modeling_Language" target="_blank" rel="external">Unified Modeling Language (UML)</a><br><a href="http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation" target="_blank" rel="external">Business Process Model and Notation (BPMN)</a> is very similar to activity diagram.<br><a href="http://www.yang-central.org/twiki/bin/view/Main/WebHome" target="_blank" rel="external">YANG Central</a></p>
+<p><a href="http://www.holub.com/goodies/uml/" target="_blank" rel="external">Allen Holub’s UML Quick Reference</a><br><a href="http://creately.com/blog/diagrams/uml-diagram-types-examples/" target="_blank" rel="external">UML Diagram Types With Examples for Each Type of UML Diagrams</a></p>
+<p><a href="http://www.slideshare.net/Zed4rReal/uml-and-software-modeling-toolspptx" target="_blank" rel="external">UML and Software Modeling Tools</a></p>
+<a id="more"></a>
+<h2 id="Text_based_tools">Text based tools</h2><p>I used to use the GUI tool <a href="https://wiki.gnome.org/Apps/Dia/" target="_blank" rel="external">Dia</a>. But it was very buggy and no longer updated. I then went on to look for alternatives.</p>
+<p>I am frustrated with the UI diagram apps:</p>
+<ul>
+<li>layout of components takes time</li>
+<li>it is difficult to modify the diagrams in UI (especially for batch operations, e.g. rename, grouping)</li>
+<li>application lock-in because of the binary file format</li>
+<li>binary file is not trackable by VCS</li>
+<li>hard to integrate to other system</li>
+</ul>
+<p>So I focused on tools that provides a DSL for drawing UML from plain text.<br>Candidates are (ranked according to the criteria below):</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Language</th>
+<th>Diagrams</th>
+<th>Remark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://plantuml.sourceforge.net/" target="_blank" rel="external">PlantUML</a></td>
+<td>Java</td>
+<td>Activity, State, Sequence, Component, Class, Object, Use Case, etc</td>
+<td><a href="http://www.plantuml.com/plantuml/" target="_blank" rel="external">live</a>, <a href="http://plantuml.sourceforge.net/PlantUML_Language_Reference_Guide.pdf" target="_blank" rel="external">Language Reference</a><a href="http://www.patrick-wied.at/static/heatmapjs/" target="_blank" rel="external">http://www.patrick-wied.at/static/heatmapjs/</a></td>
+</tr>
+<tr>
+<td><a href="http://blockdiag.com/en/" target="_blank" rel="external">blockdiag</a></td>
+<td>Python</td>
+<td>Block, Activity, Sequence, Network, Rack, Packet</td>
+<td><a href="http://blockdiag.appspot.com/" target="_blank" rel="external">live</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/knsv/mermaid" target="_blank" rel="external">mermaid</a></td>
+<td>JavaScript</td>
+<td>Flowchart (Activity), Sequence, Gantt</td>
+<td><a href="http://knsv.github.io/mermaid/live_editor/" target="_blank" rel="external">live</a></td>
+</tr>
+<tr>
+<td><a href="http://jumly.tmtk.net/" target="_blank" rel="external">JUMLY</a></td>
+<td>JavaScript</td>
+<td>Sequence, Activity</td>
+<td><a href="http://jumly.tmtk.net/try.html" target="_blank" rel="external">live</a></td>
+</tr>
+<tr>
+<td><a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="external">js-sequence-diagrams</a></td>
+<td>JavaScript</td>
+<td>Sequence</td>
+<td>live</td>
+</tr>
+<tr>
+<td><a href="http://www.umlgraph.org/index.html" target="_blank" rel="external">UMLGraph</a></td>
+<td>Java</td>
+<td>Sequence, Class</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://www.ckwnc.com" target="_blank" rel="external">ckwnc</a></td>
+<td>?</td>
+<td>Sequence</td>
+<td>live <strong>only</strong>, C-like syntax</td>
+</tr>
+<tr>
+<td><a href="http://www.graphviz.org/" target="_blank" rel="external">Graphviz</a></td>
+<td>C</td>
+<td>Digraph</td>
+<td>layout/rendering layer for PlantUML and UMLGraph, with browser port <a href="https://github.com/mdaines/viz.js" target="_blank" rel="external">viz.js</a>, <a href="https://github.com/cpettitt/dagre" target="_blank" rel="external">dagre</a>, <a href="https://github.com/cpettitt/dagre-d3" target="_blank" rel="external">dagre-d3</a></td>
+</tr>
+</tbody>
+</table>
+<p>I ended up choosing PlantUML because:</p>
+<ul>
+<li>the syntax is more familiar and flexible</li>
+<li>active development</li>
+<li>generates beautiful diagrams</li>
+<li>styleable</li>
+<li>supports more diagram types</li>
+<li>easy to setup</li>
+<li>bindings to more projects indicates widespread usage</li>
+</ul>
+<p>BTW, blockdiag would be the first runner up. It also features several unique diagram types.</p>
+<p><a href="http://www.slideshare.net/MichaelBarSinai/generated-siagramspublic" target="_blank" rel="external">Draw More, Work Less</a></p>
+<h3 id="PlantUML">PlantUML</h3><p>The automatic layout of PlantUML is a curse <em>and</em> a blessing.<br>On one hand you are free of the hassle of arranging the elements, on the other hand you have little control over the position of how your elements.<br>Hackery like <code>horizontalLineBetweenDifferentPackageAllowed</code> and hidden edges are needed to tame the layout engine.</p>
+<p>PlantUML also embed other tools besides UML:<br>DITAA, Salt, JCCKit, Sudoku, XEarth</p>
+<p><a href="http://kimi.im/2014-05-17-drawing-uml-with-plantuml/" target="_blank" rel="external">Drawing UML with plantuml</a></p>
+<p><a href="http://www.planttext.com/planttext" target="_blank" rel="external">PlantText</a></p>
+<p><a href="https://chrome.google.com/webstore/detail/plantuml-viewer/legbfeljfbjgfifnkmpoajgpgejojooj" target="_blank" rel="external">PlantUML Viewer - Chrome Web Store</a><br><a href="https://chrome.google.com/webstore/detail/uml-diagram-editor/hoepdgfgogmeofkgkpapbdpdjkplcode" target="_blank" rel="external">UML Diagram Editor - Chrome Web Store</a><br><a href="http://sourceforge.net/projects/plantumlqeditor/" target="_blank" rel="external">PlantUML QEditor | SourceForge.net</a></p>
+<p><a href="https://sites.google.com/site/plantumlgizmo/learn" target="_blank" rel="external">Learn more - PlantUML Gizmo (add-on for Google Docs)</a></p>
+<p><a href="http://www.anotheruiguy.com/ux-design-dev/_book/ux/graphviz.html" target="_blank" rel="external">Graphviz | UX Design and Development course</a><br><a href="https://www.mankier.com/1/dot" target="_blank" rel="external">dot - man page</a></p>
+<h3 id="GaaS_(graph_as_a_service)">GaaS (graph as a service)</h3><p>With an HTTP client and scraping code, any DSL with web editor could be made as a service. This is especially easy if the DSL is provided as a library of course.</p>
+<p><a href="http://www.gravizo.com/" target="_blank" rel="external">Your Graphviz, UMLGraph or PlantUML for your README</a></p>
+<p>PlantUML’s <a href="http://plantuml.sourceforge.net/server.html" target="_blank" rel="external">service</a> mode, see<a href="http://plantuml.sourceforge.net/jquery.html" target="_blank" rel="external">jQuery</a> and JavaScript <a href="http://plantuml.sourceforge.net/demojavascript.html" target="_blank" rel="external">async</a> and <a href="http://plantuml.sourceforge.net/demojavascript2.html" target="_blank" rel="external">sync</a> integration.</p>
+<h2 id="GUI_Tools">GUI Tools</h2><p><a href="http://www.diagramming.org/" target="_blank" rel="external">UML Diagramming Tools | Diagramming.org</a><br><a href="http://modeling-languages.com/web-based-modeling-tools/" target="_blank" rel="external">Our list of online modeling tools</a></p>
+<p><a href="http://argouml.tigris.org/" target="_blank" rel="external">ArgoUML</a><br><a href="http://gaphor.sourceforge.net/download.php" target="_blank" rel="external">Gaphor UML Modelling</a>  (Python)<br><a href="https://www.modelio.org/index.php" target="_blank" rel="external">Modelio Open Source Community</a><br><a href="http://www.umlet.com/" target="_blank" rel="external">UMLet - Free UML Tool for Fast UML Diagrams</a><br><a href="http://alexdp.free.fr/violetumleditor/page.php" target="_blank" rel="external">Violet UML Editor : easy to use, completely free</a></p>
+<h3 id="Chrome_Apps">Chrome Apps</h3><p><a href="https://chrome.google.com/webstore/detail/drawio-desktop/pebppomjfocnoigkeepgbmcifnnlndla" target="_blank" rel="external">Draw.io Desktop - Chrome Web Store</a>: the diagram is saved as XML with unknown encoding<br><a href="https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad" target="_blank" rel="external">Gliffy Diagrams - Chrome Web Store</a>: the diagram is saved as JSON<br><a href="https://chrome.google.com/webstore/detail/lucidchart-diagrams-deskt/djejicklhojeokkfmdelnempiecmdomj" target="_blank" rel="external">Lucidchart Diagrams - Desktop - Chrome Web Store</a><br><a href="https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil" target="_blank" rel="external">Sketchboard.io - Chrome Web Store</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/artificial-intelligence/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/bnf/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-04-14 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/uml/">uml<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Text_based_tools"><span class="toc-article-text">Text based tools</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#PlantUML"><span class="toc-article-text">PlantUML</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#GaaS_(graph_as_a_service)"><span class="toc-article-text">GaaS (graph as a service)</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GUI_Tools"><span class="toc-article-text">GUI Tools</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Chrome_Apps"><span class="toc-article-text">Chrome Apps</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

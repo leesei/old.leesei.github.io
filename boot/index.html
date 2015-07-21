@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Boot | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Boot"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Boot</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://wiki.osdev.org/System_Initialization_(x86" target="_blank" rel="external">System Initialization (x86) - OSDev Wiki</a>)<br><a href="http://en.wikipedia.org/wiki/Linux_startup_process" target="_blank" rel="external">Linux startup process - Wikipedia, the free encyclopedia</a><br><a href="https://wiki.archlinux.org/index.php/Arch_boot_process" target="_blank" rel="external">Arch boot process - ArchWiki</a><br><a href="http://www.ibm.com/developerworks/linux/library/l-linuxboot/" target="_blank" rel="external">Inside the Linux boot process</a></p>
+<p><a href="https://wiki.manjaro.org/index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI" target="_blank" rel="external">Some basics of MBR v/s GPT and BIOS v/s UEFI - Manjaro Linux</a></p>
+<h2 id="Boot_Partition">Boot Partition</h2><p><a href="http://en.wikipedia.org/wiki/Master_boot_record" target="_blank" rel="external">Master boot record - Wikipedia, the free encyclopedia</a><br><a href="http://wiki.osdev.org/MBR_(x86" target="_blank" rel="external">MBR (x86) - OSDev Wiki</a>)<br><a href="http://en.wikipedia.org/wiki/GUID_Partition_Table" target="_blank" rel="external">GUID Partition Table - Wikipedia, the free encyclopedia</a><br><a href="http://www.ibm.com/developerworks/linux/library/l-gpt/index.html" target="_blank" rel="external">Make the most of large drives with GPT and Linux</a><br><a href="http://www.rodsbooks.com/gdisk/mbr2gpt.html" target="_blank" rel="external">Converting to or from GPT</a></p>
+<p><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/boot-and-system-volumes.html" target="_blank" rel="external">FGA: What “boot” and “system” volumes are</a><br><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/determining-system-volume.html" target="_blank" rel="external">FGA: How operating systems determine the location of the system volume when bootstrapped</a></p>
+<h2 id="BIOS">BIOS</h2><p>POST -&gt; BIOS -&gt; MBR of boot partition -&gt; Bootloader -&gt; Kernel -&gt;<br><a href="https://wiki.archlinux.org/index.php/Init" target="_blank" rel="external"><code>init</code></a>/<a href="https://wiki.archlinux.org/index.php/Systemd" target="_blank" rel="external"><code>systemd</code></a> -&gt; shell/display manager -&gt; <code>startx</code>/<code>xinit</code> -&gt; DE</p>
+<p><a href="https://wiki.archlinux.org/index.php/Arch_boot_process" target="_blank" rel="external">Arch boot process - ArchWiki</a><br><a href="http://www.linuxjournal.com/article/4622" target="_blank" rel="external">Boot with GRUB | Linux Journal</a></p>
+<h3 id="Fixing_MBR">Fixing MBR</h3><p><a href="http://support.microsoft.com/kb/927392" target="_blank" rel="external">http://support.microsoft.com/kb/927392</a><br><a href="http://windows7themes.net/how-to-fix-mbr-in-windows-7.html" target="_blank" rel="external">http://windows7themes.net/how-to-fix-mbr-in-windows-7.html</a><br><a href="http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html" target="_blank" rel="external">http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html</a><br><a href="http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html" target="_blank" rel="external">http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html</a><br><a href="http://ubuntuforums.org/showthread.php?t=1014708" target="_blank" rel="external">http://ubuntuforums.org/showthread.php?t=1014708</a></p>
+<h2 id="UEFI">UEFI</h2><p>POST -&gt; UEFI -&gt; Boot Manager (in UEFI) -&gt;<br>UEFI application (in EFI System partition) -&gt; Bootloader -&gt; Kernel -&gt; …</p>
+<p><a href="http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface" target="_blank" rel="external">Unified Extensible Firmware Interface - Wikipedia, the free encyclopedia</a><br><a href="https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface" target="_blank" rel="external">Unified Extensible Firmware Interface - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/REFInd" target="_blank" rel="external">rEFInd - ArchWiki</a></p>
+<p><a href="http://wiki.osdev.org/UEFI" target="_blank" rel="external">UEFI - OSDev Wiki</a><br><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/efi-boot-process.html" target="_blank" rel="external">FGA: The EFI boot process.</a><br><a href="https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/" target="_blank" rel="external">UEFI boot: how does that actually work, then?</a></p>
+<h3 id="howtogeek-com">howtogeek.com</h3><p><a href="http://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/" target="_blank" rel="external">HTG Explains: Learn How UEFI Will Replace Your PC’s BIOS</a><br><a href="http://www.howtogeek.com/184659/beginner-geek-hard-disk-partitions-explained/" target="_blank" rel="external">Beginner Geek: Hard Disk Partitions Explained</a><br><a href="http://www.howtogeek.com/193669/whats-the-difference-between-gpt-and-mbr-when-partitioning-a-drive/" target="_blank" rel="external">What’s the Difference Between GPT and MBR When Partitioning a Drive?</a></p>
+<h3 id="rodsbooks-com">rodsbooks.com</h3><p><a href="http://www.rodsbooks.com/efi-bootloaders/" target="_blank" rel="external">Managing EFI Boot Loaders for Linux</a><br><a href="http://www.rodsbooks.com/linux-uefi/" target="_blank" rel="external">Linux on UEFI: A Quick Installation Guide</a><br><a href="http://www.rodsbooks.com/refind/index.html" target="_blank" rel="external">The rEFInd Boot Manager</a><br><a href="http://www.rodsbooks.com/efi-bootloaders/secureboot.html" target="_blank" rel="external">Managing EFI Boot Loaders for Linux: Dealing with Secure Boot</a></p>
+<p><a href="http://www.rodsbooks.com/efi-programming/index.html" target="_blank" rel="external">Programming for EFI</a></p>
+<h3 id="x86asm-net">x86asm.net</h3><p><a href="http://x86asm.net/articles/introduction-to-uefi/index.html" target="_blank" rel="external">Introduction to UEFI</a><br><a href="http://x86asm.net/articles/uefi-programming-first-steps/index.html" target="_blank" rel="external">UEFI Programming - First Steps</a><br><a href="http://x86asm.net/articles/uefi-hypervisors-winning-the-race-to-bare-metal/index.html" target="_blank" rel="external">UEFI Hypervisors - Winning the Race to Bare Metal</a></p>
+<h2 id="Init_System_(pid_1)">Init System (pid 1)</h2><h3 id="init">init</h3><p><a href="http://www.wikiwand.com/en/Init" target="_blank" rel="external">init - Wikiwand</a></p>
+<p>Originates from System V, the oldest and most widely used init system.</p>
+<h3 id="upstart">upstart</h3><p><a href="http://www.wikiwand.com/en/Upstart" target="_blank" rel="external">Upstart - Wikiwand</a><br><a href="http://upstart.ubuntu.com/" target="_blank" rel="external">upstart - event-based init daemon</a></p>
+<h3 id="systemd">systemd</h3><p><a href="http://www.wikiwand.com/en/Systemd" target="_blank" rel="external">systemd - Wikiwand</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/" target="_blank" rel="external">systemd - freedesktop.org</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/" target="_blank" rel="external">TipsAndTricks</a></p>
+<p>System services are written in <code>.service</code> files, located in:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/usr/lib/systemd/system&#10;&#10;ln -s &#39;/usr/lib/systemd/system/teamviewerd.service&#39; &#39;/etc/systemd/system/graphical.target.wants/teamviewerd.service&#39;</span><br></pre></td></tr></table></figure></p>
+<p><a href="http://systemd-free.org/" target="_blank" rel="external">Archlinux, systemd-free</a><br><a href="https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal" target="_blank" rel="external">Systemd Essentials: Working with Services, Units, and the Journal | DigitalOcean</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">systemd-ui&#10;systemctl&#10;systemd-analyze</span><br></pre></td></tr></table></figure>
+<h3 id="from_Lennart_Poettering">from Lennart Poettering</h3><p><a href="http://0pointer.de/blog/projects/why.html" target="_blank" rel="external">Why systemd?</a><br><a href="http://0pointer.de/blog/projects/the-biggest-myths.html" target="_blank" rel="external">The Biggest Myths</a><br><a href="https://docs.google.com/document/pub?id=1IC9yOXj7j6cdLLxWEBAGRL6wl97tFxgjLUEHIX3MSTs" target="_blank" rel="external">systemd journal</a></p>
+<h4 id="systemd_for_Developers">systemd for Developers</h4><p><a href="http://0pointer.net/blog/projects/socket-activation.html" target="_blank" rel="external">systemd for Developers I</a><br><a href="http://0pointer.net/blog/projects/socket-activation2.html" target="_blank" rel="external">systemd for Developers II</a><br><a href="http://0pointer.net/blog/projects/journal-submit.html" target="_blank" rel="external">systemd for Developers III</a></p>
+<h4 id="systemd_for_Administrators">systemd for Administrators</h4><blockquote>
+<p>TODO:<br><a href="http://0pointer.net/blog/archives.html" target="_blank" rel="external">http://0pointer.net/blog/archives.html</a><br>select “systemd for Administrators” and generate links</p>
+</blockquote>
+<p><a href="http://0pointer.net/blog/projects/systemd-for-admins-1.html" target="_blank" rel="external">systemd for Administrators, Part 1</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-2.html" target="_blank" rel="external">systemd for Administrators, Part II</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-3.html" target="_blank" rel="external">systemd for Administrators, Part III</a><br>….<br><a href="http://0pointer.net/blog/systemd-for-administrators-part-xxi.html" target="_blank" rel="external">systemd For Administrators, Part XXI</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/storage/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/virtualization/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-05-10 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/desktop/">desktop<span>12</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Boot_Partition"><span class="toc-article-text">Boot Partition</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#BIOS"><span class="toc-article-text">BIOS</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Fixing_MBR"><span class="toc-article-text">Fixing MBR</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#UEFI"><span class="toc-article-text">UEFI</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#howtogeek-com"><span class="toc-article-text">howtogeek.com</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#rodsbooks-com"><span class="toc-article-text">rodsbooks.com</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#x86asm-net"><span class="toc-article-text">x86asm.net</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Init_System_(pid_1)"><span class="toc-article-text">Init System (pid 1)</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#init"><span class="toc-article-text">init</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#upstart"><span class="toc-article-text">upstart</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#systemd"><span class="toc-article-text">systemd</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#from_Lennart_Poettering"><span class="toc-article-text">from Lennart Poettering</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#systemd_for_Developers"><span class="toc-article-text">systemd for Developers</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#systemd_for_Administrators"><span class="toc-article-text">systemd for Administrators</span></a></li></ol></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

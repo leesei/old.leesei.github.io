@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Nginx | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Nginx"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Nginx</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="References">References</h2><p><a href="http://nginx.org/en/docs/" target="_blank" rel="external">nginx documentation</a><br><a href="http://nginx.org/en/docs/beginners_guide.html" target="_blank" rel="external">Beginner’s Guide</a></p>
+<p><a href="https://wiki.archlinux.org/index.php/Nginx" target="_blank" rel="external">nginx - ArchWiki</a><br><a href="http://wiki.nginx.org/Main" target="_blank" rel="external">Nginx Community</a><br><a href="http://wiki.nginx.org/GettingStarted" target="_blank" rel="external">GettingStarted - Nginx Community</a><br><a href="http://wiki.nginx.org/Pitfalls" target="_blank" rel="external">Pitfalls - Nginx Community</a></p>
+<p><a href="http://tengine.taobao.org/book/index.html" target="_blank" rel="external">Nginx开发从入门到精通 — Nginx开发从入门到精通</a><br><a href="http://openresty.org/download/agentzh-nginx-tutorials-en.html" target="_blank" rel="external">agentzh’s Nginx Tutorials</a> <a href="http://openresty.org/#eBooks" target="_blank" rel="external">download</a> <a href="https://github.com/openresty/nginx-tutorials" target="_blank" rel="external">source</a><br><a href="http://code.tutsplus.com/series/nginx-guide--cms-792" target="_blank" rel="external">Nginx Guide - Tuts+ Code Tutorials</a><br><a href="http://www.aosabook.org/en/nginx.html" target="_blank" rel="external">The Architecture of Open Source Applications (Volume 2): nginx</a></p>
+<p><a href="http://old.blog.phusion.nl/2013/08/21/use-nginx-spdy-without-compiling-nginx-and-without-a-recent-openssl/" target="_blank" rel="external">Use Nginx + SPDY, without compiling Nginx and without a recent OpenSSL - Phusion Blog</a></p>
+<p><a href="https://calomel.org/nginx.html" target="_blank" rel="external">Nginx Secure SSL Web Server @ Calomel.org</a></p>
+<h2 id="vs_Apache">vs Apache</h2><p><a href="https://michael.lustfield.net/nginx/nginx-vs-apache" target="_blank" rel="external">Nginx vs. Apache - Michael Lustfield</a></p>
+<h2 id="Configuration">Configuration</h2><blockquote>
+<p><a href="https://github.com/h5bp/server-configs-nginx" target="_blank" rel="external">https://github.com/h5bp/server-configs-nginx</a><br><a href="https://github.com/Umkus/nginx-boilerplate" target="_blank" rel="external">https://github.com/Umkus/nginx-boilerplate</a><br><a href="https://github.com/perusio/nginx_ensite" target="_blank" rel="external">https://github.com/perusio/nginx_ensite</a>  </p>
+</blockquote>
+<p><a href="http://wiki.nginx.org/Configuration" target="_blank" rel="external">Configuration - Nginx Community</a></p>
+<p><a href="http://blog.martinfjordvald.com/2010/07/nginx-primer/" target="_blank" rel="external">Nginx Configuration Primer</a><br><a href="https://blog.martinfjordvald.com/2011/02/nginx-primer-2-from-apache-to-nginx/" target="_blank" rel="external">Nginx Primer 2: From Apache to Nginx</a><br><a href="https://blog.martinfjordvald.com/2012/08/understanding-the-nginx-configuration-inheritance-model/" target="_blank" rel="external">Understanding the Nginx Configuration Inheritance Model</a><br><a href="https://blog.martinfjordvald.com/2013/06/debugging-nginx-errors/" target="_blank" rel="external">Debugging Nginx Errors</a></p>
+<p>Main config filer (<code>nginx.conf</code>) sits in the Nginx config folder (e.g. <code>/etc/nginx</code>).<br>There are <code>sites-available/</code> and <code>sites-enabled/</code>, default setting file includes <code>sites-enabled/*</code>.<br>Server files are usually put in <code>sites-available/</code> and symlinked to <code>sites-enabled/</code>.</p>
+<h3 id="init_(Debian/Ubuntu)">init (Debian/Ubuntu)</h3><blockquote>
+<p><a href="https://github.com/JasonGiedymin/nginx-init-ubuntu" target="_blank" rel="external">https://github.com/JasonGiedymin/nginx-init-ubuntu</a><br><a href="https://github.com/hulihanapplications/nginx-init-debian" target="_blank" rel="external">https://github.com/hulihanapplications/nginx-init-debian</a></p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ sudo service nginx </span><br><span class="line">configtest    force-reload  reload        restart       start         status        stop</span><br></pre></td></tr></table></figure>
+<h3 id="systemd">systemd</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo systemctl <span class="built_in">enable</span> nginx.service</span><br><span class="line">sudo systemctl start nginx.service</span><br></pre></td></tr></table></figure>
+<h2 id="Static_file_serving">Static file serving</h2><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="title">server</span> &#123;</span><br><span class="line">    <span class="title">listen</span>   <span class="number">80</span>;</span><br><span class="line">    <span class="title">server_name</span>  domain.com www.domain.com;</span><br><span class="line">    <span class="title">access_log</span>   /var/log/nginx/static_server.log combined;</span><br><span class="line">    <span class="title">root</span>   /home/www;</span><br><span class="line">    <span class="title">location</span> / &#123;</span><br><span class="line">            <span class="title">index</span>  index.php index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment"># Directory listing</span></span><br><span class="line">    <span class="title">location</span> /www &#123;</span><br><span class="line">           <span class="title">autoindex</span> <span class="built_in">on</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment"># Password protect a directory</span></span><br><span class="line">    <span class="title">location</span><span class="regexp"> ^~</span> /secret_folder/ &#123;</span><br><span class="line">        <span class="title">auth_basic</span>            <span class="string">"Restricted Area"</span>;</span><br><span class="line">        <span class="comment"># relative to this config file</span></span><br><span class="line">        <span class="comment"># using Apache's `htpasswd -b htpasswd NewUser NewPassword` or</span></span><br><span class="line">        <span class="comment"># http://www.tools.dynamicdrive.com/password/</span></span><br><span class="line">        <span class="title">auth_basic_user_file</span>  conf/htpasswd;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Setup group and ownership of www folder</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo -v</span><br><span class="line">usermod <span class="operator">-a</span> -G www-data <span class="variable">$&#123;USER&#125;</span></span><br><span class="line">chown -R www-data:www-data /home/www</span><br><span class="line">chmod -R g+w /home/www</span><br></pre></td></tr></table></figure>
+<h2 id="Redirect_to_https">Redirect to https</h2><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="title">server</span> &#123;</span><br><span class="line">    <span class="title">server_name</span> _;</span><br><span class="line">    <span class="title">rewrite</span><span class="regexp"> ^</span> <span class="url">https://example.com<span class="variable">$request_uri</span></span> <span class="built_in">permanent</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Node/Nginx">Node/Nginx</h2><p>Add this to <code>hosts</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">127.0.0.1   mynodeapp.dev</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>Uses <a href="http://nginx.org/en/docs/http/ngx_http_upstream_module.html" target="_blank" rel="external">upstream module</a> for abstraction and load balancing</p>
+</blockquote>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="comment"># node.conf</span></span><br><span class="line"></span><br><span class="line"><span class="title">upstream</span> node &#123;</span><br><span class="line">    <span class="title">server</span> <span class="url">http://127.0.0.1:3000</span></span><br><span class="line">    server <span class="url">unix:/tmp/mynodeapp.socket</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title">server</span> &#123;</span><br><span class="line">    <span class="title">listen</span> <span class="number">80</span>;</span><br><span class="line">    <span class="title">server_name</span> mynodeapp.dev</span><br><span class="line">    location / &#123;</span><br><span class="line">            <span class="title">proxy_pass</span> node;</span><br><span class="line">            <span class="title">proxy_set_header</span> Host <span class="variable">$http_host</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Reverse_proxy_api-github-com">Reverse proxy api.github.com</h2><p>Add this to <code>hosts</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">127.0.0.1   api.github.localhost</span><br></pre></td></tr></table></figure>
+<p>Add this to <code>/etc/nginx/sites-enabled/api.github</code>:</p>
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="title">server</span> &#123;</span><br><span class="line">    <span class="title">listen</span> <span class="number">80</span>;</span><br><span class="line">    <span class="title">server_name</span> api.github.localhost;</span><br><span class="line"></span><br><span class="line">    <span class="title">location</span> / &#123;</span><br><span class="line">        <span class="title">proxy_set_header</span> Host api.github.com;</span><br><span class="line">        <span class="title">proxy_pass</span> <span class="url">https://api.github.com/</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="title">access_log</span>      /var/log/nginx/github_access.log combined;</span><br><span class="line">    <span class="title">error_log</span>       /var/log/nginx/github_error.log <span class="built_in">error</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Nginx_status_page">Nginx status page</h2><figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="title">location</span> /nginx_status &#123;</span><br><span class="line">    <span class="comment"># Turn on nginx stats</span></span><br><span class="line">    <span class="title">stub_status</span> <span class="built_in">on</span>;</span><br><span class="line">    <span class="comment"># I do not need logs for stats</span></span><br><span class="line">    <span class="title">access_log</span>   <span class="built_in">off</span>;</span><br><span class="line">    <span class="comment"># Security: Only allow access from 192.168.1.100 IP #</span></span><br><span class="line">    <span class="title">allow</span> <span class="number">192.168.1.100</span>;</span><br><span class="line">    <span class="comment"># Send rest of the world to /dev/null #</span></span><br><span class="line">    <span class="title">deny</span> all;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Modules">Modules</h2><p><a href="http://openresty.org/" target="_blank" rel="external">OpenResty - a fast web app server by extending nginx</a><br><a href="http://wiki.nginx.org/3rdPartyModules" target="_blank" rel="external">3rdPartyModules - Nginx Community</a></p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auth Digest</td>
+<td><a href="https://github.com/samizdatco/nginx-http-auth-digest" target="_blank" rel="external">https://github.com/samizdatco/nginx-http-auth-digest</a></td>
+</tr>
+<tr>
+<td>Echo</td>
+<td><a href="https://github.com/agentzh/echo-nginx-module" target="_blank" rel="external">https://github.com/agentzh/echo-nginx-module</a></td>
+</tr>
+<tr>
+<td>Fancy Indexes</td>
+<td><a href="https://github.com/aperezdc/ngx-fancyindex" target="_blank" rel="external">https://github.com/aperezdc/ngx-fancyindex</a></td>
+</tr>
+<tr>
+<td>Log If</td>
+<td><a href="https://github.com/cfsego/ngx_log_if/" target="_blank" rel="external">https://github.com/cfsego/ngx_log_if/</a></td>
+</tr>
+<tr>
+<td>Lua</td>
+<td><a href="https://github.com/chaoslawful/lua-nginx-module" target="_blank" rel="external">https://github.com/chaoslawful/lua-nginx-module</a></td>
+</tr>
+<tr>
+<td>PageSpeeed</td>
+<td><a href="http://ngxpagespeed.com/ngx_pagespeed_example/" target="_blank" rel="external">http://ngxpagespeed.com/ngx_pagespeed_example/</a></td>
+</tr>
+</tbody>
+</table>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/tmux/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/heroku/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>15</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/nginx/">nginx<span>1</span></a></li> <li><a href="/tags/notes/">notes<span>19</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#References"><span class="toc-article-text">References</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#vs_Apache"><span class="toc-article-text">vs Apache</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Configuration"><span class="toc-article-text">Configuration</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#init_(Debian/Ubuntu)"><span class="toc-article-text">init (Debian/Ubuntu)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#systemd"><span class="toc-article-text">systemd</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Static_file_serving"><span class="toc-article-text">Static file serving</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Redirect_to_https"><span class="toc-article-text">Redirect to https</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Node/Nginx"><span class="toc-article-text">Node/Nginx</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reverse_proxy_api-github-com"><span class="toc-article-text">Reverse proxy api.github.com</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Nginx_status_page"><span class="toc-article-text">Nginx status page</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Modules"><span class="toc-article-text">Modules</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Go notes | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Go notes"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Go notes</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h1 id="Reference">Reference</h1><p><a href="http://golang.org/" target="_blank" rel="external">The Go Programming Language</a><br><a href="http://golang.org/ref/spec" target="_blank" rel="external">The Go Programming Language Specification - The Go Programming Language</a><br><a href="http://devdocs.io/go/" target="_blank" rel="external">DevDocs/Go</a><br><a href="http://blog.golang.org/go12" target="_blank" rel="external">Go 1.2 is released - The Go Blog</a><br><a href="http://golang.org/doc/go1.2" target="_blank" rel="external">Go 1.2 Release Notes - The Go Programming Language</a></p>
+<h2 id="packages">packages</h2><p><a href="https://godoc.org/" target="_blank" rel="external">GoDoc (package repository)</a><br><a href="https://code.google.com/p/go-wiki/wiki/SubRepositories" target="_blank" rel="external">SubRepositories - go-wiki - About the official sub-repositories.</a><br><a href="http://golang.org/pkg/" target="_blank" rel="external">Package Documentation (Go standard library)</a><br><a href="http://golang.org/pkg/fmt/" target="_blank" rel="external">fmt - The Go Programming Language</a><br><a href="http://golang.org/pkg/strings/" target="_blank" rel="external">strings - The Go Programming Language</a><br><a href="http://golang.org/pkg/strconv/" target="_blank" rel="external">strconv - The Go Programming Language</a><br><a href="http://golang.org/pkg/reflect/" target="_blank" rel="external">reflect - The Go Programming Language</a><br><a href="http://golang.org/pkg/encoding/json/" target="_blank" rel="external">json - The Go Programming Language</a><br><a href="http://golang.org/pkg/flag/" target="_blank" rel="external">flag - The Go Programming Language</a><br><a href="https://code.google.com/p/go-wiki/wiki/Projects" target="_blank" rel="external">Projects - go-wiki - A list of Go projects. - Go Language Community Wiki - Google Project Hosting</a></p>
+<h3 id="gopm">gopm</h3><p><a href="https://github.com/gpmgo/gopm" target="_blank" rel="external">gpmgo/gopm</a><br><a href="http://gopm.io/" target="_blank" rel="external">Gopm Registry - Versioning caching and delivery for your Go packages</a></p>
+<h1 id="Learn">Learn</h1><h2 id="Official">Official</h2><p><a href="http://golang.org/doc/" target="_blank" rel="external">Documentation - The Go Programming Language</a><br><a href="http://tour.golang.org/" target="_blank" rel="external">A Tour of Go</a>, <a href="https://code.google.com/p/go-tour/source/browse/solutions/" target="_blank" rel="external">solutions</a><br><a href="http://golang.org/doc/code.html" target="_blank" rel="external">How to Write Go Code - The Go Programming Language</a><br><a href="https://www.youtube.com/watch?v=XCsL89YtqCs" target="_blank" rel="external">Writing, building, installing, and testing Go code - YouTube</a><br><a href="http://golang.org/doc/effective_go.html" target="_blank" rel="external">Effective Go - The Go Programming Language</a><br><a href="http://golang.org/doc/faq" target="_blank" rel="external">Frequently Asked Questions (FAQ) - The Go Programming Language</a><br><a href="https://code.google.com/p/go-wiki/w/list" target="_blank" rel="external">Wiki Pages - go-wiki - Go Language Community Wiki - Google Project Hosting</a></p>
+<h2 id="Book">Book</h2><p><a href="https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details" target="_blank" rel="external">Building Web Apps with Go - GitBook</a></p>
+<h2 id="Design">Design</h2><p><a href="http://talks.golang.org/2012/splash.article" target="_blank" rel="external">Go at Google: Language Design in the Service of Software Engineering</a><br><a href="http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf" target="_blank" rel="external">Analysis of the Go runtime scheduler</a><br><a href="https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw/edit" target="_blank" rel="external">Scalable Go Scheduler Design Doc - Google Docs</a></p>
+<h3 id="Videos">Videos</h3><p><a href="https://www.youtube.com/watch?v=cN_DpYBzKso" target="_blank" rel="external">Rob Pike - ‘Concurrency Is Not Parallelism’ - YouTube</a><br><a href="https://www.youtube.com/watch?v=rKnDgT73v8s&amp;feature=related" target="_blank" rel="external">The Go Programming Language - YouTube</a><br><a href="https://www.youtube.com/watch?v=-i0hat7pdpk&amp;feature=relmfu" target="_blank" rel="external">Google I/O 2011: Writing Web Apps in Go - YouTube</a><br><a href="https://www.youtube.com/watch?v=f6kdp27TYZs" target="_blank" rel="external">Google I/O 2012 - Go Concurrency Patterns - YouTube</a><br><a href="https://www.youtube.com/watch?v=QDDwwePbDtw" target="_blank" rel="external">Google I/O 2013 - Advanced Go Concurrency Patterns - YouTube</a></p>
+<p>Building a Trie data structure.<br><a href="https://www.youtube.com/watch?v=9HqbKLcxQmo" target="_blank" rel="external">Tries - YouTube</a></p>
+<h3 id="Go_Blog">Go Blog</h3><blockquote>
+<p>collection of whitepaper-ish articles in Go Blog</p>
+</blockquote>
+<p><a href="http://blog.golang.org/index" target="_blank" rel="external">Article index - The Go Blog</a><br><a href="http://blog.golang.org/context" target="_blank" rel="external">Go Concurrency Patterns: Context - The Go Blog</a><br><a href="http://blog.golang.org/pipelines" target="_blank" rel="external">Go Concurrency Patterns: Pipelines and cancellation - The Go Blog</a><br><a href="http://blog.golang.org/playground" target="_blank" rel="external">Inside the Go Playground - The Go Blog</a><br><a href="http://blog.golang.org/normalization" target="_blank" rel="external">Text normalization in Go - The Go Blog</a><br><a href="http://blog.golang.org/strings" target="_blank" rel="external">Strings, bytes, runes and characters in Go - The Go Blog</a><br><a href="http://blog.golang.org/slices" target="_blank" rel="external">Arrays, slices (and strings): The mechanics of ‘append’ - The Go Blog</a><br><a href="http://blog.golang.org/race-detector" target="_blank" rel="external">Introducing the Go Race Detector - The Go Blog</a><br><a href="http://blog.golang.org/advanced-go-concurrency-patterns" target="_blank" rel="external">Advanced Go Concurrency Patterns - The Go Blog</a><br><a href="http://blog.golang.org/go-maps-in-action" target="_blank" rel="external">Go maps in action - The Go Blog</a><br><a href="http://blog.golang.org/concurrency-is-not-parallelism" target="_blank" rel="external">Concurrency is not parallelism - The Go Blog</a><br><a href="http://blog.golang.org/the-app-engine-sdk-and-workspaces-gopath" target="_blank" rel="external">The App Engine SDK and workspaces (GOPATH) - The Go Blog</a><br><a href="http://blog.golang.org/organizing-go-code" target="_blank" rel="external">Organizing Go code - The Go Blog</a><br><a href="http://blog.golang.org/laws-of-reflection" target="_blank" rel="external">The Laws of Reflection - The Go Blog</a><br><a href="http://blog.golang.org/error-handling-and-go" target="_blank" rel="external">Error handling and Go - The Go Blog</a><br><a href="http://blog.golang.org/profiling-go-programs" target="_blank" rel="external">Profiling Go Programs - The Go Blog</a><br><a href="http://blog.golang.org/gif-decoder-exercise-in-go-interfaces" target="_blank" rel="external">A GIF decoder: an exercise in Go interfaces - The Go Blog</a><br><a href="http://blog.golang.org/godoc-documenting-go-code" target="_blank" rel="external">Godoc: documenting Go code - The Go Blog</a><br><a href="http://blog.golang.org/gobs-of-data" target="_blank" rel="external">Gobs of data - The Go Blog</a><br><a href="http://blog.golang.org/c-go-cgo" target="_blank" rel="external">C? Go? Cgo! - The Go Blog</a><br><a href="http://blog.golang.org/json-and-go" target="_blank" rel="external">JSON and Go - The Go Blog</a><br><a href="http://blog.golang.org/go-slices-usage-and-internals" target="_blank" rel="external">Go Slices: usage and internals - The Go Blog</a><br><a href="http://blog.golang.org/go-concurrency-patterns-timing-out-and" target="_blank" rel="external">Go Concurrency Patterns: Timing out, moving on - The Go Blog</a><br><a href="http://blog.golang.org/defer-panic-and-recover" target="_blank" rel="external">Defer, Panic, and Recover - The Go Blog</a><br><a href="http://blog.golang.org/share-memory-by-communicating" target="_blank" rel="external">Share Memory By Communicating - The Go Blog</a><br><a href="http://blog.golang.org/gos-declaration-syntax" target="_blank" rel="external">Go’s Declaration Syntax - The Go Blog</a><br><a href="http://blog.golang.org/json-rpc-tale-of-interfaces" target="_blank" rel="external">JSON-RPC: a tale of interfaces - The Go Blog</a></p>
+<h2 id="Book-1">Book</h2><p><a href="http://www.golang-book.com/" target="_blank" rel="external">An Introduction to Programming in Go</a><br><a href="http://www.golangbootcamp.com/book" target="_blank" rel="external">Go Bootcamp | Softcover.io</a></p>
+<h2 id="Third_party">Third party</h2><p><a href="https://gobyexample.com/" target="_blank" rel="external">Go by Example</a><br><a href="http://learnxinyminutes.com/docs/go/" target="_blank" rel="external">Learn Go in Y Minutes</a><br><a href="http://golangtutorials.blogspot.hk/2011/05/table-of-contents.html" target="_blank" rel="external">GoLang Tutorials</a><br><a href="https://gophercasts.io/" target="_blank" rel="external">GopherCasts</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/regex/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/hapi/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-02-16 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/golang/">golang<span>1</span></a></li> <li><a href="/tags/gopm/">gopm<span>1</span></a></li> <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#packages"><span class="toc-article-text">packages</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#gopm"><span class="toc-article-text">gopm</span></a></li></ol></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#Learn"><span class="toc-article-text">Learn</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Official"><span class="toc-article-text">Official</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Book"><span class="toc-article-text">Book</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Design"><span class="toc-article-text">Design</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Videos"><span class="toc-article-text">Videos</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Go_Blog"><span class="toc-article-text">Go Blog</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Book-1"><span class="toc-article-text">Book</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Third_party"><span class="toc-article-text">Third party</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

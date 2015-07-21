@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[leesei's notebook]]></title>
+  <subtitle><![CDATA[εмβяαςε мλ sμρεя gεεκ ροωεя.]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://leesei.github.io//"/>
+  <updated>2015-07-20T10:13:10.816Z</updated>
+  <id>http://leesei.github.io//</id>
+  
+  <author>
+    <name><![CDATA[leesei]]></name>
+    <email><![CDATA[leesei@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Gamification]]></title>
+    <link href="http://leesei.github.io/gamification/"/>
+    <id>http://leesei.github.io/gamification/</id>
+    <published>2015-07-20T10:09:20.000Z</published>
+    <updated>2015-07-20T10:13:10.816Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://www.wikiwand.com/en/Gamification" target="_blank" rel="external">Gamification - Wikiwand</a><br><a href="http://www.bunchball.com/gamification" target="_blank" rel="external">What is Gamification and Why Bunchball is the Answer | Bunchball</a><br><a href="https://badgeville.com/wiki/Gamification" target="_blank" rel="external">What is Gamification? | Gamification.org</a></p>
+<p><a href="http://tpkelly.gitbooks.io/gaming-the-system/content/" target="_blank" rel="external">Gaming the System</a><br><a href="https://www.coursera.org/course/gamification" target="_blank" rel="external">Gamification - University of Pennsylvania | Coursera</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://www.wikiwand.com/en/Gamification" target="_blank" rel="external">Gamification - Wikiwand</a><br><a href="http://www.bunc]]>
+    </summary>
+    
+      <category term="gamification" scheme="http://leesei.github.io/tags/gamification/"/>
+    
+      <category term="trivia" scheme="http://leesei.github.io/categories/trivia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Electron]]></title>
+    <link href="http://leesei.github.io/electron/"/>
+    <id>http://leesei.github.io/electron/</id>
+    <published>2015-07-19T06:07:01.000Z</published>
+    <updated>2015-07-19T06:11:22.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://electron.atom.io/" target="_blank" rel="external">Electron</a> (<a href="https://github.com/atom/electron" target="_blank" rel="external">Github</a>), previously Atom shell, is a platform that bundles Chromium and Node.js runtime for developers to write cross-platform desktop applications with JavaScript and HTML.</p>
+<p>It is very similar to the <a href="http://nwjs.io/" target="_blank" rel="external">NW.js</a> project but the differences are explained <a href="http://electron.atom.io/docs/v0.29.0/development/atom-shell-vs-node-webkit/" target="_blank" rel="external">here</a>.</p>
+<p><a href="https://github.com/sindresorhus/awesome-electron" target="_blank" rel="external">sindresorhus/awesome-electron</a></p>
+<p><a href="https://github.com/sindresorhus/electron-debug" target="_blank" rel="external">sindresorhus/electron-debug</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://electron.atom.io/" target="_blank" rel="external">Electron</a> (<a href="https://github.com/atom/electron" target="_blank]]>
+    </summary>
+    
+      <category term="uncategorized" scheme="http://leesei.github.io/categories/uncategorized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Awesome Lists]]></title>
+    <link href="http://leesei.github.io/awesome-lists/"/>
+    <id>http://leesei.github.io/awesome-lists/</id>
+    <published>2015-07-19T05:52:46.000Z</published>
+    <updated>2015-07-19T07:17:17.000Z</updated>
+    <content type="html"><![CDATA[<p>Awesome list is a project start <a href="https://github.com/sindresorhus" target="_blank" rel="external">sindresorhus (Sindre Sorhus)</a>.</p>
+<p><a href="https://github.com/sindresorhus/awesome/blob/master/awesome.md" target="_blank" rel="external">The awesome manifesto</a>.</p>
+<h2 id="Awesome_list_of_Awesome_lists">Awesome list of Awesome lists</h2><p><a href="https://awesome-awesomeness.zeef.com/alexander.bayandin" target="_blank" rel="external">Awesome Awesomeness by Alexander Bayandin | ZEEF</a>, also <a href="https://github.com/bayandin/awesome-awesomeness" target="_blank" rel="external">bayandin/awesome-awesomeness</a><br><a href="https://github.com/emijrp/awesome-awesome" target="_blank" rel="external">emijrp/awesome-awesome</a><br><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="external">sindresorhus/awesome</a></p>
+<h2 id="Awesome_list">Awesome list</h2><p><a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank" rel="external">sindresorhus/awesome-nodejs</a><br><a href="https://github.com/sindresorhus/awesome-electron" target="_blank" rel="external">sindresorhus/awesome-electron</a><br><a href="https://github.com/sindresorhus/amas" target="_blank" rel="external">sindresorhus/amas</a> (Ask Me Anything)</p>
+<p><a href="https://github.com/Hunter-Github/awesome-firefox" target="_blank" rel="external">Hunter-Github/awesome-firefox</a><br><a href="https://github.com/emijrp/awesome-wikipedia" target="_blank" rel="external">emijrp/awesome-wikipedia</a><br><a href="https://github.com/elburz/awesome-space" target="_blank" rel="external">elburz/awesome-space</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Awesome list is a project start <a href="https://github.com/sindresorhus" target="_blank" rel="external">sindresorhus (Sindre Sorhus)</a>]]>
+    </summary>
+    
+      <category term="uncategorized" scheme="http://leesei.github.io/categories/uncategorized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Issue Tracker]]></title>
+    <link href="http://leesei.github.io/issue-tracker/"/>
+    <id>http://leesei.github.io/issue-tracker/</id>
+    <published>2015-07-17T07:04:05.000Z</published>
+    <updated>2015-07-17T08:01:32.967Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://www.atlassian.com/software/jira" target="_blank" rel="external">JIRA - Issue &amp; Project Tracking Software | Atlassian</a></p>
+<p><a href="http://www.redmine.org/" target="_blank" rel="external">Overview - Redmine</a></p>
+<p><a href="http://trac.edgewall.org/" target="_blank" rel="external">The Trac Project</a></p>
+<p><a href="https://www.bugzilla.org/about/" target="_blank" rel="external">About :: Bugzilla :: bugzilla.org</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://www.atlassian.com/software/jira" target="_blank" rel="external">JIRA - Issue &amp; Project Tracking Software | Atlassian]]>
+    </summary>
+    
+      <category term="apps" scheme="http://leesei.github.io/categories/apps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Augmented Reality]]></title>
+    <link href="http://leesei.github.io/augmented-reality/"/>
+    <id>http://leesei.github.io/augmented-reality/</id>
+    <published>2015-07-14T07:12:37.000Z</published>
+    <updated>2015-07-14T08:50:18.797Z</updated>
+    <content type="html"><![CDATA[<h2 id="Oculus_Rift">Oculus Rift</h2><h2 id="HoloLens">HoloLens</h2><p><a href="http://unwire.hk/2015/06/16/hololens-minecraft/game-channel/" target="_blank" rel="external">HoloLens 版 Minecraft 實玩 Demo 展現出 VR 新世界 - UNWIRE.HK</a></p>
+<h2 id="Gear_VR">Gear VR</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Oculus_Rift">Oculus Rift</h2><h2 id="HoloLens">HoloLens</h2><p><a href="http://unwire.hk/2015/06/16/hololens-minecraft/game-channel/]]>
+    </summary>
+    
+      <category term="comp.hardware" scheme="http://leesei.github.io/categories/comp-hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Atom]]></title>
+    <link href="http://leesei.github.io/atom/"/>
+    <id>http://leesei.github.io/atom/</id>
+    <published>2015-07-08T16:16:00.000Z</published>
+    <updated>2015-07-14T09:00:20.545Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://atom.io/" target="_blank" rel="external">Atom</a><br><a href="https://github.com/atom/atom/issues" target="_blank" rel="external">Issues · atom/atom</a></p>
+<p><a href="http://www.atomtips.com/" target="_blank" rel="external">Atom Editor Tips and Tricks</a><br><a href="http://www.atomtips.com/atom-editor-vs-sublime-text/" target="_blank" rel="external">Atom editor or Sublime Text which one to pick</a></p>
+<a id="more"></a>
+<h2 id="Must_Read_Docs">Must Read Docs</h2><p><a href="https://atom.io/docs/latest/" target="_blank" rel="external">Atom</a><br><a href="https://atom.io/docs" target="_blank" rel="external">Documentation</a>  </p>
+<p>| SublimeText | Atom        |<br>| =========== | =========== |<br>| Syntax      | Grammar     |</p>
+<h2 id="Package_Management">Package Management</h2><p>Atom has a built in package manager <code>apm</code> to install packages form official repo.<br>You can also directly install to config folder.</p>
+<p><a href="https://atom.io/packages" target="_blank" rel="external">Packages</a><br><a href="https://atom.io/themes" target="_blank" rel="external">Themes</a>  </p>
+<p><a href="http://www.atomtips.com/how-to-synchronize-atom-between-computers/" target="_blank" rel="external">How to synchronize packages and settings</a><br><a href="https://atom.io/packages/sync-settings" target="_blank" rel="external">sync-settings</a><br><a href="https://atom.io/packages/parcel" target="_blank" rel="external">parcel</a><br><a href="https://atom.io/packages/package-list" target="_blank" rel="external">package-list</a><br><a href="https://atom.io/packages/package-list-downloader" target="_blank" rel="external">package-list-downloader</a><br><a href="https://atom.io/packages/package-sync" target="_blank" rel="external">package-sync</a>  </p>
+<h3 id="Adding_to_Context_Menu">Adding to Context Menu</h3><p>In <code>init.coffee</code>:</p>
+<figure class="highlight coffee"><table><tr><td class="code"><pre><span class="line">atom.contextMenu.add &#123;</span><br><span class="line">    <span class="string">'atom-text-editor'</span>: [&#123;</span><br><span class="line">        <span class="attribute">label</span>: <span class="string">'Bookmark'</span>,</span><br><span class="line">        <span class="attribute">command</span>: <span class="string">'my-package:toggle'</span></span><br><span class="line">    &#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Extension_Development">Extension Development</h2><p><a href="https://atom.io/packages/package-generator" target="_blank" rel="external">package-generator</a><br><a href="https://atom.io/packages/run-in-atom" target="_blank" rel="external">run-in-atom</a>  </p>
+<h3 id="Theme_Development">Theme Development</h3><h3 id="Grammar_Development">Grammar Development</h3><h3 id="Snippets_Development">Snippets Development</h3><p><a href="http://www.atomtips.com/get-productive-atom-snippets/" target="_blank" rel="external">Get productive with Atom Snippets - Atom Editor Tips and Tricks</a></p>
+<h3 id="Publishing_to_Package_Control">Publishing to Package Control</h3><h2 id="My_Installed_Packages">My Installed Packages</h2><p><a href="http://jacobthemyth.gitbooks.io/front-end-engineering-may-2015/content/notes/misc/atom-setup.html" target="_blank" rel="external">Atom Setup | Front End Engineering, May 2015</a></p>
+<h3 id="Color_scheme/Themes">Color scheme/Themes</h3><p><a href="https://atom.io/themes/atom-material-ui" target="_blank" rel="external">atom-material-ui</a><br><a href="https://atom.io/themes/seti-ui" target="_blank" rel="external">seti-ui</a><br><a href="https://atom.io/themes/unity-ui" target="_blank" rel="external">unity-ui</a>  </p>
+<p><a href="https://atom.io/themes/material-design-syntax" target="_blank" rel="external">material-design-syntax</a></p>
+<h3 id="Grammar/Snippets">Grammar/Snippets</h3><p><a href="https://atom.io/packages/angularjs" target="_blank" rel="external">angularjs</a><br><a href="https://atom.io/packages/atom-bootstrap3" target="_blank" rel="external">atom-bootstrap3</a><br><a href="https://atom.io/packages/jquery-snippets" target="_blank" rel="external">jquery-snippets</a><br><a href="https://atom.io/packages/react" target="_blank" rel="external">react</a>  </p>
+<p><a href="https://atom.io/packages/javascript-snippets" target="_blank" rel="external">javascript-snippets</a><br><a href="https://atom.io/packages/turbo-javascript" target="_blank" rel="external">turbo-javascript</a>  </p>
+<h3 id="Plugins">Plugins</h3><p><a href="https://atom.io/packages/atom-alignment" target="_blank" rel="external">atom-alignment</a><br><a href="https://atom.io/packages/atom-beautify" target="_blank" rel="external">atom-beautify</a><br><a href="https://atom.io/packages/autocomplete-paths" target="_blank" rel="external">autocomplete-paths</a><br><a href="https://atom.io/packages/autocomplete-plus" target="_blank" rel="external">autocomplete-plus</a><br><a href="https://atom.io/packages/autocomplete-snippets" target="_blank" rel="external">autocomplete-snippets</a><br><a href="https://atom.io/packages/git-plus" target="_blank" rel="external">git-plus</a><br><a href="https://atom.io/packages/highlight-selected" target="_blank" rel="external">highlight-selected</a><br><a href="https://atom.io/packages/keybinding-cheatsheet" target="_blank" rel="external">keybinding-cheatsheet</a><br><a href="https://atom.io/packages/minimap-find-and-replace" target="_blank" rel="external">minimap-find-and-replace</a><br><a href="https://atom.io/packages/minimap" target="_blank" rel="external">minimap</a><br><a href="https://atom.io/packages/pigments" target="_blank" rel="external">pigments</a><br><a href="https://atom.io/packages/project-manager" target="_blank" rel="external">project-manager</a><br><a href="https://atom.io/packages/script" target="_blank" rel="external">script</a>  </p>
+<h3 id="Plugins_development">Plugins development</h3><h3 id="Linter">Linter</h3><p><a href="https://atom.io/packages/linter" target="_blank" rel="external">linter</a>  (<a href="http://atomlinter.github.io/" target="_blank" rel="external">Linters list</a>)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://atom.io/">Atom</a><br><a href="https://github.com/atom/atom/issues">Issues · atom/atom</a></p>
+<p><a href="http://www.atomtips.com/">Atom Editor Tips and Tricks</a><br><a href="http://www.atomtips.com/atom-editor-vs-sublime-text/">Atom editor or Sublime Text which one to pick</a></p>]]>
+    
+    </summary>
+    
+      <category term="atom" scheme="http://leesei.github.io/tags/atom/"/>
+    
+      <category term="package-manager" scheme="http://leesei.github.io/tags/package-manager/"/>
+    
+      <category term="settings" scheme="http://leesei.github.io/tags/settings/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Social Coding]]></title>
+    <link href="http://leesei.github.io/social-coding/"/>
+    <id>http://leesei.github.io/social-coding/</id>
+    <published>2015-07-02T06:20:43.000Z</published>
+    <updated>2015-07-12T09:09:52.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Virtual_Machines">Virtual Machines</h2><p><a href="https://koding.com/Home" target="_blank" rel="external">Koding | Say goodbye to your localhost and code in the cloud.</a><br><a href="https://www.nitrous.io/" target="_blank" rel="external">Nitrous.IO</a><br>  <a href="http://help.nitrous.io/mongodb/" target="_blank" rel="external">Setting up MongoDB with Autoparts</a><br><a href="https://runnable.com/" target="_blank" rel="external">Run server-side code and discover APIs in your browser</a></p>
+<h2 id="Snippets">Snippets</h2><p><a href="https://gist.github.com/" target="_blank" rel="external">Gists</a><br><a href="https://snipt.net/" target="_blank" rel="external">Snipt</a><br><a href="http://pastie.org/" target="_blank" rel="external">Pastie</a><br><a href="http://pastebin.com/" target="_blank" rel="external">Pastebin.com - #1 paste tool since 2002!</a></p>
+<p><a href="http://codepad.org/" target="_blank" rel="external">codepad</a><br><a href="http://jsfiddle.net/" target="_blank" rel="external">jsFiddle</a><br><a href="http://jsbin.com/" target="_blank" rel="external">JS Bin - Collaborative JavaScript Debugging</a><br><a href="http://plnkr.co/" target="_blank" rel="external">Plunker</a><br><a href="http://requirebin.com/" target="_blank" rel="external">RequireBin</a></p>
+<p><a href="http://regex101.com/" target="_blank" rel="external">Regular Expressions 101</a> for regex<br><a href="http://tributary.io/" target="_blank" rel="external">Tributary</a> for D3 diagram<br><a href="http://bl.ocks.org/" target="_blank" rel="external">bl.ocks.org</a> for D3 diagram</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Virtual_Machines">Virtual Machines</h2><p><a href="https://koding.com/Home" target="_blank" rel="external">Koding | Say goodbye to y]]>
+    </summary>
+    
+      <category term="comp.lang" scheme="http://leesei.github.io/categories/comp-lang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Philosophy]]></title>
+    <link href="http://leesei.github.io/philosophy/"/>
+    <id>http://leesei.github.io/philosophy/</id>
+    <published>2015-06-29T03:01:15.000Z</published>
+    <updated>2015-06-30T10:20:59.729Z</updated>
+    <content type="html"><![CDATA[<h2 id="Consciousness">Consciousness</h2><p><a href="http://www.quora.com/What-is-consciousness/answer/John-Ringland" target="_blank" rel="external">John Ringland’s answer to What is consciousness? - Quora</a><br><a href="http://www.quora.com/How-do-we-know-that-were-not-living-in-a-computer-simulation" target="_blank" rel="external">How do we know that we’re not living in a computer simulation? - Quora</a><br><a href="http://www.simulation-argument.com/" target="_blank" rel="external">Are You Living in a Computer Simulation?</a></p>
+<h2 id="Knowledge_Theory">Knowledge Theory</h2><p><a href="http://www.theoryofknowledge.info/" target="_blank" rel="external">Theory of Knowledge</a><br><a href="http://www.quora.com/Naive-Realism" target="_blank" rel="external">Naive Realism - Quora</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Consciousness">Consciousness</h2><p><a href="http://www.quora.com/What-is-consciousness/answer/John-Ringland" target="_blank" rel="e]]>
+    </summary>
+    
+      <category term="philosophy" scheme="http://leesei.github.io/categories/philosophy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Software Licensing (dev)]]></title>
+    <link href="http://leesei.github.io/software-licensing-dev/"/>
+    <id>http://leesei.github.io/software-licensing-dev/</id>
+    <published>2015-06-27T08:33:18.000Z</published>
+    <updated>2015-06-27T08:33:49.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://github.com/bdrister/AquaticPrime" target="_blank" rel="external">bdrister/AquaticPrime</a></p>
+<p><a href="http://www.tempel.org/UsingAquaticPrime/" target="_blank" rel="external">Thomas Tempelmann | Adding copy protection &amp; using the AquaticPrime licensing framework</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://github.com/bdrister/AquaticPrime" target="_blank" rel="external">bdrister/AquaticPrime</a></p>
+<p><a href="http://www.te]]>
+    </summary>
+    
+      <category term="licence" scheme="http://leesei.github.io/tags/licence/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[User Experience (UX)]]></title>
+    <link href="http://leesei.github.io/ux/"/>
+    <id>http://leesei.github.io/ux/</id>
+    <published>2015-06-25T09:11:57.000Z</published>
+    <updated>2015-07-04T16:36:19.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://wordpress.com/design-handbook/" target="_blank" rel="external">WordPress.com Design Handbook</a><br><a href="https://www.google.com/design/" target="_blank" rel="external">Google Design</a><br><a href="https://www.google.com/design/spec/" target="_blank" rel="external">Material design - Google design guidelines</a><br><a href="http://resources.ogdesign.tw/" target="_blank" rel="external">設計必備資源總匯 - 奧革設計</a><br><a href="http://blog.clifftechnologies.com.tw/category/web-design/" target="_blank" rel="external">網站設計 Archives - myCAD</a><br><a href="http://blog.fourdesire.com/" target="_blank" rel="external">Fourdesire</a></p>
+<p><a href="http://blog.codinghorror.com/the-god-login/" target="_blank" rel="external">The God Login</a><br><a href="http://ui-patterns.com/blog/How-to-get-better-at-UI-design" target="_blank" rel="external">How to get better at UI and UX design</a></p>
+<p><a href="https://www.udacity.com/course/ux-design-for-mobile-developers--ud849" target="_blank" rel="external">UX Design for Mobile Developers Course - Udacity</a><br>Udacity — UX Design for Mobile Developers<br><a href="http://maximebodereau.gitbooks.io/ux/content/" target="_blank" rel="external">Ux for Beginner</a><br><a href="http://www.anotheruiguy.com/ux-design-dev/_book/" target="_blank" rel="external">UX Design and Development course</a><br><a href="https://www.coursera.org/specialization/humancomputerinteraction/28" target="_blank" rel="external">Human Computer Interaction: User Experience and User Interface Design Certificate | Coursera</a><br><a href="https://www.udacity.com/course/design101" target="_blank" rel="external">Intro to the Design of Everyday Things - Udacity</a><br><a href="https://www.udacity.com/course/ud849" target="_blank" rel="external">UX Design for Mobile Developers Course - Udacity</a></p>
+<h2 id="Patterns">Patterns</h2><p><a href="http://zurb.com/patterntap" target="_blank" rel="external">PatternTap | ZURB Library</a><br><a href="http://pttrns.com/" target="_blank" rel="external">Pttrns | Mobile design patterns, resources and inspiration</a><br><a href="http://ui-patterns.com/" target="_blank" rel="external">UI-Patterns.com</a></p>
+<h2 id="Colors">Colors</h2><p><a href="http://coolors.co/" target="_blank" rel="external">Coolors - The super fast color schemes generator!</a><br><a href="http://www.colorhexa.com/" target="_blank" rel="external">Color Hex - ColorHexa.com</a><br><a href="https://color.adobe.com/zh/" target="_blank" rel="external">Adobe Color CC</a></p>
+<h2 id="Responsive_Web_Design_Tools">Responsive Web Design Tools</h2><p><a href="http://responsive.victorcoulon.fr/" target="_blank" rel="external">Responsive Design Bookmarklet</a><br><a href="http://mattkersley.com/responsive/" target="_blank" rel="external">Responsive Design Testing</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://wordpress.com/design-handbook/" target="_blank" rel="external">WordPress.com Design Handbook</a><br><a href="https://www]]>
+    </summary>
+    
+      <category term="ui" scheme="http://leesei.github.io/tags/ui/"/>
+    
+      <category term="ux" scheme="http://leesei.github.io/tags/ux/"/>
+    
+      <category term="uncategorized" scheme="http://leesei.github.io/categories/uncategorized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mobile OS]]></title>
+    <link href="http://leesei.github.io/mobile-os/"/>
+    <id>http://leesei.github.io/mobile-os/</id>
+    <published>2015-06-22T04:25:26.000Z</published>
+    <updated>2015-06-24T12:13:22.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://www.wikiwand.com/en/Comparison_of_mobile_operating_systems" target="_blank" rel="external">Comparison of mobile operating systems - Wikiwand</a></p>
+<a id="more"></a>
+<h2 id="Samsung_Tizen">Samsung Tizen</h2><p><a href="https://www.tizen.org/" target="_blank" rel="external">Tizen</a><br><a href="https://developer.tizen.org/" target="_blank" rel="external">Tizen Developers</a><br><a href="http://www.wikiwand.com/en/Tizen" target="_blank" rel="external">Tizen - Wikiwand</a></p>
+<p>Native part adopts the abandoned <a href="http://www.wikiwand.com/en/Bada" target="_blank" rel="external">Bada</a> project.</p>
+<h2 id="Jolla_Sailfish">Jolla Sailfish</h2><p><a href="https://sailfishos.org/" target="_blank" rel="external">SailfishOS - sailfishos.org</a><br><a href="https://www.wikiwand.com/en/Sailfish_OS" target="_blank" rel="external">Sailfish OS - Wikiwand</a></p>
+<p>It is based on <a href="http://merproject.org/" target="_blank" rel="external">Mer</a>, a fork of the abandoned <a href="http://www.wikiwand.com/en/MeeGo" target="_blank" rel="external">MeeGo</a> project.</p>
+<h2 id="Mozilla_FireFox_OS">Mozilla FireFox OS</h2><p><a href="https://www.mozilla.org/en-US/firefox/os/2.0/" target="_blank" rel="external">Firefox OS</a><br><a href="http://www.wikiwand.com/en/Firefox_OS" target="_blank" rel="external">Firefox OS - Wikiwand</a></p>
+<p><a href="https://developer.mozilla.org/en-US/Firefox_OS" target="_blank" rel="external">Firefox OS - Mozilla | MDN</a><br><a href="https://developer.mozilla.org/en-US/Firefox_OS/Platform/Architecture" target="_blank" rel="external">Firefox OS architecture - Mozilla | MDN</a></p>
+<h2 id="Google_Android">Google Android</h2><p><a href="http://www.wikiwand.com/en/Android_(operating_system" target="_blank" rel="external">Android (operating system) - Wikiwand</a>)</p>
+<h2 id="Apple_iOS">Apple iOS</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://www.wikiwand.com/en/Comparison_of_mobile_operating_systems">Comparison of mobile operating systems - Wikiwand</a></p>]]>
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="http://leesei.github.io/categories/uncategorized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Apache]]></title>
+    <link href="http://leesei.github.io/apache/"/>
+    <id>http://leesei.github.io/apache/</id>
+    <published>2015-06-21T10:58:50.000Z</published>
+    <updated>2015-07-12T07:17:02.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://perishablepress.com/stupid-htaccess-tricks/" target="_blank" rel="external">Stupid htaccess Tricks | Perishable Press</a><br><a href="http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244" target="_blank" rel="external">Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article</a></p>
+<h3 id="HTTPS">HTTPS</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># generate cert</span></span><br><span class="line">&gt; openssl genrsa -out privatekey.pem <span class="number">1024</span></span><br><span class="line">&gt; openssl req -new -key privatekey.pem -x509 -days <span class="number">7300</span> -out certificate.pem</span><br><span class="line"></span><br><span class="line">Loading <span class="string">'screen'</span> into random state - <span class="keyword">done</span></span><br><span class="line">You are about to be asked to enter information that will be incorporated</span><br><span class="line">into your certificate request.</span><br><span class="line">What you are about to enter is what is called a Distinguished Name or a DN.</span><br><span class="line">There are quite a few fields but you can leave some blank</span><br><span class="line">For some fields there will be a default value,</span><br><span class="line">If you enter <span class="string">'.'</span>, the field will be left blank.</span><br><span class="line">-----</span><br><span class="line">Country Name (<span class="number">2</span> letter code) [AU]:tw</span><br><span class="line">State or Province Name (full name) [Some-State]:Taiwan</span><br><span class="line">Locality Name (eg, city) []:Taipei</span><br><span class="line">Organization Name (eg, company) [Internet Widgits Pty Ltd]:MyCompany</span><br><span class="line">Organizational Unit Name (eg, section) []:IT-Dept</span><br><span class="line">Common Name (e.g. server FQDN or YOUR name) []:ssl.mycompany.com.tw</span><br><span class="line">Email Address []:</span><br></pre></td></tr></table></figure>
+<p>Configure Apache:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#60;VirtualHost *:80&#62;&#10;       ServerAdmin                   # &#38651;&#23376;&#37109;&#20214;&#20449;&#31665;&#65292;&#21487;&#20219;&#24847;&#22635;&#65292;&#20294;&#19981;&#33021;&#28858;&#31354;&#20540;&#10;       DocumentRoot                  # &#32178;&#31449;&#26681;&#30446;&#37636;&#10;       ServerName                    # &#32178;&#31449;domain&#65292;&#38656;&#33287;&#21069;&#38754;&#30340;CommonName&#20839;&#23481;&#30456;&#21516;&#10;       ErrorLog logs/error_log&#10;       CustomLog logs/access_log common&#10;       #SSLEngine on&#10;       SSLCertificateFile            # server.crt&#30340;&#23436;&#25972;&#36335;&#24465;&#10;       SSLCertificateKeyFile         # server.key&#30340;&#23436;&#25972;&#36335;&#24465;&#10;&#60;/VirtualHost&#62;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">apache -D SSL</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://perishablepress.com/stupid-htaccess-tricks/" target="_blank" rel="external">Stupid htaccess Tricks | Perishable Press</a]]>
+    </summary>
+    
+      <category term="apache" scheme="http://leesei.github.io/tags/apache/"/>
+    
+      <category term="notes" scheme="http://leesei.github.io/tags/notes/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[WordPress (dev)]]></title>
+    <link href="http://leesei.github.io/wordpress-dev/"/>
+    <id>http://leesei.github.io/wordpress-dev/</id>
+    <published>2015-06-21T09:31:05.000Z</published>
+    <updated>2015-07-14T15:19:17.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://make.wordpress.org/" target="_blank" rel="external">WordPress › Make WordPress</a><br><a href="https://make.wordpress.org/core/handbook/" target="_blank" rel="external">WordPress › Handbook « Make WordPress Core</a></p>
+<h2 id="Resources">Resources</h2><p><a href="http://wordpress.stackexchange.com/" target="_blank" rel="external">WordPress Development Stack Exchange</a><br><a href="http://www.instantwp.com/" target="_blank" rel="external">Instant WordPress</a><br><a href="http://wp-cli.org/" target="_blank" rel="external">Command line interface for WordPress | WP-CLI</a>  </p>
+<h3 id="Sites">Sites</h3><p><a href="https://digwp.com/" target="_blank" rel="external">Digging Into WordPress | Take your WordPress skills to the next level.</a><br><a href="http://wparena.com/" target="_blank" rel="external">WordPress Arena</a><br><a href="http://wpengineer.com/" target="_blank" rel="external">WordPress News, Hacks, Tips, Tutorials, Plugins and Themes - WP Engineer</a><br><a href="http://wpengineer.com/category/wordpress-hacks/" target="_blank" rel="external">WordPress Hacks - WP Engineer</a><br><a href="http://wpsmith.net/" target="_blank" rel="external">WP Smith - My Journey with WordPress &amp; Genesis</a><br><a href="https://pippinsplugins.com/" target="_blank" rel="external">Home - Pippins Plugins</a></p>
+<h3 id="Books">Books</h3><p><a href="http://gfazioli.gitbooks.io/wpdk/content/" target="_blank" rel="external">WPDK</a><br><a href="http://www.wptherightway.org/en/index.html" target="_blank" rel="external">WordPress The Right Way</a><br><a href="http://yager.gitbooks.io/yager-wordpress/content/" target="_blank" rel="external">雅戈的WordPress教程</a></p>
+<h3 id="Tips">Tips</h3><p><a href="https://perishablepress.com/stupid-wordpress-tricks/" target="_blank" rel="external">Stupid WordPress Tricks | Perishable Press</a><br><a href="http://wpengineer.com/2382/wordpress-constants-overview/" target="_blank" rel="external">WordPress constants overview - WP Engineer</a><br><a href="http://www.wpbeginner.com/beginners-guide/14-most-common-wordpress-errors-and-how-to-fix-them/" target="_blank" rel="external">14 Most Common WordPress Errors and How to Fix Them</a><br><a href="http://wparena.com/how-to/some-of-the-most-common-mistakes-in-blogging/" target="_blank" rel="external">Some of the most common Mistakes in Blogging | WordPress Arena</a><br><a href="https://markjaquith.wordpress.com/2009/12/14/excluding-your-plugin-or-theme-from-update-checks/" target="_blank" rel="external">Excluding your plugin or theme from update checks | Mark on WordPress</a><br><a href="http://wpengineer.com/2237/whats-the-difference-between-__-_e-_x-and-_ex/" target="_blank" rel="external">What’s the difference between __(), _e(), _x(), and _ex()? - WP Engineer</a></p>
+<p><a href="http://wpengineer.com/category/wordpress-tutorials/" target="_blank" rel="external">WordPress Tutorials - WP Engineer</a></p>
+<h2 id="Security">Security</h2><p><a href="http://wparena.com/how-to/security-measures-to-keep-wordpress-powered-websites-more-secure/" target="_blank" rel="external">Security Measures to keep WordPress powered Websites more Secure | WordPress Arena</a></p>
+<p><a href="https://perishablepress.com/important-security-fix-for-wordpress/" target="_blank" rel="external">Important Security Fix for WordPress | Perishable Press</a></p>
+<p><a href="https://codex.wordpress.org/Changing_File_Permissions" target="_blank" rel="external">Changing File Permissions « WordPress Codex</a></p>
+<p><a href="http://www.shoutmeloud.com/how-to-change-wordpress-default-username-security.html" target="_blank" rel="external">How To Change Wordpress Default ‘Admin” Username</a></p>
+<p><a href="http://wparena.com/how-to/how-to-prevent-access-to-wordpress-administration-menu-items/" target="_blank" rel="external">How to prevent access to WordPress Administration Menu items | WordPress Arena</a></p>
+<p><a href="http://wparena.com/how-to/making-your-wordpress-site-more-secure-by-adding-https-and-ssl/" target="_blank" rel="external">Making your WordPress site More Secure by Adding HTTPS and SSL | WordPress Arena</a><br><a href="http://www.elegantthemes.com/blog/tips-tricks/how-to-use-ssl-https-with-wordpress" target="_blank" rel="external">How To Use SSL &amp; HTTPS With WordPress | Elegant Themes Blog</a><br><a href="http://code.tutsplus.com/tutorials/options-for-ssl-in-wordpress--cms-21995" target="_blank" rel="external">Options for SSL in WordPress - Tuts+ Code Tutorial</a><br><a href="http://ryan.boren.me/2008/07/14/ssl-and-cookies-in-wordpress-26/" target="_blank" rel="external">SSL and Cookies in WordPress 2.6 | Ryan Boren</a>  </p>
+<p><a href="https://www.sitestillup.com/how-to-lock-down-wordpress-admin-section-by-ip.html" target="_blank" rel="external">Secure WordPress with IP restricted access</a><br><a href="http://www.wpoptimus.com/912/ban-ip-addresses-login-wordpress-dashboard/" target="_blank" rel="external">How to Restrict IP Addresses to Login on WordPress Dashboard</a><br><a href="http://www.wpbeginner.com/wp-tutorials/how-to-limit-access-by-ip-to-your-wp-login-php-file-in-wordpress/" target="_blank" rel="external">How to Limit Access by IP to Your wp-login.php file in WordPress</a>  </p>
+<h2 id="Insert_Sample_Data">Insert Sample Data</h2><p><a href="https://codex.wordpress.org/Function_Reference" target="_blank" rel="external">Function Reference « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_category" target="_blank" rel="external">Function Reference/wp insert category « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_term" target="_blank" rel="external">Function Reference/wp insert term « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_post" target="_blank" rel="external">Function Reference/wp insert post « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_trash_post" target="_blank" rel="external">Function Reference/wp trash post « WordPress Codex</a>  </p>
+<p><code>themes/exclusive/admin/install_sampl_date.php</code></p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Check if category already exists</span></span><br><span class="line"><span class="variable">$cat_ID</span> = get_cat_ID( <span class="variable">$category</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">//If it doesn't exist create new category</span></span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$cat_ID</span> == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="variable">$my_cat</span> = <span class="keyword">array</span>(</span><br><span class="line">        <span class="string">'cat_name'</span> =&gt; <span class="string">'My Category'</span>, </span><br><span class="line">        <span class="string">'category_description'</span> =&gt; <span class="string">'A Cool Category'</span>, </span><br><span class="line">        <span class="string">'category_nicename'</span> =&gt; <span class="string">'category-slug'</span>, </span><br><span class="line">        <span class="string">'category_parent'</span> =&gt; <span class="string">''</span>,</span><br><span class="line">        <span class="string">'taxonomy'</span> =&gt; <span class="string">'category'</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    <span class="variable">$my_cat_id</span> = wp_insert_category(<span class="variable">$my_cat</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// this is practically what wp_insert_category() does underneath</span></span><br><span class="line"><span class="keyword">if</span>(!term_exists(<span class="string">'sample-category'</span>)) &#123;</span><br><span class="line">    wp_insert_term(</span><br><span class="line">        <span class="string">'Sample Category'</span>,</span><br><span class="line">        <span class="string">'category'</span>,</span><br><span class="line">        <span class="keyword">array</span>(</span><br><span class="line">          <span class="string">'description'</span> =&gt; <span class="string">'This is an sample category.'</span>,</span><br><span class="line">          <span class="string">'slug'</span>        =&gt; <span class="string">'sample-category'</span></span><br><span class="line">        )</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Plugins">Plugins</h2><p><a href="http://codex.wordpress.org/Plugins" target="_blank" rel="external">Plugins « WordPress Codex</a>  </p>
+<p><a href="https://wordpress.org/plugins/" target="_blank" rel="external">WordPress › WordPress Plugins</a><br><a href="http://codex.wordpress.org/Writing_a_Plugin" target="_blank" rel="external">Writing a Plugin « WordPress Codex</a><br><a href="http://codex.wordpress.org/Plugin_API" target="_blank" rel="external">Plugin API « WordPress Codex</a><br><a href="http://wpengineer.com/353/how-to-improve-wordpress-plugins/#more-353" target="_blank" rel="external">How To Improve WordPress Plugins - WP Engineer</a>  </p>
+<p><a href="http://wppb.io/" target="_blank" rel="external">The WordPress Plugin Boilerplate | A Foundation For Building High-Quality WordPress Plugins</a><br><a href="http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-why-boilerplates-matter--wp-29298" target="_blank" rel="external">Developing Plugins With WordPress Boilerplates: Why Boilerplates Matter - Tuts+ Code Article</a><br><a href="http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-building-a-plugin--wp-29300" target="_blank" rel="external">Developing Plugins With WordPress Boilerplates: Building a Plugin - Tuts+ Code Article</a>  </p>
+<p><a href="http://aesopstoryengine.com/" target="_blank" rel="external">Aesop Story Engine</a><br><a href="http://www.linux.org/threads/helpful-wordpress-plugins.7765/" target="_blank" rel="external">Helpful Wordpress Plugins | Linux.org</a>  </p>
+<h2 id="Themes">Themes</h2><p><a href="https://codex.wordpress.org/Theme_Development" target="_blank" rel="external">Theme Development « WordPress Codex</a><br><a href="https://developer.wordpress.org/themes/getting-started/" target="_blank" rel="external">WordPress › Getting Started | Theme Developer Handbook | WordPress Developer Resources</a>  </p>
+<p><a href="http://codex.wordpress.org/Theme_Customization_API" target="_blank" rel="external">Theme Customization API « WordPress Codex</a><br><a href="https://codex.wordpress.org/Stepping_Into_Templates" target="_blank" rel="external">Stepping into Templates « WordPress Codex</a><br><a href="https://codex.wordpress.org/Template_Tags" target="_blank" rel="external">Template Tags « WordPress Codex</a><br><a href="https://codex.wordpress.org/Theme_Features" target="_blank" rel="external">Theme Features « WordPress Codex</a></p>
+<p><a href="http://code.tutsplus.com/series/writing-maintainable-wordpress-themes--cms-659" target="_blank" rel="external">Writing Maintainable WordPress Themes - Tuts+ Code Tutorials</a></p>
+<p><a href="http://tommcfarlin.com/maintainable-wordpress-themes/" target="_blank" rel="external">Writing Maintainable WordPress Themes | Tom McFarlin</a><br><a href="https://tommcfarlin.com/separation-of-concerns-with-wordpress-templates/" target="_blank" rel="external">Separation of Concerns with WordPress Templates | Tom McFarlin</a><br><a href="https://tommcfarlin.com/wordpress-partials/" target="_blank" rel="external">A Rule of Thumb for WordPress Partials | Tom McFarlin</a><br><a href="http://premium.wpmudev.org/blog/adding-scripts-and-styles-wordpress-enqueueing/" target="_blank" rel="external">Adding Scripts and Styles to WordPress the Right Way With Enqueueing - WPMU DEV</a>  </p>
+<p><a href="http://wpengineer.com/236/perfect-wordpress-theme/" target="_blank" rel="external">10 Checks to the Perfect WordPress theme - WP Engineer</a></p>
+<p><a href="http://automattic.com/code/widgets/themes/" target="_blank" rel="external">Widgetizing Themes — Automattic</a><br><a href="http://codex.wordpress.org/Widgetizing_Themes" target="_blank" rel="external">Widgetizing Themes « WordPress Codex</a></p>
+<p><a href="https://perishablepress.com/easily-adaptable-wordpress-loop-templates/" target="_blank" rel="external">Easily Adaptable WordPress Loop Templates: Basic Loops, Mullet Loops, and More.. | Perishable Press</a></p>
+<p>Also see <a href="#widgets">Widgets</a>  </p>
+<h3 id="Customizing_Theme">Customizing Theme</h3><p><a href="http://wpengineer.com/1650/deactivate-wordpress-default-widgets/" target="_blank" rel="external">Deactivate WordPress Default Widgets - WP Engineer</a></p>
+<p><a href="https://wordpress.org/plugins/customizer-framework/" target="_blank" rel="external">WordPress › Customizer Framework « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/custom-sidebars/" target="_blank" rel="external">WordPress › Custom Sidebars « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/stag-custom-sidebars/" target="_blank" rel="external">WordPress › Stag Custom Sidebars « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/easy-custom-sidebars/" target="_blank" rel="external">WordPress › Easy Custom Sidebars « WordPress Plugins</a>  </p>
+<h3 id="Adding_Sidebar">Adding Sidebar</h3><p><a href="https://codex.wordpress.org/Function_Reference/register_sidebars" target="_blank" rel="external">Function Reference/register sidebars « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/dynamic_sidebar" target="_blank" rel="external">Function Reference/dynamic sidebar « WordPress Codex</a></p>
+<p>Define sidebar in <code>functions.php</code>:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">register_sidebar(<span class="keyword">array</span>(</span><br><span class="line">    <span class="string">'name'</span> =&gt; __(<span class="string">'MySidebar'</span>, <span class="string">'theme'</span>),</span><br><span class="line">    <span class="string">'id'</span> =&gt; <span class="string">'my-sidebar'</span>,</span><br><span class="line">    <span class="string">'description'</span> =&gt; __(<span class="string">'this is a custom sidebar'</span>, <span class="string">'theme'</span>),</span><br><span class="line">    <span class="string">'before_widget'</span> =&gt; <span class="string">'&lt;div class="sidebar-box"&gt;'</span>,</span><br><span class="line">    <span class="string">'after_widget'</span> =&gt; <span class="string">'&lt;/div&gt;'</span>,</span><br><span class="line">    <span class="string">'before_title'</span> =&gt; <span class="string">'&lt;span class="sidebar-title"&gt;'</span>,</span><br><span class="line">    <span class="string">'after_title'</span> =&gt; <span class="string">'&lt;/span&gt;&lt;div class="dots"&gt;&lt;/div&gt;'</span></span><br><span class="line">))</span><br></pre></td></tr></table></figure></p>
+<p>Add to the desired location in the theme:<br><figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;div id="sidebar"&gt;</span><br><span class="line">    &lt;?php if ( !dynamic_sidebar("my-sidebar") ) : ?&gt;</span><br><span class="line">    &lt;div class="sidebar-box"&gt;</span><br><span class="line">        &lt;span class="sidebar-title"&gt;MySidebar&lt;/span&gt;</span><br><span class="line">        &lt;p&gt;Add Widgets to the sidebar 'MySidebar'&lt;/p&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;?php endif; ?&gt;</span><br><span class="line">&lt;/div&gt;&lt;!-- sidebar --&gt;</span><br></pre></td></tr></table></figure></p>
+<p>Different sidebar depending on page, usually in <code>sidebar.php</code>:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="preprocessor">&lt;?php</span></span><br><span class="line">&lt;div id=<span class="string">"sidebar"</span>&gt;</span><br><span class="line">    <span class="keyword">if</span> ( is_front_page() ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"front-page-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span><br><span class="line">            &lt;li&gt;front-page-sidebar is <span class="keyword">empty</span>&lt;/li&gt;</span><br><span class="line">        <span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_category(<span class="string">'news'</span>) || in_category(<span class="string">'news'</span>) ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"news-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span><br><span class="line">            &lt;li&gt;news-sidebar is <span class="keyword">empty</span>&lt;/li&gt;</span><br><span class="line">        <span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_single() ) &#123;  <span class="comment">// is_singular() for both Posts/Pages</span></span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"post-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span><br><span class="line">            &lt;li&gt;post-sidebar is <span class="keyword">empty</span>&lt;/li&gt;</span><br><span class="line">        <span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_page() ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"page-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span><br><span class="line">            &lt;li&gt;page-sidebar is <span class="keyword">empty</span>&lt;/li&gt;</span><br><span class="line">        <span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="preprocessor">?&gt;</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="Adding_Nav_Meni">Adding Nav Meni</h3><p><a href="https://codex.wordpress.org/Function_Reference/register_nav_menus" target="_blank" rel="external">Function Reference/register nav menus « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank" rel="external">Function Reference/wp nav menu « WordPress Codex</a></p>
+<p>Define nav_menu in <code>functions.php</code>:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">register_nav_menus( <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">'top-navigation'</span> =&gt; __(<span class="string">'Top Navigation'</span>, <span class="string">'theme'</span>)</span><br><span class="line">) );</span><br></pre></td></tr></table></figure></p>
+<p>Add to the desired location in the theme:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;div id=<span class="string">"header-bottom"</span>&gt;</span><br><span class="line">    <span class="preprocessor">&lt;?php</span> wp_nav_menu(<span class="string">'top-navigation'</span>) <span class="preprocessor">?&gt;</span></span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<h3 id="Customizer">Customizer</h3><p><a href="http://themefoundation.com/wordpress-theme-customizer/" target="_blank" rel="external">» The WordPress Theme Customizer: a Comprehensive Developer’s Guide</a><br><a href="http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722" target="_blank" rel="external">A Guide to the WordPress Theme Customizer - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/digging-into-the-theme-customizer--wp-33847" target="_blank" rel="external">Digging Into the Theme Customizer - Tuts+ Code Tutorials</a></p>
+<p><a href="https://github.com/paulund/Wordpress-Theme-Customizer-Custom-Controls" target="_blank" rel="external">paulund/wordpress-theme-customizer-custom-controls</a></p>
+<p>Customizer: Theme as documentation<br><a href="https://github.com/bueltge/Documentation" target="_blank" rel="external">bueltge/Documentation</a><br><a href="https://vimeo.com/51533540" target="_blank" rel="external">The Customizer on Vimeo</a><br><a href="http://wpengineer.com/2527/wordpress-theme-customizer-custom-controls/#more-2527" target="_blank" rel="external">WordPress Theme Customizer Custom Controls - WP Engineer</a>  </p>
+<h3 id="Framework">Framework</h3><p><a href="http://themehybrid.com/hybrid-core" target="_blank" rel="external">Hybrid Core WordPress theme framework</a><br><a href="http://whiteboardframework.com/" target="_blank" rel="external">Whiteboard Framework for WordPress</a><br><a href="http://code.tutsplus.com/series/how-theme-frameworks-actually-work--cms-713" target="_blank" rel="external">How Theme Frameworks Actually Work - Tuts+ Code Tutorials</a>  </p>
+<h3 id="Query">Query</h3><p><a href="https://tommcfarlin.com/custom-wordpress-queries/" target="_blank" rel="external">Writing Clean, Maintainable Custom WordPress Queries | Tom McFarlin</a><br><a href="https://tommcfarlin.com/wp_query-pagination/" target="_blank" rel="external">How To Setup Custom Queries For WP_Query Pagination | Tom McFarlin</a><br><a href="https://tommcfarlin.com/separation-of-concerns-with-queries-and-helper-functions/" target="_blank" rel="external">Separation of Concerns: Queries and Helper Functions | Tom McFarlin</a>  </p>
+<p><a href="http://wordpress.stackexchange.com/questions/1753/when-should-you-use-wp-query-vs-query-posts-vs-get-posts" target="_blank" rel="external">wp query - When should you use WP_Query vs query_posts() vs get_posts()? - WordPress Development Stack Exchange</a></p>
+<p><a href="http://code.tutsplus.com/series/mastering-wp_query--cms-818" target="_blank" rel="external">Mastering WP_Query - Tuts+ Code Tutorials</a></p>
+<h3 id="Settings">Settings</h3><p><a href="https://codex.wordpress.org/Settings_API" target="_blank" rel="external">Settings API « WordPress Codex</a><br><a href="https://tommcfarlin.com/tag/sanitization-with-the-wordpress-settings-api/" target="_blank" rel="external">Sanitization with the WordPress Settings API | Tom McFarlin</a><br><a href="http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624" target="_blank" rel="external">The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials</a></p>
+<h3 id="ThemeShaper">ThemeShaper</h3><p><a href="http://themeshaper.com/2012/10/22/the-themeshaper-wordpress-theme-tutorial-2nd-edition/" target="_blank" rel="external">The ThemeShaper WordPress Theme Tutorial: 2nd Edition | ThemeShaper</a><br><a href="http://themeshaper.com/2012/01/17/what-do-you-really-need-in-a-wordpress-starter-theme/" target="_blank" rel="external">What Do You Really Need in a WordPress Starter Theme? | ThemeShaper</a><br><a href="http://themeshaper.com/2012/08/15/underscores-me-the-best-way-to-get-started-with-the-_s-theme/" target="_blank" rel="external">Underscores.me — The Best Way To Get Started With The _s Theme | ThemeShaper</a><br><a href="https://github.com/automattic/_s" target="_blank" rel="external">Automattic/_s</a>  </p>
+<h3 id="Child_Themes">Child Themes</h3><p>You can easily inherit from an existing theme and override the functions.<br>But the theme may not be child friendly (using <code>get_template_directory()</code> instead of <code>get_stylesheet_directory()</code>, not using templates). And my experience is that overriding files may cause the child theme to breakdown altogether.<br>I now prefer make a copy of the desired theme, change the code directly and track the modification via git.  </p>
+<p><a href="https://codex.wordpress.org/Child_Themes" target="_blank" rel="external">Child Themes « WordPress Codex</a><br><a href="http://themeshaper.com/modify-wordpress-themes/" target="_blank" rel="external">How To Modify WordPress Themes The Smart Way | ThemeShaper</a><br><a href="http://premium.wpmudev.org/blog/how-to-create-wordpress-child-theme/" target="_blank" rel="external">How to Create a WordPress Child Theme - WPMU DEV</a>  </p>
+<p><a href="http://www.wpbeginner.com/beginners-guide/wordpress-child-theme-pros-cons/" target="_blank" rel="external">What is a WordPress Child Theme? Pros, Cons, and More</a><br><a href="https://wordpress.org/support/topic/overriding-parent-theme-sub-files-with-a-child-theme-how" target="_blank" rel="external">WordPress › Support » Overriding parent theme sub-files with a child theme. HOW?</a><br><a href="https://wordpress.org/support/topic/child-themes-and-php-pages" target="_blank" rel="external">WordPress › Support » Child Themes and PHP pages</a>  </p>
+<h2 id="Widgets">Widgets</h2><p><a href="http://codex.wordpress.org/WordPress_Widgets" target="_blank" rel="external">WordPress Widgets « WordPress Codex</a></p>
+<p><a href="http://wpengineer.com/1023/wordpress-built-a-widget/" target="_blank" rel="external">Build A WordPress 2.8 Widget With The New Widget API - WP Engineer</a></p>
+<h2 id="Tuts+">Tuts+</h2><p><a href="http://code.tutsplus.com/categories/wordpress" target="_blank" rel="external">WordPress - Tuts+ Code Category</a>  </p>
+<p><a href="http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624" target="_blank" rel="external">The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987" target="_blank" rel="external">Making the Perfect WordPress Theme - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/quick-tips-to-boost-your-wordpress-websites-speed--cms-800" target="_blank" rel="external">Quick Tips to Boost Your WordPress Website’s Speed - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/the-tuts-guide-to-template-tags--cms-805" target="_blank" rel="external">The Tuts+ Guide to Template Tags - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/a-walkthrough-on-conditional-tags-in-wordpress--cms-804" target="_blank" rel="external">A Walkthrough on Conditional Tags in WordPress - Tuts+ Code Tutorials</a><br><a href="http://webdesign.tutsplus.com/courses/a-beginners-guide-to-using-wordpress" target="_blank" rel="external">A Beginner’s Guide to Using WordPress - Tuts+ Course</a><br><a href="http://code.tutsplus.com/series/the-beginners-guide-to-wordpress-taxonomies--cms-706" target="_blank" rel="external">The Beginner’s Guide to WordPress Taxonomies - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/articles/the-beginners-guide-to-selecting-a-wordpress-theme--wp-35032" target="_blank" rel="external">The Beginner’s Guide to Selecting a WordPress Theme - Tuts+ Code Article</a><br><a href="http://code.tutsplus.com/series/trim-the-bloat-keeping-wordpress-healthy--cms-758" target="_blank" rel="external">Trim the Bloat: Keeping WordPress Healthy - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/fifty-actions-of-wordpress--cms-708" target="_blank" rel="external">Fifty Actions of WordPress - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/understanding-and-working-with-data-in-wordpress--cms-670" target="_blank" rel="external">Understanding and Working with Data in WordPress - Tuts+ Code Tutorials</a>  </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://make.wordpress.org/" target="_blank" rel="external">WordPress › Make WordPress</a><br><a href="https://make.wordpress.or]]>
+    </summary>
+    
+      <category term="cms" scheme="http://leesei.github.io/tags/cms/"/>
+    
+      <category term="wordpress" scheme="http://leesei.github.io/tags/wordpress/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Bitnami]]></title>
+    <link href="http://leesei.github.io/bitnami/"/>
+    <id>http://leesei.github.io/bitnami/</id>
+    <published>2015-06-20T14:55:52.000Z</published>
+    <updated>2015-06-30T10:20:11.188Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://bitnami.com" target="_blank" rel="external">Bitnami</a> has packaged many applications as standalone apps that will not interfere with the system libraries or apps.<br>If you are deploying more than one application, you may consider setting up the AMP stack and then add application modules on top of it.</p>
+<p><a href="https://bitnami.com/stacks" target="_blank" rel="external">Bitnami Stacks</a><br><a href="https://bitnami.com/stack/lamp" target="_blank" rel="external">LAMP Stack Cloud Hosting, LAMP Stack Hosting - Installers and VM</a><br><a href="https://bitnami.com/stack/lamp/modules" target="_blank" rel="external">LAMP Stack Application Modules</a><br><a href="https://bitnami.com/stack/lapp" target="_blank" rel="external">LAPP Stack Cloud Hosting, LAPP Stack Hosting - Installers and VM</a><br><a href="https://bitnami.com/stack/lapp/modules" target="_blank" rel="external">LAPP Stack Application Modules</a></p>
+<p><a href="https://wiki.bitnami.com/Native_Installers_Quick_Start_Guide" target="_blank" rel="external">Native Installers Quick Start Guide - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Infrastructure_Stacks/BitNami_AMP_Stacks" target="_blank" rel="external">Bitnami AMP Stacks - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Infrastructure_Stacks/Bitnami_Nginx_Stack" target="_blank" rel="external">Bitnami Nginx Stack - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Applications/BitNami_WordPress" target="_blank" rel="external">Bitnami WordPress - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/Apache" target="_blank" rel="external">Apache - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/MySQL" target="_blank" rel="external">MySQL - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/PHP" target="_blank" rel="external">PHP - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/phpMyAdmin_and_phpPgAdmin" target="_blank" rel="external">phpMyAdmin and phpPgAdmin - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/Varnish" target="_blank" rel="external">Varnish - Bitnami documentation</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://bitnami.com" target="_blank" rel="external">Bitnami</a> has packaged many applications as standalone apps that will not ]]>
+    </summary>
+    
+      <category term="bitnami" scheme="http://leesei.github.io/tags/bitnami/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Paradox]]></title>
+    <link href="http://leesei.github.io/paradox/"/>
+    <id>http://leesei.github.io/paradox/</id>
+    <published>2015-06-18T05:38:50.000Z</published>
+    <updated>2015-06-30T10:20:55.781Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://www.wikiwand.com/en/Paradox" target="_blank" rel="external">Paradox - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_paradoxes" target="_blank" rel="external">List of paradoxes - Wikiwand</a></p>
+<h2 id="Zeon’s_Paradox">Zeon’s Paradox</h2><p><a href="http://www.quora.com/Why-cant-mathematics-explain-Zenos-Paradox" target="_blank" rel="external">Why can’t mathematics explain Zeno’s Paradox? - Quora</a><br><a href="http://platonicrealms.com/encyclopedia/zenos-paradox-of-the-tortoise-and-achilles" target="_blank" rel="external">Zeno’s Paradox of the Tortoise and Achilles</a></p>
+<h2 id="Russell’s_Paradox">Russell’s Paradox</h2><p><a href="http://www.wikiwand.com/en/Russell&#39;s_paradox" target="_blank" rel="external">Russell’s paradox - Wikiwand</a></p>
+<p><a href="http://www.wikiwand.com/en/Arrow&#39;s_impossibility_theorem" target="_blank" rel="external">Arrow’s impossibility theorem - Wikiwand</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://www.wikiwand.com/en/Paradox" target="_blank" rel="external">Paradox - Wikiwand</a><br><a href="http://www.wikiwand.com/en]]>
+    </summary>
+    
+      <category term="paradox" scheme="http://leesei.github.io/tags/paradox/"/>
+    
+      <category term="philosophy" scheme="http://leesei.github.io/categories/philosophy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[TS Analyzer]]></title>
+    <link href="http://leesei.github.io/ts-analyzer/"/>
+    <id>http://leesei.github.io/ts-analyzer/</id>
+    <published>2015-06-17T04:20:32.000Z</published>
+    <updated>2015-06-26T05:47:26.626Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://dvbsnoop.sourceforge.net/keywords.html" target="_blank" rel="external">dvbsnoop: an Open Source DVB Stream Analyzer / MPEG Stream Analyzer (2)</a></p>
+<p><a href="https://code.google.com/p/ts-packet-anlayser/" target="_blank" rel="external">ts-packet-anlayser - MPEG2 Transport Stream packet decoder, parser, analyser - Google Project Hosting</a></p>
+<p><a href="https://code.google.com/p/tstools/" target="_blank" rel="external">tstools - Cross-platform command line tools for working with MPEG data (TS, PS and ES) - Google Project Hosting</a></p>
+<p><a href="http://www.digitalekabeltelevisie.nl/dvb_inspector/" target="_blank" rel="external">DVB Inspector - Yet Another DVB Analyzer</a></p>
+<p><a href="http://www.pjdaniel.org.uk/mpeg/" target="_blank" rel="external">MPEG-2 Transport Stream packet analyser</a></p>
+<p><a href="http://www.bitstreamtools.com/download/index.php" target="_blank" rel="external">TSPE - Transport Stream Packet Editor / Analyser</a> (Windows, 30 days free trial)</p>
+<p><a href="http://www.coolstf.com/tsreader/" target="_blank" rel="external">TSReader</a> (Windows)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://dvbsnoop.sourceforge.net/keywords.html" target="_blank" rel="external">dvbsnoop: an Open Source DVB Stream Analyzer / MPE]]>
+    </summary>
+    
+      <category term="dvbsnoop" scheme="http://leesei.github.io/tags/dvbsnoop/"/>
+    
+      <category term="shell-tool" scheme="http://leesei.github.io/tags/shell-tool/"/>
+    
+      <category term="app" scheme="http://leesei.github.io/categories/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Amazon Web Services]]></title>
+    <link href="http://leesei.github.io/aws/"/>
+    <id>http://leesei.github.io/aws/</id>
+    <published>2015-06-17T03:36:16.000Z</published>
+    <updated>2015-06-20T05:17:15.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="https://github.com/jimeh/skyhook" target="_blank" rel="external">jimeh/skyhook</a><br><a href="https://github.com/jimeh/skyline" target="_blank" rel="external">jimeh/skyline</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="https://github.com/jimeh/skyhook" target="_blank" rel="external">jimeh/skyhook</a><br><a href="https://github.com/jimeh/skyline"]]>
+    </summary>
+    
+      <category term="web" scheme="http://leesei.github.io/categories/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Reverse Proxy (dev)]]></title>
+    <link href="http://leesei.github.io/reverse-proxy-dev/"/>
+    <id>http://leesei.github.io/reverse-proxy-dev/</id>
+    <published>2015-06-17T03:32:04.000Z</published>
+    <updated>2015-07-04T08:14:28.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://pow.cx/" target="_blank" rel="external">Pow: Zero-configuration Rack server for Mac OS X</a></p>
+<p><a href="https://github.com/jweslley/bam" target="_blank" rel="external">jweslley/bam</a> (uses Procfile)<br><a href="http://ysbaddaden.github.io/prax/" target="_blank" rel="external">Prax</a><br><a href="http://invoker.codemancers.com/" target="_blank" rel="external">Invoker - A Process Manager</a><br><a href="https://www.phusionpassenger.com/documentation/Users guide Standalone.html" target="_blank" rel="external">Phusion Passenger Standalone users guide</a><br><a href="https://github.com/pyromaniac/hoof/" target="_blank" rel="external">pyromaniac/hoof</a> (no longer maintained)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://pow.cx/" target="_blank" rel="external">Pow: Zero-configuration Rack server for Mac OS X</a></p>
+<p><a href="https://gith]]>
+    </summary>
+    
+      <category term="web" scheme="http://leesei.github.io/categories/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Unit Test]]></title>
+    <link href="http://leesei.github.io/unit-test/"/>
+    <id>http://leesei.github.io/unit-test/</id>
+    <published>2015-06-17T03:08:48.000Z</published>
+    <updated>2015-07-14T09:06:41.980Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://www.wikiwand.com/en/Unit_testing" target="_blank" rel="external">Unit testing - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_automation" target="_blank" rel="external">Test automation - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_unit_testing_frameworks" target="_blank" rel="external">List of unit testing frameworks - Wikiwand</a></p>
+<p><strong>Define:</strong><br>Test runner<br>Assertion<br>Framework</p>
+<h2 id="Ad-hoc_standard">Ad-hoc standard</h2><p><a href="http://www.wikiwand.com/en/XUnit" target="_blank" rel="external">xUnit - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_Anything_Protocol" target="_blank" rel="external">Test Anything Protocol - Wikiwand</a><br><a href="http://testanything.org/" target="_blank" rel="external">Main Page - Test Anything Protocol</a></p>
+<a id="more"></a>
+<h2 id="Shell_Script">Shell Script</h2><p><a href="https://github.com/jimeh/test-runner.sh" target="_blank" rel="external">jimeh/test-runner.sh</a><br><a href="https://github.com/jimeh/stub.sh" target="_blank" rel="external">jimeh/stub.sh</a></p>
+<p><a href="https://github.com/sstephenson/bats" target="_blank" rel="external">sstephenson/bats</a></p>
+<p><a href="https://www.google.com.hk/search?q=shunit2&amp;oq=shunit2&amp;aqs=chrome..69i57j69i60l2&amp;sourceid=chrome&amp;es_sm=93&amp;ie=UTF-8" target="_blank" rel="external">shunit2 - Google Search</a></p>
+<h2 id="Android">Android</h2><p><a href="http://code.tutsplus.com/tutorials/automating-user-interface-testing-on-android--cms-23969" target="_blank" rel="external">Automating User Interface Testing on Android - Tuts+ Code Tutorial</a></p>
+<p><a href="https://validation.linaro.org/" target="_blank" rel="external">LAVA</a><br><a href="https://validation.linaro.org/static/docs/#" target="_blank" rel="external">LAVA Manual — LAVA Server 2015.07 documentation</a></p>
+<h2 id="JavaScript">JavaScript</h2><p><a href="http://sinonjs.org/" target="_blank" rel="external">Sinon.JS - Documentation</a></p>
+<h2 id="Continuous_Integration">Continuous Integration</h2><p><a href="https://www.wikiwand.com/en/Continuous_integration" target="_blank" rel="external">Continuous integration - Wikiwand</a></p>
+<p><a href="https://www.wikiwand.com/en/Travis_CI" target="_blank" rel="external">Travis CI - Wikiwand</a><br><a href="https://travis-ci.org/" target="_blank" rel="external">Travis CI - Test and Deploy Your Code with Confidence</a></p>
+<p><a href="https://jenkins-ci.org/" target="_blank" rel="external">Welcome to Jenkins CI! | Jenkins CI</a><br><a href="http://code.tutsplus.com/tutorials/introduction-to-jenkins-an-open-source-continuous-integration-server--cms-23879" target="_blank" rel="external">Introduction to Jenkins: An Open Source Continuous Integration Server - Tuts+ Code Tutorial</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://www.wikiwand.com/en/Unit_testing">Unit testing - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_automation">Test automation - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_unit_testing_frameworks">List of unit testing frameworks - Wikiwand</a></p>
+<p><strong>Define:</strong><br>Test runner<br>Assertion<br>Framework</p>
+<h2 id="Ad-hoc_standard">Ad-hoc standard</h2><p><a href="http://www.wikiwand.com/en/XUnit">xUnit - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_Anything_Protocol">Test Anything Protocol - Wikiwand</a><br><a href="http://testanything.org/">Main Page - Test Anything Protocol</a></p>]]>
+    
+    </summary>
+    
+      <category term="testing" scheme="http://leesei.github.io/tags/testing/"/>
+    
+      <category term="unit-test" scheme="http://leesei.github.io/tags/unit-test/"/>
+    
+      <category term="comp.lang" scheme="http://leesei.github.io/categories/comp-lang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Trackball]]></title>
+    <link href="http://leesei.github.io/trackball/"/>
+    <id>http://leesei.github.io/trackball/</id>
+    <published>2015-06-15T04:47:32.000Z</published>
+    <updated>2015-07-14T05:40:07.067Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://www.wikiwand.com/en/Trackball" target="_blank" rel="external">Trackball - Wikiwand</a><br><a href="http://www.techbang.com/posts/11369-trackball-does-not-die-8-trackball-kensington-introduced-logitech-trackball" target="_blank" rel="external">軌跡球不死！10款軌跡球介紹，羅技、Kensington、SANWA 登場 | T客邦 - 我只推薦好東西</a><br><a href="http://s.taobao.com/search?q=轨迹球" target="_blank" rel="external">轨迹球_淘宝搜索</a><br><a href="http://allthingsergo.com/blog/reviews/kensington-expert-mouse-trackball/" target="_blank" rel="external">Kensington Expert Mouse Trackball Review - All Things Ergo Blog</a><br><a href="http://www.ehow.com/facts_7579911_advantages-disadvantages-trackball.html" target="_blank" rel="external">Advantages &amp; Disadvantages of a Trackball | eHow</a></p>
+<p><a href="http://www.trackballworld.com/" target="_blank" rel="external">TrackballWorld</a><br><a href="http://deskthority.net/wiki/Main_Page" target="_blank" rel="external">Deskthority wiki</a></p>
+<a id="more"></a>
+<h2 id="Logitech_Trackman_Marble"><a href="http://www.logitech.com/en-ca/product/trackman-marble" target="_blank" rel="external">Logitech Trackman Marble</a></h2><p>This is the first trackball I bought in Nov 2011.</p>
+<p>Pros:</p>
+<ul>
+<li>cheap, &lt; HK$200</li>
+<li>finger-operated</li>
+<li>hence symmetric design, can be used with both hands [1]</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li><strong>no scroll</strong></li>
+<li>button is fragile, misfires or fails altogether</li>
+</ul>
+<p>I setup key 3 as middle key, and emulate scroll wheel by holding it and moving the trackball.<br>But this setup puts stress to my thumb, so I look for trackball with hardware scroll.<br><a href="http://www.logitech.com/en-ca/product/wireless-trackball-m570" target="_blank" rel="external">Logitech M570 Wireless Trackball</a> was not considered for being wireless and thumb-operated. </p>
+<h3 id="Linux_setting">Linux setting</h3><p><a href="https://help.ubuntu.com/community/Logitech_Marblemouse_USB" target="_blank" rel="external">Logitech_Marblemouse_USB - Community Help Wiki</a><br><a href="https://wiki.archlinux.org/index.php/Logitech_Marble_Mouse" target="_blank" rel="external">Logitech Marble Mouse - ArchWiki</a></p>
+<p>Put this file in <code>locate xorg.conf.d | grep d$</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># - - - Logitech Marble Mouse Settings - - -&#10;#&#10;# For the sake of comments below, a Logitech Marble Mouse has buttons&#10;# labeled from left to right: A (large), B, C, D (large).&#10;&#10;# Preferred options for right-handed usage are:&#10;# Left to right: A=1,normal click B=2,middle-click C=2,middle-click D=3,right-click&#10;# Press button B (hold button while rolling trackball) to emulate wheel-scrolling.&#10;&#10;# Preferred options for left-handed usage (saying &#39;alternate-click&#39; instead of &#39;right click&#39;):&#10;# Left to right: A=3,alternate-click B=2,middle-click C=2,middle-click D=1,normal click&#10;# Press button C (hold button while rolling trackball) to emulate wheel-scrolling.&#10;&#10;# The trackball can scroll in two-axes, unlike a typical wheel mouse. Adjust the&#10;# settings to constrain the scroll action to vertical-axis-only if you prefer.&#10;&#10;# Pressing both large buttons simultaneously (b) produces a &#34;back&#34; action (=8). Finally,&#10;# pressing and holding button B while rolling the trackball emulates wheel-rolling action.&#10;&#10;Section &#34;InputClass&#34;&#10;    Identifier &#34;Marble Mouse&#34;&#10;    MatchProduct &#34;Logitech USB Trackball&#34;&#10;    MatchIsPointer &#34;on&#34;&#10;    MatchDevicePath &#34;/dev/input/event*&#34;&#10;    Driver &#34;evdev&#34;&#10;&#10;    # Physical button #s: A b D - - - - B C b = A &#38; D simultaneously; - = no button&#10;    Option &#34;ButtonMapping&#34; &#34;1 8 3 4 5 6 7 2 2&#34;&#10;    # Option &#34;ButtonMapping&#34; &#34;1 8 3 4 5 6 7 2 2&#34; # For right-hand placement&#10;    # Option &#34;ButtonMapping&#34; &#34;3 8 1 4 5 6 7 2 2&#34; # For left-hand placement&#10;&#10;    # EmulateWheel refers to emulating a mouse wheel using Marble Mouse trackball.&#10;    Option &#34;EmulateWheel&#34; &#34;true&#34;&#10;    # Option &#34;EmulateWheelButton&#34; &#34;8&#34; # Factory default; use &#34;9&#34; for left-side placement.&#10;    Option &#34;EmulateWheelButton&#34; &#34;8&#34;&#10;    # Option &#34;ZAxisMapping&#34; &#34;4 5&#34;&#10;    Option &#34;ZAxisMapping&#34; &#34;4 5&#34;&#10;    # Option &#34;XAxisMapping&#34; &#34;6 7&#34; # Disable this for vertical-only scrolling.&#10;    Option &#34;XAxisMapping&#34; &#34;6 7&#34;&#10;    # Emulate3Buttons refers to the act of pressing buttons A and D&#10;    # simultaneously to emulate a middle-click or wheel click.&#10;    Option &#34;Emulate3Buttons&#34; &#34;true&#34;&#10;EndSection</span><br></pre></td></tr></table></figure>
+<h3 id="Windows_setting">Windows setting</h3><p><a href="http://superuser.com/questions/498198/scroll-modifier-for-mouse-trackball-in-windows" target="_blank" rel="external">Scroll modifier for mouse/trackball in windows - Super User</a><br><del><a href="http://simans.net/marble/" target="_blank" rel="external">Marble Mouse Scroll Wheel</a></del> (dead), home for <code>marbleinst.exe</code><br><a href="http://www.fewprojects.com/marblescroll-for-logitech-trackman-marble/" target="_blank" rel="external">MarbleScroll for Logitech Trackman Marble – Primož’s Few Projects</a><br><a href="http://www.highrez.co.uk/downloads/XMouseButtonControl.htm" target="_blank" rel="external">X-Mouse Button Control</a></p>
+<p>fn1. with little practice, one can actually use any pointing device with both hands</p>
+<h2 id="Adesso_iMouse_T1"><a href="http://www.adesso.com/products/product-detail-137.html" target="_blank" rel="external">Adesso iMouse T1</a></h2><p>I got this thingy from <a href="http://s.taobao.com/search?&amp;q=adesso+T1" target="_blank" rel="external">Taobao</a>. Turns out it copied the design of <a href="http://direct.sanwa.co.jp/ItemPage/MA-TB41S" target="_blank" rel="external">Sanwa MA-TB41</a>.</p>
+<p>It has a scroll wheel on the left hand side of the device. It wasn’t bulked outwards enough so it cannot be reached by the thumb when you are using the trackball naturally. And pressing middle button is difficult and quite often trigger scroll.</p>
+<p>Pros:</p>
+<ul>
+<li>cheap, &lt; HK$250</li>
+<li>finger-operated</li>
+<li>with scroll wheel</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>scroll wheel is hard to reach, thumb movement needed</li>
+<li>scroll wheel is too close to the trackball, usually have to bent thumb to reach the wheel</li>
+<li>pressing middle button will trigger scroll, and vice versa</li>
+</ul>
+<h3 id="Linux_setting-1">Linux setting</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">xinput --get-feedbacks <span class="string">"Trackball Mouse"</span></span><br><span class="line">xinput --list-props <span class="string">"Trackball Mouse"</span></span><br><span class="line"></span><br><span class="line">xinput --set-ptr-feedback <span class="string">"Trackball Mouse"</span> <span class="number">10</span> <span class="number">5</span> <span class="number">10</span></span><br><span class="line"><span class="comment"># Evdev Wheel Emulation Inertia (285):    30</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># for 800dpi Adesso iMouse T1 trackball&#10;&#10;Section &#34;InputClass&#34;&#10;    Identifier &#34;Trackball Mouse&#34;&#10;    MatchUSBID &#34;195d:1009&#34;&#10;    MatchIsPointer &#34;yes&#34;&#10;&#10;# set the following to 1 1 0 respectively to disable acceleration.&#10;# trigger acceleration of 2 after 5 units&#10;    Option &#34;AccelerationThreshold&#34; &#34;7&#34;&#10;    Option &#34;AccelerationNumerator&#34; &#34;1&#34;&#10;    Option &#34;AccelerationDenominator&#34; &#34;2&#34;&#10;&#10;# some curved deceleration&#10;    Option &#34;AdaptiveDeceleration&#34; &#34;1&#34;&#10;# linear deceleration (mouse speed reduction)&#10;    Option &#34;ConstantDeceleration&#34; &#34;1&#34;&#10;EndSection</span><br></pre></td></tr></table></figure>
+<h2 id="Kensington_SlimBlade"><a href="http://www.kensington.com/us/hk/4493/k72327us/slimblade™-trackball" target="_blank" rel="external">Kensington SlimBlade</a></h2><p>Then I turned to the one in consumer market who still innovates in trackballs: Kensington.</p>
+<p><a href="http://arstechnica.com/gadgets/2010/09/hands-on-kensington-slimblade-trackball/" target="_blank" rel="external">Hands-on: the Kensington Slimblade trackball | Ars Technica</a></p>
+<p><a href="http://www.trackballworks.com" target="_blank" rel="external">Trackballs | Trackball Mouse | Wireless Mouse - Kensington - Kensington</a></p>
+<p>Pros:</p>
+<ul>
+<li>dual laser sensors</li>
+<li>hence can scroll by twisting the trackball</li>
+<li>finger-operated</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>expensive, official price at HK$1000, HK$600 at <a href="http://s.taobao.com/search?q=Kensington+k72327" target="_blank" rel="external">Taobao</a></li>
+</ul>
+<p><a href="http://www.kensington.com/en/sa/4493/k72337eu/orbit™-scroll-ring-trackball" target="_blank" rel="external">Orbit Scroll Ring</a> was not considered for having only two buttons. Middle button is crucial for me.<br><a href="http://www.kensington.com/us/hk/4493/k72352us/orbit™-wireless-mobile-trackball" target="_blank" rel="external">Orbit Wireless Mobile</a> was not considered for being too small and wireless, but that may be a reason for you to choose it.<br>The tilting angle for <a href="http://www.kensington.com/en/sa/4493/64325/expert-mouse-optical-trackball" target="_blank" rel="external">Expert Mouse</a> is too high. It seems that it would cause wrist pain for prolonged usage.</p>
+<h3 id="Linux_setting-2">Linux setting</h3><p><a href="https://www.google.com.hk/search?espv=2&amp;biw=1147&amp;bih=672&amp;q=kensington+slimblade+trackball+linux&amp;oq=kensington+trackball+slimblade+lin&amp;gs_l=serp.3.0.0i22i30l2.25137.26212.0.27205.4.4.0.0.0.0.104.387.3j1.4.0....0...1c.1.64.serp..0.4.384.oka5IK0BCl4" target="_blank" rel="external">kensington slimblade trackball linux - Google Search</a><br><a href="http://yjpark.blogspot.com/2010/04/using-trackball-on-linux.html" target="_blank" rel="external">Living and Programming - YJPark’s Blog: Using Trackball on Linux</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># enable wheel emulation</span></span><br><span class="line">xinput <span class="built_in">set</span>-int-prop <span class="string">"Kensington Kensington Slimblade Trackball"</span> <span class="string">"Evdev Wheel Emulation"</span> <span class="number">8</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># use button 8 (upper right button) as the emulation button </span></span><br><span class="line">xinput <span class="built_in">set</span>-int-prop <span class="string">"Kensington Kensington Slimblade Trackball"</span> <span class="string">"Evdev Wheel Emulation Button"</span> <span class="number">8</span> <span class="number">8</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># use for vertical and horizontal scrolling</span></span><br><span class="line">xinput <span class="built_in">set</span>-int-prop <span class="string">"Kensington Kensington Slimblade Trackball"</span> <span class="string">"Evdev Wheel Emulation Axes"</span> <span class="number">8</span> <span class="number">6</span>, <span class="number">7</span>, <span class="number">4</span>, <span class="number">5</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># button 8 don't work as "back"</span></span><br><span class="line">xinput <span class="built_in">set</span>-button-map <span class="string">"Kensington Kensington Slimblade Trackball"</span> <span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span> <span class="number">6</span> <span class="number">7</span> <span class="number">10</span> <span class="number">9</span> <span class="number">8</span> <span class="number">11</span> <span class="number">12</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># wheel emulation by toggling, not holding</span></span><br><span class="line"><span class="comment"># requires driver patch</span></span><br><span class="line">xinput <span class="built_in">set</span>-int-prop <span class="string">"Kensington Kensington Slimblade Trackball"</span> <span class="string">"Evdev Wheel Emulation Button Toggle"</span> <span class="number">8</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h2 id="Honorable_Mentions">Honorable Mentions</h2><p><a href="http://s.taobao.com/search?q=%E8%BD%A8%E8%BF%B9%E7%90%83&amp;cps=yes&amp;ppath=20000%3A6094839" target="_blank" rel="external">优鼠 手握式轨迹球</a><br><a href="http://s.taobao.com/search?q=轨迹球&amp;cps=yes&amp;ppath=20000%3A13003727" target="_blank" rel="external">日本三和 轨迹球</a><br><a href="http://kakaku.com/pc/mouse/itemlist.aspx?pdf_ma=345&amp;pdf_Spec101=4" target="_blank" rel="external">価格.com - タイプ:トラックボール サンワサプライ(SANWA SUPPLY)のマウス</a></p>
+<h2 id="Linux_X_configs">Linux X configs</h2><p><a href="https://www.mankier.com/4/evdev" target="_blank" rel="external">evdev - man page</a><br><a href="https://www.mankier.com/4/vmmouse" target="_blank" rel="external">vmmouse - man page</a><br><a href="https://www.mankier.com/4/mousedrv" target="_blank" rel="external">mousedrv(4) - Special file - Linux man page</a><br><a href="https://www.mankier.com/5/xorg.conf" target="_blank" rel="external">xorg.conf - man page</a></p>
+<p><a href="https://www.mankier.com/1/xinput" target="_blank" rel="external">xinput - man page</a><br><a href="https://www.mankier.com/1/xev" target="_blank" rel="external">xev - man page</a><br><a href="https://wiki.archlinux.org/index.php/Imwheel" target="_blank" rel="external">imwheel - ArchWiki</a><br><a href="http://imwheel.sourceforge.net/imwheel.1.html" target="_blank" rel="external">Manpage of IMWheel</a></p>
+<h3 id="buttons">buttons</h3><p><a href="https://help.ubuntu.com/community/ManyButtonsMouseHowto" target="_blank" rel="external">ManyButtonsMouseHowto - Community Help Wiki</a><br><a href="https://wiki.archlinux.org/index.php/All_Mouse_Buttons_Working" target="_blank" rel="external">All Mouse Buttons Working - ArchWiki</a><br><a href="http://wiki.mbirth.de/know-how/software/linux/remapping-mouse-buttons.html" target="_blank" rel="external">Remapping mouse buttons :: wiki.mbirth.de</a></p>
+<p>1 2    : L/R button<br>3      : Middle button<br>4 5 6 7: scroll down/up/left/right<br>8 9    : back/forward</p>
+<h3 id="scroll_wheel">scroll wheel</h3><p><a href="https://bugs.launchpad.net/gtk/+bug/124440" target="_blank" rel="external">Bug #124440 “[enhancement] Ubuntu needs a way to set mouse scrol…” : Bugs : GTK+</a><br><a href="http://ubuntuforums.org/showthread.php?t=1179448&amp;page=2&amp;p=10406312#post10406312" target="_blank" rel="external">[ubuntu] Scroll (wheel) speed, mouse acceleration, threshold, sensivity - Page 2</a></p>
+<h3 id="smooth_scrolling">smooth scrolling</h3><p><a href="http://who-t.blogspot.de/2011/09/whats-new-in-xi-21-smooth-scrolling.html" target="_blank" rel="external">Who-T: What’s new in XI 2.1 - smooth scrolling</a><br><a href="http://www.reddit.com/r/linux/comments/2qd564/why_no_smooth_scrolling_on_linux/" target="_blank" rel="external">Why no smooth scrolling on Linux? : linux</a><br><a href="http://www.reddit.com/r/elementaryos/comments/29pvtz/does_no_one_care_about_smooth_scrolling/" target="_blank" rel="external">Does no one care about smooth scrolling? : elementaryos</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=958868" target="_blank" rel="external">958868 – Support true smooth scrolling on X11/Linux with XInput 2.1</a></p>
+<h3 id="acceleration">acceleration</h3><p><a href="https://wiki.archlinux.org/index.php/Mouse_acceleration" target="_blank" rel="external">Mouse acceleration - ArchWiki</a><br><a href="https://patrickmn.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/" target="_blank" rel="external">Lowering Mouse Sensitivity in Ubuntu and Fedora</a><br><a href="https://bbs.archlinux.org/viewtopic.php?id=104742" target="_blank" rel="external">High DPI mice and Linux / Kernel &amp; Hardware / Arch Linux Forums</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://www.wikiwand.com/en/Trackball">Trackball - Wikiwand</a><br><a href="http://www.techbang.com/posts/11369-trackball-does-not-die-8-trackball-kensington-introduced-logitech-trackball">軌跡球不死！10款軌跡球介紹，羅技、Kensington、SANWA 登場 | T客邦 - 我只推薦好東西</a><br><a href="http://s.taobao.com/search?q=轨迹球">轨迹球_淘宝搜索</a><br><a href="http://allthingsergo.com/blog/reviews/kensington-expert-mouse-trackball/">Kensington Expert Mouse Trackball Review - All Things Ergo Blog</a><br><a href="http://www.ehow.com/facts_7579911_advantages-disadvantages-trackball.html">Advantages &amp; Disadvantages of a Trackball | eHow</a></p>
+<p><a href="http://www.trackballworld.com/">TrackballWorld</a><br><a href="http://deskthority.net/wiki/Main_Page">Deskthority wiki</a></p>]]>
+    
+    </summary>
+    
+      <category term="adesso" scheme="http://leesei.github.io/tags/adesso/"/>
+    
+      <category term="kensington" scheme="http://leesei.github.io/tags/kensington/"/>
+    
+      <category term="logitech" scheme="http://leesei.github.io/tags/logitech/"/>
+    
+      <category term="sanwa" scheme="http://leesei.github.io/tags/sanwa/"/>
+    
+      <category term="comp.hardware" scheme="http://leesei.github.io/categories/comp-hardware/"/>
+    
+  </entry>
+  
+</feed>

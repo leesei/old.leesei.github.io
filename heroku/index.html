@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Heroku | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Heroku"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Heroku</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <ul>
+<li><p><a href="https://toolbelt.heroku.com/" target="_blank" rel="external">heroku toolbelt</a></p>
+</li>
+<li><p><a href="https://github.com/heroku/hk" target="_blank" rel="external">hk</a> - Fast Heroku Client</p>
+</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ su</span><br><span class="line"><span class="comment"># L=/usr/local/bin/hk &amp;&amp; curl -sL -A "`uname -sp`" https://hk.heroku.com/hk.gz | zcat &gt;$L &amp;&amp; chmod +x $L</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://devcenter.heroku.com/articles/buildpack-api" target="_blank" rel="external">Buildpack API | Heroku Dev Center</a></p>
+<p><a href="https://devcenter.heroku.com/articles/procfile" target="_blank" rel="external">Process Types and the Procfile | Heroku Dev Center</a></p>
+<p><a href="https://devcenter.heroku.com/articles/nodejs-support" target="_blank" rel="external">Heroku Node.js Support | Heroku Dev Center</a></p>
+<h2 id="Heroku_Button">Heroku Button</h2><p><a href="https://devcenter.heroku.com/articles/heroku-button" target="_blank" rel="external">Creating a ‘Deploy to Heroku’ Button | Heroku Dev Center</a><br><a href="https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api" target="_blank" rel="external">Setting Up Apps Using the Platform API | Heroku Dev Center</a><br><a href="https://devcenter.heroku.com/articles/app-json-schema" target="_blank" rel="external">app.json Schema | Heroku Dev Center</a></p>
+<h2 id="Docker">Docker</h2><p><a href="https://devcenter.heroku.com/articles/introduction-local-development-with-docker" target="_blank" rel="external">Local Development with Docker | Heroku Dev Center</a><br><a href="https://devcenter.heroku.com/articles/getting-started-with-node-js-and-heroku-local-docker-dev" target="_blank" rel="external">Getting Started with Node.js and Heroku Local Docker Development | Heroku Dev Center</a></p>
+<h2 id="commands">commands</h2><ul>
+<li><p>create a new heroku app</p>
+<p><code>heroku apps:create &lt;NAME&gt;</code><br>this should have added remote repo <code>heroku</code><br><code>git remote -v</code></p>
+</li>
+<li><p>with existing git repo</p>
+<p><code>heroku git:remote -a &lt;NAME&gt;</code><br><code>git remote add heroku git@heroku.com:&lt;NAME&gt;.git</code></p>
+</li>
+<li><p>deploy</p>
+<p><code>git push heroku master</code>  </p>
+<p>To force an compile on Heroku,<br><code>git commit --allow-empty -m &quot;Message&quot;</code></p>
+<p>Also see <code>heroku-repo</code> below</p>
+</li>
+<li><p>restart server</p>
+<p><code>heroku restart</code></p>
+</li>
+<li><p>terminal</p>
+<p><code>heroku run bash</code>  </p>
+<blockquote>
+<p>All changes are lost when server is restarted</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Plugins">Plugins</h2><blockquote>
+<p><a href="https://outlet.herokuapp.com/" target="_blank" rel="external">https://outlet.herokuapp.com/</a></p>
+</blockquote>
+<ul>
+<li><p><a href="https://github.com/naaman/heroku-vim" target="_blank" rel="external">heroku-vim</a></p>
+<p><code>heroku plugins:install https://github.com/naaman/heroku-vim</code><br><code>heroku vim</code></p>
+<p>Or use <a href="https://gist.github.com/naaman/2847793" target="_blank" rel="external"><code>vim-on-heroku.sh</code></a></p>
+</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="shebang">#!/usr/bin/env bash</span></span><br><span class="line">mkdir vim</span><br><span class="line">curl https://s3.amazonaws.com/heroku-vim/vim-<span class="number">7.3</span>.tar.gz --location --silent | tar xz -C vim</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/app/vim/bin</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p><a href="https://github.com/ddollar/heroku-push" target="_blank" rel="external">heroku-push</a></p>
+<p><code>heroku plugins:install https://github.com/ddollar/heroku-push</code></p>
+</li>
+<li><p><a href="https://github.com/ddollar/heroku-config" target="_blank" rel="external">heroku-config</a></p>
+<p><code>heroku plugins:install git://github.com/ddollar/heroku-config.git</code></p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># pull Heroku config as .env&#10;heroku config:pull --overwrite --interactive</span><br></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://github.com/heroku/heroku-repo" target="_blank" rel="external">heroku-repo</a></li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">heroku plugins:install https://github.com/heroku/heroku-repo.git</span><br><span class="line">heroku repo:rebuild</span><br></pre></td></tr></table></figure>
+<h2 id="Help_extract_(20141211)">Help extract (20141211)</h2><h3 id="heroku_help"><code>heroku help</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku COMMAND [--app APP] [command-specific-options]&#10;&#10;Primary help topics, type &#34;heroku help TOPIC&#34; for more details:&#10;&#10;  addons    #  manage addon resources&#10;  apps      #  manage apps (create, destroy)&#10;  auth      #  authentication (login, logout)&#10;  config    #  manage app config vars&#10;  domains   #  manage custom domains&#10;  logs      #  display logs for an app&#10;  ps        #  manage dynos (dynos, workers)&#10;  releases  #  manage app releases&#10;  run       #  run one-off commands (console, rake)&#10;  sharing   #  manage collaborators on an app&#10;&#10;Additional topics:&#10;&#10;  certs        #  manage ssl endpoints for an app&#10;  drains       #  display syslog drains for an app&#10;  features     #  manage optional features&#10;  fork         #  clone an existing app&#10;  git          #  manage git for apps&#10;  help         #  list commands and display help&#10;  keys         #  manage authentication keys&#10;  labs         #  manage optional features&#10;  maintenance  #  manage maintenance mode for an app&#10;  members      #  manage membership in organization accounts&#10;  orgs         #  manage organization accounts&#10;  pg           #  manage heroku-postgresql databases&#10;  pgbackups    #  manage backups of heroku postgresql databases&#10;  plugins      #  manage plugins to the heroku gem&#10;  regions      #  list available regions&#10;  stack        #  manage the stack for an app&#10;  status       #  check status of heroku platform&#10;  twofactor    # &#10;  update       #  update the heroku client&#10;  version      #  display version&#10;  vim          #</span><br></pre></td></tr></table></figure>
+<h3 id="heroku_help_addons"><code>heroku help addons</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku addons&#10;&#10; list installed addons&#10;&#10;Additional commands, type &#34;heroku help COMMAND&#34; for more details:&#10;&#10;  addons:add ADDON                   #  install an addon&#10;  addons:docs ADDON                  #  open an addon&#39;s documentation in your browser&#10;  addons:downgrade ADDON             #  downgrade an existing addon&#10;  addons:list                        #  list all available addons&#10;  addons:open ADDON                  #  open an addon&#39;s dashboard in your browser&#10;  addons:remove ADDON1 [ADDON2 ...]  #  uninstall one or more addons&#10;  addons:upgrade ADDON               #  upgrade an existing addon</span><br></pre></td></tr></table></figure>
+<h3 id="heroku_help_apps"><code>heroku help apps</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku apps&#10;&#10; list your apps&#10;&#10; -o, --org ORG  # the org to list the apps for&#10; -A, --all      # list all apps in the org. Not just joined apps&#10; -p, --personal # list apps in personal account when a default org is set&#10;&#10;Example:&#10;&#10; $ heroku apps&#10; === My Apps&#10; example&#10; example2&#10;&#10; === Collaborated Apps&#10; theirapp   other@owner.name&#10;&#10;Additional commands, type &#34;heroku help COMMAND&#34; for more details:&#10;&#10;  apps:create [NAME]             #  create a new app&#10;  apps:destroy --app APP         #  permanently destroy an app&#10;  apps:info                      #  show detailed app information&#10;  apps:join --app APP            #  add yourself to an organization app&#10;  apps:leave --app APP           #  remove yourself from an organization app&#10;  apps:lock --app APP            #  lock an organization app to restrict access&#10;  apps:open --app APP            #  open the app in a web browser&#10;  apps:rename NEWNAME --app APP  #  rename the app&#10;  apps:unlock --app APP          #  unlock an organization app so that any org member can join it</span><br></pre></td></tr></table></figure>
+<h3 id="heroku_help_config"><code>heroku help config</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku config&#10;&#10; display the config vars for an app&#10;&#10; -s, --shell  # output config vars in shell format&#10;&#10;Examples:&#10;&#10; $ heroku config&#10; A: one&#10; B: two&#10;&#10; $ heroku config --shell&#10; A=one&#10; B=two&#10;&#10;Additional commands, type &#34;heroku help COMMAND&#34; for more details:&#10;&#10;  config:get KEY                            #  display a config value for an app&#10;  config:set KEY1=VALUE1 [KEY2=VALUE2 ...]  #  set one or more config vars&#10;  config:unset KEY1 [KEY2 ...]              #  unset one or more config vars</span><br></pre></td></tr></table></figure>
+<h3 id="heroku_help_logs"><code>heroku help logs</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku logs&#10;&#10; display recent log output&#10;&#10; -n, --num NUM        # the number of lines to display&#10; -p, --ps PS          # only display logs from the given process&#10; -s, --source SOURCE  # only display logs from the given source&#10; -t, --tail           # continually stream logs&#10;&#10;Example:&#10;&#10; $ heroku logs&#10; 2012-01-01T12:00:00+00:00 heroku[api]: Config add EXAMPLE by email@example.com&#10; 2012-01-01T12:00:01+00:00 heroku[api]: Release v1 created by email@example.com</span><br></pre></td></tr></table></figure>
+<h3 id="heroku_help_plugins"><code>heroku help plugins</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Usage: heroku plugins&#10;&#10; list installed plugins&#10;&#10;Example:&#10;&#10; $ heroku plugins&#10; === Installed Plugins&#10; heroku-accounts&#10;&#10;Additional commands, type &#34;heroku help COMMAND&#34; for more details:&#10;&#10;  plugins:install URL       #  install a plugin&#10;  plugins:uninstall PLUGIN  #  uninstall a plugin&#10;  plugins:update [PLUGIN]   #  updates all plugins or a single plugin by name</span><br></pre></td></tr></table></figure>
+<h2 id="References">References</h2><p><a href="https://devcenter.heroku.com/categories/command-line" target="_blank" rel="external">https://devcenter.heroku.com/categories/command-line</a><br><a href="https://devcenter.heroku.com/articles/quickstart" target="_blank" rel="external">https://devcenter.heroku.com/articles/quickstart</a><br><a href="https://devcenter.heroku.com/articles/git" target="_blank" rel="external">https://devcenter.heroku.com/articles/git</a><br><a href="https://blog.heroku.com/archives/2014/12/5/http_git_now_generally_available" target="_blank" rel="external">https://blog.heroku.com/archives/2014/12/5/http_git_now_generally_available</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/nginx/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/docker/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>15</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/heroku/">heroku<span>1</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Heroku_Button"><span class="toc-article-text">Heroku Button</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Docker"><span class="toc-article-text">Docker</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#commands"><span class="toc-article-text">commands</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Help_extract_(20141211)"><span class="toc-article-text">Help extract (20141211)</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help"><span class="toc-article-text">heroku help</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help_addons"><span class="toc-article-text">heroku help addons</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help_apps"><span class="toc-article-text">heroku help apps</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help_config"><span class="toc-article-text">heroku help config</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help_logs"><span class="toc-article-text">heroku help logs</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#heroku_help_plugins"><span class="toc-article-text">heroku help plugins</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#References"><span class="toc-article-text">References</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

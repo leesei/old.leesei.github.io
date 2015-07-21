@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Docker | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Docker"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Docker</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://www.docker.com/" target="_blank" rel="external">Docker - Build, Ship, and Run Any App, Anywhere</a><br><a href="https://docs.docker.com/installation/" target="_blank" rel="external">Supported installation</a><br><a href="https://docs.docker.com/reference/commandline/cli/" target="_blank" rel="external">Using the command line</a><br><a href="http://docs.docker.com/introduction/understanding-docker/" target="_blank" rel="external">Understand the architecture</a><br><a href="https://docs.docker.com/userguide/dockerimages/" target="_blank" rel="external">Get started with images</a><br><a href="http://docs.docker.com/reference/builder/" target="_blank" rel="external">Dockerfile reference</a><br><a href="https://docs.docker.com/articles/dockerfile_best-practices/" target="_blank" rel="external">Best practices for writing Dockerfiles</a><br><a href="https://registry.hub.docker.com/" target="_blank" rel="external">Docker Hub Registry - Repositories of Docker Images</a></p>
+<p><a href="http://chunchio.gitbooks.io/docker/content/DockerBasicCommand.html" target="_blank" rel="external">Docker Basic Command | Fast Deploying Systems With Docker</a></p>
+<p><a href="http://yeasy.gitbooks.io/docker_practice/content/" target="_blank" rel="external">Docker —— 从入门到实践</a><br><a href="http://letong.gitbooks.io/docker/content/" target="_blank" rel="external">Docker中文教程</a><br><a href="http://joshhu.gitbooks.io/dockercommands/content/index.html" target="_blank" rel="external">全面易懂的Docker指令大全</a></p>
+<ul>
+<li>InfoQ</li>
+</ul>
+<p><a href="http://www.infoq.com/cn/dockerdeep/" target="_blank" rel="external">深入浅出Docker - InfoQ</a><br><a href="http://www.infoq.com/cn/dockers" target="_blank" rel="external">Docker - InfoQ</a></p>
+<ul>
+<li>coolshell</li>
+</ul>
+<p><a href="http://coolshell.cn/articles/17049.html" target="_blank" rel="external">Docker基础技术：Linux CGroup | 酷 壳 - CoolShell.cn</a><br><a href="http://coolshell.cn/articles/17010.html" target="_blank" rel="external">Docker基础技术：Linux Namespace（上） | 酷 壳 - CoolShell.cn</a><br><a href="http://coolshell.cn/articles/17029.html" target="_blank" rel="external">Docker基础技术：Linux Namespace（下） | 酷 壳 - CoolShell.cn</a></p>
+<p><a href="https://strongloop.com/strongblog/containerizing-node-js-apps-with-docker-and-strongloop/" target="_blank" rel="external">StrongLoop | Containerizing Node.js Apps with Docker and StrongLoop</a><br><a href="http://yunlzheng.github.io/2015/06/06/dev-python-with-docker-compose/" target="_blank" rel="external">使用docker-compose进行python开发 | YL Notes</a></p>
+<p><a href="http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-io-for-creating-an-isolated-environment" target="_blank" rel="external">Should I use Vagrant or Docker.io for creating an isolated environment? - Stack Overflow</a></p>
+<h2 id="Fig">Fig</h2><p><a href="http://www.fig.sh/index.html" target="_blank" rel="external">Fig | Fast, isolated development environments using Docker</a></p>
+<p><a href="http://guolinn.com/2015/Getting-started-with-Fig-and-Express-js/" target="_blank" rel="external">Getting started with Fig and Express.js | GuoLin’s blog</a><br><a href="http://guolinn.com/2015/fig-meanjs/" target="_blank" rel="external">Getting started with Fig and MEAN.JS | GuoLin’s blog</a></p>
+<h2 id="solving_sudo">solving <code>sudo</code></h2><p>Docker binds Unix sockets requiring su rights, add user to <code>docker</code> group to release the tight escalation.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo usermod <span class="operator">-a</span>G docker $(whoami)</span><br></pre></td></tr></table></figure>
+<h2 id="running_GUI_app_in_container">running GUI app in container</h2><ol>
+<li>install <code>xvfb</code></li>
+<li>in host, <code>xvfb :88 -screen 0 1366x768x24 -ac</code></li>
+<li>in container, <code>DISPLAY:88 firefox</code></li>
+</ol>
+<p><a href="http://yunlzheng.github.io/2014/10/19/intro-xvfn-ubuntu/" target="_blank" rel="external">如何在Vagrant/Docker中运行Firefox | YL Notes</a></p>
+<h2 id="Dokku">Dokku</h2><p><a href="https://github.com/progrium/dokku" target="_blank" rel="external">progrium/dokku</a><br><a href="https://www.digitalocean.com/community/tags/dokku" target="_blank" rel="external">Dokku Tutorials | DigitalOcean</a><br><a href="https://gist.github.com/ngoldman/7287753" target="_blank" rel="external">Setting up Dokku with DigitalOcean and Namecheap</a></p>
+<h2 id="clean_Dockers">clean Dockers</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">docker stop $(docker ps <span class="operator">-a</span> -q)</span><br><span class="line">docker rm $(docker ps <span class="operator">-a</span> -q)</span><br></pre></td></tr></table></figure>
+<h2 id="LXC">LXC</h2><p><a href="http://www.linux.org/threads/linux-containers-part-1-the-intro.4379/" target="_blank" rel="external">Linux Containers: Part 1, The Intro | Linux.org</a><br><a href="http://www.linux.org/threads/linux-containers-part-2-creating-stopping-and-connecting.4399/" target="_blank" rel="external">Linux Containers: Part 2, Creating Stopping and Connecting | Linux.org</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/heroku/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/git-notes/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/devops/">devops<span>1</span></a></li> <li><a href="/tags/docker/">docker<span>1</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

@@ -1,0 +1,945 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Page 4 | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 <div class="page-header">
+  <h1>εмβяαςε мλ sμρεя gεεκ ροωεя.</h1>
+</div>
+
+<div class="row page">
+
+	
+	<div class="col-md-9">
+	
+
+		<div class="slogan">
+      Technical blog for the future me and other beings.
+</div>
+
+
+		<div class="mypage">
+		
+		<!-- title and entry -->
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-04-02 </div>
+			<div class="article-title"><a href="/ssl-tls/" >SSL/TLS</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank" rel="external">Transport Layer Security</a> (TLS) and its predecessor, <a href="https://www.digicert.com/ssl.htm" target="_blank" rel="external">Secure Sockets Layer</a> (SSL), are cryptographic protocols designed to provide communications security over a computer network.</p>
+<p>The authentication relied on Certificate Authorities (CA) and a public key infrastructure using <a href="http://en.wikipedia.org/wiki/X.509" target="_blank" rel="external">X.509</a> certificates.<br>The server register with a CA and sign its public key with the key of CA for a fee. The client, after receiving the public key from server, verifies it with the CA.</p>
+<p><a href="https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html" target="_blank" rel="external">ImperialViolet - Overclocking SSL</a><br><a href="https://istlsfastyet.com/" target="_blank" rel="external">Is TLS Fast Yet?</a><br><a href="https://bettercrypto.org/" target="_blank" rel="external">BetterCrypto⋅org</a></p>
+<p><a href="http://arstechnica.com/security/2014/01/how-the-nsa-may-have-put-a-backdoor-in-rsas-cryptography-a-technical-primer/" target="_blank" rel="external">How the NSA (may have) put a backdoor in RSA’s cryptography: A technical primer | Ars Technica</a><br><a href="http://arstechnica.com/business/2012/02/critics-slam-ssl-authority-for-minting-cert-used-to-impersonate-sites/" target="_blank" rel="external">Critics slam SSL authority for minting certificate for impersonating sites | Ars Technica</a></p>
+<p><a href="http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/" target="_blank" rel="external">How to obtain and install an SSL/TLS certificate, for free | Ars Technica</a><br><a href="http://arstechnica.com/information-technology/2012/11/securing-your-web-server-with-ssltls/#p4" target="_blank" rel="external">Web served, part 2: Securing things with SSL/TLS | Ars Technica</a></p>
+<h2 id="The_issue:_CA">The issue: CA</h2><p>As it turns out, CA are not trust worthy at all. There are many instances of CA issueing fraudulent certificates (willingly or being hacked).</p>
+<p><a href="http://arstechnica.com/security/2011/03/how-the-comodo-certificate-fraud-calls-ca-trust-into-question/" target="_blank" rel="external">How the Comodo certificate fraud calls CA trust into question | Ars Technica</a></p>
+<p><a href="http://arstechnica.com/security/2015/03/google-warns-of-unauthorized-tls-certificates-trusted-by-almost-all-oses/" target="_blank" rel="external">Google warns of unauthorized TLS certificates trusted by almost all OSes [Updated] | Ars Technica</a><br><a href="http://arstechnica.com/security/2015/04/google-chrome-will-banish-chinese-certificate-authority-for-breach-of-trust/" target="_blank" rel="external">Google Chrome will banish Chinese certificate authority for breach of trust | Ars Technica</a></p>
+<p><a href="http://arstechnica.com/security/2011/08/earlier-this-year-an-iranian/" target="_blank" rel="external">Another fraudulent certificate raises the same old questions about certificate authorities | Ars Technica</a></p>
+<p><a href="https://tools.ietf.org/html/rfc7525" target="_blank" rel="external">RFC 7525 - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)</a></p>
+<p><a href="http://arstechnica.com/search/?ie=UTF-8&amp;q=+Certificate+Authorities" target="_blank" rel="external">http://arstechnica.com/search/?ie=UTF-8&amp;q=+Certificate+Authorities</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/ssl-tls/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-04-02 </div>
+			<div class="article-title"><a href="/sublime-text/" >Sublime Text</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.sublimetext.com/">Sublime Text: The text editor you’ll fall in love with</a><br><a href="https://github.com/SublimeTextIssues">Sublime Text Issues</a></p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/sublime-text/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-03-14 </div>
+			<div class="article-title"><a href="/us-and-canada-border/" >US and Canada border</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://www.youtube.com/watch?v=Vui-qGCfXuA" target="_blank" rel="external">Countries inside Countries: Bizarre Borders Part 1 - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/Vui-qGCfXuA" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=qMkYlIA7mgw" target="_blank" rel="external">Canada &amp; The United States: Bizarre Borders Part 2 - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/qMkYlIA7mgw" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="http://www.cgpgrey.com/s/US-Canadian-Border-Points.zip" target="_blank" rel="external">Google Earth markers by CGP Grey</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/us-and-canada-border/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-03-05 </div>
+			<div class="article-title"><a href="/voting-systems/" >Voting Systems</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <ul>
+<li>Primary vs Caususes </li>
+<li>Closed/semi-closed/open primary</li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=orybDrUj4vA" target="_blank" rel="external">Quick and Easy Voting for Normal People - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/orybDrUj4vA" frameborder="0" allowfullscreen></iframe></div></p>
+<h2 id="First_Past_the_Post_(FPTP)">First Past the Post (FPTP)</h2><p><a href="https://www.youtube.com/watch?v=s7tWHJfhiyo" target="_blank" rel="external">The Problems with First Past the Post Voting Explained - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/s7tWHJfhiyo" frameborder="0" allowfullscreen></iframe></div></p>
+<h3 id="Gerrymandering">Gerrymandering</h3><p><a href="https://www.youtube.com/watch?v=Mky11UJb9AY" target="_blank" rel="external">Gerrymandering Explained - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/Mky11UJb9AY" frameborder="0" allowfullscreen></iframe></div></p>
+<p>stretegic changing electorial boundaries to get advantage<br>e.g.<br>Candidate 1 wins Candidate 2 in District A<br>Candidate 3 wins Candidate 2 in District B<br>But Candidate 2 has the most voters national-wide</p>
+<p>Solution:</p>
+<ul>
+<li>indepdent commission</li>
+<li><a href="https://www.youtube.com/watch?v=kUS9uvYyn3A" target="_blank" rel="external">shortest split-line</a> (it’s math)</li>
+<li>proportional gerrymandering (to reflect voter’s intention)</li>
+</ul>
+<p><a href="http://datagenetics.com/blog/march12015/index.html" target="_blank" rel="external">Gerrymandering from DataGenetics</a></p>
+<h3 id="Spoiler_Effect">Spoiler Effect</h3><p>When an 3rd candidate joins the election and steals votes from the original candidate of similar political view, it can make the other candidate win by a larger portion</p>
+<h2 id="Alternate_Voting">Alternate Voting</h2><p><a href="https://www.youtube.com/watch?v=3Y3jE3B8HsE" target="_blank" rel="external">The Alternative Vote Explained - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/3Y3jE3B8HsE" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=l8XOZJkozfI&amp;t=373" target="_blank" rel="external">https://www.youtube.com/watch?v=l8XOZJkozfI&amp;t=373</a></p>
+<p>Voters put the candidates on a preference list<br>The voting loops until one candidate get the majority votes<br>Each round the candidate with the least votes get elimiated, with his vote passed to the next on the voter’s list</p>
+<h2 id="Single_Transferable_Vote">Single Transferable Vote</h2><p><a href="https://www.youtube.com/watch?v=l8XOZJkozfI" target="_blank" rel="external">Politics in the Animal Kingdom: Single Transferable Vote - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/l8XOZJkozfI" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=Ac9070OIMUg" target="_blank" rel="external">Extra: STV Election Walkthrough - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/Ac9070OIMUg" frameborder="0" allowfullscreen></iframe></div></p>
+<p>Like Alternatie Voting, but extra votes are given to next alternative.</p>
+<h2 id="Mixed-Member_Proportional_Representation">Mixed-Member Proportional Representation</h2><p><a href="https://www.youtube.com/watch?v=QT0I-sdoSXU" target="_blank" rel="external">Mixed-Member Proportional Representation Explained - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/QT0I-sdoSXU" frameborder="0" allowfullscreen></iframe></div></p>
+<p>Council seat is doubled<br>First round is traditional FPTP chosing half of the council seats<br>Party prepare list to be added to the council after the 1st round</p>
+<h2 id="Arrow’s_Impossibility_Theorem">Arrow’s Impossibility Theorem</h2><p><a href="http://en.wikipedia.org/wiki/Arrow&#39;s_impossibility_theorem" target="_blank" rel="external">http://en.wikipedia.org/wiki/Arrow&#39;s_impossibility_theorem</a></p>
+<p>When there are three or more candidates, there’s no “nice” way to vote for a winner.</p>
+<h2 id="US_specific">US specific</h2><h3 id="Electorial_College">Electorial College</h3><blockquote>
+<p>= Proportional Representation?</p>
+</blockquote>
+<p><a href="https://www.youtube.com/watch?v=OUS9mM8Xbbw" target="_blank" rel="external">How the Electoral College Works - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/OUS9mM8Xbbw" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=7wC42HgLA4k" target="_blank" rel="external">The Trouble with the Electoral College - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/7wC42HgLA4k" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=sHEDXzOfENI" target="_blank" rel="external">What If the Electoral College is Tied? - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/sHEDXzOfENI" frameborder="0" allowfullscreen></iframe></div></p>
+<h3 id="Primary_Election">Primary Election</h3><p><a href="https://www.youtube.com/watch?v=_95I_1rZiIs" target="_blank" rel="external">Primary Elections Explained - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/_95I_1rZiIs" frameborder="0" allowfullscreen></iframe></div></p>
+<p>The election to choose the nominee of president for the party</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/voting-systems/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-27 </div>
+			<div class="article-title"><a href="/disappearing-polish-s/" >Disappearing Polish S</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://medium.com/medium-eng/the-curious-case-of-disappearing-polish-s-fa398313d4df" target="_blank" rel="external">The curious case of the disappearing Polish S — Medium Engineering — Medium</a></p>
+<p>I love it when history blends with technology, with the added spice from Microsoft.</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/disappearing-polish-s/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-27 </div>
+			<div class="article-title"><a href="/dollar-symbol/" >Dollar symbol</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://observationdeck.io9.com/why-is-the-dollar-sign-a-letter-s-1683940575" target="_blank" rel="external">Why Is The Dollar Sign A Letter S?</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/dollar-symbol/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-27 </div>
+			<div class="article-title"><a href="/net-neutrality/" >Net Neutrality</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Net Neutrality rules by FCC was not applicable to ISPs, who content that they are not “common carriers” (aircraft, telecom, carrier services).</p>
+<p><a href="https://www.youtube.com/watch?v=NAxMyTwmu_M" target="_blank" rel="external">Net Neutrality in the US: Now What? - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/NAxMyTwmu_M" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="https://www.youtube.com/watch?v=wtt2aSV8wdw" target="_blank" rel="external">Internet Citizens: Defend Net Neutrality - YouTube</a><br><div class="video-container"><iframe src="//www.youtube.com/embed/wtt2aSV8wdw" frameborder="0" allowfullscreen></iframe></div></p>
+<p><a href="http://en.wikipedia.org/wiki/Net_neutrality" target="_blank" rel="external">Net neutrality - Wikipedia, the free encyclopedia</a><br><a href="http://www.savetheinternet.com/sti-home" target="_blank" rel="external">Save the Internet | Free Press</a><br><a href="https://training.webmakerprototypes.org/en/net-neutrality/concepts/" target="_blank" rel="external">Webmaker Training: Teach the Web | | Concepts</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/net-neutrality/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-26 </div>
+			<div class="article-title"><a href="/regex/" >Regular expression</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.wikiwand.com/en/Regular_expression">Regular expression</a> is a <a href="http://www.wikiwand.com/en/Formal_language">formal language</a> for pattern matching. Different languages supports different feature sets and have different syntaxes, see summary <a href="http://www.greenend.org.uk/rjk/tech/regexp.html">here</a>.</p>
+<p><a href="https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html">The true power of regular expressions</a></p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/regex/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-16 </div>
+			<div class="article-title"><a href="/go-notes/" >Go notes</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h1 id="Reference">Reference</h1><p><a href="http://golang.org/" target="_blank" rel="external">The Go Programming Language</a><br><a href="http://golang.org/ref/spec" target="_blank" rel="external">The Go Programming Language Specification - The Go Programming Language</a><br><a href="http://devdocs.io/go/" target="_blank" rel="external">DevDocs/Go</a><br><a href="http://blog.golang.org/go12" target="_blank" rel="external">Go 1.2 is released - The Go Blog</a><br><a href="http://golang.org/doc/go1.2" target="_blank" rel="external">Go 1.2 Release Notes - The Go Programming Language</a></p>
+<h2 id="packages">packages</h2><p><a href="https://godoc.org/" target="_blank" rel="external">GoDoc (package repository)</a><br><a href="https://code.google.com/p/go-wiki/wiki/SubRepositories" target="_blank" rel="external">SubRepositories - go-wiki - About the official sub-repositories.</a><br><a href="http://golang.org/pkg/" target="_blank" rel="external">Package Documentation (Go standard library)</a><br><a href="http://golang.org/pkg/fmt/" target="_blank" rel="external">fmt - The Go Programming Language</a><br><a href="http://golang.org/pkg/strings/" target="_blank" rel="external">strings - The Go Programming Language</a><br><a href="http://golang.org/pkg/strconv/" target="_blank" rel="external">strconv - The Go Programming Language</a><br><a href="http://golang.org/pkg/reflect/" target="_blank" rel="external">reflect - The Go Programming Language</a><br><a href="http://golang.org/pkg/encoding/json/" target="_blank" rel="external">json - The Go Programming Language</a><br><a href="http://golang.org/pkg/flag/" target="_blank" rel="external">flag - The Go Programming Language</a><br><a href="https://code.google.com/p/go-wiki/wiki/Projects" target="_blank" rel="external">Projects - go-wiki - A list of Go projects. - Go Language Community Wiki - Google Project Hosting</a></p>
+<h3 id="gopm">gopm</h3><p><a href="https://github.com/gpmgo/gopm" target="_blank" rel="external">gpmgo/gopm</a><br><a href="http://gopm.io/" target="_blank" rel="external">Gopm Registry - Versioning caching and delivery for your Go packages</a></p>
+<h1 id="Learn">Learn</h1><h2 id="Official">Official</h2><p><a href="http://golang.org/doc/" target="_blank" rel="external">Documentation - The Go Programming Language</a><br><a href="http://tour.golang.org/" target="_blank" rel="external">A Tour of Go</a>, <a href="https://code.google.com/p/go-tour/source/browse/solutions/" target="_blank" rel="external">solutions</a><br><a href="http://golang.org/doc/code.html" target="_blank" rel="external">How to Write Go Code - The Go Programming Language</a><br><a href="https://www.youtube.com/watch?v=XCsL89YtqCs" target="_blank" rel="external">Writing, building, installing, and testing Go code - YouTube</a><br><a href="http://golang.org/doc/effective_go.html" target="_blank" rel="external">Effective Go - The Go Programming Language</a><br><a href="http://golang.org/doc/faq" target="_blank" rel="external">Frequently Asked Questions (FAQ) - The Go Programming Language</a><br><a href="https://code.google.com/p/go-wiki/w/list" target="_blank" rel="external">Wiki Pages - go-wiki - Go Language Community Wiki - Google Project Hosting</a></p>
+<h2 id="Book">Book</h2><p><a href="https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details" target="_blank" rel="external">Building Web Apps with Go - GitBook</a></p>
+<h2 id="Design">Design</h2><p><a href="http://talks.golang.org/2012/splash.article" target="_blank" rel="external">Go at Google: Language Design in the Service of Software Engineering</a><br><a href="http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf" target="_blank" rel="external">Analysis of the Go runtime scheduler</a><br><a href="https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw/edit" target="_blank" rel="external">Scalable Go Scheduler Design Doc - Google Docs</a></p>
+<h3 id="Videos">Videos</h3><p><a href="https://www.youtube.com/watch?v=cN_DpYBzKso" target="_blank" rel="external">Rob Pike - ‘Concurrency Is Not Parallelism’ - YouTube</a><br><a href="https://www.youtube.com/watch?v=rKnDgT73v8s&amp;feature=related" target="_blank" rel="external">The Go Programming Language - YouTube</a><br><a href="https://www.youtube.com/watch?v=-i0hat7pdpk&amp;feature=relmfu" target="_blank" rel="external">Google I/O 2011: Writing Web Apps in Go - YouTube</a><br><a href="https://www.youtube.com/watch?v=f6kdp27TYZs" target="_blank" rel="external">Google I/O 2012 - Go Concurrency Patterns - YouTube</a><br><a href="https://www.youtube.com/watch?v=QDDwwePbDtw" target="_blank" rel="external">Google I/O 2013 - Advanced Go Concurrency Patterns - YouTube</a></p>
+<p>Building a Trie data structure.<br><a href="https://www.youtube.com/watch?v=9HqbKLcxQmo" target="_blank" rel="external">Tries - YouTube</a></p>
+<h3 id="Go_Blog">Go Blog</h3><blockquote>
+<p>collection of whitepaper-ish articles in Go Blog</p>
+</blockquote>
+<p><a href="http://blog.golang.org/index" target="_blank" rel="external">Article index - The Go Blog</a><br><a href="http://blog.golang.org/context" target="_blank" rel="external">Go Concurrency Patterns: Context - The Go Blog</a><br><a href="http://blog.golang.org/pipelines" target="_blank" rel="external">Go Concurrency Patterns: Pipelines and cancellation - The Go Blog</a><br><a href="http://blog.golang.org/playground" target="_blank" rel="external">Inside the Go Playground - The Go Blog</a><br><a href="http://blog.golang.org/normalization" target="_blank" rel="external">Text normalization in Go - The Go Blog</a><br><a href="http://blog.golang.org/strings" target="_blank" rel="external">Strings, bytes, runes and characters in Go - The Go Blog</a><br><a href="http://blog.golang.org/slices" target="_blank" rel="external">Arrays, slices (and strings): The mechanics of ‘append’ - The Go Blog</a><br><a href="http://blog.golang.org/race-detector" target="_blank" rel="external">Introducing the Go Race Detector - The Go Blog</a><br><a href="http://blog.golang.org/advanced-go-concurrency-patterns" target="_blank" rel="external">Advanced Go Concurrency Patterns - The Go Blog</a><br><a href="http://blog.golang.org/go-maps-in-action" target="_blank" rel="external">Go maps in action - The Go Blog</a><br><a href="http://blog.golang.org/concurrency-is-not-parallelism" target="_blank" rel="external">Concurrency is not parallelism - The Go Blog</a><br><a href="http://blog.golang.org/the-app-engine-sdk-and-workspaces-gopath" target="_blank" rel="external">The App Engine SDK and workspaces (GOPATH) - The Go Blog</a><br><a href="http://blog.golang.org/organizing-go-code" target="_blank" rel="external">Organizing Go code - The Go Blog</a><br><a href="http://blog.golang.org/laws-of-reflection" target="_blank" rel="external">The Laws of Reflection - The Go Blog</a><br><a href="http://blog.golang.org/error-handling-and-go" target="_blank" rel="external">Error handling and Go - The Go Blog</a><br><a href="http://blog.golang.org/profiling-go-programs" target="_blank" rel="external">Profiling Go Programs - The Go Blog</a><br><a href="http://blog.golang.org/gif-decoder-exercise-in-go-interfaces" target="_blank" rel="external">A GIF decoder: an exercise in Go interfaces - The Go Blog</a><br><a href="http://blog.golang.org/godoc-documenting-go-code" target="_blank" rel="external">Godoc: documenting Go code - The Go Blog</a><br><a href="http://blog.golang.org/gobs-of-data" target="_blank" rel="external">Gobs of data - The Go Blog</a><br><a href="http://blog.golang.org/c-go-cgo" target="_blank" rel="external">C? Go? Cgo! - The Go Blog</a><br><a href="http://blog.golang.org/json-and-go" target="_blank" rel="external">JSON and Go - The Go Blog</a><br><a href="http://blog.golang.org/go-slices-usage-and-internals" target="_blank" rel="external">Go Slices: usage and internals - The Go Blog</a><br><a href="http://blog.golang.org/go-concurrency-patterns-timing-out-and" target="_blank" rel="external">Go Concurrency Patterns: Timing out, moving on - The Go Blog</a><br><a href="http://blog.golang.org/defer-panic-and-recover" target="_blank" rel="external">Defer, Panic, and Recover - The Go Blog</a><br><a href="http://blog.golang.org/share-memory-by-communicating" target="_blank" rel="external">Share Memory By Communicating - The Go Blog</a><br><a href="http://blog.golang.org/gos-declaration-syntax" target="_blank" rel="external">Go’s Declaration Syntax - The Go Blog</a><br><a href="http://blog.golang.org/json-rpc-tale-of-interfaces" target="_blank" rel="external">JSON-RPC: a tale of interfaces - The Go Blog</a></p>
+<h2 id="Book-1">Book</h2><p><a href="http://www.golang-book.com/" target="_blank" rel="external">An Introduction to Programming in Go</a><br><a href="http://www.golangbootcamp.com/book" target="_blank" rel="external">Go Bootcamp | Softcover.io</a></p>
+<h2 id="Third_party">Third party</h2><p><a href="https://gobyexample.com/" target="_blank" rel="external">Go by Example</a><br><a href="http://learnxinyminutes.com/docs/go/" target="_blank" rel="external">Learn Go in Y Minutes</a><br><a href="http://golangtutorials.blogspot.hk/2011/05/table-of-contents.html" target="_blank" rel="external">GoLang Tutorials</a><br><a href="https://gophercasts.io/" target="_blank" rel="external">GopherCasts</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/go-notes/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-16 </div>
+			<div class="article-title"><a href="/hapi/" >Hapi</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://hapijs.com/">hapi.js</a> is a opiniated framework developed and used by Walmart which simplifies the task of writing a API backend.</p>
+<p>Hapi recently undergone a refactoring in 8.0 to better modulize the internals.</p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/hapi/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-02-09 </div>
+			<div class="article-title"><a href="/react-js/" >ReactJS</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://facebook.github.io/react/docs/getting-started.html" target="_blank" rel="external">Getting Started | React</a><br><a href="http://facebook.github.io/react/docs/tutorial.html" target="_blank" rel="external">Tutorial | React</a><br><a href="http://facebook.github.io/react/docs/thinking-in-react.html" target="_blank" rel="external">Thinking in React | React</a><br><a href="http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html" target="_blank" rel="external">The React Quick Start Guide</a><br><a href="http://blog.andrewray.me/reactjs-for-stupid-people/" target="_blank" rel="external">ReactJS For Stupid People</a><br><a href="http://blog.reverberate.org/2014/02/react-demystified.html" target="_blank" rel="external">Josh Haberman: React Demystified</a><br><a href="http://blog.risingstack.com/the-react-way-getting-started-tutorial/" target="_blank" rel="external">The React.js Way: Getting Started Tutorial</a><br><a href="https://github.com/ifandelse/ReactJS-Rethinking-Web-UI" target="_blank" rel="external">ifandelse/ReactJS-Rethinking-Web-UI</a><br><a href="http://hulufei.gitbooks.io/react-tutorial/content/" target="_blank" rel="external">Introduction | React 入门教程</a><br><a href="https://frontendmasters.com/courses/react/setting-state/" target="_blank" rel="external">JavaScript and Node.js Video Training Courses</a></p>
+<p><a href="http://jsfiddle.net/johnthethird/NXCyC/9/" target="_blank" rel="external">React JS Todo 2 - JSFiddle</a><br><a href="https://github.com/enaqx/awesome-react" target="_blank" rel="external">enaqx/awesome-react</a></p>
+<p><a href="https://github.com/facebook/react/wiki/Complementary-Tools" target="_blank" rel="external">Complementary Tools · facebook/react Wiki</a></p>
+<h3 id="React_+_Backbone/Marionette/Ampersand">React + Backbone/Marionette/Ampersand</h3><p><a href="http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html" target="_blank" rel="external">Using React components as Backbone Views</a><br><a href="https://github.com/clayallsopp/react.backbone" target="_blank" rel="external">clayallsopp/react.backbone</a><br><a href="http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone" target="_blank" rel="external">Tutorial: Building React Apps With Flux and Backbone | Toptal</a></p>
+<p><a href="http://jgaskins.org/blog/2015/02/06/gentle-migration-from-marionette-to-react" target="_blank" rel="external">Gentle Migration from Marionette to React - Jamie Gaskins</a><br><a href="https://gist.github.com/BinaryMuse/334120e0ef156e410f98" target="_blank" rel="external">Integrating React with Marionette</a></p>
+<p><a href="http://humanjavascript.com/" target="_blank" rel="external">human javascript by Henrik Joreteg</a><br><a href="http://learn.humanjavascript.com/react-ampersand" target="_blank" rel="external">Human JavaScript Videos</a></p>
+<h3 id="christianalfoni">christianalfoni</h3><p><a href="http://christianalfoni.github.io/javascript/2014/08/15/react-js-workflow.html" target="_blank" rel="external">React JS and a browserify workflow - christianalfoni WebApp Enthusiast</a><br><a href="http://www.christianalfoni.com/articles/2014_08_29_Choosing-the-correct-packaging-tool-for-React-js" target="_blank" rel="external">christianalfoni - Choosing the correct packaging tool for React js</a><br><a href="http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome" target="_blank" rel="external">christianalfoni - Webpack and react is awesome</a></p>
+<h2 id="Flux">Flux</h2><p>Flux is an architecture style for web applications. It is <em>not a library</em>, though there are some example implementations.<br>Flux promotes one way data flow:<br>  DISPATCHER -&gt; STORES -&gt; COMPONENTS<br>Components pass an “intent” (also called an “action”) to the dispatcher.</p>
+<p><a href="http://facebook.github.io/flux/" target="_blank" rel="external">Flux | Application Architecture for Building User Interfaces</a><br><a href="http://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/" target="_blank" rel="external">The React.js Way: Flux Architecture with Immutable.js</a><br><a href="https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e" target="_blank" rel="external">What is the Flux Application Architecture? — Brigade Engineering — Medium</a><br><a href="http://blog.andrewray.me/flux-for-stupid-people/" target="_blank" rel="external">Flux For Stupid People</a><br><a href="http://fluxxor.com/what-is-flux.html" target="_blank" rel="external">Fluxxor - What is Flux?</a><br><a href="http://spoike.ghost.io/deconstructing-reactjss-flux/" target="_blank" rel="external">Deconstructing ReactJS’s Flux</a></p>
+<p><a href="http://scotch.io/tutorials/javascript/getting-to-know-flux-the-react-js-architecture" target="_blank" rel="external">Getting To Know Flux, the React.js Architecture ♥ Scotch</a><br><a href="http://scotch.io/tutorials/javascript/creating-a-simple-shopping-cart-with-react-js-and-flux" target="_blank" rel="external">Creating A Simple Shopping Cart with React.js and Flux ♥ Scotch</a></p>
+<p><a href="https://developers.mobileapptracking.com/addressing-angular-weaknesses-with-react-and-flux/" target="_blank" rel="external">Integrating React and Flux with Angular | MobileAppTracking Developers</a></p>
+<h3 id="christianalfoni-1">christianalfoni</h3><p><a href="http://www.christianalfoni.com/articles/2014_08_20_React-js-and-flux" target="_blank" rel="external">christianalfoni - React js and flux</a><br><a href="http://christianalfoni.github.io/javascript/2014/09/08/jquery-as-a-framework-could-that-work.html" target="_blank" rel="external">jQuery as a framework, could that work? - christianalfoni WebApp Enthusiast</a><br><a href="http://www.christianalfoni.com/articles/2014_10_22_Nailing-that-validation-with-React-JS" target="_blank" rel="external">christianalfoni - Nailing that validation with React JS</a><br><a href="http://christianalfoni.github.io/javascript/2014/10/27/my-experiences-building-a-flux-application.html" target="_blank" rel="external">My experiences building a FLUX application - christianalfoni WebApp Enthusiast</a><br><a href="http://www.christianalfoni.com/articles/2014_10_30_A-browserify-workflow-part-2" target="_blank" rel="external">christianalfoni - A browserify workflow part 2</a><br><a href="http://christianalfoni.github.io/javascript/2014/12/04/flux-and-eventemitter2.html" target="_blank" rel="external">An alternative render strategy with flux and React JS - christianalfoni WebApp Enthusiast</a><br><a href="http://www.christianalfoni.com/articles/2015_02_06_Plant-a-Baobab-tree-in-your-flux-application" target="_blank" rel="external">christianalfoni - Plant a Baobab tree in your flux application</a><br><a href="http://www.christianalfoni.com/articles/2015_04_26_Handling-complex-state-with-Baobab" target="_blank" rel="external">christianalfoni - Handling complex state with Baobab</a><br><a href="https://github.com/christianalfoni/react-webpack-cookbook/wiki" target="_blank" rel="external">Home · christianalfoni/react-webpack-cookbook Wiki</a><br><a href="https://www.youtube.com/watch?v=plUN2L4Ak14" target="_blank" rel="external">jFlux - Going from MVC to FLUX - YouTube</a><br><a href="http://www.jsfridge.com/courses/jFlux_-_A_framework_to_keep_you_sane/scenes/0" target="_blank" rel="external">JSFridge</a></p>
+<h3 id="Libraries">Libraries</h3><p><a href="https://github.com/Yomguithereal/baobab" target="_blank" rel="external">Yomguithereal/baobab</a> a tree data structure, can be used as Store in Flux</p>
+<p><a href="https://github.com/goatslacker/alt" target="_blank" rel="external">goatslacker-alt · GitHub</a><br><a href="http://www.jflux.io/" target="_blank" rel="external">jFlux</a><br><a href="https://github.com/kenwheeler/mcfly" target="_blank" rel="external">kenwheeler-mcfly · GitHub</a><br><a href="https://github.com/LeanKit-Labs/lux.js" target="_blank" rel="external">LeanKit-Labs-lux.js · GitHub</a><br><a href="https://github.com/spoike/refluxjs" target="_blank" rel="external">spoike-refluxjs · GitHub</a><br>  <a href="http://blog.krawaller.se/posts/the-reflux-data-flow-model/" target="_blank" rel="external">The Reflux data flow model</a><br><a href="https://github.com/deloreanjs/delorean" target="_blank" rel="external">deloreanjs-delorean · GitHub</a><br><a href="http://acdlite.github.io/flummox" target="_blank" rel="external">Flummox | Minimal, isomorphic Flux</a><br><a href="http://facebook.github.io/flux/docs/overview.html" target="_blank" rel="external">Flux | Application Architecture for Building User Interfaces</a><br><a href="https://blog.javascripting.com/2015/06/19/flux-no-more-stores-meet-reducer/" target="_blank" rel="external">Flux: No More Stores, Meet Reducer</a><br><a href="http://www.tuxedojs.org/" target="_blank" rel="external">Tuxx</a><br><a href="https://fluxthis.io/" target="_blank" rel="external">FluxThis</a><br><a href="http://fluxxor.com/" target="_blank" rel="external">Fluxxor - Home</a></p>
+<h3 id="Comparison">Comparison</h3><p><a href="https://reactjsnews.com/the-state-of-flux/" target="_blank" rel="external">The State of Flux</a><br><a href="https://github.com/voronianski/flux-comparison" target="_blank" rel="external">voronianski-flux-comparison · GitHub</a><br><a href="http://www.progville.com/javascript/5-react-js-flux-tools/" target="_blank" rel="external">5 React.js + Flux tools - Progville</a></p>
+<h2 id="Components">Components</h2><h3 id="UI_widgets">UI widgets</h3><p><a href="http://material-ui.com/" target="_blank" rel="external">Material UI - Material Design React Components</a><br><a href="https://github.com/react-materialize/react-materialize" target="_blank" rel="external">react-materialize-react-materialize · GitHub</a><br><a href="http://react-bootstrap.github.io/" target="_blank" rel="external">React Bootstrap</a><br><a href="http://jquense.github.io/react-widgets/docs/#/" target="_blank" rel="external">React Widgets</a><br><a href="http://touchstonejs.io/" target="_blank" rel="external">TouchstoneJS • ReactJS powered UI framework for developing beautiful hybrid mobile apps</a><br><a href="https://github.com/plaxdan/react-topcoat" target="_blank" rel="external">plaxdan/react-topcoat</a> <a href="https://github.com/plaxdan/react-topcoat-demo" target="_blank" rel="external">plaxdan/react-topcoat-demo</a></p>
+<p><a href="http://madscript.com/boron/" target="_blank" rel="external">Boron</a> (modal dialog)<br><a href="https://github.com/JedWatson/react-hammerjs" target="_blank" rel="external">JedWatson-react-hammerjs · GitHub</a><br><a href="https://github.com/Lapple/react-transitive-number" target="_blank" rel="external">Lapple-react-transitive-number · GitHub</a><br><a href="http://softwarepsychonaut.com/react-fittext/" target="_blank" rel="external">ReactFitText Test Page</a><br><a href="http://rxmarbles.com/" target="_blank" rel="external">RxMarbles: Interactive diagrams of Rx Observables</a><br><a href="http://griddlegriddle.github.io/Griddle/" target="_blank" rel="external">Griddle - React Grid Component</a><br><a href="https://github.com/STRML/react-grid-layout" target="_blank" rel="external">STRML-react-grid-layout · GitHub</a><br><a href="https://github.com/twisty/formsy-react-components" target="_blank" rel="external">twisty-formsy-react-components · GitHub</a><br><a href="https://github.com/Wildhoney/Maple.js" target="_blank" rel="external">Wildhoney-Maple.js · GitHub</a></p>
+<h3 id="Router">Router</h3><p><a href="https://github.com/mtscout6/react-router-bootstrap" target="_blank" rel="external">mtscout6-react-router-bootstrap · GitHub</a><br><a href="https://github.com/rackt/react-router" target="_blank" rel="external">rackt-react-router · GitHub</a><br><a href="http://strml.viewdocs.io/react-router-component" target="_blank" rel="external">react-router-component :: viewdocs.io</a><br><a href="http://react-router-mega-demo.herokuapp.com/" target="_blank" rel="external">React Router Mega Demo</a></p>
+<h3 id="CSS">CSS</h3><p><a href="https://github.com/icodeforlove/react-rcs" target="_blank" rel="external">icodeforlove/react-rcs</a><br><a href="http://projects.formidablelabs.com/radium/" target="_blank" rel="external">Radium - A React Component Styling Library</a></p>
+<h3 id="Tutorial">Tutorial</h3><p><a href="http://facebook.github.io/react/docs/component-specs.html" target="_blank" rel="external">Component Specs and Lifecycle | React</a></p>
+<p><a href="http://ifandelse.com/using-reactjs-and-kendoui-together/" target="_blank" rel="external">Using ReactJS and KendoUI Together</a></p>
+<p><a href="http://blog.siftscience.com/blog/2015/4/6/d-threeact-how-sift-science-made-d3-react-besties" target="_blank" rel="external">d-Threeact: How the Sift Science Console Team Made d3 and React the Best of Friends — Sift Science Blog</a><br><a href="http://10consulting.com/2014/02/19/d3-plus-reactjs-for-charting/" target="_blank" rel="external">D3 and React - the future of charting components? - Binary Consulting</a><br><a href="https://ericbullington.com/blog/2014/11/16/react-d3-charts/" target="_blank" rel="external">React-d3 · Eric S. Bullington</a><br><a href="http://yaymedia.net/?p=1571" target="_blank" rel="external">React: Integrating 3rd-party visual components</a></p>
+<h3 id="Repo">Repo</h3><p><a href="http://react-components.com/" target="_blank" rel="external">React Components</a><br><a href="https://github.com/react-component" target="_blank" rel="external">react-component · GitHub</a><br><a href="http://react.rocks/" target="_blank" rel="external">Latest ReactJS Examples</a></p>
+<h2 id="Isomorphic_JS">Isomorphic JS</h2><p><a href="https://strongloop.com/strongblog/node-js-react-isomorphic-javascript-why-it-matters/" target="_blank" rel="external">StrongLoop | How to Implement Node + React Isomorphic JavaScript &amp; Why it Matters</a></p>
+<h2 id="JSX:_curse_or_blessing">JSX: curse or blessing</h2><p><a href="http://facebook.github.io/react/docs/jsx-in-depth.html" target="_blank" rel="external">JSX in Depth | React</a><br><a href="https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918" target="_blank" rel="external">JSX Looks Like An Abomination — JavaScript Scene — Medium</a><br><a href="http://firstdoit.com/react-1/" target="_blank" rel="external">How I learned to stop worrying and love React</a></p>
+<p><a href="https://github.com/af/JSnoX" target="_blank" rel="external">af/JSnoX</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> HelloMessage = React.createClass(&#123;</span><br><span class="line">  render: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> React.DOM.div(</span><br><span class="line">                         &#123;className: <span class="string">'mystyle'</span>&#125;,</span><br><span class="line">                         <span class="string">'Hello '</span> + <span class="keyword">this</span>.props.name</span><br><span class="line">                         );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">React.renderComponent(HelloMessage(&#123;name:<span class="string">"John"</span>&#125;), mountNode);</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">/** @jsx React.DOM */&#10;var HelloMessage = React.createClass(&#123;&#10;  render: function() &#123;&#10;    return &#60;div&#62;&#123;&#39;Hello &#39; + this.props.name&#125;&#60;/div&#62;;&#10;  &#125;&#10;&#125;);&#10;&#10;React.renderComponent(&#60;HelloMessage name=&#34;John&#34; /&#62;, mountNode);</span><br></pre></td></tr></table></figure>
+<h2 id="React_Native">React Native</h2><p><a href="http://jlongster.com/First-Impressions-using-React-Native" target="_blank" rel="external">James Long</a><br><a href="http://www.reactnative.com/" target="_blank" rel="external">Use React Native: site and newsletter</a><br><a href="http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript" target="_blank" rel="external">Introducing React Native: Building Apps with JavaScript</a></p>
+<h2 id="Testing">Testing</h2><p><a href="https://medium.com/qubit-engineering/easily-testing-react-components-with-react-test-tree-f9e1668b1c2d" target="_blank" rel="external">Easily testing React components with react-test-tree — Qubit Engineering — Medium</a><br><a href="https://egghead.io/lessons/react-unit-testing-a-react-component-using-jasmine-and-webpack" target="_blank" rel="external">Unit testing a React component using Jasmine and Webpack - React Video Tutorial #free @eggheadio</a><br><a href="http://simonsmith.io/unit-testing-react-components-without-a-dom" target="_blank" rel="external">Unit testing React components without a DOM – simonsmith.io</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/react-js/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-23 </div>
+			<div class="article-title"><a href="/hackintosh/" >Hackintosh</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.hackintosh.com/" target="_blank" rel="external">Hackintosh Instructions, Hackintosh How To Guides: Hackintosh.com</a><br><a href="http://www.tonymacx86.com/" target="_blank" rel="external">tonymacx86.com</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/hackintosh/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-23 </div>
+			<div class="article-title"><a href="/linux-setup/" >Linux setup</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>ArchLinux has IMO the best Linux <a href="https://www.archlinux.org/">wiki</a>.<br>Most of the Linux tricks can be found there.</p>
+<p><a href="http://linuxtoolkit.blogspot.hk/">Linux Toolkits</a></p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/linux-setup/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-23 </div>
+			<div class="article-title"><a href="/tintint/" >TinTint 點點印</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>TinTint is a book printing company based in Taiwan.<br>They have a <a href="http://www.tintint.com/hk/product/category" target="_blank" rel="external">varity of products</a>: books, photobooks, business cards, notebooks, wall photos and calendars. The pricing is very competitive.</p>
+<p>They also have a <a href="http://www.tintint.com/hk" target="_blank" rel="external">Hong Kong site</a>.</p>
+<p>The online book editor is superb.<br>You can register and publish your book online for <em>FREE</em>.</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/tintint/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-23 </div>
+			<div class="article-title"><a href="/why-is-water-transparent/" >Why is water transparent?</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.quora.com/Why-is-water-transparent" target="_blank" rel="external">Why Is Water Transparent? - Quora</a></p>
+<p>The question is null.<br>It just happens that water allows some frequencies to pass through due to its physical structure. Living creatures then develope their visual sensors to pick up that frequency band <em>SO THAT</em> water seems transparent.<br>This is an application of <a href="https://www.google.com.hk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=%E4%BA%BA%E6%93%87%E5%8E%9F%E7%90%86" target="_blank" rel="external">“人擇原理”</a>.</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/why-is-water-transparent/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-15 </div>
+			<div class="article-title"><a href="/android-studio/" >Android Studio</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Android Studio is an IDE based on <a href="http://www.jetbrains.com/idea/features/android.html" target="_blank" rel="external">Intellij IDEA</a> released by Google, together with the Android SDK tools. It replaces <a href="http://developer.android.com/tools/help/adt.html" target="_blank" rel="external">Eclipse with ADT</a> as the official IDE for Android after reaching the 1.0 milestone in Dec 2014.</p>
+<p><a href="http://developer.android.com/sdk/index.html" target="_blank" rel="external">Download Android Studio and SDK Tools | Android Developers</a></p>
+<p><a href="http://www.developerphil.com/android-studio-tips-tricks-moving-around/" target="_blank" rel="external">Android Studio Tips &amp; Tricks: Moving Around</a><br><a href="http://www.developerphil.com/android-studio-tips-of-the-day-roundup-1/" target="_blank" rel="external">Android Studio Tips Of the Day – Roundup #1</a><br><a href="http://www.developerphil.com/android-studio-tips-of-the-day-roundup-2/" target="_blank" rel="external">Android Studio Tips Of the Day – Roundup #2</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/android-studio/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-15 </div>
+			<div class="article-title"><a href="/windows-desktop/" >Windows Desktop</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://ninite.com/" target="_blank" rel="external">Ninite - Install or Update Multiple Apps at Once</a></p>
+<h2 id="Crapware">Crapware</h2><p>Beware of where you download from, especially don’t use download.com.<br><a href="http://www.howtogeek.com/198622/heres-what-happens-when-you-install-the-top-10-download.com-apps/" target="_blank" rel="external">Here’s What Happens When You Install the Top 10 Download.com Apps</a><br><a href="http://lifehacker.com/crapware-is-a-horrible-problem-and-its-all-our-fault-1705794628" target="_blank" rel="external">Crapware Is a Horrible Problem and It’s Our Fault</a></p>
+<h2 id="Linux_File_System_in_Windows">Linux File System in Windows</h2><p><a href="http://www.pendrivelinux.com/access-ext2-and-ext3-from-windows/" target="_blank" rel="external">Access Ext2 and Ext3 from Windows using Ext2Fsd | USB Pen Drive Linux</a><br><a href="http://www.fs-driver.org/" target="_blank" rel="external">Ext2 IFS For Windows</a><br><a href="http://www.chrysocome.net/explore2fs" target="_blank" rel="external">chrysocome.net - Explore2fs</a></p>
+<p><a href="http://lifehacker.com/tag/windows" target="_blank" rel="external">Windows News, Videos, Reviews and Gossip - Lifehacker</a></p>
+<p><a href="http://lifehacker.com/5520447/windows-maintenance-tips-the-good-bad-and-useless" target="_blank" rel="external">Windows Maintenance Tips: The Good, Bad, and Useless</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/windows-desktop/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-15 </div>
+			<div class="article-title"><a href="/hadoop/" >Hadoop</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.infoq.com/presentations/hadoop-hdfs-bigtable" target="_blank" rel="external">Hadoop 201 — Deeper into the Elephant</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/hadoop/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-14 </div>
+			<div class="article-title"><a href="/shell-recording/" >Shell Recording</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://asciinema.org/" target="_blank" rel="external">asciinema - Record and share your terminal sessions, the right way</a></p>
+<p><a href="http://xmodulo.com/record-replay-terminal-session-linux.html" target="_blank" rel="external">How to record and replay a terminal session on Linux - Xmodulo</a><br><a href="http://www.linuxnix.com/2013/04/record-terminalshell-session-linux.html" target="_blank" rel="external">How to Record your Terminal session in Linux?</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/shell-recording/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-14 </div>
+			<div class="article-title"><a href="/cron/" >Cron</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h2 id="cron">cron</h2><p><a href="http://www.marksanborn.net/linux/learning-cron-by-example/" target="_blank" rel="external">Learning Cron by Example</a><br><a href="http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/" target="_blank" rel="external">Linux Crontab: 15 Awesome Cron Job Examples</a><br><a href="http://www.corntab.com/pages/crontab-gui" target="_blank" rel="external">A visual crontab editor - create your custom crontab syntax to use with the cron scheduling application on your Linux server</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># view our crontab entries without editing them</span></span><br><span class="line">crontab <span class="operator">-l</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># view our crontab entries without editing them</span></span><br><span class="line">crontab <span class="operator">-e</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># specify user</span></span><br><span class="line">crontabl -u user</span><br><span class="line"></span><br><span class="line"><span class="comment"># remove your crontab file and start fresh</span></span><br><span class="line">crontab -r   <span class="comment">## !! dangerous !!</span></span><br><span class="line">crontab -ri</span><br><span class="line"></span><br><span class="line"><span class="comment"># load from file</span></span><br><span class="line"><span class="comment"># !! current crontab entries will be overwritten !!</span></span><br><span class="line">crontab file</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># min hour dom month dow command&#10;30 8-18/2 * * 1-5 ./path/to/backup_wiki.sh&#10;# Minutes [0-59]&#10;# Hour [0-23]&#10;# Day of Month [1-31]&#10;# Month [1-12] - January is 1, obviously&#10;# Day of Week [0-7] - Sunday is 0 or 7&#10;# Command to run (can have spaces)</span><br></pre></td></tr></table></figure>
+<p>When you specify */5 in minute field means every 5 minutes.<br>When you specify 0-10/2 in minute field mean every 2 minutes in the first 10 minute.<br>Thus the above convention can be used for all the other 4 fields.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># use bash&#10;SHELL=/bin/bash&#10;&#10;# m h  dom mon dow   command&#10;&#10;# show env of cron shell&#10;#* * * * * env &#62; /tmp/cron-env.output&#10;&#10;# backup crontab every Monday&#10;0 13 * * 1 crontab -l &#62; $&#123;HOME&#125;/crobtab.bak</span><br></pre></td></tr></table></figure>
+<p>Logs for <code>cron</code> can usually be found in <code>/var/log/cron.log</code> or <code>/var/log/messages</code></p>
+<h2 id="anacron">anacron</h2><p><a href="http://www.thegeekstuff.com/2011/05/anacron-examples/" target="_blank" rel="external">Cron Vs Anacron: How to Setup Anacron on Linux (With an Example)</a></p>
+<p><code>anacron</code> is for PCs that are not running 24*7.</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/cron/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+
+		</div>
+
+		<!-- pagination -->
+		<div>
+  		<center>
+		<div class="pagination">
+<ul class="pagination">
+	 
+		
+    	<li class="prev"><a href="/page/3/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i> Prev</a></li>
+  		
+
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+
+		
+		   <li class="next"> <a href="/page/5/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a> </li>          
+        
+	
+</ul>
+</div>
+
+  		</center>
+		</div>
+
+		
+		
+	</div> <!-- col-md-9 -->
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			<div class="form-group has-success has-feedback">
+  <form action="//google.com/search" method="get" accept-charset="utf-8" >
+    <input type="search" name="q" results="0" placeholder="Search" class="form-control">
+    <input type="hidden" name="q" value="site:leesei.github.io">	
+  </form>
+</div>
+
+		
+			
+	<div class="widget">
+		<h4>Categories</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/android/">android<span>4</span></a></li>
+		
+			<li><a href="/categories/app/">app<span>28</span></a></li>
+		
+			<li><a href="/categories/apps/">apps<span>1</span></a></li>
+		
+			<li><a href="/categories/comp-hardware/">comp.hardware<span>7</span></a></li>
+		
+			<li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+		
+			<li><a href="/categories/linux/">linux<span>18</span></a></li>
+		
+			<li><a href="/categories/philosophy/">philosophy<span>4</span></a></li>
+		
+			<li><a href="/categories/trivia/">trivia<span>22</span></a></li>
+		
+			<li><a href="/categories/uncategorized/">uncategorized<span>4</span></a></li>
+		
+			<li><a href="/categories/web/">web<span>15</span></a></li>
+		
+		</ul>
+	</div>
+
+		
+			
+	<div class="widget">
+		<h4>Tag Cloud</h4>
+		<ul class="tag_box inline list-unstyled">		
+		
+			<li><a href="/tags/game-engine/">game-engine<span>1</span></a></li>
+		
+			<li><a href="/tags/natural-language/">natural-language<span>1</span></a></li>
+		
+			<li><a href="/tags/economics/">economics<span>2</span></a></li>
+		
+			<li><a href="/tags/comics/">comics<span>1</span></a></li>
+		
+			<li><a href="/tags/harddisk/">harddisk<span>1</span></a></li>
+		
+			<li><a href="/tags/security/">security<span>3</span></a></li>
+		
+			<li><a href="/tags/ai/">ai<span>1</span></a></li>
+		
+			<li><a href="/tags/xinput/">xinput<span>1</span></a></li>
+		
+			<li><a href="/tags/har/">har<span>1</span></a></li>
+		
+			<li><a href="/tags/ssl/">ssl<span>1</span></a></li>
+		
+			<li><a href="/tags/colorspace/">colorspace<span>1</span></a></li>
+		
+			<li><a href="/tags/regex/">regex<span>1</span></a></li>
+		
+			<li><a href="/tags/kensington/">kensington<span>1</span></a></li>
+		
+			<li><a href="/tags/x/">x<span>2</span></a></li>
+		
+			<li><a href="/tags/physics/">physics<span>1</span></a></li>
+		
+			<li><a href="/tags/hub/">hub<span>1</span></a></li>
+		
+			<li><a href="/tags/golang/">golang<span>1</span></a></li>
+		
+			<li><a href="/tags/iot/">iot<span>1</span></a></li>
+		
+			<li><a href="/tags/logo/">logo<span>1</span></a></li>
+		
+			<li><a href="/tags/tr/">tr<span>1</span></a></li>
+		
+		
+		   <li><a href="/tags">...<span>194</span></a></li>
+		 
+		</ul>
+	</div>
+
+
+		
+			
+<div class="widget">
+	<h4>Links</h4>
+	<ul class="blogroll list-unstyled">
+	
+		<li><i class="fa fa-github"></i><a href="https://www.github.com/leesei" title="My Github account." target="_blank"]);">My Github</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="http://leesei.github.io/repos" title="My repos on Github, in grid form." target="_blank"]);">My Repos</a></li>
+	
+		<li><i class="fa fa-code"></i><a href="https://github.com/leesei/leesei.github.io/tree/source" title="Source for this blog." target="_blank"]);">Source</a></li>
+	
+		<li><i class="fa fa-rss-square"></i><a href="atom.xml" title="RSS feed" target="_blank"]);">RSS</a></li>
+	
+		<li><i class="fa fa-sitemap"></i><a href="sitemap.xml" title="Sitemap" target="_blank"]);">Site Map</a></li>
+	
+	</ul>
+</div>
+
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+	
+	
+</div> <!-- row-fluid -->
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

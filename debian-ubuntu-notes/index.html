@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Debian/Ubuntu notes | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Debian/Ubuntu notes"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Debian/Ubuntu notes</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://debian-handbook.info/browse/stable/" target="_blank" rel="external">The Debian Administrator’s Handbook</a><br><a href="https://help.ubuntu.com/lts/ubuntu-help/index.html" target="_blank" rel="external">Ubuntu Desktop Guide</a><br><a href="https://help.ubuntu.com/community/CommunityHelpWiki" target="_blank" rel="external">CommunityHelpWiki - Community Help Wiki</a></p>
+<a id="more"></a>
+<h2 id="Package_managers">Package managers</h2><p><a href="http://askubuntu.com/questions/309113/what-is-the-difference-between-dpkg-and-aptitude-apt-get" target="_blank" rel="external">What is the difference between dpkg and aptitude/apt-get? - Ask Ubuntu</a><br><a href="http://debian-handbook.info/browse/stable/sect.apt-frontends.html" target="_blank" rel="external">6.4. Frontends: aptitude, synaptic</a></p>
+<p>list upgrades: <code>apt-get -s upgrade</code></p>
+<p>list installed: <code>aptitude search &#39;~i!~M&#39;</code></p>
+<p><a href="http://askubuntu.com/questions/17823/how-to-list-all-installed-packages" target="_blank" rel="external">apt - How to list all installed packages? - Ask Ubuntu</a></p>
+<p><a href="https://apps.ubuntu.com/cat/" target="_blank" rel="external">Ubuntu Apps Directory</a></p>
+<h3 id="repo_source">repo source</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">inxi -r</span><br><span class="line">cat /etc/apt/sources.list</span><br><span class="line">ls /etc/apt/sources.list.d</span><br></pre></td></tr></table></figure>
+<h3 id="installed_packages">installed packages</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">dpkg <span class="operator">-l</span></span><br></pre></td></tr></table></figure>
+<h3 id="files_in_package">files in package</h3><p><a href="http://slopjong.de/2013/01/29/list-files-of-a-debian-package/" target="_blank" rel="external">List files of a Debian or Ubuntu package | Slopjong</a></p>
+<p>For installed packages:<br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">dpkg -L vim</span><br></pre></td></tr></table></figure></p>
+<p>For not-yet-installed packages:<br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># (optional) download package from repo with:</span></span><br><span class="line">apt-get --download-only vim</span><br><span class="line">dpkg --contents vim_7.<span class="number">3.547</span>-<span class="number">6</span>ubuntu5_amd64.deb</span><br></pre></td></tr></table></figure></p>
+<h3 id="outdated_release">outdated release</h3><p>When you would like to keep using the release without upgrade</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo sed -i <span class="operator">-e</span> <span class="string">'s/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g'</span> /etc/apt/sources.list</span><br><span class="line"></span><br><span class="line"><span class="comment"># for mint</span></span><br><span class="line">sudo sed -i <span class="operator">-e</span> <span class="string">'s/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g'</span> /etc/apt/sources.list.d/official-package-repositories.list</span><br></pre></td></tr></table></figure>
+<p><a href="https://smyl.es/how-to-fix-ubuntudebian-apt-get-404-not-found-package-repository-errors-saucy-raring-quantal-oneiric-natty/" target="_blank" rel="external">How to fix Ubuntu/Debian apt-get 404 Not Found Package Repository Errors (Saucy, Raring, Quantal, Oneiric, Natty…) | sMyl.es</a></p>
+<h2 id="Init">Init</h2><h3 id="Debian/LSB-compliant">Debian/LSB-compliant</h3><p><a href="http://refspecs.linuxfoundation.org/lsb.shtml" target="_blank" rel="external">LSB Referenced Specifications</a></p>
+<p><a href="https://github.com/Fleshgrinder/nginx-sysvinit-script" target="_blank" rel="external">https://github.com/Fleshgrinder/nginx-sysvinit-script</a><br><a href="https://github.com/JasonGiedymin/nginx-init-ubuntu" target="_blank" rel="external">https://github.com/JasonGiedymin/nginx-init-ubuntu</a>  </p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ sudo update-rc.d --help</span><br><span class="line">update-rc.d: error: --help</span><br><span class="line">usage: update-rc.d [-n] [<span class="operator">-f</span>] &lt;basename&gt; remove</span><br><span class="line">       update-rc.d [-n] &lt;basename&gt; defaults [NN | SS KK]</span><br><span class="line">       update-rc.d [-n] &lt;basename&gt; <span class="built_in">disable</span>|<span class="built_in">enable</span> [S|<span class="number">2</span>|<span class="number">3</span>|<span class="number">4</span>|<span class="number">5</span>]</span><br><span class="line">        -n: not really</span><br><span class="line">        <span class="operator">-f</span>: force</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo update-rc.d <span class="operator">-f</span> nginx remove</span><br><span class="line">sudo update-rc.d nginx defaults</span><br><span class="line">sudo service nginx status</span><br><span class="line">sudo service nginx start</span><br><span class="line">sudo service nginx stop</span><br></pre></td></tr></table></figure>
+<h3 id="Ubuntu">Ubuntu</h3><p>Use <code>upstart</code> instead of <code>init.d</code> for Ubuntu:<br><a href="http://casear.chuto.tw/2013/05/31/upstart-setting-for-nginx-on-ubuntu/" target="_blank" rel="external">http://casear.chuto.tw/2013/05/31/upstart-setting-for-nginx-on-ubuntu/</a><br><a href="http://casear.chuto.tw/2013/05/31/upstart-setting-for-redis-on-ubuntu/" target="_blank" rel="external">http://casear.chuto.tw/2013/05/31/upstart-setting-for-redis-on-ubuntu/</a></p>
+<h2 id="Hacker_setup">Hacker setup</h2><p><a href="http://niftylettuce.com/posts/linux-mint-ubuntu-nodejs-hacker-setup/" target="_blank" rel="external">http://niftylettuce.com/posts/linux-mint-ubuntu-nodejs-hacker-setup/</a></p>
+<h2 id="Timezone">Timezone</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ date</span><br><span class="line">Thu Mar <span class="number">21</span> <span class="number">18</span>:<span class="number">02</span>:<span class="number">49</span> MST <span class="number">2012</span></span><br><span class="line">$ more /etc/timezone</span><br><span class="line">US/Arizona</span><br><span class="line"></span><br><span class="line">$ sudo dpkg-reconfigure tzdata</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><a href="http://www.christopherirish.com/2012/03/21/how-to-set-the-timezone-on-ubuntu-server/" target="_blank" rel="external">http://www.christopherirish.com/2012/03/21/how-to-set-the-timezone-on-ubuntu-server/</a></p>
+</blockquote>
+<h2 id="installed_pacakges">installed pacakges</h2><blockquote>
+<p>add <a href="https://gist.github.com/leesei/65bf019431fc418f8ce3" target="_blank" rel="external">linux-installs.md</a> here</p>
+</blockquote>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/zsh-settings/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/shell-notes/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-08 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/debian/">debian<span>1</span></a></li> <li><a href="/tags/desktop/">desktop<span>12</span></a></li> <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/ubuntu/">ubuntu<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Package_managers"><span class="toc-article-text">Package managers</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#repo_source"><span class="toc-article-text">repo source</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#installed_packages"><span class="toc-article-text">installed packages</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#files_in_package"><span class="toc-article-text">files in package</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#outdated_release"><span class="toc-article-text">outdated release</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Init"><span class="toc-article-text">Init</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Debian/LSB-compliant"><span class="toc-article-text">Debian/LSB-compliant</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Ubuntu"><span class="toc-article-text">Ubuntu</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Hacker_setup"><span class="toc-article-text">Hacker setup</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Timezone"><span class="toc-article-text">Timezone</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#installed_pacakges"><span class="toc-article-text">installed pacakges</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

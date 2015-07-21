@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Android setup | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Android setup"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Android setup</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Connecting to Android devices on Linux.</p>
+<a id="more"></a>
+<h2 id="Get_vendorID">Get vendorID</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ lsusb</span><br><span class="line">...</span><br><span class="line">Bus <span class="number">008</span> Device <span class="number">042</span>: ID <span class="number">18</span>d1:<span class="number">0003</span> Google Inc. </span><br><span class="line">Bus <span class="number">007</span> Device <span class="number">053</span>: ID <span class="number">2207</span>:<span class="number">0010</span>  </span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>The first part of ID is vendorID (18d1 and 2207 in the above example)</p>
+<h2 id="Update_adb_usb-ini">Update adb_usb.ini</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;android-sdk&gt;</span><br><span class="line">./android update adb</span><br></pre></td></tr></table></figure>
+<p><code>~/.android/</code> is created, append vendor id to <code>~/.android/adb_usb.ini</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.&#10;# USE &#39;android update adb&#39; TO GENERATE.&#10;# 1 USB VENDOR ID PER LINE.&#10;0x18d1&#10;0x2207</span><br></pre></td></tr></table></figure>
+<h2 id="Restart_adb_server">Restart adb server</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">adb <span class="built_in">kill</span>-server</span><br><span class="line">adb devices</span><br><span class="line"><span class="comment"># use `sudo` to start server if you see "permissions denied"</span></span><br><span class="line">sudo $(<span class="built_in">which</span> adb) devices</span><br></pre></td></tr></table></figure>
+<h2 id="Add_udev_rule">Add udev rule</h2><p>Newer system should not need this.</p>
+<blockquote>
+<p><a href="http://developer.android.com/tools/device.html" target="_blank" rel="external">Using Hardware Devices | Android Developers</a><br><a href="http://www.reactivated.net/writing_udev_rules.html" target="_blank" rel="external">Writing udev rules</a><br><a href="https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules" target="_blank" rel="external">android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules</a></p>
+</blockquote>
+<p>Add <code>51-adb.rule</code> to <code>/etc/udev/rules.d</code>:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># allwinner board&#10;#SUBSYSTEM==&#34;usb&#34;, SYSFS&#123;idVendor&#125;==&#34;18d1&#34;, MODE=&#34;0666&#34;&#10;SUBSYSTEM==&#34;usb&#34;, ATTR&#123;idVendor&#125;==&#34;18d1&#34;, MODE=&#34;0666&#34;, GROUP=&#34;plugdev&#34;&#10;SUBSYSTEM==&#34;usb&#34;, ATTR&#123;idVendor&#125;==&#34;18d1&#34;,ATTR&#123;idProduct&#125;==&#34;0003&#34;,SYMLINK+=&#34;android_adb&#34;&#10;# rockchip board&#10;#SUBSYSTEM==&#34;usb&#34;, SYSFS&#123;idVendor&#125;==&#34;2207&#34;, MODE=&#34;0666&#34;&#10;SUBSYSTEM==&#34;usb&#34;, ATTR&#123;idVendor&#125;==&#34;2207&#34;, MODE=&#34;0666&#34;, GROUP=&#34;plugdev&#34;&#10;SUBSYSTEM==&#34;usb&#34;, ATTR&#123;idVendor&#125;==&#34;2207&#34;,ATTR&#123;idProduct&#125;==&#34;0010&#34;,SYMLINK+=&#34;android_adb&#34;</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>make sure your user is in group <code>plugdev</code></p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># restart udev</span></span><br><span class="line">sudo udevadm control --reload-rules</span><br><span class="line">sudo service udev restart</span><br></pre></td></tr></table></figure>
+<h2 id="Reference">Reference</h2><p><a href="http://developer.android.com/tools/device.html" target="_blank" rel="external">http://developer.android.com/tools/device.html</a><br><a href="http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/" target="_blank" rel="external">http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/</a><br><a href="https://wiki.archlinux.org/index.php/android" target="_blank" rel="external">https://wiki.archlinux.org/index.php/android</a><br><a href="http://community.linuxmint.com/tutorial/view/888" target="_blank" rel="external">http://community.linuxmint.com/tutorial/view/888</a><br><a href="http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions" target="_blank" rel="external">http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions</a></p>
+<h2 id="MTP">MTP</h2><blockquote>
+<p><a href="http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html" target="_blank" rel="external">http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html</a><br><a href="http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access" target="_blank" rel="external">http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access</a><br>see <code>/etc/udev/rules.d/</code> and <code>/lib/udev/rules.d/</code></p>
+</blockquote>
+<p>Add <code>51-android-mtp.rule</code> to <code>/etc/udev/rules.d</code>: (not working)</p>
+<blockquote>
+<p>this get rids of “Unable to open MTP device ‘[usb:007,038]’” <a href="https://www.youtube.com/watch?v=SV4x_Oc3EPg" target="_blank" rel="external">pop-up</a>, but the device listed is empty</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># samsung note3&#10;SUBSYSTEM==&#34;usb&#34;, ATTR&#123;idVendor&#125;==&#34;04e8&#34;, ATTR&#123;idProduct&#125;==&#34;6860&#34;, MODE=&#34;0666&#34;, OWNER=&#34;[username]&#34;</span><br></pre></td></tr></table></figure>
+<p><a href="http://forum.xda-developers.com/showthread.php?t=2055563" target="_blank" rel="external">HOWTO: Linux and MTP - xda-developers</a><br><a href="http://forums.linuxmint.com/viewtopic.php?t=116879#p660869" target="_blank" rel="external">Samsung Galaxy Devices and Linux Mint</a><br><a href="http://www.webupd8.org/2013/01/upgrade-to-gvfs-with-mtp-support-in.html" target="_blank" rel="external">Upgrade To Gvfs With MTP Support In Ubuntu 12.10 Or 12.04 To Easily Connect Android 4.0+ Devices ~ Web Upd8: Ubuntu / Linux blog</a><br><a href="https://wiki.archlinux.org/index.php/MTP" target="_blank" rel="external">MTP - ArchWiki</a><br><a href="http://www.adebenham.com/mtpfs/" target="_blank" rel="external">MTPfs « Dual Elephants</a><br><a href="http://roger.steneteg.org/299/mount-mtp-device-on-debian-7-wheezy/" target="_blank" rel="external">Mount MTP device on Debian 7 wheezy | Roger Steneteg</a><br><a href="http://forum.xda-developers.com/showthread.php?t=2140939" target="_blank" rel="external">[GUIDE] How-To Automount Your Note 10.1 to Linux with MTP - xda-developers</a><br><a href="http://askubuntu.com/questions/87667/getting-mtp-enabled-devices-to-work-with-ubuntu/308366#308366" target="_blank" rel="external">Getting MTP enabled devices to work with Ubuntu? - Ask Ubuntu</a><br><a href="http://www.legendiary.at/2013/01/27/the-easy-way-share-data-between-nexus-7-and-debian/" target="_blank" rel="external">The easy way: share data between Nexus 7 and Debian | Legen … d(i)ary!</a><br><a href="http://www.legendiary.at/2013/01/27/the-hard-way-make-mtp-work-with-nexus-7-on-debian/" target="_blank" rel="external">The hard way: make MTP work with Nexus 7 on Debian | Legen … d(i)ary!</a></p>
+<h3 id="issues">issues</h3><p><a href="http://sourceforge.net/p/libmtp/bugs/574/" target="_blank" rel="external">http://sourceforge.net/p/libmtp/bugs/574/</a><br><a href="https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010" target="_blank" rel="external">https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/ruby-settings/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/android-content/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-01-13 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/android/">android<span>4</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/adb/">adb<span>2</span></a></li> <li><a href="/tags/linux/">linux<span>1</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Get_vendorID"><span class="toc-article-text">Get vendorID</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Update_adb_usb-ini"><span class="toc-article-text">Update adb_usb.ini</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Restart_adb_server"><span class="toc-article-text">Restart adb server</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Add_udev_rule"><span class="toc-article-text">Add udev rule</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#MTP"><span class="toc-article-text">MTP</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#issues"><span class="toc-article-text">issues</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

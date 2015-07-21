@@ -1,0 +1,925 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Page 5 | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 <div class="page-header">
+  <h1>εмβяαςε мλ sμρεя gεεκ ροωεя.</h1>
+</div>
+
+<div class="row page">
+
+	
+	<div class="col-md-9">
+	
+
+		<div class="slogan">
+      Technical blog for the future me and other beings.
+</div>
+
+
+		<div class="mypage">
+		
+		<!-- title and entry -->
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-14 </div>
+			<div class="article-title"><a href="/vim-notes/" >vim notes</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/Vim_(text_editor">vim</a>) is a screen-oriented text editor originally created for the Unix operating system</p>
+<p><a href="http://vimdoc.sourceforge.net/htmldoc/help.html">Vim documentation: help</a></p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/vim-notes/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-14 </div>
+			<div class="article-title"><a href="/shell-tools/" >Shell Tools</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.commandlinefu.com/commands/browse" target="_blank" rel="external">All commands | commandlinefu.com</a><br><a href="http://explainshell.com/" target="_blank" rel="external">explainshell.com - match command-line arguments to their help text</a><br><a href="https://wiki.archlinux.org/index.php/Core_utilities" target="_blank" rel="external">Core utilities - ArchWiki</a><br><a href="https://www.linode.com/docs/tools-reference/" target="_blank" rel="external">Tools &amp; Reference - Linode Guides &amp; Tutorials</a><br><a href="http://www.thegeekstuff.com/linux-101-hacks-ebook/" target="_blank" rel="external">Linux 101 Hacks eBook, by Ramesh Natarajan</a></p>
+<h2 id="user_management">user management</h2><p><code>/etc/passwd</code> defines the users<br><code>/etc/group</code> defines the groups</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># print user info</span></span><br><span class="line">id <span class="variable">$USER</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># new user with secondary group</span></span><br><span class="line">useradd -G group[,group] user</span><br><span class="line"></span><br><span class="line"><span class="comment"># add secondary group to existing user</span></span><br><span class="line">usermod <span class="operator">-a</span> -G group[,group] user</span><br><span class="line"></span><br><span class="line"><span class="comment"># delete user</span></span><br><span class="line">userdel user</span><br><span class="line"><span class="comment"># delete user and home folder</span></span><br><span class="line">userdel -r user</span><br></pre></td></tr></table></figure>
+<h2 id="ImageMagick">ImageMagick</h2><p><a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="external">ImageMagick: Convert, Edit, Or Compose Bitmap Images</a><br><a href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html" target="_blank" rel="external">ImageMagick使用心得</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># resizing image</span></span><br><span class="line">convert -resize <span class="number">300</span>x300 image.jpg image-small.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add shadow</span></span><br><span class="line">convert screenshot.jpg \( +<span class="built_in">clone</span> -background black -shadow <span class="number">60</span>×<span class="number">5</span>+<span class="number">0</span>+<span class="number">5</span> \) +swap -background white -layers merge +repage shadow.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add timestamp, http://www.imagemagick.org/script/escape.php</span></span><br><span class="line">convert *.jpg -font Arial -pointsize <span class="number">72</span> -gravity SouthEast -fill yellow -annotate +<span class="number">100</span>+<span class="number">100</span> %[exif:datetime] output-%d.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert to pdf</span></span><br><span class="line">convert a.png b.png -compress jpeg -resize <span class="number">1240</span>x1753 \</span><br><span class="line">                      -extent <span class="number">1240</span>x1753 -gravity center \</span><br><span class="line">                      -units PixelsPerInch -density <span class="number">150</span>x150 multipage.pdf</span><br></pre></td></tr></table></figure>
+<h2 id="netcat">netcat</h2><p><a href="http://nc110.sourceforge.net/" target="_blank" rel="external">http://nc110.sourceforge.net/</a><br><a href="http://www.catonmat.net/blog/unix-utilities-netcat/" target="_blank" rel="external">http://www.catonmat.net/blog/unix-utilities-netcat/</a><br><a href="http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/" target="_blank" rel="external">http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/</a><br><a href="http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/" target="_blank" rel="external">http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/</a></p>
+<h2 id="netstat">netstat</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list listening TCP ports</span></span><br><span class="line">netstat -antlp</span><br><span class="line">lsof -i udp:<span class="number">24000</span></span><br><span class="line">lsof -i tcp:<span class="number">80</span></span><br></pre></td></tr></table></figure>
+<h2 id="openRTSP">openRTSP</h2><p><a href="http://www.live555.com/openRTSP/#option-summary" target="_blank" rel="external">http://www.live555.com/openRTSP/#option-summary</a></p>
+<h2 id="tar">tar</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list content</span></span><br><span class="line">tar -tf tarball.tar.gz | head</span><br><span class="line"></span><br><span class="line"><span class="comment"># skip 1 level (container folder)</span></span><br><span class="line">tar -xvf ZendFramework-<span class="number">1.7</span>.<span class="number">2</span>.tar.gz --strip <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h2 id="grep">grep</h2><p><a href="http://www.wikiwand.com/en/Grep" target="_blank" rel="external">grep - Wikiwand</a><br><a href="http://www.grymoire.com/Unix/Grep.html" target="_blank" rel="external">Grep</a><br><a href="http://www.eriwen.com/tools/grep-is-a-beautiful-tool/" target="_blank" rel="external">grep is a beautiful tool</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list file name only</span></span><br><span class="line">grep <span class="operator">-l</span> pattern file</span><br><span class="line"></span><br><span class="line"><span class="comment"># grep | xarg combo</span></span><br><span class="line">grep <span class="operator">-l</span>Z pattern file | xargs -<span class="number">0</span> ls <span class="operator">-l</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># find files without word "foo"</span></span><br><span class="line">grep -L <span class="string">"foo"</span> *</span><br><span class="line">grep -c <span class="string">"foo"</span> * | grep <span class="string">":0"</span> | awk -F: <span class="string">'&#123; print $1 &#125;'</span></span><br></pre></td></tr></table></figure>
+<h2 id="pt">pt</h2><p><a href="https://github.com/monochromegane/the_platinum_searcher" target="_blank" rel="external">monochromegane/the_platinum_searcher</a></p>
+<h2 id="find">find</h2><p><a href="http://www.wikiwand.com/en/Grep" target="_blank" rel="external">grep - Wikiwand</a><br><a href="http://www.grymoire.com/Unix/Find.html" target="_blank" rel="external">Find</a><br><a href="http://www.eriwen.com/productivity/find-is-a-beautiful-tool/" target="_blank" rel="external">Find is a beautiful tool</a><br><a href="http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/" target="_blank" rel="external">Mommy, I found it! — 15 Practical Linux Find Command Examples</a><br><a href="http://www.softpanorama.org/Tools/Find/index.shtml" target="_blank" rel="external">Unix Find Tutorial</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># find | xarg combo</span></span><br><span class="line">find . -print0 | xargs -<span class="number">0</span> ls <span class="operator">-l</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># all files greater than 1mb</span></span><br><span class="line">find <span class="variable">$HOME</span>/. -size +<span class="number">1024</span>k </span><br><span class="line"></span><br><span class="line"><span class="comment"># all .js files inside current directory greater than 500k</span></span><br><span class="line">find . -name <span class="string">'*.js'</span> -size +<span class="number">500</span>k </span><br><span class="line"></span><br><span class="line"><span class="comment"># find all files larger than zero but less than 500bytes</span></span><br><span class="line">find . -size +<span class="number">0</span> <span class="operator">-a</span> -size -<span class="number">500</span>c <span class="comment"># (-a is AND, -c is bytes) </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># find all files larger than zero OR (-o) any that haven't been accessed in over a year</span></span><br><span class="line">find . -size <span class="number">0</span> -o -atime +<span class="number">365</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># find all files modified more than 5 days ago</span></span><br><span class="line">find . -type f -mtime +<span class="number">5</span></span><br><span class="line"><span class="comment"># find all files modified within last 60 minutes</span></span><br><span class="line">find . -type f -mmin -<span class="number">60</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># find all files of size between 50-100MB</span></span><br><span class="line">find . -size +<span class="number">50</span>M -size -<span class="number">100</span>M</span><br><span class="line"></span><br><span class="line"><span class="comment"># concat all files and print to console, note the space before '\'</span></span><br><span class="line">find . -type f -exec cat &#123;&#125; \;</span><br><span class="line"></span><br><span class="line"><span class="comment"># find executables</span></span><br><span class="line">find . -perm /a=x</span><br><span class="line"></span><br><span class="line"><span class="comment"># find empty directories</span></span><br><span class="line">find . -type d -empty</span><br></pre></td></tr></table></figure>
+<h3 id="operate_files_using_inum">operate files using inum</h3><p>This is useful when the file name is particularly long or contains wierd characters.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list inum of files</span></span><br><span class="line">ls -i</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> <span class="string">"<span class="variable">$(find -inum 123456)</span>"</span></span><br><span class="line">mv <span class="string">"<span class="variable">$(find -inum 123456)</span>"</span> ../some/<span class="built_in">where</span>/</span><br></pre></td></tr></table></figure>
+<h2 id="rsync">rsync</h2><p><a href="http://cinvro.com/post/rsync/" target="_blank" rel="external">又一枚瑞士军刀：rsync – Canvas</a><br><a href="https://www.mankier.com/1/rsync" target="_blank" rel="external">rsync - man page</a><br><a href="http://coolshell.cn/articles/7425.html" target="_blank" rel="external">rsync 的核心算法 | 酷 壳 - CoolShell.cn</a></p>
+<h2 id="sort">sort</h2><p><a href="http://www.wikiwand.com/en/Sort_(Unix" target="_blank" rel="external">sort (Unix) - Wikiwand</a>)<br><a href="https://www.mankier.com/1/sort" target="_blank" rel="external">sort - man page</a></p>
+<h2 id="xarg">xarg</h2><p><a href="http://www.wikiwand.com/en/Xargs" target="_blank" rel="external">xargs - Wikiwand</a><br><a href="https://www.mankier.com/1/xargs" target="_blank" rel="external">xargs - man page</a><br><a href="http://charlesmartinreid.com/wiki/Xargs" target="_blank" rel="external">Xargs - Charles Martin Reid</a></p>
+<h2 id="diff">diff</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># left only</span></span><br><span class="line">diff --changed-group-format=<span class="string">'%&lt;'</span> --unchanged-group-format=<span class="string">''</span> FILE1 FILE2</span><br><span class="line"><span class="comment"># right only</span></span><br><span class="line">diff --changed-group-format=<span class="string">'%&gt;'</span> --unchanged-group-format=<span class="string">''</span> FILE1 FILE2</span><br></pre></td></tr></table></figure>
+<h2 id="inotify-tools">inotify-tools</h2><p><a href="https://github.com/rvoicilas/inotify-tools" target="_blank" rel="external">https://github.com/rvoicilas/inotify-tools</a></p>
+<h2 id="cpio">cpio</h2><p><a href="https://www.mankier.com/1/cpio" target="_blank" rel="external">cpio - man page</a><br><a href="http://www.thegeekstuff.com/2010/08/cpio-utility/" target="_blank" rel="external">Linux cpio Examples: How to Create and Extract cpio Archives (and tar archives)</a></p>
+<p>copy files to destination folder keeping the tree sturcture of the path specified </p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># in ~/source</span></span><br><span class="line"><span class="comment"># these files are reachable in ~/source with their relative paths</span></span><br><span class="line">cat ~/filelist</span><br><span class="line">frameworks/av/media/libstagefright/foundation/ANetworkSession.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/Android.mk</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/MediaSender.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/<span class="built_in">source</span>/Converter.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/<span class="built_in">source</span>/PlaybackSession.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/<span class="built_in">source</span>/TSPacketizer.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/<span class="built_in">source</span>/WifiDisplaySource.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/<span class="built_in">source</span>/WifiDisplaySource.h</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/VideoFormats.cpp</span><br><span class="line">frameworks/av/media/libstagefright/wifi-display/wfd.cpp</span><br><span class="line"></span><br><span class="line">cpio -pud ~/dest &lt; ~/filelist</span><br><span class="line"></span><br><span class="line"><span class="comment"># cpio single file</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"frameworks/base/cmds/pm/src/com/android/commands/pm/Pm.java"</span> \</span><br><span class="line">| cpio -pud <span class="variable">$&#123;ANDROID_PATCH&#125;</span>/board/common/</span><br></pre></td></tr></table></figure>
+<h2 id="cut">cut</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># get n-th to m-th word in string, using ':' as separator</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;LINE&#125;</span> | cat <span class="operator">-d</span>: <span class="operator">-f</span> n,m</span><br></pre></td></tr></table></figure>
+<h2 id="tr">tr</h2><p>replace character in SET1 with characters in SET2</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"foo\nbar\nbaz"</span> | tr <span class="string">"bf"</span> <span class="string">"\!"</span></span><br><span class="line"><span class="comment"># negates SET1</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"foo\nbar\nbaz"</span> | tr -c <span class="string">"bf\n"</span> <span class="string">"\!"</span></span><br><span class="line"><span class="comment"># ROT13</span></span><br><span class="line"><span class="built_in">alias</span> rot13=<span class="string">"tr '[A-Za-z]' '[N-ZA-Mn-za-m]'"</span></span><br></pre></td></tr></table></figure>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/shell-tools/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/ruby-settings/" >Ruby settings</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://jimeh.me/blog/2011/11/01/my-ruby-development-environment/" target="_blank" rel="external">My Ruby Development Environment</a></p>
+<h2 id="Install_rvm">Install <code>rvm</code></h2><p><a href="https://rvm.io/" target="_blank" rel="external">RVM: Ruby Version Manager</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">\curl -L https://get.rvm.io | bash <span class="operator">-s</span> stable</span><br><span class="line"><span class="built_in">source</span> ~/.rvm/bin/rvm</span><br></pre></td></tr></table></figure>
+<h2 id="Installing/updating_Rubies">Installing/updating Rubies</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">rvm list known</span><br><span class="line"></span><br><span class="line"><span class="comment"># ruby-latest have to be compiled</span></span><br><span class="line">RUBY_VERSION=ruby-<span class="number">2.0</span>.<span class="number">0</span></span><br><span class="line">rvm install <span class="variable">$&#123;RUBY_VERSION&#125;</span></span><br><span class="line">rvm <span class="built_in">alias</span> create default <span class="variable">$&#123;RUBY_VERSION&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="rvm_basics"><code>rvm</code> basics</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">rvm list </span><br><span class="line">rvm info    <span class="comment"># general rvm info</span></span><br><span class="line">rvm gemdir  <span class="comment"># current gem directory</span></span><br></pre></td></tr></table></figure>
+<h2 id="modules">modules</h2><p>gem or rvm install?</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># app</span></span><br><span class="line">gem install humongous <span class="comment"># mongodb browser</span></span><br><span class="line"><span class="comment"># redhat openshift</span></span><br><span class="line">gem install rhc</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># heroku can alternately installed by</span></span><br><span class="line">wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh</span><br></pre></td></tr></table></figure>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/ruby-settings/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/android-setup/" >Android setup</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Connecting to Android devices on Linux.</p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/android-setup/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/android-content/" >Android content command</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Notes for interacting with ContentProvider in console on Android system.</p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/android-content/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/awk-notes/" >awk notes</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/AWK">AWK</a> is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">awk <span class="string">'&#123;PROGRAM&#125;'</span> file</span><br><span class="line">awk <span class="operator">-f</span> &lt;PROGRAM.awk&gt; file</span><br></pre></td></tr></table></figure>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/awk-notes/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/sed-notes/" >sed notes</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/Sed">sed</a> (stream editor) is a Unix utility that parses and transforms text, using a simple, compact programming language.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sed <span class="string">'commands'</span> file</span><br><span class="line">sed <span class="operator">-f</span> &lt;PROGRAM.sed&gt; file</span><br></pre></td></tr></table></figure>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/sed-notes/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-13 </div>
+			<div class="article-title"><a href="/ffmpeg/" >avconv/ffmpeg</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>FFmpeg is a library and utility for AV format convertion.<br>Libav is a fork of FFmpeg with more transparent governance.<br>The paramters for <code>ffmepg</code> and <code>avconv</code> are <em>MOSTLY</em> compatible.</p>
+<p><a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html">The FFmpeg/Libav situation</a><br><a href="https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav">FFmpeg versus Libav · mpv-player/mpv Wiki</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ffmpeg [global options] [[infile options][-i infile]]... &#123;[outfile options] outfile&#125;...</span><br></pre></td></tr></table></figure>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/ffmpeg/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-07 </div>
+			<div class="article-title"><a href="/perl/" >Perl</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://www.perl.org/" target="_blank" rel="external">The Perl Programming Language - www.perl.org</a><br><a href="http://perldoc.perl.org/index.html" target="_blank" rel="external">Perl programming documentation - perldoc.perl.org</a></p>
+<p><a href="http://www.modernperlbooks.com/" target="_blank" rel="external">Modern Perl Programming</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/perl/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-05 </div>
+			<div class="article-title"><a href="/khronos-group/" >Khronos Group</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/Khronos_Group" target="_blank" rel="external">Khronos Group 3D Graphics Specs</a></p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/OpenGL" target="_blank" rel="external">OpenGL</a></li>
+<li><a href="http://en.wikipedia.org/wiki/OpenGL_ES" target="_blank" rel="external">OpenGL ES</a></li>
+<li><a href="http://en.wikipedia.org/wiki/WebGL" target="_blank" rel="external">WebGL</a></li>
+</ul>
+<p>EGL is an interface between Khronos rendering APIs (such as OpenGL ES or OpenVG) and the underlying native platform windowing system. EGL handles graphics context management, surface/bufferbinding, rendering synchronization, and enables “high-performance, accelerated, mixed-mode 2D and 3Drendering using other Khronos APIs.”</p>
+<h2 id="Shading_Languages">Shading Languages</h2><p><a href="http://www.wikiwand.com/en/Shader" target="_blank" rel="external">Shader - Wikiwand</a><br><a href="http://en.wikipedia.org/wiki/High-level_shader_language" target="_blank" rel="external">High-level shading language (HLSL)</a> by Microsoft<br><a href="http://en.wikipedia.org/wiki/GLSL" target="_blank" rel="external">OpenGL Shading Language (GLSL/GLslang)</a> by Khronos Group<br><a href="http://en.wikipedia.org/wiki/Cg_(programming_language" target="_blank" rel="external">Cg (C for Graphics)</a>) by Nvidia, enables programmer to use C-like syntax to create shaders, generate HLSL or GLSL code.<br>The shader programs are loaded to a OpenGL application (context/shell) for execution.<br><a href="http://www0.cs.ucl.ac.uk/staff/ucacbbl/cigpu2008/slides/shader-vs-cuda.pdf" target="_blank" rel="external">http://www0.cs.ucl.ac.uk/staff/ucacbbl/cigpu2008/slides/shader-vs-cuda.pdf</a></p>
+<p><a href="http://notes.underscorediscovery.com/shaders-a-primer/" target="_blank" rel="external">Primer : Shaders</a><br><a href="http://notes.underscorediscovery.com/shaders-second-stage/" target="_blank" rel="external">Shaders : second stage</a></p>
+<h2 id="GPGPU"><a href="http://en.wikipedia.org/wiki/GPGPU" target="_blank" rel="external">GPGPU</a></h2><p><a href="http://en.wikipedia.org/wiki/CUDA" target="_blank" rel="external">CUDA</a> provides an architecture for general-purpose computation in GPU, and is more flexible then shading languages in terms of memory access but lacks some of the graphic specific features. The program is loaded as “kernel” to the GPU without a need for graphic “shell”. The host and kenels can communicate and synchronize with each other.<br>CUDA sits on top of specific language such as  OpenCL, DirectX, CUDA C. </p>
+<p><a href="http://en.wikipedia.org/wiki/OpenCL" target="_blank" rel="external">OpenCL</a> is a framework for writing programs that execute across heterogeneous platforms consisting of central processing units (CPUs), graphics processing units (GPUs), digital signal processors (DSPs) and other processors.<br>HLSL 5.0 for DirectX 11 is going to add new GPGPU functions like CUDA that also works for AMD’s and Intel’s GPU.<br>These GPGPU framework can access the GPU without needing a graphics context.<br>Programmers that need to be platform agnostic will have to stick to GLSL before OpenCL is widely supported.<br><a href="http://stackoverflow.com/questions/982911/cuda-opencl-pgi-etc-but-what-happened-to-glsl-and-cg" target="_blank" rel="external">http://stackoverflow.com/questions/982911/cuda-opencl-pgi-etc-but-what-happened-to-glsl-and-cg</a></p>
+<p>OpenCV</p>
+<blockquote>
+<p>TODO: add link to [opencv]</p>
+</blockquote>
+<p>All OpenXXX are frameworks and API that require driver implementation by chip vendor.</p>
+<h2 id="WebGL">WebGL</h2><p><a href="http://get.webgl.org/" target="_blank" rel="external">http://get.webgl.org/</a><br>chrome://gpu/<br>chrome://flags/</p>
+<p><a href="http://code.tutsplus.com/series/webgl-essentials--net-35335" target="_blank" rel="external">WebGL Essentials - Tuts+ Code Tutorials</a></p>
+<h2 id="Resources">Resources</h2><p><a href="https://github.com/AdrienHerubel/imgui" target="_blank" rel="external">AdrienHerubel-imgui</a><br><a href="http://glew.sourceforge.net/" target="_blank" rel="external">GLEW- The OpenGL Extension Wrangler Library</a><br><a href="http://www.glfw.org/" target="_blank" rel="external">GLFW - An OpenGL library</a><br><a href="http://www.pygame.org/news.html" target="_blank" rel="external">News - pygame - python game development</a><br><a href="http://www.libsdl.org/" target="_blank" rel="external">Simple DirectMedia Layer - Homepage</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/khronos-group/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-01-02 </div>
+			<div class="article-title"><a href="/game-engines/" >Game Engines</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/Game_engine" target="_blank" rel="external">Game engine - Wikipedia, the free encyclopedia</a><br><a href="http://en.wikipedia.org/wiki/List_of_first-person_shooter_engines" target="_blank" rel="external">List of first-person shooter engines - Wikipedia, the free encyclopedia</a></p>
+<h2 id="CryEngine">CryEngine</h2><p><a href="http://en.wikipedia.org/wiki/CryEngine" target="_blank" rel="external">CryEngine - Wikipedia, the free encyclopedia</a><br><a href="http://www.crytek.com/cryengine" target="_blank" rel="external">CryENGINE | Crytek</a></p>
+<h2 id="Quake">Quake</h2><p><a href="http://en.wikipedia.org/wiki/Quake_engine" target="_blank" rel="external">Quake engine - Wikipedia, the free encyclopedia</a></p>
+<h2 id="Source">Source</h2><p><a href="http://en.wikipedia.org/wiki/Source_%28game_engine%29" target="_blank" rel="external">Source (game engine) - Wikipedia, the free encyclopedia</a></p>
+<h2 id="Unity">Unity</h2><p><a href="http://en.wikipedia.org/wiki/Unity_%28game_engine%29" target="_blank" rel="external">Unity (game engine) - Wikipedia, the free encyclopedia</a><br><a href="http://unity3d.com/unity" target="_blank" rel="external">Unity - Game engine, tools and multiplatform</a></p>
+<h2 id="Unreal">Unreal</h2><p><a href="http://en.wikipedia.org/wiki/Unreal_Engine" target="_blank" rel="external">Unreal Engine - Wikipedia, the free encyclopedia</a><br><a href="https://www.unrealengine.com/unreal-engine-4" target="_blank" rel="external">About Unreal Engine 4</a><br><a href="http://arstechnica.com/gaming/2012/05/unreal-engine-4-will-bring-us-beautiful-games-faster-than-ever/" target="_blank" rel="external">Unreal Engine 4 will bring us beautiful games faster than ever | Ars Technica</a><br><a href="http://arstechnica.com/gaming/2012/06/gorgeous-unreal-engine-4-brings-direct-programming-indirect-lighting/" target="_blank" rel="external">Gorgeous Unreal Engine 4 brings direct programming, indirect lighting | Ars Technica</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/game-engines/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-31 </div>
+			<div class="article-title"><a href="/opencv/" >OpenCV</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://opencv.org/">OpenCV</a> (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. </p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/opencv/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-26 </div>
+			<div class="article-title"><a href="/gold-standard/" >Gold Standard</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Also “Gold-based Economy”.<br><a href="http://en.wikipedia.org/wiki/Gold_standard" target="_blank" rel="external">Gold standard - Wikipedia, the free encyclopedia</a></p>
+<p><a href="https://www.youtube.com/watch?v=fDfNoCjtXvQ&amp;index=14&amp;list=PL35FE5C4B157509C9" target="_blank" rel="external">Game Theory: World of Warcraft will SAVE the Economy - YouTube</a></p>
+<p><a href="https://www.youtube.com/watch?v=CTtf5s2HFkA" target="_blank" rel="external">Gold Bullion Vault - Periodic Table of Videos - YouTube</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/gold-standard/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-26 </div>
+			<div class="article-title"><a href="/model-of-grief/" >Model of Grief</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model">Kübler-Ross model - Wikipedia, the free encyclopedia</a></p>
+<p>5 stages of people handling grief (<strong>DABDA</strong>):<br><strong>D</strong>enial<br><strong>A</strong>nger<br><strong>B</strong>argaining<br><strong>D</strong>epression<br><strong>A</strong>cceptance</p>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/model-of-grief/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/git-settings/" >Git Settings</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Backup:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">.gitignore</span><br><span class="line">.ssh/config</span><br><span class="line">.ssh/git.id_rsa&#123;,.pub&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="hub">hub</h2><p><a href="https://hub.github.com/" target="_blank" rel="external">hub · the command-line wrapper for git</a><br><a href="https://github.com/github/hub" target="_blank" rel="external">github/hub</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">go get github.com/github/hub</span><br></pre></td></tr></table></figure>
+<h2 id="Reference">Reference</h2><p><a href="http://justinlilly.com/dotfiles/git.html" target="_blank" rel="external">http://justinlilly.com/dotfiles/git.html</a></p>
+<p><a href="http://schacon.github.io/git/git-config.html" target="_blank" rel="external">http://schacon.github.io/git/git-config.html</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/git-settings/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/restify-express/" >Restify Express</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Stack Restify over Express </p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> restify = <span class="built_in">require</span>(<span class="string">'restify'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// see http://stackoverflow.com/a/13690887/665507</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Restify server config here</span></span><br><span class="line"><span class="keyword">var</span> server = restify.createServer(&#123;</span><br><span class="line">  name: <span class="string">'restify-test'</span>,</span><br><span class="line">  version: <span class="string">'1.0.0'</span>,</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Express config here</span></span><br><span class="line"><span class="keyword">var</span> expressApp = express()</span><br><span class="line">    .use(express.logger())</span><br><span class="line">    .use(express.bodyParser())</span><br><span class="line">    .use(express.query())</span><br><span class="line">    .use(express.cookieParser())</span><br><span class="line">    <span class="comment">// And this is where the magic happens</span></span><br><span class="line">    .use(<span class="string">"/api"</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">             server.server.emit(<span class="string">'request'</span>, req, res);</span><br><span class="line">         &#125;);</span><br><span class="line"></span><br><span class="line">expressApp.listen(<span class="number">8080</span>);</span><br></pre></td></tr></table></figure>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/restify-express/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/ssh/" >SSH</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://www.mankier.com/1/ssh-keygen" target="_blank" rel="external">ssh-keygen - man page</a></p>
+<p><a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">Generating SSH keys - User Documentation</a><br><a href="https://help.github.com/articles/working-with-ssh-key-passphrases/" target="_blank" rel="external">Working with SSH key passphrases - User Documentation</a></p>
+<h2 id="password-less_login">password-less login</h2><p><a href="http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE" target="_blank" rel="external">The Computer Kid: Password-less SSH</a></p>
+<p>Also see <code>ssh ssh-copy-id</code> command</p>
+<h3 id="on_client">on client</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># generate ssh key pair (if you don't have one)</span></span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line"></span><br><span class="line">scp ~/.ssh/id_rsa.pub user@server:~/</span><br></pre></td></tr></table></figure>
+<h3 id="on_server">on server</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add public key to authorized_keys</span></span><br><span class="line">cat ~/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># enforce permission settings</span></span><br><span class="line">chmod <span class="number">700</span> ~/.ssh</span><br><span class="line">chmod <span class="number">640</span> ~/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">\rm ~/id_rsa.pub</span><br></pre></td></tr></table></figure>
+<h2 id="ssh_tunneling">ssh tunneling</h2><p><a href="https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/" target="_blank" rel="external">SSH Tunneling Explained | Source Open</a><br><a href="http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/" target="_blank" rel="external">Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net</a></p>
+<h2 id="sshfs">sshfs</h2><p><a href="http://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/" target="_blank" rel="external">How to Mount a Remote Folder using SSH on Ubuntu</a><br><a href="http://xmodulo.com/how-to-mount-remote-directory-over-ssh-on-linux.html" target="_blank" rel="external">How to mount a remote directory over ssh on Linux - Xmodulo</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># install sshfs (once)</span></span><br><span class="line">sudo apt-get install sshfs</span><br><span class="line"></span><br><span class="line"><span class="comment"># mount sshfs</span></span><br><span class="line">sshfs user@yourdomain.com:/path/to/remote <span class="built_in">local</span>/path</span><br><span class="line"></span><br><span class="line"><span class="comment"># unmount sshfs</span></span><br><span class="line">fusermount -u <span class="built_in">local</span>_mountpoint</span><br></pre></td></tr></table></figure>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/ssh/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/android-notes/" >Android notes</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Notes for console tools available on Android system.</p>
+<p><a href="http://www.linux.org/threads/android-and-friends-reading-guide.6146/">Android (and Friends) Reading Guide | Linux.org</a><br><a href="http://blog.csdn.net/hellogv">hellogv的专栏 - 博客频道 - CSDN.NET</a></p>
+<h2 id="Dev">Dev</h2><p><a href="http://androidxref.com/">AndroidXRef</a><br><a href="http://code.tutsplus.com/tutorials/detect-and-resolve-performance-problems-on-android--cms-24058">Detect and Resolve Performance Problems on Android - Tuts+ Code Tutorial</a></p>
+<blockquote>
+<p>attach adbpull, adbpush, adbview, adbcmd here</p>
+</blockquote>
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/android-notes/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/node-js-https/" >Node.js HTTPS server</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h2 id="cert_generation">cert generation</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">openssl genrsa -out privatekey.pem <span class="number">1024</span></span><br><span class="line">openssl req -new -key privatekey.pem -x509 -days <span class="number">7300</span> -out certificate.pem</span><br></pre></td></tr></table></figure>
+<h2 id="server">server</h2><figure class="highlight javascript"><figcaption><span>http-server.js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'Hello World'</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</span><br><span class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> options = &#123;</span><br><span class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</span><br><span class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (port) &#123;</span><br><span class="line">    http.createServer(app).listen(port);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (ports) &#123;</span><br><span class="line">    https.createServer(options, app).listen(ports);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/node-js-https/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2014-12-17 </div>
+			<div class="article-title"><a href="/colorspace/" >Colorspace</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>There are several standards regulating the YUV colorspace: </p>
+<h2 id="EBU">EBU</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Y&#39;= 0.299*R&#39; + 0.587*G&#39; + 0.114*B&#39;&#10;U&#39;=-0.147*R&#39; - 0.289*G&#39; + 0.436*B&#39; = 0.493*(B&#39; - Y&#39;)&#10;V&#39;= 0.615*R&#39; - 0.515*G&#39; - 0.100*B&#39; = 0.877*(R&#39; - Y&#39;)&#10;&#10;R&#39;= Y&#39; + 0.000*U&#39; + 1.140*V&#39;&#10;G&#39;= Y&#39; - 0.396*U&#39; - 0.581*V&#39;&#10;B&#39;= Y&#39; + 2.029*U&#39; + 0.000*V&#39;</span><br></pre></td></tr></table></figure>
+<h2 id="ITU-BT-601">ITU.BT-601</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Y&#39;= 0.299*R&#39; + 0.587*G&#39; + 0.114*B&#39;&#10;Cb=-0.169*R&#39; - 0.331*G&#39; + 0.500*B&#39; = 0.564(B - Y&#39;)&#10;Cr= 0.500*R&#39; - 0.419*G&#39; - 0.081*B&#39; = 0.713(R - Y&#39;)&#10;&#10;R&#39;= Y&#39; + 0.000*U&#39; + 1.403*V&#39;&#10;G&#39;= Y&#39; - 0.344*U&#39; - 0.714*V&#39;&#10;B&#39;= Y&#39; + 1.773*U&#39; + 0.000*V&#39;</span><br></pre></td></tr></table></figure>
+<h2 id="ITU-BT-709">ITU.BT-709</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Y&#39;= 0.2215*R&#39; + 0.7154*G&#39; + 0.0721*B&#39;&#10;Cb=-0.1145*R&#39; - 0.3855*G&#39; + 0.5000*B&#39;&#10;Cr= 0.5016*R&#39; - 0.4556*G&#39; - 0.0459*B&#39;&#10;&#10;R&#39;= Y&#39; + 0.0000*Cb + 1.5701*Cr&#10;G&#39;= Y&#39; - 0.1870*Cb - 0.4664*Cr&#10;B&#39;= Y&#39; - 1.8556*Cb + 0.0000*Cr</span><br></pre></td></tr></table></figure>
+<h2 id="yCbCr&lt;—&gt;rgb_(ITU-BT-565?)">yCbCr&lt;—&gt;rgb (ITU.BT-565?)</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Y&#8217; = 0.257*R&#39; + 0.504*G&#39; + 0.098*B&#39; + 16&#10;Cb&#39; = -0.148*R&#39; - 0.291*G&#39; + 0.439*B&#39; + 128&#10;Cr&#39; = 0.439*R&#39; - 0.368*G&#39; - 0.071*B&#39; + 128&#10;R&#39; = 1.164*(Y&#8217;-16) + 1.596*(Cr&#39;-128)&#10;G&#39; = 1.164*(Y&#8217;-16) - 0.813*(Cr&#39;-128) - 0.392*(Cb&#39;-128)&#10;B&#39; = 1.164*(Y&#8217;-16) + 2.017*(Cb&#39;-128)</span><br></pre></td></tr></table></figure>
+<h2 id="Packaging_and_colorspace">Packaging and colorspace</h2><p>Packaging is defined by <a href="http://www.fourcc.org/yuv.php" target="_blank" rel="external">fourcc</a> and independent of the colorspace.</p>
+<h2 id="References:">References:</h2><p><a href="http://en.wikipedia.org/wiki/YUV" target="_blank" rel="external">http://en.wikipedia.org/wiki/YUV</a></p>
+<p><a href="http://www.fourcc.org/fccyvrgb.php" target="_blank" rel="external">http://www.fourcc.org/fccyvrgb.php</a></p>
+<p><a href="http://www.fourcc.org/yuv.php" target="_blank" rel="external">http://www.fourcc.org/yuv.php</a></p>
+<p><a href="http://www.martinreddy.net/gfx/faqs/colorconv.faq" target="_blank" rel="external">http://www.martinreddy.net/gfx/faqs/colorconv.faq</a></p>
+<p><a href="http://blog.weisu.org/2008/01/ycbcr-yuv-sampling.html" target="_blank" rel="external">http://blog.weisu.org/2008/01/ycbcr-yuv-sampling.html</a></p>
+<p><a href="http://discoverybiz.net/enu0/faq/faq_YUV_YCbCr_YPbPr.html" target="_blank" rel="external">http://discoverybiz.net/enu0/faq/faq_YUV_YCbCr_YPbPr.html</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/colorspace/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+
+		</div>
+
+		<!-- pagination -->
+		<div>
+  		<center>
+		<div class="pagination">
+<ul class="pagination">
+	 
+		
+    	<li class="prev"><a href="/page/4/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i> Prev</a></li>
+  		
+
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+
+		
+		   <li class="next"> <a href="/page/6/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a> </li>          
+        
+	
+</ul>
+</div>
+
+  		</center>
+		</div>
+
+		
+		
+	</div> <!-- col-md-9 -->
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			<div class="form-group has-success has-feedback">
+  <form action="//google.com/search" method="get" accept-charset="utf-8" >
+    <input type="search" name="q" results="0" placeholder="Search" class="form-control">
+    <input type="hidden" name="q" value="site:leesei.github.io">	
+  </form>
+</div>
+
+		
+			
+	<div class="widget">
+		<h4>Categories</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/android/">android<span>4</span></a></li>
+		
+			<li><a href="/categories/app/">app<span>28</span></a></li>
+		
+			<li><a href="/categories/apps/">apps<span>1</span></a></li>
+		
+			<li><a href="/categories/comp-hardware/">comp.hardware<span>7</span></a></li>
+		
+			<li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+		
+			<li><a href="/categories/linux/">linux<span>18</span></a></li>
+		
+			<li><a href="/categories/philosophy/">philosophy<span>4</span></a></li>
+		
+			<li><a href="/categories/trivia/">trivia<span>22</span></a></li>
+		
+			<li><a href="/categories/uncategorized/">uncategorized<span>4</span></a></li>
+		
+			<li><a href="/categories/web/">web<span>15</span></a></li>
+		
+		</ul>
+	</div>
+
+		
+			
+	<div class="widget">
+		<h4>Tag Cloud</h4>
+		<ul class="tag_box inline list-unstyled">		
+		
+			<li><a href="/tags/bitnami/">bitnami<span>2</span></a></li>
+		
+			<li><a href="/tags/law/">law<span>1</span></a></li>
+		
+			<li><a href="/tags/package-manager/">package-manager<span>9</span></a></li>
+		
+			<li><a href="/tags/tar/">tar<span>1</span></a></li>
+		
+			<li><a href="/tags/notes/">notes<span>19</span></a></li>
+		
+			<li><a href="/tags/webgl/">webgl<span>1</span></a></li>
+		
+			<li><a href="/tags/grep/">grep<span>1</span></a></li>
+		
+			<li><a href="/tags/heroku/">heroku<span>1</span></a></li>
+		
+			<li><a href="/tags/netcat/">netcat<span>1</span></a></li>
+		
+			<li><a href="/tags/convert/">convert<span>1</span></a></li>
+		
+			<li><a href="/tags/storage/">storage<span>2</span></a></li>
+		
+			<li><a href="/tags/jspm/">jspm<span>1</span></a></li>
+		
+			<li><a href="/tags/wakelock/">wakelock<span>1</span></a></li>
+		
+			<li><a href="/tags/nginx/">nginx<span>1</span></a></li>
+		
+			<li><a href="/tags/markdown/">markdown<span>1</span></a></li>
+		
+			<li><a href="/tags/creationism/">creationism<span>1</span></a></li>
+		
+			<li><a href="/tags/net-neutrality/">net-neutrality<span>1</span></a></li>
+		
+			<li><a href="/tags/useradd/">useradd<span>1</span></a></li>
+		
+			<li><a href="/tags/adb/">adb<span>2</span></a></li>
+		
+			<li><a href="/tags/ruby/">ruby<span>1</span></a></li>
+		
+		
+		   <li><a href="/tags">...<span>194</span></a></li>
+		 
+		</ul>
+	</div>
+
+
+		
+			
+<div class="widget">
+	<h4>Links</h4>
+	<ul class="blogroll list-unstyled">
+	
+		<li><i class="fa fa-github"></i><a href="https://www.github.com/leesei" title="My Github account." target="_blank"]);">My Github</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="http://leesei.github.io/repos" title="My repos on Github, in grid form." target="_blank"]);">My Repos</a></li>
+	
+		<li><i class="fa fa-code"></i><a href="https://github.com/leesei/leesei.github.io/tree/source" title="Source for this blog." target="_blank"]);">Source</a></li>
+	
+		<li><i class="fa fa-rss-square"></i><a href="atom.xml" title="RSS feed" target="_blank"]);">RSS</a></li>
+	
+		<li><i class="fa fa-sitemap"></i><a href="sitemap.xml" title="Sitemap" target="_blank"]);">Site Map</a></li>
+	
+	</ul>
+</div>
+
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+	
+	
+</div> <!-- row-fluid -->
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Android notes | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Android notes"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Android notes</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Notes for console tools available on Android system.</p>
+<p><a href="http://www.linux.org/threads/android-and-friends-reading-guide.6146/" target="_blank" rel="external">Android (and Friends) Reading Guide | Linux.org</a><br><a href="http://blog.csdn.net/hellogv" target="_blank" rel="external">hellogv的专栏 - 博客频道 - CSDN.NET</a></p>
+<h2 id="Dev">Dev</h2><p><a href="http://androidxref.com/" target="_blank" rel="external">AndroidXRef</a><br><a href="http://code.tutsplus.com/tutorials/detect-and-resolve-performance-problems-on-android--cms-24058" target="_blank" rel="external">Detect and Resolve Performance Problems on Android - Tuts+ Code Tutorial</a></p>
+<blockquote>
+<p>attach adbpull, adbpush, adbview, adbcmd here</p>
+</blockquote>
+<a id="more"></a>
+<ul>
+<li><p>prettify /proc/wakelocks</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># on device</span></span><br><span class="line">cat /proc/wakelocks | busybox awk <span class="string">'&#123; printf "%-25s %-10s\n", $1, $5 &#125;'</span> | busybox grep -v <span class="string">" 0"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># with adb</span></span><br><span class="line">adb shell cat /proc/wakelocks | awk <span class="string">'&#123; printf "%-25s %-10s\n", $1, $5 &#125;'</span> | grep -v <span class="string">" 0"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>input device info</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">cat /proc/bus/input/devices</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="adb">adb</h2><p><a href="http://developer.android.com/tools/help/adb.html" target="_blank" rel="external">http://developer.android.com/tools/help/adb.html</a></p>
+<p><code>adb</code> comes with the Android SDK.<br>Windows user can use the package <a href="http://forum.xda-developers.com/showthread.php?t=2588979" target="_blank" rel="external">here</a>.</p>
+<h3 id="Enable_adb_via_TCP">Enable adb via TCP</h3><p>On PC:<br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">adb tcpip <span class="number">5555</span></span><br></pre></td></tr></table></figure></p>
+<p>On device (need ROOT):<br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">su</span><br><span class="line">setprop service.adb.tcp.port <span class="number">5555</span></span><br><span class="line">stop adbd</span><br><span class="line">start adbd</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">adb connect &lt;DEVICE_IP_ADDRESS&gt;:<span class="number">5555</span></span><br></pre></td></tr></table></figure>
+<h2 id="Remote_mouse">Remote mouse</h2><p><a href="https://play.google.com/store/apps/details?id=com.wukongtv.wkremote.client" target="_blank" rel="external">悟空遥控器</a> is an Android app that is able to allow mobile to control Android STB remotely. The server app does not require rooting and system integration. It draws the cursor on an overlay layer and issue commands to <code>Input</code> framework.</p>
+<p><a href="http://www.pocketmagic.net/injecting-events-programatically-on-android/" target="_blank" rel="external">Programmatically Injecting Events on Android - Part 1 - PocketMagic</a><br><a href="http://www.pocketmagic.net/programmatically-injecting-events-on-android-part-2/" target="_blank" rel="external">Programmatically Injecting Events on Android - Part 2 - PocketMagic</a><br><a href="http://www.pocketmagic.net/android-overlay-cursor/" target="_blank" rel="external">Android Overlay Mouse Cursor - PocketMagic</a></p>
+<h2 id="logcat">logcat</h2><h3 id="logcat_filtering_(Eclipse_and_Android_Studio)">logcat filtering (Eclipse and Android Studio)</h3><p>pid:<br>text:<br>app: package name (<code>com.example.android.bluetoothlegatt</code>)<br>tag: <code>^(?!.*(DeskClock|dalvik|wpa)).*$</code>, <code>^(?!(BluetoothAdapter|AbsListView))</code></p>
+<h3 id="android-log-viewer">android-log-viewer</h3><p><a href="https://bitbucket.org/mlopatkin/android-log-viewer" target="_blank" rel="external">https://bitbucket.org/mlopatkin/android-log-viewer</a></p>
+<h3 id="logcat_(node)">logcat (node)</h3><p><a href="https://www.npmjs.com/package/logcat" target="_blank" rel="external">https://www.npmjs.com/package/logcat</a></p>
+<h3 id="pidcat_(python)">pidcat (python)</h3><p><a href="https://github.com/JakeWharton/pidcat" target="_blank" rel="external">https://github.com/JakeWharton/pidcat</a></p>
+<h2 id="Android_on_Chrome">Android on Chrome</h2><p><a href="http://www.linux.org/threads/android-apps-on-linux.7431/" target="_blank" rel="external">Android Apps on Linux | Linux.org</a></p>
+<h2 id="aapt">aapt</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Android Asset Packaging Tool&#10;&#10;Usage:&#10; aapt l[ist] [-v] [-a] file.&#123;zip,jar,apk&#125;&#10;   List contents of Zip-compatible archive.&#10;&#10; aapt d[ump] [--values] [--include-meta-data] WHAT file.&#123;apk&#125; [asset [asset ...]]&#10;   strings          Print the contents of the resource table string pool in the APK.&#10;   badging          Print the label and icon for the app declared in APK.&#10;   permissions      Print the permissions from the APK.&#10;   resources        Print the resource table from the APK.&#10;   configurations   Print the configurations in the APK.&#10;   xmltree          Print the compiled xmls in the given assets.&#10;   xmlstrings       Print the strings of the given compiled xml assets.&#10;&#10; aapt p[ackage] [-d][-f][-m][-u][-v][-x][-z][-M AndroidManifest.xml] \&#10;        [-0 extension [-0 extension ...]] [-g tolerance] [-j jarfile] \&#10;        [--debug-mode] [--min-sdk-version VAL] [--target-sdk-version VAL] \&#10;        [--app-version VAL] [--app-version-name TEXT] [--custom-package VAL] \&#10;        [--rename-manifest-package PACKAGE] \&#10;        [--rename-instrumentation-target-package PACKAGE] \&#10;        [--utf16] [--auto-add-overlay] \&#10;        [--max-res-version VAL] \&#10;        [-I base-package [-I base-package ...]] \&#10;        [-A asset-source-dir]  [-G class-list-file] [-P public-definitions-file] \&#10;        [-S resource-sources [-S resource-sources ...]] \&#10;        [-F apk-file] [-J R-file-dir] \&#10;        [--product product1,product2,...] \&#10;        [-c CONFIGS] [--preferred-configurations CONFIGS] \&#10;        [--split CONFIGS [--split CONFIGS]] \&#10;        [--feature-of package [--feature-after package]] \&#10;        [raw-files-dir [raw-files-dir] ...] \&#10;        [--output-text-symbols DIR]&#10;&#10;   Package the android resources.  It will read assets and resources that are&#10;   supplied with the -M -A -S or raw-files-dir arguments.  The -J -P -F and -R&#10;   options control which files are output.&#10;&#10; aapt r[emove] [-v] file.&#123;zip,jar,apk&#125; file1 [file2 ...]&#10;   Delete specified files from Zip-compatible archive.&#10;&#10; aapt a[dd] [-v] file.&#123;zip,jar,apk&#125; file1 [file2 ...]&#10;   Add specified files to Zip-compatible archive.&#10;&#10; aapt c[runch] [-v] -S resource-sources ... -C output-folder ...&#10;   Do PNG preprocessing on one or several resource folders&#10;   and store the results in the output folder.&#10;&#10; aapt s[ingleCrunch] [-v] -i input-file -o outputfile&#10;   Do PNG preprocessing on a single file.&#10;&#10; aapt v[ersion]&#10;   Print program version.&#10;&#10; Modifiers:&#10;   -a  print Android-specific data (resources, manifest) when listing&#10;   -c  specify which configurations to include.  The default is all&#10;       configurations.  The value of the parameter should be a comma&#10;       separated list of configuration values.  Locales should be specified&#10;       as either a language or language-region pair.  Some examples:&#10;            en&#10;            port,en&#10;            port,land,en_US&#10;   -d  one or more device assets to include, separated by commas&#10;   -f  force overwrite of existing files&#10;   -g  specify a pixel tolerance to force images to grayscale, default 0&#10;   -j  specify a jar or zip file containing classes to include&#10;   -k  junk path of file(s) added&#10;   -m  make package directories under location specified by -J&#10;       comes before this one. The first Feature Split APK should not define&#10;       anything here.&#10;   --rename-manifest-package&#10;       Rewrite the manifest so that its package name is the package name&#10;       given here.  Relative class names (for example .Foo) will be&#10;       changed to absolute names with the old package so that the code&#10;       does not need to change.&#10;   --rename-instrumentation-target-package&#10;       Rewrite the manifest so that all of its instrumentation&#10;       components target the given package.  Useful when used in&#10;       conjunction with --rename-manifest-package to fix tests against&#10;       a package that has been renamed.&#10;   --product&#10;       Specifies which variant to choose for strings that have&#10;       product variants&#10;   --utf16&#10;       changes default encoding for resources to UTF-16.  Only useful when API&#10;       level is set to 7 or higher where the default encoding is UTF-8.&#10;   --non-constant-id&#10;       Make the resources ID non constant. This is required to make an R java class&#10;       that does not contain the final value but is used to make reusable compiled&#10;       libraries that need to access resources.&#10;   --shared-lib&#10;       Make a shared library resource package that can be loaded by an application&#10;       at runtime to access the libraries resources. Implies --non-constant-id.&#10;   --error-on-failed-insert&#10;       Forces aapt to return an error if it fails to insert values into the manifest&#10;       with --debug-mode, --min-sdk-version, --target-sdk-version --version-code&#10;       and --version-name.&#10;       Insertion typically fails if the manifest already defines the attribute.&#10;   --error-on-missing-config-entry&#10;       Forces aapt to return an error if it fails to find an entry for a configuration.&#10;   --output-text-symbols&#10;       Generates a text file containing the resource symbols of the R class in the&#10;       specified folder.&#10;   --ignore-assets&#10;       Assets to be ignored. Default pattern is:&#10;       !.svn:!.git:!.ds_store:!*.scc:.*:&#60;dir&#62;_*:!CVS:!thumbs.db:!picasa.ini:!*~</span><br></pre></td></tr></table></figure>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/ssh/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/node-js-https/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-17 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/android/">android<span>4</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/aapt/">aapt<span>1</span></a></li> <li><a href="/tags/adb/">adb<span>2</span></a></li> <li><a href="/tags/input/">input<span>1</span></a></li> <li><a href="/tags/logcat/">logcat<span>1</span></a></li> <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/wakelock/">wakelock<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Dev"><span class="toc-article-text">Dev</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#adb"><span class="toc-article-text">adb</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Enable_adb_via_TCP"><span class="toc-article-text">Enable adb via TCP</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Remote_mouse"><span class="toc-article-text">Remote mouse</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#logcat"><span class="toc-article-text">logcat</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#logcat_filtering_(Eclipse_and_Android_Studio)"><span class="toc-article-text">logcat filtering (Eclipse and Android Studio)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#android-log-viewer"><span class="toc-article-text">android-log-viewer</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#logcat_(node)"><span class="toc-article-text">logcat (node)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#pidcat_(python)"><span class="toc-article-text">pidcat (python)</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Android_on_Chrome"><span class="toc-article-text">Android on Chrome</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#aapt"><span class="toc-article-text">aapt</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

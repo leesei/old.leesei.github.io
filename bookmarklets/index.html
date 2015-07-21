@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Bookmarklets | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Bookmarklets"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Bookmarklets</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Bookmarklets are bookmark of JavaScript code as the link (with protocol <code>javascript:</code>) that can be used to implement custom features inside browser.<br>They are simple ways to extend browser without resorting to browser extensions and plugins.<br>You can access <code>document</code> and <code>window</code> of the current page in the bookmarklet.<br>Useful properties includes:</p>
+<ul>
+<li>title</li>
+<li>URL</li>
+<li>DOM</li>
+</ul>
+<p><a href="http://bookmarkleteer.com/" target="_blank" rel="external">Bookmarkleteer: Create and Share Bookmarklets Online</a>, <a href="https://github.com/coolaj86/bookmarkleteer" target="_blank" rel="external">source</a><br><a href="http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/" target="_blank" rel="external">How To Make a Bookmarklet For Your Web Application | BetterExplained</a><br><a href="http://www.2ality.com/2011/06/implementing-bookmarklets.html" target="_blank" rel="external">Implementing bookmarklets in JavaScript</a></p>
+<a id="more"></a>
+<h3 id="Repository">Repository</h3><p><a href="http://marklets.com/" target="_blank" rel="external">Bookmarklets | Bookmarklet Search Engine</a><br><a href="http://benalman.com/projects/bookmarklets/" target="_blank" rel="external">Ben Alman » Bookmarklets</a><br><a href="https://github.com/janmoesen/bookmarklets" target="_blank" rel="external">janmoesen/bookmarklets</a><br><a href="http://linkstore.ru/book/index-en.jsp" target="_blank" rel="external">Bookmarklets</a><br><a href="https://www.squarefree.com/bookmarklets/" target="_blank" rel="external">Jesse’s Bookmarklets Site</a><br><a href="http://www.bookmarklets.com/tools/categor.html" target="_blank" rel="external">Bookmarklets - Tool Categories</a></p>
+<h3 id="Creating_bookmarklets">Creating bookmarklets</h3><ul>
+<li>Create any bookmark, edit it to change the title and paste the <code>javascript:</code> link as the url.</li>
+<li>Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the <code>javascript:</code> link is url-escaped).</li>
+<li><p>You may organize bookmarklets in fully documented <code>.js</code> and </p>
+<ul>
+<li><p>use this to generate the link:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -n <span class="string">"javascript:"</span>; uglifyjs --no-copyright file.js ; <span class="built_in">echo</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>put them in Gist and use a loader, see <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="external">here</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<!-- more -->
+<h2 id="Email_Link">Email Link</h2><p>Generates a <code>mailto:</code> link with the webpage’s URL and title.<br>I use this frequently to share links.<br>I registered Gmail to handle <code>mailto:</code> according to <a href="http://webapps.stackexchange.com/a/33951" target="_blank" rel="external">this</a>.</p>
+<figure class="highlight js"><figcaption><span>Email Link</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"mailto:?SUBJECT="</span>+<span class="built_in">document</span>.title+<span class="string">"&amp;BODY="</span>+<span class="built_in">escape</span>(location.href), <span class="string">"_blank"</span>,<span class="string">"width=628,left="</span>+screen.width*.<span class="number">5</span>+<span class="string">",height=600,top="</span>+screen.height*.<span class="number">1</span>+<span class="string">",resizable,scrollbars=no"</span>))</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown_Link">Markdown Link</h2><p>Creates a Markdown link <code>[]()</code> for the current page. Copy and paste to Markdown documents.</p>
+<figure class="highlight js"><figcaption><span>Markdown Link</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:prompt(<span class="string">'Markdown link for this page:'</span>,<span class="string">'['</span>+<span class="built_in">document</span>.title+<span class="string">']('</span>+<span class="built_in">window</span>.location.href+<span class="string">')'</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="Duplicate_Tab">Duplicate Tab</h2><p>Duplicates this tab, useful for when you wish to change the url manually.</p>
+<figure class="highlight js"><figcaption><span>Duplicate Tab</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(location.href));</span><br></pre></td></tr></table></figure>
+<h2 id="Up_a_Directory">Up a Directory</h2><p>I miss the “Up” button in file manager so I bring it to browser.</p>
+<figure class="highlight js"><figcaption><span>Up a Directory</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(location.href=location.href.substring(<span class="number">0</span>,location.href.substring(<span class="number">0</span>,location.href.length-<span class="number">1</span>).lastIndexOf(<span class="string">'/'</span>)+<span class="number">1</span>))</span><br></pre></td></tr></table></figure>
+<h2 id="Proxy_via_GAE">Proxy via GAE</h2><p>Sometime, someone blocks my access to website.<br><a href="https://github.com/bslatkin/mirrorrr" target="_blank" rel="external">mirrorrr</a> to the rescue.</p>
+<figure class="highlight js"><figcaption><span>Proxy via GAE</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(location.href=<span class="string">'https://leesei-proxy.appspot.com/?url='</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href))</span><br></pre></td></tr></table></figure>
+<h2 id="jQuerify">jQuerify</h2><p>Loads <a href="http://jquery.com/" target="_blank" rel="external">jQuery</a> (from <a href="https://developers.google.com/speed/libraries/devguide#jquery" target="_blank" rel="external">Google CDN</a>) on any website, use Dev Console to play with it.</p>
+<figure class="highlight"><figcaption><span>jQuerify</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!")%7Dvar e;e=document.createElement("script");e.addEventListener("load",t);e.src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";document.head.appendChild(e)%7D())</span><br></pre></td></tr></table></figure>
+<h2 id="GrabLinks">GrabLinks</h2><blockquote>
+<p>Note: this is auto updateing as the bookmarklet loads the gist every time it is clicked.</p>
+</blockquote>
+<p>List all the links in Markdown contained in the hovered portion of the page.<br><a href="http://brettterpstra.com/projects/grablinks/" target="_blank" rel="external">GrabLinks - BrettTerpstra.com</a>, <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="external">gist</a>.</p>
+<p>Bookmarklet on website.</p>
+<h2 id="Read_Cookie">Read Cookie</h2><p>This is rudimentary, could have parsed it a little bit.<br>But why need this if we have DevTool?</p>
+<figure class="highlight js"><figcaption><span>Read Cookie</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">if</span>(<span class="built_in">document</span>.cookie.length&lt;<span class="number">1</span>)&#123;alert(<span class="string">'No cookie for this site.'</span>)&#125;<span class="keyword">else</span>&#123;alert(<span class="string">'Cookie for this site:\n'</span>+<span class="built_in">document</span>.cookie)&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Pocket">Pocket</h2><p><a href="https://getpocket.com/add" target="_blank" rel="external">Pocket: How to Save</a><br><a href="http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet" target="_blank" rel="external">Pocket | Using the Pocket Bookmarklet</a></p>
+<p>Bookmarklet on website (click “install the bookmarklet”).</p>
+<h2 id="Google_Bookmark">Google Bookmark</h2><p><a href="https://support.google.com/chrome/answer/100215?hl=en" target="_blank" rel="external">Google Bookmarks - Chrome Help</a></p>
+<p>Bookmarklet on website.</p>
+<h2 id="Transforming_page">Transforming page</h2><h3 id="Google_Mobile_View">Google Mobile View</h3><p>This is an undocumented transformer by Google.</p>
+<figure class="highlight js"><figcaption><span>GWT</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"http://www.google.com/gwt/x?u="</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href)));</span><br></pre></td></tr></table></figure>
+<h3 id="Readability">Readability</h3><p><a href="https://readability.com/" target="_blank" rel="external">Readability</a> is a service that let you focus on the content of the webpage.<br><a href="http://heckyesmarkdown.com/#bookmarklets" target="_blank" rel="external">heckyesmarkdown</a> provides wrapper around Readability’s <a href="https://readability.com/developers/api" target="_blank" rel="external">API</a>.</p>
+<p>Bookmarklet on website.<br>Use “Readability→Markdown” for clean HTML or “Readability→Markdown (raw)” for Markdown.</p>
+<h3 id="Print_Friendly">Print Friendly</h3><p><a href="http://www.printfriendly.com/" target="_blank" rel="external">Print Friendly</a> is a service provides a “print friendly” version of the webpage. It grabs the content intelligently, allow you to remove the unneed parts and save the result as PDF.</p>
+<p>Bookmarklet on website.</p>
+<h2 id="Video">Video</h2><h3 id="KeepVid">KeepVid</h3><p><a href="http://keepvid.com/" target="_blank" rel="external">KeepVid</a> is a service for downloading videos from various sites.<br>Personally I use <a href="http://rg3.github.io/youtube-dl/" target="_blank" rel="external">youtube-dl</a>, but this is for non-technical people.</p>
+<p><a href="http://keepvid.com/extensions" target="_blank" rel="external">KeepVid / Extensions</a></p>
+<p><a href="http://marklets.com/KeepVid.aspx" target="_blank" rel="external">KeepVid Bookmarklet | Bookmarklet Search Engine</a></p>
+<p>Bookmarklet on website.</p>
+<h3 id="Extract_Audio_from_video">Extract Audio from video</h3><p><a href="http://www.dirpy.com/" target="_blank" rel="external">Dirpy</a> and <a href="http://www.youtube-mp3.org/" target="_blank" rel="external">YouTube to mp3 Converter</a> both do the job.</p>
+<p><a href="http://marklets.com/Dirpy.aspx" target="_blank" rel="external">Dirpy Bookmarklet | Bookmarklet Search Engine</a></p>
+<p><a href="http://marklets.com/Youtube%20MP3%20Downloader.aspx" target="_blank" rel="external">Youtube MP3 Downloader Bookmarklet | Bookmarklet Search Engine</a></p>
+<p>Bookmarklet on website.</p>
+<h3 id="YouTube_Frames_as_Storyboard">YouTube Frames as Storyboard</h3><p>Gernerate a storyboard of thumbnails of the video.</p>
+<p><a href="http://www.labnol.org/internet/print-youtube-video/28217/" target="_blank" rel="external">How to Print a YouTube Video - Storyboard Bookmarklet</a><br><a href="https://www.youtube.com/watch?v=Y6yfGGxXyHw" target="_blank" rel="external">YouTube Frames as Storyboard - YouTube</a></p>
+<p>Bookmarklet on website.</p>
+<h3 id="URL_shrotener">URL shrotener</h3><p><a href="http://is.gd/" target="_blank" rel="external">is.gd - a URL shortener. Mmmm, tasty URLs!</a><br>Bookmarklet on <a href="http://is.gd/faq.php#bookmarklet" target="_blank" rel="external">FAQ</a>.</p>
+<p><a href="http://4fun.tw/" target="_blank" rel="external">硬是要縮 - 比 PPT 短網址更安全的縮網址服務</a></p>
+<p><a href="http://2lo.ng4.me/" target="_blank" rel="external">2lo.ng4.me - short urls</a></p>
+<p>Bookmarklet on website.</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/arch-linux/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/learn-to-code/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-08 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>15</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/bookmarklet/">bookmarklet<span>1</span></a></li> <li><a href="/tags/browser/">browser<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Repository"><span class="toc-article-text">Repository</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Creating_bookmarklets"><span class="toc-article-text">Creating bookmarklets</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Email_Link"><span class="toc-article-text">Email Link</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Markdown_Link"><span class="toc-article-text">Markdown Link</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Duplicate_Tab"><span class="toc-article-text">Duplicate Tab</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Up_a_Directory"><span class="toc-article-text">Up a Directory</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Proxy_via_GAE"><span class="toc-article-text">Proxy via GAE</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#jQuerify"><span class="toc-article-text">jQuerify</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GrabLinks"><span class="toc-article-text">GrabLinks</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Read_Cookie"><span class="toc-article-text">Read Cookie</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Pocket"><span class="toc-article-text">Pocket</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Google_Bookmark"><span class="toc-article-text">Google Bookmark</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Transforming_page"><span class="toc-article-text">Transforming page</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Google_Mobile_View"><span class="toc-article-text">Google Mobile View</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Readability"><span class="toc-article-text">Readability</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Print_Friendly"><span class="toc-article-text">Print Friendly</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Video"><span class="toc-article-text">Video</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#KeepVid"><span class="toc-article-text">KeepVid</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Extract_Audio_from_video"><span class="toc-article-text">Extract Audio from video</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#YouTube_Frames_as_Storyboard"><span class="toc-article-text">YouTube Frames as Storyboard</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#URL_shrotener"><span class="toc-article-text">URL shrotener</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>
