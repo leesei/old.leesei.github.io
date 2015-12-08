@@ -28,8 +28,8 @@ The first part of ID is vendorID (18d1 and 2207 in the above example)
 ## Update adb_usb.ini
 
 ```sh
-cd <android-sdk>
-./android update adb
+# with android-sdk properly setup
+android update adb
 ```
 
 `~/.android/` is created, append vendor id to `~/.android/adb_usb.ini`
@@ -53,13 +53,13 @@ sudo $(which adb) devices
 
 ## Add udev rule
 
-Newer system should not need this.
+> Newer system should not need this.
 
-> [Using Hardware Devices | Android Developers](http://developer.android.com/tools/device.html)  
-> [Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)  
-> [android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules](https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules)
+[Using Hardware Devices | Android Developers](http://developer.android.com/tools/device.html)  
+[Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)  
+[android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules](https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules)
 
-Add `51-adb.rule` to `/etc/udev/rules.d`:
+Add `51-adb.rules` to `/etc/udev/rules.d`:
 ```
 # allwinner board
 #SUBSYSTEM=="usb", SYSFS{idVendor}=="18d1", MODE="0666"
@@ -80,7 +80,6 @@ sudo service udev restart
 
 ## Reference
 
-http://developer.android.com/tools/device.html
 http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/
 https://wiki.archlinux.org/index.php/android
 http://community.linuxmint.com/tutorial/view/888

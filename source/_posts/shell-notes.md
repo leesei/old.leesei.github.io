@@ -22,6 +22,8 @@ Since `bash` is ubiquitous and more feature-rich than POSIX shell (`/bin/sh`), i
 Since `zsh` is `bash` (and hence POSIX) -compatible. Most command lines found on the web can be pasted in `zsh` directly (unlike `fish` which is not POSIX-compatible). It is recommended to use `zsh` as the interactive shell.
 However I found `fish` [design](http://fishshell.com/docs/current/design.html) quite sensible. I'll try to use external binaries as mush as possible instead of relying on shell features. On the same line of thought, even-though `zsh` has more powerful syntax than `bash`, it may not be worthy to use them to avoid lock-in and maintain portability.
 
+[Evolution of shells in Linux](https://www.ibm.com/developerworks/linux/library/l-linux-shells/index.html?ca=drs-)
+
 Fish featured on Ars:
 [Fish: the friendly interactive shell | Ars Technica](http://arstechnica.com/information-technology/2005/12/linux-20051218/2/)
 
@@ -79,6 +81,38 @@ Honorable mentions:
 
 Follow [The Art of Unix Programming](http://www.faqs.org/docs/artu/), implement filters.
 [Simple filters in Perl, Ruby, and Bourne shell - TechRepublic](http://www.techrepublic.com/blog/software-engineer/simple-filters-in-perl-ruby-and-bourne-shell/)
+
+[Capturing output of find . -print0 into a bash array - Stack Overflow](http://stackoverflow.com/questions/1116992/capturing-output-of-find-print0-into-a-bash-array)
+[Filenames and Pathnames in Shell (bash, dash, ash, ksh, and so on): How to do it Correctly](http://www.dwheeler.com/essays/filenames-in-shell.html)
+
+### shebang line
+
+[The #! magic, details about the shebang/hash-bang mechanism](http://www.in-ulm.de/~mascheck/various/shebang/)
+[Sambal : Passing options to node on the shebang (#!) line](http://sambal.org/2014/02/passing-options-node-shebang-line/)
+
+[`envns`](http://stackoverflow.com/a/25046028/665507)
+```sh
+#!/bin/bash
+
+ARGS=( $1 )  # separate $1 into multiple space-delimited arguments.
+shift # consume $1
+
+PROG=`which ${ARGS[0]}`
+unset ARGS[0] # discard executable name
+
+ARGS+=( "$@" ) # remainder of arguments preserved "as-is".
+exec $PROG "${ARGS[@]}"
+```
+
+```sh
+#!/usr/local/bin/envns node --harmonic
+```
+
+`node-es6`: (alias won't work in shebang)
+```sh
+#!/bin/bash
+node --harmonic "$@"
+```
 
 ### parsing command line
 
@@ -179,7 +213,7 @@ EOF
 
 `<<-` will suppress leading tabs (not spaces).
 
-### detect undefined vars 
+### detect undefined variables
 
 it's more meaningful in scripts to report error then to continue with empty string
 
@@ -198,6 +232,18 @@ http://misc.flogisoft.com/bash/tip_colors_and_formatting
 http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 
 zsh have color macros predefined, see themes in `oh-my-zsh`
+
+### power tools
+
+[mbrubeck/compleat](https://github.com/mbrubeck/compleat)
+
+```sh
+zstyle -L ":completion:*"
+```
+
+[clvv/fasd](https://github.com/clvv/fasd)
+
+[rupa/z](https://github.com/rupa/z)
 
 ### calculation
 
@@ -219,7 +265,8 @@ or use `bc`, or use `math` (inspired by `fish`)
 echo "$@" | bc -l
 ```
 
-### trap 
+### trap
+
 > `bash` specific?
 
 ```sh
@@ -230,6 +277,7 @@ trap - INT TERM EXIT
 ```
 
 ### proper critical section
+
 > `bash` specific?
 
 ```sh
@@ -422,6 +470,7 @@ Test()
 [Shell / Command Line | Linux.org](http://www.linux.org/forums/shell-command-line.49/)
 [GNU/Linux Command-Line Tools Summary](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)
 [Heiner's SHELLdorado](http://www.shelldorado.com/)
+[An Introduction to Shell Scripting | DigitalOcean](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-shell-scripting)
 
 **Bash**:
 [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)

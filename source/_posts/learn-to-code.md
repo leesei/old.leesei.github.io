@@ -17,12 +17,20 @@ sustainably minimize lead time to business impact
 
 [Complexity Is Outside the Code](http://www.infoq.com/presentations/complexity-simplicity-esb)
 
-### On Learning
+[Jared Spool's answer to Should I focus on a good user experience, or push something out quickly? - Quora](http://www.quora.com/Should-I-focus-on-a-good-user-experience-or-push-something-out-quickly/answer/Jared-Spool)
 
-[Why did I lose my drive to learn more? - Quora](http://www.quora.com/Why-did-I-lose-my-drive-to-learn-more)
+[The Joel Test: 12 Steps to Better Code - Joel on Software](http://www.joelonsoftware.com/articles/fog0000000043.html)
+
+### Programming Literacy
+
+[Programming Literacy — JavaScript Scene — Medium](https://medium.com/javascript-scene/programming-literacy-7bc4ae154b91)
+[Programming Literacy](http://www.programmingliteracy.com/)
+
 [The Joy of Software Development](https://josd.captnemo.in/content/)
 
 [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
+
+[Inside Search](http://www.powersearchingwithgoogle.com/) using Google effectively is very important
 
 ### Iterative Improvement
 
@@ -45,13 +53,14 @@ sustainably minimize lead time to business impact
 [VideoLectures.NET - VideoLectures.NET](http://videolectures.net/)
 
 [Topic:Computer programming - Wikiversity](https://en.wikiversity.org/wiki/Topic:Computer_programming)
+[10 Useful Sites for Learning How to Code](http://www.onextrapixel.com/2013/11/14/10-useful-sites-for-learning-how-to-code/)
 
 [JanVanRyswyck/awesome-talks](https://github.com/JanVanRyswyck/awesome-talks)
 
 [What are the best resources (sites, books or tutorials) for learning programming? - Quora](http://www.quora.com/What-are-the-best-resources-sites-books-or-tutorials-for-learning-programming)
 [Recommended Reading for Developers](http://blog.codinghorror.com/recommended-reading-for-developers/)
+[Students - Guide to Technical Development - Google Careers](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 [What tech talks should every software engineer watch? - Quora](http://www.quora.com/What-tech-talks-should-every-software-engineer-watch)
-[干货！谷歌推荐的技术能力提升指南 – 码农网](http://www.codeceo.com/article/google-guide-for-technical-development.html)
 
 Mostly paid contents:
 [Learn by Doing - Code School](https://www.codeschool.com/)
@@ -60,6 +69,7 @@ Mostly paid contents:
 
 [How to make your code self-documenting? | CodeUtopia](http://codeutopia.net/blog/2014/12/01/how-to-make-your-code-self-documenting/)
 [What do the top 1% of software engineers do that the other 99% do not? | CodeUtopia](http://codeutopia.net/blog/2014/10/20/what-do-the-top-1-of-software-engineers-do-that-the-other-99-do-not/)
+[The Joel Test: 12 Steps to Better Code - Joel on Software](http://www.joelonsoftware.com/articles/fog0000000043.html)
 
 [FGA: "legacy" is not a pejorative. Do not use it as such.](http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/legacy-is-not-a-pejorative.html)
 
@@ -75,16 +85,6 @@ Read the answers by:
 [Introduction | 97 Things Every Programmer Should Know](http://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/)
 
 [The SOLID Principles - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-solid-principles--cms-634)
-
-## Documentation Browser
-
-[DevDocs](http://devdocs.io/)
-It is HTML5, works offline, and is _F.R.E.E._
-Customize the downloaded documentations with "Select documentation" (on the lower left corner). Vote for new documentations [here](https://trello.com/b/6BmTulfx/devdocs-documentation).
-
-[Zeal - Offline Documentation Browser](http://zealdocs.org/), compatible with Dash doclets.
-
-Or, if you are on Mac and adamant to spend some money, try [Dash for Mac](http://kapeli.com/dash).
 
 ## MIT OpenCourseWare
 
@@ -105,15 +105,18 @@ Or, if you are on Mac and adamant to spend some money, try [Dash for Mac](http:/
 
 ## For kids
 
-[Code.org](http://studio.code.org/)
-where President Obama learned JavaScript programming
-[Scratch - Imagine, Program, Share](https://scratch.mit.edu/)
+[Code.org](http://studio.code.org/), where President Obama learned JavaScript programming
+[Scratch - Imagine, Program, Share](https://scratch.mit.edu/), write code with blocks
+[Scratch - Tuts+ Code Category](http://code.tutsplus.com/categories/scratch)
+[CodeMonkey](https://www.playcodemonkey.com/)
 
 ## Computing fundamentals
 
 [Programming Languages - YouTube](https://www.youtube.com/playlist?list=PL7141DE955793D3F0)
 [Hardware Basics - YouTube](https://www.youtube.com/watch?v=9-KUm9YpPm0)
 [Operating System Basics - YouTube](https://www.youtube.com/watch?v=9GDX-IyZ_C8)
+
+[Imperative vs Declarative Scenarios in User Stories • Ben Mabey](http://benmabey.com/2008/05/19/imperative-vs-declarative-scenarios-in-user-stories.html)
 
 ## Computer science
 
@@ -133,6 +136,16 @@ where President Obama learned JavaScript programming
 [The Rule of Three](http://blog.codinghorror.com/rule-of-three/)
 [Programming Should Be More than Coding](http://www.infoq.com/presentations/programming-design-coding)
 
+[Beautiful Structure](http://www.infoq.com/presentations/structural-patterns-complexity)
+
+### Microservice/Modulization
+
+[Microservice Mistakes – Complexity as a Service | Form Follows Function](https://genehughson.wordpress.com/2015/01/30/microservice-mistakes-complexity-as-a-service/)
+[Microservices 101 - The Big Why? // Speaker Deck](https://speakerdeck.com/yamen/microservices-101-the-big-why)
+[The Fallacy of Tiny Modules | hueniverse](http://hueniverse.com/2014/05/30/the-fallacy-of-tiny-modules/)
+[Small modules: it’s not quite that simple — Medium](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.i8l834nkh)
+[Modularity](http://jlongster.com/Modularity)
+
 ### CSP
 
 [Communicating sequential processes - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Communicating_sequential_processes)
@@ -141,9 +154,38 @@ where President Obama learned JavaScript programming
 ### Algorithm
 
 [Algorithms for Dummies (Part 1): Big-O Notation and Sorting - Adrian Mejia’s Blog](http://adrianmejia.com/blog/2014/02/13/algorithms-for-dummies-part-1-sorting/)
+[Algorithms, Part I - Princeton University | Coursera](https://www.coursera.org/course/algs4partI)
+[Algorithms, Part II - Princeton University | Coursera](https://www.coursera.org/course/algs4partII)
+[Algorithms: Design and Analysis, Part 1 - Stanford University | Coursera](https://www.coursera.org/course/algo)
+[Algorithms: Design and Analysis, Part 2 - Stanford University | Coursera](https://www.coursera.org/course/algo2)
+[Data Science Tutorials – topcoder](https://www.topcoder.com/communitipty/data-science/data-science-tutorials/)
+[All pages - PEGWiki](http://wcipeg.com/wiki/Special:AllPages)
+[Geometry Algorithms TOC](http://geomalgorithms.com/algorithms.html)
+[Algorithms - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+
+#### Random Number Generator
+
+[Random number generation - Wikiwand](http://www.wikiwand.com/en/Random_number_generation)
+[Diehard tests - Wikiwand](http://www.wikiwand.com/en/Diehard_tests)
+[Empirical Testing of Random Number Generators](http://simul.iro.umontreal.ca/testu01/tu01.html)
+[Birthday problem - Wikiwand](http://www.wikiwand.com/en/Birthday_problem)
+
+[TIFU by using Math.random() — Medium](https://medium.com/@betable/tifu-by-using-math-random-f1c308c4fd9d#.sp9i13hux)
+
+#### Visualization
+
 [SORTING](http://sorting.at/)
+[VisuAlgo - visualising data structures and algorithms through animation](http://visualgo.net/)
 [Red Blob Games](http://www.redblobgames.com/)
 [SIGHT & LIGHT - How to create 2D visibility/shadow effects for your game](http://ncase.me/sight-and-light/)
+
+#### Sketching
+
+Non-exact (rounded) results is good enough for many scenarios.
+[Sketching & Scaling Part 1. What the #@!$ is Sketching?Official Kiip BlogOfficial Kiip Blog](http://blog.kiip.me/engineering/sketching-scaling-part-1-what-the-is-sketching/)
+[Sketching & Scaling: Bloom Filters](http://blog.kiip.me/engineering/sketching-scaling-bloom-filters/)
+[Sketching & Scaling: Everyday HyperLogLog](http://blog.kiip.me/engineering/sketching-scaling-everyday-hyperloglog/)
+[Sketching & Scaling: Firehose Analytics](http://blog.kiip.me/engineering/sketching-scaling-firehose-analytics/)
 
 ## Signal Processing
 
@@ -151,129 +193,79 @@ where President Obama learned JavaScript programming
 
 ------
 
+Following is are lists of learning resources for the programming languages I'm interested in.
+
+[a-z of programming languages - News, Features, and Slideshows - Computerworld](http://www.computerworld.com.au/tag/a-z-of-programming-languages/)
+
+[The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/)
+
+See also:
+`go-notes.md`
+`javascript-notes.md`
+`node-js-notes.md`
+`regex.md`
+`rust.md`
+`web-development.md`
+
 ## Assembly
 
 [Intro to Assembly and Assemblers | Linux.org](http://www.linux.org/threads/intro-to-assembly-and-assemblers.7311/)
 
 ## C
 
+[Learn C The Hard Way](http://c.learncodethehardway.org/book/)
 [Google's C++ Class - Google for Education](https://developers.google.com/edu/c++/)
 
-## CSS
+[Intel Guide for Developing Multithreaded Applications | Intel® Developer Zone](https://software.intel.com/en-us/articles/intel-guide-for-developing-multithreaded-applications)
+[The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
 
-[CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[CSS Diner - Where we feast on CSS Selectors!](http://flukeout.github.io/)
-[CSS Flexbox Video Series: Introduction & Basics — 1/6 | Wes Bos](http://wesbos.com/flexbox-basics/)
-[弹性盒模型指南 | bubkoo](http://bubkoo.com/2015/04/17/a-visual-guide-to-css3-flexbox-properties/)
+[How A Compiler Works: GNU Toolchain](http://www.slideshare.net/jserv/how-a-compiler-works-gnu-toolchain)
+[blanham/PDCLib](https://github.com/blanham/PDCLib)
 
-[CSS Cheat Sheet | OverAPI.com](http://overapi.com/css/)
-[bevacqua/css](https://github.com/bevacqua/css)
+### Kernel
 
-### Bézier Curves
+[Yocto Project | Open Source embedded Linux build system, package metadata and SDK generator](https://www.yoctoproject.org/)
 
-[Animated Bézier Curves - Jason Davies](https://www.jasondavies.com/animated-bezier/)
-[Bézier curve - Wikiwand](http://www.wikiwand.com/en/Bézier_curve#/Constructing_B.C3.A9zier_curves)
-## HTML
+[The Linux Documentation Project: Guides](http://www.tldp.org/guides.html)
+[The Linux Kernel](http://www.tldp.org/LDP/tlk/tlk.html)
+[The Linux Programmer's Guide](http://www.tldp.org/LDP/lpg/)
+[Beej's Guide to Unix IPC](http://beej.us/guide/bgipc/output/html/multipage/index.html)
+[How is a message queue implemented in the Linux kernel? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/6930/how-is-a-message-queue-implemented-in-the-linux-kernel)
 
-[HTML (HyperText Markup Language) | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[W3Schools Online Web Tutorials](http://www.w3schools.com/)
+### clib
 
-## JavaScript
+Package manager for C libraries.
 
-[Explaining to non-programmers what JavaScript is](http://www.2ality.com/2012/07/js-and-non-programmers.html)
-[Introduction to JavaScript](http://cs.lmu.edu/~ray/notes/javascript/)
-[JavaScript.com](https://www.javascript.com/)
+[Introducing Clib — Medium](https://medium.com/@tjholowaychuk/introducing-clib-b32e6e769cb3)
 
-[JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[JavaScript reference - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-[Douglas Crockford's Javascript](http://javascript.crockford.com/)
-
-[JavaScript conferences and events | Lanyrd](http://lanyrd.com/topics/javascript/)
-[Resources – JS Central](http://www.jscentral.org/resources.html)
-
-[JavaScript Patterns](http://shichuan.github.io/javascript-patterns/)
-
-[olistic/warriorjs](https://github.com/olistic/warriorjs) - Game written in JavaScript for learning JavaScript and artificial intelligence.
-
-[List of languages that compile to JS · jashkenas/coffeescript Wiki](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
-
-### Derivatives
-
-[A Little Coffee Guidebook](http://coffee.brianshumate.com/content/)
-
-### Books
-
-[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
-[Exploring ES6 | Leanpub](https://leanpub.com/exploring-es6/read)
-[Understanding ECMAScript 6 | Leanpub](https://leanpub.com/understandinges6/read)
-[Learn Javascript - GitBook](https://www.gitbook.com/book/gitbookio/javascript/details)
-[Introduction to Javascript](http://shawnr.gitbooks.io/introduction-to-javascript/content/)
-[JS Jottings](http://steven2y.gitbooks.io/js-jottings/content/)
-
-[Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
-[JavaScript Allongé, The "Six" Edition | Leanpub](https://leanpub.com/javascriptallongesix/read)
-[Eloquent JavaScript](http://eloquentjavascript.net/)
-[Speaking JavaScript](http://speakingjs.com/es5/index.html)
-[Human JavaScript](http://read.humanjavascript.com/)
-[Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-[Modern Web tools with Node.js](http://paazmaya.gitbooks.io/modern-web-tools-with-node-js/content/)
-
-[JSbooks - free javascript books](http://jsbooks.revolunet.com/)
-
-### Course
-
-[JavaScript | Codecademy](http://www.codecademy.com/en/tracks/javascript/)
-
-### Video
-
-[Video: An overview of ECMAScript 6](http://www.2ality.com/2013/06/video-es6.html)
-[Four talks on ECMAScript 6/ECMAScript.next](http://www.2ality.com/2012/11/es6-talks.html)
-[#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part I - YouTube](https://www.youtube.com/watch?v=Fg3bEZIcnUw)
-[#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part II - YouTube](https://www.youtube.com/watch?v=Vhhq1WpzsnM)
-
-[Javascript Planet - YouTube](https://www.youtube.com/channel/UCzVnCG4ItKitN1SCBM7-AbA)
-[NodeJS Fan - YouTube](https://www.youtube.com/channel/UChTJTbr5kf3hYazJZO-euHg)
-
-### Isomorphism
-
-[Universal JavaScript — Medium](https://medium.com/@mjackson/universal-javascript-4761051b7ae9)
-[Isomorphic JavaScript - The future of web app development](http://isomorphic.net/)
-
-### wat
-
-[Wat — Destroy All Software Talks](https://www.destroyallsoftware.com/talks/wat)
+[clibs/clib](https://github.com/clibs/clib)
+[Packages · clibs/clib Wiki](https://github.com/clibs/clib/wiki/Packages)
 
 ## Erlang
 
+[Erlang Programming Language](http://www.erlang.org/)
 [Structure and Interpretation of Computer Programs](http://lfe.gitbooks.io/sicp/content/)
 [rvirding/lfe](https://github.com/rvirding/lfe)
+[Elixir](http://elixir-lang.org/)
 
-## Node
+## Lisp
 
-> also read [JavaScript](#javascript)
-
-[The Node Way](http://thenodeway.io/)
-[Node Labs](http://www.nodelabs.org/)
-
-[Production Practices - Developer Center - Joyent](https://www.joyent.com/developers/node)
-
-### Cast
-
-[Node Tuts](http://nodetuts.com/index.html) 
-[Learn All The Nodes](http://www.learnallthenodes.com/)
-
-## Go
-
-[The Go Programming Language](https://golang.org/)
-[A Tour of Go](https://tour.golang.org/)
+[defmacro - The Nature of Lisp](http://www.defmacro.org/ramblings/lisp.html)
+[What Made Lisp Different](http://www.paulgraham.com/diff.html)
 
 ## Haskell
 
 [A Happy Haskell](http://jplahn.gitbooks.io/a-happy-haskell/content/)
+[Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
+[Real World Haskell](http://book.realworldhaskell.org/read/)
 
 ## Java
 
 [Heroku | The Next Twenty Years of Java: Where We've Been and Where We're Going](https://blog.heroku.com/archives/2015/6/4/the_next_twenty_years_of_java_where_we_ve_been_and_where_we_re_going)
+
+### Internals
+
+[JVM Optimization 101](http://www.infoq.com/presentations/jvm-optimization)
 
 ## Julia
 
@@ -288,7 +280,7 @@ where President Obama learned JavaScript programming
 
 [The Programming Language Lua](http://www.lua.org/)
 [Lua: documentation](http://www.lua.org/docs.html)
-[Lua (programming language) - Wikiwand](https://www.wikiwand.com/en/Lua_(programming_language))
+[Lua (programming language) - Wikiwand](https://www.wikiwand.com/en/Lua_%28programming_language%29)
 [Lua - Wikiversity](https://en.wikiversity.org/wiki/Lua)
 
 ## NekoVM
@@ -305,6 +297,7 @@ where President Obama learned JavaScript programming
 
 [Google's Python Class - Google for Education](https://developers.google.com/edu/python/)
 [PythonBooks - Learn Python the easy way !](http://pythonbooks.revolunet.com/)
+[Introduction to Computer Science and Programming Using Python | edX](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x7)
 
 ## Perl
 
@@ -328,51 +321,22 @@ where President Obama learned JavaScript programming
 [PHP Sadness](http://phpsadness.com/)
 [The PHP Singularity](http://blog.codinghorror.com/the-php-singularity/)
 
-## Rust
+## R
 
-[The Rust Programming Language](http://www.rust-lang.org/)
-[Introduction | Rust for C++ Programmers](http://aminb.gitbooks.io/rust-for-c/content/)
+The language used by data analysts.
 
-## Web
+[R: The R Project for Statistical Computing](https://www.r-project.org/)
+[Introduction to R Programming | edX](https://www.edx.org/course/introduction-r-programming-microsoft-dat204x)
 
-[Web Fundamentals — Google Developers](https://developers.google.com/web/fundamentals/)
-[WebPlatform Docs · WebPlatform Docs · WPD · WebPlatform.org](https://docs.webplatform.org/wiki/Main_Page)
-[HTML CSS: The Right Way](http://htmlcsstherightway.org/)
-[Dive Into HTML5](http://diveintohtml5.info/)
-[HTML5 Rocks - A resource for open web HTML5 developers](http://www.html5rocks.com/en/)
-[Learn Web Development](http://killer-web-development.com/)
-[Scotch | Developers bringing fire to the people.](https://scotch.io/)
-[How to keep up to date on Front-End Technologies - The Recipe](http://uptodate.frontendrescue.org/)
-[SitePoint – Learn HTML, CSS, JavaScript, PHP, Ruby & Responsive Design](http://www.sitepoint.com/)
-[Web development tutorials | w3resource](http://www.w3resource.com/index.php)
-[Move The Web Forward | Guide to getting involved with standards and browser development](http://movethewebforward.org/)
+## Racket
 
-[Single page apps in depth (a.k.a. Mixu' single page app book)](http://singlepageappbook.com/single-page.html)
+[The Racket Language](http://racket-lang.org/)
+[Packages](http://pkgs.racket-lang.org/)
 
-[The Problem with Native JavaScript APIs - O'Reilly Media](http://www.oreilly.com/programming/free/native-javascript-apis.csp)
-[High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545/index.html)
+## Ruby
 
-[pazguille/offline-first](https://github.com/pazguille/offline-first)
+[Ruby Programming Language](http://www.ruby-lang.org/en/)
+[RVM- Ruby Version Manager - RVM Ruby Version Manager - Documentation](https://rvm.io/)
 
-[The Twelve-Factor App](http://12factor.net/)
-[Web开发中需要了解的东西 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/6043.html)
-
-[Web developer tools](https://mothereff.in/)
-[miripiruni/frontdesk](https://github.com/miripiruni/frontdesk)
-
-### demos
-
-[HTML5 Demos and Examples](http://html5demos.com/)
-[HTML5 Demos](http://html5-demos.appspot.com/)
-
-### list of resources
-
-[The Toolbox: a directory of the best time-saving apps and tools](http://thetoolbox.cc/)
-[CodeVisually | Web Developer Tools & Resources](http://codevisually.com/)
-[shit for making websites](http://shitformakingwebsites.com/)
-[Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!](http://microjs.com/#)
-[Javascript Territory - JSter Javascript Catalog](http://jster.net/)
-[JavaScripting.com - The Database of JavaScript Libraries](http://www.javascripting.com/)
-
-[Libscore](http://libscore.com/) scan site for library usage
-[Sibbell](https://sibbell.com/about/) get release updates for your starred projects.
+[RubyGems.org - your community gem host](http://rubygems.org/)
+[Ruby on Rails- Download](http://rubyonrails.org/download)

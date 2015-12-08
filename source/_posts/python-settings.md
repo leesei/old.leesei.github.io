@@ -35,6 +35,7 @@ sudo pip install httpie pygments
 sudo pip install asciinema TermRecord
 sudo pip install landslide
 sudo pip install git-up
+sudo pip install ngxtop
 ```
 
 ```sh

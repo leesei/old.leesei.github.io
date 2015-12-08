@@ -69,12 +69,12 @@ sudo pacman -S gnome-terminal
 Antergos LiveCD boots into GNOME3 and comes with a `Cnchi` graphical installer.
 It is better to update Cnchi (`pacman -Syu cnchi`) before installation.
 The good (may be bad for you) things about Antergos are:
-1. it does not install LibreOffice (which I don't use) by defualt
-2. it downloads the latest packages from network during install
+1. it does not install LibreOffice (which I don't use) by default
+2. it downloads the latest packages from network during install (but the install is slower)
 
 ### ArchBang
 
-ArchBang kickstart you with OpenBox WM.
+ArchBang kick-start you with OpenBox WM.
 
 [Announcements page](http://bbs.archbang.org/viewforum.php?id=2)
 
@@ -96,30 +96,25 @@ ArchBang kickstart you with OpenBox WM.
 
 ## Post-install
 
-Dist upgrade:
-
-```sh
-sudo pacman-mirrors -i # or -g
-# look at mirrors at http://repo.manjaro.org
-sudo pacman -Syy
-sudo pacman-optimize && sync
-sudo pacman -Su # for manjaro-system (if available)
-sudo pacman -Su # for the packages
-```
-
-[Pacman troubleshooting - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting)
-
-### enable multilib
+### pacman repo
 
 [Multilib - ArchWiki](https://wiki.archlinux.org/index.php/Multilib)
 
 ```sh
 sudo vi /etc/pacman.conf
 # Uncomment `[multilib]` section
-pacman -Syu
+
+# update mirrorlist
+sudo vi /etc/pacman.d/mirrorlist # OR
+sudo pacman-mirrors -i # or -g
+sudo pacman -Syy
+sudo pacman-optimize && sync
+
+# update
+pacman -Syyu
 ```
 
-### increate inotify limit
+### increase inotify limit
 
 For Dropbox, and possibly more
 
@@ -127,7 +122,7 @@ Permanently:
 
 ```sh
 su
-echo 150000 > /etc/sysctl.d/10-sysctl.conf
+echo "fs.inotify.max_user_watches=150000" > /etc/sysctl.d/10-sysctl.conf
 sysctl --system
 ```
 
@@ -138,10 +133,15 @@ cat /proc/sys/fs/inotify/max_user_watches
 sudo echo 150000 > /proc/sys/fs/inotify/max_user_watches
 ```
 
+> See `caravan/home/rfs.common/etc/`
+
 ### install priority packages
 
 ```sh
-yaourt -S --needed dropbox guake google-chrome pacmatic vim zsh
+yaourt -S dropbox guake pacmatic zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# copy Dropbox backup to ~/Dropbox to save download time
+yaourt -S --needed google-chrome gvim sublime-text-dev
 ```
 
 ### setup mail
@@ -159,8 +159,67 @@ cron-pacmatic <email>
 Proprietary (non-free) drivers is a source of problem. You will have to rebuild the driver every time the kernel is updated. Otherwise X will fail to start.
 If performance is not an issue it is [recommended](https://wiki.archlinux.org/index.php/Enhance_system_stability#Choose_open-source_drivers) to use the free drivers.
 
+#### AMD
+
 [AMD: Download Drivers](http://support.amd.com/en-us/download)
 [Installing AMD Catalyst drivers on Arch Linux](http://www.neuraladvance.com/installing-amd-catalyst-drivers-on-arch-linux.html)
+
+#### nVidia
+
+```sh
+# drivers
+nvidia nvidia-lts nvidia-utils nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl
+
+# legacy (for Quadro FX 570)
+nvidia-340xx nvidia-340xx-lts nvidia-340xx-utils nvidia-340xx-libgl lib32-nvidia-340xx-utils lib32-nvidia-340xx-libgl
+```
+
+### Remove indexer (Antergos only?)
+
+```sh
+yaourt -Rs tracker bijiben gnome-music gnome-online-miners gnome-photos totem zeitgeist 
+```
+
+### Network
+
+[systemd-networkd - ArchWiki](https://wiki.archlinux.org/index.php/Systemd-networkd)
+
+#### DNS resolver
+
+`~/caravan/home/rfs.common/etc/resolv.conf`
+
+[Get Started  |  Public DNS  |  Google Developers](https://developers.google.com/speed/public-dns/docs/using#linux)
+
+#### static IP address
+
+Edit `/etc/systemd/network/wired.network`:
+
+```
+[Match]
+Name=enp63s0
+
+[Network]
+Address=10.6.64.47/24
+Gateway=10.6.64.1
+```
+
+Revert to DHCP:
+```
+[Match]
+Name=enp63s0
+
+[Network]
+DHCP=ipv4
+```
+
+```sh
+sudo systemctl enable systemd-networkd
+sudo systemctl restart systemd-networkd
+```
+
+You can lookup interface name with `ifconfig`/`ls /sys/class/net`.
+[Network configuration - ArchWiki](https://wiki.archlinux.org/index.php/Network_configuration)
+[systemd-networkd - ArchWiki](https://wiki.archlinux.org/index.php/Systemd-networkd#Basic_DHCP_network)
 
 ## Troubleshooting
 
@@ -172,9 +231,9 @@ sudo vi /etc/locale.gen
 sudo locale-gen
 ```
 
-### future key
+### future key (Manjaro issue)
 
-I encoutered a PGP key error complaining my local key is created in the future in a Manjaro installation.
+I encountered a PGP key error complaining my local key is created in the future in a Manjaro installation.
 
 ```sh
 # verify PGP key
@@ -191,7 +250,7 @@ sudo pacman-key --refresh
 sudo rm -rf /etc/pacman.d/gnupgold
 ```
 
-### dirmngr
+### dirmngr (Manjaro issue)
 
 If GPG reports `gpg: keyserver refresh failed: No dirmngr`:
 
@@ -226,7 +285,7 @@ You may then modify files and use `pacman` to try fix issues.
 `fstab`
 
 ```sh
-blkid
+sudo blkid
 lsblk
 ls /dev/disk/by-{id,label,uuid}
 ```
@@ -245,13 +304,13 @@ sudo pacman-key -r 1D1F0DC78F173680
 
 Add pacman's key to `~/.gnupg/gpg.conf`:
 
-```
+```sh
 keyring /etc/pacman.d/gnupg/pubring.gpg
 ```
 
 or add key automatically:
 
-```
+```sh
 keyserver-options auto-key-retrieve
 ```
 
@@ -263,6 +322,7 @@ https://wiki.manjaro.org/index.php?title=Pacman_Tips
 http://www.hahack.com/wiki/arch-pacman.html
 [Improve pacman performance - ArchWiki](https://wiki.archlinux.org/index.php/Improve_pacman_performance)
 [Powerpill - ArchWiki](https://wiki.archlinux.org/index.php/Powerpill)
+[Pacman troubleshooting - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting)
 
 `/etc/pacman.conf`
 
@@ -273,9 +333,12 @@ http://www.hahack.com/wiki/arch-pacman.html
 [Arch Linux - Package Search](https://www.archlinux.org/packages/)
 [AUR (en) - Packages](https://aur.archlinux.org/packages/)
 
+[Arch Linux - Mirror Overview](https://www.archlinux.org/mirrors/)
+[Arch Linux - Pacman Mirrorlist Generator](https://www.archlinux.org/mirrorlist/)
+http://repo.manjaro.org
+
 ```sh
 sudo pacman-mirrors -i # or -g
-# look at mirrors at http://repo.manjaro.org
 
 # mirror list is located at
 sudo vi /etc/pacman.d/mirrorlist
@@ -333,8 +396,9 @@ pacman -U /package_path/package_name.pkg.tar.xz
 #### search (-S -s|--search)
 
 ```sh
-pacman -Ss package_name
-pacman -Ssq package_regex
+pacman -Ss package_name/package_regex
+# name only
+pacman -Ssq package_name/package_regex
 # package info
 pacman -Si package_name
 pacman -Sii package_name

@@ -171,6 +171,7 @@ The tilting angle for [Expert Mouse](http://www.kensington.com/en/sa/4493/64325/
 
 [kensington slimblade trackball linux - Google Search](https://www.google.com.hk/search?espv=2&biw=1147&bih=672&q=kensington+slimblade+trackball+linux&oq=kensington+trackball+slimblade+lin&gs_l=serp.3.0.0i22i30l2.25137.26212.0.27205.4.4.0.0.0.0.104.387.3j1.4.0....0...1c.1.64.serp..0.4.384.oka5IK0BCl4)
 [Living and Programming - YJPark's Blog: Using Trackball on Linux](http://yjpark.blogspot.com/2010/04/using-trackball-on-linux.html)
+[Kensington SlimBlade Trackball 軌跡球在 Linux 中的使用設定 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/48245538.html)
 
 ```sh
 # enable wheel emulation

@@ -19,7 +19,7 @@ awk -f <PROGRAM.awk> file
 <!-- more -->
 
 program is executed on a row basis, with optional rules to switch the statements (block) to execute
-each row is parsed into fields by the seperator
+each row is parsed into fields by the separator
 
 ```
 NR      Number of Row
@@ -71,6 +71,7 @@ awk '{ if (length($0) < 16384) print }' infile >outfile
 [AWK Programming](http://www.softpanorama.org/Tools/awk.shtml)
 [awk is a beautiful tool](http://www.eriwen.com/tools/awk-is-a-beautiful-tool/)
 [awk使用手册 - fanqiang.com](http://fanqiang.chinaunix.net/program/other/2005-09-07/3621.shtml)
+[AWK 简明教程 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/9070.html)
 
 [Famous Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)
 [Famous Awk One-Liners Explained, Part II: Text Conversion and Substitution - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)

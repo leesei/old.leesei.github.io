@@ -123,6 +123,27 @@ $ sudo dpkg-reconfigure tzdata
 
 > http://www.christopherirish.com/2012/03/21/how-to-set-the-timezone-on-ubuntu-server/
 
-## installed pacakges
+## installed packages
 
 > add [linux-installs.md](https://gist.github.com/leesei/65bf019431fc418f8ce3) here
+
+## update kernel
+
+```sh
+sudo apt-cache search linux-image-*
+sudo apt-cache search linux-image-X.X.XX-generic
+
+sudo apt-get install linux-image-X.X.XX-generic
+# headers is optional
+sudo apt-get install linux-headers-X.X.XX-generic
+sudo update-initramfs -u -k all
+# OR
+sudo update-initramfs -u -k `uname -r`
+sudo update-grub 
+sudo reboot
+
+# remove old kernel
+# list kernels
+dpkg --get-selections | grep linux-image
+sudo apt-get purge linux-image-X.X.XX-XX-generic
+```

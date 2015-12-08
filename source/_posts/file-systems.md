@@ -39,3 +39,5 @@ toc: true
 [Bitrot and atomic COWs: Inside “next-gen” filesystems | Ars Technica](http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/)
 [Ars walkthrough: Using the ZFS next-gen filesystem on Linux | Ars Technica](http://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/2/)
 
+[An Introduction to the Implementation of ZFS (part 1 of 2) - YouTube](https://www.youtube.com/watch?v=UP_JfUUmDZo)
+[An Introduction to the Implementation of ZFS (part 2 of 2) - YouTube](https://www.youtube.com/watch?v=l-RCLgLxuSc)

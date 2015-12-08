@@ -11,6 +11,7 @@ toc: true
 
 [CommonMark](http://commonmark.org/)
 
+[Lightweight markup language - Wikiwand](http://www.wikiwand.com/en/Lightweight_markup_language)
 [Is HTML a Humane Markup Language?](http://blog.codinghorror.com/is-html-a-humane-markup-language/)
 http://johnmacfarlane.net/babelmark2/?text=%23+Hello+there%0A%0AThis+is+a+paragraph.%0A%0A-+one%0A-+two%0A-+three%0A-+four%0A%0A1.+pirate%0A2.+ninja%0A3.+zombie
 [Babelmark 2 - Compare markdown implementations](http://johnmacfarlane.net/babelmark2/?text=%23+Hello+there%0A%0AThis+is+a+paragraph.%0A%0A-+one%0A-+two%0A-+three%0A-+four%0A%0A1.+pirate%0A2.+ninja%0A3.+zombie)
@@ -28,8 +29,6 @@ http://johnmacfarlane.net/babelmark2/?text=%23+Hello+there%0A%0AThis+is+a+paragr
 
 [Haroopad - The Next Document processor based on Markdown](http://pad.haroopress.com/)
 [rhiokim/haroopad](https://github.com/rhiokim/haroopad)
-
-## sublime text
 
 ## presentations
 

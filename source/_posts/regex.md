@@ -30,6 +30,8 @@ toc: true
 
 [Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions - YouTube](https://www.youtube.com/watch?v=EkluES9Rvak)
 
+[VerbalExpressions ♥ Open Source](http://verbalexpressions.github.io/)
+
 ## Visualizer
 
 Use these visualizers to help you understand the regexes.
@@ -89,11 +91,19 @@ Use [XRegExp](http://xregexp.com/) if you need them.
 [JavaScript: an overview of the regular expression API](http://www.2ality.com/2011/04/javascript-overview-of-regular.html)
 [The flag /g of JavaScript’s regular expressions](http://www.2ality.com/2013/08/regexp-g.html)
 
+[hokein/Automata.js](https://github.com/hokein/Automata.js) converts Regex to FSM
+[jwerle/sregex](https://github.com/jwerle/sregex)
+[dtao/simplex](https://github.com/dtao/simplex)
+
+[VerbalExpressions/JSVerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions)
+
 ## Python
 
 [Regular Expression HOWTO — Python 2.7.9 documentation](https://docs.python.org/2/howto/regex.html)
 [7.2. re — Regular expression operations — Python 2.7.9 documentation](https://docs.python.org/2/library/re.html)
 [Python Regular Expressions - Google for Education — Google Developers](https://developers.google.com/edu/python/regular-expressions)
+
+[Kodos - The Python Regex Debugger](http://kodos.sourceforge.net/)
 
 ## Ruby
 

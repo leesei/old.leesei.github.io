@@ -10,6 +10,8 @@ toc: true
 
 All python code are executed statements, no such thing as declaration
 
+[ŷhat | Data Science Operations](https://www.yhat.com/products/rodeo/) an Python IDE written with Electron
+
 [What’s New In Python 3.0](https://docs.python.org/3/whatsnew/3.0.html)
 
 ## Terminology

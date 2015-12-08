@@ -26,13 +26,27 @@ Disable:
 - mintWelcome
 - Zeitgeist
 
+Add:
+- Guake
+- Teamviewer
+
 ### "Keyboard" > "Keyboard Shortcuts"
 
 Generally delete unused shortcuts.
 
+```sh
+gsettings list-schema org.cinnamon.desktop.keybindings.wm
+dconf dump /org/cinnamon/desktop/keybindings/wm/
+```
+
+"General":
+- "Toggle Scale": <kbd>Super</kbd>+<kbd>q</kbd>
+- "Toggle Expo": <kbd>Super</kbd>+<kbd>w</kbd>
+- "Cycle Windows Backwards": <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd>
+- "Run": <kbd>Super</kbd>+<kbd>r</kbd>
+- "Looking Glass": <kbd>Super</kbd>+<kbd>F12</kbd>
+
 "Windows":
-- "Toggle Scale": <kbd>Ctrl</kbd>+<kbd>q</kbd>
-- "Toggle Expo": <kbd>Ctrl</kbd>+<kbd>w</kbd>
 - "Minimize window": <kbd>Super</kbd>+<kbd>KP_1</kbd>
 - "Show Desktop": <kbd>Super</kbd>+<kbd>d</kbd>
 - "Toggle maximization state": <kbd>Super</kbd>+<kbd>KP_9</kbd>
@@ -72,7 +86,7 @@ Generally delete unused shortcuts.
 
 Disable all key bindings
 Don't copy to clipboard
-Enable all in notification, but no on click action
+Enable all in notification, but not on click action
 
 ### [Sound With Apps Volume](http://cinnamon-spices.linuxmint.com/applets/view/150)
 
@@ -108,6 +122,10 @@ Uncheck "Show empty tray"
 ## "Extensions"
 
 [Spices : Cinnamon (Extensions)](http://cinnamon-spices.linuxmint.com/extensions)
+
+```sh
+cinnamon-settings extensions
+```
 
 `~/.local/share/cinnamon/extensions/`
 
@@ -161,3 +179,9 @@ Enable tooltips
 ### "Toolbar"
 
 Check "computer", "terminal"
+
+## Debugging
+
+Toggle Looking Glass with <kbd>Alt</kbd>+<kbd>F12</kbd> / <kbd>Super</kbd>+<kbd>F12</kbd>
+Looking Glass log: `~/.cinnamon/glass.log`
+Xsession error: `~/.xsession-errors`

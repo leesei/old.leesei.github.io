@@ -10,6 +10,7 @@ Weapons with gun powder.
 
 [Firearm - Wikiwand](https://www.wikiwand.com/en/Firearm)
 [How a Handgun Works: 1911 .45 - Animagraffs](http://animagraffs.com/how-a-handgun-works-1911-45/)
+[Firearms Channel - HowStuffWorks](http://science.howstuffworks.com/firearms-channel.htm)
 
 [Search Results gun](http://www.historynet.com/?s=gun)
 [Search Results firearms](http://www.historynet.com/?s=firearms)
@@ -75,6 +76,7 @@ Recoil Action (mid 1900): the expanded gas in the barrel is used push the lever 
 Blow Back Action (mid 1900): 
 Fully Automatic: load, pull and hold the trigger until your magazine is empty. Advanced design will also route the exhaust upwards to suppress the recoil.
 
+[Trigger (firearms) - Wikiwand](http://www.wikiwand.com/en/Trigger_%28firearms%29)
 Single Action
 Double Action
 

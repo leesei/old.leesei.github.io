@@ -39,7 +39,6 @@ http://www.thegeekstuff.com/2009/09/the-ultimate-wget-download-guide-with-15-awe
 wget -P./download -i list.txt
 ```
 
-
 ## httpie
 
 HTTP client for CLI, more senible than cURL

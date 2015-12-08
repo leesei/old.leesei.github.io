@@ -9,6 +9,7 @@ tags:
 - crosswalk
 - nativescript
 - titanium
+- react-native
 toc: true
 ---
 
@@ -35,6 +36,7 @@ The abstraction layer is *usually* HTML5 which is to be run on a browser. There 
 [Native vs HTML5 - You're Asking The Wrong Question](http://blogs.telerik.com/platform/posts/14-02-21/native-vs-html5---you're-asking-the-wrong-question)
 [Hybrid vs. Native: Choosing a Mobile Strategy](http://www.infoq.com/presentations/hybrid-native-mobile-strategy)
 [android - Struggling between native and phonegap, simple app requirements - Stack Overflow](http://stackoverflow.com/questions/14065610/struggling-between-native-and-phonegap-simple-app-requirements)
+[Web vs. native: let’s concede defeat - QuirksBlog](http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html)
 
 [Cross-Platform Developer Tools 2012 - VisionMobile](http://www.visionmobile.com/blog/2012/02/crossplatformtools/)
 
@@ -48,12 +50,20 @@ The abstraction layer is *usually* HTML5 which is to be run on a browser. There 
 [PhoneGap API Documentation](http://docs.phonegap.com/en/edge/index.html)
 [apache/cordova-cli](https://github.com/apache/cordova-cli)
 
+[Phonegap/Cordova Workshop](http://wrenr.github.io/cordova-workshop/#/)
+[JS.LA - Native Mobile Apps in JS - Just Add Cordova!](http://wrenr.github.io/jsla-cordova-2015-08/#/)
+
 [Phonegap/Cordova vs Native Application](http://www.slideshare.net/hakimrie/phonegapcordova-vs-native-application)
 [Phonegap vs Native - A 12 Month Review » Chel Ramsey Productions](http://chelramsey.com/series/phonegap-vs-native-a-12-month-review/) (2013)
 [Cordova : Devgirl's Weblog](http://devgirl.org/category/cordova/)
 [2 Quick Tips When Adding PhoneGap/Cordova Plugins : Devgirl's Weblog](http://devgirl.org/2014/07/15/2-quick-tips-when-adding-phonegapcordova-plugins/)
 
+[Verified Plugins Marketplace | Cordova/PhoneGap Plugins](http://plugins.telerik.com/cordova)
+
 ### Adobe PhoneGap v Apache Cordova
+
+PhoneGap was purchased by Adobe in 2011. Adobe donated PhoneGap to Apache Foundation and it was renamed to Cordova.
+Adobe retained the trademark of PhoneGap and provide service around it.
 
 [The Last Word on Cordova and PhoneGap | The Official Ionic Blog](http://blog.ionic.io/what-is-cordova-phonegap/)
 [Cordova and PhoneGap Insights](http://www.slideshare.net/monaca_mobi/cordova-and-phone-gap)
@@ -73,6 +83,14 @@ Ionic Framework includes
 
 The Ionic Framework Team has good relation with Angular Team and will support Angular 2 with Ionic 2.
 
+### Manifold
+
+[Manifold JS](http://www.manifoldjs.com/)
+
+Converts your website to an "app", uses Cordova/Crosswalk as polyfill if needed.
+
+[Simplify Android Development Using manifoldJS With Crosswalk - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/simplify-android-development-using-manifoldjs-with-crosswalk--cms-24790)
+
 ### Crosswalk
 
 Embedding the latest Chromium WebView to your app instead of using the system's WebView.
@@ -81,13 +99,16 @@ Embedding the latest Chromium WebView to your app instead of using the system's 
 
 ## React Native
 
-Write React JSX and deploy to iOS.
+Write React JSX and deploy to iOS abd Android.
 [React Native | A framework for building native apps using React](http://facebook.github.io/react-native/)
 [facebook/react-native](https://github.com/facebook/react-native)
 
 [Use React Native: site and newsletter](http://www.reactnative.com/)
 [First Impressions using React Native - James Long](http://jlongster.com/First-Impressions-using-React-Native)
 [Introducing React Native: Building Apps with JavaScript](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript)
+[React Native for Android: How we built the first cross-platform React Native app | Engineering Blog | Facebook Code | Facebook](https://code.facebook.com/posts/1189117404435352/)
+[zmxv: What I learned from building a React Native app](http://blog.zmxv.com/2015/09/what-i-learned-from-building-react.html)
+[Why React Native is Different](http://jlongster.com/Why-React-Native-is-Different)
 
 ## NativeScript
 
@@ -132,6 +153,9 @@ The language itself is similar to JavaScript. The `.hx` can be compiled to [mult
 [Qt Quick 5.4](http://doc.qt.io/qt-5/qtquick-index.html)
 [Qt QML 5.4](http://doc.qt.io/qt-5/qtqml-index.html)
 [QML Applications | Qt 5.4](http://doc.qt.io/qt-5/qmlapplications.html)
+
+Paypal's Seif App binds Node.js to Qt
+[The Seif Project - Douglas Crockford - YouTube](https://youtu.be/FHRXPlq9XNw?t=306)
 
 ## Xamarin
 

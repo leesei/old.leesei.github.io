@@ -16,11 +16,21 @@ Notes for console tools available on Android system.
 
 [Android (and Friends) Reading Guide | Linux.org](http://www.linux.org/threads/android-and-friends-reading-guide.6146/)
 [hellogv的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/hellogv)
+[Android Device - eLinux.org](http://elinux.org/Android_Device)
+
+## APK download
+
+[Download APK from Google Play Store free online downloader | APKPure.com](http://apkpure.com/)
+[APK Download of Free Android Apps - AndroidDrawer.com](http://www.androiddrawer.com/)
+[APK Downloader [Latest] Download Directly | Chrome Extension v3 (Evozi Official)](http://apps.evozi.com/apk-downloader/)
+[QooApp - 日韓遊戲專家！ACG Android Game Platform](http://apk.qoo-app.com/)
 
 ## Dev
 
 [AndroidXRef](http://androidxref.com/)
 [Detect and Resolve Performance Problems on Android - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/detect-and-resolve-performance-problems-on-android--cms-24058)
+
+[How to Use FontAwesome in an Android App - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-use-fontawesome-in-an-android-app--cms-24167)
 
 > attach adbpull, adbpush, adbview, adbcmd here
 

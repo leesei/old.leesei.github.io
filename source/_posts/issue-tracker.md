@@ -1,6 +1,6 @@
 title: Issue Tracker
 categories:
-  - apps
+  - app
 toc: true
 date: 2015-07-17 15:04:05
 tags:

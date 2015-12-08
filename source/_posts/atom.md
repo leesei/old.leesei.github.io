@@ -22,13 +22,16 @@ toc: true
 [Atom](https://atom.io/docs/latest/)  
 [Documentation](https://atom.io/docs)  
 
+Terminology:
+
 | SublimeText | Atom        |
 | ----------- | ----------- |
 | Syntax      | Grammar     |
 
 ## Package Management
 
-Atom has a built in package manager `apm` to install packages form official repo.  
+Atom has a built in package manager `apm` to install packages form official repo. It is actually a wrapper for `npm` for the Atom repo so you should find it familiar.  
+You can do install, search, list with it. `apm search -p` for packages, `apm search -t` for themes.
 You can also directly install to config folder.
 
 [Packages](https://atom.io/packages)  
@@ -73,6 +76,15 @@ atom.contextMenu.add {
 
 [Atom Setup | Front End Engineering, May 2015](http://jacobthemyth.gitbooks.io/front-end-engineering-may-2015/content/notes/misc/atom-setup.html)
 
+### Synchronize settings
+
+
+[Syncing settings & packages between machines - features - Atom Discussion](https://discuss.atom.io/t/syncing-settings-packages-between-machines/1385/23)
+
+symlink ~/.atom would be overkill
+[sync-settings](https://atom.io/packages/sync-settings)  
+[package-sync](https://atom.io/packages/package-sync)  
+
 ### Color scheme/Themes
 
 [atom-material-ui](https://atom.io/themes/atom-material-ui)  
@@ -102,13 +114,20 @@ atom.contextMenu.add {
 [highlight-selected](https://atom.io/packages/highlight-selected)  
 [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet)  
 [minimap-find-and-replace](https://atom.io/packages/minimap-find-and-replace)  
+[minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)  
 [minimap](https://atom.io/packages/minimap)  
+[pain-split](https://atom.io/packages/pain-split)
 [pigments](https://atom.io/packages/pigments)  
 [project-manager](https://atom.io/packages/project-manager)  
 [script](https://atom.io/packages/script)  
 
 ### Plugins development
 
+[Floobits News: Developing Atom Plugins, Part 1: On the Bleeding Edge](https://news.floobits.com/2015/10/12/developing-atom-plugins-on-the-bleeding-edge/)
+[Floobits News: Developing Atom Packages, Part 2: So Much Potential, So Many Bugs](https://news.floobits.com/2015/10/14/developing-atom-plugins-so-much-potential-so-many-bugs/)
+
 ### Linter
 
 [linter](https://atom.io/packages/linter)  ([Linters list](http://atomlinter.github.io/))
+
+[Wallaby.js for Atom text editor · Artem Govorov](http://dm.gl/2015/08/31/wallaby-for-atom/)

@@ -21,6 +21,8 @@ toc: ture
 
 [How I cracked my neighbor’s WiFi password without breaking a sweat | Ars Technica](http://arstechnica.com/security/2012/08/wireless-password-easily-cracked/)
 
+[Authentication – from “Programming JavaScript Applications” « Eric Elliott – JavaScript Architect (A JavaScript Blog)](http://ericleads.com/2013/08/authentication-from-programming-javascript-applications/)
+
 [Your Password is Too Damn Short](http://blog.codinghorror.com/your-password-is-too-damn-short/)
 
 ## The World without Password
@@ -29,8 +31,9 @@ toc: ture
 
 ## Password Manager
 
-[Schneier on Security: Password Safe](https://www.schneier.com/passsafe.html)
-
 [1Password](https://agilebits.com/onepassword)
+[LastPass](https://lastpass.com/)
+[Dashlane](https://www.dashlane.com/en/)
+[Password Safe](https://www.schneier.com/passsafe.html)
 
 [The Intermediate Guide to Mastering Passwords with LastPass](http://lifehacker.com/5645162/the-intermediate-guide-to-mastering-passwords-with-lastpass)

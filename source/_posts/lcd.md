@@ -14,6 +14,15 @@ A LCD display consists of two major components:
 LCD panel can be made with different technologies and the quality varies.
 The term "TFT" does not reflect the panel type used. We have to look into the datasheet when comparing LCD models.
 
+[The evolution of computer displays | Ars Technica](http://arstechnica.com/gadgets/2011/01/the-evolution-of-computer-displaysthe-evolution-of-computer-displays/)
+
+## Interface
+
+[HDMI vs. DisplayPort vs. DVI vs. VGA: Which connection to choose? - CNET](http://www.cnet.com/news/hdmi-vs-displayport-vs-dvi-vs-vga-which-connection-to-choose/)
+[Why all HDMI cables are the same - CNET](http://www.cnet.com/news/why-all-hdmi-cables-are-the-same/)
+[HTG Explains: Do You Really Need Expensive Cables?](http://www.howtogeek.com/112636/htg-explains-do-you-really-need-expensive-cables/)
+[How to tell DVI-I and DVI-D cables apart - How-To - PC Advisor](http://www.pcadvisor.co.uk/how-to/pc-peripheral/how-tell-dvi-i-dvi-d-cables-apart-3365585/)
+
 ## Backlight
 
 Desktop LCD monitors used to use fluorescent lamp as light source. Recently white LED has been used to reduce heat dissipation, energy consumption and also allows the monitor to be thiner.

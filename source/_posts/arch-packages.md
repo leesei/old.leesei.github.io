@@ -21,7 +21,8 @@ feh
 keymon > screenkey
 # http://arch.acgtyrant.com/2015/01/31/show-mouse-click-and-keyboard-press/
 
-steam
+steam steam-wrapper-git
+steam-native steam-lib
 
 oracle-jdk
 # https://github.com/Nowaker/aur-packages#oracle-jdk
@@ -33,44 +34,58 @@ pdfchain  # gcc 4.8
 # [Microcode - ArchWiki](https://wiki.archlinux.org/index.php/Microcode)
 intel-ucode
 # console tools
-bzip2 colordiff dos2unix curl guake gvim lndir mlocate roxterm tmux tree unrar unzip zip zsh
+bzip2 colordiff dos2unix cpio curl gtkterm-git guake lnav lndir mlocate roxterm tmux tree unrar unzip zip zsh
 # system tools
-dconf-editor htop lsof mimeo sshfs teamviewer udev-browse-git xsel
+dconf-editor htop lsof mimeo sshfs teamviewer udev-browse-git xdg-utils xsel
 # package tools
 pacmatic pkgcacheclean pkgtools namcap
 # hardware tools
-cpu-g hardinfo hddtemp hwinfo inxi i-nex-git lm_sensors lshw
+cpu-x hardinfo hwinfo inxi lm_sensors lshw
+# i-nex-git  # too much dependency
+# storage tools
+hdparm hddtemp
+# iso tools
+# winusb
 # VirtualBox
-virtualbox virtualbox-guest-utils 
+virtualbox virtualbox-guest-utils
 
 # dev tools
-bzr git mercurial subversion
-base-devel cabal-install cppcheck ghc jdk libstdc++5 maven
+bzr git git-extras mercurial subversion
+base-devel cabal-install cppcheck ghc jdk libstdc++5 
 erlang go lua openssl wireshark-qt
-# linters
-tidy-html5
+maven # after jdk to have java-environment properly resolved
 
 # cloud storage
 dropbox copy-agent
 # ui tools
-filezilla google-chrome pyrenamer qbittorrent remmina zenity
+filezilla google-chrome pyrenamer qbittorrent zenity
+# remote access
+teamviewer remmina freerdp
 
 # editors
-atom calibre meld sublime-text-dev wps-office wxhexeditor-git
+atom-editor-bin gvim meld sublime-text-dev wps-office wxhexeditor-git
+# text utils
+calibre pandoc
 # graphic tools
-graphviz hugin inkscape pencil pinta shotwell xdot
+graphviz hugin inkscape pencil pinta shotwell xdot yed
+
+# greeters
+lightdm-gtk-greeter lightdm-gtk-greeter-settings
+
+# python
+python-pip
 
 # fonts
-ttf-liberation wqy-zenhei 
+ttf-font ttf-liberation wqy-zenhei adobe-source-han-sans-otc-fonts
 
 # input method
 fcitx-im fcitx-configtool fcitx-table-extra 
 gcin
 
 # media tools
-avidemux-qt mediainfo mediainfo-gui mplayer rtmpdump smplayer subtitleeditor
+avidemux-qt dms mediainfo mediainfo-gui mkvtoolnix mplayer rtmpdump smplayer subtitleeditor
 # server tools
-couchdb hk heroku-client-latest mongodb nginx redis robomongo
+couchdb heroku-client-standalone mongodb nginx orientdb-community redis robomongo samba
 ```
 
 ## quirks
@@ -97,9 +112,17 @@ cabal update
 cabal install shellcheck
 ```
 
-### steam
+### Steam
 
 [Steam - ArchWiki](https://wiki.archlinux.org/index.php/Steam)
+[SteamCMD - Valve Developer Community](https://developer.valvesoftware.com/wiki/SteamCMD)
+
+[pyamsoft/steam-wrapper](https://github.com/pyamsoft/steam-wrapper)
+[AUR (en) - steam-wrapper-git](https://aur.archlinux.org/packages/steam-wrapper-git/)
+[AUR (en) - steam-libs](https://aur.archlinux.org/packages/steam-libs/)
+[AUR (en) - steam-native](https://aur.archlinux.org/packages/steam-native/)
+
+install 32 bits graphic drivers!!!
 
 Use `/usr/bin/steam` to start Steam in console, it reports:
 
@@ -119,12 +142,16 @@ rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/li
 rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libgcc_s.so.1
 ```
 
-### subl
+```sh
+# use native runtime
+STEAM_RUNTIME=0 steam
+```
+
+### sublime text
 
 `sublime-text-dev` is installed as `subl3`
 
 ```sh
-sudo ln -s /usr/bin/subl3 /usr/bin/subl
 # use my settings in Dropbox/caravan
 mv ~/.config/sublime-text-3/Packages ~/.config/sublime-text-3/Packages.bak
 ln -s ~/caravan/home/apps.conf/sublime-text-3/Packages/ ~/.config/sublime-text-3/Packages
@@ -135,9 +162,7 @@ Add [license key](https://mail.google.com/mail/ca/u/0/#apps/sublime+key/14490727
 ### teamviewer
 
 ```sh
-sudo -v
-sudo mkdir /etc/systemd/system/graphical.target.wants
-sudo ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/graphical.target.wants/teamviewerd.service'
+sudo systemctl enable teamviewerd
 ```
 
 ### mlocate 
@@ -146,12 +171,17 @@ sudo ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/gr
 sudo updatedb
 ```
 
-### wireshark
-
-Add user to group:
+### add user to group
 
 ```sh
+# for wireshark
 sudo usermod -a -G wireshark ${USER}
+# for nginx
+# enable `user http;` in `/etc/nginx/nginx.conf`
+sudo usermod -a -G http ${USER}
+chgrp -R http /www/public/
+# for /dev/tty*
+sudo usermod -a -G uucp ${USER}
 ```
 
 ### Chinese
@@ -185,7 +215,3 @@ export XMODIFIERS=@im=gcin
 export LC_CTYPE=zh_TW.UTF-8
 gcin &
 ```
-
-#### font
-
-[Debian 8 (jessie) 安裝筆記 中文環境篇 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/31556973.html)

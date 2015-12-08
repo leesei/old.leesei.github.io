@@ -39,6 +39,7 @@ Tool           | Language   | Diagrams           | Remark
 [mermaid][]    | JavaScript | Flowchart (Activity), Sequence, Gantt | [live](http://knsv.github.io/mermaid/live_editor/)
 [JUMLY][]      | JavaScript | Sequence, Activity | [live](http://jumly.tmtk.net/try.html)
 [js-sequence-diagrams][] | JavaScript | Sequence | live
+[flowchart.js][]         | JavaScript | Flowchart | live
 [UMLGraph][]   | Java       | Sequence, Class    |
 [ckwnc][]      | ?          | Sequence           | live **only**, C-like syntax
 [Graphviz][]   | C          | Digraph            | layout/rendering layer for PlantUML and UMLGraph, with browser port [viz.js](https://github.com/mdaines/viz.js), [dagre](https://github.com/cpettitt/dagre), [dagre-d3](https://github.com/cpettitt/dagre-d3)
@@ -48,6 +49,7 @@ Tool           | Language   | Diagrams           | Remark
 [mermaid]: https://github.com/knsv/mermaid
 [JUMLY]: http://jumly.tmtk.net/
 [js-sequence-diagrams]: http://bramp.github.io/js-sequence-diagrams/
+[flowchart.js]: http://flowchart.js.org/
 [UMLGraph]: http://www.umlgraph.org/index.html
 [ckwnc]: http://www.ckwnc.com
 [Graphviz]: http://www.graphviz.org/
@@ -86,6 +88,7 @@ DITAA, Salt, JCCKit, Sudoku, XEarth
 
 [Graphviz | UX Design and Development course](http://www.anotheruiguy.com/ux-design-dev/_book/ux/graphviz.html)
 [dot - man page](https://www.mankier.com/1/dot)
+[Drawing graphs with dot](http://www.graphviz.org/pdf/dotguide.pdf) PDF
 
 ### GaaS (graph as a service)
 
@@ -97,12 +100,15 @@ PlantUML's [service](http://plantuml.sourceforge.net/server.html) mode, see[jQue
 
 ## GUI Tools
 
+PlantUML's weakness (and strength, sort of) is the user cannot (and need not) specify location of the nodes. This became an issue for component diagrams where we need more control of the position of the nodes and edges for a better look and feel of the diagram.
+
 [UML Diagramming Tools | Diagramming.org](http://www.diagramming.org/)
 [Our list of online modeling tools](http://modeling-languages.com/web-based-modeling-tools/)
 
-[ArgoUML](http://argouml.tigris.org/)
+[yEd - Graph Editor](http://www.yworks.com/products/yed)
 [Gaphor UML Modelling](http://gaphor.sourceforge.net/download.php)  (Python)
 [Modelio Open Source Community](https://www.modelio.org/index.php)
+[ArgoUML](http://argouml.tigris.org/)  the UI is bad
 [UMLet - Free UML Tool for Fast UML Diagrams](http://www.umlet.com/)
 [Violet UML Editor : easy to use, completely free](http://alexdp.free.fr/violetumleditor/page.php)
 

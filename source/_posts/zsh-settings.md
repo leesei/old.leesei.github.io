@@ -20,8 +20,25 @@ toc: true
 
 [Zsh/Bash startup files loading order (.bashrc, .zshrc etc.) | The Lumber Room](https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/)
 
-[mbrubeck/compleat](https://github.com/mbrubeck/compleat)
-[rupa/z](https://github.com/rupa/z)
+## oh-my-zsh
+
+```sh
+curl -L http://install.ohmyz.sh | sh
+```
+
+[Plugins · robbyrussell/oh-my-zsh Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+
+[zshthem.es](http://zshthem.es/)
+
+[Improve Your oh-my-zsh Startup Time (Maybe) - Patshead.com Blog](http://blog.patshead.com/2011/04/improve-your-oh-my-zsh-startup-time-maybe.html)
+
+## default shell
+
+With oh-my-zsh installed and `~/.zshrc` updated, you may change your default shell to zsh.
+
+```sh
+chsh -s /bin/zsh ${USER}
+```
 
 ## history
 
@@ -35,15 +52,6 @@ toc: true
 
 [Low Level Manager: Smile! with a Zsh prompt happy/sad face](http://www.lowlevelmanager.com/2012/03/smile-zsh-prompt-happysad-face.html)
 [jimeh/git-aware-prompt](https://github.com/jimeh/git-aware-prompt)
+[sindresorhus/pure](https://github.com/sindresorhus/pure)
 
 [How to: Change / Setup bash custom prompt (PS1)](http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
-
-## oh-my-zsh
-
-```sh
-curl -L http://install.ohmyz.sh | sh
-```
-
-http://zshthem.es/
-
-[Improve Your oh-my-zsh Startup Time (Maybe) - Patshead.com Blog](http://blog.patshead.com/2011/04/improve-your-oh-my-zsh-startup-time-maybe.html)

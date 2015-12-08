@@ -62,6 +62,15 @@ B' = 1.164*(Y’-16) + 2.017*(Cb'-128)
 
 Packaging is defined by [fourcc](http://www.fourcc.org/yuv.php) and independent of the colorspace.
 
+Add principles: additive and subtractive
+[JavaScript进行RGB和HEX(16进制)颜色转换 - 进击的程序媛，Laker's blog](http://laker.me/blog/2015/10/10/15_1010_rgb_hex_color/#more)
+
+## Node.js library
+
+[MoOx/color-convert](https://github.com/MoOx/color-convert)
+[substack/mrcolor](https://github.com/substack/mrcolor)
+[Automattic/Color.js](https://github.com/Automattic/Color.js)
+
 ## References:
 
 http://en.wikipedia.org/wiki/YUV

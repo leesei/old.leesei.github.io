@@ -138,6 +138,9 @@ Installed packages (Package Control > Settings - User):
 `<DATA>/Packages/User/Package Control.sublime-settings`
 > You can do batch install by editing this file and restarting Sublime Text.
 
+[Docs for Package Developers - Package Control](https://packagecontrol.io/docs#Package_Developers)
+[Submitting a Package - Package Control](https://packagecontrol.io/docs/submitting_a_package#Step_2)
+
 ## Extension Development
 
 Sublime Text's extensions are usually compatible with TextMate. This design choice make migration from TextMate easy and helps to build Sublime Text's user base.
@@ -240,8 +243,8 @@ Diagram                               | [Syntax](https://github.com/jvantuyl/sub
 [Gnuplot][]                           |
 [GoSublime][]                         |
 [INI][]                               |
-[JSFormat][]                          |
-[SublimeJSCSFormatter][]              |
+[JSFormat][]                          | Currently only used for JSON
+[Standard​Format][]                    | Change `command` to `["semistandard", "-F", "--stdin"]`
 [MarkdownEditing][]                   | Also includes color scheme and snippets for Markdown
 [Nunjucks Syntax][]                   |
 [nginx][]                             |
@@ -307,6 +310,7 @@ Package                               | Remark
 [Sublime​Linter-cppcheck][]            |
 [SublimeLinter-csslint][]             |
 [SublimeLinter-html-tidy][]           | This causes [error](https://github.com/SublimeLinter/SublimeLinter-html-tidy/issues/33) in `paths`
+[Sublime​Linter-contrib-semistandard][] |
 [SublimeLinter-contrib-htmlhint][]    |
 [SublimeLinter-javac][]               |
 [SublimeLinter-jshint][]              |
@@ -375,8 +379,9 @@ Package                               | Remark
 [StringEncode]: https://packagecontrol.io/packages/StringEncode
 [StringUtilities]: https://packagecontrol.io/packages/StringUtilities
 [SublimeCodeIntel]: https://packagecontrol.io/packages/SublimeCodeIntel
-[SublimeJSCSFormatter]: https://packagecontrol.io/packages/JSCS-Formatter
+[StandardFormat]: https://packagecontrol.io/packages/StandardFormat
 [SublimeLinter-annotations]: https://packagecontrol.io/packages/SublimeLinter-annotations
+[Sublime​Linter-contrib-semistandard]: https://packagecontrol.io/packages/SublimeLinter-contrib-semistandard
 [SublimeLinter-contrib-htmlhint]: https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint
 [Sublime​Linter-cppcheck]: https://packagecontrol.io/packages/SublimeLinter-cppcheck
 [SublimeLinter-csslint]: https://packagecontrol.io/packages/SublimeLinter-csslint

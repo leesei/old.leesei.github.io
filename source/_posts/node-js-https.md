@@ -9,12 +9,7 @@ tags:
 toc: true
 ---
 
-## cert generation
-
-```sh
-openssl genrsa -out privatekey.pem 1024
-openssl req -new -key privatekey.pem -x509 -days 7300 -out certificate.pem
-```
+Generate key with `openssl` first.
 
 ## server
 

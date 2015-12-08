@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-This is a curated list of software I found useful (in a Cinnamon desktop) and worth recommending.
+This is a curated list of software I found useful (mostly on a Cinnamon desktop) and worth recommending.
 FOSS (free and open source) and cross platform softwares are given priority.
 
 For the softwares I install on my system, see `arch-packages.md`.
@@ -19,6 +19,11 @@ For the softwares I install on my system, see `arch-packages.md`.
 <!-- more -->
 
 ## Education
+
+[LyX | LyX – The Document Processor](http://www.lyx.org/)
+[CircuitLab - online schematic editor & circuit simulator](https://www.circuitlab.com/)
+
+### Math
 
 [GNU Octave](http://www.gnu.org/software/octave/)
 [gnuplot homepage](http://www.gnuplot.info/)
@@ -32,12 +37,15 @@ For the softwares I install on my system, see `arch-packages.md`.
 [The best Matlab alternative (2) | Alasdair's musings](https://amca01.wordpress.com/2012/11/27/the-best-matlab-alternative-2/)
 [The best Matlab alternative (3) | Alasdair's musings](https://amca01.wordpress.com/2014/01/05/the-best-matlab-alternative-3/)
 
-[LyX | LyX – The Document Processor](http://www.lyx.org/)
+### Astrology
+
+[Celestia: Home](http://www.shatters.net/celestia/)
 
 ## Cloud Storage
 
 [Install App :: Copy](https://www.copy.com/install/)
 [Install Dropbox](https://www.dropbox.com/install)
+[SpiderOak Downloads](https://spideroak.com/opendownload)
 
 ## Browsers
 
@@ -47,11 +55,19 @@ For the softwares I install on my system, see `arch-packages.md`.
 ### Extensions
 
 [Adblock Plus - Chrome Web Store](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
+[AngularJS Batarang - Chrome Web Store](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk)
+[HTTP/2 and SPDY indicator - Chrome Web Store](https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin)
+[ImprovedTube - YouTube Extension - Chrome Web Store](https://chrome.google.com/webstore/detail/improvedtube-youtube-exte/bnomihfieiccainjcjblhegjgglakjdd)
 [JSONView - Chrome Web Store](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 [Markdown Here - Chrome Web Store](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa)
 [MarkView - Chrome Web Store](https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim)
 [PlantUML Viewer - Chrome Web Store](https://chrome.google.com/webstore/detail/plantuml-viewer/legbfeljfbjgfifnkmpoajgpgejojooj)
+[React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+[Readability - Chrome Web Store](https://chrome.google.com/webstore/detail/readability/oknpjjbmpnndlpmnhmekjpocelpnlfdi)
+[Save to Google Drive - Chrome Web Store](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne)
 [Tampermonkey - Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+[Template - Chrome Web Store](https://chrome.google.com/webstore/detail/template/dcjnfaoifoefmnbhhlbppaebgnccfddf)
+[The Great Suspender - Chrome Web Store](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
 [Unblock Youku - Chrome Web Store](https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk)
 [Wikiwand: Wikipedia Modernized - Chrome Web Store](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
 
@@ -59,16 +75,24 @@ For the softwares I install on my system, see `arch-packages.md`.
 
 [LibreOffice](http://www.libreoffice.org/) is open source, but [WPS Office Suite](http://wps.com/) has better UI and is more compatible with MS Office.
 
+[DiffPDF](http://www.qtrac.eu/diffpdf.html)
+[PDFtk - The PDF Toolkit](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+
 ## 2D Graphics
 
 https://wiki.archlinux.org/index.php/List_of_applications/Multimedia#Graphical
 
-[Graphviz | Graphviz - Graph Visualization Software](http://www.graphviz.org/)
-[PlantUML](http://plantuml.sourceforge.net/)
 [GIMP - The GNU Image Manipulation Program](http://www.gimp.org/)
 [Pinta: Painting Made Simple!](http://pinta-project.com/)
+[Hugin - Panorama photo stitcher](http://hugin.sourceforge.net/)
 [Krita | Digital Painting. Creative Freedom.](https://krita.org/)
 [Inkscape Alternatives and Similar Software - AlternativeTo.net](http://alternativeto.net/software/inkscape/)
+
+[Graphviz | Graphviz - Graph Visualization Software](http://www.graphviz.org/)
+[PlantUML](http://plantuml.sourceforge.net/)
+[Pencil Project](http://pencil.evolus.vn/)
+[Pencil2D – opensource animation software](http://www.pencil2d.org/)
+[yEd - Graph Editor](http://www.yworks.com/en/products/yfiles/yed/)
 [XMind: The Most Professional Mind Mapping Software](http://www.xmind.net/)
 
 see also `uml.md`
@@ -79,7 +103,7 @@ see also `uml.md`
 > - limitation on free tier
 > - UI
 > - stencils
-> - project persistency
+> - project persistence
 
 [10 Completely Free Wireframing and Mockup Tools](http://speckyboy.com/2011/02/23/10-completely-free-wireframing-and-mockup-tools/)
 [Pencil Project](http://pencil.evolus.vn/)
@@ -97,6 +121,13 @@ see also `uml.md`
 Maybe include game engines?
 
 see also `game-engines.md`
+
+## Launcher
+
+[Alfred - Productivity App for Mac OS X](https://www.alfredapp.com/)
+
+[qdore/Mutate](https://github.com/qdore/Mutate) plugins in Python and shell script
+[ManuelSchneid3r/albert](https://github.com/ManuelSchneid3r/albert) plugins in Qt/C++
 
 ## Editor/IDE
 
@@ -130,6 +161,16 @@ see also `game-engines.md`
 [Releases · monochromegane/the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher/releases)
 [The Platinum Searcher: search source code, faster than ack - Progville](https://www.progville.com/tools/the-platinum-searcher-faster-than-ack/)
 
+## Dev Docs Browser
+
+[DevDocs](http://devdocs.io/)
+It is HTML5, works offline, and is _F.R.E.E._
+Customize the downloaded documentations with "Select documentation" (on the lower left corner). Vote for new documentations [here](https://trello.com/b/6BmTulfx/devdocs-documentation).
+
+[Zeal - Offline Documentation Browser](http://zealdocs.org/), compatible with Dash doclets.
+
+Or, if you are on Mac and adamant to spend some money, try [Dash for Mac](http://kapeli.com/dash).
+
 ## Diff tool
 
 [Meld](http://meldmerge.org/)
@@ -137,6 +178,13 @@ see also `game-engines.md`
 [Kompare - Different from the rest](http://www.caffeinated.me.uk/kompare/)
 [WinMerge](http://winmerge.org/?lang=en)
 [Kaleidoscope — File comparison for Mac](http://www.kaleidoscopeapp.com/)
+
+## Database
+
+[MongoDB](https://www.mongodb.org/)
+[OrientDB Multi-Model NoSQL Database](http://orientdb.com/)
+[Redis](http://redis.io/)
+[SQLiteStudio](http://sqlitestudio.pl/)
 
 ## Launcher
 
@@ -147,14 +195,28 @@ see also `game-engines.md`
 ## Multimedia
 
 [Linux video tools](http://www.videohelp.com/tools/sections/linux-video-tools)
+[Avidemux - Main Page](http://fixounet.free.fr/avidemux/)
 
 [FFmpeg](https://www.ffmpeg.org/)
 [Libav](https://libav.org/), ffmpeg's fork
+[MKVToolNix news – Matroska tools for Linux/Unix and Windows](https://www.bunkus.org/videotools/mkvtoolnix/)
+[youtube-dl](https://rg3.github.io/youtube-dl/)
 
-[dLeyna | 01.org](https://01.org/dleyna) DLNA-certified open source solution for Linux
+### Player
+
 [VideoLAN - Official page for VLC media player, the Open Source video framework!](http://www.videolan.org/vlc/index.html)
 [SMPlayer - Free Media Player for Windows with Youtube support - Official Site](http://smplayer.sourceforge.net/)
 [Download K-Lite Codec Pack](http://www.codecguide.com/download_kl.htm)
+
+### UPnP/DLNA
+
+[List of UPnP AV media servers and clients - Wikiwand](https://www.wikiwand.com/en/List_of_UPnP_AV_media_servers_and_clients)
+[Comparison of UPnP AV media servers - Wikiwand](https://www.wikiwand.com/en/Comparison_of_UPnP_AV_media_servers)
+
+[6 UPnP / DLNA Servers For Streaming Media To Your Devices](http://www.makeuseof.com/tag/6-upnpdlna-servers-streaming-media-devices-crossplatform/)
+
+[dLeyna | 01.org](https://01.org/dleyna) DLNA-certified open source solution for Linux
+[anacrolix/dms](https://github.com/anacrolix/dms) DLNA server in Go
 
 ## Screenshot
 
@@ -168,10 +230,21 @@ see also `game-engines.md`
 
 [Apps/DFeet - GNOME Wiki!](https://wiki.gnome.org/Apps/DFeet)
 [Projects/dconf - GNOME Wiki!](https://wiki.gnome.org/action/show/Projects/dconf) (`dconf-editor`)
-[Apps/Terminal - GNOME Wiki!](https://wiki.gnome.org/Apps/Terminal)
 [Announcing udev-browse](http://0pointer.de/blog/projects/udev-browse.html)
 [fontanon/udev-discover](https://github.com/fontanon/udev-discover)
 [GParted](http://en.wikipedia.org/wiki/GParted)
+
+## Terminal
+
+[Apps/Terminal - GNOME Wiki!](https://wiki.gnome.org/Apps/Terminal)
+[ROXTerm](http://roxterm.sourceforge.net/)
+[black-screen/black-screen](https://github.com/black-screen/black-screen) terminal with Electron
+[poderosaproject/poderosa](https://github.com/poderosaproject/poderosa)
+
+## File Scavenger
+
+[TestDisk - Partition Recovery and File Undelete](http://www.cgsecurity.org/wiki/TestDisk)
+[File Scavenger Alternatives for Linux - AlternativeTo.net](http://alternativeto.net/software/file-scavenger/?platform=linux)
 
 ## System Monitor
 
@@ -183,7 +256,7 @@ smartctl
 
 sudo lshw
 sudo lshw -short
-sudo lshw -class processor
+sudo lshw -C cpu
 hwinfo
 hwinfo --bios
 inxi -F
@@ -199,6 +272,10 @@ inxi -F
 [Psensor | wpitchoune](http://wpitchoune.net/blog/psensor/)
 [monitoring - How do I get the CPU temperature? - Ask Ubuntu](http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature)
 
+### Disk Usage
+
+[Baobab](http://www.marzocca.net/linux/baobab/index.html)
+[Duc: Dude, where are my bytes!](http://duc.zevv.nl/)
 [xdiskusage download | SourceForge.net](http://sourceforge.net/projects/xdiskusage/)
 
 ## Windows Management

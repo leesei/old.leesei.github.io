@@ -22,6 +22,8 @@ Awesome list is a project start [sindresorhus (Sindre Sorhus)](https://github.co
 [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron)
 [sindresorhus/amas](https://github.com/sindresorhus/amas) (Ask Me Anything)
 
+[wbinnssmith/awesome-promises](https://github.com/wbinnssmith/awesome-promises)
+[xgrommx/awesome-redux](https://github.com/xgrommx/awesome-redux)
 [Hunter-Github/awesome-firefox](https://github.com/Hunter-Github/awesome-firefox)
 [emijrp/awesome-wikipedia](https://github.com/emijrp/awesome-wikipedia)
 [elburz/awesome-space](https://github.com/elburz/awesome-space)

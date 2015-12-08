@@ -8,9 +8,11 @@ tags:
 toc: true
 ---
 
-http://hexo.io/
-http://jr0cket.co.uk/hexo/
+[Hexo](https://hexo.io/)
+[Hexo.io - Static Site Generator & Blog Platform | jr0cket](http://jr0cket.co.uk/hexo/) (maybe outdated)
 [Hexo常见问题解决方案 | Xuanwo's Blog](http://xuanwo.org/2014/08/14/hexo-usual-problem/)
+[Category: Hexo - 进击的程序媛，Laker's blog](http://laker.me/blog/categories/Hexo/)
+[Category: Hexo - Laker's blog](http://laker.me/blog/categories/Hexo/)
 http://leesei.github.io/hexo-testground/2014/12/01/hello-world/#Customization
 
 Validate YAML with [Online YAML Parser](http://yaml-online-parser.appspot.com/).
@@ -19,6 +21,8 @@ Validate YAML with [Online YAML Parser](http://yaml-online-parser.appspot.com/).
 [Hexo 源码略读（一）：init.js – Canvas](http://cinvro.com/post/hexo-source-1/)
 
 [github pages - Repo Setup for Hexo? - Stack Overflow](http://stackoverflow.com/questions/27399219/repo-setup-for-hexo#27401742)
+
+[hexo cannot use space within tag plugin arguments | Life & Note - winterTTr](http://winterttr.me/2015/11/07/hexo-cannot-use-space-within-tag-arguments/)
 
 <!-- more -->
 
@@ -40,15 +44,14 @@ https://github.com/kywk/hexo-tag-eval
 https://github.com/oohcoder/hexo-tag-plantuml
 https://github.com/akfish/hexo-math
 https://github.com/akfish/hexo-diagram http://jumly.tmtk.net/
+[vseventer/hexo-uncss](https://github.com/vseventer/hexo-uncss)
 [JamesPan/hexo-ruby-character](https://github.com/JamesPan/hexo-ruby-character)
-
-https://github.com/timnew/hexo-helper-simple-tagcloud
-https://github.com/akfish/hexo-series
+[alexbruno/hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content)
+[bubkoo/hexo-filter-fenced-code](https://github.com/bubkoo/hexo-filter-fenced-code)
 
 [celsomiranda/hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it)
 
 https://github.com/FlashSoft/hexo-console-optimize
-
 
 ## Themes
 

@@ -17,6 +17,17 @@ toc: true
 
 [The Computer Kid: Password-less SSH](http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE)
 
+You can specify host alias, user and id in `~/.ssh/config`:
+
+```
+Host 64.28
+    HostName 10.6.64.28
+    User kylee
+    IdentityFile ~/.ssh/kylee.id_rsa
+```
+
+I now use this setting instead of multiple global `IdentityFile` entries.
+
 Also see `ssh ssh-copy-id` command
 
 ### on client
@@ -45,6 +56,8 @@ chmod 640 ~/.ssh/authorized_keys
 
 [SSH Tunneling Explained | Source Open](https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/)
 [Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net](http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/)
+[SSH tunnels for fun and profit](https://underthehood.myob.com/ssh-tunnels-for-fun-and-profit/)
+[Access web pages through your home network via SSH](https://coolaj86.com/articles/access-web-pages-through-your-home-network-via-ssh/)
 
 ## sshfs
 

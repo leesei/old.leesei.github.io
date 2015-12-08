@@ -12,7 +12,6 @@ tags:
 - grep
 - ImageMagick
 - inotify-tools
-- netcat
 - openRTSP
 - pt
 - rsync
@@ -32,6 +31,8 @@ toc: true
 [Linux 101 Hacks eBook, by Ramesh Natarajan](http://www.thegeekstuff.com/linux-101-hacks-ebook/)
 
 ## user management
+
+> Ubuntu has a `adduser` wrapper to `useradd`
 
 `/etc/passwd` defines the users
 `/etc/group` defines the groups
@@ -73,21 +74,11 @@ convert a.png b.png -compress jpeg -resize 1240x1753 \
                       -units PixelsPerInch -density 150x150 multipage.pdf
 ```
 
-## netcat
+## Term recorder
 
-http://nc110.sourceforge.net/
-http://www.catonmat.net/blog/unix-utilities-netcat/
-http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/
-http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/
-
-## netstat
-
-```sh
-# list listening TCP ports
-netstat -antlp
-lsof -i udp:24000
-lsof -i tcp:80
-```
+[chjj/ttystudio](https://github.com/chjj/ttystudio) record to GIF
+[theonewolf/TermRecord](https://github.com/theonewolf/TermRecord) record to HTML
+[asciinema/asciinema](https://github.com/asciinema/asciinema) record and post to [asciinema.org](asciinema.org).
 
 ## openRTSP
 
@@ -132,6 +123,11 @@ grep -c "foo" * | grep ":0" | awk -F: '{ print $1 }'
 [Find is a beautiful tool](http://www.eriwen.com/productivity/find-is-a-beautiful-tool/)
 [Mommy, I found it! — 15 Practical Linux Find Command Examples](http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/)
 [Unix Find Tutorial](http://www.softpanorama.org/Tools/Find/index.shtml)
+[UsingFind - Greg's Wiki](http://mywiki.wooledge.org/UsingFind)
+
+[Capturing output of find . -print0 into a bash array - Stack Overflow](http://stackoverflow.com/questions/1116992/capturing-output-of-find-print0-into-a-bash-array)
+[linux - exclude directory from find . command - Stack Overflow](http://stackoverflow.com/questions/4210042/exclude-directory-from-find-command/24565095#24565095)
+[regex - How to use '-prune' option of 'find' in sh? - Stack Overflow](http://stackoverflow.com/questions/1489277/how-to-use-prune-option-of-find-in-sh/1489405#1489405)
 
 ```sh
 # find | xarg combo
@@ -157,14 +153,18 @@ find . -type f -mmin -60
 # find all files of size between 50-100MB
 find . -size +50M -size -100M
 
-# concat all files and print to console, note the space before '\'
-find . -type f -exec cat {} \;
+# concat all Java files and print to console, note the space before '\'
+find . -type f -name "*.java"-exec cat {} \;
 
 # find executables
 find . -perm /a=x
 
 # find empty directories
 find . -type d -empty
+
+# excluding folders
+# prune is faster than `-not` for files are skipped
+find build -not \(-type d -path build/external -prune \) -name \*.js
 ```
 
 ### operate files using inum
@@ -213,8 +213,9 @@ https://github.com/rvoicilas/inotify-tools
 
 [cpio - man page](https://www.mankier.com/1/cpio)
 [Linux cpio Examples: How to Create and Extract cpio Archives (and tar archives)](http://www.thegeekstuff.com/2010/08/cpio-utility/)
+[cpio - Wikiwand](https://www.wikiwand.com/en/Cpio)
 
-copy files to destination folder keeping the tree sturcture of the path specified 
+copy files to destination folder keeping the tree structure of the path specified 
 
 ```sh
 # in ~/source
@@ -256,3 +257,24 @@ echo "foo\nbar\nbaz" | tr -c "bf\n" "\!"
 # ROT13
 alias rot13="tr '[A-Za-z]' '[N-ZA-Mn-za-m]'"
 ```
+
+## fun
+
+[20 amusing Linux commands to have fun with the terminal](http://www.binarytides.com/linux-fun-commands/)
+[cowsay - Wikiwand](https://www.wikiwand.com/en/Cowsay)
+
+```sh
+cowsay -l
+fortune | cowsay -f stegosaurus
+```
+
+## Toolbelt
+
+[danielstjules/pjs](https://github.com/danielstjules/pjs)
+Perl for regex
+find
+grep
+pt
+sed
+tr
+JSON manipulation

@@ -10,14 +10,6 @@ tags:
 toc: true
 ---
 
-# Reference
-
-[The Go Programming Language](http://golang.org/)
-[The Go Programming Language Specification - The Go Programming Language](http://golang.org/ref/spec)
-[DevDocs/Go](http://devdocs.io/go/)
-[Go 1.2 is released - The Go Blog](http://blog.golang.org/go12)
-[Go 1.2 Release Notes - The Go Programming Language](http://golang.org/doc/go1.2)
-
 ## packages
 
 [GoDoc (package repository)](https://godoc.org/)
@@ -31,26 +23,34 @@ toc: true
 [flag - The Go Programming Language](http://golang.org/pkg/flag/)
 [Projects - go-wiki - A list of Go projects. - Go Language Community Wiki - Google Project Hosting](https://code.google.com/p/go-wiki/wiki/Projects)
 
+[golang/mobile](https://github.com/golang/mobile/)
+
 ### gopm
 
 [gpmgo/gopm](https://github.com/gpmgo/gopm)
 [Gopm Registry - Versioning caching and delivery for your Go packages](http://gopm.io/)
 
+### modules
+
+```sh
+go get github.com/xyproto/algernon
+```
+
 # Learn
 
 ## Official
 
+[The Go Programming Language](https://golang.org/)
+[DevDocs/Go](http://devdocs.io/go/)
 [Documentation - The Go Programming Language](http://golang.org/doc/)
+[The Go Programming Language Specification - The Go Programming Language](http://golang.org/ref/spec)
+
 [A Tour of Go](http://tour.golang.org/), [solutions](https://code.google.com/p/go-tour/source/browse/solutions/)
 [How to Write Go Code - The Go Programming Language](http://golang.org/doc/code.html)
 [Writing, building, installing, and testing Go code - YouTube](https://www.youtube.com/watch?v=XCsL89YtqCs)
 [Effective Go - The Go Programming Language](http://golang.org/doc/effective_go.html)
 [Frequently Asked Questions (FAQ) - The Go Programming Language](http://golang.org/doc/faq)
 [Wiki Pages - go-wiki - Go Language Community Wiki - Google Project Hosting](https://code.google.com/p/go-wiki/w/list)
-
-## Book
-
-[Building Web Apps with Go - GitBook](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 
 ## Design
 
@@ -100,11 +100,13 @@ Building a Trie data structure.
 [Share Memory By Communicating - The Go Blog](http://blog.golang.org/share-memory-by-communicating)
 [Go's Declaration Syntax - The Go Blog](http://blog.golang.org/gos-declaration-syntax)
 [JSON-RPC: a tale of interfaces - The Go Blog](http://blog.golang.org/json-rpc-tale-of-interfaces)
+[Go GC: Prioritizing low latency and simplicity - The Go Blog](http://blog.golang.org/go15gc)
 
 ## Book
 
 [An Introduction to Programming in Go](http://www.golang-book.com/)
 [Go Bootcamp | Softcover.io](http://www.golangbootcamp.com/book)
+[Building Web Apps with Go - GitBook](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 
 ## Third party
 

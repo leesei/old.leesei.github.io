@@ -11,7 +11,7 @@ tags:
 [Stupid htaccess Tricks | Perishable Press](https://perishablepress.com/stupid-htaccess-tricks/)
 [Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article](http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244)
 
-### HTTPS
+## HTTPS
 
 ```sh
 # generate cert
@@ -42,8 +42,8 @@ Configure Apache:
        ServerAdmin                   # 電子郵件信箱，可任意填，但不能為空值
        DocumentRoot                  # 網站根目錄
        ServerName                    # 網站domain，需與前面的CommonName內容相同
-       ErrorLog logs/error_log
-       CustomLog logs/access_log common
+       ErrorLog "logs/error_log"
+       CustomLog "logs/access_log common"
        #SSLEngine on
        SSLCertificateFile            # server.crt的完整路徑
        SSLCertificateKeyFile         # server.key的完整路徑
@@ -53,3 +53,37 @@ Configure Apache:
 ```sh
 apache -D SSL
 ```
+
+## Enabling PHP debug
+
+In `php.ini`:
+
+```
+error_reporting = E_ALL | E_STRICT;
+```
+
+## `httpd.conf`
+
+### DocumentRoot
+
+```
+DocumentRoot "path"
+
+<Directory "path">
+    # setting for DocumentRoot
+</Directory>
+```
+
+### Hiding folder
+
+```
+<Directory ~ ".*\.sql*">
+    Order allow,deny
+    Deny from all
+    Satisfy all
+</Directory>
+```
+
+## WSGI
+
+[RunningDeepZoomServerOnApache · openslide/openslide Wiki](https://github.com/openslide/openslide/wiki/RunningDeepZoomServerOnApache)

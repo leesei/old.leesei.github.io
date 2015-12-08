@@ -12,6 +12,8 @@ tags:
 
 [Vim documentation: help](http://vimdoc.sourceforge.net/htmldoc/help.html)
 
+[Home - Neovim](https://neovim.io/)
+
 <!-- more -->
 
 [Vimcasts - Free screencasts about the text editor Vim](http://vimcasts.org/)
@@ -50,3 +52,11 @@ zc          - close folded text
 
 [Vim documentation: diff](http://vimdoc.sourceforge.net/htmldoc/diff.html)
 [chrisbra/vim-diff-enhanced](https://github.com/chrisbra/vim-diff-enhanced)
+
+## paste
+
+[editor - Turning off auto indent when pasting text into vim - Stack Overflow](http://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim)
+
+```
+:set nopaste
+```

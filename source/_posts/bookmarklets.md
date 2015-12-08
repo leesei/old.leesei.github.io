@@ -112,7 +112,6 @@ But why need this if we have DevTool?
 ```js Read Cookie
 javascript:if(document.cookie.length<1){alert('No cookie for this site.')}else{alert('Cookie for this site:\n'+document.cookie)}
 ```
-
 ## Pocket
 
 [Pocket: How to Save](https://getpocket.com/add)
@@ -125,6 +124,15 @@ Bookmarklet on website (click "install the bookmarklet").
 [Google Bookmarks - Chrome Help](https://support.google.com/chrome/answer/100215?hl=en)
 
 Bookmarklet on website.
+
+## BrowserPad
+
+HTML5 `<contenteditable>` is a makeshift cross platform Notepad replacement.
+A little styling makes it better.
+
+```js BrowserPad
+javascript:void(window.open("data:text/html, <html style='height: 100%'> <head> <title>BrowserPad</title><head> <body contenteditable style='background-color:#333; color: #ddd; font-family: courier; font-weight: bold'> </body> </html>", "_blank", "width=800,height=600"));
+```
 
 ## Transforming page
 
@@ -182,7 +190,40 @@ Gernerate a storyboard of thumbnails of the video.
 
 Bookmarklet on website.
 
-### URL shrotener
+### YouTube Popup
+
+[Open YouTube Videos in PopUp Window with a Bookmark · Amr Eldib](http://www.amreldib.com/blog/OpenYouTubeVideosInPopUpWindowWithBookmark/)
+[Embed videos and playlists - YouTube Help](https://support.google.com/youtube/answer/171780)
+
+```js
+javascript:(function() {
+    var url = window.location;
+    if(url.origin.indexOf("www.youtube.com") == -1)
+    {
+        alert("Sorry, this is not a YouTube page! URL: " + url.href);
+    }
+    else
+    {
+        var width  = "width=" + 600;
+        var height = "height=" + 480;
+        var left   = "left=" + (screen.width  - width)/2;
+        var top    = "top=" + (screen.height - height)/2;
+        
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == "v") {
+                var videoId = pair[1];
+            }
+        } 
+        
+        window.open("http://www.youtube.com/embed/" + videoId, document.title, "location=no, directories=no, menubar=no, toolbar=no, scrollbars=no, status=no, resizable=yes, " + width + ", " + height + ", " + left + ", " + top );
+    }
+}());
+```
+
+### URL shortener
 
 [is.gd - a URL shortener. Mmmm, tasty URLs!](http://is.gd/)
 Bookmarklet on [FAQ](http://is.gd/faq.php#bookmarklet).

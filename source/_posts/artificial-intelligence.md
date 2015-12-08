@@ -14,6 +14,10 @@ tags:
 [Machine Learning - Stanford University | Coursera](https://www.coursera.org/learn/machine-learning)
 [How do I learn machine learning? - Quora](http://www.quora.com/How-do-I-learn-machine-learning-1)
 
+[20 free books to get started with Artificial Intelligence](http://bigdata-madesimple.com/20-free-books-to-get-started-with-artificial-intelligence/)
+
+[A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+
 http://qr.ae/0PWdV
 
 [What is deep learning, and why should you care? - O'Reilly Radar](http://radar.oreilly.com/2014/07/what-is-deep-learning-and-why-should-you-care.html)
@@ -42,6 +46,8 @@ http://qr.ae/0PWdV
 
 [Introduction to Data Science](http://www.infoq.com/presentations/introduction-data-science)
 [Explore Your Data: The Fundamentals of Network Analysis](http://www.infoq.com/presentations/network-analysis)
+
+[Design vs. Data: Enemies or Friends?](http://www.infoq.com/presentations/design-data) how to evolve and extent a code base.
 
 ## Business
 

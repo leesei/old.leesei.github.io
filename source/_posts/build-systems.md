@@ -16,6 +16,8 @@ tags:
 
 [Make - GNU Project - Free Software Foundation](http://www.gnu.org/software/make/)
 [GNU make](http://www.gnu.org/software/make/manual/make.html)
+[The joy of make at jsconfeu](http://codeofrob.com/entries/the-joy-of-make-at-jsconfeu.html)
+[Building Web Applications With Make – Smashing Magazine](http://www.smashingmagazine.com/2015/10/building-web-applications-with-make/)
 
 ### non-recursive make
 
@@ -33,7 +35,6 @@ Examples:
 [unbornchikken-cmake-js · GitHub](https://github.com/unbornchikken/cmake-js)
 [Learning CMake: A beginner's guide](http://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/)
 
-
 ## Gradle
 
 [Gradle: Build Automation for the JVM, Android, and C/C++](https://gradle.org/)
@@ -44,6 +45,8 @@ Examples:
 [Getting Started - Native (C/C++) - Gradle](https://gradle.org/getting-started-native/)
 [Getting Started - Java / JVM - Gradle](https://gradle.org/getting-started-jvm/)
 [Getting Started - Android - Gradle](https://gradle.org/getting-started-android/)
+
+[Using Gradle Build Variants - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/using-gradle-build-variants--cms-25005)
 
 ### Android adoption
 

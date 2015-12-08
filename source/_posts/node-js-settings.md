@@ -32,7 +32,7 @@ git clone git://github.com/creationix/nvm.git ~/.nvm
 ```sh
 nvm ls-remote
 
-NODE_VERSION=v0.12.3
+NODE_VERSION=v0.12.7
 nvm install ${NODE_VERSION}
 nvm use ${NODE_VERSION}
 nvm alias default ${NODE_VERSION}
@@ -46,11 +46,29 @@ nvm alias default ${NODE_VERSION}
 NODE_PATH=$(npm root -g)
 ```
 
-## Using PPA
+## Using package manager
 
-> This is the recommended way to install Node.js for deamons.
+> This is the recommended way to install Node.js for daemons.
+
+[Installing Node.js via package manager · nodejs/node-v0.x-archive Wiki](https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager)
 
 [nodesource/distributions](https://github.com/nodesource/distributions)
+
+## Node REPL
+
+```
+$ node
+> console.log('Node is running');
+Node is running
+> .help
+.break Sometimes you get stuck, this gets you out
+.clear Alias for .break
+.exit  Exit the repl
+.help  Show repl options
+.load  Load JS from a file into the REPL session
+.save  Save all evaluated commands in this REPL session to a file
+> .exit
+```
 
 ## npm
 
@@ -60,6 +78,15 @@ but npm update fails to update itself (isaacs/npm#4046, isaacs/npm#4099)
 ```sh
 # install npm manually
 curl -L https://npmjs.org/install.sh | sh
+```
+
+### Project homepage
+
+Use `home` to visit the homepage of a project hosted on NPM.
+
+```sh
+npm home nomnom
+npm home lodash
 ```
 
 ### npmrc without sudo
@@ -74,13 +101,12 @@ prefix = ${HOME}/.npm-packages
 
 Then add this to `~/.profile` or `~/.bashrc`:
 ```
-export PATH=~/.npm-packages/bin:$PATH
+export PATH=${HOME}/.npm-packages/bin:$PATH
 ```
 
 ## jspm
 
 [jspm.io - Frictionless Browser Package Management](http://jspm.io/)
-
 
 ## Node modules
 
@@ -90,34 +116,41 @@ export PATH=~/.npm-packages/bin:$PATH
 - `PYTHON=$(which python2) npm intall`
 - `npm config set -g python $(which python2)`
 
+Global modules:
 ```sh
 # dev tools
-npm install -g bower browserify coffee nodemon
+npm install -g bower gitignore nesh nodemon pageres-cli # coffee
+npm install -g babel-cli babel-preset-es2015 babel-preset-react
 # gulp
-npm install -g gulp gulp-watch gulp-shell
+# npm install -g gulp gulp-watch gulp-shell
 # linters
-npm install -g csslint jshint jsonlint htmlhint
+# eslint-plugin-react
+npm install -g csslint eslint babel-eslint jsonlint htmlhint semistandard 
 # debug
 npm install -g bench-rest node-inspector
 # generators
-npm install -g cordova ionic
+# ionic yuidocjs
+npm install -g cordova documentation
+# data utils
+npm install -g json markdown-tools underscore-cli yamljs
+# servers
+npm install -g bedecked ecstatic fancy-server gfms hotel json-server
 # bin
-npm install -g bedecked chance ecstatic fancy-server gfms gfm2html hexo-cli markdown-tools rfc
+npm install -g gfm2html hexo-cli rfc 
 # log tools
-npm install -g bunyan logcat
-# workshops, http://nodeschool.io/#workshoppers
-npm install -g makemehapi how-to-npm browserify-adventure
+npm install -g bunyan logcat tap-spec tap-out faucet
 ```
 
+`~/.script/` modules:
 ```sh
 cd ~/.script
 # lib modules
-npm install -g chalk ip nomnom lodash request
+npm install chalk chance commander ip jsop nomnom lodash request
 # automation
-npm install -g cheerio nightmare phantasma
+npm install cheerio revenant
 
-npm uninstall -g chalk ip nomnom lodash cheerio nightmare phantasma
-npm uninstall -g gulp gulp-shell gulp-watch wiredep
+# with package.json
+npm install
 ```
 
 ## List globally installed modules
@@ -139,7 +172,7 @@ npm ls -g --depth 0 | grep -P '(?<= ).*(?=@)' -o | grep -v npm | tr '\n' ' ' && 
 ```
 
 ```
-bedecked bench-rest bower browserify bunyan chance coffee cordova csslint ecstatic fancy-server gfm2html gfms gitbook-cli hexo-cli htmlhint ionic jsdoc jshint json jsonlint logcat markdown-tools node-inspector nodemon rfc 
+babel-cli babel-eslint bedecked bench-rest bower browserify bunyan cordova csslint documentation ecstatic eslint-plugin-react fancy-server gfm2html gfms gitbook-cli gitignore hexo-cli hotel htmlhint jshint json jsonlint json-server logcat markdown-tools nesh node-inspector nodemon open-shortcut openslide-prop2json pageres-cli rfc semistandard tap-spec underscore-cli yamljs 
 ```
 
 ## npm fails
@@ -156,6 +189,5 @@ Hope that helps.
 
 ## Running Node alongside web servers
 
-https://github.com/sindresorhus/guides/blob/master/run-node-server-alongside-apache.md
+[guides/run-node-server-alongside-apache.md at master · sindresorhus/guides](https://github.com/sindresorhus/guides/blob/master/run-node-server-alongside-apache.md)
 
-https://gist.github.com/leesei/7112870#nodenginx

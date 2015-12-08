@@ -16,19 +16,21 @@ Most of the Linux tricks can be found there.
 
 ## Bootable USB key
 
-Creating a bootable USB key in Linux is [stright forward](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
+Creating a bootable USB key in Linux is [straight forward](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
 
 ```
 sudo dd if=[iso] of=[usb device] bs=4M
 ```
 
-Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) modify the partition lable of the ISO, that can cause problem during bootup.
+Also see `dd-usb-iso`.
 
-- UNetbootin
+Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) modify the partition label of the ISO, that can cause problem during bootup.
+
+- [UNetbootin][UNetbootin - Homepage and Downloads](http://unetbootin.github.io/)
 - Linux Live USB Creator
 - Universal USB Installer
 - Live USB Creator
-- [Rufus - Create bootable USB drives the easy way](https://rufus.akeo.ie/)
+- [Rufus](https://rufus.akeo.ie/)
 
 ## XBox360 gamepad
 

@@ -54,21 +54,16 @@ bootrec.exe /RebuildBcd
 
 ## Edit GRUB entries
 
-`grub-mkconfig` uses `/etc/default/grub` and `/etc/grub.d` to generate `grub.cfg`.  
-`update-grub` in Debian system is a wrapper to it.
+`grub-mkconfig` uses the template `/etc/default/grub` and rules in `/etc/grub.d` to generate `grub.cfg`. `update-grub` in Debian system is just a wrapper to `grub-mkconfig`.
 
 ```sh
-grub-mkconfig -o grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## Reference
-
-http://jdev.tw/blog/3776/grub-menu-rescue
-
-https://sites.google.com/site/easylinuxtipsproject/grub
-
-http://linuxnorth.wordpress.com/category/grub/
+## References
 
 https://wiki.archlinux.org/index.php/GRUB
-
 https://wiki.archlinux.org/index.php/GRUB_Legacy
+http://jdev.tw/blog/3776/grub-menu-rescue
+https://sites.google.com/site/easylinuxtipsproject/grub
+http://linuxnorth.wordpress.com/category/grub/

@@ -7,10 +7,30 @@ tags:
 toc: true
 ---
 
-[System Initialization (x86) - OSDev Wiki](http://wiki.osdev.org/System_Initialization_(x86))
+
+POST -> BIOS -> MBR of boot partition -> Bootloader -> 
+Kernel -> [`init`](https://wiki.archlinux.org/index.php/Init)/[`systemd`](https://wiki.archlinux.org/index.php/Systemd) -> 
+shell/display manager (login) -> `startx`/`xinit` -> DE
+
+1. CPU starts in real mode, executes instruction at 0xFFFF0
+→ top of BIOS ROM
+2. self test (POST), configuration of devices (e.g. PCI
+resource allocation), initialization of BIOS extensions
+(option ROMs)
+3. load first sector of boot device ("boot sector", MBR) to
+0x7C00
+a. MBR relocates itself, loads first sector of active partition to
+0x7C00
+4. boot sector loads "second stage" boot loader
+a. boot loader knows how to read kernel from file system
+b. usually loads kernel to an address > 1MB and switches to
+protected mode before jumping to kernel entry point
+
+[System Initialization (x86) - OSDev Wiki](http://wiki.osdev.org/System_Initialization_%28x86%29)
 [Linux startup process - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Linux_startup_process)
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Inside the Linux boot process](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
+[如何訂製 Linux X 視窗環境 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/19886616.html)
 
 [Some basics of MBR v/s GPT and BIOS v/s UEFI - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI)
 
@@ -26,9 +46,6 @@ toc: true
 [FGA: How operating systems determine the location of the system volume when bootstrapped](http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/determining-system-volume.html)
 
 ## BIOS
-
-POST -> BIOS -> MBR of boot partition -> Bootloader -> Kernel -> 
-[`init`](https://wiki.archlinux.org/index.php/Init)/[`systemd`](https://wiki.archlinux.org/index.php/Systemd) -> shell/display manager -> `startx`/`xinit` -> DE
 
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Boot with GRUB | Linux Journal](http://www.linuxjournal.com/article/4622)
@@ -90,6 +107,7 @@ Originates from System V, the oldest and most widely used init system.
 
 ### systemd
 
+[systemd - ArchWiki](https://wiki.archlinux.org/index.php/systemd)
 [systemd - Wikiwand](http://www.wikiwand.com/en/Systemd)
 [systemd - freedesktop.org](http://www.freedesktop.org/wiki/Software/systemd/)
 [TipsAndTricks](http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/)
@@ -98,6 +116,7 @@ System services are written in `.service` files, located in:
 ```
 /usr/lib/systemd/system
 
+# this is what `systemctl enable` does
 ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/graphical.target.wants/teamviewerd.service'
 ```
 
@@ -108,6 +127,15 @@ ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/graphic
 systemd-ui
 systemctl
 systemd-analyze
+journalctl
+```
+
+#### systemctl
+
+```sh
+# list services
+systemctl 
+systemctl enable/disable <service>
 ```
 
 ### from Lennart Poettering

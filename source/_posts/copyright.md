@@ -13,11 +13,15 @@ toc: true
 
 [Turning a Resource into an Open Educational Resource.webm - Wikimedia Commons](http://commons.wikimedia.org/w/index.php?title=File%3ATurning_a_Resource_into_an_Open_Educational_Resource.webm)
 
+## Open Source
+
 [Open Source Supporters](http://www.iloveopensource.io/)
 [nickdesaulniers/What-Open-Source-Means-To-Me](https://github.com/nickdesaulniers/What-Open-Source-Means-To-Me)
 [bevry/goopen](https://github.com/bevry/goopen)
 [Copyfree: Unfetter your ideas](http://copyfree.org/)
 [Some Thoughts on The Downside of Open Source Software - Tom McFarlin](https://tommcfarlin.com/downside-of-open-source/)
+[10 Reasons Open Source Is Good for Business | PCWorld](http://www.pcworld.com/article/209891/10_reasons_open_source_is_good_for_business.html)
+[Why Open Source? — Medium](https://medium.com/@rmangi/why-open-source-ddd1b729113a)
 
 ## Blogs
 

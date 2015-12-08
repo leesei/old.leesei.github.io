@@ -1,0 +1,32 @@
+title: Money and Banking
+categories:
+  - uncategorized
+toc: true
+date: 2015-10-09 10:39:16
+tags:
+---
+
+[Money supply - Wikiwand](http://www.wikiwand.com/en/Money_supply)
+[Monetary Policy Definition | Investopedia](http://www.investopedia.com/terms/m/monetarypolicy.asp)
+[M1 Definition | Investopedia](http://www.investopedia.com/terms/m/m1.asp)
+[M2 Definition | Investopedia](http://www.investopedia.com/terms/m/m2.asp)
+[M3 Definition | Investopedia](http://www.investopedia.com/terms/m/m3.asp)
+
+## Cryptocurrency
+
+[Bitcoin Foundation | Supporting Education, Adoption and Development in Bitcoin](http://bitcoinfoundation.org/)
+
+[Bitcoin: What is it? | Bitcoin | Khan Academy](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it)
+
+### Ars Technica
+
+[Bitcoin: inside the encrypted, peer-to-peer digital currency | Ars Technica](http://arstechnica.com/tech-policy/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency/)
+[Behold Arscoin, our own custom cryptocurrency! | Ars Technica](http://arstechnica.com/business/2014/03/behold-arscoin-our-own-custom-cryptocurrency/)
+[Digging for cryptocurrency: The newbie’s guide to mining altcoins | Ars Technica](http://arstechnica.com/business/2014/03/digging-for-cryptocurrency-the-newbies-guide-to-mining-altcoins/)
+[IRS: Bitcoin is property, like a stock or bond, and not a currency | Ars Technica](http://arstechnica.com/tech-policy/2014/03/irs-bitcoin-is-property-like-a-stock-or-bond-and-not-a-currency/)
+
+### EconTalk
+
+[Andresen on BitCoin and Virtual Currency | EconTalk | Library of Economics and Liberty](http://www.econtalk.org/archives/2011/04/andresen_on_bit.html)
+[Gavin Andresen on the Present and Future of Bitcoin | EconTalk | Library of Economics and Liberty](http://www.econtalk.org/archives/2014/05/gavin_andresen.html)
+[Nathaniel Popper on Bitcoin and Digital Gold | EconTalk | Library of Economics and Liberty](http://www.econtalk.org/archives/2015/06/nathaniel_poppe.html)

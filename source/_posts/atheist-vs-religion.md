@@ -26,3 +26,8 @@ toc: true
 [Talking past each other: Bill Nye vs. creationist Ken Ham on evolution | Ars Technica](http://arstechnica.com/science/2014/02/talking-past-each-other-bill-nye-vs-creationist-ken-ham-on-evolution/)
 [Ham on Nye: The high cost of “winning” an evolution/creation debate | Ars Technica](http://arstechnica.com/science/2014/02/ham-on-nye-the-high-cost-of-winning-an-evolutioncreation-debate/)
 [How did we get here? A brief history of the evolution vs. creationism debate | Ars Technica](http://arstechnica.com/staff/2014/02/how-did-we-get-here-a-brief-history-of-the-evolution-vs-creationism-debate/)
+
+## bibledex
+
+[Genesis - Bibledex - YouTube](https://www.youtube.com/watch?v=2mu8KQmbXfQ&list=PLB48057326131A04A)
+[The Pope - YouTube](https://www.youtube.com/playlist?list=PLS400fiGcFeodO-Qfgl-tc9wMZFh2lQnE)

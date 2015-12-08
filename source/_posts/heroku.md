@@ -29,12 +29,20 @@ $ su
 [Setting Up Apps Using the Platform API | Heroku Dev Center](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
 [app.json Schema | Heroku Dev Center](https://devcenter.heroku.com/articles/app-json-schema)
 
+## Pipeline
+
+[Heroku Labs: New Pipelines | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-labs-new-pipelines)
+
+Workflow that groups the codebase of an application in different stages of development ("review", "development", "staging", and "production") into a single dashboard.
+
 ## Docker
 
 [Local Development with Docker | Heroku Dev Center](https://devcenter.heroku.com/articles/introduction-local-development-with-docker)
 [Getting Started with Node.js and Heroku Local Docker Development | Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-node-js-and-heroku-local-docker-dev)
 
 ## commands
+
+[Command Line | Heroku Dev Center](https://devcenter.heroku.com/categories/command-line)
 
 - create a new heroku app
 
@@ -64,6 +72,10 @@ $ su
 
   `heroku run bash`  
   > All changes are lost when server is restarted
+
+- multiple buildpack
+
+[Heroku’s support for running multiple buildpacks against a single application now has first-class support in the Heroku Toolbelt. | Heroku Dev Center](https://devcenter.heroku.com/changelog-items/653)
 
 ## Plugins
 
@@ -103,7 +115,14 @@ heroku plugins:install https://github.com/heroku/heroku-repo.git
 heroku repo:rebuild
 ```
 
-## Help extract (20141211)
+## Heroku Help extract (2015-07-28)
+
+heroku-toolbelt/3.40.6 (x86_64-linux) ruby/2.0.0
+heroku-cli/4.20.11-62a7bb8 (amd64-linux) go1.4.2
+=== Installed Plugins
+heroku-git@2.4.0
+heroku-vim
+
 
 ### `heroku help`
 
@@ -116,7 +135,7 @@ Primary help topics, type "heroku help TOPIC" for more details:
   apps      #  manage apps (create, destroy)
   auth      #  authentication (login, logout)
   config    #  manage app config vars
-  domains   #  manage custom domains
+  domains   #  manage domains
   logs      #  display logs for an app
   ps        #  manage dynos (dynos, workers)
   releases  #  manage app releases
@@ -125,45 +144,66 @@ Primary help topics, type "heroku help TOPIC" for more details:
 
 Additional topics:
 
+  buildpacks   #  manage the buildpack for an app
   certs        #  manage ssl endpoints for an app
-  drains       #  display syslog drains for an app
+  drains       #  display drains for an app
   features     #  manage optional features
   fork         #  clone an existing app
   git          #  manage git for apps
   help         #  list commands and display help
   keys         #  manage authentication keys
   labs         #  manage optional features
+  local        #  run heroku app locally
   maintenance  #  manage maintenance mode for an app
   members      #  manage membership in organization accounts
   orgs         #  manage organization accounts
-  pg           #  manage heroku-postgresql databases
+  pg           # 
   pgbackups    #  manage backups of heroku postgresql databases
   plugins      #  manage plugins to the heroku gem
+  redis        #  list redis databases for an app
   regions      #  list available regions
   stack        #  manage the stack for an app
   status       #  check status of heroku platform
-  twofactor    # 
+  twofactor    #  manage two-factor authentication settings
   update       #  update the heroku client
   version      #  display version
   vim          # 
+
 ```
 
 ### `heroku help addons`
 
 ```
-Usage: heroku addons
+Usage: heroku addons [{--all,--app APP_NAME,--resource ADDON_NAME}]
 
- list installed addons
+ list installed add-ons
+
+ NOTE: --all is the default unless in an application repository directory, in
+ which case --all is inferred.
+
+ --all                  # list add-ons across all apps in account
+ --app APP_NAME         # list add-ons associated with a given app
+ --resource ADDON_NAME  # view details about add-on and all of its attachments
+
+Examples:
+
+ $ heroku addons --all
+ $ heroku addons --app acme-inc-website
+ $ heroku addons --resource @acme-inc-database
 
 Additional commands, type "heroku help COMMAND" for more details:
 
-  addons:add ADDON                   #  install an addon
-  addons:docs ADDON                  #  open an addon's documentation in your browser
-  addons:downgrade ADDON             #  downgrade an existing addon
-  addons:list                        #  list all available addons
-  addons:open ADDON                  #  open an addon's dashboard in your browser
-  addons:remove ADDON1 [ADDON2 ...]  #  uninstall one or more addons
-  addons:upgrade ADDON               #  upgrade an existing addon
+  addons:attach ADDON_NAME                        #  attach add-on resource to an app
+  addons:create SERVICE:PLAN                      #  create an add-on resource
+  addons:destroy ADDON_NAME [ADDON_NAME ...]      #  destroy add-on resources
+  addons:detach ATTACHMENT_NAME                   #  detach add-on resource from an app
+  addons:docs ADDON_NAME                          #  open an add-on's documentation in your browser
+  addons:downgrade ADDON_NAME ADDON_SERVICE:PLAN  #  downgrade an existing add-on resource to PLAN
+  addons:open ADDON_NAME                          #  open an add-on's dashboard in your browser
+  addons:plans SERVICE                            #  list all available plans for an add-on service
+  addons:services                                 #  list all available add-on services
+  addons:upgrade ADDON_NAME ADDON_SERVICE:PLAN    #  upgrade an existing add-on resource to PLAN
+
 ```
 
 ### `heroku help apps`
@@ -173,9 +213,9 @@ Usage: heroku apps
 
  list your apps
 
- -o, --org ORG  # the org to list the apps for
- -A, --all      # list all apps in the org. Not just joined apps
- -p, --personal # list apps in personal account when a default org is set
+ -o, --org ORG     # the org to list the apps for
+ -A, --all         # list all apps in the org. Not just joined apps
+ -p, --personal    # list apps in personal account when a default org is set
 
 Example:
 
@@ -198,6 +238,7 @@ Additional commands, type "heroku help COMMAND" for more details:
   apps:open --app APP            #  open the app in a web browser
   apps:rename NEWNAME --app APP  #  rename the app
   apps:unlock --app APP          #  unlock an organization app so that any org member can join it
+
 ```
 
 ### `heroku help config`
@@ -224,6 +265,7 @@ Additional commands, type "heroku help COMMAND" for more details:
   config:get KEY                            #  display a config value for an app
   config:set KEY1=VALUE1 [KEY2=VALUE2 ...]  #  set one or more config vars
   config:unset KEY1 [KEY2 ...]              #  unset one or more config vars
+
 ```
 
 ### `heroku help logs`
@@ -237,12 +279,35 @@ Usage: heroku logs
  -p, --ps PS          # only display logs from the given process
  -s, --source SOURCE  # only display logs from the given source
  -t, --tail           # continually stream logs
+ --force-colors       # Force use of ANSI color characters (even on non-tty outputs)
 
 Example:
 
  $ heroku logs
  2012-01-01T12:00:00+00:00 heroku[api]: Config add EXAMPLE by email@example.com
  2012-01-01T12:00:01+00:00 heroku[api]: Release v1 created by email@example.com
+
+```
+
+### `heroku help buildpacks`
+
+```
+Usage: heroku buildpacks
+
+ display the buildpack_url(s) for an app
+
+Examples:
+
+ $ heroku buildpacks
+ https://github.com/heroku/heroku-buildpack-ruby
+
+Additional commands, type "heroku help COMMAND" for more details:
+
+  buildpacks:add BUILDPACK_URL       #  add new app buildpack, inserting into list of buildpacks if neccessary
+  buildpacks:clear                   #  clear all buildpacks set on the app
+  buildpacks:remove [BUILDPACK_URL]  #  remove a buildpack set on the app
+  buildpacks:set BUILDPACK_URL       #  set new app buildpack, overwriting into list of buildpacks if neccessary
+
 ```
 
 ### `heroku help plugins`
@@ -256,13 +321,15 @@ Example:
 
  $ heroku plugins
  === Installed Plugins
- heroku-accounts
+ heroku-production-check@0.2.0
 
 Additional commands, type "heroku help COMMAND" for more details:
 
   plugins:install URL       #  install a plugin
+  plugins:link [PATH]       #  This is useful when developing plugins locally.
   plugins:uninstall PLUGIN  #  uninstall a plugin
   plugins:update [PLUGIN]   #  updates all plugins or a single plugin by name
+
 ```
 
 ## References

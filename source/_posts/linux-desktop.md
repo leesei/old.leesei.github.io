@@ -29,6 +29,8 @@ To distinguish GNU and Linux, and why it is not "correct" to say Linux system, r
 [GNU-Binutils | Linux.org](http://www.linux.org/threads/gnu-binutils.6544/)
 [GNU Toolchain Explained | Linux.org](http://www.linux.org/threads/gnu-toolchain-explained.6469/)
 
+[Stephen Bourne: Early days of Unix and design of sh - YouTube](https://www.youtube.com/watch?v=2kEJoWfobpA)
+
 ## Distros
 
 [Linux distribution - Wikiwand](http://www.wikiwand.com/en/Linux_distribution)
@@ -37,6 +39,42 @@ To distinguish GNU and Linux, and why it is not "correct" to say Linux system, r
 Well, Android is also a [Linux distro](http://www.linux.org/threads/android-and-its-derivatives.6145/) with its own forks.
 
 [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/)
+
+### Check distro
+
+```sh
+cat /etc/issue
+cat /etc/lsb-release
+```
+
+[Linux Command: Show Linux Version](http://www.cyberciti.biz/faq/command-to-show-linux-version/)
+[Commands to check the Linux Version, Release name & Kernel version. | Symantec Connect](http://www.symantec.com/connect/articles/commands-check-linux-version-release-name-kernel-version)
+
+### Check system install time
+
+[How do I find how long ago a Linux system was installed? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed)
+
+We need several tools:  
+- `df` to look up the device path of `/`  
+- `tune2fs` to query the file system's info  
+- GNU tools for command line magic ;-)
+
+**Vanilla commands**
+
+    $ df /
+    Filesystem      Size  Used Avail Use% Mounted on
+    /dev/sdb3       184G   18G  164G  10% /
+    $ sudo tune2fs -l /dev/sdb3
+    ...
+    <fs info>
+    Filesystem created:       Tue Aug 25 18:15:09 2015
+    <fs info>
+    ...
+
+**Apply command line magic**
+
+    $ sudo tune2fs -l $(df / | sed -n '2 p' | cut -d' ' -f1) | grep 'Filesystem created:'
+    Filesystem created:       Tue Aug 25 18:15:09 2015
 
 ## Resources
 
@@ -58,6 +96,7 @@ Well, Android is also a [Linux distro](http://www.linux.org/threads/android-and-
 [How-to: Picking a desktop environment in Linux](http://www.engadget.com/2012/11/30/how-to-pick-a-desktop-environment-in-linux/)
 
 [Desktop environment - ArchWiki](https://wiki.archlinux.org/index.php/Desktop_environment)
+[Display manager - ArchWiki](https://wiki.archlinux.org/index.php/Display_manager)
 [Comparison of X Window System desktop environments - Wikiwand](http://www.wikiwand.com/en/Comparison_of_X_Window_System_desktop_environments)
 [X Window System - Wikiwand](http://www.wikiwand.com/en/X_Window_System)
 [AIGLX - Wikiwand](http://www.wikiwand.com/en/AIGLX)
@@ -73,16 +112,6 @@ Well, Android is also a [Linux distro](http://www.linux.org/threads/android-and-
 Upon login the Display Manager allows a user can choose the session (DE) to login to.
 The available sessions are in `/usr/share/xsessions/`.
 
-## Check Distro
-
-```sh
-cat /etc/issue
-cat /etc/lsb-release
-```
-
-[Linux Command: Show Linux Version](http://www.cyberciti.biz/faq/command-to-show-linux-version/)
-[Commands to check the Linux Version, Release name & Kernel version. | Symantec Connect](http://www.symantec.com/connect/articles/commands-check-linux-version-release-name-kernel-version)
-
 ## Boot
 
 > TODO: link to boot.md
@@ -94,6 +123,7 @@ cat /etc/lsb-release
 ## Kernel
 
 [Linux Inside](http://0xax.gitbooks.io/linux-insides/content/)
+[Linux Kernel in a Nutshell](http://www.kroah.com/lkn/)
 
 ## Freezes
 
@@ -188,6 +218,19 @@ http://standards.freedesktop.org/)
 ~/.local/share/applications
 ```
 
+#### Autotools
+
+[Autotools Mythbuster](https://autotools.io/index.html)
+
+#### `pkg-config`
+
+[pkg-config](http://www.freedesktop.org/wiki/Software/pkg-config/)
+[Guide to pkg-config](http://people.freedesktop.org/~dbn/pkg-config-guide.html)
+[pkg config - PKG_CONFIG_PATH environment variable - Ask Ubuntu](http://askubuntu.com/questions/210210/pkg-config-path-environment-variable)
+```
+pkg-config --variable pc_path pkg-config
+```
+
 ### Autostart
 
 [Desktop Application Autostart Specification](http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html)
@@ -230,16 +273,51 @@ inode/directory=sublime_text.desktop
 [Icon Theme Specification](http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html)
 [Icon Naming Specification](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html)
 
+#### GNOME
+
+[Icon Naming Specification](https://developer.gnome.org/icon-naming-spec/)
+[GNOME Desktop icons - Wikimedia Commons](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
+
 ```
 /usr/share/themes
 /usr/share/icons
 ```
+
+## dconf
+
+This is the "registry" for GNOME DE. It replaces the XML based gconf with binary database optimized for faster loop ups.
+
+gconf => XML database
+dconf = GSetting API => binary database
+
+[Projects/dconf - GNOME Wiki!](https://wiki.gnome.org/action/show/Projects/dconf)
+[dconf: dconf Reference Manual](https://developer.gnome.org/dconf/unstable/dconf-overview.html)
+[dconf - Wikiwand](http://www.wikiwand.com/en/Dconf)
+
+```sh
+gsettings list-schemas
+gsettings list-keys org.cinnamon.desktop.screensaver
+gsettings set org.cinnamon.desktop.lockdown disable-lock-screen true
+gsettings set org.cinnamon.desktop.lockdown disable-lock-screen false
+
+dconf dump /org/cinnamon/desktop/screensaver/
+dconf write /org/cinnamon/desktop/screensaver/lock-enabled false
+```
+
+[gsettings - What is dconf, what is its function, and how do I use it? - Ask Ubuntu](http://askubuntu.com/questions/22313/what-is-dconf-what-is-its-function-and-how-do-i-use-it)
+[What are the differences between gconf and dconf? - Ask Ubuntu](http://askubuntu.com/questions/34490/what-are-the-differences-between-gconf-and-dconf)
+[Gconf, Dconf, Gsettings and the relationship between them - Ask Ubuntu](http://askubuntu.com/questions/249887/gconf-dconf-gsettings-and-the-relationship-between-them)
 
 ## Font
 
 [Fonts - ArchWiki](https://wiki.archlinux.org/index.php/fonts)
 [Fixing Missing Characters and Font Issues | Linux.org](http://www.linux.org/threads/fixing-missing-characters-and-font-issues.7644/)
 [GNU Unifont Glyphs](http://unifoundry.com/unifont.html)
+
+[Hanazono fonts](http://fonts.jp/hanazono/)
+[BabelStone Fonts : BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html)
+
+[Debian 8 (jessie) 安裝筆記 中文環境篇 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/31556973.html)
 
 [I stared into the fontconfig, and the fontconfig stared back at me / fuzzy notepad](http://eev.ee/blog/2015/05/20/i-stared-into-the-fontconfig-and-the-fontconfig-stared-back-at-me/)
 
@@ -305,11 +383,27 @@ My `~/.xinitrc`:
 exec cinnamon-session
 ```
 
-## Gjs
+
+## GNOME
+
+[Projects-GObjectIntrospection - GNOME Wiki!](https://wiki.gnome.org/Projects/GObjectIntrospection)
+[Projects-Vala - GNOME Wiki!](https://wiki.gnome.org/Projects/Vala/)
+
+[Develop for the GNOME Platform](https://developer.gnome.org/platform-overview/stable/)
+[Tutorials, code samples and platform demos in Python](https://developer.gnome.org/gnome-devel-demos/unstable/py.html.en)
+
+[woGue](http://worldofgnome.org/)
+[Making Fancy GNOME Apps with NodeJS, MongoDB and WebKit! | woGue](http://worldofgnome.org/making-fancy-gnome-apps-with-nodejs-mongodb-and-webkit/)
+[Scaffolding a modern GNOME 3.10 Gtk Gjs-Python App! | woGue](http://worldofgnome.org/scaffolding-a-modern-gnome-3-10-gtkgjs-app/)
+
+### Gjs
 
 [Projects/Gjs - GNOME Wiki!](https://wiki.gnome.org/action/show/Projects/Gjs?action=show&redirect=Gjs)
-[石頭閒語:JavaScript分類文章簡文 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/cat_242544.html)
+[Tutorials, code samples and platform demos in JavaScript](https://developer.gnome.org/gnome-devel-demos/unstable/js.html.en)
 
+[HowTo run commands from Gjs | woGue](http://worldofgnome.org/howto-run-commands-from-gjs/)
+
+[石頭閒語:JavaScript分類文章簡文 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/cat_242544.html)
 [JavaScript 與 Desktop - WebKit - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14282187.html)
 [JavaScript 與 Desktop - Desktop and WebKit - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14456843.html)
 [JavaScript 與 Desktop - DBus - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/14229429.html)
@@ -324,25 +418,3 @@ exec cinnamon-session
 
 [WineHQ - Run Windows applications on Linux, BSD, Solaris and Mac OS X](https://www.winehq.org/)
 [轉子男: [Ubuntu] 使用 Wine 安裝 Office 2010 於 Ubuntu 12.04](http://open-rotorman.blogspot.com/2012/11/ubuntu-wine-office-2010-ubuntu-1204.html)
-
-## update kernel
-
-```sh
-sudo apt-cache search linux-image-*
-sudo apt-cache search linux-image-X.X.XX-generic
-
-sudo apt-get install linux-image-X.X.XX-generic
-# headers is optional
-sudo apt-get install linux-headers-X.X.XX-generic
-sudo update-initramfs -u -k all
-# OR
-sudo update-initramfs -u -k `uname -r`
-sudo update-grub 
-sudo reboot
-
-# remove old kernel
-# list kernels
-dpkg --get-selections | grep linux-image
-sudo apt-get purge linux-image-X.X.XX-XX-generic
-```
-

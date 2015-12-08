@@ -16,6 +16,19 @@ tags:
 [WordPress Development Stack Exchange](http://wordpress.stackexchange.com/)
 [Instant WordPress](http://www.instantwp.com/)  
 [Command line interface for WordPress | WP-CLI](http://wp-cli.org/)  
+[Toolbox of the Smart WordPress Developer: WP-CLI - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/toolbox-of-the-smart-wordpress-developer-wp-cli--cms-24098)
+
+### WP API
+
+[Category:API « WordPress Codex](https://codex.wordpress.org/Category:API)
+
+[Plugin API « WordPress Codex](https://codex.wordpress.org/Plugin_API)
+[Widgets API « WordPress Codex](https://codex.wordpress.org/Widgets_API)
+[Shortcode API « WordPress Codex](https://codex.wordpress.org/Shortcode_API)
+[Settings API « WordPress Codex](https://codex.wordpress.org/Settings_API)
+[Options API « WordPress Codex](https://codex.wordpress.org/Options_API)
+[Dashboard Widgets API « WordPress Codex](https://codex.wordpress.org/Dashboard_Widgets_API)
+[Rewrite API « WordPress Codex](https://codex.wordpress.org/Rewrite_API)
 
 ### Sites
 
@@ -43,9 +56,35 @@ tags:
 
 [WordPress Tutorials - WP Engineer](http://wpengineer.com/category/wordpress-tutorials/)
 
+## `wp-config.php`
+
+[Editing wp-config.php « WordPress Codex](https://codex.wordpress.org/Editing_wp-config.php)
+
+```php
+# show error on screen
+define('WP_DEBUG', true)
+
+# disable revision
+define('WP_POST_REVISIONS', false)
+
+# for debugging theme
+define('SAVEQURIES', true)
+# in theme
+if (current_user_can('manage_options')) {
+    global $wpdb;
+    print_r($wpdb->quries);
+}
+
+# force SSL
+define('FORCE_SSL_LOGIN', true)
+define('FORCE_SSL_ADMIN', true)
+```
+
 ## Security
 
 [Security Measures to keep WordPress powered Websites more Secure | WordPress Arena](http://wparena.com/how-to/security-measures-to-keep-wordpress-powered-websites-more-secure/)
+
+[22 Must Follow WordPress Security Tips - Bloggersignal](https://www.bloggersignal.com/wordpress-security-tips/)
 
 [Important Security Fix for WordPress | Perishable Press](https://perishablepress.com/important-security-fix-for-wordpress/)
 
@@ -60,9 +99,26 @@ tags:
 [Options for SSL in WordPress - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/options-for-ssl-in-wordpress--cms-21995)  
 [SSL and Cookies in WordPress 2.6 | Ryan Boren](http://ryan.boren.me/2008/07/14/ssl-and-cookies-in-wordpress-26/)  
 
+### Restricted Login Access
+
 [Secure WordPress with IP restricted access](https://www.sitestillup.com/how-to-lock-down-wordpress-admin-section-by-ip.html)  
 [How to Restrict IP Addresses to Login on WordPress Dashboard](http://www.wpoptimus.com/912/ban-ip-addresses-login-wordpress-dashboard/)  
 [How to Limit Access by IP to Your wp-login.php file in WordPress](http://www.wpbeginner.com/wp-tutorials/how-to-limit-access-by-ip-to-your-wp-login-php-file-in-wordpress/)  
+
+In `.htaccess` file of the WordPress directory:
+```
+# Limit access by IP address
+<Files wp-login.php>
+        order deny,allow
+        Deny from all
+ 
+# whitelist IP address one
+allow from xx.xxx.xx.xxx
+ 
+# whitelist IP Address two
+allow from xx.xxx.xx.xxx
+</Files>
+```
 
 ## Insert Sample Data
 
@@ -119,6 +175,7 @@ if(!term_exists('sample-category')) {
 
 [Aesop Story Engine](http://aesopstoryengine.com/)  
 [Helpful Wordpress Plugins | Linux.org](http://www.linux.org/threads/helpful-wordpress-plugins.7765/)  
+[Top 20 Useful WordPress ShortCode Plugins | Web Development Tutorials and Resources @ ScratchingInfo](http://www.scratchinginfo.net/useful-wordpress-shortcode-plugins/)  
 
 ## Themes
 
@@ -212,7 +269,7 @@ Different sidebar depending on page, usually in `sidebar.php`:
 ?>
 ```
 
-### Adding Nav Meni
+### Adding Nav Menu
 
 [Function Reference/register nav menus « WordPress Codex](https://codex.wordpress.org/Function_Reference/register_nav_menus)
 [Function Reference/wp nav menu « WordPress Codex](https://codex.wordpress.org/Function_Reference/wp_nav_menu)
@@ -246,11 +303,41 @@ Customizer: Theme as documentation
 
 ### Framework
 
+[Thematic, A WordPress Theme Framework | ThemeShaper](http://themeshaper.com/thematic/)  
 [Hybrid Core WordPress theme framework](http://themehybrid.com/hybrid-core)  
 [Whiteboard Framework for WordPress](http://whiteboardframework.com/)  
+[Roots | Modern WordPress Development](https://roots.io/)
+[Wonderflux - WordPress free, open source theme framework](http://wonderflux.com/)
+
 [How Theme Frameworks Actually Work - Tuts+ Code Tutorials](http://code.tutsplus.com/series/how-theme-frameworks-actually-work--cms-713)  
 
-### Query
+[Theme Hybrid: A WordPress theme club](http://themehybrid.com/)  
+[Bones - The HTML5 Wordpress Starter Theme](http://themble.com/bones/)  
+[Responsive WordPress Theme WP-Forge](http://themeawesome.com/responsive-wordpress-theme/)
+
+### ThemeShaper
+
+[The ThemeShaper WordPress Theme Tutorial: 2nd Edition | ThemeShaper](http://themeshaper.com/2012/10/22/the-themeshaper-wordpress-theme-tutorial-2nd-edition/)  
+[What Do You Really Need in a WordPress Starter Theme? | ThemeShaper](http://themeshaper.com/2012/01/17/what-do-you-really-need-in-a-wordpress-starter-theme/)  
+[Underscores.me — The Best Way To Get Started With The _s Theme | ThemeShaper](http://themeshaper.com/2012/08/15/underscores-me-the-best-way-to-get-started-with-the-_s-theme/)  
+[Thematic, A WordPress Theme Framework | ThemeShaper](http://themeshaper.com/thematic/)  
+[Automattic/_s](https://github.com/automattic/_s)  
+
+### The Loop
+
+The Loop selects content from MySQL database (typically with query based on URL). It is the link between the theme and the contents in database. WordPress is using the Loop anywhere content is displayed.
+
+Simplest Loop:
+
+```php
+// these functions uses global variable `WP_Query $wp_query`
+if ( have_posts() ) :
+    while ( have_posts() ) :
+        the_post();
+        // content is available
+    endwhile;
+endif;
+```
 
 [Writing Clean, Maintainable Custom WordPress Queries | Tom McFarlin](https://tommcfarlin.com/custom-wordpress-queries/)  
 [How To Setup Custom Queries For WP_Query Pagination | Tom McFarlin](https://tommcfarlin.com/wp_query-pagination/)  
@@ -266,17 +353,10 @@ Customizer: Theme as documentation
 [Sanitization with the WordPress Settings API | Tom McFarlin](https://tommcfarlin.com/tag/sanitization-with-the-wordpress-settings-api/)
 [The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)
 
-### ThemeShaper
-
-[The ThemeShaper WordPress Theme Tutorial: 2nd Edition | ThemeShaper](http://themeshaper.com/2012/10/22/the-themeshaper-wordpress-theme-tutorial-2nd-edition/)  
-[What Do You Really Need in a WordPress Starter Theme? | ThemeShaper](http://themeshaper.com/2012/01/17/what-do-you-really-need-in-a-wordpress-starter-theme/)  
-[Underscores.me — The Best Way To Get Started With The _s Theme | ThemeShaper](http://themeshaper.com/2012/08/15/underscores-me-the-best-way-to-get-started-with-the-_s-theme/)  
-[Automattic/_s](https://github.com/automattic/_s)  
-
 ### Child Themes
 
 You can easily inherit from an existing theme and override the functions.  
-But the theme may not be child friendly (e.g.: using `get_template_directory()` instead of `get_stylesheet_directory()`, not using templates). And my experience is that overriding files may cause the child theme to breakdown altogether.  
+But the theme may not be child friendly (e.g.: using `get_template_directory()` instead of `get_stylesheet_directory()`, not using `get_template_part()`). And my experience is that overriding files may cause the child theme to breakdown altogether.  
 I now prefer make a copy of the desired theme, change the code directly and track the modification via git.  
 
 [Child Themes « WordPress Codex](https://codex.wordpress.org/Child_Themes)  
@@ -296,6 +376,7 @@ I now prefer make a copy of the desired theme, change the code directly and trac
 ## Tuts+
 
 [WordPress - Tuts+ Code Category](http://code.tutsplus.com/categories/wordpress)  
+[Tools of the Smart WordPress Developer - Tuts+ Code Tutorials](http://code.tutsplus.com/series/tools-of-the-smart-wordpress-developer--cms-838)
 
 [The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624)  
 [Making the Perfect WordPress Theme - Tuts+ Code Tutorials](http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987)  
@@ -308,3 +389,5 @@ I now prefer make a copy of the desired theme, change the code directly and trac
 [Trim the Bloat: Keeping WordPress Healthy - Tuts+ Code Tutorials](http://code.tutsplus.com/series/trim-the-bloat-keeping-wordpress-healthy--cms-758)  
 [Fifty Actions of WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/fifty-actions-of-wordpress--cms-708)
 [Understanding and Working with Data in WordPress - Tuts+ Code Tutorials](http://code.tutsplus.com/series/understanding-and-working-with-data-in-wordpress--cms-670)  
+
+[Create a Mobile Application Using WordPress, Ionic, and AngularJS - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/create-a-mobile-application-using-wordpress-ionic-and-angularjs--cms-24170)

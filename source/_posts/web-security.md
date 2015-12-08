@@ -7,7 +7,7 @@ tags:
 toc: true
 ---
 
-[Category:Web security exploits - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Category:Web_security_exploits)
+[Category:Web security exploits - Wikiwand](http://www.wikiwand.com/en/Category:Web_security_exploits)
 [The Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page)
 [The ^lift Security Blog](https://blog.liftsecurity.io/)
 
@@ -21,14 +21,20 @@ toc: true
 
 [Web Security @ SFHTML5 - YouTube](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIkEU3Z_xdVo9EADurbdxKa)
 
+[Feisty Duck: Fine computer security and open source books](https://www.feistyduck.com/)
+
+[Node Security Project](https://nodesecurity.io/)
+
 > see also `ssl-tls.md`
 
 ## XSS
 
-[Cross-site scripting - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Cross-site_scripting)
-[SQL injection - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/SQL_injection)
+[Cross-site scripting - Wikiwand](http://www.wikiwand.com/en/Cross-site_scripting)
+[SQL injection - Wikiwand](http://www.wikiwand.com/en/SQL_injection)
 
-These are vulnerbilities that **exploits trust on user inputs**, the app renders or executes them without sanity check and escaping.
+[Excess XSS: A comprehensive tutorial on cross-site scripting](http://excess-xss.com/)
+
+These are vulnerabilities that **exploits trust on user inputs**, the app renders or executes them without sanity check and escaping.
 
 ## XSRF
 
@@ -39,6 +45,10 @@ These are vulnerbilities that **exploits trust on user's browser**. Malicious sc
 The counter-measure is to create unique tokens for each form or each login.
 
 ## CORS
+
+[Using CORS - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/cors/)
+[enable cross-origin resource sharing](http://enable-cors.org/index.html)
+[Getting CORS Working](https://remysharp.com/2011/04/21/getting-cors-working)
 
 ## Buffer Overflow
 
