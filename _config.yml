@@ -9,6 +9,10 @@ description: "Technical blog for the future me and other beings."
 subtitle: "εмβяαςε мλ sμρεя gεεκ ροωεя."
 author: leesei
 email: leesei@gmail.com
+# follow IETF format codes given here
+# http://www.w3.org/International/articles/language-tags
+# language: en
+# freemind requires this to be `default` ><, fix later
 language: default
 timezone: Asia/Hong_Kong
 
@@ -27,7 +31,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: code
 i18n_dir: :lang
-skip_render: README.md
+skip_render:
+  - '**/*.js'
+  - README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -44,6 +50,17 @@ highlight:
   line_number: false
   auto_detect: false
   tab_replace:
+
+# Markdown
+## https://github.com/chjj/marked
+markdown:
+  gfm: false
+  tables: true
+  breaks: false
+  pedantic: false
+  sanitize: false
+  smartLists: true
+  smartypants: false
 
 # Category & Tag
 default_category: uncategorized
@@ -109,6 +126,15 @@ feed:
 # hexo-generator-sitemap
 sitemap:
   path: sitemap.xml
+
+# hexo-generator-json-content
+jsonContent:
+  pages:
+    raw: false
+    content: false
+  posts:
+    raw: false
+    content: false
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
