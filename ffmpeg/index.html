@@ -109,20 +109,20 @@
 <p><a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html" target="_blank" rel="external">The FFmpeg/Libav situation</a><br><a href="https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav" target="_blank" rel="external">FFmpeg versus Libav · mpv-player/mpv Wiki</a></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ffmpeg [global options] [[infile options][-i infile]]... &#123;[outfile options] outfile&#125;...</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<h2 id="FFMpeg_on_Debian">FFMpeg on Debian</h2><blockquote>
+<h2 id="FFMpeg_on_Debian"><a href="#FFMpeg_on_Debian" class="headerlink" title="FFMpeg on Debian"></a>FFMpeg on Debian</h2><blockquote>
 <p><a href="http://stackoverflow.com/a/9477756/665507" target="_blank" rel="external">http://stackoverflow.com/a/9477756/665507</a></p>
 </blockquote>
 <p>If you wanted real FFMpeg on Ubuntu/Debian:</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:jon-severinsson/ffmpeg</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ffmpeg</span><br></pre></td></tr></table></figure>
-<h2 id="trim_clip">trim clip</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># frame accurate, may not be keyframe</span></span><br><span class="line">avconv -i &lt;infile&gt; -ss &lt;second/hh:mm:ss[.xxx]&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br><span class="line"><span class="comment"># search by keyframe, faster</span></span><br><span class="line">avconv -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="trim_clip"><a href="#trim_clip" class="headerlink" title="trim clip"></a>trim clip</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># frame accurate, may not be keyframe</span></span><br><span class="line">avconv -i &lt;infile&gt; -ss &lt;second/hh:mm:ss[.xxx]&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br><span class="line"><span class="comment"># search by keyframe, faster</span></span><br><span class="line">avconv -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br></pre></td></tr></table></figure>
 <p><code>t</code> is duration counts from <code>ss</code></p>
 <blockquote>
 <p>TODO: add tool to do diff of <code>hh:mm:ss[.xxx]</code> format time</p>
 </blockquote>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># keyframe seek, time is reset, `-to` should be the duration</span></span><br><span class="line">ffmpeg -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -to &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br></pre></td></tr></table></figure>
 <p>use <code>-c:a</code> and <code>-c:v</code> to specify audio and video codecs</p>
-<h2 id="color_format_conversion">color format conversion</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ffmpeg -pix_fmt yuv420p <span class="operator">-s</span> <span class="number">352</span>x288 -i in.yuv -pix_fmt nv12 out.yuv</span><br></pre></td></tr></table></figure>
-<h2 id="Reference">Reference</h2><p><a href="http://ffmpeg.org/documentation.html" target="_blank" rel="external">Documentation</a><br><a href="http://ffmpeg.org/ffmpeg.html" target="_blank" rel="external">ffmpeg Documentation</a></p>
+<h2 id="color_format_conversion"><a href="#color_format_conversion" class="headerlink" title="color format conversion"></a>color format conversion</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ffmpeg -pix_fmt yuv420p <span class="operator">-s</span> <span class="number">352</span>x288 -i in.yuv -pix_fmt nv12 out.yuv</span><br></pre></td></tr></table></figure>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://ffmpeg.org/documentation.html" target="_blank" rel="external">Documentation</a><br><a href="http://ffmpeg.org/ffmpeg.html" target="_blank" rel="external">ffmpeg Documentation</a></p>
 <p><a href="http://trac.ffmpeg.org/" target="_blank" rel="external">FFmpeg</a><br><a href="https://wiki.archlinux.org/index.php/FFmpeg" target="_blank" rel="external">FFmpeg - ArchWiki</a><br><a href="https://trac.ffmpeg.org/wiki/Seeking" target="_blank" rel="external">Seeking – FFmpeg</a></p>
 <p><a href="http://howto-pages.org/ffmpeg/" target="_blank" rel="external">ffmpeg audio/video manipulation</a><br><a href="http://www.catswhocode.com/blog/19-ffmpeg-commands-for-all-needs" target="_blank" rel="external">19 ffmpeg commands for all needs | CatsWhoCode.com</a></p>
 <p><a href="http://www.renevolution.com/understanding-thegeneral-usage-of-ffmpeg-part-one/" target="_blank" rel="external">Understanding FFmpeg - Part I: General usage | reneVolution</a><br><a href="http://www.renevolution.com/understanding-ffmpeg-part-ii-scaling-video/" target="_blank" rel="external">Understanding FFmpeg - Part II: Scaling video | reneVolution</a><br><a href="http://www.renevolution.com/understanding-ffmpeg-part-iii-cropping/" target="_blank" rel="external">Understanding FFmpeg - Part III: Cropping | reneVolution</a></p>
@@ -184,7 +184,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>28</span></a></li>
+    <li><a href="/categories/app/">app<span>34</span></a></li>
   </li>
 
     </ul>

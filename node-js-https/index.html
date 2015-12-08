@@ -105,8 +105,8 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="cert_generation">cert generation</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">openssl genrsa -out privatekey.pem <span class="number">1024</span></span><br><span class="line">openssl req -new -key privatekey.pem -x509 -days <span class="number">7300</span> -out certificate.pem</span><br></pre></td></tr></table></figure>
-<h2 id="server">server</h2><figure class="highlight javascript"><figcaption><span>http-server.js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'Hello World'</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</span><br><span class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> options = &#123;</span><br><span class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</span><br><span class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (port) &#123;</span><br><span class="line">    http.createServer(app).listen(port);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (ports) &#123;</span><br><span class="line">    https.createServer(options, app).listen(ports);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+	    <p>Generate key with <code>openssl</code> first.</p>
+<h2 id="server"><a href="#server" class="headerlink" title="server"></a>server</h2><figure class="highlight javascript"><figcaption><span>http-server.js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'Hello World'</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</span><br><span class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> options = &#123;</span><br><span class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</span><br><span class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (port) &#123;</span><br><span class="line">    http.createServer(app).listen(port);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (ports) &#123;</span><br><span class="line">    https.createServer(options, app).listen(ports);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -164,7 +164,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>27</span></a></li>
   </li>
 
     </ul>
@@ -177,7 +177,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/node-js/">node-js<span>5</span></a></li> <li><a href="/tags/openssl/">openssl<span>1</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
+  <li><a href="/tags/node-js/">node-js<span>5</span></a></li> <li><a href="/tags/openssl/">openssl<span>2</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
     </ul>
 	</div>
 		
@@ -187,7 +187,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#cert_generation"><span class="toc-article-text">cert generation</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#server"><span class="toc-article-text">server</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#server"><span class="toc-article-text">server</span></a></li></ol>
 		</div>
 	
 	</div>

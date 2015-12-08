@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Flux Alternatives | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Flux Alternatives"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Flux Alternatives</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Sometimes React.js alone may serve your need, you don’t have to prematurely flux it.<br><a href="https://medium.com/swlh/the-case-for-flux-379b7d1982c6" target="_blank" rel="external">The Case for Flux — Startups, Wanderlust, and Life Hacking — Medium</a></p>
+<p>And there are other strategies besides Flux for architecting your application.<br><a href="http://andrewhfarmer.com/component-communication/" target="_blank" rel="external">6 no-Flux strategies for React component communication</a></p>
+<p>Gist of a modern data-driven app:</p>
+<ul>
+<li>don’t use fat models</li>
+<li>data from server is just another input, not your model, <a href="http://martinfowler.com/bliki/CQRS.html" target="_blank" rel="external">CQRS</a></li>
+<li>modify state via a <em>SINGLE</em> component</li>
+</ul>
+<a id="more"></a>
+<h2 id="React_+_Backbone/Marionette/Ampersand"><a href="#React_+_Backbone/Marionette/Ampersand" class="headerlink" title="React + Backbone/Marionette/Ampersand"></a>React + Backbone/Marionette/Ampersand</h2><p><a href="http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html" target="_blank" rel="external">Using React components as Backbone Views</a><br><a href="https://github.com/clayallsopp/react.backbone" target="_blank" rel="external">clayallsopp/react.backbone</a><br><a href="http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone" target="_blank" rel="external">Tutorial: Building React Apps With Flux and Backbone | Toptal</a></p>
+<p><a href="http://jgaskins.org/blog/2015/02/06/gentle-migration-from-marionette-to-react" target="_blank" rel="external">Gentle Migration from Marionette to React - Jamie Gaskins</a><br><a href="https://gist.github.com/BinaryMuse/334120e0ef156e410f98" target="_blank" rel="external">Integrating React with Marionette</a></p>
+<p><a href="http://humanjavascript.com/" target="_blank" rel="external">human javascript by Henrik Joreteg</a><br><a href="http://learn.humanjavascript.com/react-ampersand" target="_blank" rel="external">Human JavaScript Videos</a></p>
+<h2 id="Immutability"><a href="#Immutability" class="headerlink" title="Immutability"></a>Immutability</h2><p><a href="https://github.com/facebook/immutable-js" target="_blank" rel="external">facebook/immutable-js</a><br><a href="https://github.com/scottcorgan/immu" target="_blank" rel="external">scottcorgan/immu</a><br><a href="http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/" target="_blank" rel="external">Pros and Cons of using immutability with React.js - React Kung Fu</a></p>
+<p>Also see Baobab, Redux, Freeze</p>
+<h2 id="Redux"><a href="#Redux" class="headerlink" title="Redux"></a>Redux</h2><p>Redux = <strong><em>Red</em></strong>ucer + Fl<strong><em>ux</em></strong><br>Implements Flux Store in a FP way. This enables a lot of interesting tools, including <em>time travel</em> with app state.</p>
+<p><a href="https://github.com/rackt/redux" target="_blank" rel="external">rackt/redux</a><br><a href="http://rackt.org/redux/" target="_blank" rel="external">Read Me | Redux</a></p>
+<p><a href="https://www.youtube.com/watch?v=xsSnOQynTHs" target="_blank" rel="external">Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015 - YouTube</a><br><a href="https://vimeo.com/100010922" target="_blank" rel="external">Live-editing React app without refresh on Vimeo</a><br><a href="http://www.jchapron.com/2015/08/14/getting-started-with-redux/" target="_blank" rel="external">Getting started with Redux - Example application | jchapron</a><br><a href="http://survivejs.com/blog/redux-interview/" target="_blank" rel="external">SurviveJS - Webpack and React - Redux - Reinventing Flux - Interview with Dan Abramov</a><br><a href="https://blog.javascripting.com/2015/08/12/reduce-your-side-effects/" target="_blank" rel="external">Flux: Reduce Your Side Effects</a><br><a href="https://blog.andyet.com/2015/08/06/what-the-flux-lets-redux" target="_blank" rel="external">What the Flux?! Let’s Redux. | &amp;yet Blog</a></p>
+<p><a href="https://devchat.tv/js-jabber/181-jsj-the-evolution-of-flux-libraries-with-andrew-clark-and-dan-abramov" target="_blank" rel="external">JSJ The Evolution of Flux Libraries with Andrew Clark and Dan Abramov</a><br><a href="https://github.com/rackt/redux/pull/46" target="_blank" rel="external">Feeback wanted: Rewrite with ideas from @acdlite by gaearon · Pull Request #46 · rackt/redux</a><br><a href="https://egghead.io/instructors/dan-abramov" target="_blank" rel="external">JavaScript Tutorials and Video Workshops - @eggheadio #levelup</a></p>
+<p><a href="http://konkle.us/state-management-with-redux/" target="_blank" rel="external">State Management with Redux</a><br><a href="http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html" target="_blank" rel="external">Full-Stack Redux Tutorial</a><br><a href="https://github.com/roderickwang/redux-2way-binding" target="_blank" rel="external">roderickwang/redux-2way-binding</a></p>
+<p><a href="https://github.com/rackt/react-redux" target="_blank" rel="external">rackt/react-redux</a><br><a href="https://github.com/gaearon/react-hot-loader" target="_blank" rel="external">gaearon/react-hot-loader</a><br><a href="https://github.com/gaearon/redux-devtools" target="_blank" rel="external">gaearon/redux-devtools</a><br><a href="https://github.com/omnidan/redux-undo" target="_blank" rel="external">omnidan/redux-undo</a><br><a href="https://github.com/gaearon/redux-thunk" target="_blank" rel="external">gaearon/redux-thunk</a><br><a href="https://github.com/erikras/redux-form" target="_blank" rel="external">erikras/redux-form</a><br><a href="https://github.com/rackt/react-tabs" target="_blank" rel="external">rackt/react-tabs</a><br><a href="https://github.com/rackt/react-modal" target="_blank" rel="external">rackt/react-modal</a><br><a href="https://github.com/faassen/reselect" target="_blank" rel="external">faassen/reselect</a><br><a href="https://github.com/acdlite/redux-actions" target="_blank" rel="external">acdlite/redux-actions</a><br><a href="https://github.com/rackt/redux-router" target="_blank" rel="external">rackt/redux-router</a><br><a href="https://github.com/acdlite/redux-promise" target="_blank" rel="external">acdlite/redux-promise</a><br><a href="https://github.com/acdlite/redux-transducers" target="_blank" rel="external">acdlite/redux-transducers</a><br><a href="https://github.com/rackt/react-tabs" target="_blank" rel="external">rackt/react-tabs</a><br><a href="https://github.com/xgrommx/awesome-redux" target="_blank" rel="external">xgrommx/awesome-redux</a></p>
+<p>gaearon uses normalizr and make observations on Flux<br><a href="https://github.com/gaearon/flux-react-router-example" target="_blank" rel="external">gaearon/flux-react-router-example</a><br><a href="https://github.com/gaearon/normalizr" target="_blank" rel="external">gaearon/normalizr</a></p>
+<p><a href="https://github.com/facebook/react/issues/2517" target="_blank" rel="external">How to implement shouldComponentUpdate with this.context? · Issue #2517 · facebook/react</a></p>
+<h3 id="boilerplates"><a href="#boilerplates" class="headerlink" title="boilerplates"></a>boilerplates</h3><p><a href="https://github.com/gaearon/library-boilerplate" target="_blank" rel="external">gaearon/library-boilerplate</a> webpack<br><a href="https://github.com/mattdennewitz/universal-redux-boilerplate" target="_blank" rel="external">mattdennewitz/universal-redux-boilerplate</a> webpack<br><a href="https://github.com/jackielii/simplest-redux-example" target="_blank" rel="external">jackielii/simplest-redux-example</a> browserify<br><a href="https://github.com/jonathanp/map-item-filter" target="_blank" rel="external">jonathanp/map-item-filter</a> browserify</p>
+<h2 id="Freezer"><a href="#Freezer" class="headerlink" title="Freezer"></a>Freezer</h2><p><a href="https://medium.com/@arqex/react-the-simple-way-cabdf1f42f12" target="_blank" rel="external">React.js the simple way — Medium</a></p>
+<p><a href="https://github.com/arqex/freezer" target="_blank" rel="external">arqex/freezer</a><br><a href="https://github.com/arqex/freezer-redux-devtools" target="_blank" rel="external">arqex/freezer-redux-devtools</a></p>
+<h2 id="Baobab"><a href="#Baobab" class="headerlink" title="Baobab"></a>Baobab</h2><p><a href="https://github.com/Yomguithereal/baobab" target="_blank" rel="external">Yomguithereal/baobab</a> a tree data structure</p>
+<p><a href="http://reactkungfu.com/2015/08/how-to-improve-the-data-flow-in-your-react-app-introduction-to-baobab/" target="_blank" rel="external">How to improve the data flow in your React app? Introduction to Baobab - React Kung Fu</a><br><a href="http://www.christianalfoni.com/articles/2015_02_06_Plant-a-Baobab-tree-in-your-flux-application" target="_blank" rel="external">christianalfoni - Plant a Baobab tree in your flux application</a><br><a href="http://www.christianalfoni.com/articles/2015_04_26_Handling-complex-state-with-Baobab" target="_blank" rel="external">christianalfoni - Handling complex state with Baobab</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/flux/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-12-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>29</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/flux/">flux<span>2</span></a></li> <li><a href="/tags/javascript/">javascript<span>8</span></a></li> <li><a href="/tags/react-js/">react-js<span>3</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#React_+_Backbone/Marionette/Ampersand"><span class="toc-article-text">React + Backbone/Marionette/Ampersand</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Immutability"><span class="toc-article-text">Immutability</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Redux"><span class="toc-article-text">Redux</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#boilerplates"><span class="toc-article-text">boilerplates</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Freezer"><span class="toc-article-text">Freezer</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Baobab"><span class="toc-article-text">Baobab</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Browserify | leesei&#39;s notebook</title>
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Browserify"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Browserify</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://browserify.org/" target="_blank" rel="external">Browserify</a><br><a href="https://github.com/substack/browserify-handbook" target="_blank" rel="external">substack/browserify-handbook</a><br><a href="https://github.com/substack/browserify-handbook#builtins" target="_blank" rel="external">substack/browserify-handbook (builtins)</a></p>
+<p><a href="https://blog.codecentric.de/en/2014/02/cross-platform-javascript/" target="_blank" rel="external">Cross platform JavaScript with Browserify - Sharing Code Between Node.js and the Browser - codecentric Blog : codecentric Blog</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ browserify -r ./lib/slugger:slugger &gt; static/bundle.js</span><br><span class="line"><span class="comment"># export `require()` in browser and the module 'slugger'</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://gist.github.com/substack/68f8d502be42d5cd4942" target="_blank" rel="external">browserify for webpack users</a></p>
+<a id="more"></a>
+<h2 id="internals"><a href="#internals" class="headerlink" title="internals"></a>internals</h2><p><a href="http://benclinkinbeard.com/posts/how-browserify-works/" target="_blank" rel="external">How Browserify Works</a><br><a href="http://blakeembrey.com/articles/2013/09/introduction-to-browserify/" target="_blank" rel="external">Introduction to Browserify • Blake Embrey</a><br><a href="https://github.com/substack/browserify-handbook#how-browserify-works" target="_blank" rel="external">substack/browserify-handbook (how browserify works)</a><br><a href="https://github.com/substack/browserify-handbook#bundling" target="_blank" rel="external">substack/browserify-handbook (bundling)</a></p>
+<h2 id="option_passing"><a href="#option_passing" class="headerlink" title="option passing"></a>option passing</h2><p><a href="https://github.com/substack/node-browserify#browser-field" target="_blank" rel="external">substack/node-browserify</a> browser-field in <code>pacakge.json</code><br><a href="https://github.com/substack/browserify-handbook#packagejson" target="_blank" rel="external">substack/browserify-handbook (package.json)</a></p>
+<h3 id="CLI"><a href="#CLI" class="headerlink" title="CLI"></a>CLI</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">browserify -t [ foo -v --bar=555 ] main.js</span><br></pre></td></tr></table></figure>
+<h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">b.transform(&#39;foo&#39;, &#123; v: true, bar: 555 &#125;)</span><br></pre></td></tr></table></figure>
+<h3 id="package-json"><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#34;browserify&#34;: &#123;&#10;  &#34;transform&#34;: [&#10;    [&#10;      &#34;foo&#34;,&#10;      &#123;&#10;        v: true&#10;        &#34;bar&#34;: 555&#10;      &#125;&#10;    ]&#10;  ]&#10;&#125;,</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="transforms"><a href="#transforms" class="headerlink" title="transforms"></a>transforms</h2><p><a href="https://github.com/substack/node-browserify/wiki/list-of-transforms" target="_blank" rel="external">list of transforms · substack/node-browserify Wiki</a><br><a href="https://github.com/substack/browserify-handbook#transforms" target="_blank" rel="external">substack/browserify-handbook (transforms)</a><br><a href="https://www.npmjs.com/browse/keyword/browserify-transform" target="_blank" rel="external">npm browserify-transform</a></p>
+<p><a href="https://github.com/substack/node-browserify#browserifytransform" target="_blank" rel="external">substack/node-browserify</a></p>
+<h2 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h2><p><a href="https://www.npmjs.com/browse/keyword/browserify-plugin" target="_blank" rel="external">npm browserify-plugin</a></p>
+<p><a href="https://github.com/substack/node-browserify#plugins" target="_blank" rel="external">substack/node-browserify (plugins)</a><br><a href="https://github.com/substack/browserify-handbook#plugins" target="_blank" rel="external">substack/browserify-handbook (plugins)</a></p>
+<p><a href="https://github.com/css-modules/css-modulesify" target="_blank" rel="external">css-modules/css-modulesify</a><br><a href="https://github.com/css-modules/browserify-demo" target="_blank" rel="external">css-modules/browserify-demo</a></p>
+<h2 id="tools"><a href="#tools" class="headerlink" title="tools"></a>tools</h2><p><a href="https://github.com/substack/node-browserify/wiki/browserify-tools" target="_blank" rel="external">browserify tools · substack/node-browserify Wiki</a><br><a href="https://www.npmjs.com/browse/keyword/browserify-tool" target="_blank" rel="external">npm browserify-tool</a></p>
+<h2 id="ecosystem"><a href="#ecosystem" class="headerlink" title="ecosystem"></a>ecosystem</h2><p><a href="https://github.com/substack/schoolbus" target="_blank" rel="external">substack/schoolbus</a><br><a href="https://github.com/substack/yarnify" target="_blank" rel="external">substack/yarnify</a><br><a href="https://github.com/substack/webworkify" target="_blank" rel="external">substack/webworkify</a></p>
+<h3 id="Livereload"><a href="#Livereload" class="headerlink" title="Livereload"></a>Livereload</h3><p><a href="https://github.com/chrisdickinson/beefy" target="_blank" rel="external">chrisdickinson/beefy</a><br><a href="https://github.com/milankinen/livereactload" target="_blank" rel="external">milankinen/livereactload</a></p>
+<p><a href="https://github.com/AgentME/browserify-hmr" target="_blank" rel="external">AgentME/browserify-hmr</a><br><a href="https://github.com/substack/react-starter-hmr" target="_blank" rel="external">substack/react-starter-hmr</a></p>
+<h3 id="browserify-shim"><a href="#browserify-shim" class="headerlink" title="browserify-shim"></a>browserify-shim</h3><p>Use <a href="https://github.com/thlorenz/browserify-shim" target="_blank" rel="external">thlorenz/browserify-shim</a> to wrap non-CommonJS library to make them <code>require()</code>-able</p>
+<p><a href="https://github.com/mattdesl/shimbro" target="_blank" rel="external">mattdesl/shimbro</a><br><a href="https://github.com/substack/browserify-handbook#browserify-shim" target="_blank" rel="external">substack/browserify-handbook (browserify-shim)</a></p>
+<p><a href="https://github.com/thlorenz/browserify-shim/wiki/browserify-shim-recipes" target="_blank" rel="external">browserify shim recipes · thlorenz/browserify-shim Wiki</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// configure bundle files</span></span><br><span class="line"><span class="string">"browser"</span>: &#123;</span><br><span class="line">  <span class="string">"jquery"</span>: <span class="string">"./js/vendor/jquery.js"</span></span><br><span class="line">&#125;,</span><br><span class="line"><span class="comment">// configure require-mapping</span></span><br><span class="line"><span class="string">"browserify-shim"</span>: &#123;</span><br><span class="line">  <span class="string">"jquery"</span>: <span class="string">"$"</span></span><br><span class="line">  <span class="string">"three"</span>: <span class="string">"global:THREE"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>jQuery will be bundled in <code>bundle.js</code>; and you are supposed to include <code>three.js</code> in HTML.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">BROWSERIFYSHIM_DIAGNOSTICS=<span class="number">1</span> browserify <span class="operator">-d</span> . -o js/bundle.js</span><br></pre></td></tr></table></figure>
+<h3 id="bower"><a href="#bower" class="headerlink" title="bower"></a>bower</h3><p><a href="https://github.com/taptapship/wiredep" target="_blank" rel="external">taptapship/wiredep</a></p>
+<h3 id="testing"><a href="#testing" class="headerlink" title="testing"></a>testing</h3><p><a href="http://substack.net/how_I_write_tests_for_node_and_the_browser" target="_blank" rel="external">how I write tests for node and the browser</a></p>
+<p><a href="https://github.com/substack/testling" target="_blank" rel="external">substack/testling</a><br>Test in headless browser:<br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ browserify <span class="built_in">test</span>/beep.js | testling</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://ci.testling.com/" target="_blank" rel="external">https://ci.testling.com</a></p>
+<p><a href="https://github.com/substack/coverify" target="_blank" rel="external">substack/coverify</a><br><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ browserify -t coverify <span class="built_in">test</span>/*.js | node | coverify</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://github.com/substack/covert" target="_blank" rel="external">substack/covert</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/webpack/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/rust/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-11-27 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>29</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/browserify/">browserify<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#internals"><span class="toc-article-text">internals</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#option_passing"><span class="toc-article-text">option passing</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#CLI"><span class="toc-article-text">CLI</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#API"><span class="toc-article-text">API</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#package-json"><span class="toc-article-text">package.json</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#transforms"><span class="toc-article-text">transforms</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#plugins"><span class="toc-article-text">plugins</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#tools"><span class="toc-article-text">tools</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ecosystem"><span class="toc-article-text">ecosystem</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Livereload"><span class="toc-article-text">Livereload</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#browserify-shim"><span class="toc-article-text">browserify-shim</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#bower"><span class="toc-article-text">bower</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#testing"><span class="toc-article-text">testing</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

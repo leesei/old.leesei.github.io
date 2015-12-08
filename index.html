@@ -107,8 +107,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-20 </div>
-			<div class="article-title"><a href="/gamification/" >Gamification</a></div>						
+			<div class="date"> 2015-12-04 </div>
+			<div class="article-title"><a href="/flux-alternatives/" >Flux Alternatives</a></div>						
 		</h3>
 	
 
@@ -119,15 +119,20 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://www.wikiwand.com/en/Gamification" target="_blank" rel="external">Gamification - Wikiwand</a><br><a href="http://www.bunchball.com/gamification" target="_blank" rel="external">What is Gamification and Why Bunchball is the Answer | Bunchball</a><br><a href="https://badgeville.com/wiki/Gamification" target="_blank" rel="external">What is Gamification? | Gamification.org</a></p>
-<p><a href="http://tpkelly.gitbooks.io/gaming-the-system/content/" target="_blank" rel="external">Gaming the System</a><br><a href="https://www.coursera.org/course/gamification" target="_blank" rel="external">Gamification - University of Pennsylvania | Coursera</a></p>
-
+	  <p>Sometimes React.js alone may serve your need, you don’t have to prematurely flux it.<br><a href="https://medium.com/swlh/the-case-for-flux-379b7d1982c6">The Case for Flux — Startups, Wanderlust, and Life Hacking — Medium</a></p>
+<p>And there are other strategies besides Flux for architecting your application.<br><a href="http://andrewhfarmer.com/component-communication/">6 no-Flux strategies for React component communication</a></p>
+<p>Gist of a modern data-driven app:</p>
+<ul>
+<li>don’t use fat models</li>
+<li>data from server is just another input, not your model, <a href="http://martinfowler.com/bliki/CQRS.html">CQRS</a></li>
+<li>modify state via a <em>SINGLE</em> component</li>
+</ul>
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/gamification/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/flux-alternatives/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -135,8 +140,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-19 </div>
-			<div class="article-title"><a href="/electron/" >Electron</a></div>						
+			<div class="date"> 2015-12-04 </div>
+			<div class="article-title"><a href="/flux/" >Flux</a></div>						
 		</h3>
 	
 
@@ -147,17 +152,14 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://electron.atom.io/" target="_blank" rel="external">Electron</a> (<a href="https://github.com/atom/electron" target="_blank" rel="external">Github</a>), previously Atom shell, is a platform that bundles Chromium and Node.js runtime for developers to write cross-platform desktop applications with JavaScript and HTML.</p>
-<p>It is very similar to the <a href="http://nwjs.io/" target="_blank" rel="external">NW.js</a> project but the differences are explained <a href="http://electron.atom.io/docs/v0.29.0/development/atom-shell-vs-node-webkit/" target="_blank" rel="external">here</a>.</p>
-<p><a href="https://github.com/sindresorhus/awesome-electron" target="_blank" rel="external">sindresorhus/awesome-electron</a></p>
-<p><a href="https://github.com/sindresorhus/electron-debug" target="_blank" rel="external">sindresorhus/electron-debug</a></p>
-
+	  <p>Flux is a pattern for web applications architecture, <em>rather than a library</em>. Though there are some example implementations.  </p>
+<p>Flux promotes unidirectional  data flow:<br>  DISPATCHER -&gt; STORES -&gt; COMPONENTS<br>Dispatcher and stores are global.<br>Components take immutable <code>prop</code> as input and can maintain internal mutable <code>state</code>. Changes to state via <code>setState()</code> will trigger a re-rendering.<br>Components can also fire “intent” (also called “action”) or listen to the dispatcher/stores.</p>
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/electron/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/flux/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -165,8 +167,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-19 </div>
-			<div class="article-title"><a href="/awesome-lists/" >Awesome Lists</a></div>						
+			<div class="date"> 2015-12-04 </div>
+			<div class="article-title"><a href="/react-js/" >React.js</a></div>						
 		</h3>
 	
 
@@ -177,18 +179,14 @@
 	<div class="col-md-12">
 	  
 	
-	  <p>Awesome list is a project start <a href="https://github.com/sindresorhus" target="_blank" rel="external">sindresorhus (Sindre Sorhus)</a>.</p>
-<p><a href="https://github.com/sindresorhus/awesome/blob/master/awesome.md" target="_blank" rel="external">The awesome manifesto</a>.</p>
-<h2 id="Awesome_list_of_Awesome_lists">Awesome list of Awesome lists</h2><p><a href="https://awesome-awesomeness.zeef.com/alexander.bayandin" target="_blank" rel="external">Awesome Awesomeness by Alexander Bayandin | ZEEF</a>, also <a href="https://github.com/bayandin/awesome-awesomeness" target="_blank" rel="external">bayandin/awesome-awesomeness</a><br><a href="https://github.com/emijrp/awesome-awesome" target="_blank" rel="external">emijrp/awesome-awesome</a><br><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="external">sindresorhus/awesome</a></p>
-<h2 id="Awesome_list">Awesome list</h2><p><a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank" rel="external">sindresorhus/awesome-nodejs</a><br><a href="https://github.com/sindresorhus/awesome-electron" target="_blank" rel="external">sindresorhus/awesome-electron</a><br><a href="https://github.com/sindresorhus/amas" target="_blank" rel="external">sindresorhus/amas</a> (Ask Me Anything)</p>
-<p><a href="https://github.com/Hunter-Github/awesome-firefox" target="_blank" rel="external">Hunter-Github/awesome-firefox</a><br><a href="https://github.com/emijrp/awesome-wikipedia" target="_blank" rel="external">emijrp/awesome-wikipedia</a><br><a href="https://github.com/elburz/awesome-space" target="_blank" rel="external">elburz/awesome-space</a></p>
-
+	  <p><a href="http://facebook.github.io/react/docs/getting-started.html">Getting Started | React</a><br><a href="http://facebook.github.io/react/docs/tutorial.html">Tutorial | React</a><br><a href="http://facebook.github.io/react/docs/thinking-in-react.html">Thinking in React | React</a></p>
+<p><a href="http://blog.belong.co/why-we-moved-from-angular-to-react">Why We Moved From Angular to React</a><br><a href="http://reactkungfu.com/2015/07/why-are-we-using-react-js-in-our-projects/">Why are we using React.js in our projects? - React Kung Fu</a></p>
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/awesome-lists/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/react-js/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -196,8 +194,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-17 </div>
-			<div class="article-title"><a href="/issue-tracker/" >Issue Tracker</a></div>						
+			<div class="date"> 2015-12-04 </div>
+			<div class="article-title"><a href="/wierd-science/" >Wierd Science</a></div>						
 		</h3>
 	
 
@@ -208,17 +206,17 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://www.atlassian.com/software/jira" target="_blank" rel="external">JIRA - Issue &amp; Project Tracking Software | Atlassian</a></p>
-<p><a href="http://www.redmine.org/" target="_blank" rel="external">Overview - Redmine</a></p>
-<p><a href="http://trac.edgewall.org/" target="_blank" rel="external">The Trac Project</a></p>
-<p><a href="https://www.bugzilla.org/about/" target="_blank" rel="external">About :: Bugzilla :: bugzilla.org</a></p>
+	  <p><a href="http://www.improbable.com/ig/" target="_blank" rel="external">About The Ig® Nobel Prizes - Improbable Research</a></p>
+<p><a href="http://www.wikiwand.com/en/Ig_Nobel_Prize" target="_blank" rel="external">Ig Nobel Prize - Wikiwand</a><br><a href="https://www.wikiwand.com/en/List_of_Ig_Nobel_Prize_winners" target="_blank" rel="external">List of Ig Nobel Prize winners - Wikiwand</a></p>
+<p><a href="https://player.fm/series/stuff-you-should-know/what-is-an-ig-nobel-prize" target="_blank" rel="external">What Is An Ig Nobel Prize? - Stuff You Should Know (podcast)</a></p>
+<p><a href="http://qi.com/feed" target="_blank" rel="external">QI : Quite Interesting</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/issue-tracker/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/wierd-science/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -226,8 +224,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-14 </div>
-			<div class="article-title"><a href="/augmented-reality/" >Augmented Reality</a></div>						
+			<div class="date"> 2015-12-01 </div>
+			<div class="article-title"><a href="/webpack/" >Webpack</a></div>						
 		</h3>
 	
 
@@ -238,14 +236,14 @@
 	<div class="col-md-12">
 	  
 	
-	  <h2 id="Oculus_Rift">Oculus Rift</h2><h2 id="HoloLens">HoloLens</h2><p><a href="http://unwire.hk/2015/06/16/hololens-minecraft/game-channel/" target="_blank" rel="external">HoloLens 版 Minecraft 實玩 Demo 展現出 VR 新世界 - UNWIRE.HK</a></p>
-<h2 id="Gear_VR">Gear VR</h2>
+	  <p><a href="http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome" target="_blank" rel="external">christianalfoni - Webpack and react is awesome</a><br><a href="http://www.christianalfoni.com/articles/2015_10_01_Taking-the-next-step-with-react-and-webpack" target="_blank" rel="external">christianalfoni - Taking the next step with react and webpack</a></p>
+
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/augmented-reality/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/webpack/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -253,8 +251,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-09 </div>
-			<div class="article-title"><a href="/atom/" >Atom</a></div>						
+			<div class="date"> 2015-11-27 </div>
+			<div class="article-title"><a href="/browserify/" >Browserify</a></div>						
 		</h3>
 	
 
@@ -265,14 +263,16 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://atom.io/">Atom</a><br><a href="https://github.com/atom/atom/issues">Issues · atom/atom</a></p>
-<p><a href="http://www.atomtips.com/">Atom Editor Tips and Tricks</a><br><a href="http://www.atomtips.com/atom-editor-vs-sublime-text/">Atom editor or Sublime Text which one to pick</a></p>
+	  <p><a href="http://browserify.org/">Browserify</a><br><a href="https://github.com/substack/browserify-handbook">substack/browserify-handbook</a><br><a href="https://github.com/substack/browserify-handbook#builtins">substack/browserify-handbook (builtins)</a></p>
+<p><a href="https://blog.codecentric.de/en/2014/02/cross-platform-javascript/">Cross platform JavaScript with Browserify - Sharing Code Between Node.js and the Browser - codecentric Blog : codecentric Blog</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ browserify -r ./lib/slugger:slugger &gt; static/bundle.js</span><br><span class="line"><span class="comment"># export `require()` in browser and the module 'slugger'</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://gist.github.com/substack/68f8d502be42d5cd4942">browserify for webpack users</a></p>
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/atom/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/browserify/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -280,8 +280,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-07-02 </div>
-			<div class="article-title"><a href="/social-coding/" >Social Coding</a></div>						
+			<div class="date"> 2015-11-19 </div>
+			<div class="article-title"><a href="/rust/" >Rust</a></div>						
 		</h3>
 	
 
@@ -292,17 +292,21 @@
 	<div class="col-md-12">
 	  
 	
-	  <h2 id="Virtual_Machines">Virtual Machines</h2><p><a href="https://koding.com/Home" target="_blank" rel="external">Koding | Say goodbye to your localhost and code in the cloud.</a><br><a href="https://www.nitrous.io/" target="_blank" rel="external">Nitrous.IO</a><br>  <a href="http://help.nitrous.io/mongodb/" target="_blank" rel="external">Setting up MongoDB with Autoparts</a><br><a href="https://runnable.com/" target="_blank" rel="external">Run server-side code and discover APIs in your browser</a></p>
-<h2 id="Snippets">Snippets</h2><p><a href="https://gist.github.com/" target="_blank" rel="external">Gists</a><br><a href="https://snipt.net/" target="_blank" rel="external">Snipt</a><br><a href="http://pastie.org/" target="_blank" rel="external">Pastie</a><br><a href="http://pastebin.com/" target="_blank" rel="external">Pastebin.com - #1 paste tool since 2002!</a></p>
-<p><a href="http://codepad.org/" target="_blank" rel="external">codepad</a><br><a href="http://jsfiddle.net/" target="_blank" rel="external">jsFiddle</a><br><a href="http://jsbin.com/" target="_blank" rel="external">JS Bin - Collaborative JavaScript Debugging</a><br><a href="http://plnkr.co/" target="_blank" rel="external">Plunker</a><br><a href="http://requirebin.com/" target="_blank" rel="external">RequireBin</a></p>
-<p><a href="http://regex101.com/" target="_blank" rel="external">Regular Expressions 101</a> for regex<br><a href="http://tributary.io/" target="_blank" rel="external">Tributary</a> for D3 diagram<br><a href="http://bl.ocks.org/" target="_blank" rel="external">bl.ocks.org</a> for D3 diagram</p>
+	  <h2 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h2><p>System language created by Mozilla.</p>
+<p><a href="http://www.rust-lang.org/" target="_blank" rel="external">The Rust Programming Language</a><br><a href="http://doc.rust-lang.org/book/" target="_blank" rel="external">The Rust Programming Language (book)</a><br><a href="http://aminb.gitbooks.io/rust-for-c/content/" target="_blank" rel="external">Introduction | Rust for C++ Programmers</a><br><a href="http://rustbyexample.com/" target="_blank" rel="external">Introduction | Rust by Example</a></p>
+<h3 id="Commentary"><a href="#Commentary" class="headerlink" title="Commentary"></a>Commentary</h3><p><a href="http://arewewebyet.com/" target="_blank" rel="external">Are we web yet? Getting there.</a><br><a href="http://www.quora.com/How-do-Rust-and-Go-compare-against-each-other" target="_blank" rel="external">How do Rust and Go compare against each other? - Quora</a><br><a href="https://medium.com/@adamhjk/rust-and-go-e18d511fbd95" target="_blank" rel="external">Rust and Go — Medium</a><br><a href="https://www.codementor.io/rust/tutorial/steve-klabnik-rust-vs-c-go-ocaml-erlang" target="_blank" rel="external">Interview with Steve Klabnik: How Rust Compares to Other Languages and More | Codementor</a></p>
+<h3 id="Joel_u2019s_Journal"><a href="#Joel_u2019s_Journal" class="headerlink" title="<a href=" http:="" joelmccracken.github.io="" "="">Joel’s Journal</a>"><a href="http://joelmccracken.github.io/" target="_blank" rel="external">Joel’s Journal</a></h3><p><a href="http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/" target="_blank" rel="external">A Simple Web App in Rust, Part 1</a><br><a href="http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/" target="_blank" rel="external">A Simple Web App in Rust, Part 2a</a><br><a href="http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/" target="_blank" rel="external">A Simple Web App in Rust, Part 2b</a><br><a href="http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-3/" target="_blank" rel="external">A Simple Web App in Rust, Part 3 – Integration</a><br><a href="http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-4--cli-option-parsing/" target="_blank" rel="external">A Simple Web App in Rust, Part 4 – CLI Option Parsing</a></p>
+<h3 id="Packages"><a href="#Packages" class="headerlink" title="Packages"></a>Packages</h3><p><a href="https://crates.io/" target="_blank" rel="external">Cargo</a> Rust package manager<br><a href="http://ironframework.io/" target="_blank" rel="external">Iron - Rust web application framework</a><br><a href="http://rustless.org/" target="_blank" rel="external">Rustless - API micro-framework for Rust</a></p>
+<h3 id="Cross_compile"><a href="#Cross_compile" class="headerlink" title="Cross compile"></a>Cross compile</h3><p><a href="https://github.com/warricksothr/RustBuild" target="_blank" rel="external">warricksothr/RustBuild</a><br><a href="https://zinc.rs/" target="_blank" rel="external">zinc.rs</a></p>
+<p><a href="https://github.com/japaric/ruststrap" target="_blank" rel="external">japaric/ruststrap</a><br><a href="http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html" target="_blank" rel="external">Rust bare metal on ARM microcontroller</a></p>
+<p><a href="http://rust-class.org/index.html" target="_blank" rel="external">cs4414: Operating Systems</a> write a kernel in Rust</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/social-coding/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/rust/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -310,8 +314,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-29 </div>
-			<div class="article-title"><a href="/philosophy/" >Philosophy</a></div>						
+			<div class="date"> 2015-11-19 </div>
+			<div class="article-title"><a href="/web-development/" >Web Development</a></div>						
 		</h3>
 	
 
@@ -322,15 +326,92 @@
 	<div class="col-md-12">
 	  
 	
-	  <h2 id="Consciousness">Consciousness</h2><p><a href="http://www.quora.com/What-is-consciousness/answer/John-Ringland" target="_blank" rel="external">John Ringland’s answer to What is consciousness? - Quora</a><br><a href="http://www.quora.com/How-do-we-know-that-were-not-living-in-a-computer-simulation" target="_blank" rel="external">How do we know that we’re not living in a computer simulation? - Quora</a><br><a href="http://www.simulation-argument.com/" target="_blank" rel="external">Are You Living in a Computer Simulation?</a></p>
-<h2 id="Knowledge_Theory">Knowledge Theory</h2><p><a href="http://www.theoryofknowledge.info/" target="_blank" rel="external">Theory of Knowledge</a><br><a href="http://www.quora.com/Naive-Realism" target="_blank" rel="external">Naive Realism - Quora</a></p>
+	  <h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="external">CSS | MDN</a><br><a href="http://tympanus.net/codrops/css_reference/" target="_blank" rel="external">CSS Reference | Codrops</a><br><a href="http://overapi.com/css/" target="_blank" rel="external">CSS Cheat Sheet | OverAPI.com</a><br><a href="http://apps.workflower.fi/vocabs/css/en" target="_blank" rel="external">CSS Vocabulary</a><br><a href="http://ref.openweb.io/CSS/" target="_blank" rel="external">CSS Reference</a><br><a href="http://cssvalues.com/" target="_blank" rel="external">CSS Values | CSS Reference, Properties and Values, CSS3</a></p>
+<p><a href="http://flukeout.github.io/" target="_blank" rel="external">CSS Diner - Where we feast on CSS Selectors!</a></p>
+<p><a href="http://katydecorah.com/css-ruler/" target="_blank" rel="external">CSS Ruler • Explore CSS lengths.</a><br><a href="http://nthmaster.com/" target="_blank" rel="external">Mastering the :nth-child | CSS3 pseudo classes and :nth-child ranges</a><br><a href="https://scotch.io/bar-talk/5-things-you-might-not-know-about-the-css-positioning-types" target="_blank" rel="external">5 Things You Might Not Know About the CSS Positioning Types | Scotch</a></p>
+<p><a href="http://www.sitepoint.com/css-is-alive-and-well/" target="_blank" rel="external">CSS is Alive and Well</a><br><a href="https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/" target="_blank" rel="external">The Debate Around “Do We Even Need CSS Anymore?” | CSS-Tricks</a></p>
+<h3 id="Modularization"><a href="#Modularization" class="headerlink" title="Modularization"></a>Modularization</h3><p>Movement to restrict CSS local to a component.</p>
+<p><a href="http://glenmaddern.com/articles/css-modules" target="_blank" rel="external">CSS Modules Welcome to the Future - Glen Maddern: Internet Pro</a><br><a href="http://glenmaddern.com/articles/interoperable-css" target="_blank" rel="external">Interoperable CSS A CSS standard for the Loader Age - Glen Maddern: Internet Pro</a></p>
+<p><a href="https://github.com/js-next/react-style" target="_blank" rel="external">js-next/react-style</a><br><a href="https://github.com/JedWatson/classnames" target="_blank" rel="external">JedWatson/classnames</a><br><a href="https://github.com/facebook/react/pull/2196" target="_blank" rel="external">[React] Add support for arrays with holes in style attribute by vjeux · Pull Request #2196 · facebook/react</a></p>
+<h3 id="Preprocessors"><a href="#Preprocessors" class="headerlink" title="Preprocessors"></a>Preprocessors</h3><p><a href="http://csspre.com/" target="_blank" rel="external">Blog ◩ CSS PREprocessors</a><br><a href="http://csspre.com/compare/" target="_blank" rel="external">Compare ◩ CSS PREprocessors</a></p>
+<p><a href="https://sass-compatibility.github.io/" target="_blank" rel="external">Sass Compatibility</a></p>
+<h3 id="Viewport"><a href="#Viewport" class="headerlink" title="Viewport"></a>Viewport</h3><p><a href="http://www.quirksmode.org/mobile/viewports.html" target="_blank" rel="external">A tale of two viewports — part one</a><br><a href="http://www.quirksmode.org/mobile/viewports2.html" target="_blank" rel="external">A tale of two viewports — part two</a></p>
+<h3 id="Flexbox"><a href="#Flexbox" class="headerlink" title="Flexbox"></a>Flexbox</h3><p><a href="http://wesbos.com/flexbox-basics/" target="_blank" rel="external">CSS Flexbox Video Series: Introduction &amp; Basics — 1/6 | Wes Bos</a><br><a href="http://www.sketchingwithcss.com/flexbox-tutorial/" target="_blank" rel="external">Flexbox Tutorial</a><br><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="external">A Complete Guide to Flexbox | CSS-Tricks</a><br><a href="http://chriswrightdesign.com/experiments/using-flexbox-today/" target="_blank" rel="external">Experiment: Using Flexbox Today - Chris Wright</a><br><a href="http://chriswrightdesign.com/experiments/flexbox-adventures/" target="_blank" rel="external">Chris Wright - Experiment: Flexbox Adventures</a><br><a href="https://tech.coursera.org/blog/2015/06/23/flexbox-at-work/" target="_blank" rel="external">Flexbox @ Work - Coursera Technology</a><br><a href="http://bubkoo.com/2015/04/17/a-visual-guide-to-css3-flexbox-properties/" target="_blank" rel="external">弹性盒模型指南 | bubkoo</a></p>
+<p><a href="http://www.sketchingwithcss.com/samplechapter/cheatsheet.html" target="_blank" rel="external">The Ultimate Flexbox Cheat Sheet</a><br><a href="http://jonibologna.com/flexbox-cheatsheet/" target="_blank" rel="external">Flexbox Cheatsheet Cheatsheet</a><br><a href="http://apps.workflower.fi/css-cheats/?name=flexbox" target="_blank" rel="external">Flexbox Cheatsheet</a><br><a href="http://the-echoplex.net/flexyboxes/" target="_blank" rel="external">Flexy Boxes — CSS flexbox playground and code generation tool</a></p>
+<p><a href="https://github.com/philipwalton/flexbugs" target="_blank" rel="external">philipwalton/flexbugs</a></p>
+<h3 id="Grid"><a href="#Grid" class="headerlink" title="Grid"></a>Grid</h3><p><a href="http://gridbyexample.com/" target="_blank" rel="external">Grid by Example</a></p>
+<h3 id="Filters"><a href="#Filters" class="headerlink" title="Filters"></a>Filters</h3><p><a href="http://bennettfeely.com/filters/" target="_blank" rel="external">CSS Filters Demo</a></p>
+<h3 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h3><p><a href="http://howtocenterincss.com/" target="_blank" rel="external">How to Center in CSS</a></p>
+<h3 id="Boarder"><a href="#Boarder" class="headerlink" title="Boarder"></a>Boarder</h3><p><a href="http://www.sitepoint.com/setting-css3-border-radius-with-slash-syntax/" target="_blank" rel="external">Setting CSS3 Border-Radius with Slash Syntax</a></p>
+<h3 id="B_E9zier_Curves"><a href="#B_E9zier_Curves" class="headerlink" title="Bézier Curves"></a>Bézier Curves</h3><p><a href="https://www.jasondavies.com/animated-bezier/" target="_blank" rel="external">Animated Bézier Curves - Jason Davies</a><br><a href="http://www.wikiwand.com/en/Bézier_curve#/Constructing_B.C3.A9zier_curves" target="_blank" rel="external">Bézier curve - Wikiwand</a></p>
+<h3 id="Style_Guide"><a href="#Style_Guide" class="headerlink" title="Style Guide"></a>Style Guide</h3><p><a href="http://cssguidelin.es/" target="_blank" rel="external">CSS Guidelines (2.2.4) – High-level advice and guidelines for writing sane, manageable, scalable CSS</a><br><a href="https://github.com/bevacqua/css" target="_blank" rel="external">bevacqua/css</a><br><a href="http://getbem.com/" target="_blank" rel="external">BEM — Block Element Modifier</a></p>
+<p><a href="https://github.com/rstacruz/rscss" target="_blank" rel="external">rstacruz/rscss</a> CSS structure with CSS<br><a href="http://sass-guidelin.es/" target="_blank" rel="external">Sass Guidelines</a></p>
+<h3 id="Tricks"><a href="#Tricks" class="headerlink" title="Tricks"></a>Tricks</h3><p><a href="http://www.sitepoint.com/12-little-known-css-facts/" target="_blank" rel="external">12 Little-Known CSS Facts</a><br><a href="http://www.sitepoint.com/12-little-known-css-facts-the-sequel/" target="_blank" rel="external">12 Little-Known CSS Facts (The Sequel)</a></p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="external">HTML (HyperText Markup Language) | MDN</a><br><a href="http://htmlelement.info/" target="_blank" rel="external">HTML Elements</a><br><a href="http://www.w3schools.com/" target="_blank" rel="external">W3Schools Online Web Tutorials</a><br><a href="http://apps.workflower.fi/vocabs/html/en" target="_blank" rel="external">HTML Vocabulary</a><br><a href="http://websitesetup.org/html5-beginners-guide/" target="_blank" rel="external">HTML5 Beginner’s Guide - Tutorial by WebsiteSetup.org</a></p>
+<p><a href="https://github.com/audreyr/favicon-cheat-sheet" target="_blank" rel="external">audreyr/favicon-cheat-sheet</a></p>
+<h3 id="Responsive_Image"><a href="#Responsive_Image" class="headerlink" title="Responsive Image"></a>Responsive Image</h3><p><a href="https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints" target="_blank" rel="external">Automating resource selection with Client Hints — Google Web Updates</a>`<br><a href="http://blog.cloudfour.com/responsive-images-part-10-conclusion/" target="_blank" rel="external">» Responsive Images, Part 10: Conclusion Cloud Four Blog</a></p>
+<h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h2><p><a href="http://www.2ality.com/2012/07/js-and-non-programmers.html" target="_blank" rel="external">Explaining to non-programmers what JavaScript is</a><br><a href="http://jsforcats.com/" target="_blank" rel="external">JavaScript for Cats</a></p>
+<p><a href="http://cs.lmu.edu/~ray/notes/javascript/" target="_blank" rel="external">Introduction to JavaScript</a><br><a href="https://www.javascript.com/" target="_blank" rel="external">JavaScript.com</a><br><a href="http://bonsaiden.github.io/JavaScript-Garden/" target="_blank" rel="external">JavaScript Garden</a><br><a href="http://jstherightway.org/" target="_blank" rel="external">JS: The Right Way</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="external">JavaScript | MDN</a><br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript reference - JavaScript | MDN</a><br><a href="http://javascript.crockford.com/" target="_blank" rel="external">Douglas Crockford’s Javascript</a><br><a href="http://shichuan.github.io/javascript-patterns/" target="_blank" rel="external">JavaScript Patterns</a><br><a href="http://jstherightway.org/" target="_blank" rel="external">JS: The Right Way</a><br><a href="http://howtonode.org/" target="_blank" rel="external">How To Node - NodeJS</a> does a great job in explaining concepts</p>
+<p><a href="http://lanyrd.com/topics/javascript/" target="_blank" rel="external">JavaScript conferences and events | Lanyrd</a></p>
+<p><a href="https://www.codingame.com/start" target="_blank" rel="external">CodinGame - Programming is fun</a><br><a href="https://github.com/olistic/warriorjs" target="_blank" rel="external">olistic/warriorjs</a> - Game written in JavaScript for learning JavaScript and artificial intelligence.</p>
+<p><a href="http://nodeschool.io/#workshopper-list" target="_blank" rel="external">NodeSchool</a><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">javascripting&#10;learnyounode&#10;how-to-npm&#10;git-it&#10;scope-chains-closures&#10;stream-adventure&#10;count-to-6&#10;planetproto&#10;learnuv&#10;&#10;functional-javascript-workshop&#10;shader-school&#10;introtowebgl&#10;bytewiser&#10;makemehapi&#10;browserify-adventure&#10;promise-it-wont-hurt&#10;test-anything&#10;tower-of-babel&#10;learnyoureact&#10;thinking-in-react</span><br></pre></td></tr></table></figure></p>
+<h3 id="Style"><a href="#Style" class="headerlink" title="Style"></a>Style</h3><p><a href="http://www.2ality.com/2014/08/javascript-coding-tips.html" target="_blank" rel="external">Video: JavaScript coding tips</a><br><a href="https://github.com/rwaldron/idiomatic.js/" target="_blank" rel="external">rwaldron/idiomatic.js</a><br><a href="http://standardjs.com/" target="_blank" rel="external">JavaScript Standard Style</a><br><a href="https://raygun.io/blog/2015/07/using-linters-for-faster-safer-coding-with-less-javascript-errors/" target="_blank" rel="external">Use Linters For Safer Coding With Less Javascript Errors</a></p>
+<p><a href="http://editorconfig.org/" target="_blank" rel="external">EditorConfig</a><br><a href="https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48" target="_blank" rel="external">Lint Like It’s 2015 — Medium</a></p>
+<p><a href="https://www.youtube.com/watch?v=gsfbh17Ax9I" target="_blank" rel="external">Are Semicolons Necessary in JavaScript? - YouTube</a></p>
+<ul>
+<li>IIFE</li>
+<li>array</li>
+<li>return</li>
+</ul>
+<h4 id="ESLint"><a href="#ESLint" class="headerlink" title="ESLint"></a>ESLint</h4><p><a href="http://eslint.org/" target="_blank" rel="external">ESLint - Pluggable JavaScript linter</a><br><a href="http://eslint.org/docs/rules/" target="_blank" rel="external">List of available rules - ESLint</a><br><a href="http://eslint.org/docs/user-guide/configuring#configuring-rules" target="_blank" rel="external">Documentation - ESLint</a>: disabling rule for temporarily</p>
+<p><a href="http://lewisjellis.com/eslint101/" target="_blank" rel="external">ESLint 101</a><br><a href="https://github.com/babel/babel-eslint" target="_blank" rel="external">babel/babel-eslint</a> Babel parser, needed if you use ES6 syntax (e.g. rest/spread)</p>
+<p>config:<br><a href="https://www.npmjs.com/browse/keyword/eslintplugin" target="_blank" rel="external">npm “eslintplugin”</a><br><a href="http://standardjs.com/" target="_blank" rel="external">JavaScript Standard Style</a> uses ESLint internally, saves you from the hassle of managing configurations and arguments over style<br><a href="https://github.com/feross/standard" target="_blank" rel="external">feross/standard</a><br><a href="https://github.com/feross/snazzy" target="_blank" rel="external">feross/snazzy</a> <code>standard</code> with color<br><a href="https://github.com/flet/standard-tap" target="_blank" rel="external">Flet/standard-tap</a> to TAP and use your TAP reporter<br><a href="https://github.com/Flet/semistandard" target="_blank" rel="external">Flet/semistandard</a><br><a href="https://github.com/yannickcr/eslint-plugin-react" target="_blank" rel="external">yannickcr/eslint-plugin-react</a><br><a href="http://blog.javascripting.com/2015/09/07/fine-tuning-airbnbs-eslint-config/" target="_blank" rel="external">Fine-Tuning AirBnB’s ESLint Config</a><br><a href="https://github.com/nodesecurity/eslint-plugin-security" target="_blank" rel="external">nodesecurity/eslint-plugin-security</a></p>
+<h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><p><a href="http://lifeofjs.com/" target="_blank" rel="external">Life of JavaScript</a><br><a href="http://paazmaya.gitbooks.io/modern-web-tools-with-node-js/content/" target="_blank" rel="external">Modern Web tools with Node.js</a><br><a href="http://www.jscentral.org/resources.html" target="_blank" rel="external">Resources – JS Central</a><br><a href="https://github.com/ericelliott/essential-javascript-links" target="_blank" rel="external">ericelliott/essential-javascript-links</a></p>
+<p><a href="https://egghead.io/series/how-to-write-an-open-source-javascript-library" target="_blank" rel="external">How to Write an Open Source JavaScript Library - Video Tutorial Series @eggheadio</a></p>
+<h3 id="Derivatives"><a href="#Derivatives" class="headerlink" title="Derivatives"></a>Derivatives</h3><p><a href="http://gofore.com/ohjelmistokehitys/make-es6-coffee/" target="_blank" rel="external">Make ES6, Not Coffee » Gofore</a></p>
+<p><a href="https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS" target="_blank" rel="external">List of languages that compile to JS · jashkenas/coffeescript Wiki</a></p>
+<p><a href="http://coffee.brianshumate.com/content/" target="_blank" rel="external">A Little Coffee Guidebook</a></p>
+<p><a href="http://livescript.net/" target="_blank" rel="external">LiveScript - a language which compiles to JavaScript</a></p>
+<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><p><a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="external">getify/You-Dont-Know-JS</a><br><a href="https://www.gitbook.com/book/gitbookio/javascript/details" target="_blank" rel="external">Learn Javascript - GitBook</a><br><a href="http://speakingjs.com/es5/" target="_blank" rel="external">Speaking JavaScript</a> (Axel Rauschmayer, ES5)<br><a href="http://chimera.labs.oreilly.com/books/1234000000262/index.html" target="_blank" rel="external">Programming JavaScript Applications</a> (Eric Elliott)<br><a href="http://eloquentjavascript.net/" target="_blank" rel="external">Eloquent JavaScript</a> (Marijn Haverbeke, ES5, Node.js and Browser)<br><a href="http://read.humanjavascript.com/" target="_blank" rel="external">Human JavaScript</a></p>
+<p><a href="http://exploringjs.com/es6/" target="_blank" rel="external">Exploring ES6</a> (Axel Rauschmayer, ES6)<br><a href="https://leanpub.com/understandinges6/read" target="_blank" rel="external">Understanding ECMAScript 6 | Leanpub</a> (Nicholas C. Zakas)<br><a href="https://leanpub.com/javascriptallongesix/read" target="_blank" rel="external">JavaScript Allongé, The “Six” Edition | Leanpub</a> (Reg “raganwald” Braithwaite, FP, OOP)<br><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" target="_blank" rel="external">Learning JavaScript Design Patterns</a><br><a href="http://book.mixu.net/node/index.html" target="_blank" rel="external">Table of Contents - Mixu’s Node book</a></p>
+<p><a href="http://steven2y.gitbooks.io/js-jottings/content/" target="_blank" rel="external">JS Jottings</a> (Javascript and its quirks, ES5, ES6)</p>
+<p><a href="http://jsbooks.revolunet.com/" target="_blank" rel="external">JSbooks - free javascript books</a></p>
+<h3 id="Course"><a href="#Course" class="headerlink" title="Course"></a>Course</h3><p><a href="http://www.codecademy.com/en/tracks/javascript/" target="_blank" rel="external">JavaScript | Codecademy</a></p>
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p><a href="http://www.2ality.com/2013/06/video-es6.html" target="_blank" rel="external">Video: An overview of ECMAScript 6</a><br><a href="http://www.2ality.com/2012/11/es6-talks.html" target="_blank" rel="external">Four talks on ECMAScript 6/ECMAScript.next</a><br><a href="https://www.youtube.com/watch?v=Fg3bEZIcnUw" target="_blank" rel="external">#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part I - YouTube</a><br><a href="https://www.youtube.com/watch?v=Vhhq1WpzsnM" target="_blank" rel="external">#RSConf. Dr. Axel Rauschmayer. Using ECMAScript 6 today. Part II - YouTube</a></p>
+<p><a href="https://github.com/bolshchikov/js-must-watch" target="_blank" rel="external">bolshchikov/js-must-watch</a><br><a href="https://www.youtube.com/channel/UCzVnCG4ItKitN1SCBM7-AbA" target="_blank" rel="external">Javascript Planet - YouTube</a><br><a href="https://www.youtube.com/channel/UChTJTbr5kf3hYazJZO-euHg" target="_blank" rel="external">NodeJS Fan - YouTube</a></p>
+<h3 id="Isomorphism"><a href="#Isomorphism" class="headerlink" title="Isomorphism"></a>Isomorphism</h3><p><a href="http://isomorphic.net/" target="_blank" rel="external">Isomorphic JavaScript - The future of web app development</a></p>
+<p><a href="https://medium.com/@mjackson/universal-javascript-4761051b7ae9" target="_blank" rel="external">Universal JavaScript — Medium</a><br><a href="http://www.2ality.com/2015/08/isomorphic-javascript.html" target="_blank" rel="external">Is “Isomorphic JavaScript” a good term?</a></p>
+<p><a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/" target="_blank" rel="external">Isomorphic JavaScript: The Future of Web Apps - Airbnb Engineering</a><br><a href="https://tech.coursera.org/blog/2015/08/18/why-and-how-coursera-does-isomorphic-javascript-a-fast-and-snappy-quiz/" target="_blank" rel="external">Why and How Coursera Does Isomorphic Javascript: A Fast and Snappy Quiz - Coursera Technology</a><br><a href="https://tech.coursera.org/blog/2015/10/01/how-to-migrate-react-to-isomorphic-rendering/" target="_blank" rel="external">How to Migrate React to Isomorphic Rendering - Coursera Technology</a></p>
+<p><a href="https://github.com/spikebrehm/isomorphic-examples" target="_blank" rel="external">spikebrehm/isomorphic-examples</a><br><a href="https://github.com/spikebrehm/isomorphic-tutorial" target="_blank" rel="external">spikebrehm/isomorphic-tutorial</a><br><a href="https://github.com/RickWong/react-isomorphic-starterkit" target="_blank" rel="external">RickWong/react-isomorphic-starterkit</a><br><a href="https://github.com/tildeio/ember-cli-fastboot" target="_blank" rel="external">tildeio/ember-cli-fastboot</a></p>
+<h3 id="wat"><a href="#wat" class="headerlink" title="wat"></a>wat</h3><p><a href="https://www.destroyallsoftware.com/talks/wat" target="_blank" rel="external">Wat — Destroy All Software Talks</a></p>
+<h2 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h2><blockquote>
+<p>also read <a href="#javascript">JavaScript</a></p>
+</blockquote>
+<p><a href="http://thenodeway.io/" target="_blank" rel="external">The Node Way</a><br><a href="http://www.nodelabs.org/" target="_blank" rel="external">Node Labs</a></p>
+<p><a href="https://www.joyent.com/developers/node" target="_blank" rel="external">Production Practices - Developer Center - Joyent</a></p>
+<h3 id="Video-1"><a href="#Video-1" class="headerlink" title="Video"></a>Video</h3><p><a href="http://nodetuts.com/index.html" target="_blank" rel="external">Node Tuts</a><br><a href="http://www.learnallthenodes.com/" target="_blank" rel="external">Learn All The Nodes</a></p>
+<h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><p><a href="https://developers.google.com/web/fundamentals/" target="_blank" rel="external">Web Fundamentals — Google Developers</a><br><a href="https://docs.webplatform.org/wiki/Main_Page" target="_blank" rel="external">WebPlatform Docs · WebPlatform Docs · WPD · WebPlatform.org</a><br><a href="http://htmlcsstherightway.org/" target="_blank" rel="external">HTML CSS: The Right Way</a><br><a href="http://diveintohtml5.info/" target="_blank" rel="external">Dive Into HTML5</a><br><a href="http://www.html5rocks.com/en/" target="_blank" rel="external">HTML5 Rocks - A resource for open web HTML5 developers</a><br><a href="http://killer-web-development.com/" target="_blank" rel="external">Learn Web Development</a><br><a href="http://webplatform.adobe.com/" target="_blank" rel="external">Adobe Web Platform Team</a><br><a href="https://scotch.io/" target="_blank" rel="external">Scotch | Developers bringing fire to the people.</a><br><a href="http://uptodate.frontendrescue.org/" target="_blank" rel="external">How to keep up to date on Front-End Technologies - The Recipe</a><br><a href="http://www.sitepoint.com/" target="_blank" rel="external">SitePoint – Learn HTML, CSS, JavaScript, PHP, Ruby &amp; Responsive Design</a><br><a href="http://www.w3resource.com/index.php" target="_blank" rel="external">Web development tutorials | w3resource</a><br><a href="https://github.com/bendc/frontend-guidelines" target="_blank" rel="external">bendc/frontend-guidelines</a><br><a href="http://movethewebforward.org/" target="_blank" rel="external">Move The Web Forward | Guide to getting involved with standards and browser development</a></p>
+<p><a href="http://blog.revolunet.com/blog/2015/09/04/the-web-developer-survival-guide/" target="_blank" rel="external">The web developer survival guide - revolunet blog</a></p>
+<p><a href="http://singlepageappbook.com/single-page.html" target="_blank" rel="external">Single page apps in depth (a.k.a. Mixu’ single page app book)</a><br><a href="http://www.staticapps.org/" target="_blank" rel="external">Static Web Apps - A Field Guide</a></p>
+<p><a href="http://www.oreilly.com/programming/free/native-javascript-apis.csp" target="_blank" rel="external">The Problem with Native JavaScript APIs - O’Reilly Media</a><br><a href="http://chimera.labs.oreilly.com/books/1230000000545/index.html" target="_blank" rel="external">High Performance Browser Networking</a><br><a href="http://www.bookofspeed.com/index.html" target="_blank" rel="external">Book of Speed</a></p>
+<p><a href="http://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/" target="_blank" rel="external">An Introduction To DOM Events – Smashing Magazine</a></p>
+<p><a href="https://github.com/pazguille/offline-first" target="_blank" rel="external">pazguille/offline-first</a></p>
+<p><a href="http://12factor.net/" target="_blank" rel="external">The Twelve-Factor App</a><br><a href="http://coolshell.cn/articles/6043.html" target="_blank" rel="external">Web开发中需要了解的东西 | 酷 壳 - CoolShell.cn</a></p>
+<p><a href="http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html" target="_blank" rel="external">Stop pushing the web forward - QuirksBlog</a><br><a href="http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html" target="_blank" rel="external">Tools don’t solve the web’s problems, they ARE the problem - QuirksBlog</a></p>
+<h3 id="tools"><a href="#tools" class="headerlink" title="tools"></a>tools</h3><p><a href="http://www.sitepoint.com/drowning-in-tools-web-development-industry/" target="_blank" rel="external">Drowning in Tools in the Web Development Industry</a><br><a href="http://keycod.es/" target="_blank" rel="external">keycod.es</a></p>
+<p><a href="https://mothereff.in/" target="_blank" rel="external">Web developer tools</a><br><a href="https://github.com/miripiruni/frontdesk" target="_blank" rel="external">miripiruni/frontdesk</a><br><a href="http://tooling.github.io/book-of-modern-frontend-tooling/" target="_blank" rel="external">Book of Modern frontend tooling</a><br><a href="http://html5please.com/" target="_blank" rel="external">HTML5 Please - Use the new and shiny responsibly</a><br><a href="http://www.sitepoint.com/20-docs-guides-front-end-developers/" target="_blank" rel="external">20 Useful Docs and Guides for Front-End Developers</a><br><a href="http://www.sitepoint.com/20-more-docs-guides-front-end-developers/" target="_blank" rel="external">20 More Docs and Guides for Front-End Developers</a><br><a href="http://www.sitepoint.com/another-20-docs-guides-front-end-developers/" target="_blank" rel="external">Another 20 Docs and Guides for Front-End Developers</a><br><a href="http://www.sitepoint.com/20-docs-guides-front-end-developers-4/" target="_blank" rel="external">20 Docs and Guides for Front-End Developers (No. 4)</a></p>
+<p><a href="https://www.udacity.com/course/browser-rendering-optimization--ud860" target="_blank" rel="external">Browser Rendering Optimization - Udacity</a></p>
+<h3 id="demos"><a href="#demos" class="headerlink" title="demos"></a>demos</h3><p><a href="http://html5demos.com/" target="_blank" rel="external">HTML5 Demos and Examples</a><br><a href="http://html5-demos.appspot.com/" target="_blank" rel="external">HTML5 Demos</a><br><a href="https://developer.mozilla.org/en-US/demos/" target="_blank" rel="external">Demo Studio | MDN</a></p>
+<h3 id="list_of_resources"><a href="#list_of_resources" class="headerlink" title="list of resources"></a>list of resources</h3><p><a href="https://github.com/ripienaar/free-for-dev" target="_blank" rel="external">ripienaar/free-for-dev</a><br><a href="http://thetoolbox.cc/" target="_blank" rel="external">The Toolbox: a directory of the best time-saving apps and tools</a><br><a href="http://superherojs.com/" target="_blank" rel="external">Superhero.js</a><br><a href="http://codevisually.com/" target="_blank" rel="external">CodeVisually | Web Developer Tools &amp; Resources</a><br><a href="http://shitformakingwebsites.com/" target="_blank" rel="external">shit for making websites</a><br><a href="http://microjs.com/#" target="_blank" rel="external">Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!</a><br><a href="http://jster.net/" target="_blank" rel="external">Javascript Territory - JSter Javascript Catalog</a><br><a href="http://www.javascripting.com/" target="_blank" rel="external">JavaScripting.com - The Database of JavaScript Libraries</a><br><a href="http://plainjs.com/" target="_blank" rel="external">plainJS - The Vanilla JavaScript Repository</a></p>
+<p><a href="http://libscore.com/" target="_blank" rel="external">Libscore</a> scan site for library usage<br><a href="https://sibbell.com/about/" target="_blank" rel="external">Sibbell</a> get release updates for your starred projects.</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/philosophy/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/web-development/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -338,8 +419,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-27 </div>
-			<div class="article-title"><a href="/software-licensing-dev/" >Software Licensing (dev)</a></div>						
+			<div class="date"> 2015-11-04 </div>
+			<div class="article-title"><a href="/plasma/" >Plasma</a></div>						
 		</h3>
 	
 
@@ -350,15 +431,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://github.com/bdrister/AquaticPrime" target="_blank" rel="external">bdrister/AquaticPrime</a></p>
-<p><a href="http://www.tempel.org/UsingAquaticPrime/" target="_blank" rel="external">Thomas Tempelmann | Adding copy protection &amp; using the AquaticPrime licensing framework</a></p>
+	  <p><a href="http://www.wikiwand.com/en/Plasma_gasification" target="_blank" rel="external">Plasma gasification - Wikiwand</a><br><a href="http://science.howstuffworks.com/environmental/energy/plasma-converter.htm" target="_blank" rel="external">How Plasma Converters Work - HowStuffWorks</a><br><a href="http://www.stuffyoushouldknow.com/podcasts/please-listen-to-how-plasma-waste-converters-work/" target="_blank" rel="external">How Plasma Waste Converters Work | Stuff You Should Know: The Podcast</a></p>
+<p>Zinc? gas generates power<br>Synthetic gas<br>Slag</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/software-licensing-dev/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/plasma/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -366,8 +447,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-25 </div>
-			<div class="article-title"><a href="/ux/" >User Experience (UX)</a></div>						
+			<div class="date"> 2015-11-04 </div>
+			<div class="article-title"><a href="/fuel-cell/" >Fuel Cell</a></div>						
 		</h3>
 	
 
@@ -378,19 +459,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://wordpress.com/design-handbook/" target="_blank" rel="external">WordPress.com Design Handbook</a><br><a href="https://www.google.com/design/" target="_blank" rel="external">Google Design</a><br><a href="https://www.google.com/design/spec/" target="_blank" rel="external">Material design - Google design guidelines</a><br><a href="http://resources.ogdesign.tw/" target="_blank" rel="external">設計必備資源總匯 - 奧革設計</a><br><a href="http://blog.clifftechnologies.com.tw/category/web-design/" target="_blank" rel="external">網站設計 Archives - myCAD</a><br><a href="http://blog.fourdesire.com/" target="_blank" rel="external">Fourdesire</a></p>
-<p><a href="http://blog.codinghorror.com/the-god-login/" target="_blank" rel="external">The God Login</a><br><a href="http://ui-patterns.com/blog/How-to-get-better-at-UI-design" target="_blank" rel="external">How to get better at UI and UX design</a></p>
-<p><a href="http://maximebodereau.gitbooks.io/ux/content/" target="_blank" rel="external">Ux for Beginner</a><br><a href="http://www.anotheruiguy.com/ux-design-dev/_book/" target="_blank" rel="external">UX Design and Development course</a><br><a href="https://www.coursera.org/specialization/humancomputerinteraction/28" target="_blank" rel="external">Human Computer Interaction: User Experience and User Interface Design Certificate | Coursera</a><br><a href="https://www.udacity.com/course/design101" target="_blank" rel="external">Intro to the Design of Everyday Things - Udacity</a><br><a href="https://www.udacity.com/course/ud849" target="_blank" rel="external">UX Design for Mobile Developers Course - Udacity</a></p>
-<h2 id="Patterns">Patterns</h2><p><a href="http://zurb.com/patterntap" target="_blank" rel="external">PatternTap | ZURB Library</a><br><a href="http://pttrns.com/" target="_blank" rel="external">Pttrns | Mobile design patterns, resources and inspiration</a><br><a href="http://ui-patterns.com/" target="_blank" rel="external">UI-Patterns.com</a></p>
-<h2 id="Colors">Colors</h2><p><a href="http://coolors.co/" target="_blank" rel="external">Coolors - The super fast color schemes generator!</a><br><a href="http://www.colorhexa.com/" target="_blank" rel="external">Color Hex - ColorHexa.com</a><br><a href="https://color.adobe.com/zh/" target="_blank" rel="external">Adobe Color CC</a></p>
-<h2 id="Responsive_Web_Design_Tools">Responsive Web Design Tools</h2><p><a href="http://responsive.victorcoulon.fr/" target="_blank" rel="external">Responsive Design Bookmarklet</a><br><a href="http://mattkersley.com/responsive/" target="_blank" rel="external">Responsive Design Testing</a></p>
+	  <p><a href="https://www.wikiwand.com/en/Fuel_cell" target="_blank" rel="external">Fuel cell - Wikiwand</a><br><a href="http://americanhistory.si.edu/fuelcells/basics.htm" target="_blank" rel="external">A Basic Overview of Fuel Cell Technology</a></p>
+<p><a href="http://auto.howstuffworks.com/fuel-efficiency/alternative-fuels/fuel-cell.htm" target="_blank" rel="external">How Fuel Cells Work - HowStuffWorks</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/ux/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/fuel-cell/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -398,8 +475,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-22 </div>
-			<div class="article-title"><a href="/mobile-os/" >Mobile OS</a></div>						
+			<div class="date"> 2015-10-27 </div>
+			<div class="article-title"><a href="/drawing/" >Drawing</a></div>						
 		</h3>
 	
 
@@ -410,13 +487,14 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://www.wikiwand.com/en/Comparison_of_mobile_operating_systems">Comparison of mobile operating systems - Wikiwand</a></p>
+	  <p><a href="https://www.youtube.com/channel/UCHu2KNu6TtJ0p4hpSW7Yv7Q" target="_blank" rel="external">Draw with Jazza - YouTube</a></p>
+
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/mobile-os/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/drawing/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -424,8 +502,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-21 </div>
-			<div class="article-title"><a href="/apache/" >Apache</a></div>						
+			<div class="date"> 2015-10-25 </div>
+			<div class="article-title"><a href="/popcorn-time/" >PopcornTime</a></div>						
 		</h3>
 	
 
@@ -436,18 +514,20 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://perishablepress.com/stupid-htaccess-tricks/" target="_blank" rel="external">Stupid htaccess Tricks | Perishable Press</a><br><a href="http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244" target="_blank" rel="external">Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article</a></p>
-<h3 id="HTTPS">HTTPS</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># generate cert</span></span><br><span class="line">&gt; openssl genrsa -out privatekey.pem <span class="number">1024</span></span><br><span class="line">&gt; openssl req -new -key privatekey.pem -x509 -days <span class="number">7300</span> -out certificate.pem</span><br><span class="line"></span><br><span class="line">Loading <span class="string">'screen'</span> into random state - <span class="keyword">done</span></span><br><span class="line">You are about to be asked to enter information that will be incorporated</span><br><span class="line">into your certificate request.</span><br><span class="line">What you are about to enter is what is called a Distinguished Name or a DN.</span><br><span class="line">There are quite a few fields but you can leave some blank</span><br><span class="line">For some fields there will be a default value,</span><br><span class="line">If you enter <span class="string">'.'</span>, the field will be left blank.</span><br><span class="line">-----</span><br><span class="line">Country Name (<span class="number">2</span> letter code) [AU]:tw</span><br><span class="line">State or Province Name (full name) [Some-State]:Taiwan</span><br><span class="line">Locality Name (eg, city) []:Taipei</span><br><span class="line">Organization Name (eg, company) [Internet Widgits Pty Ltd]:MyCompany</span><br><span class="line">Organizational Unit Name (eg, section) []:IT-Dept</span><br><span class="line">Common Name (e.g. server FQDN or YOUR name) []:ssl.mycompany.com.tw</span><br><span class="line">Email Address []:</span><br></pre></td></tr></table></figure>
-<p>Configure Apache:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#60;VirtualHost *:80&#62;&#10;       ServerAdmin                   # &#38651;&#23376;&#37109;&#20214;&#20449;&#31665;&#65292;&#21487;&#20219;&#24847;&#22635;&#65292;&#20294;&#19981;&#33021;&#28858;&#31354;&#20540;&#10;       DocumentRoot                  # &#32178;&#31449;&#26681;&#30446;&#37636;&#10;       ServerName                    # &#32178;&#31449;domain&#65292;&#38656;&#33287;&#21069;&#38754;&#30340;CommonName&#20839;&#23481;&#30456;&#21516;&#10;       ErrorLog logs/error_log&#10;       CustomLog logs/access_log common&#10;       #SSLEngine on&#10;       SSLCertificateFile            # server.crt&#30340;&#23436;&#25972;&#36335;&#24465;&#10;       SSLCertificateKeyFile         # server.key&#30340;&#23436;&#25972;&#36335;&#24465;&#10;&#60;/VirtualHost&#62;</span><br></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">apache -D SSL</span><br></pre></td></tr></table></figure>
+	  <p>PopcornTime is an app built upon web technology (Electron) for streaming contents via bittorrent. It was shutdown in March 2014.<br><a href="https://torrentfreak.com/popcorn-time-shuts-down-then-gets-resurrected-by-yts-yify-140315/" target="_blank" rel="external">Popcorn Time Shuts Down, Then Gets Resurrected by YTS (YIFY) - TorrentFreak</a></p>
+<p>PopcornTime.io was the PopcornTime fork backed by the original team. It was shutdown in October 2015.<br><a href="https://torrentfreak.com/
+popcorn-time-chaos-triggers-more-downtime-151023/" target="_blank" rel="external">Popcorn Time Chaos Leads to Shutdown - TorrentFreak</a></p>
+<p>The core technology was forked as Butter Project. Sources will be implemented as add-ons (like the Kodi project).<br><a href="http://butterproject.org/" target="_blank" rel="external">Butter Project - Watch movies and TV shows instantly!</a></p>
+<p><a href="https://www.reddit.com/r/PopCornTime/" target="_blank" rel="external">r/PopcornTime</a><br><a href="https://www.reddit.com/r/ButterProject/" target="_blank" rel="external">r/ButterProject</a></p>
+<p>Use TV endpoint <code>http://eztvapi.co.za/</code> for now.</p>
+<p>Time4Popcorn (popcorn-time.se) was the other fork but embeds adware.</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/apache/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/popcorn-time/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -455,8 +535,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-21 </div>
-			<div class="article-title"><a href="/wordpress-dev/" >WordPress (dev)</a></div>						
+			<div class="date"> 2015-10-19 </div>
+			<div class="article-title"><a href="/robotics/" >Robotics</a></div>						
 		</h3>
 	
 
@@ -467,66 +547,14 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://make.wordpress.org/" target="_blank" rel="external">WordPress › Make WordPress</a><br><a href="https://make.wordpress.org/core/handbook/" target="_blank" rel="external">WordPress › Handbook « Make WordPress Core</a></p>
-<h2 id="Resources">Resources</h2><p><a href="http://wordpress.stackexchange.com/" target="_blank" rel="external">WordPress Development Stack Exchange</a><br><a href="http://www.instantwp.com/" target="_blank" rel="external">Instant WordPress</a><br><a href="http://wp-cli.org/" target="_blank" rel="external">Command line interface for WordPress | WP-CLI</a>  </p>
-<h3 id="Sites">Sites</h3><p><a href="https://digwp.com/" target="_blank" rel="external">Digging Into WordPress | Take your WordPress skills to the next level.</a><br><a href="http://wparena.com/" target="_blank" rel="external">WordPress Arena</a><br><a href="http://wpengineer.com/" target="_blank" rel="external">WordPress News, Hacks, Tips, Tutorials, Plugins and Themes - WP Engineer</a><br><a href="http://wpengineer.com/category/wordpress-hacks/" target="_blank" rel="external">WordPress Hacks - WP Engineer</a><br><a href="http://wpsmith.net/" target="_blank" rel="external">WP Smith - My Journey with WordPress &amp; Genesis</a><br><a href="https://pippinsplugins.com/" target="_blank" rel="external">Home - Pippins Plugins</a></p>
-<h3 id="Books">Books</h3><p><a href="http://gfazioli.gitbooks.io/wpdk/content/" target="_blank" rel="external">WPDK</a><br><a href="http://www.wptherightway.org/en/index.html" target="_blank" rel="external">WordPress The Right Way</a><br><a href="http://yager.gitbooks.io/yager-wordpress/content/" target="_blank" rel="external">雅戈的WordPress教程</a></p>
-<h3 id="Tips">Tips</h3><p><a href="https://perishablepress.com/stupid-wordpress-tricks/" target="_blank" rel="external">Stupid WordPress Tricks | Perishable Press</a><br><a href="http://wpengineer.com/2382/wordpress-constants-overview/" target="_blank" rel="external">WordPress constants overview - WP Engineer</a><br><a href="http://www.wpbeginner.com/beginners-guide/14-most-common-wordpress-errors-and-how-to-fix-them/" target="_blank" rel="external">14 Most Common WordPress Errors and How to Fix Them</a><br><a href="http://wparena.com/how-to/some-of-the-most-common-mistakes-in-blogging/" target="_blank" rel="external">Some of the most common Mistakes in Blogging | WordPress Arena</a><br><a href="https://markjaquith.wordpress.com/2009/12/14/excluding-your-plugin-or-theme-from-update-checks/" target="_blank" rel="external">Excluding your plugin or theme from update checks | Mark on WordPress</a><br><a href="http://wpengineer.com/2237/whats-the-difference-between-__-_e-_x-and-_ex/" target="_blank" rel="external">What’s the difference between __(), _e(), _x(), and _ex()? - WP Engineer</a></p>
-<p><a href="http://wpengineer.com/category/wordpress-tutorials/" target="_blank" rel="external">WordPress Tutorials - WP Engineer</a></p>
-<h2 id="Security">Security</h2><p><a href="http://wparena.com/how-to/security-measures-to-keep-wordpress-powered-websites-more-secure/" target="_blank" rel="external">Security Measures to keep WordPress powered Websites more Secure | WordPress Arena</a></p>
-<p><a href="https://perishablepress.com/important-security-fix-for-wordpress/" target="_blank" rel="external">Important Security Fix for WordPress | Perishable Press</a></p>
-<p><a href="https://codex.wordpress.org/Changing_File_Permissions" target="_blank" rel="external">Changing File Permissions « WordPress Codex</a></p>
-<p><a href="http://www.shoutmeloud.com/how-to-change-wordpress-default-username-security.html" target="_blank" rel="external">How To Change Wordpress Default ‘Admin” Username</a></p>
-<p><a href="http://wparena.com/how-to/how-to-prevent-access-to-wordpress-administration-menu-items/" target="_blank" rel="external">How to prevent access to WordPress Administration Menu items | WordPress Arena</a></p>
-<p><a href="http://wparena.com/how-to/making-your-wordpress-site-more-secure-by-adding-https-and-ssl/" target="_blank" rel="external">Making your WordPress site More Secure by Adding HTTPS and SSL | WordPress Arena</a><br><a href="http://www.elegantthemes.com/blog/tips-tricks/how-to-use-ssl-https-with-wordpress" target="_blank" rel="external">How To Use SSL &amp; HTTPS With WordPress | Elegant Themes Blog</a><br><a href="http://code.tutsplus.com/tutorials/options-for-ssl-in-wordpress--cms-21995" target="_blank" rel="external">Options for SSL in WordPress - Tuts+ Code Tutorial</a><br><a href="http://ryan.boren.me/2008/07/14/ssl-and-cookies-in-wordpress-26/" target="_blank" rel="external">SSL and Cookies in WordPress 2.6 | Ryan Boren</a>  </p>
-<p><a href="https://www.sitestillup.com/how-to-lock-down-wordpress-admin-section-by-ip.html" target="_blank" rel="external">Secure WordPress with IP restricted access</a><br><a href="http://www.wpoptimus.com/912/ban-ip-addresses-login-wordpress-dashboard/" target="_blank" rel="external">How to Restrict IP Addresses to Login on WordPress Dashboard</a><br><a href="http://www.wpbeginner.com/wp-tutorials/how-to-limit-access-by-ip-to-your-wp-login-php-file-in-wordpress/" target="_blank" rel="external">How to Limit Access by IP to Your wp-login.php file in WordPress</a>  </p>
-<h2 id="Insert_Sample_Data">Insert Sample Data</h2><p><a href="https://codex.wordpress.org/Function_Reference" target="_blank" rel="external">Function Reference « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_category" target="_blank" rel="external">Function Reference/wp insert category « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_term" target="_blank" rel="external">Function Reference/wp insert term « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_insert_post" target="_blank" rel="external">Function Reference/wp insert post « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_trash_post" target="_blank" rel="external">Function Reference/wp trash post « WordPress Codex</a>  </p>
-<p><code>themes/exclusive/admin/install_sampl_date.php</code></p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Check if category already exists</span></span><br><span class="line"><span class="variable">$cat_ID</span> = get_cat_ID( <span class="variable">$category</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">//If it doesn't exist create new category</span></span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$cat_ID</span> == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="variable">$my_cat</span> = <span class="keyword">array</span>(</span><br><span class="line">        <span class="string">'cat_name'</span> =&gt; <span class="string">'My Category'</span>, </span><br><span class="line">        <span class="string">'category_description'</span> =&gt; <span class="string">'A Cool Category'</span>, </span><br><span class="line">        <span class="string">'category_nicename'</span> =&gt; <span class="string">'category-slug'</span>, </span><br><span class="line">        <span class="string">'category_parent'</span> =&gt; <span class="string">''</span>,</span><br><span class="line">        <span class="string">'taxonomy'</span> =&gt; <span class="string">'category'</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    <span class="variable">$my_cat_id</span> = wp_insert_category(<span class="variable">$my_cat</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// this is practically what wp_insert_category() does underneath</span></span><br><span class="line"><span class="keyword">if</span>(!term_exists(<span class="string">'sample-category'</span>)) &#123;</span><br><span class="line">    wp_insert_term(</span><br><span class="line">        <span class="string">'Sample Category'</span>,</span><br><span class="line">        <span class="string">'category'</span>,</span><br><span class="line">        <span class="keyword">array</span>(</span><br><span class="line">          <span class="string">'description'</span> =&gt; <span class="string">'This is an sample category.'</span>,</span><br><span class="line">          <span class="string">'slug'</span>        =&gt; <span class="string">'sample-category'</span></span><br><span class="line">        )</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Plugins">Plugins</h2><p><a href="http://codex.wordpress.org/Plugins" target="_blank" rel="external">Plugins « WordPress Codex</a>  </p>
-<p><a href="https://wordpress.org/plugins/" target="_blank" rel="external">WordPress › WordPress Plugins</a><br><a href="http://codex.wordpress.org/Writing_a_Plugin" target="_blank" rel="external">Writing a Plugin « WordPress Codex</a><br><a href="http://codex.wordpress.org/Plugin_API" target="_blank" rel="external">Plugin API « WordPress Codex</a><br><a href="http://wpengineer.com/353/how-to-improve-wordpress-plugins/#more-353" target="_blank" rel="external">How To Improve WordPress Plugins - WP Engineer</a>  </p>
-<p><a href="http://wppb.io/" target="_blank" rel="external">The WordPress Plugin Boilerplate | A Foundation For Building High-Quality WordPress Plugins</a><br><a href="http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-why-boilerplates-matter--wp-29298" target="_blank" rel="external">Developing Plugins With WordPress Boilerplates: Why Boilerplates Matter - Tuts+ Code Article</a><br><a href="http://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-building-a-plugin--wp-29300" target="_blank" rel="external">Developing Plugins With WordPress Boilerplates: Building a Plugin - Tuts+ Code Article</a>  </p>
-<p><a href="http://aesopstoryengine.com/" target="_blank" rel="external">Aesop Story Engine</a><br><a href="http://www.linux.org/threads/helpful-wordpress-plugins.7765/" target="_blank" rel="external">Helpful Wordpress Plugins | Linux.org</a>  </p>
-<h2 id="Themes">Themes</h2><p><a href="https://codex.wordpress.org/Theme_Development" target="_blank" rel="external">Theme Development « WordPress Codex</a><br><a href="https://developer.wordpress.org/themes/getting-started/" target="_blank" rel="external">WordPress › Getting Started | Theme Developer Handbook | WordPress Developer Resources</a>  </p>
-<p><a href="http://codex.wordpress.org/Theme_Customization_API" target="_blank" rel="external">Theme Customization API « WordPress Codex</a><br><a href="https://codex.wordpress.org/Stepping_Into_Templates" target="_blank" rel="external">Stepping into Templates « WordPress Codex</a><br><a href="https://codex.wordpress.org/Template_Tags" target="_blank" rel="external">Template Tags « WordPress Codex</a><br><a href="https://codex.wordpress.org/Theme_Features" target="_blank" rel="external">Theme Features « WordPress Codex</a></p>
-<p><a href="http://code.tutsplus.com/series/writing-maintainable-wordpress-themes--cms-659" target="_blank" rel="external">Writing Maintainable WordPress Themes - Tuts+ Code Tutorials</a></p>
-<p><a href="http://tommcfarlin.com/maintainable-wordpress-themes/" target="_blank" rel="external">Writing Maintainable WordPress Themes | Tom McFarlin</a><br><a href="https://tommcfarlin.com/separation-of-concerns-with-wordpress-templates/" target="_blank" rel="external">Separation of Concerns with WordPress Templates | Tom McFarlin</a><br><a href="https://tommcfarlin.com/wordpress-partials/" target="_blank" rel="external">A Rule of Thumb for WordPress Partials | Tom McFarlin</a><br><a href="http://premium.wpmudev.org/blog/adding-scripts-and-styles-wordpress-enqueueing/" target="_blank" rel="external">Adding Scripts and Styles to WordPress the Right Way With Enqueueing - WPMU DEV</a>  </p>
-<p><a href="http://wpengineer.com/236/perfect-wordpress-theme/" target="_blank" rel="external">10 Checks to the Perfect WordPress theme - WP Engineer</a></p>
-<p><a href="http://automattic.com/code/widgets/themes/" target="_blank" rel="external">Widgetizing Themes — Automattic</a><br><a href="http://codex.wordpress.org/Widgetizing_Themes" target="_blank" rel="external">Widgetizing Themes « WordPress Codex</a></p>
-<p><a href="https://perishablepress.com/easily-adaptable-wordpress-loop-templates/" target="_blank" rel="external">Easily Adaptable WordPress Loop Templates: Basic Loops, Mullet Loops, and More.. | Perishable Press</a></p>
-<p>Also see <a href="#widgets">Widgets</a>  </p>
-<h3 id="Customizing_Theme">Customizing Theme</h3><p><a href="http://wpengineer.com/1650/deactivate-wordpress-default-widgets/" target="_blank" rel="external">Deactivate WordPress Default Widgets - WP Engineer</a></p>
-<p><a href="https://wordpress.org/plugins/customizer-framework/" target="_blank" rel="external">WordPress › Customizer Framework « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/custom-sidebars/" target="_blank" rel="external">WordPress › Custom Sidebars « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/stag-custom-sidebars/" target="_blank" rel="external">WordPress › Stag Custom Sidebars « WordPress Plugins</a><br><a href="https://wordpress.org/plugins/easy-custom-sidebars/" target="_blank" rel="external">WordPress › Easy Custom Sidebars « WordPress Plugins</a>  </p>
-<h3 id="Adding_Sidebar">Adding Sidebar</h3><p><a href="https://codex.wordpress.org/Function_Reference/register_sidebars" target="_blank" rel="external">Function Reference/register sidebars « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/dynamic_sidebar" target="_blank" rel="external">Function Reference/dynamic sidebar « WordPress Codex</a></p>
-<p>Define sidebar in <code>functions.php</code>:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">register_sidebar(<span class="keyword">array</span>(</span><br><span class="line">    <span class="string">'name'</span> =&gt; __(<span class="string">'MySidebar'</span>, <span class="string">'theme'</span>),</span><br><span class="line">    <span class="string">'id'</span> =&gt; <span class="string">'my-sidebar'</span>,</span><br><span class="line">    <span class="string">'description'</span> =&gt; __(<span class="string">'this is a custom sidebar'</span>, <span class="string">'theme'</span>),</span><br><span class="line">    <span class="string">'before_widget'</span> =&gt; <span class="string">'&lt;div class="sidebar-box"&gt;'</span>,</span><br><span class="line">    <span class="string">'after_widget'</span> =&gt; <span class="string">'&lt;/div&gt;'</span>,</span><br><span class="line">    <span class="string">'before_title'</span> =&gt; <span class="string">'&lt;span class="sidebar-title"&gt;'</span>,</span><br><span class="line">    <span class="string">'after_title'</span> =&gt; <span class="string">'&lt;/span&gt;&lt;div class="dots"&gt;&lt;/div&gt;'</span></span><br><span class="line">))</span><br></pre></td></tr></table></figure></p>
-<p>Add to the desired location in the theme:<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"sidebar"</span>&gt;</span></span><br><span class="line">    <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"my-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span></span><br><span class="line">    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"sidebar-box"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"sidebar-title"</span>&gt;</span>MySidebar<span class="tag">&lt;/<span class="title">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">p</span>&gt;</span>Add Widgets to the sidebar 'MySidebar'<span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line">    <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>; <span class="preprocessor">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span><span class="comment">&lt;!-- sidebar --&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>Different sidebar depending on page, usually in <code>sidebar.php</code>:<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line">&lt;div id=<span class="string">"sidebar"</span>&gt;</span><br><span class="line">    <span class="keyword">if</span> ( is_front_page() ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"front-page-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span>front-page-sidebar is empty<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_category(<span class="string">'news'</span>) || in_category(<span class="string">'news'</span>) ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"news-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span>news-sidebar is empty<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_single() ) &#123;  <span class="comment">// is_singular() for both Posts/Pages</span></span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"post-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span>post-sidebar is empty<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">elseif</span> ( is_page() ) &#123;</span><br><span class="line">        <span class="keyword">if</span> ( !dynamic_sidebar(<span class="string">"page-sidebar"</span>) ) : <span class="preprocessor">?&gt;</span></span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span>page-sidebar is empty<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="php"><span class="preprocessor">&lt;?php</span> <span class="keyword">endif</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br></pre></td></tr></table></figure></p>
-<h3 id="Adding_Nav_Meni">Adding Nav Meni</h3><p><a href="https://codex.wordpress.org/Function_Reference/register_nav_menus" target="_blank" rel="external">Function Reference/register nav menus « WordPress Codex</a><br><a href="https://codex.wordpress.org/Function_Reference/wp_nav_menu" target="_blank" rel="external">Function Reference/wp nav menu « WordPress Codex</a></p>
-<p>Define nav_menu in <code>functions.php</code>:<br><figure class="highlight php"><table><tr><td class="code"><pre><span class="line">register_nav_menus( <span class="keyword">array</span>(</span><br><span class="line">    <span class="string">'top-navigation'</span> =&gt; __(<span class="string">'Top Navigation'</span>, <span class="string">'theme'</span>)</span><br><span class="line">) );</span><br></pre></td></tr></table></figure></p>
-<p>Add to the desired location in the theme:<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"header-bottom"</span>&gt;</span></span><br><span class="line">    <span class="php"><span class="preprocessor">&lt;?php</span> wp_nav_menu(<span class="string">'top-navigation'</span>) <span class="preprocessor">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h3 id="Customizer">Customizer</h3><p><a href="http://themefoundation.com/wordpress-theme-customizer/" target="_blank" rel="external">» The WordPress Theme Customizer: a Comprehensive Developer’s Guide</a><br><a href="http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722" target="_blank" rel="external">A Guide to the WordPress Theme Customizer - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/digging-into-the-theme-customizer--wp-33847" target="_blank" rel="external">Digging Into the Theme Customizer - Tuts+ Code Tutorials</a></p>
-<p><a href="https://github.com/paulund/Wordpress-Theme-Customizer-Custom-Controls" target="_blank" rel="external">paulund/wordpress-theme-customizer-custom-controls</a></p>
-<p>Customizer: Theme as documentation<br><a href="https://github.com/bueltge/Documentation" target="_blank" rel="external">bueltge/Documentation</a><br><a href="https://vimeo.com/51533540" target="_blank" rel="external">The Customizer on Vimeo</a><br><a href="http://wpengineer.com/2527/wordpress-theme-customizer-custom-controls/#more-2527" target="_blank" rel="external">WordPress Theme Customizer Custom Controls - WP Engineer</a>  </p>
-<h3 id="Framework">Framework</h3><p><a href="http://themehybrid.com/hybrid-core" target="_blank" rel="external">Hybrid Core WordPress theme framework</a><br><a href="http://whiteboardframework.com/" target="_blank" rel="external">Whiteboard Framework for WordPress</a><br><a href="http://code.tutsplus.com/series/how-theme-frameworks-actually-work--cms-713" target="_blank" rel="external">How Theme Frameworks Actually Work - Tuts+ Code Tutorials</a>  </p>
-<h3 id="Query">Query</h3><p><a href="https://tommcfarlin.com/custom-wordpress-queries/" target="_blank" rel="external">Writing Clean, Maintainable Custom WordPress Queries | Tom McFarlin</a><br><a href="https://tommcfarlin.com/wp_query-pagination/" target="_blank" rel="external">How To Setup Custom Queries For WP_Query Pagination | Tom McFarlin</a><br><a href="https://tommcfarlin.com/separation-of-concerns-with-queries-and-helper-functions/" target="_blank" rel="external">Separation of Concerns: Queries and Helper Functions | Tom McFarlin</a>  </p>
-<p><a href="http://wordpress.stackexchange.com/questions/1753/when-should-you-use-wp-query-vs-query-posts-vs-get-posts" target="_blank" rel="external">wp query - When should you use WP_Query vs query_posts() vs get_posts()? - WordPress Development Stack Exchange</a></p>
-<p><a href="http://code.tutsplus.com/series/mastering-wp_query--cms-818" target="_blank" rel="external">Mastering WP_Query - Tuts+ Code Tutorials</a></p>
-<h3 id="Settings">Settings</h3><p><a href="https://codex.wordpress.org/Settings_API" target="_blank" rel="external">Settings API « WordPress Codex</a><br><a href="https://tommcfarlin.com/tag/sanitization-with-the-wordpress-settings-api/" target="_blank" rel="external">Sanitization with the WordPress Settings API | Tom McFarlin</a><br><a href="http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624" target="_blank" rel="external">The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials</a></p>
-<h3 id="ThemeShaper">ThemeShaper</h3><p><a href="http://themeshaper.com/2012/10/22/the-themeshaper-wordpress-theme-tutorial-2nd-edition/" target="_blank" rel="external">The ThemeShaper WordPress Theme Tutorial: 2nd Edition | ThemeShaper</a><br><a href="http://themeshaper.com/2012/01/17/what-do-you-really-need-in-a-wordpress-starter-theme/" target="_blank" rel="external">What Do You Really Need in a WordPress Starter Theme? | ThemeShaper</a><br><a href="http://themeshaper.com/2012/08/15/underscores-me-the-best-way-to-get-started-with-the-_s-theme/" target="_blank" rel="external">Underscores.me — The Best Way To Get Started With The _s Theme | ThemeShaper</a><br><a href="https://github.com/automattic/_s" target="_blank" rel="external">Automattic/_s</a>  </p>
-<h3 id="Child_Themes">Child Themes</h3><p>You can easily inherit from an existing theme and override the functions.<br>But the theme may not be child friendly (e.g.: using <code>get_template_directory()</code> instead of <code>get_stylesheet_directory()</code>, not using templates). And my experience is that overriding files may cause the child theme to breakdown altogether.<br>I now prefer make a copy of the desired theme, change the code directly and track the modification via git.  </p>
-<p><a href="https://codex.wordpress.org/Child_Themes" target="_blank" rel="external">Child Themes « WordPress Codex</a><br><a href="http://themeshaper.com/modify-wordpress-themes/" target="_blank" rel="external">How To Modify WordPress Themes The Smart Way | ThemeShaper</a><br><a href="http://premium.wpmudev.org/blog/how-to-create-wordpress-child-theme/" target="_blank" rel="external">How to Create a WordPress Child Theme - WPMU DEV</a>  </p>
-<p><a href="http://www.wpbeginner.com/beginners-guide/wordpress-child-theme-pros-cons/" target="_blank" rel="external">What is a WordPress Child Theme? Pros, Cons, and More</a><br><a href="https://wordpress.org/support/topic/overriding-parent-theme-sub-files-with-a-child-theme-how" target="_blank" rel="external">WordPress › Support » Overriding parent theme sub-files with a child theme. HOW?</a><br><a href="https://wordpress.org/support/topic/child-themes-and-php-pages" target="_blank" rel="external">WordPress › Support » Child Themes and PHP pages</a>  </p>
-<h2 id="Widgets">Widgets</h2><p><a href="http://codex.wordpress.org/WordPress_Widgets" target="_blank" rel="external">WordPress Widgets « WordPress Codex</a></p>
-<p><a href="http://wpengineer.com/1023/wordpress-built-a-widget/" target="_blank" rel="external">Build A WordPress 2.8 Widget With The New Widget API - WP Engineer</a></p>
-<h2 id="Tuts+">Tuts+</h2><p><a href="http://code.tutsplus.com/categories/wordpress" target="_blank" rel="external">WordPress - Tuts+ Code Category</a>  </p>
-<p><a href="http://code.tutsplus.com/series/the-complete-guide-to-the-wordpress-settings-api--cms-624" target="_blank" rel="external">The Complete Guide To The WordPress Settings API - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987" target="_blank" rel="external">Making the Perfect WordPress Theme - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/quick-tips-to-boost-your-wordpress-websites-speed--cms-800" target="_blank" rel="external">Quick Tips to Boost Your WordPress Website’s Speed - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/the-tuts-guide-to-template-tags--cms-805" target="_blank" rel="external">The Tuts+ Guide to Template Tags - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/a-walkthrough-on-conditional-tags-in-wordpress--cms-804" target="_blank" rel="external">A Walkthrough on Conditional Tags in WordPress - Tuts+ Code Tutorials</a><br><a href="http://webdesign.tutsplus.com/courses/a-beginners-guide-to-using-wordpress" target="_blank" rel="external">A Beginner’s Guide to Using WordPress - Tuts+ Course</a><br><a href="http://code.tutsplus.com/series/the-beginners-guide-to-wordpress-taxonomies--cms-706" target="_blank" rel="external">The Beginner’s Guide to WordPress Taxonomies - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/articles/the-beginners-guide-to-selecting-a-wordpress-theme--wp-35032" target="_blank" rel="external">The Beginner’s Guide to Selecting a WordPress Theme - Tuts+ Code Article</a><br><a href="http://code.tutsplus.com/series/trim-the-bloat-keeping-wordpress-healthy--cms-758" target="_blank" rel="external">Trim the Bloat: Keeping WordPress Healthy - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/fifty-actions-of-wordpress--cms-708" target="_blank" rel="external">Fifty Actions of WordPress - Tuts+ Code Tutorials</a><br><a href="http://code.tutsplus.com/series/understanding-and-working-with-data-in-wordpress--cms-670" target="_blank" rel="external">Understanding and Working with Data in WordPress - Tuts+ Code Tutorials</a>  </p>
+	  <p><a href="http://www.theroboticschallenge.org/Robots4Us" target="_blank" rel="external">Robots4Us Student Contest | DRC Finals</a><br><a href="https://player.fm/series/techstuff/the-robots4us-challenge" target="_blank" rel="external">The Robots4Us Challenge - TechStuff (podcast)</a><br><a href="https://www.youtube.com/watch?v=g0TaYhjpOfo" target="_blank" rel="external">A Compilation of Robots Falling Down at the DARPA Robotics Challenge - YouTube</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/wordpress-dev/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/robotics/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -534,8 +562,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-20 </div>
-			<div class="article-title"><a href="/bitnami/" >Bitnami</a></div>						
+			<div class="date"> 2015-10-17 </div>
+			<div class="article-title"><a href="/buddhism/" >Buddhism</a></div>						
 		</h3>
 	
 
@@ -546,16 +574,19 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://bitnami.com" target="_blank" rel="external">Bitnami</a> has packaged many applications as standalone apps that will not interfere with the system libraries or apps.<br>If you are deploying more than one application, you may consider setting up the AMP stack and then add application modules on top of it.</p>
-<p><a href="https://bitnami.com/stacks" target="_blank" rel="external">Bitnami Stacks</a><br><a href="https://bitnami.com/stack/lamp" target="_blank" rel="external">LAMP Stack Cloud Hosting, LAMP Stack Hosting - Installers and VM</a><br><a href="https://bitnami.com/stack/lamp/modules" target="_blank" rel="external">LAMP Stack Application Modules</a><br><a href="https://bitnami.com/stack/lapp" target="_blank" rel="external">LAPP Stack Cloud Hosting, LAPP Stack Hosting - Installers and VM</a><br><a href="https://bitnami.com/stack/lapp/modules" target="_blank" rel="external">LAPP Stack Application Modules</a></p>
-<p><a href="https://wiki.bitnami.com/Native_Installers_Quick_Start_Guide" target="_blank" rel="external">Native Installers Quick Start Guide - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Infrastructure_Stacks/BitNami_AMP_Stacks" target="_blank" rel="external">Bitnami AMP Stacks - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Infrastructure_Stacks/Bitnami_Nginx_Stack" target="_blank" rel="external">Bitnami Nginx Stack - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Applications/BitNami_WordPress" target="_blank" rel="external">Bitnami WordPress - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/Apache" target="_blank" rel="external">Apache - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/MySQL" target="_blank" rel="external">MySQL - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/PHP" target="_blank" rel="external">PHP - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/phpMyAdmin_and_phpPgAdmin" target="_blank" rel="external">phpMyAdmin and phpPgAdmin - Bitnami documentation</a><br><a href="https://wiki.bitnami.com/Components/Varnish" target="_blank" rel="external">Varnish - Bitnami documentation</a></p>
+	  <p><a href="https://www.wikiwand.com/zh/佛教" target="_blank" rel="external">佛教 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/初期佛教" target="_blank" rel="external">原始佛教 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/部派佛教" target="_blank" rel="external">部派佛教 - Wikiwand</a></p>
+<p><a href="https://www.wikiwand.com/zh/大乘佛教" target="_blank" rel="external">大乘 - Wikiwand</a>：菩薩乘<br><a href="https://www.wikiwand.com/zh/二乘" target="_blank" rel="external">二乘</a>：緣覺乘(中乘)、<a href="https://www.wikiwand.com/zh/小乘佛教" target="_blank" rel="external">聲聞乘(小乘)</a></p>
+<p><a href="https://www.wikiwand.com/zh/根本分裂" target="_blank" rel="external">根本分裂 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/分別說部" target="_blank" rel="external">分別說部 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/上座部" target="_blank" rel="external">上座部 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/大眾部" target="_blank" rel="external">大眾部 - Wikiwand</a></p>
+<p><a href="https://www.wikiwand.com/zh/四谛" target="_blank" rel="external">四聖諦 - Wikiwand</a>: 苦諦, 集諦, 滅諦, 道諦<br><a href="https://www.wikiwand.com/zh/八聖道分" target="_blank" rel="external">八正道 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/十二因缘" target="_blank" rel="external">十二因缘 - Wikiwand</a><br><a href="http://www.wikiwand.com/zh-hk/三毒" target="_blank" rel="external">貪瞋癡 - Wikiwand</a></p>
+<p><a href="https://www.wikiwand.com/zh/涅槃" target="_blank" rel="external">涅槃 - Wikiwand</a><br><a href="https://www.wikiwand.com/zh/四向四果" target="_blank" rel="external">四沙門果/聲聞四果 - Wikiwand</a>: 初果<a href="https://www.wikiwand.com/zh/須陀洹" target="_blank" rel="external">須陀洹</a>、二果<a href="https://www.wikiwand.com/zh/斯陀含" target="_blank" rel="external">斯陀含</a>、三果<a href="https://www.wikiwand.com/zh/阿那含" target="_blank" rel="external">阿那含</a>、四果<a href="https://www.wikiwand.com/zh/阿罗汉" target="_blank" rel="external">阿罗汉</a></p>
+<h2 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h2><p><a href="http://www.book853.com/show.aspx?id=66&amp;cid=160" target="_blank" rel="external">禪的智慧　聖嚴法師著_中文版序</a><br><a href="http://www.ctworld.org.tw/meditation/02_frame.htm" target="_blank" rel="external">基本佛學</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/bitnami/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/buddhism/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -563,8 +594,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-18 </div>
-			<div class="article-title"><a href="/paradox/" >Paradox</a></div>						
+			<div class="date"> 2015-10-14 </div>
+			<div class="article-title"><a href="/decision-making/" >Decision Making</a></div>						
 		</h3>
 	
 
@@ -575,17 +606,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://www.wikiwand.com/en/Paradox" target="_blank" rel="external">Paradox - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_paradoxes" target="_blank" rel="external">List of paradoxes - Wikiwand</a></p>
-<h2 id="Zeon’s_Paradox">Zeon’s Paradox</h2><p><a href="http://www.quora.com/Why-cant-mathematics-explain-Zenos-Paradox" target="_blank" rel="external">Why can’t mathematics explain Zeno’s Paradox? - Quora</a><br><a href="http://platonicrealms.com/encyclopedia/zenos-paradox-of-the-tortoise-and-achilles" target="_blank" rel="external">Zeno’s Paradox of the Tortoise and Achilles</a></p>
-<h2 id="Russell’s_Paradox">Russell’s Paradox</h2><p><a href="http://www.wikiwand.com/en/Russell&#39;s_paradox" target="_blank" rel="external">Russell’s paradox - Wikiwand</a></p>
-<p><a href="http://www.wikiwand.com/en/Arrow&#39;s_impossibility_theorem" target="_blank" rel="external">Arrow’s impossibility theorem - Wikiwand</a></p>
+	  <h2 id="Trolley_Problem__28and_variants_29"><a href="#Trolley_Problem__28and_variants_29" class="headerlink" title="Trolley Problem (and variants)"></a>Trolley Problem (and variants)</h2><p><a href="http://www.wikiwand.com/en/Trolley_problem" target="_blank" rel="external">Trolley problem - Wikiwand</a><br><a href="http://people.howstuffworks.com/trolley-problem.htm" target="_blank" rel="external">How the Trolley Problem Works - HowStuffWorks</a><br><a href="http://www.stuffyoushouldknow.com/podcasts/how-trolley-problems-work/" target="_blank" rel="external">How Trolley Problems Work | Stuff You Should Know: The Podcast</a></p>
+<h2 id="Matching_Problem"><a href="#Matching_Problem" class="headerlink" title="Matching Problem"></a>Matching Problem</h2><p><a href="http://freakonomics.com/2015/06/17/make-me-a-match-a-new-freakonomics-radio-episode/" target="_blank" rel="external">Freakonomics » Make Me a Match: A New Freakonomics Radio Episode</a><br>on markets where price is not applicable, matching should be done by a clearing house with stable matching algorithms</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/paradox/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/decision-making/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -593,8 +622,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-17 </div>
-			<div class="article-title"><a href="/ts-analyzer/" >TS Analyzer</a></div>						
+			<div class="date"> 2015-10-09 </div>
+			<div class="article-title"><a href="/cold-weapons/" >Cold Weapons</a></div>						
 		</h3>
 	
 
@@ -605,20 +634,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://dvbsnoop.sourceforge.net/keywords.html" target="_blank" rel="external">dvbsnoop: an Open Source DVB Stream Analyzer / MPEG Stream Analyzer (2)</a></p>
-<p><a href="https://code.google.com/p/ts-packet-anlayser/" target="_blank" rel="external">ts-packet-anlayser - MPEG2 Transport Stream packet decoder, parser, analyser - Google Project Hosting</a></p>
-<p><a href="https://code.google.com/p/tstools/" target="_blank" rel="external">tstools - Cross-platform command line tools for working with MPEG data (TS, PS and ES) - Google Project Hosting</a></p>
-<p><a href="http://www.digitalekabeltelevisie.nl/dvb_inspector/" target="_blank" rel="external">DVB Inspector - Yet Another DVB Analyzer</a></p>
-<p><a href="http://www.pjdaniel.org.uk/mpeg/" target="_blank" rel="external">MPEG-2 Transport Stream packet analyser</a></p>
-<p><a href="http://www.bitstreamtools.com/download/index.php" target="_blank" rel="external">TSPE - Transport Stream Packet Editor / Analyser</a> (Windows, 30 days free trial)</p>
-<p><a href="http://www.coolstf.com/tsreader/" target="_blank" rel="external">TSReader</a> (Windows)</p>
+	  <p><a href="http://www.wikiwand.com/en/Cold_weapon" target="_blank" rel="external">Cold weapon - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_premodern_combat_weapons" target="_blank" rel="external">List of premodern combat weapons - Wikiwand</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLCA860ECD7F894424" target="_blank" rel="external">Weapons and armour - YouTube</a><br><a href="https://www.youtube.com/user/slappybuckshot" target="_blank" rel="external">Walter Sorrells - YouTube</a><br><a href="https://www.youtube.com/user/epicfantasy" target="_blank" rel="external">epicfantasy - YouTube</a><br><a href="https://www.youtube.com/playlist?list=PLUUGFk1wE5OHqeNDwp2q9_ZiPqKlWNc6V" target="_blank" rel="external">Man at Arms: The Complete Series - YouTube</a><br><a href="https://www.youtube.com/watch?v=R62TPFzBQ40" target="_blank" rel="external">Forging a Bronze-Age Sword - YouTube</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/ts-analyzer/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/cold-weapons/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -626,8 +650,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-17 </div>
-			<div class="article-title"><a href="/aws/" >Amazon Web Services</a></div>						
+			<div class="date"> 2015-10-09 </div>
+			<div class="article-title"><a href="/bridges/" >Bridges</a></div>						
 		</h3>
 	
 
@@ -638,14 +662,16 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://github.com/jimeh/skyhook" target="_blank" rel="external">jimeh/skyhook</a><br><a href="https://github.com/jimeh/skyline" target="_blank" rel="external">jimeh/skyline</a></p>
+	  <p><a href="http://www.stuffyoushouldknow.com/podcasts/bridges-nature-abhors-them/" target="_blank" rel="external">Bridges: Nature Abhors Them | Stuff You Should Know: The Podcast</a></p>
+<p><a href="http://science.howstuffworks.com/engineering/civil/bridge1.htm" target="_blank" rel="external">BATS: The Basics of Bridge Design - HowStuffWorks</a></p>
+<p><em>B</em>eam<br><em>A</em>rch<br><em>T</em>russ<br><em>S</em>uspension</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/aws/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/bridges/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -653,8 +679,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-17 </div>
-			<div class="article-title"><a href="/reverse-proxy-dev/" >Reverse Proxy (dev)</a></div>						
+			<div class="date"> 2015-10-09 </div>
+			<div class="article-title"><a href="/food/" >Food</a></div>						
 		</h3>
 	
 
@@ -665,15 +691,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://pow.cx/" target="_blank" rel="external">Pow: Zero-configuration Rack server for Mac OS X</a></p>
-<p><a href="https://github.com/jweslley/bam" target="_blank" rel="external">jweslley/bam</a> (uses Procfile)<br><a href="http://ysbaddaden.github.io/prax/" target="_blank" rel="external">Prax</a><br><a href="http://invoker.codemancers.com/" target="_blank" rel="external">Invoker - A Process Manager</a><br><a href="https://www.phusionpassenger.com/documentation/Users guide Standalone.html" target="_blank" rel="external">Phusion Passenger Standalone users guide</a><br><a href="https://github.com/pyromaniac/hoof/" target="_blank" rel="external">pyromaniac/hoof</a> (no longer maintained)</p>
+	  <p><a href="https://www.youtube.com/channel/UCWUq6teKH18Iwuh41D75sQg" target="_blank" rel="external">foodskey - YouTube</a></p>
+<h2 id="Junk_Food"><a href="#Junk_Food" class="headerlink" title="Junk Food"></a>Junk Food</h2><p><a href="http://www.stuffyoushouldknow.com/podcasts/how-junk-food-works/" target="_blank" rel="external">How Junk Food Works | Stuff You Should Know: The Podcast</a><br><a href="http://recipes.howstuffworks.com/junk-food.htm" target="_blank" rel="external">How Junk Food Works - HowStuffWorks</a></p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/reverse-proxy-dev/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/food/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -681,8 +707,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-17 </div>
-			<div class="article-title"><a href="/unit-test/" >Unit Test</a></div>						
+			<div class="date"> 2015-10-09 </div>
+			<div class="article-title"><a href="/world-history/" >World History</a></div>						
 		</h3>
 	
 
@@ -693,15 +719,20 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://www.wikiwand.com/en/Unit_testing">Unit testing - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_automation">Test automation - Wikiwand</a><br><a href="http://www.wikiwand.com/en/List_of_unit_testing_frameworks">List of unit testing frameworks - Wikiwand</a></p>
-<p><strong>Define:</strong><br>Test runner<br>Assertion<br>Framework</p>
-<h2 id="Ad-hoc_standard">Ad-hoc standard</h2><p><a href="http://www.wikiwand.com/en/XUnit">xUnit - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Test_Anything_Protocol">Test Anything Protocol - Wikiwand</a><br><a href="http://testanything.org/">Main Page - Test Anything Protocol</a></p>
+	  <p><a href="http://www.econtalk.org/archives/2015/05/nicholas_vincen.html" target="_blank" rel="external">Nicholas Vincent on the Magna Carta | EconTalk | Library of Economics and Liberty</a></p>
+<p><a href="http://www.emersonkent.com/" target="_blank" rel="external">World History for the Relaxed Historian</a></p>
+<p><a href="https://www.youtube.com/channel/UCaI59Uhzg6A7Ckx5tiSNJMQ" target="_blank" rel="external">AncientHistory - YouTube</a><br><a href="https://www.youtube.com/playlist?list=PL26F99D743DDB5026" target="_blank" rel="external">Archaeology - YouTube</a></p>
+<p><a href="http://ancientworldpodcast.blogspot.hk/" target="_blank" rel="external">The Ancient World</a><br><a href="http://15minutehistory.org/" target="_blank" rel="external">15 Minute History | A podcast for educators, students, and history buffs</a><br><a href="http://egyptianhistory.libsyn.com/" target="_blank" rel="external">The Egyptian History Podcast</a></p>
+<blockquote>
+<p>TODO: time line of dynasties and events</p>
+</blockquote>
+
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/unit-test/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/world-history/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -709,8 +740,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2015-06-15 </div>
-			<div class="article-title"><a href="/trackball/" >Trackball</a></div>						
+			<div class="date"> 2015-10-09 </div>
+			<div class="article-title"><a href="/morality/" >Morality</a></div>						
 		</h3>
 	
 
@@ -721,14 +752,15 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="http://www.wikiwand.com/en/Trackball">Trackball - Wikiwand</a><br><a href="http://www.techbang.com/posts/11369-trackball-does-not-die-8-trackball-kensington-introduced-logitech-trackball">軌跡球不死！10款軌跡球介紹，羅技、Kensington、SANWA 登場 | T客邦 - 我只推薦好東西</a><br><a href="http://s.taobao.com/search?q=轨迹球">轨迹球_淘宝搜索</a><br><a href="http://allthingsergo.com/blog/reviews/kensington-expert-mouse-trackball/">Kensington Expert Mouse Trackball Review - All Things Ergo Blog</a><br><a href="http://www.ehow.com/facts_7579911_advantages-disadvantages-trackball.html">Advantages &amp; Disadvantages of a Trackball | eHow</a></p>
-<p><a href="http://www.trackballworld.com/">TrackballWorld</a><br><a href="http://deskthority.net/wiki/Main_Page">Deskthority wiki</a></p>
+	  <p><a href="http://www.econtalk.org/archives/2014/01/jonathan_haidt.html" target="_blank" rel="external">Jonathan Haidt on the Righteous Mind | EconTalk | Library of Economics and Liberty</a><br><a href="https://www.youtube.com/watch?v=ONUM4akzLGE" target="_blank" rel="external">Jonathan Haidt - “The Righteous Mind: Why Good People are Divided by Politics and Religion” - YouTube</a></p>
+<p>90% monkey, 10% bee<br>group selection</p>
+
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/trackball/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/morality/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -780,23 +812,21 @@
 		
 			<li><a href="/categories/android/">android<span>4</span></a></li>
 		
-			<li><a href="/categories/app/">app<span>28</span></a></li>
-		
-			<li><a href="/categories/apps/">apps<span>1</span></a></li>
+			<li><a href="/categories/app/">app<span>34</span></a></li>
 		
 			<li><a href="/categories/comp-hardware/">comp.hardware<span>7</span></a></li>
 		
-			<li><a href="/categories/comp-lang/">comp.lang<span>23</span></a></li>
+			<li><a href="/categories/comp-lang/">comp.lang<span>27</span></a></li>
+		
+			<li><a href="/categories/history/">history<span>1</span></a></li>
 		
 			<li><a href="/categories/linux/">linux<span>18</span></a></li>
 		
-			<li><a href="/categories/philosophy/">philosophy<span>4</span></a></li>
+			<li><a href="/categories/philosophy/">philosophy<span>7</span></a></li>
 		
-			<li><a href="/categories/trivia/">trivia<span>22</span></a></li>
+			<li><a href="/categories/trivia/">trivia<span>47</span></a></li>
 		
-			<li><a href="/categories/uncategorized/">uncategorized<span>4</span></a></li>
-		
-			<li><a href="/categories/web/">web<span>15</span></a></li>
+			<li><a href="/categories/web/">web<span>29</span></a></li>
 		
 		</ul>
 	</div>
@@ -807,48 +837,48 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/gem/">gem<span>1</span></a></li>
+			<li><a href="/tags/chef/">chef<span>1</span></a></li>
 		
-			<li><a href="/tags/ionic/">ionic<span>1</span></a></li>
-		
-			<li><a href="/tags/imagemagick/">ImageMagick<span>1</span></a></li>
-		
-			<li><a href="/tags/law/">law<span>1</span></a></li>
-		
-			<li><a href="/tags/regex/">regex<span>1</span></a></li>
-		
-			<li><a href="/tags/archbang/">archbang<span>1</span></a></li>
-		
-			<li><a href="/tags/shell/">shell<span>5</span></a></li>
-		
-			<li><a href="/tags/http-agent/">http-agent<span>1</span></a></li>
-		
-			<li><a href="/tags/history/">history<span>1</span></a></li>
-		
-			<li><a href="/tags/diff/">diff<span>1</span></a></li>
-		
-			<li><a href="/tags/perl/">perl<span>2</span></a></li>
+			<li><a href="/tags/markdown/">markdown<span>1</span></a></li>
 		
 			<li><a href="/tags/nginx/">nginx<span>1</span></a></li>
 		
-			<li><a href="/tags/antitrust/">antitrust<span>1</span></a></li>
+			<li><a href="/tags/npm/">npm<span>1</span></a></li>
 		
-			<li><a href="/tags/apache/">apache<span>1</span></a></li>
+			<li><a href="/tags/express/">express<span>1</span></a></li>
 		
-			<li><a href="/tags/osx/">osx<span>1</span></a></li>
+			<li><a href="/tags/harddisk/">harddisk<span>1</span></a></li>
 		
-			<li><a href="/tags/xarg/">xarg<span>1</span></a></li>
+			<li><a href="/tags/badges/">badges<span>1</span></a></li>
 		
-			<li><a href="/tags/oh-my-zsh/">oh-my-zsh<span>1</span></a></li>
+			<li><a href="/tags/xbmc/">xbmc<span>1</span></a></li>
 		
-			<li><a href="/tags/docker/">docker<span>1</span></a></li>
+			<li><a href="/tags/restify/">restify<span>1</span></a></li>
 		
-			<li><a href="/tags/tar/">tar<span>1</span></a></li>
+			<li><a href="/tags/game-engine/">game-engine<span>1</span></a></li>
 		
-			<li><a href="/tags/sed/">sed<span>1</span></a></li>
+			<li><a href="/tags/react-js/">react-js<span>3</span></a></li>
+		
+			<li><a href="/tags/atom/">atom<span>1</span></a></li>
+		
+			<li><a href="/tags/jspm/">jspm<span>1</span></a></li>
+		
+			<li><a href="/tags/adesso/">adesso<span>1</span></a></li>
+		
+			<li><a href="/tags/big-data/">big-data<span>1</span></a></li>
+		
+			<li><a href="/tags/window-tiling/">window-tiling<span>1</span></a></li>
+		
+			<li><a href="/tags/psychology/">psychology<span>1</span></a></li>
+		
+			<li><a href="/tags/adb/">adb<span>2</span></a></li>
+		
+			<li><a href="/tags/gitbook/">gitbook<span>1</span></a></li>
+		
+			<li><a href="/tags/css/">css<span>1</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>194</span></a></li>
+		   <li><a href="/tags">...<span>222</span></a></li>
 		 
 		</ul>
 	</div>

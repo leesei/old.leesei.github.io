@@ -108,18 +108,19 @@
 	    <p>ArchLinux has IMO the best Linux <a href="https://www.archlinux.org/" target="_blank" rel="external">wiki</a>.<br>Most of the Linux tricks can be found there.</p>
 <p><a href="http://linuxtoolkit.blogspot.hk/" target="_blank" rel="external">Linux Toolkits</a></p>
 <a id="more"></a>
-<h2 id="Bootable_USB_key">Bootable USB key</h2><p>Creating a bootable USB key in Linux is <a href="https://wiki.archlinux.org/index.php/USB_flash_installation_media" target="_blank" rel="external">stright forward</a>.</p>
+<h2 id="Bootable_USB_key"><a href="#Bootable_USB_key" class="headerlink" title="Bootable USB key"></a>Bootable USB key</h2><p>Creating a bootable USB key in Linux is <a href="https://wiki.archlinux.org/index.php/USB_flash_installation_media" target="_blank" rel="external">straight forward</a>.</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo dd if=[iso] of=[usb device] bs=4M</span><br></pre></td></tr></table></figure>
-<p>Note <a href="http://antergos.com/wiki/article/create-a-working-live-usb/" target="_blank" rel="external">some utils</a> modify the partition lable of the ISO, that can cause problem during bootup.</p>
+<p>Also see <code>dd-usb-iso</code>.</p>
+<p>Note <a href="http://antergos.com/wiki/article/create-a-working-live-usb/" target="_blank" rel="external">some utils</a> modify the partition label of the ISO, that can cause problem during bootup.</p>
 <ul>
-<li>UNetbootin</li>
+<li>[UNetbootin]<a href="http://unetbootin.github.io/" target="_blank" rel="external">UNetbootin - Homepage and Downloads</a></li>
 <li>Linux Live USB Creator</li>
 <li>Universal USB Installer</li>
 <li>Live USB Creator</li>
-<li><a href="https://rufus.akeo.ie/" target="_blank" rel="external">Rufus - Create bootable USB drives the easy way</a></li>
+<li><a href="https://rufus.akeo.ie/" target="_blank" rel="external">Rufus</a></li>
 </ul>
-<h2 id="XBox360_gamepad">XBox360 gamepad</h2><h3 id="Wired_gamepad">Wired gamepad</h3><p>Wired XBox360 pad should work out of the box using <code>xpad</code> driver</p>
-<h3 id="Wireless_gamepad_(using_xboxdrv)">Wireless gamepad (using <code>xboxdrv</code>)</h3><p><a href="http://pingus.seul.org/~grumbel/xboxdrv/" target="_blank" rel="external">http://pingus.seul.org/~grumbel/xboxdrv/</a></p>
+<h2 id="XBox360_gamepad"><a href="#XBox360_gamepad" class="headerlink" title="XBox360 gamepad"></a>XBox360 gamepad</h2><h3 id="Wired_gamepad"><a href="#Wired_gamepad" class="headerlink" title="Wired gamepad"></a>Wired gamepad</h3><p>Wired XBox360 pad should work out of the box using <code>xpad</code> driver</p>
+<h3 id="Wireless_gamepad__28using_xboxdrv_29"><a href="#Wireless_gamepad__28using_xboxdrv_29" class="headerlink" title="Wireless gamepad (using <code>xboxdrv</code>)"></a>Wireless gamepad (using <code>xboxdrv</code>)</h3><p><a href="http://pingus.seul.org/~grumbel/xboxdrv/" target="_blank" rel="external">http://pingus.seul.org/~grumbel/xboxdrv/</a></p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:grumbel/ppa</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install xboxdrv</span><br></pre></td></tr></table></figure>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">xboxdrv -L</span><br><span class="line">xboxdrv --daemon</span><br></pre></td></tr></table></figure>
 <p><a href="http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html" target="_blank" rel="external">http://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html</a></p>
@@ -204,7 +205,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bootable_USB_key"><span class="toc-article-text">Bootable USB key</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#XBox360_gamepad"><span class="toc-article-text">XBox360 gamepad</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Wired_gamepad"><span class="toc-article-text">Wired gamepad</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Wireless_gamepad_(using_xboxdrv)"><span class="toc-article-text">Wireless gamepad (using xboxdrv)</span></a></li></ol></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bootable_USB_key"><span class="toc-article-text">Bootable USB key</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#XBox360_gamepad"><span class="toc-article-text">XBox360 gamepad</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Wired_gamepad"><span class="toc-article-text">Wired gamepad</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Wireless_gamepad__28using_xboxdrv_29"><span class="toc-article-text">Wireless gamepad (using xboxdrv)</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
