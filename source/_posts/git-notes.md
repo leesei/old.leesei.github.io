@@ -1,3 +1,4 @@
+---
 title: "Git notes"
 date: 2014-12-11 17:34:15
 categories:

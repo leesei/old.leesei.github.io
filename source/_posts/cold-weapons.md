@@ -1,3 +1,4 @@
+---
 title: Cold Weapons
 categories:
   - trivia

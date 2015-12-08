@@ -1,3 +1,4 @@
+---
 title: "Philosophy"
 date: 2015-06-29 11:01:15
 categories:

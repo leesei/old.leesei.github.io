@@ -1,3 +1,4 @@
+---
 title: Movies Database
 categories:
   - trivia

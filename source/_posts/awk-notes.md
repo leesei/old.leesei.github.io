@@ -1,3 +1,4 @@
+---
 title: "awk notes"
 date: 2015-01-13 12:56:24
 categories:

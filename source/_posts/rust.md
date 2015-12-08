@@ -1,3 +1,4 @@
+---
 title: Rust
 categories:
   - comp.lang

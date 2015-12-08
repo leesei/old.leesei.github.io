@@ -1,3 +1,4 @@
+---
 title: Gamification
 categories:
   - trivia

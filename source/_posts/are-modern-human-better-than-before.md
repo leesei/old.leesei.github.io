@@ -1,3 +1,4 @@
+---
 title: Are Modern Human Better than Before?
 categories:
   - trivia

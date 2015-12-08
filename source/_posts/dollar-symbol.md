@@ -1,3 +1,4 @@
+---
 title: "Dollar symbol"
 date: 2015-02-27 18:32:32
 categories:

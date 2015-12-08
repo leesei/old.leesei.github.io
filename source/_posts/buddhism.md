@@ -1,3 +1,4 @@
+---
 title: Buddhism
 categories:
   - uncategorized

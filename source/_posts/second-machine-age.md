@@ -1,3 +1,4 @@
+---
 title: The Second Machine Age
 categories:
   - trivia

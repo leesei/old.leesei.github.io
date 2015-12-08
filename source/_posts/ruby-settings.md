@@ -1,3 +1,4 @@
+---
 title: "Ruby settings"
 date: 2015-01-13 13:14:43
 categories:

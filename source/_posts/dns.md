@@ -1,3 +1,4 @@
+---
 title: DNS
 categories:
   - uncategorized

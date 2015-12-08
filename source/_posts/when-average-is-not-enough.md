@@ -1,3 +1,4 @@
+---
 title: When Average is not Enough
 categories:
   - trivia

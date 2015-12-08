@@ -1,3 +1,4 @@
+---
 title: "GRUB"
 date: 2014-12-17 13:38:19
 categories:

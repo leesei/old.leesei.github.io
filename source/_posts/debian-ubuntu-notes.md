@@ -1,3 +1,4 @@
+---
 title: "Debian/Ubuntu notes"
 date: 2014-12-08 13:04:28
 categories:

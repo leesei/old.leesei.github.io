@@ -1,3 +1,4 @@
+---
 title: Go notes
 date: 2015-02-16 17:58:42
 categories:

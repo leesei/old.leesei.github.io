@@ -1,3 +1,4 @@
+---
 title: Wierd Science
 categories:
   - uncategorized

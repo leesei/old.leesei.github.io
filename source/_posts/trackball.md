@@ -1,3 +1,4 @@
+---
 title: Trackball
 categories:
   - comp.hardware

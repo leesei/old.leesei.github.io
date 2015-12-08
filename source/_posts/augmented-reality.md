@@ -1,3 +1,4 @@
+---
 title: Augmented Reality
 categories:
   - comp.hardware

@@ -1,3 +1,4 @@
+---
 title: "Git Settings"
 date: 2014-12-17 13:53:33
 categories:

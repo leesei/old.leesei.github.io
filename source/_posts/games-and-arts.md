@@ -1,3 +1,4 @@
+---
 title: Games and Arts
 categories:
   - trivia

@@ -1,3 +1,4 @@
+---
 title: Morality
 categories:
   - uncategorized

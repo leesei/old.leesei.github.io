@@ -1,3 +1,4 @@
+---
 title: "Cinnamon setup"
 date: 2015-05-04 13:23:07
 categories:

@@ -1,3 +1,4 @@
+---
 title: Issue Tracker
 categories:
   - app

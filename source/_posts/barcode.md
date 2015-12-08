@@ -1,3 +1,4 @@
+---
 title: Barcode
 categories:
   - uncategorized

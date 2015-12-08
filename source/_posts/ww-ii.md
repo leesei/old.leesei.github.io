@@ -1,3 +1,4 @@
+---
 title: "World War II"
 categories:
   - trivia

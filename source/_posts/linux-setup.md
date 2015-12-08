@@ -1,3 +1,4 @@
+---
 title: "Linux setup"
 date: 2015-01-23 13:47:38
 categories:

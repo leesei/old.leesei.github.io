@@ -1,3 +1,4 @@
+---
 title: "LCD"
 date: 2015-04-02 18:20:44
 categories:

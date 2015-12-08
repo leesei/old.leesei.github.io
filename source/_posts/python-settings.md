@@ -1,3 +1,4 @@
+---
 title: "Python settings"
 date: 2014-12-11 17:27:59
 categories:

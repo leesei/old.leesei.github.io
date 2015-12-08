@@ -1,3 +1,4 @@
+---
 title: Decision Making
 categories:
   - trivia

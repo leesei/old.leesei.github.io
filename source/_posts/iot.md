@@ -1,3 +1,4 @@
+---
 title: "Internet of things"
 categories:
   - comp.hardware

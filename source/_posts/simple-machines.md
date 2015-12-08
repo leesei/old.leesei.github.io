@@ -1,3 +1,4 @@
+---
 title: Simple Machines
 categories:
   - trivia

@@ -1,3 +1,4 @@
+---
 title: How Games Works
 categories:
   - trivia

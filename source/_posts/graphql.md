@@ -1,3 +1,4 @@
+---
 title: GraphQL
 categories:
   - web

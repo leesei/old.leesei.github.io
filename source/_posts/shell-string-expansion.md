@@ -1,3 +1,4 @@
+---
 title: "Shell string expansion"
 date: 2014-12-08 12:03:44
 categories:

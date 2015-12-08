@@ -1,3 +1,4 @@
+---
 title: "Capitalism"
 date: 2015-04-17 14:36:53
 categories:

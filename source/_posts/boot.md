@@ -1,3 +1,4 @@
+---
 title: "Boot"
 date: 2015-05-10 22:07:17
 categories:

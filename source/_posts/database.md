@@ -1,3 +1,4 @@
+---
 title: Database
 categories:
   - comp.lang
