@@ -1,7 +1,7 @@
 ---
 title: Awesome Lists
 categories:
-  - uncategorized
+  - comp.lang
 toc: true
 date: 2015-07-19 13:52:46
 tags:

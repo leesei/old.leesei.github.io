@@ -1,7 +1,7 @@
 ---
 title: DNS
 categories:
-  - uncategorized
+  - web
 toc: true
 date: 2015-07-25 22:59:34
 tags:

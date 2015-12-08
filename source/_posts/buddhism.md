@@ -1,7 +1,7 @@
 ---
 title: Buddhism
 categories:
-  - uncategorized
+  - philosophy
 toc: true
 date: 2015-10-17 01:04:54
 tags:

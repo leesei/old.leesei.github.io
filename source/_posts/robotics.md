@@ -1,10 +1,11 @@
 ---
 title: Robotics
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-10-19 15:46:34
 tags:
+- science
 ---
 
 [Robots4Us Student Contest | DRC Finals](http://www.theroboticschallenge.org/Robots4Us)

@@ -1,7 +1,7 @@
 ---
 title: Fairy Tales
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-10-06 13:26:15
 tags:

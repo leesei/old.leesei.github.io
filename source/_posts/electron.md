@@ -1,7 +1,7 @@
 ---
 title: Electron
 categories:
-  - uncategorized
+  - app
 toc: true
 date: 2015-07-19 14:07:01
 tags:

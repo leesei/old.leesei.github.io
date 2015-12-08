@@ -21,6 +21,8 @@ Gist of a modern data-driven app:
 - data from server is just another input, not your model, [CQRS](http://martinfowler.com/bliki/CQRS.html)
 - modify state via a *SINGLE* component
 
+<!-- more -->
+
 ## React + Backbone/Marionette/Ampersand
 
 [Using React components as Backbone Views](http://www.thomasboyt.com/2013/12/17/using-reactjs-as-a-backbone-view.html)

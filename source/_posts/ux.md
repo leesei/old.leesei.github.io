@@ -2,12 +2,15 @@
 title: "User Experience (UX)"
 date: 2015-06-25 17:11:57
 categories:
-- uncategorized
+- web
 tags:
 - ux
 - ui
 toc: true
 ---
+
+[UX Myths](http://uxmyths.com/)
+[UX Booth | A User Experience Design Publication](http://www.uxbooth.com/)
 
 [WordPress.com Design Handbook](https://wordpress.com/design-handbook/)
 [Google Design](https://www.google.com/design/)
@@ -23,8 +26,13 @@ toc: true
 
 [The God Login](http://blog.codinghorror.com/the-god-login/)
 [How to get better at UI and UX design](http://ui-patterns.com/blog/How-to-get-better-at-UI-design)
+[Rethinking the Mobile Web by Yiibu](http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu)
 
 [What is the difference between UX and UI designer and web designer? - Quora](http://www.quora.com/What-is-the-difference-between-UX-and-UI-designer-and-web-designer)
+
+[Considerations for Mobile Design (Part 1): Speed | UX Booth](http://www.uxbooth.com/articles/considerations-for-mobile-design-part-1-speed/)
+[Considerations for Mobile Design (Part 2): Dimensions | UX Booth](http://www.uxbooth.com/articles/considerations-for-mobile-design-part-2-dimensions/)
+[Considerations for Mobile Design (Part 3): Behavior | UX Booth](http://www.uxbooth.com/articles/considerations-for-mobile-design-part-3-behavior/)
 
 ## Android
 

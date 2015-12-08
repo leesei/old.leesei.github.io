@@ -1,10 +1,11 @@
 ---
 title: Plasma
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-11-04 11:37:44
 tags:
+- science
 ---
 
 [Plasma gasification - Wikiwand](http://www.wikiwand.com/en/Plasma_gasification)

@@ -1,10 +1,11 @@
 ---
 title: Fuel Cell
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-11-04 11:37:35
 tags:
+- science
 ---
 
 [Fuel cell - Wikiwand](https://www.wikiwand.com/en/Fuel_cell)

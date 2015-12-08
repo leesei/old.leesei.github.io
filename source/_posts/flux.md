@@ -18,6 +18,8 @@ Dispatcher and stores are global.
 Components take immutable `prop` as input and can maintain internal mutable `state`. Changes to state via `setState()` will trigger a re-rendering.
 Components can also fire "intent" (also called "action") or listen to the dispatcher/stores.
 
+<!-- more -->
+
 [Flux | Application Architecture for Building User Interfaces](http://facebook.github.io/flux/)
 [The React.js Way: Flux Architecture with Immutable.js](http://blog.risingstack.com/the-react-js-way-flux-architecture-with-immutable-js/)
 [What is the Flux Application Architecture? — Brigade Engineering — Medium](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)

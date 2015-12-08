@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-09-08 11:23:26
 tags:
-- economy
+- economics
 ---
 
 Physical labour was replaced by machines with better strength in the *First Machine Age*.

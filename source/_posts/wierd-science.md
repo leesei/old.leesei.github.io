@@ -1,10 +1,11 @@
 ---
 title: Wierd Science
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-12-04 11:29:44
 tags:
+- science
 ---
 
 [About The Ig® Nobel Prizes - Improbable Research](http://www.improbable.com/ig/)

@@ -1,7 +1,7 @@
 ---
 title: World History
 categories:
-  - uncategorized
+  - history
 toc: true
 date: 2015-10-09 11:34:29
 tags:
@@ -17,3 +17,5 @@ tags:
 [The Ancient World](http://ancientworldpodcast.blogspot.hk/)
 [15 Minute History | A podcast for educators, students, and history buffs](http://15minutehistory.org/)
 [The Egyptian History Podcast](http://egyptianhistory.libsyn.com/)
+
+> TODO: time line of dynasties and events

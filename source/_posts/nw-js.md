@@ -1,7 +1,7 @@
 ---
 title: NW.js
 categories:
-  - uncategorized
+  - app
 toc: true
 date: 2015-08-28 11:45:23
 tags:

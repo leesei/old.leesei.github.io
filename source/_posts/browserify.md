@@ -5,6 +5,7 @@ categories:
 toc: true
 date: 2015-11-27 17:47:35
 tags:
+- browserify
 ---
 
 [Browserify](http://browserify.org/)
@@ -19,6 +20,8 @@ $ browserify -r ./lib/slugger:slugger > static/bundle.js
 ```
 
 [browserify for webpack users](https://gist.github.com/substack/68f8d502be42d5cd4942)
+
+<!-- more -->
 
 ## internals
 

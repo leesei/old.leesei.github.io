@@ -112,6 +112,7 @@ see also `uml.md`
 [Frame Box - Lightweight online tool for creating mockups](http://framebox.org/)
 [Online Mockup, Wireframe & UI Prototyping Tool · Moqups](https://moqups.com/)
 [Balsamiq Mockups - Balsamiq](https://balsamiq.com/products/mockups/)
+[Wireframing Tool for Professionals - WireframeSketcher](http://wireframesketcher.com/index.html)
 
 ## 3D Graphics
 

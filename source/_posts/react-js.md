@@ -1,5 +1,5 @@
 ---
-title: "ReactJS"
+title: "React.js"
 date: 2015-12-04 12:12:02
 categories:
 - web
@@ -14,6 +14,9 @@ toc: true
 [Thinking in React | React](http://facebook.github.io/react/docs/thinking-in-react.html)
 
 [Why We Moved From Angular to React](http://blog.belong.co/why-we-moved-from-angular-to-react)
+[Why are we using React.js in our projects? - React Kung Fu](http://reactkungfu.com/2015/07/why-are-we-using-react-js-in-our-projects/)
+
+<!-- more -->
 
 ### 0.14 release
 

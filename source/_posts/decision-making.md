@@ -1,11 +1,10 @@
 ---
 title: Decision Making
 categories:
-  - trivia
+  - philosophy
 toc: true
 date: 2015-10-14 16:16:22
 tags:
-- philosophy
 - economics
 ---
 

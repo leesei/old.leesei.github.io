@@ -1,10 +1,11 @@
 ---
 title: Webpack
 categories:
-  - uncategorized
+  - web
 toc: true
 date: 2015-12-01 17:22:40
 tags:
+- webpack
 ---
 
 [christianalfoni - Webpack and react is awesome](http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome)

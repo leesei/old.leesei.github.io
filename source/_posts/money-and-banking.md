@@ -1,10 +1,11 @@
 ---
 title: Money and Banking
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-10-09 10:39:16
 tags:
+- economics
 ---
 
 [Money supply - Wikiwand](http://www.wikiwand.com/en/Money_supply)

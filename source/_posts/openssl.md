@@ -1,10 +1,12 @@
 ---
 title: OpenSSL
 categories:
-  - uncategorized
+  - app
 toc: true
 date: 2015-09-29 16:57:14
 tags:
+- ssl
+- openssl
 ---
 
 [X.509 - Wikiwand](https://www.wikiwand.com/en/X.509)

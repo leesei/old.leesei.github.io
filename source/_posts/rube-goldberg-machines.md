@@ -1,7 +1,7 @@
 ---
 title: Rube Goldberg Machines
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-09-15 17:38:52
 tags:

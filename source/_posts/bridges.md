@@ -1,10 +1,11 @@
 ---
 title: Bridges
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-10-09 12:06:49
 tags:
+- science
 ---
 
 [Bridges: Nature Abhors Them | Stuff You Should Know: The Podcast](http://www.stuffyoushouldknow.com/podcasts/bridges-nature-abhors-them/)

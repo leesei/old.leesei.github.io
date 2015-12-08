@@ -1,10 +1,11 @@
 ---
 title: Podcast
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-08-28 12:43:55
 tags:
+- podcast
 ---
 
 Podcasts in iTune should have an underlying RSS (not hosted by Apple), you can extract it with [Podcast URL Extractor](http://itunes.so-nik.com/).

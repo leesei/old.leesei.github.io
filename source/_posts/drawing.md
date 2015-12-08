@@ -1,7 +1,7 @@
 ---
 title: Drawing
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-10-27 13:15:49
 tags:

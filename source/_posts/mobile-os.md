@@ -1,7 +1,7 @@
 ---
 title: Mobile OS
 categories:
-  - uncategorized
+  - comp.lang
 toc: true
 date: 2015-06-22 12:25:26
 tags:

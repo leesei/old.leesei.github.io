@@ -1,10 +1,11 @@
 ---
 title: SI Units
 categories:
-  - uncategorized
+  - trivia
 toc: true
 date: 2015-08-28 13:02:41
 tags:
+- science
 ---
 
 [International System of Units - Wikiwand](http://www.wikiwand.com/en/International_System_of_Units)
