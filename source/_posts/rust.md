@@ -19,7 +19,7 @@ System language created by Mozilla.
 
 ### Commentary
 
-[Are we web yet? Getting there.](http://arewewebyet.com/)
+[Are we web yet? Getting there.](http://www.arewewebyet.org/)
 [How do Rust and Go compare against each other? - Quora](http://www.quora.com/How-do-Rust-and-Go-compare-against-each-other)
 [Rust and Go — Medium](https://medium.com/@adamhjk/rust-and-go-e18d511fbd95)
 [Interview with Steve Klabnik: How Rust Compares to Other Languages and More | Codementor](https://www.codementor.io/rust/tutorial/steve-klabnik-rust-vs-c-go-ocaml-erlang)
