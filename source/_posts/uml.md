@@ -8,14 +8,18 @@ tags:
 toc: true
 ---
 
-[Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language)
+[Unified Modeling Language - Wikiwand](https://www.wikiwand.com/en/Unified_Modeling_Language)
 [Business Process Model and Notation (BPMN)](http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation) is very similar to activity diagram.
 [YANG Central](http://www.yang-central.org/twiki/bin/view/Main/WebHome)
 
 [Allen Holub's UML Quick Reference](http://www.holub.com/goodies/uml/)
 [UML Diagram Types With Examples for Each Type of UML Diagrams](http://creately.com/blog/diagrams/uml-diagram-types-examples/)
+[Practical UML: A Hands-On Introduction for Developers](http://edn.embarcadero.com/print/31863)
 
 [UML and Software Modeling Tools](http://www.slideshare.net/Zed4rReal/uml-and-software-modeling-toolspptx)
+
+[Voxxed Athens 2017 :: Opening Ceremony + Keynote Software Architecture Diagramming - YouTube](https://www.youtube.com/watch?v=aPtT2GNu8vM)
+[The Art of Visualising Software Architecture - Coding the Architecture](http://www.codingthearchitecture.com/presentations/agilehongkong2016-the-art-of-visualising-software-architecture)
 
 <!-- more -->
 
@@ -35,9 +39,9 @@ Candidates are (ranked according to the criteria below):
 
 Tool           | Language   | Diagrams           | Remark
 --------       | -------    | -------            | -------
-[PlantUML][]   | Java       | Activity, State, Sequence, Component, Class, Object, Use Case, etc | [live](http://www.plantuml.com/plantuml/), [Language Reference](http://plantuml.sourceforge.net/PlantUML_Language_Reference_Guide.pdf)http://www.patrick-wied.at/static/heatmapjs/
-[blockdiag][]  | Python     | Block, Activity, Sequence, Network, Rack, Packet | [live](http://blockdiag.appspot.com/)
-[mermaid][]    | JavaScript | Flowchart (Activity), Sequence, Gantt | [live](http://knsv.github.io/mermaid/live_editor/)
+[PlantUML][]   | Java       | Activity, State, Sequence, Component, Class, Object, Use Case, etc | [live](http://www.plantuml.com/plantuml/), [Language Reference](http://plantuml.sourceforge.net/PlantUML_Language_Reference_Guide.pdf)
+[blockdiag][]  | Python     | Block, Activity, Sequence, Network, Rack, Packet | [live](http://interactive.blockdiag.com)
+[mermaid][]    | JavaScript | Flowchart (Activity), Sequence, Gantt | [live](http://knsv.github.io/mermaid/live_editor/), [Schachte/Mermrender](https://github.com/Schachte/Mermrender)
 [JUMLY][]      | JavaScript | Sequence, Activity | [live](http://jumly.tmtk.net/try.html)
 [js-sequence-diagrams][] | JavaScript | Sequence | live
 [flowchart.js][]         | JavaScript | Flowchart | live
@@ -59,37 +63,61 @@ I ended up choosing PlantUML because:
 - the syntax is more familiar and flexible
 - active development
 - generates beautiful diagrams
-- styleable
+- style-able
 - supports more diagram types
 - easy to setup
 - bindings to more projects indicates widespread usage
 
-BTW, blockdiag would be the first runner up. It also features several unique diagram types.
+BTW, `blockdiag` would be the first runner up. It also features several unique diagram types.
 
-[Draw More, Work Less](http://www.slideshare.net/MichaelBarSinai/generated-siagramspublic)
+[Draw More, Work Less](http://www.slideshare.net/MichaelBarSinai/generated-siagramspublic)  
 
 ### PlantUML
 
-The automatic layout of PlantUML is a curse *and* a blessing.
+[General and common command to handle graphic layout in diagrams.](http://plantuml.com/commons)
+[Language specification pages](http://plantuml.com/sitemap-language-specification)
+[Changing colors and fonts](http://plantuml.com/skinparam)
+
+The automatic layout of PlantUML (with GraphViz) is a curse *and* a blessing.
 On one hand you are free of the hassle of arranging the elements, on the other hand you have little control over the position of how your elements.
-Hackery like `horizontalLineBetweenDifferentPackageAllowed` and hidden edges are needed to tame the layout engine.
+Hackery like `horizontalLineBetweenDifferentPackageAllowed` and hidden links (`-[hidden]-`) are needed to tame the layout engine.
 
 PlantUML also embed other tools besides UML:
 DITAA, Salt, JCCKit, Sudoku, XEarth
 
-[Drawing UML with plantuml](http://kimi.im/2014-05-17-drawing-uml-with-plantuml/)
+[Drawing UML with plantuml](http://kimi.im/2014-05-17-drawing-uml-with-plantuml)  
+[PlantUML | DrawUML](http://ogom.github.io/draw_uml/plantuml/) cheat sheet  
+[PlantUML Pleasantness -Messages from mrhaki](http://mrhaki.blogspot.hk/search/label/PlantUML%3APleasantness)
 
-[PlantText](http://www.planttext.com/planttext)
+Live Editor:  
+[PlantUML Web Server](http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80?switch)
+[PlantUML Editor](https://plantuml-editor.kkeisuke.com/#)
+[PlantText](http://www.planttext.com/planttext)  
 
 [PlantUML Viewer - Chrome Web Store](https://chrome.google.com/webstore/detail/plantuml-viewer/legbfeljfbjgfifnkmpoajgpgejojooj)
 [UML Diagram Editor - Chrome Web Store](https://chrome.google.com/webstore/detail/uml-diagram-editor/hoepdgfgogmeofkgkpapbdpdjkplcode)
 [PlantUML QEditor | SourceForge.net](http://sourceforge.net/projects/plantumlqeditor/)
+[nrekretep/pikturr: Simple tool to turn a swagger api spec into a uml class diagram.](https://github.com/nrekretep/pikturr)
 
 [Learn more - PlantUML Gizmo (add-on for Google Docs)](https://sites.google.com/site/plantumlgizmo/learn)
 
 [Graphviz | UX Design and Development course](http://www.anotheruiguy.com/ux-design-dev/_book/ux/graphviz.html)
 [dot - man page](https://www.mankier.com/1/dot)
 [Drawing graphs with dot](http://www.graphviz.org/pdf/dotguide.pdf) PDF
+
+#### Samples
+
+[Real World PlantUML](https://real-world-plantuml.com/) gallery  
+[ui-cs383/Class-Diagrams](https://github.com/ui-cs383/Class-Diagrams)
+[hnakamur/asciidoctor-ditaa-graphviz-plantuml-example](https://github.com/hnakamur/asciidoctor-ditaa-graphviz-plantuml-example)
+[jmbruel/basics: Basic UML concepts and diagrams in plantUML for easy modification/translation](https://github.com/jmbruel/basics)
+[BracketsUML/diagrams at master · KyleKorndoerfer/BracketsUML](https://github.com/KyleKorndoerfer/BracketsUML/tree/master/diagrams)
+[Examples Gallery — PlantUML Client in Python 1.0.0 documentation](http://plantweb.readthedocs.io/examples.html)
+
+styling:
+[hackebrot/plantuml-snippets: Code snippets for drawing diagrams with PlantUML](https://github.com/hackebrot/plantuml-snippets)
+[mmmpa/colors_for_plantUML](https://github.com/mmmpa/colors_for_plantUML)
+[templates/plantuml at master - mark.george/templates](https://isgb.otago.ac.nz/infosci/mark.george/templates/tree/master/plantuml)
 
 ### GaaS (graph as a service)
 
@@ -101,17 +129,28 @@ PlantUML's [service](http://plantuml.sourceforge.net/server.html) mode, see[jQue
 
 ## GUI Tools
 
-PlantUML's weakness (and strength, sort of) is the user cannot (and need not) specify location of the nodes. This became an issue for component diagrams where we need more control of the position of the nodes and edges for a better look and feel of the diagram.
+PlantUML's weakness (and strength, sort of) is the user cannot (and need not) specify location of the nodes. This became an issue for component diagrams where we need more control on node position and edge routing, which are crucial for component diagram for a better look and feel of the diagram.
 
 [UML Diagramming Tools | Diagramming.org](http://www.diagramming.org/)
 [Our list of online modeling tools](http://modeling-languages.com/web-based-modeling-tools/)
 
 [yEd - Graph Editor](http://www.yworks.com/products/yed)
+[Astah Community - Free UML Modeling tool | Astah.net](http://astah.net/editions/community)
 [Gaphor UML Modelling](http://gaphor.sourceforge.net/download.php)  (Python)
 [Modelio Open Source Community](https://www.modelio.org/index.php)
 [ArgoUML](http://argouml.tigris.org/)  the UI is bad
 [UMLet - Free UML Tool for Fast UML Diagrams](http://www.umlet.com/)
 [Violet UML Editor : easy to use, completely free](http://alexdp.free.fr/violetumleditor/page.php)
+
+### yEd
+
+After trying out several GUI tools, yEd comes to my liking.
+- decent and non-buggy UI
+- better community support
+- can save as XML (`graphml`) format that can be edited manually or programmatically
+- provides (limited) transform with *Properties Mapper*
+
+> see `yed.md`
 
 ### Chrome Apps
 
@@ -120,3 +159,6 @@ PlantUML's weakness (and strength, sort of) is the user cannot (and need not) sp
 [Lucidchart Diagrams - Desktop - Chrome Web Store](https://chrome.google.com/webstore/detail/lucidchart-diagrams-deskt/djejicklhojeokkfmdelnempiecmdomj)
 [Sketchboard.io - Chrome Web Store](https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil)
 
+## Code Generation
+
+[lovasoa/dia2code: Dia2Code is a small utility used to generate code from a Dia diagram.](https://github.com/lovasoa/dia2code)

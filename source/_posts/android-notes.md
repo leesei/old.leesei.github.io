@@ -2,22 +2,162 @@
 title: "Android notes"
 date: 2014-12-17 13:45:27
 categories:
-- android
+  - android
 tags:
-- adb
-- aapt
-- wakelock
-- input
-- logcat
-- notes
+  - adb
+  - aapt
+  - wakelock
+  - input
+  - logcat
+  - notes
 toc: true
 ---
 
-Notes for console tools available on Android system.
+Notes on Android system and console tools available.
 
 [Android (and Friends) Reading Guide | Linux.org](http://www.linux.org/threads/android-and-friends-reading-guide.6146/)
-[hellogv的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/hellogv)
+[hellogv 的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/hellogv)
 [Android Device - eLinux.org](http://elinux.org/Android_Device)
+
+[Android versions: A living history from 1.0 to today | Computerworld](https://www.computerworld.com/article/3235946/android/android-versions-a-living-history-from-1-0-to-today.html)
+[Android Oreo: 18 advanced tips and tricks | Computerworld](https://www.computerworld.com/article/3250625/android/android-oreo-18-advanced-tips-and-tricks.html)
+[Stock Android vs Android One vs Android Go: the differences explained](https://www.androidauthority.com/stock-android-vs-android-one-vs-android-go-860020/)
+
+[Secret settings hidden in your Android phone will make it feel twice as fast – BGR](https://bgr.com/2018/06/26/android-vs-iphone-secret-settings-increase-android-speed/amp/)
+
+[How A/B Partitions and Seamless Updates Affect Custom Development on XDA](https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-custom-development-on-xda/)
+
+## Android Apps
+
+[Android apps: Best of the best | Computerworld](https://www.computerworld.com/article/3268630/android/android-apps-best-of-the-best.html)
+[18 time-saving tips for the Chrome Android browser | Computerworld](https://www.computerworld.com/article/2975137/android/18-time-saving-tips-for-the-chrome-android-browser.html)
+[The best Android file manager apps | Computerworld](https://www.computerworld.com/article/3268115/android/best-android-file-manager-apps.html)
+[The best note-taking apps for Android | Computerworld](https://www.computerworld.com/article/3239964/android/best-note-taking-apps-for-android.html)
+[Save time with efficiency-boosting Android apps | Computerworld](https://www.computerworld.com/article/3208108/android/android-apps-efficiency-timesaving.html)
+
+[Termux](https://termux.com/) Android terminal emulator and Linux environment app
+
+## UserLAnd
+
+[UserLAnd | Main UserLAnd Repository](https://userland.tech/)
+
+[UserLAnd, a Turnkey Linux in Your Pocket | Linux Journal](https://www.linuxjournal.com/content/userland-turnkey-linux-your-pocket)
+[CypherpunkArmory/UserLAnd: Main UserLAnd Repository](https://github.com/CypherpunkArmory/UserLAnd)
+[UserLAnd - Apps on Google Play](https://play.google.com/store/apps/details?id=tech.ula)
+
+## Android dev
+
+Kotlin was supported officially as a language for Android dev at Google I/O 2017.
+[A Complete Guide To Learn Kotlin For Android Development](https://blog.mindorks.com/a-complete-guide-to-learn-kotlin-for-android-development-b1e5d23cc2d8)
+[A Developer's Intro to Android](https://blog.scottlogic.com/2018/12/05/a-developers-intro-to-android.html)
+
+[Android CPU, Compilers, D8 & R8 – ProAndroidDev](https://proandroiddev.com/android-cpu-compilers-d8-r8-a3aa2bfbc109)
+
+[Androidhive - Android Tutorial for Beginners](http://www.androidhive.info/)
+[ProAndroidDev](https://proandroiddev.com/)
+[AndroidDev – AndroidPub](https://android.jlelse.eu/tagged/androiddev)
+[AndroidXRef](http://androidxref.com/)
+
+[Developing Android Apps | Udacity](https://www.udacity.com/course/new-android-fundamentals--ud851)
+
+[[GUIDE] Understanding the Android Source Cod… | Android Development and Hacking](https://forum.xda-developers.com/showthread.php?t=2620389)
+[[GUIDE] Learning about the Android Build Pro… | Android Development and Hacking](https://forum.xda-developers.com/showthread.php?t=2751407)
+[Android Source Diving: A Video Tutorial](https://possiblemobile.com/2013/12/android-source-diving-video-tutorial/)
+
+[Modern Android development with Kotlin, Part 1 – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-september-2017-part-1-f976483f7bd6)
+[Modern Android development with Kotlin (Part 2) – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-september-2017-part-2-17444fcdbe86)
+[Modern Android development with Kotlin Part 3 – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-part-3-8721fb843d1b)
+[Modern Android development with Kotlin Part 4 – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-part-4-4ac18e9868cb)
+
+[Detect and Resolve Performance Problems on Android - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/detect-and-resolve-performance-problems-on-android--cms-24058)
+
+[Android Push Notification – 推播通知訊息給 Android 客戶端 | MagicLen](http://magiclen.org/android-push-notification/)
+[How to Use FontAwesome in an Android App - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-use-fontawesome-in-an-android-app--cms-24167)
+[Meeting Google Play requirements for target API level | Android Developers](https://developer.android.com/distribute/best-practices/develop/target-sdk.html)
+[Cleveroad/SlidingTutorial-Android: Android Library for making animated tutorials inside your app](https://github.com/Cleveroad/SlidingTutorial-Android)
+
+[突破 Android P 的非公开 API 限制](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247488664&idx=1&sn=610312f426d72b73103970bff2c32a30)
+
+[Kotlin/anko: Pleasant Android application development](https://github.com/Kotlin/anko)
+
+[25 new Android libraries which you definitely want to try at the beginning of 2017](https://medium.freecodecamp.com/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0#.71adfyw1l)
+
+### Volley
+
+[Transmitting Network Data Using Volley | Android Developers](https://developer.android.com/training/volley/index.html)
+[Google I/O 2013 - Volley: Easy, Fast Networking for Android - YouTube](https://www.youtube.com/watch?v=yhv8l9F44qo)
+
+[Android working with Volley Library](http://www.androidhive.info/2014/05/android-working-with-volley-library-1/)
+
+### Jetpack
+
+[Android Jetpack  |  Android Developers](https://developer.android.com/jetpack/) !important, new standard library compatible with Kotlin
+[Guide to app architecture  |  Android Developers](https://developer.android.com/jetpack/docs/guide)
+[Android Architecture Components  |  Android Developers](https://developer.android.com/jetpack/arch/)
+
+[Android Developers Blog: Hello World, AndroidX](https://android-developers.googleblog.com/2018/05/hello-world-androidx.html)
+[Android Jetpack Brings WorkManager, Navigation and More](https://www.infoq.com/news/2018/05/android-jetpack-released)
+[Android Jetpack — Foundation — Android KTX — Part 1 Chapter 2](https://android.jlelse.eu/android-jetpack-foundation-android-ktx-part-1-chapter-2-539960007341)
+
+### Room ORM
+
+[Room Persistence Library  |  Android Developers](https://developer.android.com/topic/libraries/architecture/room)
+[7 Steps To Room – Google Developers – Medium](https://medium.com/google-developers/7-steps-to-room-27a5fe5f99b2)
+
+[MatrixDev/Roomigrant: Automated Android Room ORM migrations generator with compile-time code generation](https://github.com/MatrixDev/Roomigrant)
+
+## Samsung Note 3
+
+Latest official Note 3 supports Android Lollipop only.
+
+[Android 8.1 Oreo + Root for Galaxy Note 3! [Lineage OS 15.1 ROM] - YouTube](https://www.youtube.com/watch?v=1arE3oyZX6o)
+
+## Android for PC
+
+[What’s Remix OS for PC?\_Remix OS for PC is built on the Android-x86 - Jide Technology](http://www.jide.com/en/remixos-for-pc)
+[Remix OS](http://www.jide.com/en/remixos)
+[Android-x86 - Porting Android to x86](http://www.android-x86.org/)
+
+## Android sysadmin
+
+> attach adbpull, adbpush, adbview, adbcmd here
+
+<!-- more -->
+
+- prettify /proc/wakelocks
+
+```sh
+# on device
+cat /proc/wakelocks | busybox awk '{ printf "%-25s %-10s\n", $1, $5 }' | busybox grep -v " 0"
+
+# with adb
+adb shell cat /proc/wakelocks | awk '{ printf "%-25s %-10s\n", $1, $5 }' | grep -v " 0"
+```
+
+- input device info
+
+```sh
+cat /proc/bus/input/devices
+```
+
+## GPU
+
+[OAID/CaffeOnACL: Using ARM Compute Library (NEON+GPU) to speed up caffe; Providing utilities to debug, profile and tune application performance](https://github.com/OAID/CaffeOnACL)
+[RockchipOpensourceCommunity/CaffeOnACL-Android: Porting CaffeOnACL to RK3399 Android platform](https://github.com/RockchipOpensourceCommunity/CaffeOnACL-Android/)
+
+### Renderscript
+
+[RenderScript - Wikiwand](https://www.wikiwand.com/en/RenderScript)
+[Computation | Android Developers](https://developer.android.com/guide/topics/renderscript/index.html)
+
+[Android Renderscript - YouTube](https://www.youtube.com/watch?v=7TqTnlYAg8E) 2011
+[Learn about RenderScript from Romain Guy and Chet Haase of the Android UI Toolkit team - YouTube](https://www.youtube.com/watch?v=5jz0kSuR2j4) 2011
+[Google I/O 2013 - High Performance Applications with RenderScript - YouTube](https://www.youtube.com/watch?v=uzBw6AWCBpU)
+[GDC Booth Presentation by Google: Renderscript 2013 - YouTube](https://www.youtube.com/watch?v=gu1jwNuMv1A)
+[AnDevCon: A Deep Dive into RenderScript - YouTube](https://www.youtube.com/watch?v=3ynA92x8WQo) 2013
+
+[Renderscript from the perspective of an OpenCL/CUDA/C++ AMP programmer – Searching for divine code](http://www.codedivine.org/2013/02/01/renderscript-from-the-perspective-of-an-openclcudac-amp-programmer/)
+[android - Why did Google choose RenderScript instead of OpenCL - Stack Overflow](https://stackoverflow.com/questions/14385843/why-did-google-choose-renderscript-instead-of-opencl)
 
 ## APK download
 
@@ -26,48 +166,24 @@ Notes for console tools available on Android system.
 [APK Downloader [Latest] Download Directly | Chrome Extension v3 (Evozi Official)](http://apps.evozi.com/apk-downloader/)
 [QooApp - 日韓遊戲專家！ACG Android Game Platform](http://apk.qoo-app.com/)
 
-## Dev
-
-[AndroidXRef](http://androidxref.com/)
-[Detect and Resolve Performance Problems on Android - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/detect-and-resolve-performance-problems-on-android--cms-24058)
-
-[How to Use FontAwesome in an Android App - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/how-to-use-fontawesome-in-an-android-app--cms-24167)
-
-> attach adbpull, adbpush, adbview, adbcmd here
-
-<!-- more -->
-
-* prettify /proc/wakelocks
-
-  ```sh
-  # on device
-  cat /proc/wakelocks | busybox awk '{ printf "%-25s %-10s\n", $1, $5 }' | busybox grep -v " 0"
-
-  # with adb
-  adb shell cat /proc/wakelocks | awk '{ printf "%-25s %-10s\n", $1, $5 }' | grep -v " 0"
-  ```
-
-* input device info
-
-  ```sh
-  cat /proc/bus/input/devices
-  ```
-
 ## adb
 
-http://developer.android.com/tools/help/adb.html
+[Android Debug Bridge (adb)  |  Android Developers](https://developer.android.com/studio/command-line/adb)
 
 `adb` comes with the Android SDK.
-Windows user can use the package [here](http://forum.xda-developers.com/showthread.php?t=2588979).
+
+[How to Install ADB on Windows, macOS, and Linux](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 ### Enable adb via TCP
 
 On PC:
+
 ```sh
 adb tcpip 5555
 ```
 
 On device (need ROOT):
+
 ```sh
 su
 setprop service.adb.tcp.port 5555
@@ -108,9 +224,11 @@ https://www.npmjs.com/package/logcat
 
 https://github.com/JakeWharton/pidcat
 
-## Android on Chrome
+## Android on Linux
 
-[Android Apps on Linux | Linux.org](http://www.linux.org/threads/android-apps-on-linux.7431/)
+[Android Apps on Linux | Linux.org](http://www.linux.org/threads/android-apps-on-linux.7431/) via Chrome
+[Best Ways To Use Android Apps In Ubuntu - LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo](http://www.linuxandubuntu.com/home/best-ways-to-use-android-apps-in-ubuntu)
+[Anbox Runs Android In Your Linux Without Emulation - LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo](http://www.linuxandubuntu.com/home/anbox-runs-android-in-your-linux-without-emulation)
 
 ## aapt
 

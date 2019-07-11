@@ -15,6 +15,8 @@ tags:
 http://tldp.org/LDP/abs/html/string-manipulation.html
 http://wiki.bash-hackers.org/syntax/pe
 http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html
+[Bash One-Liners Explained, Part II: Working with strings - good coders code, great coders reuse](http://www.catonmat.net/blog/bash-one-liners-explained-part-two/)
+
 > TODO: add zsh manual
 
 ```sh
@@ -35,7 +37,7 @@ ${var:+value} # means if $var is defined use "value"; otherwise nothing
 
 # string substitution
 ${string/substring/replacement}   # replace "substring" with "replacement"
-${string//substring/replacement}  # replace all occurrences of "substring" with "replacement"
+${string//substring/replacement}  # replace all occurrences (g) of "substring" with "replacement"
 ${string/#substring/replacement}  # replace front match (^) "substring" with "replacement"
 ${string/%substring/replacement}  # replace end match ($) "substring" with "replacement"
 
@@ -59,7 +61,7 @@ base=${file##*/}
 pathObj[dir]=${file%/*}
 pathObj[base]=${base}
 pathObj[name]=${base%.*}
-pathObj[ext]=.${base##*.} # note added '.'
+pathObj[ext]=.${base##*.} # note added '.' prefix
 # NOTE: ext has bug if $file has no extension
 
 if [ ${path:0:1} = '/' ]; then

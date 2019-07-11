@@ -8,6 +8,16 @@ tags:
 - economics
 ---
 
+[Freakonomics » Preventing Crime for Pennies on the Dollar: A New Freakonomics Radio Episode](http://freakonomics.com/2015/09/10/preventing-crime-for-pennies-on-the-dollar/)
+16:00 system I and II decision making
+
+> see `psychology.md`
+
+## Bias
+
+[Freakonomics Radio (podcast)](https://player.fm/series/freakonomics-radio)
+People think expensive wine taste better because they know they are more expensive. Similarly for houses and luxury goods.
+
 ## Trolley Problem (and variants)
 
 [Trolley problem - Wikiwand](http://www.wikiwand.com/en/Trolley_problem)

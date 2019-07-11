@@ -24,11 +24,14 @@ sed -f <PROGRAM.sed> file
 [Get sed savvy - part 1](http://www.eriwen.com/tools/get-sed-savvy-1/)
 [Get sed savvy - part 2](http://www.eriwen.com/tools/get-sed-savvy-2/)
 [Get sed savvy - part 3](http://www.eriwen.com/tools/get-sed-savvy-3/)
+
 [Famous Sed One-Liners Explained, Part I: File Spacing, Numbering and Text Conversion and Substitution - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-one/)
 [Famous Sed One-Liners Explained, Part II: Selective Printing of Certain Lines - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-two/)
 [Famous Sed One-Liners Explained, Part III: Selective Deletion of Certain Lines and Special Applications - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-three/)
-[Sed - UNIX Stream Editor - Cheat Sheet - good coders code, great reuse](http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/)
 [Sed one-liners](http://sed.sourceforge.net/sed1line.txt)
+
+[Sed - UNIX Stream Editor - Cheat Sheet - good coders code, great reuse](http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/)
+
 [Sed by Example, Part 1](http://www.funtoo.org/Sed_by_Example,_Part_1)
 [Sed by Example, Part 2](http://www.funtoo.org/Sed_by_Example,_Part_2)
 [Sed by Example, Part 3](http://www.funtoo.org/Sed_by_Example,_Part_3)
@@ -36,6 +39,9 @@ sed -f <PROGRAM.sed> file
 [Using Sed | DigitalOcean](https://www.digitalocean.com/community/tutorial_series/using-sed)
 [sed 简明教程 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/9104.html)
 [Your Own Linux..!: sed](http://www.yourownlinux.com/search/label/sed)
+[Text Manipulation with sed | Linux Journal](http://www.linuxjournal.com/article/7231)
+
+[sed & awk, 2nd Edition](https://library.oreilly.com/book/9781565922259/sed-amp-awk/toc.xhtml)
 
 ## Examples
 

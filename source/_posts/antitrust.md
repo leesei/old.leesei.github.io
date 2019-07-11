@@ -2,12 +2,16 @@
 title: "Antitrust"
 date: 2015-04-04 00:43:35
 categories:
-- trivia
-tags:
 - law
+tags:
 - antitrust
 toc: true
 ---
+
+[All Broken Up About Facebook | TechStuff Podcast](https://www.techstuffpodcast.com/podcasts/all-broken-up-about-facebook.htm) overview of antitrust laws
+
+Monopoly Duopoly Oligopoly
+Sherman Antitrust Act, Clayton Act, Federal Trade Commission Act
 
 ## Predatory pricing
 
@@ -27,3 +31,10 @@ captures more consumer surplus and convert it to producer profit
 
 Douglas Phillips, *The Software License Unveiled*, (2009) Oxford University Press, 165-167
 Mark Glick & Duncan Cameron, *When Do Proprietary Aftermarkets Benefit Consumers?*, (1999) 67 Antutrust L.J. 357, 360-365
+
+## Tech Giants
+
+[Explainer: Should Big Tech Fear U.S. Antitrust Enforcers? - The New York Times](https://www.nytimes.com/reuters/2019/06/05/business/05reuters-tech-antitrust-legal-explainer.html)
+
+[Opinion | It’s Time to Break Up Facebook - The New York Times](https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html) by Chris Hughes, Facebook founder
+[Opinion | Chris Hughes’s Call to Break Up Facebook: 5 Takeaways - The New York Times](https://www.nytimes.com/2019/05/09/opinion/chris-hughes-facebook.html)

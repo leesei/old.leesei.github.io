@@ -19,14 +19,14 @@ Connecting to Android devices on Linux.
 ```sh
 $ lsusb
 ...
-Bus 008 Device 042: ID 18d1:0003 Google Inc. 
-Bus 007 Device 053: ID 2207:0010  
+Bus 008 Device 042: ID 18d1:0003 Google Inc.
+Bus 007 Device 053: ID 2207:0010
 ...
 ```
 
 The first part of ID is vendorID (18d1 and 2207 in the above example)
 
-## Update adb_usb.ini
+## Update `adb_usb.ini`
 
 ```sh
 # with android-sdk properly setup
@@ -56,11 +56,11 @@ sudo $(which adb) devices
 
 > Newer system should not need this.
 
-[Using Hardware Devices | Android Developers](http://developer.android.com/tools/device.html)  
-[Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)  
+[Using Hardware Devices | Android Developers](http://developer.android.com/tools/device.html)
 [android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules](https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules)
 
 Add `51-adb.rules` to `/etc/udev/rules.d`:
+
 ```
 # allwinner board
 #SUBSYSTEM=="usb", SYSFS{idVendor}=="18d1", MODE="0666"
@@ -102,8 +102,9 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", ATTR{idProduct}=="6860", MODE="0666", 
 ```
 
 [HOWTO: Linux and MTP - xda-developers](http://forum.xda-developers.com/showthread.php?t=2055563)
+[Intro to MTP, PTP, and UMS | Linux.org](https://www.linux.org/threads/intro-to-mtp-ptp-and-ums.11283/)
 [Samsung Galaxy Devices and Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=116879#p660869)
-[Upgrade To Gvfs With MTP Support In Ubuntu 12.10 Or 12.04 To Easily Connect Android 4.0+ Devices ~ Web Upd8: Ubuntu / Linux blog](http://www.webupd8.org/2013/01/upgrade-to-gvfs-with-mtp-support-in.html)
+[Android USB Connections Explained: MTP, PTP, and USB Mass Storage](https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/)
 [MTP - ArchWiki](https://wiki.archlinux.org/index.php/MTP)
 [MTPfs « Dual Elephants](http://www.adebenham.com/mtpfs/)
 [Mount MTP device on Debian 7 wheezy | Roger Steneteg](http://roger.steneteg.org/299/mount-mtp-device-on-debian-7-wheezy/)

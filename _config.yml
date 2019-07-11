@@ -42,8 +42,8 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 1
 render_drafts: false
-post_asset_folder: false
-relative_link: true
+post_asset_folder: true
+relative_link: false
 future: true
 highlight:
   enable: true
@@ -53,14 +53,16 @@ highlight:
 
 # Markdown
 ## https://github.com/chjj/marked
-markdown:
-  gfm: false
+marked:
+  autolink: true
+  gfm: true
   tables: true
-  breaks: false
+  breaks: true
   pedantic: false
   sanitize: false
   smartLists: true
   smartypants: false
+# stop_tag_plugins: true
 
 # Category & Tag
 default_category: uncategorized
@@ -101,7 +103,7 @@ theme: freemind
 server:
   port: 4000
   log: true
-  ip: 0.0.0.0
+  ip: localhost
 
 # hexo-generator-archive
 archive_generator:

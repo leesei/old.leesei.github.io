@@ -10,6 +10,11 @@ tags:
 toc: true
 ---
 
+[Easy WP Guide. An Easy to read WordPress Manual](https://easywpguide.com/wordpress-manual/)
+[WordPress Tutorial Videos for Beginners by WordPress 101](https://www.wp101.com/)
+
+[What’s the Big Deal about Gutenberg? - Namecheap Blog](https://www.namecheap.com/blog/whats-the-big-deal-about-gutenberg/) SPA for editing post
+
 ## WordPress Configuration
 
 [Editing wp-config.php « WordPress Codex](http://codex.wordpress.org/Editing_wp-config.php)
@@ -20,6 +25,20 @@ toc: true
 
 [Integrating WordPress with Your Website « WordPress Codex](https://codex.wordpress.org/Integrating_WordPress_with_Your_Website)
 [Giving WordPress Its Own Directory « WordPress Codex](http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory)
+
+## WordPress API
+
+[WP REST API v2 Documentation](http://v2.wp-api.org/)
+
+[The Story Behind the New WordPress.com | Developer Resources](https://developer.wordpress.com/2015/11/23/the-story-behind-the-new-wordpress-com/)
+[Introducing the New WordPress.com](https://developer.wordpress.com/calypso/)
+[Automattic/wp-calypso: The new JavaScript- and API-powered WordPress.com](https://github.com/Automattic/wp-calypso)
+
+[Clearing the air: Is WordPress being rewritten in Node.js and React? | Wes Bos](http://wesbos.com/wordpress-calypso-react/)
+[Using Wordpress with React js | Tim Smith](https://www.iamtimsmith.com/blog/using-wordpress-with-react/)
+
+[Home | WPGraphQL](https://docs.wpgraphql.com/)
+[Headless Wordpress with React and GraphQL - NaNLABS](https://www.nan-labs.com/blog/headless-wordpress-with-react-and-graphql/)
 
 ## Themes
 
@@ -122,3 +141,26 @@ You have to create a page with 'front-page template' to see this layout.
 | ----------------------------- |
 | Footer Sidebar                | (optional, multiple columns)
 ```
+
+## Plugins
+
+[Disable Comments](https://github.com/solarissmoke/disable-comments-mu), hide all comments related elements
+[WP Editor](http://wpeditor.net/), syntax highlighting in plugin and theme editor
+
+## Backup
+
+[WordPress › Search for backup « WordPress Plugins](https://wordpress.org/plugins/search.php?q=backup)
+[WordPress › BackUpWordPress « WordPress Plugins](https://wordpress.org/plugins/backupwordpress/)
+[WordPress › WPBackItUp Backup & Restore « WordPress Plugins](https://wordpress.org/plugins/wp-backitup/) automated restore is for Pro
+[WordPress › BackWPup Free - WordPress Backup Plugin « WordPress Plugins](https://wordpress.org/plugins/backwpup/)
+[WordPress › Backup Guard « WordPress Plugins](https://wordpress.org/plugins/backup/)
+[WordPress › All-in-One WP Migration « WordPress Plugins](https://wordpress.org/plugins/all-in-one-wp-migration/)
+[WordPress › Backup « WordPress Plugins](https://wordpress.org/plugins/backup-wp/)
+
+[WordPress Backups « WordPress Codex](http://codex.wordpress.org/WordPress_Backups)  
+[WordPress backups](http://www.tedroche.com/Present/2011/wordpressbackups/WordPressBackupsSlides.html)
+
+## Alternatives
+
+[KeystoneJS · Node.js cms and web application platform built on Express and MongoDB](http://keystonejs.com/)
+[keystonejs/keystone: node.js cms and web app framework](https://github.com/keystonejs/keystone)

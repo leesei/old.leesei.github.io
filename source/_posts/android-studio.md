@@ -14,3 +14,5 @@ Android Studio is an IDE based on [Intellij IDEA](http://www.jetbrains.com/idea/
 [Android Studio Tips & Tricks: Moving Around](http://www.developerphil.com/android-studio-tips-tricks-moving-around/)
 [Android Studio Tips Of the Day – Roundup #1](http://www.developerphil.com/android-studio-tips-of-the-day-roundup-1/)
 [Android Studio Tips Of the Day – Roundup #2](http://www.developerphil.com/android-studio-tips-of-the-day-roundup-2/)
+
+[Mastering the Terminal side of Android development – Medium](https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521#.yupimvgzd)

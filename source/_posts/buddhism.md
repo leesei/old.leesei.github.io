@@ -20,6 +20,7 @@ tags:
 [大眾部 - Wikiwand](https://www.wikiwand.com/zh/大眾部)
 
 [四聖諦 - Wikiwand](https://www.wikiwand.com/zh/四谛): 苦諦, 集諦, 滅諦, 道諦
+[四聖諦](https://www.yinshun.org/Enlightenment/1998/1998mar/1998mar3.htm)
 [八正道 - Wikiwand](https://www.wikiwand.com/zh/八聖道分)
 [十二因缘 - Wikiwand](https://www.wikiwand.com/zh/十二因缘)
 [貪瞋癡 - Wikiwand](http://www.wikiwand.com/zh-hk/三毒)

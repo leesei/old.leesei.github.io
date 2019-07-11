@@ -1,7 +1,7 @@
 ---
 title: Gamification
 categories:
-  - trivia
+  - games
 toc: true
 date: 2015-07-20 18:09:20
 tags:

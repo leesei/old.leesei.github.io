@@ -20,12 +20,13 @@ Some analogues the ISP market with the electricity market where providers should
 [What's the Deal with Net Neutrality? - YouTube](https://www.youtube.com/watch?v=uw-4pMdbbmg)
 {% youtube uw-4pMdbbmg %}
 
-
 [H.I. #12: Hamburgers in the Pipes — Hello Internet](http://www.hellointernet.fm/podcast/12) at [44:30](https://youtu.be/C2k6Ui70sMY?t=2671)
 
 [Net neutrality - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Net_neutrality)
 [Save the Internet | Free Press](http://www.savetheinternet.com/sti-home)
 [Webmaker Training: Teach the Web | | Concepts](https://training.webmakerprototypes.org/en/net-neutrality/concepts/)
 
-[What Is A Common Carrier? - TechStuff (podcast)](https://player.fm/series/techstuff/what-is-a-common-carrier)
+[What is a Common Carrier? | TechStuff](https://shows.howstuffworks.com/techstuff/what-is-a-common-carrier.htm) 2015
+[Revisiting Net Neutrality | TechStuff](https://shows.howstuffworks.com/techstuff/revisiting-net-neutrality.htm) 2017
+[Why is There a Battle Over Net Neutrality? | Stuff You Should Know](https://www.stuffyoushouldknow.com/podcasts/why-battle-over-net-neutrality.htm) 2017
 [Common Carrier legal definition of Common Carrier](http://legal-dictionary.thefreedictionary.com/Common+Carrier)

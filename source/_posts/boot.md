@@ -8,8 +8,9 @@ tags:
 toc: true
 ---
 
+[Booting - Wikiwand](https://www.wikiwand.com/en/Booting#/SPL)
 
-POST -> BIOS -> MBR of boot partition -> Bootloader -> 
+POST -> BIOS/ROM code -> MBR of boot partition -> Bootloader -> 
 Kernel -> [`init`](https://wiki.archlinux.org/index.php/Init)/[`systemd`](https://wiki.archlinux.org/index.php/Systemd) -> 
 shell/display manager (login) -> `startx`/`xinit` -> DE
 
@@ -19,21 +20,63 @@ shell/display manager (login) -> `startx`/`xinit` -> DE
 resource allocation), initialization of BIOS extensions
 (option ROMs)
 3. load first sector of boot device ("boot sector", MBR) to
-0x7C00
-a. MBR relocates itself, loads first sector of active partition to
+0x7C00  
+MBR relocates itself, loads first sector of active partition to
 0x7C00
 4. boot sector loads "second stage" boot loader
 a. boot loader knows how to read kernel from file system
 b. usually loads kernel to an address > 1MB and switches to
 protected mode before jumping to kernel entry point
 
+```
++--------+----------------+----------------+----------+
+| Boot   | Terminology #1 | Terminology #2 | Actual   |
+| stage  |                |                | program  |
+| number |                |                | name     |
++--------+----------------+----------------+----------+
+| 1      |  Primary       |  -             | ROM code |
+|        |  Program       |                |          |
+|        |  Loader        |                |          |
+|        |                |                |          |
+| 2      |  Secondary     |  1st stage     | u-boot   |
+|        |  Program       |  bootloader    | SPL      |
+|        |  Loader (SPL)  |                |          |
+|        |                |                |          |
+| 3      |  -             |  2nd stage     | u-boot   |
+|        |                |  bootloader    |          |
+|        |                |                |          |
+| 4      |  -             |  -             | kernel   |
+|        |                |                |          |
++--------+----------------+----------------+----------+
+```
+
 [System Initialization (x86) - OSDev Wiki](http://wiki.osdev.org/System_Initialization_%28x86%29)
 [Linux startup process - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Linux_startup_process)
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Inside the Linux boot process](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
+[The BIOS/MBR Boot Process](https://neosmart.net/wiki/mbr-boot-process/)
+[鳥哥的 Linux 私房菜 -- 第十九章、開機流程、模組管理與 Loader](http://linux.vbird.org/linux_basic/0510osloader.php)
 [如何訂製 Linux X 視窗環境 - 石頭閒語 - 樂多日誌](http://blog.roodo.com/rocksaying/archives/19886616.html)
 
+[LinuxBoot](https://www.linuxboot.org/)
+
 [Some basics of MBR v/s GPT and BIOS v/s UEFI - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI)
+
+## Bootloader
+
+[Bootloader - OSDev Wiki](https://wiki.osdev.org/Bootloader)
+[What is the difference between a Bootrom vs bootloader on ARM systems - Stack Overflow](https://stackoverflow.com/questions/15665052/what-is-the-difference-between-a-bootrom-vs-bootloader-on-arm-systems)
+[linux - Why do we need a bootloader in an embedded device? - Stack Overflow](https://stackoverflow.com/questions/15548004/why-do-we-need-a-bootloader-in-an-embedded-device)
+
+SPL (secondary program loader) is needed when the static RAM cannot hold the whole bootloader and this abstract the hardware form bootloader
+[what is the use of SPL (secondary program loader) - Stack Overflow](https://stackoverflow.com/questions/31244862/what-is-the-use-of-spl-secondary-program-loader)
+
+[TPL: SPL loading SPL](https://www.denx.de/wiki/pub/U-Boot/MiniSummitELCE2013/tpl-presentation.pdf)
+
+[WebHome < U-Boot < DENX](https://www.denx.de/wiki/U-Boot)
+[Das U-Boot - Wikiwand](https://www.wikiwand.com/en/Das_U-Boot)
+[Introduction to the U-Boot bootloader - YouTube](https://www.youtube.com/watch?v=e6wlg9ntPVY)
+[Embedded Linux Booting Process (Multi-Stage Bootloaders, Kernel, Filesystem) - YouTube](https://www.youtube.com/watch?v=DV5S_ZSdK0s)
 
 ## Boot Partition
 
@@ -51,6 +94,15 @@ protected mode before jumping to kernel entry point
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Boot with GRUB | Linux Journal](http://www.linuxjournal.com/article/4622)
 
+### OpenBIOS
+
+[OpenBIOS - Wikiwand](https://www.wikiwand.com/en/OpenBIOS)
+[OpenBIOS](http://www.openfirmware.info/Welcome_to_OpenBIOS)
+[Category:Free BIOS implementations - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Category:Free_BIOS_implementations)
+
+[coreboot](https://www.coreboot.org/) [coreboot - Wikiwand](https://www.wikiwand.com/en/Coreboot)
+[Libreboot project](https://libreboot.org/)
+
 ### Fixing MBR
 
 http://support.microsoft.com/kb/927392
@@ -58,6 +110,48 @@ http://windows7themes.net/how-to-fix-mbr-in-windows-7.html
 http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html
 http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html
 http://ubuntuforums.org/showthread.php?t=1014708
+
+[LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo - Home](http://www.linuxandubuntu.com/home)
+
+## Bootable USB key
+
+Creating a bootable USB key in Linux is [straight forward](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
+
+```sh
+sudo dd if=${iso} of=${usb device} bs=4M
+# note: the package is gddrescue
+sudo ddrescue ${iso} ${usb device} --force -D
+```
+
+[Useless Use Of dd – Vidar’s Blog](https://www.vidarholen.net/contents/blog/?p=479)
+[Ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html) GNU ddrescue/gddrescue
+
+[Multiboot USB drive - ArchWiki](https://wiki.archlinux.org/index.php/Multiboot_USB_drive#Workstation_live_medium)
+[jsamr/bootiso: A bash script to securely create a bootable USB device from one ISO file. Just curl it, chmod it and go!](https://github.com/jsamr/bootiso)
+See also my `iso2usb`.
+
+Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) modify the partition label of the ISO, that can cause problem during bootup.
+
+- [probonopd/SystemImageKit: Run (multiple) operating systems directly from image files. Add extensions, apps and configuration, which are one file each.](https://github.com/probonopd/SystemImageKit) Multiple ISOs
+- [UNetbootin][UNetbootin - Homepage and Downloads](http://unetbootin.github.io/) multiplatform, *support Windows ISO*  
+  `unetbootin method=diskimage isofile="my.iso" installtype=USB targetdrive=/dev/sdc`
+- [Etcher](https://etcher.io/) multiplatform
+- [Rufus](https://rufus.ie/) Windows, fast, *support Windows ISO*
+- Linux Live USB Creator
+- [Universal USB Installer](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) Windows, wine, fast, *support Windows ISO*
+- [YUMI - Multiboot USB Creator](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) Windows, wine, Multiple ISOs
+- Live USB Creator
+
+The Windows ISO cannot be `dd`-ed to USB flash. We must create a bootable NTFS partition then copy the contents over.
+
+[The best places to find Windows 10 ISOs | Computerworld](https://www.computerworld.com/article/3269118/microsoft-windows/best-places-to-find-windows-10-isos.html)
+[Download Windows USB/DVD Download Tool from Official Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=56485)
+[ValdikSS/windows2usb: Windows 7/8/8.1/10 ISO to Flash Drive burning utility for Linux (MBR/GPT, BIOS/UEFI, FAT32/NTFS)](https://github.com/ValdikSS/windows2usb)
+
+## PXEBoot
+
+[What Is Network Booting (PXE) and How Can You Use It?](http://www.howtogeek.com/57601/what-is-network-booting-pxe-and-how-can-you-use-it/)
+[Preboot Execution Environment - Wikiwand](https://www.wikiwand.com/en/Preboot_Execution_Environment)
 
 ## UEFI
 
@@ -95,70 +189,80 @@ UEFI application (in EFI System partition) -> Bootloader -> Kernel -> ...
 
 ## Init System (pid 1)
 
-### init
+[Linux PID 1 和 Systemd | | 酷 壳 - CoolShell](https://coolshell.cn/articles/17998.html)
+
+### `init`/`sysvinit`
 
 [init - Wikiwand](http://www.wikiwand.com/en/Init)
 
 Originates from System V, the oldest and most widely used init system.
+`init` is [LSB](http://refspecs.linuxfoundation.org/lsb.shtml)-compliant.
+Debian switched to `systemd` in 2015 with [Debian 8 Jessie](http://arstechnica.com/information-technology/2015/05/debian-8-linuxs-most-reliable-distro-makes-its-biggest-change-since-1993/) and caused the [Devuan](https://devuan.org/) fork.
 
-### upstart
+[sysv-rc-conf - Run-level configuration for SysV like init script links](http://sysv-rc-conf.sourceforge.net/) UI tool
+
+https://github.com/Fleshgrinder/nginx-sysvinit-script  
+https://github.com/JasonGiedymin/nginx-init-ubuntu  
+
+```sh
+$ sudo update-rc.d
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+                -n: not really
+                -f: force
+
+The disable|enable API is not stable and might change in the future.
+```
+
+Examples:
+
+```sh
+sudo update-rc.d -f nginx remove
+sudo update-rc.d nginx defaults
+```
+
+### `upstart`
+
+> `upstart` is deprecated
 
 [Upstart - Wikiwand](http://www.wikiwand.com/en/Upstart)
 [upstart - event-based init daemon](http://upstart.ubuntu.com/)
 
-### systemd
+Use `upstart` instead of `init.d` for Ubuntu:  
+http://casear.chuto.tw/2013/05/31/upstart-setting-for-nginx-on-ubuntu/  
+http://casear.chuto.tw/2013/05/31/upstart-setting-for-redis-on-ubuntu/
 
-[systemd - ArchWiki](https://wiki.archlinux.org/index.php/systemd)
-[systemd - Wikiwand](http://www.wikiwand.com/en/Systemd)
-[systemd - freedesktop.org](http://www.freedesktop.org/wiki/Software/systemd/)
-[TipsAndTricks](http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/)
-
-System services are written in `.service` files, located in:
-```
-/usr/lib/systemd/system
-
-# this is what `systemctl enable` does
-ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/graphical.target.wants/teamviewerd.service'
-```
-
-[Archlinux, systemd-free](http://systemd-free.org/)
-[Systemd Essentials: Working with Services, Units, and the Journal | DigitalOcean](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
-
-```
-systemd-ui
-systemctl
-systemd-analyze
-journalctl
-```
-
-#### systemctl
+Ubuntu followed Debian's footstep and moved to `systemd` since [15.04](http://www.theregister.co.uk/2015/05/05/ubuntu_15_04_review/).
 
 ```sh
-# list services
-systemctl 
-systemctl enable/disable <service>
+sudo service nginx status
+sudo service nginx start
+sudo service nginx stop
 ```
 
-### from Lennart Poettering
+WordPress Upstart script example:
 
-[Why systemd?](http://0pointer.de/blog/projects/why.html)
-[The Biggest Myths](http://0pointer.de/blog/projects/the-biggest-myths.html)
-[systemd journal](https://docs.google.com/document/pub?id=1IC9yOXj7j6cdLLxWEBAGRL6wl97tFxgjLUEHIX3MSTs)
+```
+# /etc/init/docker-wordpress.conf
+# assuming an image with `--name=docker-wordpress` has been created
+description "Wordpress - example.com"
+author "Doker Guru"
+start on filesystem and started docker
+stop on runlevel [!2345]
+respawn
+exec /usr/bin/docker start -a docker-wordpress
+pre-stop exec /usr/bin/docker stop -a docker-wordpress
+```
 
-#### systemd for Developers
+### `systemd`
 
-[systemd for Developers I](http://0pointer.net/blog/projects/socket-activation.html)
-[systemd for Developers II](http://0pointer.net/blog/projects/socket-activation2.html)
-[systemd for Developers III](http://0pointer.net/blog/projects/journal-submit.html)
+> see `systemd.md`
 
-#### systemd for Administrators
+### `Launchd`
 
-> TODO:
-> http://0pointer.net/blog/archives.html
-> select "systemd for Administrators" and generate links
+used by MacOS
 
-[systemd for Administrators, Part 1](http://0pointer.net/blog/projects/systemd-for-admins-1.html)
-[systemd for Administrators, Part II](http://0pointer.net/blog/projects/systemd-for-admins-2.html)
-[systemd for Administrators, Part III](http://0pointer.net/blog/projects/systemd-for-admins-3.html)
-....
-[systemd For Administrators, Part XXI](http://0pointer.net/blog/systemd-for-administrators-part-xxi.html)
+[Launchd: One Program to Rule them All - YouTube](https://www.youtube.com/watch?v=SjrtySM9Dns)
+[About Daemons and Services](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html)

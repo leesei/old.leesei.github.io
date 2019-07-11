@@ -2,13 +2,14 @@
 title: "Markdown"
 date: 2015-04-23 10:36:13
 categories:
-- comp.lang 
+- comp.lang
 tags:
 - markdown
 toc: true
 ---
 
 [Books in Browsers 2014: Peter Armstrong, LeanPub - YouTube](https://www.youtube.com/watch?t=176&v=VOCYL-FNbr0)
+[Mastering Markdown - YouTube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3) video series by Web Bos
 
 [CommonMark](http://commonmark.org/)
 
@@ -26,10 +27,31 @@ http://johnmacfarlane.net/babelmark2/?text=%23+Hello+there%0A%0AThis+is+a+paragr
 
 [How can the backtick character ` be included in code? - Meta Stack Exchange](http://meta.stackexchange.com/questions/55437/how-can-the-backtick-character-be-included-in-code)
 
-## Haroopad
+## Editors
+
+[Minimalist Online Markdown Editor](http://markdown.pioul.fr/)
+[rvagg/morkdown](https://github.com/rvagg/morkdown)
+SublimeText with MarkdownEditing plugin
+Atom
+
+### Haroopad
 
 [Haroopad - The Next Document processor based on Markdown](http://pad.haroopress.com/)
 [rhiokim/haroopad](https://github.com/rhiokim/haroopad)
 
+## JS parsers
+
+[chjj/marked](https://github.com/chjj/marked)
+[rvagg/node-brucedown](https://github.com/rvagg/node-brucedown)
+
+Extensible:
+[jonschlinkert/remarkable](https://github.com/jonschlinkert/remarkable)
+[markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
+
 ## presentations
 
+> see `presentation.md`
+
+---
+
+[RelaxedJS/ReLaXed: Create PDF documents using web technologies](https://github.com/RelaxedJS/ReLaXed)

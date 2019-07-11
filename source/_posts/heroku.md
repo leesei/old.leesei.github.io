@@ -9,20 +9,23 @@ tags:
 toc: true
 ---
 
-* [heroku toolbelt](https://toolbelt.heroku.com/)
-
-* [hk](https://github.com/heroku/hk) - Fast Heroku Client
+[Heroku CLI | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-cli)
+[heroku/cli: Heroku CLI](https://github.com/heroku/cli)
 
 ```sh
-$ su
-# L=/usr/local/bin/hk && curl -sL -A "`uname -sp`" https://hk.heroku.com/hk.gz | zcat >$L && chmod +x $L
+curl https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz | tar xvz
+./heroku/install
 ```
 
 [Buildpack API | Heroku Dev Center](https://devcenter.heroku.com/articles/buildpack-api)
+[Building Docker Images with heroku.yml | Heroku Dev Center](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml)
 
 [Process Types and the Procfile | Heroku Dev Center](https://devcenter.heroku.com/articles/procfile)
 
 [Heroku Node.js Support | Heroku Dev Center](https://devcenter.heroku.com/articles/nodejs-support)
+
+[Heroku Basics: Dynos and Costs - NaNLABS](https://www.nan-labs.com/blog/heroku-basics-dynos-and-costs/)
+[How to host lightweight apps for free – freeCodeCamp](https://medium.freecodecamp.com/how-to-host-lightweight-apps-for-free-a29773e5f39e)
 
 ##  Heroku Button
 
@@ -41,6 +44,13 @@ Workflow that groups the codebase of an application in different stages of devel
 [Local Development with Docker | Heroku Dev Center](https://devcenter.heroku.com/articles/introduction-local-development-with-docker)
 [Getting Started with Node.js and Heroku Local Docker Development | Heroku Dev Center](https://devcenter.heroku.com/articles/getting-started-with-node-js-and-heroku-local-docker-dev)
 
+[gliderlabs/herokuish: Utility for emulating Heroku build and runtime tasks in containers](https://github.com/gliderlabs/herokuish)
+[progrium/cedarish: Heroku Cedar-ish Base Image for Docker](https://github.com/progrium/cedarish)
+
+## Passenger
+
+[Heroku and Passenger: focus on the app-performance](https://blog.phusion.nl/2015/11/10/heroku-and-passenger-focus-on-the-app-performance/)
+
 ## commands
 
 [Command Line | Heroku Dev Center](https://devcenter.heroku.com/categories/command-line)
@@ -48,7 +58,7 @@ Workflow that groups the codebase of an application in different stages of devel
 - create a new heroku app
 
   `heroku apps:create <NAME>`  
-  this should have added remote repo `heroku`  
+  if current directory is a git repo, this should have added remote `heroku`  
   `git remote -v`
 
 - with existing git repo
@@ -80,8 +90,6 @@ Workflow that groups the codebase of an application in different stages of devel
 
 ## Plugins
 
-> https://outlet.herokuapp.com/
-
 - [heroku-vim](https://github.com/naaman/heroku-vim)
 
   `heroku plugins:install https://github.com/naaman/heroku-vim`
@@ -96,15 +104,11 @@ curl https://s3.amazonaws.com/heroku-vim/vim-7.3.tar.gz --location --silent | ta
 export PATH=$PATH:/app/vim/bin
 ```
 
-- [heroku-push](https://github.com/ddollar/heroku-push)
+- [heroku-config](https://github.com/xavdid/heroku-config)
 
-  `heroku plugins:install https://github.com/ddollar/heroku-push`
+  `heroku plugins:install heroku-config`
 
-- [heroku-config](https://github.com/ddollar/heroku-config)
-
-  `heroku plugins:install git://github.com/ddollar/heroku-config.git`
-
-```
+```sh
 # pull Heroku config as .env
 heroku config:pull --overwrite --interactive
 ```
@@ -120,10 +124,10 @@ heroku repo:rebuild
 
 heroku-toolbelt/3.40.6 (x86_64-linux) ruby/2.0.0
 heroku-cli/4.20.11-62a7bb8 (amd64-linux) go1.4.2
-=== Installed Plugins
-heroku-git@2.4.0
-heroku-vim
 
+Installed Plugins:
+- heroku-git@2.4.0
+- heroku-vim
 
 ### `heroku help`
 

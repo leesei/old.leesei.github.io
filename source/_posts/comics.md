@@ -2,41 +2,103 @@
 title: "Comics"
 date: 2015-04-24 16:14:25
 categories:
-- trivia
+  - trivia
 tags:
-- comics
+  - comics
 toc: true
 ---
 
+This history of US comics divides into 4 distinct periods:
+https://www.youtube.com/watch?v=If2RbK9vUhU&t=256
+
+Golden Age: 1938-1950
+After the Great Depression and WWII, patriotic heroes fighting "foreigners". Violence and crime are abundance.
+Silver Age: 1956-1970
+Comics Code Authority established to regulate contents of comics. Crime, horror and sex is regulated.
+Bronze Age: 1970-1985
+The Code was ignored by comic publishers and comics addresses social issues. Tony Stark dealt with his alcoholic issue, Gwen Stacey dies ...
+Modern: 1985-today
+More focus on the mental beings of the heroes and villains.
+
+[siufublog](https://siufublog.wordpress.com/)
+[The History Of The Marvel Vs DC Rivalry - YouTube](https://www.youtube.com/watch?v=sXmyW7rCVR0)
+
 # Marvel
 
-[Marvel Universe Wiki](http://marvel.com/universe/Main_Page) (Official)
 [Multiverse (Marvel Comics) - Wikiwand](https://www.wikiwand.com/en/Multiverse_%28Marvel_Comics%29)
 
-[MarvelDirectory.com](http://www.marveldirectory.com/index.htm)
+[Marvel Universe Wiki](http://marvel.com/universe/Main_Page) (Official)
 [Marvel Comics Database](http://marvel.wikia.com/Main_Page)
-
+[MarvelDirectory.com](http://www.marveldirectory.com/index.htm)
 [Marvel Animated Universe Wiki](http://marvelanimated.wikia.com/wiki/Marvel_Animated_Universe_Wiki)
+
+[Marvel Developer Portal](http://developer.marvel.com/)
+[Marvel Developer Portal - Interactive Documentation](https://developer.marvel.com/docs)
+[mattdesl/marvel-comics-api: a small wrapper around the Marvel Comics API](https://github.com/mattdesl/marvel-comics-api)
+
+[15 Superheroes That Have Defeated The Hulk](http://screenrant.com/superheroes-that-have-defeated-the-hulk/)
+
+[Avengers: The Origin of Marvel's Infinity Stones Explained](https://screenrant.com/marvel-infinity-stones-origin-comics-explained/)
+
+[Captain Marvel: The Kree-Skrull War Explained | ScreenRant](https://screenrant.com/captain-marvel-kree-skull-war-comics/)
+[Captain Marvel: Her Powers & Why the Avengers Need Her | FANDOM](http://fandom.wikia.com/articles/captain-marvel-her-powers-why-the-avengers-need-her)
+
+[Jack Kirby's Marvels](https://www.imaginaryworldspodcast.org/jack-kirby-s-marvels.html)
+
+[美漫懶人包(US comics easy pack) - YouTube](https://www.youtube.com/playlist?list=PLSYYuRn7FAnX5FQjaTH51siG6bPP7JslH)
+[努力的 Lorre 油管频道 - YouTube](https://www.youtube.com/channel/UCKMZ34aa78_8tsPpIeuIMmA)
 
 # DC Comics
 
 [Characters | DC Comics](http://www.dccomics.com/characters)
-[Multiverse (DC Comics) - Wikiwand](https://www.wikiwand.com/en/Multiverse_(DC_Comics))
+[Multiverse (DC Comics) - Wikiwand](https://www.wikiwand.com/en/Multiverse_(DC_Comics%29)
+
+DC adopts the parallel universe concept, first in Flash, in order to crossover heroes of different origins.
 
 [DC Comics Database](http://dc.wikia.com/wiki/Main_Page)
 
+# Captain Marvel vs Captain Marvel
+
+[DC and Marvel both have a Captain Marvel, what’s the story there? What big differences are there between Superman and Shazam? – Ask the DC Multiverse Historian](https://dcmultiversehistorian.wordpress.com/2014/12/03/dc-and-marvel-both-have-a-captain-marvel-whats-the-story-there-also-what-big-differences-are-there-between-superman-and-shazam/amp/)
+[The Origins Of Captain Marvel Explained - YouTube](https://www.youtube.com/watch?v=SAQ8ha08oPM)
+[Why The Original Captain Marvel Is Now Called Shazam | ScreenRant](https://screenrant.com/captain-marvel-original-shazam-name-explained/)
+
 # Big Screen Incarnation
 
-Marvel Cinematic Universe
+[10 Best Comic Book Movies of All Time](http://io9.com/5908428/10-best-comic-book-movies-of-all-time)
+
+## DCEU
+
+[Shazam's Origin Story & Powers Explained | ScreenRant](https://screenrant.com/shazam-movie-origin-powers-wizard-explained/)
+[Shazam Family Explained: Who Plays The Adults & What Are Their Powers?](https://screenrant.com/shazam-family-dc-movie-team-explained/)
+
+## MCU
 
 [Marvel Cinematic Universe - Wikiwand](https://www.wikiwand.com/en/Marvel_Cinematic_Universe)
-[Marvel Cinematic Universe Wiki](http://marvelcinematicuniverse.wikia.com/wiki/Marvel_Cinematic_Universe_Wiki)
+[Marvel Cinematic Universe Wiki | FANDOM powered by Wikia](https://marvelcinematicuniverse.fandom.com/wiki/Marvel_Cinematic_Universe_Wiki)
+[Carousell 共你快速重溫 Marvel 電影宇宙 - Carousell Hong Kong Blog](https://blog.carousell.com/hk/十分鐘重溫marvel電影宇宙/)
+[The MCU's First 22 Movies Are Now Called The Infinity Saga - GameSpot](https://www.gamespot.com/articles/the-mcus-first-22-movies-are-now-called-the-infini/1100-6465680/)
+[漫威终局之战系列 - YouTube](https://www.youtube.com/playlist?list=PLzQ6y52QTNAyLpK8GnnwVa1oLOrqggde3)
+
+[十年，无悔入漫威 - YouTube](https://www.youtube.com/watch?v=PzG0kAY4N_M)
+[《复联4》前必看！一口气看完21部漫威电影，完整的时间线剧情讲解！ - YouTube](https://www.youtube.com/watch?v=bahjLnG0OwE)
 
 [The Secret History Of Marvel's Movies Before Iron Man: Part 1](http://io9.com/the-secret-history-of-marvels-pre-cinematic-universe-mo-1690834919)
-
 [The Complete History Of Marvel Superhero Movies: 1990-2008](http://io9.com/the-complete-history-of-marvel-superhero-movies-1990-2-1691891718)
 
-[10 Best Comic Book Movies of All Time](http://io9.com/5908428/10-best-comic-book-movies-of-all-time)
+[A Chronological History of The Marvel Cinematic Universe](https://screenrant.com/marvel-cinematic-universe-timeline/)
+[Marvel Cinematic Universe: Complete Timeline & Viewing Order](https://screenrant.com/marvel-movies-tv-viewing-guide-chronology-phase-1-3/)
+[Marvel Movie Timeline: A Complete History Of The MCU | ScreenRant](https://screenrant.com/marvel-mcu-complete-timeline/)
+[7 Story Arcs Marvel Should Use for MCU | HYPEBEAST](https://hypebeast.com/2018/6/marvel-cinematic-universe-phase-4-crossover-storylines-plot)
+[The Marvel Cinematic Universe Timeline in Chronological Order - YouTube](https://www.youtube.com/watch?v=peOWYBGuUFs)
+[Timeline of Marvel Cinematic Universe Events (Phase 1-Phase 3) - YouTube](https://www.youtube.com/watch?v=40Ksv25H4PM&app=desktop)
+
+[Marvel Studios 10: Timeline](https://disneymovierewards.go.com/articles/marvelstudios10-timeline)
+
+[Too Powerful For Marvel Movies - YouTube](https://www.youtube.com/playlist?list=PL9sO35KZL50w5_ObILpwuVvbsZCPFAIak)
+[6 Superheroes That Marvel Does Not Own the Rights to Anymore](http://www.cheatsheet.com/entertainment/how-6-marvel-superheroes-came-to-be-owned-by-other-studios.html/)
+[Marvel mistakes - The biggest MCU continuity errors and contradictions](http://www.digitalspy.com/movies/the-avengers/feature/a859332/marvel-cinematic-universe-errors-mistakes-continuity-mcu/)
+[Marvel Cinematic Universe plot holes](http://www.digitalspy.com/movies/feature/a838573/marvel-mcu-plot-holes/)
 
 # Critics
 

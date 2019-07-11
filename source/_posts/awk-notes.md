@@ -12,9 +12,23 @@ toc: true
 
 [AWK](http://en.wikipedia.org/wiki/AWK) is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.
 
+[The GNU Awk User’s Guide](http://www.gnu.org/software/gawk/manual/gawk.html)
+[How To Use awk In Bash Scripting - nixCraft](https://www.cyberciti.biz/faq/bash-scripting-using-awk/)
+
 ```sh
 awk '{PROGRAM}' file
 awk -f <PROGRAM.awk> file
+
+# passing variable to AWK
+n1=5; n2=10;
+echo | awk -v x=$n1 -v y=$n2 -f program.awk
+```
+
+```awk
+BEGIN {...}
+CONDITION {action}
+CONDITION {action}
+END {...}
 ```
 
 <!-- more -->
@@ -28,9 +42,17 @@ NF      Number of Fields
 $()     field substitution
 ```
 
-## field seperator
+## filter by row number
 
 ```sh
+# print first word
+awk 'NR==1 { print $1 }'
+```
+
+## field separator
+
+```sh
+# get second field with ":" as separator
 awk 'BEGIN { FS = ":" } ; { print $2 }'
 awk -F: '{ print $2 }'
 ```
@@ -59,7 +81,7 @@ Task | Command
 
 ## print first 16K lines
 
-```
+```sh
 awk -F '' 'NF < 16384' infile >outfile
 awk 'length($0) < 16384' infile >outfile
 # which is equivalent to
@@ -73,15 +95,32 @@ awk '{ if (length($0) < 16384) print }' infile >outfile
 [awk is a beautiful tool](http://www.eriwen.com/tools/awk-is-a-beautiful-tool/)
 [awk使用手册 - fanqiang.com](http://fanqiang.chinaunix.net/program/other/2005-09-07/3621.shtml)
 [AWK 简明教程 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/9070.html)
+[AWK Tutorial](http://www.tutorialspoint.com/awk/)
+
+[Awk - A useful little language](https://dev.to/rrampage/awk---a-useful-little-language-2fhf)
 
 [Famous Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)
 [Famous Awk One-Liners Explained, Part II: Text Conversion and Substitution - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-two/)
 [Famous Awk One-Liners Explained, Part III: Selective Printing and Deleting of Certain Lines - good coders code, great reuse](http://www.catonmat.net/blog/awk-one-liners-explained-part-three/)
 [Update on Famous Awk One-Liners Explained: String and Array Creation - good coders code, great reuse](http://www.catonmat.net/blog/update-on-famous-awk-one-liners-explained/)
+http://www.pement.org/awk/awk1line.txt
+
+[AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 1 - Blog - Reason I Am Here - Nacho Caballero](http://reasoniamhere.com/2013/09/16/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-1/)
+[AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 2 - Blog - Reason I Am Here - Nacho Caballero](http://reasoniamhere.com/2013/09/17/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-2/)
+[AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 3 - Blog - Reason I Am Here - Nacho Caballero](http://reasoniamhere.com/2013/09/18/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-3/)
+
+[Common threads: Awk by example, Part 1](http://www.ibm.com/developerworks/library/l-awk1/)
+[Common threads: Awk by example, Part 2](http://www.ibm.com/developerworks/library/l-awk2/)
+
+[Awk by Example, Part 1 : An intro to the great language with the strange name](http://www.funtoo.org/Awk_by_Example,_Part_1)
+[Awk by Example, Part 2 : Records, loops, and arrays](http://www.funtoo.org/Awk_by_Example,_Part_2)
+[Awk by Example, Part 3 : String functions and ... checkbooks?](http://www.funtoo.org/Awk_by_Example,_Part_3)
 
 [Awk, Nawk and GNU Awk Cheat Sheet - good coders code, great reuse](http://www.catonmat.net/blog/awk-nawk-and-gawk-cheat-sheet/)
 
 [Awk - A Tutorial and Introduction - by Bruce Barnett](http://www.grymoire.com/Unix/Awk.html)
 [Awk Quick Reference - Bruce Barnett](http://www.grymoire.com/Unix/AwkRef.html)
+[Top Examples of Awk Command in Unix](http://www.folkstalk.com/2011/12/good-examples-of-awk-command-in-unix.html)
+[8 Powerful Awk Built-in Variables – FS, OFS, RS, ORS, NR, NF, FILENAME, FNR](http://www.thegeekstuff.com/2010/01/8-powerful-awk-built-in-variables-fs-ofs-rs-ors-nr-nf-filename-fnr/)
 
-http://www.pement.org/awk/awk1line.txt
+[sed & awk, 2nd Edition](https://library.oreilly.com/book/9781565922259/sed-amp-awk/toc.xhtml)

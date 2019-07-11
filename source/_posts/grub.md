@@ -15,6 +15,8 @@ It loads `/boot/grub/grub.cfg` and present the menu.
 
 [GNU GRUB - Wikiwand](https://www.wikiwand.com/en/GNU_GRUB)
 [GRUB - ArchWiki](https://wiki.archlinux.org/index.php/GRUB)
+[GRUB/Tips and tricks - ArchWiki](https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks)
+[GNU GRUB Manual](http://www.gnu.org/software/grub/manual/html_node/)
 
 [Commands in the Grub Command-line | Linux.org](http://www.linux.org/threads/commands-in-the-grub-command-line.7536/)
 [Understanding the Various Grub Modules | Linux.org](http://www.linux.org/threads/understanding-the-various-grub-modules.7535/)
@@ -25,6 +27,16 @@ It loads `/boot/grub/grub.cfg` and present the menu.
 
 [Grub2/ISOBoot - Community Help Wiki](https://help.ubuntu.com/community/Grub2/ISOBoot)
 [How to Boot Linux ISO Images Directly From Your Hard Drive](http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/)
+[Grub4dos Guide - Configuration File Entries](http://diddy.boot-land.net/grub4dos/files/menu.htm)
+
+## Kernel params
+
+[Kernel/KernelBootParameters - Ubuntu Wiki](https://wiki.ubuntu.com/Kernel/KernelBootParameters)
+
+```sh
+# this is equivalent to setting `psmouse.proto=bare` upon boot
+sudo modprobe -r psmouse && sudo modprobe -r psmouse proto=bare
+```
 
 ## Restore GRUB after Windows install
 
@@ -37,8 +49,8 @@ sudo mount /dev/sda5 /mnt
 sudo grub-install /dev/sda --root-directory=/mnt
 sudo reboot
 
-# add Window entry to menu
-sudo update-grub
+# this will also add Window entry to menu (with os-prober)
+sudo grub-mkconfig
 ```
 
 [Restore the GRUB Bootloader - Manjaro Linux](https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader)
@@ -59,12 +71,36 @@ bootrec.exe /RebuildBcd
 
 ```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# diff first
+sudo grub-mkconfig -o grub.cfg
+sudo diff grub.cfg /boot/grub/grub.cfg
+sudo mv grub.cfg /boot/grub/grub.cfg
 ```
+
+[How to Configure the Linux Grub2 Boot Menu the Easy Way](https://www.howtogeek.com/howto/43471/how-to-configure-the-linux-grub2-boot-menu-the-easy-way/)
+
+```sh
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer
+```
+
+### Save default
+
+[Grub2/Submenus - Community Help Wiki](https://help.ubuntu.com/community/Grub2/Submenus)
+
+```
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+
+`grub-set-default`
 
 ## References
 
-https://wiki.archlinux.org/index.php/GRUB
-https://wiki.archlinux.org/index.php/GRUB_Legacy
+[kernel-parameters.txt](https://www.kernel.org/doc/Documentation/kernel-parameters.txt)
 http://jdev.tw/blog/3776/grub-menu-rescue
 https://sites.google.com/site/easylinuxtipsproject/grub
 http://linuxnorth.wordpress.com/category/grub/
+[GRUB | LinuxNorth](https://linuxnorth.wordpress.com/category/grub/)

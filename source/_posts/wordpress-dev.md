@@ -7,6 +7,7 @@ date: 2015-06-21 17:31:05
 tags:
 - wordpress
 - cms
+- web-dev
 ---
 
 [WordPress › Make WordPress](https://make.wordpress.org/)
@@ -14,10 +15,13 @@ tags:
 
 ## Resources
 
+[Developer Documentation « WordPress Codex](https://codex.wordpress.org/Developer_Documentation)
 [WordPress Development Stack Exchange](http://wordpress.stackexchange.com/)
 [Instant WordPress](http://www.instantwp.com/)  
 [Command line interface for WordPress | WP-CLI](http://wp-cli.org/)  
 [Toolbox of the Smart WordPress Developer: WP-CLI - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/toolbox-of-the-smart-wordpress-developer-wp-cli--cms-24098)
+
+[EasyEngine - WordPress On Nginx Made Easy!](https://easyengine.io/)
 
 ### WP API
 
@@ -30,6 +34,16 @@ tags:
 [Options API « WordPress Codex](https://codex.wordpress.org/Options_API)
 [Dashboard Widgets API « WordPress Codex](https://codex.wordpress.org/Dashboard_Widgets_API)
 [Rewrite API « WordPress Codex](https://codex.wordpress.org/Rewrite_API)
+
+### Calypso
+
+WordPress moved to a REST API, Calypso, at `/wp-json/` in 2016.
+
+[#197: The Future of WordPress and Calypso with Matt Mullenweg - Changelog](https://changelog.com/197/)
+[Introducing the New WordPress.com](https://developer.wordpress.com/calypso/)
+[Dance to Calypso | Matt Mullenweg](https://ma.tt/2015/11/dance-to-calypso/)
+
+[ylletjs/yllet: Yllet is a set of packages for the WordPress API for both React and non-React projects](https://github.com/ylletjs/yllet)
 
 ### Sites
 

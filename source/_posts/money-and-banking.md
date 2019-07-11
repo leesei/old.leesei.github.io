@@ -8,17 +8,34 @@ tags:
 - economics
 ---
 
-[Money supply - Wikiwand](http://www.wikiwand.com/en/Money_supply)
+[Great Depression - Wikiwand](https://www.wikiwand.com/en/Great_Depression)
+
+## Wealth Inequality
+
+[This cartoon explains how the rich got rich and the poor got poor - Vox](http://www.vox.com/2016/5/23/11704246/wealth-inequality-cartoon)
+
+## Credit Card
+
+[The Fresno Drop - 99% Invisible](http://99percentinvisible.org/episode/the-fresno-drop/) credit card history
+
+## Monetary policy
+
+[Monetary policy - Wikiwand](https://www.wikiwand.com/en/Monetary_policy)
+[Quantitative easing - Wikiwand](https://www.wikiwand.com/en/Quantitative_easing)
+[Excess reserves - Wikiwand](https://www.wikiwand.com/en/Excess_reserves)
+
 [Monetary Policy Definition | Investopedia](http://www.investopedia.com/terms/m/monetarypolicy.asp)
+
+### Money supply
+
+[Money supply - Wikiwand](http://www.wikiwand.com/en/Money_supply)
 [M1 Definition | Investopedia](http://www.investopedia.com/terms/m/m1.asp)
 [M2 Definition | Investopedia](http://www.investopedia.com/terms/m/m2.asp)
 [M3 Definition | Investopedia](http://www.investopedia.com/terms/m/m3.asp)
 
 ## Cryptocurrency
 
-[Bitcoin Foundation | Supporting Education, Adoption and Development in Bitcoin](http://bitcoinfoundation.org/)
-
-[Bitcoin: What is it? | Bitcoin | Khan Academy](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it)
+> see `blockchain.md#cryptocurrency`
 
 ### Ars Technica
 

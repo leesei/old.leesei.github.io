@@ -13,6 +13,8 @@ toc: true
 
 [Extended Backus–Naur Form (EBNF)](http://www.wikiwand.com/en/Extended_Backus%E2%80%93Naur_Form) was adopted as [ISO 14977](http://www.cl.cam.ac.uk/~mgk25/iso-14977.pdf).
 
+[1. Introduction — Python 3 documentation](https://docs.python.org/3/reference/introduction.html#notation)
+
 IETF defines [Augmented BNF (ABNF)](http://tools.ietf.org/html/rfc5234) to be used in RFC documents.
 
 [BNF and EBNF: What are they and how do they work?](http://www.garshol.priv.no/download/text/bnf.html)

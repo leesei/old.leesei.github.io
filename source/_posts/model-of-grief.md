@@ -9,6 +9,7 @@ tags:
 ---
 
 [Kübler-Ross model - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model)
+Kübler-Ross Model，描述的是當人遭逢巨變或災難以後，心理上經歷的五重階段： 否認隔絕(Denial)、憤怒激動(Anger)、討價還價(Bargaining)、抑鬱頹喪(Depression)、接受現實(Acceptance)
 
 5 stages of people handling grief (**DABDA**):
 **D**enial

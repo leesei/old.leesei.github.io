@@ -14,6 +14,13 @@ toc: true
 
 [Learning Cron by Example](http://www.marksanborn.net/linux/learning-cron-by-example/)
 [Linux Crontab: 15 Awesome Cron Job Examples](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/)
+[Cron and Crontab usage and examples](https://www.pantz.org/software/cron/croninfo.html)
+[Cron format](http://www.nncron.ru/help/EN/working/cron-format.htm)
+[Crontab – Quick Reference](http://www.adminschoice.com/crontab-quick-reference)
+
+### Editor
+
+[crontab.guru - the cron schedule expression editor](https://crontab.guru/#0_2_2-31_*_THU)
 [A visual crontab editor - create your custom crontab syntax to use with the cron scheduling application on your Linux server](http://www.corntab.com/pages/crontab-gui)
 
 ```sh
@@ -24,7 +31,7 @@ crontab -l
 crontab -e
 
 # specify user
-crontabl -u user
+crontab -u user
 
 # remove your crontab file and start fresh
 crontab -r   ## !! dangerous !!
@@ -70,3 +77,9 @@ Logs for `cron` can usually be found in `/var/log/cron.log` or `/var/log/message
 [Cron Vs Anacron: How to Setup Anacron on Linux (With an Example)](http://www.thegeekstuff.com/2011/05/anacron-examples/)
 
 `anacron` is for PCs that are not running 24*7.
+
+## at
+
+For once-shot non-repeating task
+
+[Schedule One-Time Commands with the UNIX at Tool | Linux Journal](https://www.linuxjournal.com/content/schedule-one-time-commands-unix-tool)

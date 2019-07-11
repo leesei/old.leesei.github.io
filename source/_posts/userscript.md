@@ -17,7 +17,15 @@ Userscripts are scripts that users install in their browser to make on-the-fly c
 [Greasemonkey :: Add-ons for Firefox](https://addons.mozilla.org/en-Us/firefox/addon/greasemonkey/)
 
 [Tampermonkey - FAQ](http://tampermonkey.net/faq.php)
+
+## writing userscript
+
 [Tampermonkey - Documentation](http://tampermonkey.net/documentation.php?ext=dhdg)
+[Script meta keys read by Greasy Fork](https://greasyfork.org/en/help/meta-keys)
+
+[Tutorials - GreaseSpot Wiki](https://wiki.greasespot.net/Tutorials)
+
+[Bypass Wait, Code & Login on Websites](https://greasyfork.org/en/scripts/2600-跳过网站等待-验证码及登录)
 
 ## script repo
 
@@ -30,16 +38,18 @@ Userscripts are scripts that users install in their browser to make on-the-fly c
 
 ## installed userscripts
 
+[百度网盘直接下载助手](https://greasyfork.org/en/scripts/23635-百度网盘直接下载助手)
 [AdsBypasser](https://adsbypasser.github.io/)
-[reek/anti-adblock-killer](https://github.com/reek/anti-adblock-killer)
-[rfkrocktk/jQuerify](https://github.com/rfkrocktk/jQuerify)
+
+---
 
 # User Styles
 
 Similar movement for website styles
 
-[Restyle the web with Stylish! - userstyles.org](https://userstyles.org/)
+[Stylish - Chrome Web Store](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
 [Minimalist for Everything - Chrome Web Store](https://chrome.google.com/webstore/detail/minimalist-for-everything/bmihblnpomgpjkfddepdpdafhhepdbek)
+[Stylebot - Chrome Web Store](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha)
 
 ## setting CSS with user script
 

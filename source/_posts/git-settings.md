@@ -10,21 +10,15 @@ tags:
 toc: true
 ---
 
-Backup:
+[Git - Git Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+[git - Can I specify multiple users for myself in .gitconfig? - Stack Overflow](https://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myself-in-gitconfig/43654115#43654115)
+
+## Backup
 
 ```sh
 .gitignore
 .ssh/config
 .ssh/git.id_rsa{,.pub}
-```
-
-## hub
-
-[hub · the command-line wrapper for git](https://hub.github.com/)
-[github/hub](https://github.com/github/hub)
-
-```sh
-go get github.com/github/hub
 ```
 
 ## Reference

@@ -12,6 +12,9 @@ toc: true
 The packages are to be installed with `yaourt -S --needed` (aliased to `yinst`).
 Look them up in [Arch](https://www.archlinux.org/packages/) and [AUR](https://aur.archlinux.org/packages/) repo to find info about them if you are using other distro/OS.
 
+See [pigmonkey/spark: Arch Linux Provisioning with Ansible](https://github.com/pigmonkey/spark)
+[Create A List Of Installed Packages And Install Them Later From The List In Arch Linux - OSTechNix](https://www.ostechnix.com/create-list-installed-packages-install-later-list-arch-linux/)
+
 > TODO: link to `cinnamon-setup.md` for the spices I'm using
 
 ``` sh
@@ -20,73 +23,46 @@ meh
 feh
 
 keymon > screenkey
-# http://arch.acgtyrant.com/2015/01/31/show-mouse-click-and-keyboard-press/
 
-steam steam-wrapper-git
-steam-native steam-lib
-
-oracle-jdk
+jdk8
+jdk8-openjdk
 # https://github.com/Nowaker/aur-packages#oracle-jdk
+
+ipmiview
 
 pdfchain  # gcc 4.8
 ```
 
 ```sh
-# [Microcode - ArchWiki](https://wiki.archlinux.org/index.php/Microcode)
-intel-ucode
 # console tools
-bzip2 colordiff dos2unix cpio curl gtkterm-git guake lnav lndir mlocate roxterm tmux tree unrar unzip zip zsh
+fpp-git
+# admin tools
+lnav
 # system tools
-dconf-editor htop lsof mimeo sshfs teamviewer udev-browse-git xdg-utils xsel
-# package tools
-pacmatic pkgcacheclean pkgtools namcap
-# hardware tools
-cpu-x hardinfo hwinfo inxi lm_sensors lshw
-# i-nex-git  # too much dependency
-# storage tools
-hdparm hddtemp
-# iso tools
+dconf-editor nethogs udev-browse-git sysstat
 # winusb
-# VirtualBox
-virtualbox virtualbox-guest-utils
 
-# dev tools
-bzr git git-extras mercurial subversion
-base-devel cabal-install cppcheck ghc jdk libstdc++5 
-erlang go lua openssl wireshark-qt
-maven # after jdk to have java-environment properly resolved
+clipit
+
+# flasher for Samsung, talks Odin protocol
+# heimdall
 
 # cloud storage
-dropbox copy-agent
+backblaze-b2 backblaze-b2sync
 # ui tools
-filezilla google-chrome pyrenamer qbittorrent zenity
-# remote access
-teamviewer remmina freerdp
-
-# editors
-atom-editor-bin gvim meld sublime-text-dev wps-office wxhexeditor-git
-# text utils
-calibre pandoc
-# graphic tools
-graphviz hugin inkscape pencil pinta shotwell xdot yed
+filezilla  pyrenamer qbittorrent zenity
 
 # greeters
 lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
-# python
-python-pip
-
-# fonts
-ttf-font ttf-liberation wqy-zenhei adobe-source-han-sans-otc-fonts
-
 # input method
-fcitx-im fcitx-configtool fcitx-table-extra 
 gcin
 
-# media tools
-avidemux-qt dms mediainfo mediainfo-gui mkvtoolnix mplayer rtmpdump smplayer subtitleeditor
+# network
+openconnect  networkmanager-openconnect
+
 # server tools
-couchdb heroku-client-standalone mongodb nginx orientdb-community redis robomongo samba
+redis robomongo-bin
 ```
 
 ## quirks
@@ -106,42 +82,25 @@ vboxnetflt
 vboxpci
 ```
 
-### cabal
-
-```sh
-cabal update
-cabal install shellcheck
-```
+[GPU Passthrough with QEMU on Arch Linux | DominicM](http://dominicm.com/gpu-passthrough-qemu-arch-linux/)
 
 ### Steam
 
 [Steam - ArchWiki](https://wiki.archlinux.org/index.php/Steam)
-[SteamCMD - Valve Developer Community](https://developer.valvesoftware.com/wiki/SteamCMD)
 
-[pyamsoft/steam-wrapper](https://github.com/pyamsoft/steam-wrapper)
-[AUR (en) - steam-wrapper-git](https://aur.archlinux.org/packages/steam-wrapper-git/)
-[AUR (en) - steam-libs](https://aur.archlinux.org/packages/steam-libs/)
-[AUR (en) - steam-native](https://aur.archlinux.org/packages/steam-native/)
-
-install 32 bits graphic drivers!!!
-
-Use `/usr/bin/steam` to start Steam in console, it reports:
-
-```
-Running Steam on antergos  64-bit
-STEAM_RUNTIME is enabled automatically
-Installing breakpad exception handler for appid(steam)/version(0_client)
-libGL error: unable to load driver: r600_dri.so
-libGL error: driver pointer missing
-libGL error: failed to load driver: r600
-libGL error: unable to load driver: swrast_dri.so
-libGL error: failed to load driver: swrast
+```sh
+flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak --user install flathub com.valvesoftware.Steam
+# to allow using $HOME
+sudo flatpak override com.valvesoftware.Steam --filesystem=$HOME
+flatpak run com.valvesoftware.Steam
 ```
 
 ```sh
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libstdc++.so.6
-rm ~/.local/share/Steam/ubuntu12_32/steam-runtime/i386/usr/lib/i386-linux-gnu/libgcc_s.so.1
+linux-steam-integration steam-native-runtime
 ```
+
+install 32 bits graphic drivers!!!
 
 ```sh
 # use native runtime
@@ -160,16 +119,27 @@ ln -s ~/caravan/home/apps.conf/sublime-text-3/Packages/ ~/.config/sublime-text-3
 
 Add [license key](https://mail.google.com/mail/ca/u/0/#apps/sublime+key/14490727c2159976)
 
+### Visual Studio Code
+
+`visual-studio-code-bin`
+
 ### teamviewer
 
 ```sh
 sudo systemctl enable teamviewerd
 ```
 
-### mlocate 
+### mlocate
 
 ```sh
 sudo updatedb
+```
+
+### albert
+
+```sh
+yinst albert
+yinst muparser goldendict
 ```
 
 ### add user to group

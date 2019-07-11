@@ -9,6 +9,10 @@ tags:
 toc: true
 ---
 
+Applets, extensions are installed at `~/.local/share/cinnamon/`.  
+User configs are at `~/.cinnamon/`.
+
+
 ## Writing Extensions
 
 [How to make a Cinnamon theme : Cinnamon](http://cinnamon.linuxmint.com/?p=144)

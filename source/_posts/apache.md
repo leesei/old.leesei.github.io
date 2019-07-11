@@ -12,6 +12,10 @@ tags:
 [Stupid htaccess Tricks | Perishable Press](https://perishablepress.com/stupid-htaccess-tricks/)
 [Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article](http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244)
 
+## Rewrite
+
+[RewriteRule examples and explanations - filkor.org Writings](http://dev.filkor.org/2014/01/09/dot-htaccess-examples-and-explanations/)
+
 ## HTTPS
 
 ```sh

@@ -12,6 +12,8 @@ toc: true
 
 Notes for interacting with ContentProvider in console on Android system.
 
+[sromku/adb-export: Bash script to export android content providers data to csv](https://github.com/sromku/adb-export)
+
 <!-- more -->
 
 ## `content` command

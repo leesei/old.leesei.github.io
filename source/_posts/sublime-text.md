@@ -2,12 +2,12 @@
 title: "Sublime Text"
 date: 2015-04-02 14:23:03
 categories:
-- app
+  - app
 tags:
-- settings
-- sublime-text
-- package-control
-- package-manager
+  - settings
+  - sublime-text
+  - package-control
+  - package-manager
 toc: true
 ---
 
@@ -95,13 +95,30 @@ toc: true
 }
 ```
 
+## `PATH` setting
+
+["TERM environment variable not set." when Python build (on mac) - Technical Support - Sublime Forum](https://forum.sublimetext.com/t/term-environment-variable-not-set-when-python-build-on-mac/25495)
+[Troubleshooting > Debugging PATH problems — SublimeLinter documentation](http://www.sublimelinter.com/en/latest/troubleshooting.html#debugging-path-problems)
+
+**Make sure your shell do not echo anything to the console when you login.**
+
+`import os; os.environ['PATH']` in Sublime Console
+`$SHELL -l -c 'echo ${PATH}'` in terminal, used by SublimeLinter
+
+[Hacking the PATH variable in Sublime Text](http://robdodson.me/hacking-the-path-variable-in-sublime-text/)
+[Setting environment variables on login in OS X • Serge Émond](https://xn--sergemond-f4a.ca/en/articles/os-x-environment-at-login/)
+[int3h/SublimeFixMacPath: A Sublime Text 2/3 plugin to set the PATH correctly on OS X](https://github.com/int3h/SublimeFixMacPath)
+
 ## Customization after install
 
 [Home · mrmartineau/SublimeTextSetupWiki Wiki](https://github.com/mrmartineau/SublimeTextSetupWiki/wiki)
-[Perfect Workflow in Sublime Text 2 - Tuts+ Course](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2) (The full version on Youtube was taken down.)
-[Tag Archive for "sublime-text" | Scotch](https://scotch.io/tag/sublime-text)
+[Perfect Workflow in Sublime Text 2 - Tuts+ Course](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
+[Sublime Text Perfect Workflow - YouTube](https://www.youtube.com/playlist?list=PLB_IY29eVwsXTToA7tqFV5uaqRw00XMy0)
+[Getting Started with SublimeText - YouTube](https://www.youtube.com/watch?v=04gKiTiRlq8)
 [Sublime Text Tutorials - YouTube](https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP)
+[Tag Archive for "sublime-text" | Scotch](https://scotch.io/tag/sublime-text)
 [Sublime Text Packages](https://github.com/SublimeText/)
+[15 Awesome Sublime Text Plugins For Web Development - Tutorialzine](https://tutorialzine.com/2016/10/15-awesome-sublime-text-plugins-for-web-development)
 
 [Sublimetext commands and shortcuts | ShortcutFoo](https://www.shortcutfoo.com/app/dojos/sublime-text-2-win)
 
@@ -111,8 +128,8 @@ Use <kbd>Ctrl</kbd>+<kbd>`</kbd> to enter Sublime's Python console
 
 ### Install Directory
 
-- **Windows**: 
-- **OS X**: 
+- **Windows**:
+- **OS X**:
 - **Linux**: `/opt/sublime_text/`
 
 ### Data Directory
@@ -160,6 +177,9 @@ It is recommended to use [AAAPackageDev][] to write extensions, which now use YA
 
 [SublimeText/PackageTesting](https://github.com/SublimeText/PackageTesting)
 
+Page defines commands in `<name>.sublime-commands`.  
+Enter `sublime.log_commands(True)` in console to show commands triggered.
+
 ### Theme Development
 
 Actually there are two things here:
@@ -181,12 +201,13 @@ Local editor:
 [TextMate Manual » Language Grammars](http://manual.macromates.com/en/language_grammars)
 [TextMate Manual » Scope Selectors](http://manual.macromates.com/en/scope_selectors)
 
-[Syntax - Sublime Text 3 Documentation](http://www.sublimetext.com/docs/3/syntax.html)
+[Syntax - Sublime Text 3 Documentation](http://www.sublimetext.com/docs/3/syntax.html) new `.sublime-syntax`
 [Syntax Definitions — Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html)
 [Syntax Definitions (reference) — Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)
 [Syntax Definitions — Sublime Text Help](http://sublimetext.info/docs/en/extensibility/syntaxdefs.html) (deprecated)
 
 [klorenz / SyntaxHighlightTools — Bitbucket](https://bitbucket.org/klorenz/syntaxhighlighttools) has docs on tmPreferences.
+[MagicStack/syntaxdev: Unit testing framework for Sublime Text and Atom syntaxes.](https://github.com/MagicStack/syntaxdev)
 
 [TmTheme Editor Stats](http://tmtheme-editor.herokuapp.com/stats) to see what scopes are being recognized by themes.
 
@@ -202,6 +223,7 @@ https://regex101.com/r/cX0eW3
 [Quickly Insert Text & Code with Sublime Text Snippets :: Scott Granneman](http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/quickly-insert-text-and-code-with-sublime-text-snippets/)
 
 [Snippets — Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/extensibility/snippets.html)
+[Completions Files — Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/reference/completions.html)
 
 ### Publishing to Package Control
 
@@ -210,6 +232,12 @@ https://regex101.com/r/cX0eW3
 
 ## My Installed Packages
 
+[Environment Settings - Packages - Package Control](https://packagecontrol.io/packages/Environment Settings)
+[Shell Turtlestein - Packages - Package Control](https://packagecontrol.io/packages/Shell Turtlestein)
+[SublimeREPL - Packages - Package Control](https://packagecontrol.io/packages/SublimeREPL)
+
+[Turn Sublime Text 3 into a JavaScript IDE | CSS-Tricks](https://css-tricks.com/turn-sublime-text-3-into-a-javascript-ide/)
+
 ### Color scheme/Themes
 
 Package                               | Remark
@@ -217,6 +245,7 @@ Package                               | Remark
 [Base 16 Color Schemes][]             |
 [Dayle Rees Color Schemes][]          |
 [Neon Color Scheme][]                 | Using this one
+[Theme - Cobalt2][]                   | Using this one
 [Theme - Flatland][]                  |
 [Theme - Soda][]                      |
 
@@ -231,13 +260,15 @@ Package                               | Remark
 [ApplySyntax][]                       |
 [Async Snippets][]                    |
 [Awk][]                               |
-[Babel][]                             | Supports ES6 and React JSX
+[Babel][]                             | Supports ES6 and React JSX [babel/babel-sublime#293](https://github.com/babel/babel-sublime/issues/293), [SublimeText-Markdown/MarkdownEditing#438](https://github.com/SublimeText-Markdown/MarkdownEditing/issues/438)
 [Better CoffeeScript][]               |
 [Better JavaScript][]                 |
 [Creole][]                            |
 [C Improved][]                        |
 [Console API Snippets (JavaScript)][] |
 Diagram                               | [Syntax](https://github.com/jvantuyl/sublime_diagram_plugin/tree/master/Syntaxes) only
+[DocBlockr_Python][]                  |
+[Dockerfile Syntax Highlighting][]    |
 [Dotfiles Syntax Highlighting][]      | Could have added these rules to ApplySyntax or `ShellScript (Bash).sublime-settings`
 [EJS][]                               |
 [fish-shell][]                        |
@@ -245,15 +276,18 @@ Diagram                               | [Syntax](https://github.com/jvantuyl/sub
 [GoSublime][]                         |
 [INI][]                               |
 [JSFormat][]                          | Currently only used for JSON
-[Standard​Format][]                    | Change `command` to `["semistandard", "-F", "--stdin"]`
+[LSP][]                               | [LSP docs](https://lsp.readthedocs.io/)
+[Markdown Extended][]                 |
 [MarkdownEditing][]                   | Also includes color scheme and snippets for Markdown
 [Nunjucks Syntax][]                   |
 [nginx][]                             |
 [OpenGL Shading Language (GLSL)][]    |
 [Python Improved][]                   |
 [RAML Syntax Highlighter][]           |
+[Rust Enhanced][]                     |
 [SCSS][]                              |
 [Tmux][]                              |
+[TOML][]                              |
 
 [language syntax - Labels - Package Control](https://packagecontrol.io/browse/labels/language%20syntax)
 [snippets - Labels - Package Control](https://packagecontrol.io/browse/labels/snippets)
@@ -263,11 +297,12 @@ Diagram                               | [Syntax](https://github.com/jvantuyl/sub
 Package                               | Remark
 --------                              | -------
 [AdvancedNewFile][]                   |
-[Alignment][]                         |
+[AlignTab][]                          |
 [AndroidImport][]                     |
 [BetterFindBuffer][]                  |
 [BracketHighlighter][]                |
 [-C++ Starting Kit][]                 |
+[ColorHelper][]                       |
 [DataConverter][]                     |
 [DocBlockr][]                         |
 [EasyMotion][]                        |
@@ -279,7 +314,8 @@ Package                               | Remark
 [Keymaps][]                           |
 [Move By Symbols][]                   |
 [MarkdownTOC][]                       |
-[OmniMarkupPreviewer][]               |
+[NodeRequirer][]                      |
+[-OmniMarkupPreviewer][]              |
 [Open URL][]                          | Open URL with <kbd>Ctrl</kbd>+<kbd>U</kbd>
 [Origami][]                           | Better pane management
 [SideBarEnhancements][]               |
@@ -291,6 +327,7 @@ Package                               | Remark
 [Text Pastry][]                       | Useful for creating and modifying selections, see [wiki](https://github.com/duydao/Text-Pastry/wiki)
 [Terminal][]                          |
 [WordHighlight][]                     |
+[YAML Nav][]                          |
 
 ### Plugins development
 
@@ -306,18 +343,18 @@ Package                               | Remark
 
 Package                               | Remark
 --------                              | -------
+[sublack][]                           |
 [SublimeLinter][]                     |
 [SublimeLinter-annotations][]         | Highlights *TODO*, *FIXME*
 [Sublime​Linter-cppcheck][]            |
 [SublimeLinter-csslint][]             |
 [SublimeLinter-html-tidy][]           | This causes [error](https://github.com/SublimeLinter/SublimeLinter-html-tidy/issues/33) in `paths`
-[Sublime​Linter-contrib-semistandard][] |
+[Sublime​Linter-contrib-eslint][]      |
 [SublimeLinter-contrib-htmlhint][]    |
 [SublimeLinter-javac][]               |
-[SublimeLinter-jshint][]              |
 [SublimeLinter-json][]                |
-[SublimeLinter-lua][]                 |
-[SublimeLinter-pep8][]                |
+[SublimeLinter-luacheck][]            | [Luacheck documentation](http://luacheck.readthedocs.io/en/stable/)
+[SublimeLinter-pyyaml][]              |
 [SublimeLinter-ruby][]                |
 [SublimeLinter-shellcheck][]          |
 
@@ -325,7 +362,7 @@ Package                               | Remark
 
 [AAAPackageDev]: https://packagecontrol.io/packages/AAAPackageDev
 [AdvancedNewFile]: https://packagecontrol.io/packages/AdvancedNewFile
-[Alignment]: https://packagecontrol.io/packages/Alignment
+[AlignTab]: https://packagecontrol.io/packages/AlignTab
 [AndroidImport]: https://packagecontrol.io/packages/
 [-AngularJS]: https://packagecontrol.io/packages/AngularJS
 [ApplySyntax]: https://packagecontrol.io/packages/ApplySyntax
@@ -339,12 +376,15 @@ Package                               | Remark
 [BracketHighlighter]: https://packagecontrol.io/packages/BracketHighlighter
 [C Improved]: https://packagecontrol.io/packages/C%20Improved
 [-C++ Starting Kit]: https://packagecontrol.io/packages/C%2B%2B%20Starting%20Kit
+[ColorHelper]: https://packagecontrol.io/packages/ColorHelper
 [ColorSchemeEditor]: https://packagecontrol.io/packages/ColorSchemeEditor
-[Console API Snippets (JavaScript)]: https://packagecontrol.io/packages/Console%20API%20Snippets%20(JavaScript)
+[Console API Snippets (JavaScript)]: https://packagecontrol.io/packages/Console%20API%20Snippets%20%28JavaScript%29
 [Creole]: https://packagecontrol.io/packages/Creole
 [DataConverter]: https://packagecontrol.io/packages/DataConverter
 [Dayle Rees Color Schemes]: https://packagecontrol.io/packages/Dayle%20Rees%20Color%20Schemes
 [DocBlockr]: https://packagecontrol.io/packages/DocBlockr
+[DocBlockr_Python]: https://packagecontrol.io/packages/DocBlockr_Python
+[Dockerfile Syntax Highlighting]: https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting
 [Dotfiles Syntax Highlighting]: https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting
 [EasyMotion]: https://packagecontrol.io/packages/EasyMotion
 [EditorConfig]: https://packagecontrol.io/packages/EditorConfig
@@ -360,19 +400,23 @@ Package                               | Remark
 [JSFormat]: https://packagecontrol.io/packages/JSFormat
 [Keymaps]: https://packagecontrol.io/packages/Keymaps
 [LineEndings]: https://packagecontrol.io/packages/LineEndings
+[LSP]: (https://packagecontrol.io/packages/LSP)
+[Markdown Extended]: https://packagecontrol.io/packages/Markdown%20Extended
 [MarkdownEditing]: https://packagecontrol.io/packages/MarkdownEditing
 [MarkdownTOC]: https://packagecontrol.io/packages/MarkdownTOC
 [Move By Symbols]: https://packagecontrol.io/packages/Move%20By%20Symbols
 [Neon Color Scheme]: https://packagecontrol.io/packages/Neon%20Color%20Scheme
 [nginx]: https://packagecontrol.io/packages/nginx
+[NodeRequirer]: https://packagecontrol.io/packages/NodeRequirer
 [Nunjucks Syntax]: https://packagecontrol.io/packages/Nunjucks%20Syntax
-[OmniMarkupPreviewer]: https://packagecontrol.io/packages/OmniMarkupPreviewer
+[-OmniMarkupPreviewer]: https://packagecontrol.io/packages/OmniMarkupPreviewer
 [Open URL]: https://packagecontrol.io/packages/Open%20URL
-[OpenGL Shading Language (GLSL)]: https://packagecontrol.io/packages/OpenGL%20Shading%20Language%20(GLSL)
+[OpenGL Shading Language (GLSL)]: https://packagecontrol.io/packages/OpenGL%20Shading%20Language%20(GLSL%29
 [Origami]: https://packagecontrol.io/packages/Origami
 [PackageResourceViewer]: https://packagecontrol.io/packages/PackageResourceViewer
 [Python Improved]: https://packagecontrol.io/packages/Python%20Improved
 [RAML Syntax Highlighter]:https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter
+[Rust Enhanced]:https://packagecontrol.io/packages/Rust%20Enhanced
 [-SaneSnippets]: htnginxtps://packagecontrol.io/packages/SaneSnippets
 [ScopeHunter]: https://packagecontrol.io/packages/ScopeHunter
 [SCSS]: https://packagecontrol.io/packages/SCSS
@@ -381,17 +425,17 @@ Package                               | Remark
 [StringUtilities]: https://packagecontrol.io/packages/StringUtilities
 [SublimeCodeIntel]: https://packagecontrol.io/packages/SublimeCodeIntel
 [StandardFormat]: https://packagecontrol.io/packages/StandardFormat
+[sublack]: https://packagecontrol.io/packages/sublack
 [SublimeLinter-annotations]: https://packagecontrol.io/packages/SublimeLinter-annotations
-[Sublime​Linter-contrib-semistandard]: https://packagecontrol.io/packages/SublimeLinter-contrib-semistandard
+[Sublime​Linter-contrib-eslint]: https://packagecontrol.io/packages/SublimeLinter-contrib-eslint
 [SublimeLinter-contrib-htmlhint]: https://packagecontrol.io/packages/SublimeLinter-contrib-htmlhint
 [Sublime​Linter-cppcheck]: https://packagecontrol.io/packages/SublimeLinter-cppcheck
 [SublimeLinter-csslint]: https://packagecontrol.io/packages/SublimeLinter-csslint
 [SublimeLinter-html-tidy]: https://packagecontrol.io/packages/SublimeLinter-html-tidy
 [SublimeLinter-javac]: https://packagecontrol.io/packages/SublimeLinter-javac
-[SublimeLinter-jshint]: https://packagecontrol.io/packages/SublimeLinter-jshint
 [SublimeLinter-json]: https://packagecontrol.io/packages/SublimeLinter-json
-[SublimeLinter-lua]: https://packagecontrol.io/packages/SublimeLinter-lua
-[SublimeLinter-pep8]: https://packagecontrol.io/packages/SublimeLinter-pep8
+[SublimeLinter-luacheck]: https://packagecontrol.io/packages/SublimeLinter-luacheck
+[SublimeLinter-pyyaml]: https://packagecontrol.io/packages/SublimeLinter-pyyaml
 [SublimeLinter-ruby]: https://packagecontrol.io/packages/SublimeLinter-ruby
 [SublimeLinter-shellcheck]: https://packagecontrol.io/packages/SublimeLinter-shellcheck
 [SublimeLinter]: https://packagecontrol.io/packages/SublimeLinter
@@ -399,7 +443,10 @@ Package                               | Remark
 [SublimeXiki]: https://packagecontrol.io/packages/SublimeXiki
 [Terminal]: https://packagecontrol.io/packages/Terminal
 [Text Pastry]: https://packagecontrol.io/packages/Text%20Pastry
+[Theme - Cobalt2]: https://packagecontrol.io/packages/Theme%20-%20Cobalt2
 [Theme - Flatland]: https://packagecontrol.io/packages/Theme%20-%20Flatland
 [Theme - Soda]: https://packagecontrol.io/packages/Theme%20-%20Soda
 [Tmux]: https://packagecontrol.io/packages/Tmux
+[TOML]: https://packagecontrol.io/packages/TOML
 [WordHighlight]: https://packagecontrol.io/packages/WordHighlight
+[YAML Nav]: https://packagecontrol.io/packages/YAML%20Nav

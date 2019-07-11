@@ -7,6 +7,7 @@ date: 2015-07-24 17:52:00
 tags:
 - postal-js
 - javascript
+- web-dev
 ---
 
 [postaljs/postal.js](https://github.com/postaljs/postal.js)

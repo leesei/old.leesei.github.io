@@ -8,6 +8,7 @@ tags:
 - react-js
 - flux
 - javascript
+- web-dev
 ---
 
 Flux is a pattern for web applications architecture, *rather than a library*. Though there are some example implementations.  
@@ -30,11 +31,19 @@ Components can also fire "intent" (also called "action") or listen to the dispat
 [What the flux?](http://jonathancreamer.com/what-the-flux/)
 [Application Architecture with React: rethinking Flux](http://dialelo.github.io/application-architecture-with-react-rethinking-flux.html)
 [A cartoon guide to Flux — Code Cartoons — Medium](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207)
+[The Case for Flux — Startups, Wanderlust, and Life Hacking — Medium](https://medium.com/swlh/the-case-for-flux-379b7d1982c6)
 
 [Getting To Know Flux, the React.js Architecture ♥ Scotch](http://scotch.io/tutorials/javascript/getting-to-know-flux-the-react-js-architecture)
 [Creating A Simple Shopping Cart with React.js and Flux ♥ Scotch](http://scotch.io/tutorials/javascript/creating-a-simple-shopping-cart-with-react-js-and-flux)
 
 [Integrating React and Flux with Angular | MobileAppTracking Developers](https://developers.mobileapptracking.com/addressing-angular-weaknesses-with-react-and-flux/)
+[React with Flux by example - a simple Todo List dissected - React Kung Fu](http://reactkungfu.com/2015/07/react-with-flux-by-example-simple-todo-list-dissected/)
+
+### View Model
+
+[What is a View Model](http://lhorie.github.io/mithril-blog/what-is-a-view-model.html)
+[Mapping view models](http://lhorie.github.io/mithril-blog/mapping-view-models.html) separate domain data and app data (UI states)
+[Avoiding Accidental Complexity When Structuring Your App State](https://hackernoon.com/avoiding-accidental-complexity-when-structuring-your-app-state-6e6d22ad5e2a#.4gswkdvo9)
 
 ### christianalfoni
 
@@ -55,10 +64,9 @@ Components can also fire "intent" (also called "action") or listen to the dispat
 [goatslacker-alt · GitHub](https://github.com/goatslacker/alt)
 [jFlux](http://www.jflux.io/)
 [kenwheeler-mcfly · GitHub](https://github.com/kenwheeler/mcfly)
-[LeanKit-Labs-lux.js · GitHub](https://github.com/LeanKit-Labs/lux.js)
-[spoike-refluxjs · GitHub](https://github.com/spoike/refluxjs)
-  [The Reflux data flow model](http://blog.krawaller.se/posts/the-reflux-data-flow-model/)
+[LeanKit-Labs/lux.js](https://github.com/LeanKit-Labs/lux.js)
 [deloreanjs-delorean · GitHub](https://github.com/deloreanjs/delorean)
+[foss-haas/fynx](https://github.com/foss-haas/fynx)
 [Flummox | Minimal, isomorphic Flux](http://acdlite.github.io/flummox) now recommends Redux
 [Flux | Application Architecture for Building User Interfaces](http://facebook.github.io/flux/docs/overview.html)
 [Flux: No More Stores, Meet Reducer](https://blog.javascripting.com/2015/06/19/flux-no-more-stores-meet-reducer/)
@@ -73,6 +81,6 @@ Components can also fire "intent" (also called "action") or listen to the dispat
 [The Evolution of Flux Frameworks — Medium](https://medium.com/@dan_abramov/the-evolution-of-flux-frameworks-6c16ad26bb31)
 [voronianski-flux-comparison · GitHub](https://github.com/voronianski/flux-comparison)
 [staltz/flux-challenge](https://github.com/staltz/flux-challenge)
-[Qualities Of Good Flux Implementations](http://www.smashingmagazine.com/2015/06/qualities-of-good-flux-implementations/)
 [5 React.js + Flux tools - Progville](http://www.progville.com/javascript/5-react-js-flux-tools/)
-[Qualities Of Good Flux Implementations](http://www.smashingmagazine.com/2015/06/qualities-of-good-flux-implementations/)
+[Which Flux Implementation Should I Use With React?](http://jamesknelson.com/which-flux-implementation-should-i-use-with-react/)
+[Qualities Of Good Flux Implementations](http://www.smashingmagazine.com/2015/06/qualities-of-good-flux-implementations/) discuss lux.js implementation

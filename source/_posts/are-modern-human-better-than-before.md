@@ -7,7 +7,6 @@ date: 2015-08-07 11:28:18
 tags:
 ---
 
-
 [David Epstein: Are athletes really getting faster, better, stronger? - YouTube](https://www.youtube.com/watch?v=8COaMKbNrX0)
 
 Training technologies
@@ -23,3 +22,7 @@ Modern people improved on these categories:
 - taking the hypothetical seriously (so that we can discuss moral principals)
 Science education is to be credited for these.
 
+[peakthebook.com - Home](http://peakthebook.com/index.html)
+[How to Become Great at Just About Anything (Rebroadcast) - Freakonomics Freakonomics](http://freakonomics.com/podcast/peak-rebroadcast/)
+Human's standard of excellence have increased
+Deliberate practice >> experience

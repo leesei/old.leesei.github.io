@@ -1,7 +1,7 @@
 ---
 title: GitBook
 categories:
-  - app
+- app
 toc: true
 date: 2015-06-13 00:21:20
 tags:
@@ -10,49 +10,58 @@ tags:
 ---
 
 [GitBook · Write & Publish Books](https://www.gitbook.com/)
-[The ABCs of Gitbook](http://coquicoders.org/gitbook-aka-idk-what-to-call-it/)
 [深入淺出 GitBook 寫作與自助出版，電子書也能多人協作 by lyhcode | CodeData](http://www.codedata.com.tw/social-coding/gitbook-self-publishing/)
-[GitbookIO/editor-legacy](https://github.com/GitbookIO/editor-legacy)
 
+[GitBook on GitHub](https://github.com/GitbookIO)
 [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 [Issues · GitbookIO/gitbook](https://github.com/GitbookIO/gitbook/issues)
-[Documentation](http://help.gitbook.com/) [source](https://github.com/GitbookIO/documentation)
-[簡介 | GitBook 中文解說 - 2.0 搶先預覽](http://wastemobile.gitbooks.io/gitbook-chinese/content/)
-[GitbookIO/themes](https://github.com/GitbookIO/themes)
+[GitBook Help Center](https://help.gitbook.com/)  [source](https://github.com/GitbookIO/help.gitbook.com)
 
+[GitBook Editor · Simple writing from your desktop](https://www.gitbook.com/editor) built with [Slate](http://slatejs.org/#/rich-text)
 
-[GitbookIO/example-science](https://github.com/GitbookIO/example-science)
-[MrMaksimize/gitbook-starter-kit](https://github.com/MrMaksimize/gitbook-starter-kit)
+## CLI
+
+[About this documentation · GitBook Toolchain Documentation](https://toolchain.gitbook.com/)
+
 
 ```sh
 npm install -g gitbook-cli
+gitbook ls
+gitboot ls-remote
+
 # create {SUMMARY,README}.{md,adoc}
 gitbook init
 gitbook install
 gitbook serve --port 4321
 
-gitbook help 
+gitbook help
 gitbook build
+# convert with ebook-convert
 gitbook pdf
+gitbook epub
+gitbook mobi
 ```
 
-To export to PDF and other ebook format:
-[ebook-convert — calibre User Manual](http://manual.calibre-ebook.com/cli/ebook-convert.html)
+## Starter
+
+[GitbookIO/example-science](https://github.com/GitbookIO/example-science)
+[MrMaksimize/gitbook-starter-kit](https://github.com/MrMaksimize/gitbook-starter-kit)
 
 ## Templating
 
-[Templating | Documentation](http://help.gitbook.com/format/templating.html)
+[Templating · GitBook Toolchain Documentation](https://toolchain.gitbook.com/templating/)
 [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ## Plugins
 
-[Plugins for GitBook](http://plugins.gitbook.com/) 
+[Plugins for GitBook](http://plugins.gitbook.com/)
 [npm: results for gitbook-plugin](https://www.npmjs.com/search?q=gitbook-plugin)
-[GitBook API Documentation](http://developer.gitbook.com/)
+[GitBook Developers · GitBook](https://www.gitbook.com/book/gitbookio/api-guide/details)
+[Plugins · GitBook Toolchain Documentation](https://toolchain.gitbook.com/plugins/)
 [GitbookIO/plugin](https://github.com/GitbookIO/plugin) (sample)
 
-[Extend blocks | GitBook API Documentation](http://developer.gitbook.com/plugins/blocks.html)
-[Hooks | GitBook API Documentation](http://developer.gitbook.com/plugins/hooks.html)
+[Blocks · GitBook Toolchain Documentation](https://toolchain.gitbook.com/plugins/blocks.html)
+[Hooks · GitBook Toolchain Documentation](https://toolchain.gitbook.com/plugins/hooks.html)
 
 ## no integration needed
 
@@ -74,9 +83,13 @@ To export to PDF and other ebook format:
 [LingyuCoder/gitbook-plugin-fancybox](https://github.com/LingyuCoder/gitbook-plugin-fancybox)
 [xgrommx/gitbook-plugin-video](https://github.com/xgrommx/gitbook-plugin-video)[chudaol/gitbook-plugin-modal-youtube-video](https://github.com/chudaol/gitbook-plugin-modal-youtube-video)
 
+### quiz
+
 [chudaol/gitbook-plugin-quiz](https://github.com/chudaol/gitbook-plugin-quiz)
 [GitbookIO/plugin-quizzes](https://github.com/GitbookIO/plugin-quizzes)
 [GitbookIO/plugin-exercises](https://github.com/GitbookIO/plugin-exercises)
+
+### coding
 
 [LingyuCoder/gitbook-plugin-codepen](https://github.com/LingyuCoder/gitbook-plugin-codepen)
 [jcouyang/gitbook-plugin-jsbin](https://github.com/jcouyang/gitbook-plugin-jsbin)
@@ -87,3 +100,4 @@ To export to PDF and other ebook format:
 [nicolastinkl/gitbook-plugin-tkcolor](https://github.com/nicolastinkl/gitbook-plugin-tkcolor)
 [mukiwu/gitbook-plugin-code_tomorrow_scheme](https://github.com/mukiwu/gitbook-plugin-code_tomorrow_scheme)
 [erixtekila/gitbook-plugin-toconsole](https://github.com/erixtekila/gitbook-plugin-toconsole)
+

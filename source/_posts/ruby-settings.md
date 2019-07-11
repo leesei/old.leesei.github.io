@@ -47,13 +47,9 @@ rvm gemdir  # current gem directory
 gem or rvm install?
 
 ```sh
-# app
-gem install humongous # mongodb browser
+gem install gitsu
+gem install mdl
+
 # redhat openshift
 gem install rhc
-```
-
-```sh
-# heroku can alternately installed by
-wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 ```

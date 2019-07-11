@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"db.json"
+			],
+			"folder_exclude_patterns":
+			[
+				".deploy_git",
+				"node_modules",
+				"public",
+				"themes"
+			],
+			"path": "."
+		}
+	]
+}

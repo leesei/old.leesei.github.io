@@ -17,7 +17,7 @@ Useful properties includes:
 - URL
 - DOM
 
-[Bookmarkleteer: Create and Share Bookmarklets Online](http://bookmarkleteer.com/), [source](https://github.com/coolaj86/bookmarkleteer)
+[Bookmarkleteer: Create and Share Bookmarklets Online](http://bookmarkleteer.com/) (down), [source](https://github.com/coolaj86/bookmarkleteer)
 [How To Make a Bookmarklet For Your Web Application | BetterExplained](http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/)
 [Implementing bookmarklets in JavaScript](http://www.2ality.com/2011/06/implementing-bookmarklets.html)
 
@@ -36,14 +36,18 @@ Useful properties includes:
 
 * Create any bookmark, edit it to change the title and paste the `javascript:` link as the url.
 * Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the `javascript:` link is url-escaped).
-* You may organize bookmarklets in fully documented `.js` and 
-  - use this to generate the link:
+* You may organize bookmarklets in fully documented `.js`
+  - URL encode and minifiy it
+  - use this to generate the link: (FIXME)
 ```sh
 echo -n "javascript:"; uglifyjs --no-copyright file.js ; echo
 ```
   - put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
 
-<!-- more -->
+[bookmarklet](https://atom.io/packages/bookmarklet) Atom package
+[Bookmarklets construction set - Create bookmarklets online](http://js.do/blog/bookmarklets/)
+[Bookmarklet Crunchinator](http://ted.mielczarek.org/code/mozilla/bookmarklet.html)
+---
 
 ## Email Link
 
