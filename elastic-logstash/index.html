@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Elastic Logstash | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Elastic Logstash">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Elastic Logstash</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="Logstash"><a href="#Logstash" class="headerlink" title="Logstash"></a>Logstash</h2><p><a href="https://www.elastic.co/products/logstash" target="_blank" rel="noopener">Logstash | Elastic</a><br><a href="https://www.elastic.co/guide/en/logstash/current/index.html" target="_blank" rel="noopener">Logstash Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/logstash/current/input-plugins.html" target="_blank" rel="noopener">Input plugins | Logstash Reference | Elastic</a><br><a href="https://github.com/elastic/logstash" target="_blank" rel="noopener">elastic/logstash: logstash - transport and process your logs, events, or other data</a></p>
+<p><a href="https://www.elastic.co/guide/en/logstash/current/pipeline.html" target="_blank" rel="noopener">How Logstash Works | Logstash Reference | Elastic</a><br>The Logstash event processing pipeline has three stages: inputs → filters → outputs. Inputs generate events, filters modify them, and outputs ship them elsewhere. Inputs and outputs support codecs that enable you to encode or decode the data as it enters or exits the pipeline without having to use a separate filter.</p>
+<p><a href="https://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/" target="_blank" rel="noopener">Introduction to Logstash: Getting Started | Cybera</a></p>
+<p><a href="https://www.elastic.co/blog/a-practical-introduction-to-logstash" target="_blank" rel="noopener">A Practical Introduction to Logstash | Elastic</a><br><a href="https://www.elastic.co/blog/the-evolving-story-about-the-logstash-file-input" target="_blank" rel="noopener">The evolving story about the Logstash File Input | Elastic</a><br><a href="https://www.elastic.co/blog/a-history-of-logstash-output-workers" target="_blank" rel="noopener">A History of Logstash Output Workers | Elastic</a><br><a href="https://www.elastic.co/blog/logstash-persistent-queue" target="_blank" rel="noopener">Logstash Persistent Queue | Elastic</a> ditched the need for Redis<br><a href="https://www.elastic.co/blog/just_enough_redis_for_logstash" target="_blank" rel="noopener">Just Enough Redis for Logstash | Elastic</a><br><a href="https://www.elastic.co/blog/logstash-lessons-handling-duplicates" target="_blank" rel="noopener">Little Logstash Lessons: Handling Duplicates | Elastic</a> custom IDs<br><a href="https://www.elastic.co/blog/log4j-input-logstash" target="_blank" rel="noopener">The future of Log4j input in Logstash | Elastic</a> write to local file and use Filebeat instead<br><a href="https://www.elastic.co/blog/archiving-your-event-stream-with-logstash" target="_blank" rel="noopener">Archiving your event stream with Logstash | Elastic</a> archive log to S3<br><a href="https://www.elastic.co/blog/little-logstash-lessons-part-using-grok-mutate-type-data" target="_blank" rel="noopener">Little Logstash Lessons - Part I: Using grok and mutate to type your data | Elastic</a><br><a href="https://www.elastic.co/blog/logstash_lesson_elasticsearch_mapping" target="_blank" rel="noopener">​Little Logstash Lessons: Using Logstash to help create an Elasticsearch mapping template | Elastic</a><br><a href="https://www.elastic.co/blog/logstash-dude-wheres-my-chainsaw-i-need-to-dissect-my-logs" target="_blank" rel="noopener">Introducing Logstash Dissect | Elastic</a><br><a href="https://www.elastic.co/blog/do-you-grok-grok" target="_blank" rel="noopener">Do you grok Grok? | Elastic</a></p>
+<p><a href="https://discuss.elastic.co/t/questions-about-self-monitoring-systems-blog-post/43542/6" target="_blank" rel="noopener">Questions about Self Monitoring Systems blog post - Beats - Discuss the Elastic Stack</a> Configuring Logstash as a monitoring system</p>
+<h2 id="Install-and-run"><a href="#Install-and-run" class="headerlink" title="Install and run"></a>Install and run</h2><p>Logstash is easy to install and run in command line. This is very useful when trying out filters.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> LOGSTASH_PACKAGE=logstash-5.5.1.tar.gz</span><br><span class="line">curl -O https://artifacts.elastic.co/downloads/logstash/<span class="variable">$&#123;LOGSTASH_PACKAGE&#125;</span></span><br><span class="line">tar xzf <span class="variable">$&#123;LOGSTASH_PACKAGE&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>See <a href="https://github.com/spujadas/elk-docker/blob/master/Dockerfile" target="_blank" rel="noopener">elk-docker/Dockerfile at master · spujadas/elk-docker</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">bin/logstash -e <span class="string">'input &#123; stdin &#123; &#125; &#125; output &#123; stdout &#123; codec =&gt; rubydebug &#125; &#125;'</span></span><br><span class="line">bin/logstash -f config.conf</span><br></pre></td></tr></table></figure>
+
+<p>Parse nginx log from <code>stdin</code> or beat:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">input &#123;</span><br><span class="line">    stdin &#123; &#125;</span><br><span class="line">    beats &#123; port =&gt; &quot;5043&quot; &#125;</span><br><span class="line">&#125;</span><br><span class="line">filter &#123;</span><br><span class="line">  if [type] == &quot;nginx-access&quot; &#123;</span><br><span class="line">    grok &#123;</span><br><span class="line">      match =&gt; &#123; &quot;message&quot; =&gt; &quot;%&#123;HTTPD_COMBINEDLOG&#125;&quot; &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    geoip &#123;</span><br><span class="line">        source =&gt; &quot;clientip&quot;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">output &#123;</span><br><span class="line">    stdout &#123; codec =&gt; rubydebug &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Heartbeat and ES with credentials:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">input &#123;</span><br><span class="line">  heartbeat &#123;</span><br><span class="line">    interval =&gt; 5</span><br><span class="line">    message  =&gt; &apos;Hello from Logstash 💓&apos;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">output &#123;</span><br><span class="line">  elasticsearch &#123;</span><br><span class="line">    hosts    =&gt; [ &apos;elasticsearch&apos; ]</span><br><span class="line">    user     =&gt; &apos;elastic&apos;</span><br><span class="line">    password =&gt; &apos;changeme&apos;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><p><a href="https://www.elastic.co/guide/en/logstash/current/working-with-plugins.html" target="_blank" rel="noopener">Working with plugins | Logstash Reference | Elastic</a><br><a href="https://github.com/logstash-plugins" target="_blank" rel="noopener">Logstash Plugins</a></p>
+<p><a href="https://www.elastic.co/guide/en/logstash/current/input-plugins.html" target="_blank" rel="noopener">Input plugins | Logstash Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/logstash/current/output-plugins.html" target="_blank" rel="noopener">Output plugins | Logstash Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/logstash/current/codec-plugins.html" target="_blank" rel="noopener">Codec plugins | Logstash Reference | Elastic</a></p>
+<h2 id="Filters-Plugins"><a href="#Filters-Plugins" class="headerlink" title="Filters Plugins"></a>Filters Plugins</h2><p><a href="https://www.elastic.co/guide/en/logstash/current/filter-plugins.html" target="_blank" rel="noopener">Filter plugins | Logstash Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-date.html" target="_blank" rel="noopener">Date filter plugin | Logstash Reference | Elastic</a></p>
+<h3 id="Grok"><a href="#Grok" class="headerlink" title="Grok"></a>Grok</h3><p><a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html" target="_blank" rel="noopener">Grok filter plugin | Logstash Reference | Elastic</a><br><a href="https://grokdebug.herokuapp.com/" target="_blank" rel="noopener">Grok Debugger</a><br><a href="http://grokconstructor.appspot.com/" target="_blank" rel="noopener">Grok Constructor</a></p>
+<p>The syntax for a grok pattern is <code>%{SYNTAX:SEMANTIC}</code>.</p>
+<p><code>SYNTAX</code> are <a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html#_regular_expressions" target="_blank" rel="noopener">regular expressions</a> supported by <a href="https://github.com/kkos/oniguruma/blob/master/doc/RE" target="_blank" rel="noopener">Oniguruma</a>. You can define your own patterns by putting it in <code>patterns_dir</code>.</p>
+<p>Logstash provides a bunch of patterns by default: see <a href="https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns" target="_blank" rel="noopener">logstash-patterns-core/patterns</a>.</p>
+<p>Examples:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%&#123;NGINXACCESS&#125;</span><br><span class="line">%&#123;SYSLOGBASE&#125; %&#123;DATA:message&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Search with <code>tags:_grokparsefailure</code> to look for filed logs.</p>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">docker run -it --rm logstash logstash -e <span class="string">'input &#123; stdin &#123; &#125; &#125;</span></span><br><span class="line"><span class="string">filter &#123; </span></span><br><span class="line"><span class="string">  grok &#123; match =&gt; &#123;</span></span><br><span class="line"><span class="string">    "message" =&gt; "%&#123;IP:client&#125; %&#123;WORD:method&#125; %&#123;URIPATHPARAM:request&#125; %&#123;NUMBER:bytes&#125; %&#123;NUMBER:duration&#125;"</span></span><br><span class="line"><span class="string">  &#125; &#125;</span></span><br><span class="line"><span class="string">&#125;</span></span><br><span class="line"><span class="string">output &#123; stdout &#123; codec =&gt; rubydebug &#125; &#125;'</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">55.3.244.1 GET /index.html 15824 0.043</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">      &quot;duration&quot; =&gt; &quot;0.043&quot;,</span><br><span class="line">       &quot;request&quot; =&gt; &quot;/index.html&quot;,</span><br><span class="line">    &quot;@timestamp&quot; =&gt; 2017-08-22T04:23:42.127Z,</span><br><span class="line">        &quot;method&quot; =&gt; &quot;GET&quot;,</span><br><span class="line">         &quot;bytes&quot; =&gt; &quot;15824&quot;,</span><br><span class="line">      &quot;@version&quot; =&gt; &quot;1&quot;,</span><br><span class="line">          &quot;host&quot; =&gt; &quot;kylee-arch&quot;,</span><br><span class="line">        &quot;client&quot; =&gt; &quot;55.3.244.1&quot;,</span><br><span class="line">       &quot;message&quot; =&gt; &quot;55.3.244.1 GET /index.html 15824 0.043&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/elastic-kibana/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/elastic-stack/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-08-03 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/elastic-stack/">elastic-stack<span>4</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Logstash"><span class="toc-article-text">Logstash</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Install-and-run"><span class="toc-article-text">Install and run</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Filters-Plugins"><span class="toc-article-text">Filters Plugins</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Grok"><span class="toc-article-text">Grok</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Docker"><span class="toc-article-text">Docker</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

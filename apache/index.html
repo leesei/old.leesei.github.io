@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Apache | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Apache"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Apache">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,17 +106,23 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="https://perishablepress.com/stupid-htaccess-tricks/" target="_blank" rel="external">Stupid htaccess Tricks | Perishable Press</a><br><a href="http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244" target="_blank" rel="external">Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article</a></p>
-<h2 id="Rewrite"><a href="#Rewrite" class="headerlink" title="Rewrite"></a>Rewrite</h2><p><a href="http://dev.filkor.org/2014/01/09/dot-htaccess-examples-and-explanations/" target="_blank" rel="external">RewriteRule examples and explanations - filkor.org Writings</a></p>
-<h2 id="HTTPS"><a href="#HTTPS" class="headerlink" title="HTTPS"></a>HTTPS</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># generate cert</span></div><div class="line">&gt; openssl genrsa -out privatekey.pem 1024</div><div class="line">&gt; openssl req -new -key privatekey.pem -x509 -days 7300 -out certificate.pem</div><div class="line"></div><div class="line">Loading <span class="string">'screen'</span> into random state - <span class="keyword">done</span></div><div class="line">You are about to be asked to enter information that will be incorporated</div><div class="line">into your certificate request.</div><div class="line">What you are about to enter is what is called a Distinguished Name or a DN.</div><div class="line">There are quite a few fields but you can leave some blank</div><div class="line">For some fields there will be a default value,</div><div class="line">If you enter <span class="string">'.'</span>, the field will be left blank.</div><div class="line">-----</div><div class="line">Country Name (2 letter code) [AU]:tw</div><div class="line">State or Province Name (full name) [Some-State]:Taiwan</div><div class="line">Locality Name (eg, city) []:Taipei</div><div class="line">Organization Name (eg, company) [Internet Widgits Pty Ltd]:MyCompany</div><div class="line">Organizational Unit Name (eg, section) []:IT-Dept</div><div class="line">Common Name (e.g. server FQDN or YOUR name) []:ssl.mycompany.com.tw</div><div class="line">Email Address []:</div></pre></td></tr></table></figure>
+	    <p><a href="https://perishablepress.com/stupid-htaccess-tricks/" target="_blank" rel="noopener">Stupid htaccess Tricks | Perishable Press</a><br><a href="http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244" target="_blank" rel="noopener">Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article</a></p>
+<h2 id="Rewrite"><a href="#Rewrite" class="headerlink" title="Rewrite"></a>Rewrite</h2><p><a href="http://dev.filkor.org/2014/01/09/dot-htaccess-examples-and-explanations/" target="_blank" rel="noopener">RewriteRule examples and explanations - filkor.org Writings</a></p>
+<h2 id="HTTPS"><a href="#HTTPS" class="headerlink" title="HTTPS"></a>HTTPS</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># generate cert</span></span><br><span class="line">&gt; openssl genrsa -out privatekey.pem 1024</span><br><span class="line">&gt; openssl req -new -key privatekey.pem -x509 -days 7300 -out certificate.pem</span><br><span class="line"></span><br><span class="line">Loading <span class="string">'screen'</span> into random state - <span class="keyword">done</span></span><br><span class="line">You are about to be asked to enter information that will be incorporated</span><br><span class="line">into your certificate request.</span><br><span class="line">What you are about to enter is what is called a Distinguished Name or a DN.</span><br><span class="line">There are quite a few fields but you can leave some blank</span><br><span class="line">For some fields there will be a default value,</span><br><span class="line">If you enter <span class="string">'.'</span>, the field will be left blank.</span><br><span class="line">-----</span><br><span class="line">Country Name (2 letter code) [AU]:tw</span><br><span class="line">State or Province Name (full name) [Some-State]:Taiwan</span><br><span class="line">Locality Name (eg, city) []:Taipei</span><br><span class="line">Organization Name (eg, company) [Internet Widgits Pty Ltd]:MyCompany</span><br><span class="line">Organizational Unit Name (eg, section) []:IT-Dept</span><br><span class="line">Common Name (e.g. server FQDN or YOUR name) []:ssl.mycompany.com.tw</span><br><span class="line">Email Address []:</span><br></pre></td></tr></table></figure>
+
 <p>Configure Apache:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&lt;VirtualHost *:80&gt;</div><div class="line">       ServerAdmin                   # 電子郵件信箱，可任意填，但不能為空值</div><div class="line">       DocumentRoot                  # 網站根目錄</div><div class="line">       ServerName                    # 網站domain，需與前面的CommonName內容相同</div><div class="line">       ErrorLog &quot;logs/error_log&quot;</div><div class="line">       CustomLog &quot;logs/access_log common&quot;</div><div class="line">       #SSLEngine on</div><div class="line">       SSLCertificateFile            # server.crt的完整路徑</div><div class="line">       SSLCertificateKeyFile         # server.key的完整路徑</div><div class="line">&lt;/VirtualHost&gt;</div></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">apache -D SSL</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">       ServerAdmin                   # 電子郵件信箱，可任意填，但不能為空值</span><br><span class="line">       DocumentRoot                  # 網站根目錄</span><br><span class="line">       ServerName                    # 網站domain，需與前面的CommonName內容相同</span><br><span class="line">       ErrorLog &quot;logs/error_log&quot;</span><br><span class="line">       CustomLog &quot;logs/access_log common&quot;</span><br><span class="line">       #SSLEngine on</span><br><span class="line">       SSLCertificateFile            # server.crt的完整路徑</span><br><span class="line">       SSLCertificateKeyFile         # server.key的完整路徑</span><br><span class="line">&lt;/VirtualHost&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">apache -D SSL</span><br></pre></td></tr></table></figure>
+
 <h2 id="Enabling-PHP-debug"><a href="#Enabling-PHP-debug" class="headerlink" title="Enabling PHP debug"></a>Enabling PHP debug</h2><p>In <code>php.ini</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">error_reporting = E_ALL | E_STRICT;</div></pre></td></tr></table></figure>
-<h2 id="httpd-conf"><a href="#httpd-conf" class="headerlink" title="httpd.conf"></a><code>httpd.conf</code></h2><h3 id="DocumentRoot"><a href="#DocumentRoot" class="headerlink" title="DocumentRoot"></a>DocumentRoot</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">DocumentRoot &quot;path&quot;</div><div class="line"></div><div class="line">&lt;Directory &quot;path&quot;&gt;</div><div class="line">    # setting for DocumentRoot</div><div class="line">&lt;/Directory&gt;</div></pre></td></tr></table></figure>
-<h3 id="Hiding-folder"><a href="#Hiding-folder" class="headerlink" title="Hiding folder"></a>Hiding folder</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&lt;Directory ~ &quot;.*\.sql*&quot;&gt;</div><div class="line">    Order allow,deny</div><div class="line">    Deny from all</div><div class="line">    Satisfy all</div><div class="line">&lt;/Directory&gt;</div></pre></td></tr></table></figure>
-<h2 id="WSGI"><a href="#WSGI" class="headerlink" title="WSGI"></a>WSGI</h2><p><a href="https://github.com/openslide/openslide/wiki/RunningDeepZoomServerOnApache" target="_blank" rel="external">RunningDeepZoomServerOnApache · openslide/openslide Wiki</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">error_reporting = E_ALL | E_STRICT;</span><br></pre></td></tr></table></figure>
+
+<h2 id="httpd-conf"><a href="#httpd-conf" class="headerlink" title="httpd.conf"></a><code>httpd.conf</code></h2><h3 id="DocumentRoot"><a href="#DocumentRoot" class="headerlink" title="DocumentRoot"></a>DocumentRoot</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">DocumentRoot &quot;path&quot;</span><br><span class="line"></span><br><span class="line">&lt;Directory &quot;path&quot;&gt;</span><br><span class="line">    # setting for DocumentRoot</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Hiding-folder"><a href="#Hiding-folder" class="headerlink" title="Hiding folder"></a>Hiding folder</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;Directory ~ &quot;.*\.sql*&quot;&gt;</span><br><span class="line">    Order allow,deny</span><br><span class="line">    Deny from all</span><br><span class="line">    Satisfy all</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="WSGI"><a href="#WSGI" class="headerlink" title="WSGI"></a>WSGI</h2><p><a href="https://github.com/openslide/openslide/wiki/RunningDeepZoomServerOnApache" target="_blank" rel="noopener">RunningDeepZoomServerOnApache · openslide/openslide Wiki</a></p>
 	  
 	</div>
 
@@ -174,7 +180,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>40</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -187,7 +193,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/apache/">apache<span>1</span></a></li>
+  <li><a href="/tags/apache/">apache<span>1</span></a></li> <li><a href="/tags/notes/">notes<span>24</span></a></li>
     </ul>
 	</div>
 		
@@ -214,7 +220,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

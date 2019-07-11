@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Kotlin | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Kotlin">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Kotlin</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="List-and-Array"><a href="#List-and-Array" class="headerlink" title="List and Array"></a>List and Array</h2><p>Use <code>List&lt;T&gt;.toTypeArray()</code> to get primitive Java array (<code>T[]</code>)</p>
+<p>// range to array<br>// array to list</p>
+<h2 id="Class"><a href="#Class" class="headerlink" title="Class"></a>Class</h2><p><a href="https://khan.github.io/kotlin-for-python-developers/#inheritance" target="_blank" rel="noopener">https://khan.github.io/kotlin-for-python-developers/#inheritance</a></p>
+<p>Kotlin classes are closed (Java <code>final</code>) by default, use <code>open</code> modifier to allow inheritance.</p>
+<p><code>constructor</code> keyword can be omitted for primary constructor unless you specify access modifiers (<code>protected</code>, <code>internal</code>, etc)or annotations.</p>
+<p>Primary constructor can use the parameters to initialize properties of the same name with default getters and setters. Note property setter is not invoked in this process. Declare variable in class, use <code>init{}</code> block and set the property manually to invoke the setter. Private property is also declared this way.<br>Use keyword <code>field</code> refer to the field in accessor instead of using actual property name to avoid infinite recursion.<br><a href="https://khan.github.io/kotlin-for-python-developers/#setters-and-getters" target="_blank" rel="noopener">https://khan.github.io/kotlin-for-python-developers/#setters-and-getters</a></p>
+<p>Primary constructor calls the parent contractor right away by class name. So from the superclass&#39;s perspective, calling an open function in constructor is risky: it might be overridden in the subclass.<br>Secondary constructor calls other constructor (if available) with <code>this()</code> or parent constructor with <code>super()</code> (if none constructor available)</p>
+<p>Subclass may refer functions and properties of superclass via <code>super</code> keyword: <code>super.foo()</code>.</p>
+<p>Property = hidden field + default/custom accessor<br>Computed property without backing field can also be (declare it without initialization)<br><a href="https://stackoverflow.com/questions/43220140/whats-kotlin-backing-field-for" target="_blank" rel="noopener">android - What&#39;s Kotlin Backing Field For? - Stack Overflow</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">val isNewborn</span><br><span class="line">    get() = age == 0</span><br></pre></td></tr></table></figure>
+
+<h3 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// getting class of object</span><br><span class="line">// since 1.1</span><br><span class="line">// https://kotlinlang.org/docs/reference/reflection.html#class-references</span><br><span class="line">instance::class.qualifiedName</span><br><span class="line"></span><br><span class="line">// obsolete style</span><br><span class="line">instance.javaclass</span><br><span class="line">instance.javaclass.kotlin</span><br><span class="line"></span><br><span class="line">// getting name of variable</span><br><span class="line">::instance.name</span><br></pre></td></tr></table></figure>
+
+<h3 id="Smartcast"><a href="#Smartcast" class="headerlink" title="Smartcast"></a>Smartcast</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if (obj is String) &#123;  // obj: Any</span><br><span class="line">  print(obj.toUpperCase())     // obj is now known to be a String</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// extension not using contract, no smartcast</span><br><span class="line">fun String?.isNotNull(): Boolean = this != null</span><br><span class="line"></span><br><span class="line">fun foo(s: String?) &#123;</span><br><span class="line">    if (s != null) s.length // smartcast here</span><br><span class="line">    if (s.isNotNull()) s.length // No smartcast :(</span><br><span class="line"></span><br><span class="line">    if (!s.isNullOrEmpty()) &#123;</span><br><span class="line">        println(&quot;length of &apos;$s&apos; is $&#123;s.length&#125;&quot;) // Yay, smartcasted to not-null!</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Delegates"><a href="#Delegates" class="headerlink" title="Delegates"></a>Delegates</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">interface View &#123;</span><br><span class="line">  fun click()</span><br><span class="line">  fun toggle()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class ViewImpl: View &#123;</span><br><span class="line">  override fun click()  &#123; println(&quot;click!&quot;) &#125;</span><br><span class="line">  override fun toggle() &#123; println(&quot;toggle!&quot;) &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class EmptyDelegate(view: View): View by view</span><br><span class="line"></span><br><span class="line">class OverridingDelegate(view: View): View by view &#123;</span><br><span class="line">  override fun click()  &#123; println(&quot;CLICK!&quot;) &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">fun main() &#123;</span><br><span class="line">   val view = ViewImpl()</span><br><span class="line">   val e = EmptyDelegate(view)</span><br><span class="line">   val o = OverridingDelegate(view)</span><br><span class="line"></span><br><span class="line">   println(&quot;$&#123;e::class.qualifiedName&#125;&quot;)</span><br><span class="line">   e.click()</span><br><span class="line">   e.toggle()</span><br><span class="line"></span><br><span class="line">   println(&quot;$&#123;o::class.qualifiedName&#125;&quot;)</span><br><span class="line">   o.click()</span><br><span class="line">   o.toggle()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2><p><code>continue</code>, <code>break</code>, <code>this</code>, <code>return</code> in bound to the closest context. Use label (<code>name@</code>) to specify the context.<br>Function and class name are automatically generated labels.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">outer@ for (n in 2..100) &#123;</span><br><span class="line">    for (d in 2 until n) &#123;</span><br><span class="line">        if (n % d == 0) continue@outer</span><br><span class="line">    &#125;</span><br><span class="line">    println(&quot;$n is prime&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">fun printUntilStopExplicit() &#123;</span><br><span class="line">  val list = listOf(&quot;a&quot;, &quot;b&quot;, &quot;stop&quot;, &quot;c&quot;)</span><br><span class="line">  list.forEach stop@ &#123;</span><br><span class="line">    if (it == &quot;stop&quot;) return@stop</span><br><span class="line">    else println(it)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">fun printUntilStopImplicit() &#123;</span><br><span class="line">  val list = listOf(&quot;a&quot;, &quot;b&quot;, &quot;stop&quot;, &quot;c&quot;)</span><br><span class="line">  list.forEach &#123;</span><br><span class="line">    if (it == &quot;stop&quot;) return@forEach</span><br><span class="line">    else println(it)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class A &#123;</span><br><span class="line">  private val somefield: Int = 1</span><br><span class="line">  inner class B &#123;</span><br><span class="line">    private val somefield: Int = 1</span><br><span class="line">    fun foo(s: String) &#123;</span><br><span class="line">      println(&quot;Field &lt;somefield&gt; from B&quot; + this.somefield)</span><br><span class="line">      println(&quot;Field &lt;somefield&gt; from B&quot; + this@B.somefield)</span><br><span class="line">      println(&quot;Field &lt;somefield&gt; from A&quot; + this@A.somefield)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Range"><a href="#Range" class="headerlink" title="Range"></a>Range</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class DateRange(val start: MyDate, val endInclusive: MyDate) &#123;</span><br><span class="line">    operator fun contains(item: MyDate): Boolean =</span><br><span class="line">      start &lt;= item &amp;&amp; item &lt;= endInclusive</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://kotlinlang.org/docs/reference/ranges.html" target="_blank" rel="noopener">Ranges - Kotlin Programming Language</a></p>
+<h2 id="Spread-and-Destructuring"><a href="#Spread-and-Destructuring" class="headerlink" title="Spread and Destructuring"></a>Spread and Destructuring</h2><p>Spread (<code>*list</code>) and destructuring (<code>(k, v) = &quot;key&quot; to &quot;value&quot;</code>) works as in Python and ES6</p>
+<p>Map (dict) spreading is more tricky. The parameters have to be of the same type <code>vararg kwargs: Pair&lt;String, X&gt;</code> or in the worst cast <code>vararg kwargs: Pair&lt;String, Any&gt;</code> and it&#39;s for the function to typecast them to the correct type.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">val numbers = listOf(1, 2, 3)</span><br><span class="line">sum(*numbers.toIntArray())</span><br><span class="line"></span><br><span class="line">foo(&quot;bar&quot; to 42, &quot;test&quot; to &quot;hello&quot;)</span><br><span class="line"></span><br><span class="line">// destructuring example</span><br></pre></td></tr></table></figure>
+
+<h2 id="Lambda"><a href="#Lambda" class="headerlink" title="Lambda"></a>Lambda</h2><p><a href="https://khan.github.io/kotlin-for-python-developers/#receivers" target="_blank" rel="noopener">https://khan.github.io/kotlin-for-python-developers/#receivers</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">fun buildString(action: StringBuilder.() -&gt; Unit) : String &#123;</span><br><span class="line">  val sb = StringBuilder()</span><br><span class="line">  sb.action()  // invoke the lambda as StringBuilder&apos;s extension function</span><br><span class="line">  return sb.toString()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// inside the lambda, `this` refer to the StringBuilder object</span><br><span class="line">val s = buildString &#123;</span><br><span class="line">  // this lambda has prototype `() -&gt; Unit`</span><br><span class="line">  append(&quot;Hello!&quot;)</span><br><span class="line">  append(&quot;How are you?&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Single-Abstract-Method-SAM"><a href="#Single-Abstract-Method-SAM" class="headerlink" title="Single Abstract Method (SAM)"></a>Single Abstract Method (SAM)</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">//https://play.kotlinlang.org/koans/Introduction/SAM%20conversions/Task.kt</span><br><span class="line"></span><br><span class="line">import java.util.*</span><br><span class="line"></span><br><span class="line">fun getList(): List&lt;Int&gt; &#123;</span><br><span class="line">    val arrayList = arrayListOf(1, 5, 2)</span><br><span class="line">    // Collections.sort(arrayList, object: Comparator&lt;Int&gt; &#123;</span><br><span class="line">    //     override fun compare(a:Int, b:Int) = b - a</span><br><span class="line">    // &#125;)</span><br><span class="line">    // use lambda SAM instead of anonymous object</span><br><span class="line">    Collections.sort(arrayList, &#123; x, y -&gt; y - x &#125;)</span><br><span class="line">    return arrayList</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https://play.kotlinlang.org/koans/Introduction/Extensions%20on%20collections/Task.kt</span><br><span class="line"></span><br><span class="line">fun getList(): List&lt;Int&gt; &#123;</span><br><span class="line">    val a = arrayListOf(1, 5, 2)</span><br><span class="line">    a.sortWith(object: Comparator&lt;Int&gt; &#123;</span><br><span class="line">        override fun compare(x:Int, y:Int) = y - x</span><br><span class="line">    &#125;)</span><br><span class="line">    // lambda also works but you have to specify the</span><br><span class="line">    // `Comparator` type (template type is inferred)</span><br><span class="line">    a.sortWith(Comparator &#123; x, y -&gt; y - x &#125;)</span><br><span class="line">    return a</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://stackoverflow.com/questions/52292293/why-cant-kotlin-infer-the-type-for-comparator" target="_blank" rel="noopener">Why Can&#39;t Kotlin Infer The Type For Comparator - Stack Overflow</a><br><a href="https://youtrack.jetbrains.com/issue/KT-7770" target="_blank" rel="noopener">SAM for Kotlin classes : KT-7770</a></p>
+<h2 id="Extension"><a href="#Extension" class="headerlink" title="Extension"></a>Extension</h2><p>Syntax:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">fun &#123;Class&#125;.&#123;name&#125;(&#123;param&#125;): &#123;type&#125; &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>The class specified is the &quot;receiver&quot; of extension. Use <code>this</code> in the function body to refer to the receiver object instance. <code>this</code> can be omitted if there is no ambiguity, i.e.: the receiver object is the context of the code block.<br><a href="https://khan.github.io/kotlin-for-python-developers/#extension-functionsproperties" target="_blank" rel="noopener">https://khan.github.io/kotlin-for-python-developers/#extension-functionsproperties</a><br><a href="https://khan.github.io/kotlin-for-python-developers/#receivers" target="_blank" rel="noopener">https://khan.github.io/kotlin-for-python-developers/#receivers</a><br><a href="https://proandroiddev.com/kotlin-pearls-6-extensions-the-good-the-bad-and-the-ugly-23c88fcab235" target="_blank" rel="noopener">[Kotlin pearls 6] Extensions: The Good, The Bad and The Ugly</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// extension function</span><br><span class="line">fun Byte.toUnsigned(): Int &#123;</span><br><span class="line">    return if (this &lt; 0) this + 256 else this.toInt()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// extension property</span><br><span class="line">val Byte.unsigned: Int</span><br><span class="line">    get() = if (this &lt; 0) this + 256 else this.toInt()</span><br></pre></td></tr></table></figure>
+
+<h2 id="Context-functions"><a href="#Context-functions" class="headerlink" title="Context functions"></a>Context functions</h2><p>Personally I prefer not using receiver (not using <code>this</code>).</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">maybeNull?.run &#123; /* receiver, use `this` */ &#125;</span><br><span class="line">maybeNull?.let &#123; /* parameter, use `it` */ &#125;</span><br><span class="line">with(expression) &#123; /* receiver, use `this` */ &#125;</span><br><span class="line"></span><br><span class="line">maybeNull?.apply &#123;</span><br><span class="line">  /* receiver, use `this` */</span><br><span class="line">&#125;?.memberFunction()</span><br><span class="line"></span><br><span class="line">maybeNull?.also &#123;</span><br><span class="line">  /* parameter, use `it` */</span><br><span class="line">&#125;?.memberFunction()</span><br></pre></td></tr></table></figure>
+
+<h2 id="DSL"><a href="#DSL" class="headerlink" title="DSL"></a>DSL</h2><p><a href="https://kotlinlang.org/docs/reference/type-safe-builders.html" target="_blank" rel="noopener">Type-Safe Builders - Kotlin Programming Language</a></p>
+<h3 id="Tree-DSL"><a href="#Tree-DSL" class="headerlink" title="Tree DSL"></a>Tree DSL</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">class TreeNode(val name: String) &#123;</span><br><span class="line">    val children = mutableListOf&lt;TreeNode&gt;()</span><br><span class="line"></span><br><span class="line">    fun node(name: String, initialize: (TreeNode.() -&gt; Unit)? = null) &#123;</span><br><span class="line">        val child = TreeNode(name)</span><br><span class="line">        children.add(child)</span><br><span class="line">        if (initialize != null) &#123;</span><br><span class="line">            child.initialize()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fun toString() &#123;</span><br><span class="line">      TODO()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">fun tree(name: String, initialize: (TreeNode.() -&gt; Unit)? = null): TreeNode &#123;</span><br><span class="line">    val root = TreeNode(name)</span><br><span class="line">    if (initialize != null) &#123;</span><br><span class="line">        root.initialize()</span><br><span class="line">    &#125;</span><br><span class="line">    return root</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">val t = tree(&quot;root&quot;) &#123;</span><br><span class="line">    node(&quot;math&quot;) &#123;</span><br><span class="line">        node(&quot;algebra&quot;)</span><br><span class="line">        node(&quot;trigonometry&quot;)</span><br><span class="line">    &#125;</span><br><span class="line">    node(&quot;science&quot;) &#123;</span><br><span class="line">        node(&quot;physics&quot;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/exercise/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/gradle/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2019-04-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/kotlin/">kotlin<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#List-and-Array"><span class="toc-article-text">List and Array</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Class"><span class="toc-article-text">Class</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Reflection"><span class="toc-article-text">Reflection</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Smartcast"><span class="toc-article-text">Smartcast</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Delegates"><span class="toc-article-text">Delegates</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Label"><span class="toc-article-text">Label</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Range"><span class="toc-article-text">Range</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Spread-and-Destructuring"><span class="toc-article-text">Spread and Destructuring</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Lambda"><span class="toc-article-text">Lambda</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Single-Abstract-Method-SAM"><span class="toc-article-text">Single Abstract Method (SAM)</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Extension"><span class="toc-article-text">Extension</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Context-functions"><span class="toc-article-text">Context functions</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#DSL"><span class="toc-article-text">DSL</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Tree-DSL"><span class="toc-article-text">Tree DSL</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

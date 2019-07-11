@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Shell string expansion | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Shell string expansion"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Shell string expansion">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -107,13 +107,14 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <h2 id="string-manipulation-expansion"><a href="#string-manipulation-expansion" class="headerlink" title="string manipulation/expansion"></a>string manipulation/expansion</h2><blockquote>
-<p>After reading <code>fish</code> shell’s philosophy, I now think using <code>sed</code> and other tools is better than relying on shell features.</p>
+<p>After reading <code>fish</code> shell&#39;s philosophy, I now think using <code>sed</code> and other tools is better than relying on shell features.</p>
 </blockquote>
-<p><a href="http://tldp.org/LDP/abs/html/string-manipulation.html" target="_blank" rel="external">http://tldp.org/LDP/abs/html/string-manipulation.html</a><br><a href="http://wiki.bash-hackers.org/syntax/pe" target="_blank" rel="external">http://wiki.bash-hackers.org/syntax/pe</a><br><a href="http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html" target="_blank" rel="external">http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html</a></p>
+<p><a href="http://tldp.org/LDP/abs/html/string-manipulation.html" target="_blank" rel="noopener">http://tldp.org/LDP/abs/html/string-manipulation.html</a><br><a href="http://wiki.bash-hackers.org/syntax/pe" target="_blank" rel="noopener">http://wiki.bash-hackers.org/syntax/pe</a><br><a href="http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html" target="_blank" rel="noopener">http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html</a><br><a href="http://www.catonmat.net/blog/bash-one-liners-explained-part-two/" target="_blank" rel="noopener">Bash One-Liners Explained, Part II: Working with strings - good coders code, great coders reuse</a></p>
 <blockquote>
 <p>TODO: add zsh manual</p>
 </blockquote>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># to upper</span></div><div class="line"><span class="built_in">echo</span> <span class="variable">$string</span> | tr [:lower:] [:upper:]</div><div class="line">newstring=<span class="variable">$&#123;string^^&#125;</span></div><div class="line"><span class="comment"># to lower</span></div><div class="line"><span class="built_in">echo</span> <span class="variable">$string</span> | tr [:upper:] [:lower:]</div><div class="line">newstring=<span class="variable">$&#123;string,,&#125;</span></div><div class="line"></div><div class="line"><span class="comment"># substring extraction</span></div><div class="line">substring=<span class="variable">$&#123;string:1:-2&#125;</span></div><div class="line"></div><div class="line"><span class="comment"># string expansion</span></div><div class="line"><span class="variable">$&#123;var:-default&#125;</span> <span class="comment"># means $var if $var is defined and otherwise "default"</span></div><div class="line"><span class="variable">$&#123;var:-&#125;</span> <span class="comment"># default $var to null string to avoid error when `set -u` is used</span></div><div class="line"><span class="variable">$&#123;var:+value&#125;</span> <span class="comment"># means if $var is defined use "value"; otherwise nothing</span></div><div class="line"></div><div class="line"><span class="comment"># string substitution</span></div><div class="line"><span class="variable">$&#123;string/substring/replacement&#125;</span>   <span class="comment"># replace "substring" with "replacement"</span></div><div class="line"><span class="variable">$&#123;string//substring/replacement&#125;</span>  <span class="comment"># replace all occurrences (g) of "substring" with "replacement"</span></div><div class="line"><span class="variable">$&#123;string/#substring/replacement&#125;</span>  <span class="comment"># replace front match (^) "substring" with "replacement"</span></div><div class="line"><span class="variable">$&#123;string/%substring/replacement&#125;</span>  <span class="comment"># replace end match ($) "substring" with "replacement"</span></div><div class="line"></div><div class="line"><span class="comment"># file path manipulation</span></div><div class="line"><span class="comment"># get dir from full path</span></div><div class="line">$(dirname <span class="string">"<span class="variable">$path</span>"</span>)</div><div class="line"><span class="variable">$&#123;path%/*&#125;</span></div><div class="line"><span class="comment"># get file name from full path</span></div><div class="line">$(basename <span class="string">"<span class="variable">$path</span>"</span>)</div><div class="line"><span class="variable">$&#123;path##*/&#125;</span></div><div class="line"></div><div class="line">FILE=<span class="string">"example.tar.gz"</span></div><div class="line"><span class="variable">$&#123;FILE%%.*&#125;</span>          <span class="comment"># "example", stripped longest extension</span></div><div class="line"><span class="variable">$&#123;FILE%.*&#125;</span>           <span class="comment"># "example.tar", stripped shortest extension</span></div><div class="line"><span class="variable">$&#123;FILE#*.&#125;</span>           <span class="comment"># "tar.gz", longest extension</span></div><div class="line"><span class="variable">$&#123;FILE##*.&#125;</span>          <span class="comment"># "gz", shortest extension</span></div><div class="line"></div><div class="line"><span class="comment"># mimic https://nodejs.org/api/path.html#path_path_parse_pathstring</span></div><div class="line"><span class="built_in">declare</span> -A pathObj</div><div class="line">base=<span class="variable">$&#123;file##*/&#125;</span></div><div class="line">pathObj[dir]=<span class="variable">$&#123;file%/*&#125;</span></div><div class="line">pathObj[base]=<span class="variable">$&#123;base&#125;</span></div><div class="line">pathObj[name]=<span class="variable">$&#123;base%.*&#125;</span></div><div class="line">pathObj[ext]=.<span class="variable">$&#123;base##*.&#125;</span> <span class="comment"># note added '.' prefix</span></div><div class="line"><span class="comment"># <span class="doctag">NOTE:</span> ext has bug if $file has no extension</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="variable">$&#123;path:0:1&#125;</span> = <span class="string">'/'</span> ]; <span class="keyword">then</span></div><div class="line">    tmp=<span class="variable">$&#123;path:1&#125;</span>    <span class="comment"># strip leading '/'</span></div><div class="line"><span class="keyword">fi</span></div><div class="line">tmp=<span class="variable">$&#123;path#/&#125;</span>        <span class="comment"># strip leading '/'</span></div><div class="line">tmp=<span class="variable">$&#123;path%/&#125;</span>        <span class="comment"># strip trailing '/'</span></div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># to upper</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$string</span> | tr [:lower:] [:upper:]</span><br><span class="line">newstring=<span class="variable">$&#123;string^^&#125;</span></span><br><span class="line"><span class="comment"># to lower</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$string</span> | tr [:upper:] [:lower:]</span><br><span class="line">newstring=<span class="variable">$&#123;string,,&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># substring extraction</span></span><br><span class="line">substring=<span class="variable">$&#123;string:1:-2&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># string expansion</span></span><br><span class="line"><span class="variable">$&#123;var:-default&#125;</span> <span class="comment"># means $var if $var is defined and otherwise "default"</span></span><br><span class="line"><span class="variable">$&#123;var:-&#125;</span> <span class="comment"># default $var to null string to avoid error when `set -u` is used</span></span><br><span class="line"><span class="variable">$&#123;var:+value&#125;</span> <span class="comment"># means if $var is defined use "value"; otherwise nothing</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># string substitution</span></span><br><span class="line"><span class="variable">$&#123;string/substring/replacement&#125;</span>   <span class="comment"># replace "substring" with "replacement"</span></span><br><span class="line"><span class="variable">$&#123;string//substring/replacement&#125;</span>  <span class="comment"># replace all occurrences (g) of "substring" with "replacement"</span></span><br><span class="line"><span class="variable">$&#123;string/#substring/replacement&#125;</span>  <span class="comment"># replace front match (^) "substring" with "replacement"</span></span><br><span class="line"><span class="variable">$&#123;string/%substring/replacement&#125;</span>  <span class="comment"># replace end match ($) "substring" with "replacement"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># file path manipulation</span></span><br><span class="line"><span class="comment"># get dir from full path</span></span><br><span class="line">$(dirname <span class="string">"<span class="variable">$path</span>"</span>)</span><br><span class="line"><span class="variable">$&#123;path%/*&#125;</span></span><br><span class="line"><span class="comment"># get file name from full path</span></span><br><span class="line">$(basename <span class="string">"<span class="variable">$path</span>"</span>)</span><br><span class="line"><span class="variable">$&#123;path##*/&#125;</span></span><br><span class="line"></span><br><span class="line">FILE=<span class="string">"example.tar.gz"</span></span><br><span class="line"><span class="variable">$&#123;FILE%%.*&#125;</span>          <span class="comment"># "example", stripped longest extension</span></span><br><span class="line"><span class="variable">$&#123;FILE%.*&#125;</span>           <span class="comment"># "example.tar", stripped shortest extension</span></span><br><span class="line"><span class="variable">$&#123;FILE#*.&#125;</span>           <span class="comment"># "tar.gz", longest extension</span></span><br><span class="line"><span class="variable">$&#123;FILE##*.&#125;</span>          <span class="comment"># "gz", shortest extension</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># mimic https://nodejs.org/api/path.html#path_path_parse_pathstring</span></span><br><span class="line"><span class="built_in">declare</span> -A pathObj</span><br><span class="line">base=<span class="variable">$&#123;file##*/&#125;</span></span><br><span class="line">pathObj[dir]=<span class="variable">$&#123;file%/*&#125;</span></span><br><span class="line">pathObj[base]=<span class="variable">$&#123;base&#125;</span></span><br><span class="line">pathObj[name]=<span class="variable">$&#123;base%.*&#125;</span></span><br><span class="line">pathObj[ext]=.<span class="variable">$&#123;base##*.&#125;</span> <span class="comment"># note added '.' prefix</span></span><br><span class="line"><span class="comment"># <span class="doctag">NOTE:</span> ext has bug if $file has no extension</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$&#123;path:0:1&#125;</span> = <span class="string">'/'</span> ]; <span class="keyword">then</span></span><br><span class="line">    tmp=<span class="variable">$&#123;path:1&#125;</span>    <span class="comment"># strip leading '/'</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line">tmp=<span class="variable">$&#123;path#/&#125;</span>        <span class="comment"># strip leading '/'</span></span><br><span class="line">tmp=<span class="variable">$&#123;path%/&#125;</span>        <span class="comment"># strip trailing '/'</span></span><br></pre></td></tr></table></figure>
+
 	  
 	</div>
 
@@ -123,13 +124,13 @@
 <ul class="pagination">
 	 
 				
-    	<li class="prev"><a href="/shell-history-expansion/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+    	<li class="prev"><a href="/shell-snippets/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
   		
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/shell-notes/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/shell-history-expansion/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -184,7 +185,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/shell/">shell<span>5</span></a></li>
+  <li><a href="/tags/notes/">notes<span>24</span></a></li> <li><a href="/tags/shell/">shell<span>6</span></a></li>
     </ul>
 	</div>
 		
@@ -206,7 +207,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

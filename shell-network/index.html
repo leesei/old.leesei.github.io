@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Shell Tools (Network) | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Shell Tools (Network)"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Shell Tools (Network)">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -107,22 +107,97 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p>Network related shell tools</p>
+<blockquote>
+<p>see <code>network.md</code><br>need to merge?</p>
+</blockquote>
+<p><a href="https://www.networkworld.com/article/2825879/network-management/7-free-open-source-network-monitoring-tools.html" target="_blank" rel="noopener">7 free networking tools you must have | Network World</a><br><a href="https://www.techrepublic.com/resource-library/whitepapers/20-quick-tips-to-make-linux-networking-easier/#ftag=CAD-00-10aag7e" target="_blank" rel="noopener">20 quick tips to make Linux networking easier (free PDF) - TechRepublic</a></p>
 <a id="more"></a>
-<h2 id="nmap"><a href="#nmap" class="headerlink" title="nmap"></a><code>nmap</code></h2><p><a href="https://nmap.org/" target="_blank" rel="external">Nmap: the Network Mapper - Free Security Scanner</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">nmap -p 443 --script ssl-enum-ciphers &lt;host&gt;</div></pre></td></tr></table></figure>
-<h2 id="netcat"><a href="#netcat" class="headerlink" title="netcat"></a><code>netcat</code></h2><p><a href="http://nc110.sourceforge.net/" target="_blank" rel="external">Netcat: the TCP/IP swiss army</a><br><a href="http://www.catonmat.net/blog/unix-utilities-netcat/" target="_blank" rel="external">A Unix Utility You Should Know About: Netcat - good coders code, great coders reuse</a><br><a href="http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/" target="_blank" rel="external">Using netcat as an intercepting proxy | Hawk Host Blog</a><br><a href="http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/" target="_blank" rel="external">Netcat – a couple of useful examples | G-Loaded Journal</a><br><a href="http://www.admin-magazine.com/Articles/Netcat-The-Admin-s-Best-Friend" target="_blank" rel="external">Netcat – The Admin’s Best Friend » ADMIN Magazine</a><br><a href="http://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/" target="_blank" rel="external">Hack Like a Pro: How to Use Netcat, the Swiss Army Knife of Hacking Tools « Null Byte</a></p>
-<p><a href="https://www.upguard.com/articles/wireshark-vs.-netcat-for-network-protocol-analysis" target="_blank" rel="external">Wireshark vs. Netcat for Network Protocol Analysis</a></p>
-<h2 id="ss"><a href="#ss" class="headerlink" title="ss"></a><code>ss</code></h2><p><a href="https://www.linux.com/learn/intro-to-linux/2017/4/probe-your-linux-sockets-ss" target="_blank" rel="external">Probe Your Linux Sockets With ss | Linux.com | The source for Linux information</a></p>
-<h2 id="tcpdump"><a href="#tcpdump" class="headerlink" title="tcpdump"></a><code>tcpdump</code></h2><p><a href="https://www.mankier.com/1/tcpdump" target="_blank" rel="external">tcpdump - man page - ManKier</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">tcpdump -vvv <span class="_">-s</span> 0 -nni &lt;interface&gt; -w &lt;file&gt; host &lt;host&gt; and port &lt;port&gt; &amp;</div></pre></td></tr></table></figure>
-<h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a><code>traceroute</code></h2><p><a href="https://www.mankier.com/8/traceroute" target="_blank" rel="external">traceroute - man page - ManKier</a></p>
-<p><a href="http://www.slashroot.in/how-does-traceroute-work-and-examples-using-traceroute-command" target="_blank" rel="external">How Does Traceroute Work and Example’s of using traceroute command</a></p>
-<h2 id="check-connection"><a href="#check-connection" class="headerlink" title="check connection"></a>check connection</h2><p><a href="https://www.cyberciti.biz/faq/howto-determine-ethernet-connection-speed/" target="_blank" rel="external">Linux – Determine / Find Ethernet Connection Speed</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo mii-tool -v eno1</div><div class="line">ethtool eno1</div></pre></td></tr></table></figure>
-<h2 id="Wireshark"><a href="#Wireshark" class="headerlink" title="Wireshark"></a>Wireshark</h2><p>Wireshark can open many dump formats (e.g. <code>.cap</code>/<code>.pcap</code> from <code>tcpdump</code>)</p>
-<p><a href="https://www.wireshark.org/" target="_blank" rel="external">Wireshark · Go Deep.</a><br><a href="http://www.pcworld.com/article/186871/track_down_network_problems_with_wireshark.html" target="_blank" rel="external">Track Down Network Problems With Wireshark | PCWorld</a></p>
-<h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a><code>netstat</code></h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># list listening TCP ports</span></div><div class="line">netstat -antlp</div><div class="line">lsof -i udp:24000</div><div class="line">lsof -i tcp:80</div></pre></td></tr></table></figure>
-<p><a href="https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/systemadmin/systemadmin.plugin.zsh" target="_blank" rel="external">oh-my-zsh/systemadmin.plugin.zsh at master · robbyrussell/oh-my-zsh</a></p>
+
+<h2 id="iproute2-ip"><a href="#iproute2-ip" class="headerlink" title="iproute2/ip"></a><code>iproute2</code>/<code>ip</code></h2><p><code>iproute2</code> package deprecates old networking commands in <code>net-tools</code> package<br><a href="https://wiki.linuxfoundation.org/networking/iproute2" target="_blank" rel="noopener">networking:iproute2 [Linux Foundation Wiki]</a><br><a href="https://dougvitale.wordpress.com/2011/12/21/deprecated-linux-networking-commands-and-their-replacements/" target="_blank" rel="noopener">Deprecated Linux networking commands and their replacements | Doug Vitale Tech Blog</a></p>
+<table>
+<thead>
+<tr>
+<th>Deprecated command</th>
+<th>Replacement command(s)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>arp</td>
+<td>ip n (ip neighbor)</td>
+</tr>
+<tr>
+<td>ifconfig</td>
+<td>ip a (ip addr), ip link, ip -s (ip -stats)</td>
+</tr>
+<tr>
+<td>ipmaddr</td>
+<td>ip maddr</td>
+</tr>
+<tr>
+<td>iptunnel</td>
+<td>ip tunnel</td>
+</tr>
+<tr>
+<td>iwconfig</td>
+<td>iw</td>
+</tr>
+<tr>
+<td>mii-tool</td>
+<td>ethtool</td>
+</tr>
+<tr>
+<td>nameif</td>
+<td>ip link, ifrename</td>
+</tr>
+<tr>
+<td>netstat</td>
+<td>ss, ip route (for netstat-r), ip -s link (for netstat -i), ip maddr (for netstat-g)</td>
+</tr>
+<tr>
+<td>route</td>
+<td>ip r (ip route)</td>
+</tr>
+</tbody></table>
+<p><a href="https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf" target="_blank" rel="noopener"><code>ip</code> command cheat sheet</a> (PDF)<br><a href="https://www.networkworld.com/article/3262045/linux/checking-your-network-connections-on-linux.html" target="_blank" rel="noopener">How to check your network connections on Linux | Network World</a></p>
+<h3 id="check-connection"><a href="#check-connection" class="headerlink" title="check connection"></a>check connection</h3><p><a href="https://www.cyberciti.biz/faq/howto-determine-ethernet-connection-speed/" target="_blank" rel="noopener">Linux – Determine / Find Ethernet Connection Speed</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ethtool eno1</span><br></pre></td></tr></table></figure>
+
+<h2 id="nmap"><a href="#nmap" class="headerlink" title="nmap"></a><code>nmap</code></h2><p><a href="https://nmap.org/" target="_blank" rel="noopener">Nmap: the Network Mapper - Free Security Scanner</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-use-nmap-to-scan-for-open-ports-on-your-vps" target="_blank" rel="noopener">How To Use Nmap to Scan for Open Ports on your VPS | DigitalOcean</a><br><a href="https://www.networkworld.com/article/3296740/lan-wan/what-is-nmap-why-you-need-this-network-mapper.html" target="_blank" rel="noopener">What is Nmap? Why you need this network mapper | Network World</a></p>
+<p><a href="https://linoxide.com/linux-how-to/check-service-running-linux-port/" target="_blank" rel="noopener">How to Check Service Running on Specific Port on Linux</a></p>
+<p><a href="https://null-byte.wonderhowto.com/how-to/hack-like-pro-conduct-active-reconnaissance-and-dos-attacks-with-nmap-0146950/" target="_blank" rel="noopener">Hack Like a Pro: How to Conduct Active Reconnaissance and DOS Attacks with Nmap « Null Byte :: WonderHowTo</a><br><a href="https://null-byte.wonderhowto.com/how-to/hack-like-pro-advanced-nmap-for-reconnaissance-0151619/" target="_blank" rel="noopener">Hack Like a Pro: Advanced Nmap for Reconnaissance « Null Byte :: WonderHowTo</a><br><a href="https://null-byte.wonderhowto.com/how-to/hack-like-pro-using-nmap-scripting-engine-nse-for-reconnaissance-0158681/" target="_blank" rel="noopener">Hack Like a Pro: Using the Nmap Scripting Engine (NSE) for Reconnaissance « Null Byte :: WonderHowTo</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># most nmap commands require root privileges</span></span><br><span class="line">sudo su</span><br><span class="line"></span><br><span class="line"><span class="comment"># scan ports</span></span><br><span class="line">nmap -O <span class="variable">$&#123;host&#125;</span></span><br><span class="line"><span class="comment"># check port at host</span></span><br><span class="line">nmap -p 443 192.168.2.254</span><br><span class="line"><span class="comment"># check TLS ciphers</span></span><br><span class="line">nmap -p 443 --script ssl-enum-ciphers <span class="variable">$&#123;host&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="netcat"><a href="#netcat" class="headerlink" title="netcat"></a><code>netcat</code></h2><blockquote>
+<p><code>nc</code> or <code>ncat</code> in different distros</p>
+</blockquote>
+<p><a href="http://nc110.sourceforge.net/" target="_blank" rel="noopener">Netcat: the TCP/IP swiss army</a><br><a href="http://www.catonmat.net/blog/unix-utilities-netcat/" target="_blank" rel="noopener">A Unix Utility You Should Know About: Netcat - good coders code, great coders reuse</a><br><a href="http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/" target="_blank" rel="noopener">Using netcat as an intercepting proxy | Hawk Host Blog</a><br><a href="http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/" target="_blank" rel="noopener">Netcat – a couple of useful examples | G-Loaded Journal</a><br><a href="http://www.admin-magazine.com/Articles/Netcat-The-Admin-s-Best-Friend" target="_blank" rel="noopener">Netcat – The Admin’s Best Friend » ADMIN Magazine</a><br><a href="http://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/" target="_blank" rel="noopener">Hack Like a Pro: How to Use Netcat, the Swiss Army Knife of Hacking Tools « Null Byte</a><br><a href="https://www.cyberciti.biz/faq/linux-port-scanning/" target="_blank" rel="noopener">Linux and Unix Port Scanning With netcat [nc] Command - nixCraft</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># hostA, listen for UDP packet at port 5060</span></span><br><span class="line">nc -u -l 5060</span><br><span class="line"><span class="comment"># hostB, connect to hostA's UDP 5060</span></span><br><span class="line"><span class="comment"># -z test connection only</span></span><br><span class="line">nc -vzu hostA 5060</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.upguard.com/articles/wireshark-vs.-netcat-for-network-protocol-analysis" target="_blank" rel="noopener">Wireshark vs. Netcat for Network Protocol Analysis</a></p>
+<h2 id="Network-Sniffing"><a href="#Network-Sniffing" class="headerlink" title="Network Sniffing"></a>Network Sniffing</h2><p><a href="http://www.tcpdump.org/" target="_blank" rel="noopener">TCPDUMP/LIBPCAP public repository</a><br><a href="https://github.com/caesar0301/awesome-pcaptools" target="_blank" rel="noopener">caesar0301/awesome-pcaptools: A collection of tools developed by other researchers in the Computer Science area to process network traces. All the right reserved for the original authors.</a></p>
+<p><a href="https://www.mankier.com/1/tcpdump" target="_blank" rel="noopener">tcpdump - man page - ManKier</a><br><a href="https://tcpdump101.com/" target="_blank" rel="noopener">tcpdump101.com - Build packet capture syntax online</a><br><a href="https://www.thegeekstuff.com/2010/08/tcpdump-command-examples" target="_blank" rel="noopener">Packet Analyzer: 15 TCPDUMP Command Examples</a><br><a href="https://itworldjd.wordpress.com/2014/02/07/tcpdump/" target="_blank" rel="noopener">Tcpdump 101 | Jacques DALBERA&#39;s IT world</a><br><a href="https://bencane.com/2014/10/13/quick-and-practical-reference-for-tcpdump/" target="_blank" rel="noopener">A Quick and Practical Reference for tcpdump | Benjamin Cane</a><br><a href="https://packetpushers.net/masterclass-tcpdump-expressions/" target="_blank" rel="noopener">Masterclass – Tcpdump – Expressions - Packet Pushers</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># dump traffic</span></span><br><span class="line">sudo tcpdump -vvv -s 0 -nni &lt;interface&gt; -w &lt;file&gt; host &lt;host&gt; and port &lt;port&gt; &amp;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># monitor ARP traffic</span></span><br><span class="line">sudo tcpdump -i enp3s0 -l -n arp</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/nicolaka/netshoot" target="_blank" rel="noopener">nicolaka/netshoot: a Docker network troubleshooting swiss-army container</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">docker run --net host nicolaka/netshoot ngrep -tpd enp3s0 HTTP</span><br></pre></td></tr></table></figure>
+
+<h3 id="Wireshark"><a href="#Wireshark" class="headerlink" title="Wireshark"></a>Wireshark</h3><p>Wireshark can open many dump formats (e.g. <code>.cap</code>/<code>.pcap</code> from <code>tcpdump</code>)</p>
+<p><a href="https://www.wireshark.org/" target="_blank" rel="noopener">Wireshark · Go Deep.</a><br><a href="http://www.pcworld.com/article/186871/track_down_network_problems_with_wireshark.html" target="_blank" rel="noopener">Track Down Network Problems With Wireshark | PCWorld</a></p>
+<h2 id="ss"><a href="#ss" class="headerlink" title="ss"></a><code>ss</code></h2><p><a href="https://www.linux.com/learn/intro-to-linux/2017/4/probe-your-linux-sockets-ss" target="_blank" rel="noopener">Probe Your Linux Sockets With ss | Linux.com | The source for Linux information</a></p>
+<h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a><code>traceroute</code></h2><p><a href="https://www.mankier.com/8/traceroute" target="_blank" rel="noopener">traceroute - man page - ManKier</a></p>
+<p><a href="http://www.slashroot.in/how-does-traceroute-work-and-examples-using-traceroute-command" target="_blank" rel="noopener">How Does Traceroute Work and Example&#39;s of using traceroute command</a></p>
+<h2 id="network-monitor"><a href="#network-monitor" class="headerlink" title="network monitor"></a>network monitor</h2><p><a href="https://www.binarytides.com/linux-commands-monitor-network/" target="_blank" rel="noopener">18 commands to monitor network bandwidth on Linux server – BinaryTides</a></p>
+<p><a href="https://www.tecmint.com/bmon-network-bandwidth-monitoring-debugging-linux/" target="_blank" rel="noopener">bmon - A Powerful Network Bandwidth Monitoring and Debugging Tool for Linux</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nload</span><br><span class="line">iftop</span><br></pre></td></tr></table></figure>
+
+<h2 id="scapy"><a href="#scapy" class="headerlink" title="scapy"></a><code>scapy</code></h2><p><a href="https://scapy.net/" target="_blank" rel="noopener">Scapy</a></p>
+<p><a href="http://www.linuxpromagazine.com/Online/Features/Packet-Analysis-with-Scapy" target="_blank" rel="noopener">Data Harvest » Linux Magazine</a></p>
+<h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a><code>netstat</code></h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list listening TCP ports</span></span><br><span class="line">netstat -antlp</span><br><span class="line">lsof -i udp:24000</span><br><span class="line">lsof -i tcp:80</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/systemadmin/systemadmin.plugin.zsh" target="_blank" rel="noopener">oh-my-zsh/systemadmin.plugin.zsh at master · robbyrussell/oh-my-zsh</a></p>
+<h2 id="ethr"><a href="#ethr" class="headerlink" title="ethr"></a>ethr</h2><p><a href="https://github.com/Microsoft/Ethr" target="_blank" rel="noopener">Microsoft/ethr: Ethr is a Network Performance Measurement Tool for TCP, UDP &amp; HTTP.</a></p>
 	  
 	</div>
 
@@ -180,7 +255,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>40</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -203,7 +278,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#nmap"><span class="toc-article-text">nmap</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netcat"><span class="toc-article-text">netcat</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ss"><span class="toc-article-text">ss</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#tcpdump"><span class="toc-article-text">tcpdump</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#traceroute"><span class="toc-article-text">traceroute</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#check-connection"><span class="toc-article-text">check connection</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Wireshark"><span class="toc-article-text">Wireshark</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netstat"><span class="toc-article-text">netstat</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#iproute2-ip"><span class="toc-article-text">iproute2/ip</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#check-connection"><span class="toc-article-text">check connection</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#nmap"><span class="toc-article-text">nmap</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netcat"><span class="toc-article-text">netcat</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Network-Sniffing"><span class="toc-article-text">Network Sniffing</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Wireshark"><span class="toc-article-text">Wireshark</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ss"><span class="toc-article-text">ss</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#traceroute"><span class="toc-article-text">traceroute</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#network-monitor"><span class="toc-article-text">network monitor</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#scapy"><span class="toc-article-text">scapy</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netstat"><span class="toc-article-text">netstat</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ethr"><span class="toc-article-text">ethr</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -220,7 +295,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

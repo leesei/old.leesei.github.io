@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Cron | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Cron"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Cron">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,14 +106,20 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="cron"><a href="#cron" class="headerlink" title="cron"></a>cron</h2><p><a href="http://www.marksanborn.net/linux/learning-cron-by-example/" target="_blank" rel="external">Learning Cron by Example</a><br><a href="http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/" target="_blank" rel="external">Linux Crontab: 15 Awesome Cron Job Examples</a><br><a href="http://www.corntab.com/pages/crontab-gui" target="_blank" rel="external">A visual crontab editor - create your custom crontab syntax to use with the cron scheduling application on your Linux server</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># view our crontab entries without editing them</span></div><div class="line">crontab <span class="_">-l</span></div><div class="line"></div><div class="line"><span class="comment"># view our crontab entries without editing them</span></div><div class="line">crontab <span class="_">-e</span></div><div class="line"></div><div class="line"><span class="comment"># specify user</span></div><div class="line">crontabl -u user</div><div class="line"></div><div class="line"><span class="comment"># remove your crontab file and start fresh</span></div><div class="line">crontab -r   <span class="comment">## !! dangerous !!</span></div><div class="line">crontab -ri</div><div class="line"></div><div class="line"><span class="comment"># load from file</span></div><div class="line"><span class="comment"># !! current crontab entries will be overwritten !!</span></div><div class="line">crontab file</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># min hour dom month dow command</div><div class="line">30 8-18/2 * * 1-5 ./path/to/backup_wiki.sh</div><div class="line"># Minutes [0-59]</div><div class="line"># Hour [0-23]</div><div class="line"># Day of Month [1-31]</div><div class="line"># Month [1-12] - January is 1, obviously</div><div class="line"># Day of Week [0-7] - Sunday is 0 or 7</div><div class="line"># Command to run (can have spaces)</div></pre></td></tr></table></figure>
+	    <h2 id="cron"><a href="#cron" class="headerlink" title="cron"></a>cron</h2><p><a href="http://www.marksanborn.net/linux/learning-cron-by-example/" target="_blank" rel="noopener">Learning Cron by Example</a><br><a href="http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/" target="_blank" rel="noopener">Linux Crontab: 15 Awesome Cron Job Examples</a><br><a href="https://www.pantz.org/software/cron/croninfo.html" target="_blank" rel="noopener">Cron and Crontab usage and examples</a><br><a href="http://www.nncron.ru/help/EN/working/cron-format.htm" target="_blank" rel="noopener">Cron format</a><br><a href="http://www.adminschoice.com/crontab-quick-reference" target="_blank" rel="noopener">Crontab – Quick Reference</a></p>
+<h3 id="Editor"><a href="#Editor" class="headerlink" title="Editor"></a>Editor</h3><p><a href="https://crontab.guru/#0_2_2-31_*_THU" target="_blank" rel="noopener">crontab.guru - the cron schedule expression editor</a><br><a href="http://www.corntab.com/pages/crontab-gui" target="_blank" rel="noopener">A visual crontab editor - create your custom crontab syntax to use with the cron scheduling application on your Linux server</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># view our crontab entries without editing them</span></span><br><span class="line">crontab -l</span><br><span class="line"></span><br><span class="line"><span class="comment"># view our crontab entries without editing them</span></span><br><span class="line">crontab -e</span><br><span class="line"></span><br><span class="line"><span class="comment"># specify user</span></span><br><span class="line">crontab -u user</span><br><span class="line"></span><br><span class="line"><span class="comment"># remove your crontab file and start fresh</span></span><br><span class="line">crontab -r   <span class="comment">## !! dangerous !!</span></span><br><span class="line">crontab -ri</span><br><span class="line"></span><br><span class="line"><span class="comment"># load from file</span></span><br><span class="line"><span class="comment"># !! current crontab entries will be overwritten !!</span></span><br><span class="line">crontab file</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># min hour dom month dow command</span><br><span class="line">30 8-18/2 * * 1-5 ./path/to/backup_wiki.sh</span><br><span class="line"># Minutes [0-59]</span><br><span class="line"># Hour [0-23]</span><br><span class="line"># Day of Month [1-31]</span><br><span class="line"># Month [1-12] - January is 1, obviously</span><br><span class="line"># Day of Week [0-7] - Sunday is 0 or 7</span><br><span class="line"># Command to run (can have spaces)</span><br></pre></td></tr></table></figure>
+
 <p>When you specify */5 in minute field means every 5 minutes.<br>When you specify 0-10/2 in minute field mean every 2 minutes in the first 10 minute.<br>Thus the above convention can be used for all the other 4 fields.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># use bash</div><div class="line">SHELL=/bin/bash</div><div class="line"></div><div class="line"># m h  dom mon dow   command</div><div class="line"></div><div class="line"># show env of cron shell</div><div class="line">#* * * * * env &gt; /tmp/cron-env.output</div><div class="line"></div><div class="line"># backup crontab every Monday</div><div class="line">0 13 * * 1 crontab -l &gt; $&#123;HOME&#125;/crobtab.bak</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># use bash</span><br><span class="line">SHELL=/bin/bash</span><br><span class="line"></span><br><span class="line"># m h  dom mon dow   command</span><br><span class="line"></span><br><span class="line"># show env of cron shell</span><br><span class="line">#* * * * * env &gt; /tmp/cron-env.output</span><br><span class="line"></span><br><span class="line"># backup crontab every Monday</span><br><span class="line">0 13 * * 1 crontab -l &gt; $&#123;HOME&#125;/crobtab.bak</span><br></pre></td></tr></table></figure>
+
 <p>Logs for <code>cron</code> can usually be found in <code>/var/log/cron.log</code> or <code>/var/log/messages</code></p>
-<h2 id="anacron"><a href="#anacron" class="headerlink" title="anacron"></a>anacron</h2><p><a href="http://www.thegeekstuff.com/2011/05/anacron-examples/" target="_blank" rel="external">Cron Vs Anacron: How to Setup Anacron on Linux (With an Example)</a></p>
+<h2 id="anacron"><a href="#anacron" class="headerlink" title="anacron"></a>anacron</h2><p><a href="http://www.thegeekstuff.com/2011/05/anacron-examples/" target="_blank" rel="noopener">Cron Vs Anacron: How to Setup Anacron on Linux (With an Example)</a></p>
 <p><code>anacron</code> is for PCs that are not running 24*7.</p>
+<h2 id="at"><a href="#at" class="headerlink" title="at"></a>at</h2><p>For once-shot non-repeating task</p>
+<p><a href="https://www.linuxjournal.com/content/schedule-one-time-commands-unix-tool" target="_blank" rel="noopener">Schedule One-Time Commands with the UNIX at Tool | Linux Journal</a></p>
 	  
 	</div>
 
@@ -171,7 +177,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>40</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -184,7 +190,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/cron/">cron<span>1</span></a></li> <li><a href="/tags/anacron/">anacron<span>1</span></a></li>
+  <li><a href="/tags/shell-tool/">shell-tool<span>23</span></a></li> <li><a href="/tags/cron/">cron<span>1</span></a></li> <li><a href="/tags/anacron/">anacron<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -194,7 +200,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#cron"><span class="toc-article-text">cron</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#anacron"><span class="toc-article-text">anacron</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#cron"><span class="toc-article-text">cron</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Editor"><span class="toc-article-text">Editor</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#anacron"><span class="toc-article-text">anacron</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#at"><span class="toc-article-text">at</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -211,7 +217,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

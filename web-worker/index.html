@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Web Worker | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Web Worker">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Web Worker</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="Service-Workers"><a href="#Service-Workers" class="headerlink" title="Service Workers"></a>Service Workers</h2><p>Client side network proxy, used to implement caching/offline, background sync, push notifications capabilities. Cannot interact with DOM.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="noopener">Service Worker API - Web APIs | MDN</a><br><a href="https://jakearchibald.github.io/isserviceworkerready/" target="_blank" rel="noopener">Is service worker ready?</a><br><a href="https://caniuse.com/#feat=serviceworkers" target="_blank" rel="noopener">Can I use... Support tables for HTML5, CSS3, etc</a></p>
+<p><a href="https://developers.google.com/web/fundamentals/primers/service-workers/" target="_blank" rel="noopener">Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers</a><br><a href="https://jakearchibald.com/2014/using-serviceworker-today/" target="_blank" rel="noopener">Using ServiceWorker in Chrome today - JakeArchibald.com</a></p>
+<p><a href="https://www.udacity.com/course/offline-web-applications--ud899" target="_blank" rel="noopener">Offline Web Applications | Udacity</a><br><a href="https://serviceworke.rs/" target="_blank" rel="noopener">ServiceWorker Cookbook</a><br><a href="https://jakearchibald.com/2014/offline-cookbook/" target="_blank" rel="noopener">The offline cookbook - JakeArchibald.com</a></p>
+<p><a href="https://github.com/googlearchive/Propel" target="_blank" rel="noopener">googlearchive/Propel: A library to support developers implementing Web Push notifications</a><br><a href="https://github.com/GoogleChromeLabs/sw-toolbox" target="_blank" rel="noopener">GoogleChromeLabs/sw-toolbox: A collection of service worker tools for offlining runtime requests</a><br><a href="https://github.com/blittle/service-composer" target="_blank" rel="noopener">blittle/service-composer: A utility for composing Service Worker caching</a><br><a href="https://github.com/blittle/service-workers" target="_blank" rel="noopener">blittle/service-workers: Service Workers Presentation</a><br><a href="https://github.com/GoogleChromeLabs/sw-precache" target="_blank" rel="noopener">GoogleChromeLabs/sw-precache: A node module to generate service worker code that will precache specific resources so they work offline.</a><br><a href="https://developers.google.com/web/tools/workbox/" target="_blank" rel="noopener">Workbox  |  Google Developers</a></p>
+<p><a href="https://www.youtube.com/watch?v=4uQMl7mFB6g" target="_blank" rel="noopener">The ServiceWorker: The network layer is yours to own - YouTube</a><br><a href="https://www.youtube.com/watch?v=gfHXekzD7p0" target="_blank" rel="noopener">Service Worker Toolbox, Totally Tooling Tips (S3 Mini Tip #2) - YouTube</a></p>
+<h2 id="Web-Workers"><a href="#Web-Workers" class="headerlink" title="Web Workers"></a>Web Workers</h2><p>Client side &quot;thread&quot; to offload UI thread. Cannot interact with DOM.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API" target="_blank" rel="noopener">Web Workers API - Web APIs | MDN</a><br><a href="https://caniuse.com/#feat=webworkers" target="_blank" rel="noopener">Can I use... Support tables for HTML5, CSS3, etc</a></p>
+<p><a href="https://www.html5rocks.com/en/tutorials/workers/basics/" target="_blank" rel="noopener">The Basics of Web Workers - HTML5 Rocks</a><br><a href="https://hacks.mozilla.org/2016/05/a-taste-of-javascripts-new-parallel-primitives" target="_blank" rel="noopener">A Taste of JavaScript’s New Parallel Primitives ★ Mozilla Hacks – the Web developer blog</a><br><a href="https://johnresig.com/blog/web-workers/" target="_blank" rel="noopener">John Resig - Computing with JavaScript Web Workers</a></p>
+<p><a href="https://github.com/developit/workerize-loader" target="_blank" rel="noopener">developit/workerize-loader: 🏗️ Automatically move a module into a Web Worker (Webpack loader)</a><br><a href="https://github.com/gorillatron/async-task" target="_blank" rel="noopener">gorillatron/async-task: Execute tasks asynchronous tasks on web Worker without seperate files.</a><br><a href="https://github.com/softvar/super-workers" target="_blank" rel="noopener">softvar/super-workers: Distribute load on front-end via parallelism</a><br><a href="https://github.com/blittle/bridged-worker" target="_blank" rel="noopener">blittle/bridged-worker: BridgedWorker is a function that makes communication between worker and main thread simple. It also means you can keep all related code in the same file, which is convenient.</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/telephone/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/web-push/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2019-03-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-worker/">web-worker<span>1</span></a></li> <li><a href="/tags/service-worker/">service-worker<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Service-Workers"><span class="toc-article-text">Service Workers</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Web-Workers"><span class="toc-article-text">Web Workers</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

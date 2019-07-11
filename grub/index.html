@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>GRUB | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="GRUB"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="GRUB">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -108,19 +108,30 @@
 	<div class="mypage">		
 	    <p>Grub is both boot loader and boot menu.<br>It loads <code>/boot/grub/grub.cfg</code> and present the menu.</p>
 <a id="more"></a>
-<p><a href="https://www.wikiwand.com/en/GNU_GRUB" target="_blank" rel="external">GNU GRUB - Wikiwand</a><br><a href="https://wiki.archlinux.org/index.php/GRUB" target="_blank" rel="external">GRUB - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks" target="_blank" rel="external">GRUB/Tips and tricks - ArchWiki</a><br><a href="http://www.gnu.org/software/grub/manual/html_node/" target="_blank" rel="external">GNU GRUB Manual 2.00: Top</a></p>
-<p><a href="http://www.linux.org/threads/commands-in-the-grub-command-line.7536/" target="_blank" rel="external">Commands in the Grub Command-line | Linux.org</a><br><a href="http://www.linux.org/threads/understanding-the-various-grub-modules.7535/" target="_blank" rel="external">Understanding the Various Grub Modules | Linux.org</a></p>
-<p><a href="https://wiki.ubuntu.com/Kernel/KernelBootParameters" target="_blank" rel="external">Kernel/KernelBootParameters - Ubuntu Wiki</a></p>
-<p><a href="http://www.howtogeek.com/196655/how-to-configure-the-grub2-boot-loaders-settings/" target="_blank" rel="external">How to Configure the GRUB2 Boot Loader’s Settings</a></p>
-<h2 id="iso-boot"><a href="#iso-boot" class="headerlink" title="iso boot"></a>iso boot</h2><p><a href="https://help.ubuntu.com/community/Grub2/ISOBoot" target="_blank" rel="external">Grub2/ISOBoot - Community Help Wiki</a><br><a href="http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/" target="_blank" rel="external">How to Boot Linux ISO Images Directly From Your Hard Drive</a><br><a href="http://diddy.boot-land.net/grub4dos/files/menu.htm" target="_blank" rel="external">Grub4dos Guide - Configuration File Entries</a></p>
-<h2 id="Restore-GRUB-after-Windows-install"><a href="#Restore-GRUB-after-Windows-install" class="headerlink" title="Restore GRUB after Windows install"></a>Restore GRUB after Windows install</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># check Linux partition</span></div><div class="line">sudo fdisk <span class="_">-l</span></div><div class="line"><span class="comment"># mount Linux root (say sda5)</span></div><div class="line">sudo mount /dev/sda5 /mnt</div><div class="line"><span class="comment"># install grub</span></div><div class="line">sudo grub-install /dev/sda --root-directory=/mnt</div><div class="line">sudo reboot</div><div class="line"></div><div class="line"><span class="comment"># this will also add Window entry to menu (with os-prober)</span></div><div class="line">sudo grub-mkconfig</div></pre></td></tr></table></figure>
-<p><a href="https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader" target="_blank" rel="external">Restore the GRUB Bootloader - Manjaro Linux</a></p>
-<h2 id="Restore-Windows-after-GRUB-install"><a href="#Restore-Windows-after-GRUB-install" class="headerlink" title="Restore Windows after GRUB install"></a>Restore Windows after GRUB install</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># this will wipe GRUB out</span></div><div class="line">bootrec /fixmbr</div><div class="line"><span class="comment"># this won't</span></div><div class="line">bootrec.exe /fixboot</div><div class="line">bootrec.exe /RebuildB<span class="built_in">cd</span></div></pre></td></tr></table></figure>
+
+<p><a href="https://www.wikiwand.com/en/GNU_GRUB" target="_blank" rel="noopener">GNU GRUB - Wikiwand</a><br><a href="https://wiki.archlinux.org/index.php/GRUB" target="_blank" rel="noopener">GRUB - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks" target="_blank" rel="noopener">GRUB/Tips and tricks - ArchWiki</a><br><a href="http://www.gnu.org/software/grub/manual/html_node/" target="_blank" rel="noopener">GNU GRUB Manual</a></p>
+<p><a href="http://www.linux.org/threads/commands-in-the-grub-command-line.7536/" target="_blank" rel="noopener">Commands in the Grub Command-line | Linux.org</a><br><a href="http://www.linux.org/threads/understanding-the-various-grub-modules.7535/" target="_blank" rel="noopener">Understanding the Various Grub Modules | Linux.org</a></p>
+<p><a href="http://www.howtogeek.com/196655/how-to-configure-the-grub2-boot-loaders-settings/" target="_blank" rel="noopener">How to Configure the GRUB2 Boot Loader’s Settings</a></p>
+<h2 id="iso-boot"><a href="#iso-boot" class="headerlink" title="iso boot"></a>iso boot</h2><p><a href="https://help.ubuntu.com/community/Grub2/ISOBoot" target="_blank" rel="noopener">Grub2/ISOBoot - Community Help Wiki</a><br><a href="http://www.howtogeek.com/196933/how-to-boot-linux-iso-images-directly-from-your-hard-drive/" target="_blank" rel="noopener">How to Boot Linux ISO Images Directly From Your Hard Drive</a><br><a href="http://diddy.boot-land.net/grub4dos/files/menu.htm" target="_blank" rel="noopener">Grub4dos Guide - Configuration File Entries</a></p>
+<h2 id="Kernel-params"><a href="#Kernel-params" class="headerlink" title="Kernel params"></a>Kernel params</h2><p><a href="https://wiki.ubuntu.com/Kernel/KernelBootParameters" target="_blank" rel="noopener">Kernel/KernelBootParameters - Ubuntu Wiki</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># this is equivalent to setting `psmouse.proto=bare` upon boot</span></span><br><span class="line">sudo modprobe -r psmouse &amp;&amp; sudo modprobe -r psmouse proto=bare</span><br></pre></td></tr></table></figure>
+
+<h2 id="Restore-GRUB-after-Windows-install"><a href="#Restore-GRUB-after-Windows-install" class="headerlink" title="Restore GRUB after Windows install"></a>Restore GRUB after Windows install</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># check Linux partition</span></span><br><span class="line">sudo fdisk -l</span><br><span class="line"><span class="comment"># mount Linux root (say sda5)</span></span><br><span class="line">sudo mount /dev/sda5 /mnt</span><br><span class="line"><span class="comment"># install grub</span></span><br><span class="line">sudo grub-install /dev/sda --root-directory=/mnt</span><br><span class="line">sudo reboot</span><br><span class="line"></span><br><span class="line"><span class="comment"># this will also add Window entry to menu (with os-prober)</span></span><br><span class="line">sudo grub-mkconfig</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader" target="_blank" rel="noopener">Restore the GRUB Bootloader - Manjaro Linux</a></p>
+<h2 id="Restore-Windows-after-GRUB-install"><a href="#Restore-Windows-after-GRUB-install" class="headerlink" title="Restore Windows after GRUB install"></a>Restore Windows after GRUB install</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># this will wipe GRUB out</span></span><br><span class="line">bootrec /fixmbr</span><br><span class="line"><span class="comment"># this won't</span></span><br><span class="line">bootrec.exe /fixboot</span><br><span class="line">bootrec.exe /RebuildBcd</span><br></pre></td></tr></table></figure>
+
 <h2 id="Edit-GRUB-entries"><a href="#Edit-GRUB-entries" class="headerlink" title="Edit GRUB entries"></a>Edit GRUB entries</h2><p><code>grub-mkconfig</code> uses the template <code>/etc/default/grub</code> and rules in <code>/etc/grub.d</code> to generate <code>grub.cfg</code>. <code>update-grub</code> in Debian system is just a wrapper to <code>grub-mkconfig</code>.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo grub-mkconfig -o /boot/grub/grub.cfg</div></pre></td></tr></table></figure>
-<p><a href="https://www.howtogeek.com/howto/43471/how-to-configure-the-linux-grub2-boot-menu-the-easy-way/" target="_blank" rel="external">How to Configure the Linux Grub2 Boot Menu the Easy Way</a><br><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo add-apt-repository ppa:danielrichter2007/grub-customizer</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install grub-customizer</div></pre></td></tr></table></figure></p>
-<h3 id="Save-default"><a href="#Save-default" class="headerlink" title="Save default"></a>Save default</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">GRUB_DEFAULT=saved</div><div class="line">GRUB_SAVEDEFAULT=true</div></pre></td></tr></table></figure>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a href="https://www.kernel.org/doc/Documentation/kernel-parameters.txt" target="_blank" rel="external">kernel-parameters.txt</a><br><a href="http://jdev.tw/blog/3776/grub-menu-rescue" target="_blank" rel="external">http://jdev.tw/blog/3776/grub-menu-rescue</a><br><a href="https://sites.google.com/site/easylinuxtipsproject/grub" target="_blank" rel="external">https://sites.google.com/site/easylinuxtipsproject/grub</a><br><a href="http://linuxnorth.wordpress.com/category/grub/" target="_blank" rel="external">http://linuxnorth.wordpress.com/category/grub/</a><br><a href="https://linuxnorth.wordpress.com/category/grub/" target="_blank" rel="external">GRUB | LinuxNorth</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo grub-mkconfig -o /boot/grub/grub.cfg</span><br><span class="line"></span><br><span class="line"><span class="comment"># diff first</span></span><br><span class="line">sudo grub-mkconfig -o grub.cfg</span><br><span class="line">sudo diff grub.cfg /boot/grub/grub.cfg</span><br><span class="line">sudo mv grub.cfg /boot/grub/grub.cfg</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.howtogeek.com/howto/43471/how-to-configure-the-linux-grub2-boot-menu-the-easy-way/" target="_blank" rel="noopener">How to Configure the Linux Grub2 Boot Menu the Easy Way</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:danielrichter2007/grub-customizer</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install grub-customizer</span><br></pre></td></tr></table></figure>
+
+<h3 id="Save-default"><a href="#Save-default" class="headerlink" title="Save default"></a>Save default</h3><p><a href="https://help.ubuntu.com/community/Grub2/Submenus" target="_blank" rel="noopener">Grub2/Submenus - Community Help Wiki</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">GRUB_DEFAULT=saved</span><br><span class="line">GRUB_SAVEDEFAULT=true</span><br></pre></td></tr></table></figure>
+
+<p><code>grub-set-default</code></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a href="https://www.kernel.org/doc/Documentation/kernel-parameters.txt" target="_blank" rel="noopener">kernel-parameters.txt</a><br><a href="http://jdev.tw/blog/3776/grub-menu-rescue" target="_blank" rel="noopener">http://jdev.tw/blog/3776/grub-menu-rescue</a><br><a href="https://sites.google.com/site/easylinuxtipsproject/grub" target="_blank" rel="noopener">https://sites.google.com/site/easylinuxtipsproject/grub</a><br><a href="http://linuxnorth.wordpress.com/category/grub/" target="_blank" rel="noopener">http://linuxnorth.wordpress.com/category/grub/</a><br><a href="https://linuxnorth.wordpress.com/category/grub/" target="_blank" rel="noopener">GRUB | LinuxNorth</a></p>
 	  
 	</div>
 
@@ -201,7 +212,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#iso-boot"><span class="toc-article-text">iso boot</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Restore-GRUB-after-Windows-install"><span class="toc-article-text">Restore GRUB after Windows install</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Restore-Windows-after-GRUB-install"><span class="toc-article-text">Restore Windows after GRUB install</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Edit-GRUB-entries"><span class="toc-article-text">Edit GRUB entries</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Save-default"><span class="toc-article-text">Save default</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#References"><span class="toc-article-text">References</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#iso-boot"><span class="toc-article-text">iso boot</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Kernel-params"><span class="toc-article-text">Kernel params</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Restore-GRUB-after-Windows-install"><span class="toc-article-text">Restore GRUB after Windows install</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Restore-Windows-after-GRUB-install"><span class="toc-article-text">Restore Windows after GRUB install</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Edit-GRUB-entries"><span class="toc-article-text">Edit GRUB entries</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Save-default"><span class="toc-article-text">Save default</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#References"><span class="toc-article-text">References</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -218,7 +229,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

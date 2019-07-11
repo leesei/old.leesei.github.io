@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Message Queue | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Message Queue">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Message Queue</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://www.wikiwand.com/en/Message_broker" target="_blank" rel="noopener">Message broker - Wikiwand</a><br><a href="https://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html" target="_blank" rel="noopener">Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP - VMware vFabric Blog - VMware Blogs</a><br><a href="https://deepstreamhub.com/blog/an-overview-of-realtime-protocols/" target="_blank" rel="noopener">An overview of realtime protocols</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&mid=2247487688&idx=1&sn=d1555109750b309a2d96ce3332e8a97b&chksm=96c9a6a8a1be2fbe8e1df2f2bb60a2bfea0e62aaec0633df928432ceed6438a724dd217624cd#rd" target="_blank" rel="noopener">消息中间件选型时，要关注哪些问题？</a><br><a href="https://www.infoq.cn/article/s*RvY8D1jrNIsfOJylPE" target="_blank" rel="noopener">漫谈消息队列：以 Kafka 和 RocketMQ 为例</a><br><a href="http://250bpm.com/blog:18" target="_blank" rel="noopener">Messaging &amp; Multiplexing - 250bpm</a><br><a href="https://hackernoon.com/messaging-system-hands-on-7dda1afded37" target="_blank" rel="noopener">Messaging System — Hands On! – Hacker Noon</a></p>
+<p><a href="http://queues.io/" target="_blank" rel="noopener">Queues</a> Job queues, message queues and other queues. Almost all of them in one place.<br><a href="https://www.openmymind.net/Grow-Up-Use-Queues/" target="_blank" rel="noopener">Grow Up. Use Queues.</a></p>
+<h2 id="Event-driven-Architecture"><a href="#Event-driven-Architecture" class="headerlink" title="Event-driven Architecture"></a>Event-driven Architecture</h2><p><a href="http://250bpm.com/blog:25" target="_blank" rel="noopener">Event-driven architecture, state machines et al. - 250bpm</a><br><a href="http://www.barrgroup.com/Embedded-Systems/How-To/State-Machines-Event-Driven-Systems" target="_blank" rel="noopener">State Machines for Event-Driven Systems | Embedded Systems Experts</a><br><a href="https://dzone.com/articles/from-requestresponse-to-events" target="_blank" rel="noopener">From Request/Response to Events - DZone Microservices</a><br><a href="https://www.infoworld.com/article/3391592/how-to-tame-event-driven-microservices.html" target="_blank" rel="noopener">How to tame event-driven microservices | InfoWorld</a></p>
+<h2 id="AMQP"><a href="#AMQP" class="headerlink" title="AMQP"></a>AMQP</h2><p><a href="http://www.amqp.org/about/what" target="_blank" rel="noopener">AMQP is the Internet Protocol for Business Messaging | AMQP</a><br><a href="http://www.wikiwand.com/en/Advanced_Message_Queuing_Protocol" target="_blank" rel="noopener">Advanced Message Queuing Protocol - Wikiwand</a><br><a href="https://www.compose.com/articles/messaging-amqp-and-rabbitmq-a-speed-guide/" target="_blank" rel="noopener">Messaging, AMQP and RabbitMQ - A Speed Guide - Compose Articles</a></p>
+<p><a href="http://www.amqp.org/resources/download" target="_blank" rel="noopener">AMQP Protocol Downloads | AMQP</a><br><a href="https://www.rabbitmq.com/protocol.html" target="_blank" rel="noopener">RabbitMQ - Protocol Documentation</a></p>
+<p><a href="https://m.alphasights.com/speaking-rabbit-a-look-into-amqps-frame-structure-fbb81516b794" target="_blank" rel="noopener">Speaking Rabbit: A look into AMQP’s frame structure</a><br><a href="https://hub.packtpub.com/working-amqp/" target="_blank" rel="noopener">Working with AMQP | Packt Hub</a></p>
+<h3 id="vs-JMS"><a href="#vs-JMS" class="headerlink" title="vs JMS"></a>vs JMS</h3><p><a href="https://spring.io/understanding/AMQP" target="_blank" rel="noopener">Understanding AMQP</a><br><a href="https://stackoverflow.com/questions/15150133/jms-and-amqp-rabbitmq" target="_blank" rel="noopener">java - JMS and AMQP - RabbitMQ - Stack Overflow</a><br><a href="https://docs.oracle.com/cd/E13222_01/wls/docs103/webserv_adv_rpc/jmstransport.html#wp244314" target="_blank" rel="noopener">Using JMS Transport as the Connection Protocol</a><br><a href="http://www.wmrichards.com/amqp.pdf" target="_blank" rel="noopener">Understanding the Differences between AMQP &amp; JMS - Mark Richards</a> PDF</p>
+<h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a>RabbitMQ</h3><p><a href="http://www.rabbitmq.com/" target="_blank" rel="noopener">RabbitMQ - Messaging that just works</a><br><a href="https://www.wikiwand.com/en/RabbitMQ" target="_blank" rel="noopener">RabbitMQ - Wikiwand</a><br>Gateways for AMQP, HTTP, STOMP, and MQTT protocols</p>
+<p><a href="https://github.com/rabbitmq/rabbitmq-server" target="_blank" rel="noopener">rabbitmq/rabbitmq-server: Open source multi-protocol messaging broker</a><br><a href="https://github.com/rabbitmq/internals" target="_blank" rel="noopener">rabbitmq/internals: High level architecture overview</a></p>
+<p><a href="http://www.rabbitmq.com/getstarted.html" target="_blank" rel="noopener">RabbitMQ - Getting started with RabbitMQ</a></p>
+<p><a href="https://dzone.com/articles/rabbitmq-in-microservices" target="_blank" rel="noopener">RabbitMQ in Microservices - DZone Microservices</a></p>
+<p><a href="https://www.compose.com/articles/configuring-rabbitmq-exchanges-queues-and-bindings-part-1/" target="_blank" rel="noopener">Configuring RabbitMQ Exchanges, Queues and Bindings: Part 1 - Compose Articles</a><br><a href="https://www.compose.com/articles/configuring-rabbitmq-exchanges-queues-and-bindings-part-2/" target="_blank" rel="noopener">Configuring RabbitMQ Exchanges, Queues and Bindings: Part 2 - Compose Articles</a></p>
+<p><a href="https://www.cloudamqp.com/blog/2015-05-18-part1-rabbitmq-for-beginners-what-is-rabbitmq.html" target="_blank" rel="noopener">Blog | Part 1: RabbitMQ for beginners - What is RabbitMQ? - CloudAMQP, RabbitMQ as a Service</a><br><a href="https://www.cloudamqp.com/blog/2015-05-19-part2-2-rabbitmq-for-beginners_example-and-sample-code-node-js.html" target="_blank" rel="noopener">Blog | Part 2.2: RabbitMQ for beginners - Getting started with Node.js - CloudAMQP, RabbitMQ as a Service</a><br><a href="https://www.cloudamqp.com/blog/2015-05-27-part3-rabbitmq-for-beginners_the-management-interface.html" target="_blank" rel="noopener">Blog | Part 3: RabbitMQ for beginners - The management interface - CloudAMQP, RabbitMQ as a Service</a><br><a href="https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html" target="_blank" rel="noopener">Blog | Part 4: RabbitMQ for beginners - Exchanges, routing keys and bindings - CloudAMQP, RabbitMQ as a Service</a><br><a href="https://www.cloudamqp.com/blog/2015-07-03-rabbitmq-for-developers-by-derick-bailey.html" target="_blank" rel="noopener">Blog | RabbitMQ for developers by Derick Bailey - CloudAMQP, RabbitMQ as a Service</a></p>
+<p><a href="https://changelog.com/podcast/258" target="_blank" rel="noopener">The Changelog #258: 10 Years of RabbitMQ with Karl Nilsson &amp; Michael Klishin | Changelog</a></p>
+<h3 id="ActiveMQ"><a href="#ActiveMQ" class="headerlink" title="ActiveMQ"></a>ActiveMQ</h3><p><a href="http://activemq.apache.org/" target="_blank" rel="noopener">Apache ActiveMQ ™</a><br><a href="https://www.wikiwand.com/en/Apache_ActiveMQ" target="_blank" rel="noopener">Apache ActiveMQ - Wikiwand</a></p>
+<p>Supports AMQP, REST, STOMP, MQTT, OpenWire, XMPP and WebSockets.</p>
+<p><a href="https://learnk8s.io/blog/scaling-spring-boot-microservices/" target="_blank" rel="noopener">Scaling SpringBoot with Message Queues and Kubernetes ♦︎ Learnk8s</a></p>
+<h2 id="ZeroMQ"><a href="#ZeroMQ" class="headerlink" title="ZeroMQ"></a>ZeroMQ</h2><p><a href="http://zeromq.org/" target="_blank" rel="noopener">Distributed Messaging - zeromq</a><br><a href="https://github.com/zeromq" target="_blank" rel="noopener">The ZeroMQ project</a> Org</p>
+<p><a href="http://zeromq.org/intro:read-the-manual" target="_blank" rel="noopener">Learn the Basics - zeromq</a><br><a href="https://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/" target="_blank" rel="noopener">ZeroMQ: Modern &amp; Fast Networking Stack - igvita.com</a><br><a href="http://250bpm.com/blog:39" target="_blank" rel="noopener">Design of PUB/SUB subsystem in ØMQ - 250bpm</a><br><a href="https://hub.packtpub.com/getting-started-zeromq/" target="_blank" rel="noopener">Getting Started with ZeroMQ | Packt Hub</a></p>
+<h2 id="Nanomsg"><a href="#Nanomsg" class="headerlink" title="Nanomsg"></a>Nanomsg</h2><p>nanomsg aims to be more POSIX compliant and provides simplier API<br>It supports multiple transports and protocols.</p>
+<p><a href="http://nanomsg.org/" target="_blank" rel="noopener">About Nanomsg</a><br><a href="https://github.com/nanomsg/nanomsg" target="_blank" rel="noopener">nanomsg/nanomsg: nanomsg library</a><br><a href="https://nanomsg.org/documentation.html#bindings" target="_blank" rel="noopener">Bindings</a><br><a href="https://staysail.github.io/nng_presentation/nng_presentation.html" target="_blank" rel="noopener">Scalability Protocols</a></p>
+<p><a href="https://nanomsg.org/documentation-zeromq.html" target="_blank" rel="noopener">Differences between nanomsg and ZeroMQ</a> from the author of both libraries<br><a href="http://250bpm.com/blog:23" target="_blank" rel="noopener">Getting Rid of ZeroMQ-style Contexts - 250bpm</a><br><a href="http://250bpm.com/blog:24" target="_blank" rel="noopener">The Callback Hell - 250bpm</a><br><a href="http://250bpm.com/blog:26" target="_blank" rel="noopener">nanomsg: Towards Full-Blown Configuration Management - 250bpm</a><br><a href="http://250bpm.com/blog:19" target="_blank" rel="noopener">Optimising Subscriptions in nanomsg - 250bpm</a></p>
+<p><a href="https://nanomsg.github.io/nng/man/v0.2.0/nng.html" target="_blank" rel="noopener">nng(7)</a> next generation of nanomsg<br>ditched POSIX API, allows callback rather than forcing to poll file descriptor<br><a href="https://nanomsg.github.io/nng/" target="_blank" rel="noopener">NNG - nanomsg-NG</a><br><a href="https://leanpub.com/nngmanual" target="_blank" rel="noopener">NNG Reference Manual by Garrett D&#39;Amore [Leanpub PDF/iPad/Kindle]</a><br><a href="https://nanomsg.github.io/nng/RATIONALE.html" target="_blank" rel="noopener">Rational: Or why am I bothering to rewrite nanomsg?</a></p>
+<p><a href="https://twit.tv/shows/floss-weekly/episodes/469" target="_blank" rel="noopener">FLOSS Weekly 469 nanomsg</a></p>
+<h2 id="NATS"><a href="#NATS" class="headerlink" title="NATS"></a>NATS</h2><p><a href="https://nats.io/" target="_blank" rel="noopener">NATS - Open Source Messaging System | Secure, Native Cloud Application Development</a><br><a href="https://nats.io/documentation/" target="_blank" rel="noopener">NATS Documentation</a></p>
+<h2 id="COAP"><a href="#COAP" class="headerlink" title="COAP"></a>COAP</h2><p><a href="http://coap.technology/" target="_blank" rel="noopener">CoAP — Constrained Application Protocol | Overview</a><br><a href="https://www.wikiwand.com/en/Constrained_Application_Protocol" target="_blank" rel="noopener">Constrained Application Protocol - Wikiwand</a><br><a href="https://github.com/mcollina/node-coap/issues/10" target="_blank" rel="noopener">HTTP vs CoAP · Issue #10 · mcollina/node-coap</a></p>
+<p><a href="https://github.com/mcollina/node-coap" target="_blank" rel="noopener">mcollina/node-coap</a> binary http over udp</p>
+<h2 id="MQTT"><a href="#MQTT" class="headerlink" title="MQTT"></a>MQTT</h2><p><a href="http://mqtt.org/" target="_blank" rel="noopener">MQTT</a><br><a href="http://www.wikiwand.com/en/MQTT" target="_blank" rel="noopener">MQTT - Wikiwand</a><br><a href="https://medium.com/@lelylan/how-to-build-an-high-availability-mqtt-cluster-for-the-internet-of-things-8011a06bd000" target="_blank" rel="noopener">How to Build an High Availability MQTT Cluster for the Internet of Things</a><br><a href="https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.5.0/com.ibm.mm.tc.doc/tc00000_.htm" target="_blank" rel="noopener">IBM Knowledge Center - Introduction to MQTT</a><br><a href="https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/" target="_blank" rel="noopener">What is MQTT and How It Works | Random Nerd Tutorials</a></p>
+<p><a href="https://mosquitto.org/" target="_blank" rel="noopener">Eclipse Mosquitto</a><br><a href="https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/" target="_blank" rel="noopener">Install Mosquitto Broker Raspberry Pi | Random Nerd Tutorials</a><br><a href="https://github.com/mcollina/aedes" target="_blank" rel="noopener">mcollina/aedes: Barebone MQTT broker that can run on any stream server, the node way</a></p>
+<p><a href="http://www.mosca.io/" target="_blank" rel="noopener">Mosca by mcollina</a><br><a href="https://github.com/mcollina/mosca" target="_blank" rel="noopener">mcollina/mosca: MQTT broker as a module</a> MQTT broker with offline support<br><a href="https://github.com/mcollina/mosca/wiki/Mosca-basic-usage" target="_blank" rel="noopener">Mosca basic usage · mcollina/mosca Wiki</a></p>
+<p><a href="https://github.com/mcollina/mqtt_and_nodejs" target="_blank" rel="noopener">mcollina/mqtt_and_nodejs: A bespoke.js presentation about MQTT and Node.js</a><br><a href="https://github.com/mqttjs" target="_blank" rel="noopener">MQTT.js</a><br><a href="https://github.com/mqttjs/MQTT.js" target="_blank" rel="noopener">mqttjs/MQTT.js: The MQTT client for Node.js and the browser</a></p>
+<h2 id="STOMP"><a href="#STOMP" class="headerlink" title="STOMP"></a>STOMP</h2><p><a href="https://stomp.github.io/" target="_blank" rel="noopener">STOMP</a><br><a href="https://stomp.github.io/implementations.html" target="_blank" rel="noopener">Implementations</a></p>
+<h2 id="PubSub"><a href="#PubSub" class="headerlink" title="PubSub"></a>PubSub</h2><p><a href="http://faye.jcoglan.com/" target="_blank" rel="noopener">Faye: Simple pub-sub messaging for the web</a><br><a href="https://github.com/faye" target="_blank" rel="noopener">faye</a> Org</p>
+<p><a href="https://www.smashingmagazine.com/2018/06/pub-sub-service-in-house-node-js-redis/" target="_blank" rel="noopener">Building A Pub/Sub Service In-House Using Node.js And Redis — Smashing Magazine</a></p>
+<h2 id="Outbox-pattern"><a href="#Outbox-pattern" class="headerlink" title="Outbox pattern"></a>Outbox pattern</h2><p><a href="https://thoughts-on-java.org/outbox-pattern-hibernate/" target="_blank" rel="noopener">Microservices &amp; Data - Implementing the Outbox Pattern with Hibernate</a></p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p><a href="http://eclipse.org/ponte/" target="_blank" rel="noopener">Ponte - Bringing Things to REST developers</a> Ponte allows you to publish and receive the data using any protocol: HTTP, MQTT and CoAP.<br><a href="https://github.com/mcollina/ascoltatori" target="_blank" rel="noopener">mcollina/ascoltatori: The pub/sub library for node backed by Redis, MongoDB, AMQP (RabbitMQ), ZeroMQ, MQTT (Mosquitto) or just plain node!</a></p>
+<p><a href="https://github.com/tj/axon" target="_blank" rel="noopener">tj/axon: message-oriented socket library for node.js heavily inspired by zeromq</a><br><a href="https://github.com/tj/punt" target="_blank" rel="noopener">tj/punt: Elegant UDP messaging for nodejs</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/elastic-elasticsearch/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/database/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-08-03 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/compd/">compd<span>1</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/database/">database<span>5</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Event-driven-Architecture"><span class="toc-article-text">Event-driven Architecture</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#AMQP"><span class="toc-article-text">AMQP</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#vs-JMS"><span class="toc-article-text">vs JMS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#RabbitMQ"><span class="toc-article-text">RabbitMQ</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#ActiveMQ"><span class="toc-article-text">ActiveMQ</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ZeroMQ"><span class="toc-article-text">ZeroMQ</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Nanomsg"><span class="toc-article-text">Nanomsg</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#NATS"><span class="toc-article-text">NATS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#COAP"><span class="toc-article-text">COAP</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#MQTT"><span class="toc-article-text">MQTT</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#STOMP"><span class="toc-article-text">STOMP</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#PubSub"><span class="toc-article-text">PubSub</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Outbox-pattern"><span class="toc-article-text">Outbox pattern</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Others"><span class="toc-article-text">Others</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

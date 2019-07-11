@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Python snippets | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Python snippets"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Python snippets">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,9 +106,34 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="loop-files-in-folder"><a href="#loop-files-in-folder" class="headerlink" title="loop files in folder"></a>loop files in folder</h2><figure class="highlight py"><table><tr><td class="code"><pre><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">for</span> root, dirs, files <span class="keyword">in</span> os.walk(<span class="string">"/mydir"</span>):</div><div class="line">    <span class="keyword">for</span> file <span class="keyword">in</span> files:</div><div class="line">        <span class="keyword">if</span> file.endswith(<span class="string">".txt"</span>):</div><div class="line">             print(os.path.join(root, file))</div></pre></td></tr></table></figure>
-<h2 id="find-duplicates-in-list"><a href="#find-duplicates-in-list" class="headerlink" title="find duplicates in list"></a>find duplicates in list</h2><figure class="highlight py"><table><tr><td class="code"><pre><div class="line">l = [ <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>]</div><div class="line"></div><div class="line"><span class="keyword">if</span> len(set(l)) != len(l):</div><div class="line">    s = set()</div><div class="line">    print(</div><div class="line">        <span class="string">"Duplicates"</span>,</div><div class="line">        set(x <span class="keyword">for</span> x <span class="keyword">in</span> l <span class="keyword">if</span> x <span class="keyword">in</span> s <span class="keyword">or</span> s.add(x)))</div></pre></td></tr></table></figure>
-<h2 id="http-server"><a href="#http-server" class="headerlink" title="http server"></a>http server</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">python2 -m SimpleHTTPServer 8000</div><div class="line">python3 -m http.server 8000</div></pre></td></tr></table></figure>
+	    <blockquote>
+<p>TODO: add code from <code>~/wip/python-example/</code></p>
+</blockquote>
+<h2 id="loop-files-in-folder"><a href="#loop-files-in-folder" class="headerlink" title="loop files in folder"></a>loop files in folder</h2><p><a href="http://stackabuse.com/python-list-files-in-a-directory/" target="_blank" rel="noopener">Python: List Files in a Directory</a></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">for</span> root, dirs, files <span class="keyword">in</span> os.walk(<span class="string">"/mydir"</span>):</span><br><span class="line">    <span class="keyword">for</span> file <span class="keyword">in</span> files:</span><br><span class="line">        <span class="keyword">if</span> file.endswith(<span class="string">".txt"</span>):</span><br><span class="line">            print(os.path.join(root, file))</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pathlib</span><br><span class="line"></span><br><span class="line"><span class="comment"># define the path</span></span><br><span class="line">currentDirectory = pathlib.Path(<span class="string">'.'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># define the pattern</span></span><br><span class="line">currentPattern = <span class="string">"*.txt"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> currentFile <span class="keyword">in</span> currentDirectory.glob(currentPattern):</span><br><span class="line">    print(currentFile)</span><br></pre></td></tr></table></figure>
+
+<h2 id="CSV"><a href="#CSV" class="headerlink" title="CSV"></a>CSV</h2><p><a href="https://docs.python.org/3/library/csv.html" target="_blank" rel="noopener">14.1. csv — CSV File Reading and Writing — Python 3 documentation</a></p>
+<p><a href="https://realpython.com/python-csv/" target="_blank" rel="noopener">Reading and Writing CSV Files in Python – Real Python</a><br><a href="http://stackabuse.com/reading-and-writing-csv-files-in-python/" target="_blank" rel="noopener">Reading and Writing CSV Files in Python</a></p>
+<h2 id="RLE"><a href="#RLE" class="headerlink" title="RLE"></a>RLE</h2><p>Run length encode with <code>itertools.groupby()</code></p>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> itertools <span class="keyword">import</span> groupby </span><br><span class="line">[(c,len(list(cs))) <span class="keyword">for</span> c,cs <span class="keyword">in</span> groupby(string)]</span><br></pre></td></tr></table></figure>
+
+<h2 id="Natural-sort"><a href="#Natural-sort" class="headerlink" title="Natural sort"></a>Natural sort</h2><p><a href="https://blog.codinghorror.com/sorting-for-humans-natural-sort-order/" target="_blank" rel="noopener">Sorting for Humans : Natural Sort Order</a><br><a href="https://stackoverflow.com/questions/4836710/does-python-have-a-built-in-function-for-string-natural-sort" target="_blank" rel="noopener">sorting - Does Python have a built in function for string natural sort? - Stack Overflow</a></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">natural_sort</span><span class="params">(l)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">convert</span><span class="params">(text)</span>:</span> <span class="keyword">return</span> int(text) <span class="keyword">if</span> text.isdigit() <span class="keyword">else</span> text.lower()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">alphanum_key</span><span class="params">(key)</span>:</span> <span class="keyword">return</span> [convert(c)</span><br><span class="line">                                   <span class="keyword">for</span> c <span class="keyword">in</span> re.split(<span class="string">'([0-9]+)'</span>, key)]</span><br><span class="line">    <span class="keyword">return</span> sorted(l, key=alphanum_key)</span><br></pre></td></tr></table></figure>
+
+<h2 id="FourCC"><a href="#FourCC" class="headerlink" title="FourCC"></a>FourCC</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> struct</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode_fourcc</span><span class="params">(fourcc)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> struct.unpack(<span class="string">"!I"</span>, fourcc.encode(<span class="string">'ascii'</span>))[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">decode_fourcc</span><span class="params">(v)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> struct.pack(<span class="string">"!I"</span>, v).decode(<span class="string">"ascii"</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="find-duplicates-in-list"><a href="#find-duplicates-in-list" class="headerlink" title="find duplicates in list"></a>find duplicates in list</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">l = [ <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> len(set(l)) != len(l):</span><br><span class="line">    s = set()</span><br><span class="line">    print(</span><br><span class="line">        <span class="string">"Duplicates"</span>,</span><br><span class="line">        set(x <span class="keyword">for</span> x <span class="keyword">in</span> l <span class="keyword">if</span> x <span class="keyword">in</span> s <span class="keyword">or</span> s.add(x)))</span><br></pre></td></tr></table></figure>
+
+<h2 id="http-server"><a href="#http-server" class="headerlink" title="http server"></a>http server</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">python2 -m SimpleHTTPServer 8000</span><br><span class="line">python3 -m http.server 8000</span><br></pre></td></tr></table></figure>
+
+<h2 id="test-network"><a href="#test-network" class="headerlink" title="test network"></a>test network</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">'mariadb'</span>, <span class="number">3306</span>))</span><br><span class="line">s.recv(<span class="number">1024</span>)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line">s.connect((<span class="string">'10.6.64.48'</span>, <span class="number">80</span>))</span><br><span class="line">s.send(<span class="string">'GET / HTTP/1.1\nHost: 10.6.64.48\n\n'</span>)</span><br><span class="line">s.recv(<span class="number">1024</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Random-number"><a href="#Random-number" class="headerlink" title="Random number"></a>Random number</h2><p><a href="https://realpython.com/python-random/" target="_blank" rel="noopener">Generating Random Data in Python (Guide) – Real Python</a><br><a href="https://stackoverflow.com/questions/48421142/fastest-way-to-generate-a-random-like-unique-string-with-random-length-in-python/48421303#48421303" target="_blank" rel="noopener">Fastest way to generate a random-like unique string with random length in Python 3 - Stack Overflow</a></p>
+<p><a href="https://docs.python.org/3/library/random.html" target="_blank" rel="noopener">9.6. random — Generate pseudo-random numbers — Python 3 documentation</a><br><a href="https://docs.python.org/3/library/secrets.html" target="_blank" rel="noopener">15.3. secrets — Generate secure random numbers for managing secrets — Python 3 documentation</a><br><a href="https://docs.python.org/3/library/os.html#os.urandom" target="_blank" rel="noopener">16.1. os.urandom() — Miscellaneous operating system interfaces — Python 3 documentation</a><br><a href="https://docs.python.org/3/library/uuid.html" target="_blank" rel="noopener">22.20. uuid — UUID objects according to RFC 4122 — Python 3 documentation</a></p>
 	  
 	</div>
 
@@ -166,7 +191,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-lang/">comp.lang<span>33</span></a></li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
   </li>
 
     </ul>
@@ -179,7 +204,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/snippets/">snippets<span>3</span></a></li> <li><a href="/tags/python/">python<span>5</span></a></li>
+  <li><a href="/tags/python/">python<span>6</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
     </ul>
 	</div>
 		
@@ -189,7 +214,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#loop-files-in-folder"><span class="toc-article-text">loop files in folder</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#find-duplicates-in-list"><span class="toc-article-text">find duplicates in list</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#http-server"><span class="toc-article-text">http server</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#loop-files-in-folder"><span class="toc-article-text">loop files in folder</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#CSV"><span class="toc-article-text">CSV</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#RLE"><span class="toc-article-text">RLE</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Natural-sort"><span class="toc-article-text">Natural sort</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#FourCC"><span class="toc-article-text">FourCC</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#find-duplicates-in-list"><span class="toc-article-text">find duplicates in list</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#http-server"><span class="toc-article-text">http server</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#test-network"><span class="toc-article-text">test network</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Random-number"><span class="toc-article-text">Random number</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -206,7 +231,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Cryptography | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Cryptography"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Cryptography">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,16 +106,36 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p>In cryptography, these entities are usually used:</p>
+	    <p><a href="https://blog.usejournal.com/a-crash-course-in-everything-cryptographic-50daa0fda482" target="_blank" rel="noopener">A Crash Course in Everything Cryptographic – Noteworthy - The Journal Blog</a> !important<br><a href="https://www.crypto101.io/" target="_blank" rel="noopener">Crypto 101</a></p>
+<p><a href="https://www.coursera.org/learn/crypto" target="_blank" rel="noopener">Cryptography I | Coursera</a><br><a href="http://cryptopals.com/" target="_blank" rel="noopener">The Cryptopals Crypto Challenges</a></p>
+<p>In cryptography, these entities are usually used:</p>
 <ul>
 <li>Alice, Bob, Charles, Douglas: authentic users</li>
 <li>Eve: eavesdropper</li>
 <li>Mallory: MITM attacker</li>
 <li>Satan: malicious user/hacker</li>
 </ul>
-<h2 id="Algorithms"><a href="#Algorithms" class="headerlink" title="Algorithms"></a>Algorithms</h2><p><a href="http://www.wikiwand.com/en/Message_authentication_code" target="_blank" rel="external">Message authentication code - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Hash-based_message_authentication_code" target="_blank" rel="external">Hash-based message authentication code - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Cryptographic_nonce" target="_blank" rel="external">Cryptographic nonce - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Public-key_cryptography" target="_blank" rel="external">Public-key cryptography - Wikiwand</a></p>
-<p><a href="http://security.stackexchange.com/questions/4781/do-any-security-experts-recommend-bcrypt-for-password-storage" target="_blank" rel="external">cryptography - Do any security experts recommend bcrypt for password storage? - Information Security Stack Exchange</a></p>
-<p><a href="http://www.thoughtcrime.org/blog/the-cryptographic-doom-principle/" target="_blank" rel="external">Moxie Marlinspike &gt;&gt; Blog &gt;&gt; The Cryptographic Doom Principle</a> Encrypt-then-MAC</p>
+<h2 id="Algorithms"><a href="#Algorithms" class="headerlink" title="Algorithms"></a>Algorithms</h2><p><a href="http://www.wikiwand.com/en/Cryptographic_nonce" target="_blank" rel="noopener">Cryptographic nonce - Wikiwand</a></p>
+<p><a href="http://security.stackexchange.com/questions/4781/do-any-security-experts-recommend-bcrypt-for-password-storage" target="_blank" rel="noopener">cryptography - Do any security experts recommend bcrypt for password storage? - Information Security Stack Exchange</a></p>
+<p><a href="https://engineering.purdue.edu/kak/compsec/" target="_blank" rel="noopener">Computer and Network Security by Avi Kak</a></p>
+<h3 id="Authenticity"><a href="#Authenticity" class="headerlink" title="Authenticity"></a>Authenticity</h3><p><a href="http://www.wikiwand.com/en/Message_authentication_code" target="_blank" rel="noopener">Message authentication code - Wikiwand</a> MAC<br><a href="http://www.wikiwand.com/en/Hash-based_message_authentication_code" target="_blank" rel="noopener">Hash-based message authentication code - Wikiwand</a> HMAC<br><a href="http://www.thoughtcrime.org/blog/the-cryptographic-doom-principle/" target="_blank" rel="noopener">Moxie Marlinspike &gt;&gt; Blog &gt;&gt; The Cryptographic Doom Principle</a> Encrypt-then-MAC</p>
+<p>Public Key Cryptography:<br>Digital Signatures: encrypt a known data(nounce or message hash) with sender&#39;s private key<br>Certificate Authorities: a trusted third party that will digitally sign and publish the public key bound to a user or entity</p>
+<h2 id="Block-Ciphers"><a href="#Block-Ciphers" class="headerlink" title="Block Ciphers"></a>Block Ciphers</h2><p><a href="https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture3.pdf" target="_blank" rel="noopener">Lecture3 Lecture 3: Block Ciphers and the Data Encryption Standard</a></p>
+<h3 id="Modes-of-operation"><a href="#Modes-of-operation" class="headerlink" title="Modes of operation"></a>Modes of operation</h3><p><a href="https://www.wikiwand.com/en/Block_cipher_mode_of_operation" target="_blank" rel="noopener">Block cipher mode of operation - Wikiwand</a></p>
+<p>Block ciphers, as the name suggests, encrypts blocks. The methods of segmenting data into blocks is called &quot;modes of operation&quot;.</p>
+<p><strong>ECB</strong>: simply divides a message into 16 byte blocks, preserves pattern<br><strong>CBC</strong>: first block XORed with Initialisation Vector (IV), every other block XORed with the ciphertext of the block preceding it</p>
+<h3 id="AES"><a href="#AES" class="headerlink" title="AES"></a>AES</h3><p><a href="https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture8.pdf" target="_blank" rel="noopener">Lecture 8: AES: The Advanced Encryption Standard</a><br><a href="https://hub.packtpub.com/protect-tcp-tunnel-implementing-aes-encryption-with-python/" target="_blank" rel="noopener">Protect your TCP tunnel by implementing AES encryption with Python [Tutorial] | Packt Hub</a></p>
+<h2 id="Public-Key-Cryptography"><a href="#Public-Key-Cryptography" class="headerlink" title="Public Key Cryptography"></a>Public Key Cryptography</h2><p><a href="http://www.wikiwand.com/en/Public-key_cryptography" target="_blank" rel="noopener">Public-key cryptography - Wikiwand</a><br>Public Key crypto simply works with numbers. This means that any messages would have to be converted into a number before being encrypted.</p>
+<h3 id="RSA"><a href="#RSA" class="headerlink" title="RSA"></a>RSA</h3><p><a href="https://www.wikiwand.com/en/RSA_(cryptosystem%29" target="_blank" rel="noopener">RSA (cryptosystem) - Wikiwand</a><br><a href="https://hackernoon.com/how-does-rsa-work-f44918df914b" target="_blank" rel="noopener">How does RSA work? – Hacker Noon</a></p>
+<h2 id="Attribute-Based-Encryption"><a href="#Attribute-Based-Encryption" class="headerlink" title="Attribute-Based Encryption"></a>Attribute-Based Encryption</h2><p><a href="https://medium.com/@dbkats/a-gentle-introduction-to-attribute-based-encryption-edca31744ac6" target="_blank" rel="noopener">A Gentle Introduction to Attribute-Based Encryption</a></p>
+<h2 id="Enigma-Machine"><a href="#Enigma-Machine" class="headerlink" title="Enigma Machine"></a>Enigma Machine</h2><p><a href="https://www.wikiwand.com/en/Enigma_machine" target="_blank" rel="noopener">Enigma machine - Wikiwand</a><br>M1 and M3 have 3 rotor slots, M4 has 4 rotor slots.<br>Each rotor slot houses one of the eight <em>Rotors</em> (labeled in Roman numerals, the extra one for M4 labeled with Greek letters). The right <em>Rotor</em> steps each time a letter is typed. Each <em>Rotor</em> have notches at different positions to cause the <em>Rotor</em> on the left to step when itself done a full revolution, the middle rotor has optional &quot;double stepping&quot; which will also step itself when doing so. The starting <em>Rotor</em> position is called <em>Ground Settings</em>. The inner ring of each <em>Rotor</em> can be set to a different offset, this is the <em>Ring Settings</em>.<br>There are three choices of <em>Reflector</em> (A, B and C) that takes the input and feed it through the <em>Rotors</em> again.<br>There is also a <em>Plugboard</em> which will swap two letters before feeding into the <em>Fixed Rotar</em>.<br>The <em>Reflector</em> and <em>Rotors</em> selected, <em>Ground Settings</em>, <em>Ring Settings</em> and the <em>Plugboard</em> config have to be kept in sync when encoding and decoding the message. The setting is changed daily and the setting table will change monthly. The operator will send his own <em>Rotor</em> settings using the <em>Ground Settings</em> before each message.<br>Enigma machine is essentially a symmetric cryptography with the initial setup as key.</p>
+<p><a href="http://enigma.louisedade.co.uk/howitworks.html" target="_blank" rel="noopener">How Enigma Machines Work</a><br><a href="https://www.techstuffpodcast.com/podcasts/techstuff-ponders-an-enigma.htm" target="_blank" rel="noopener">TechStuff Ponders an Enigma | TechStuff Podcast</a><br><a href="http://enigma.louisedade.co.uk/furtherreading.html" target="_blank" rel="noopener">Further Reading about Enigma and Codebreaking</a><br><a href="https://www.wikiwand.com/en/Cryptanalysis_of_the_Enigma" target="_blank" rel="noopener">Cryptanalysis of the Enigma - Wikiwand</a></p>
+<p><a href="http://www.bbc.co.uk/history/topics/enigma" target="_blank" rel="noopener">BBC - History - Enigma (pictures, video, facts &amp; news)</a><br><a href="http://www.cryptomuseum.com/crypto/enigma/hist.htm" target="_blank" rel="noopener">Enigma History</a><br><a href="https://www.youtube.com/watch?v=mcX7iO_XCFA" target="_blank" rel="noopener">The Inner Workings of an Enigma Machine - YouTube</a><br><a href="https://www.youtube.com/watch?annotation_id=annotation_777706&feature=iv&src_vid=V4V2bpZlqx8&v=G2_Q9FoD-oQ" target="_blank" rel="noopener">158,962,555,217,826,360,000 (Enigma Machine) - Numberphile - YouTube</a><br><a href="https://www.youtube.com/watch?v=V4V2bpZlqx8" target="_blank" rel="noopener">Flaw in the Enigma Code - Numberphile - YouTube</a><br><a href="https://www.youtube.com/watch?v=d2NWPG2gB_A" target="_blank" rel="noopener">Turing&#39;s Enigma Problem (Part 1) - Computerphile - YouTube</a><br><a href="https://www.youtube.com/watch?v=kj_7Jc1mS9k" target="_blank" rel="noopener">Tackling Enigma (Turing&#39;s Enigma Problem Part 2) - Computerphile - YouTube</a></p>
+<p><a href="https://blog.digitalocean.com/how-2000-droplets-broke-the-enigma-code-in-13-minutes/" target="_blank" rel="noopener">How 2,000 Droplets Broke the Enigma Code in 13 Minutes</a><br><a href="https://www.linkedin.com/pulse/how-we-cracked-enigma-code-using-artificial-lukasz-kuncewicz/" target="_blank" rel="noopener">How we cracked the Enigma code using Artificial Intelligence | Lukasz Kuncewicz | Pulse | LinkedIn</a><br><a href="http://home.bt.com/tech-gadgets/enigma-machine-cracking-artificial-intelligence-11364235568160" target="_blank" rel="noopener">Cracking the world famous Enigma Machine with artificial intelligence in just 13 minutes - BT</a></p>
+<h3 id="Emulator"><a href="#Emulator" class="headerlink" title="Emulator"></a>Emulator</h3><p><a href="http://enigma.louisedade.co.uk/" target="_blank" rel="noopener">Enigma Machine Emulator</a><br><a href="http://enigma.louisedade.co.uk/help.html" target="_blank" rel="noopener">Emulator Help</a> How the emulator worked<br><a href="http://enigma.louisedade.co.uk/jssource.html" target="_blank" rel="noopener">JavaScript Source Code for the Enigma Machine</a></p>
+<p><a href="http://people.physik.hu-berlin.de/~palloks/js/enigma/index_en.html" target="_blank" rel="noopener">Enigma Simulation in Javascript/HTML</a> also lots of info</p>
+<p><a href="https://cryptii.com/enigma-machine" target="_blank" rel="noopener">The Enigma machine: Encrypt and decrypt online — Cryptii</a><br><a href="https://cryptii.com/enigma-decoder" target="_blank" rel="noopener">Enigma decoder: Decrypt and translate enigma online — Cryptii</a></p>
+<h3 id="DIY"><a href="#DIY" class="headerlink" title="DIY"></a>DIY</h3><p><a href="https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/" target="_blank" rel="noopener">OctaPi: brute-force Enigma - Introduction | Raspberry Pi Projects</a><br><a href="https://hackaday.com/2019/03/28/put-an-arduino-enigma-in-your-pocket/" target="_blank" rel="noopener">Put an Arduino Enigma in Your Pocket | Hackaday</a><br><a href="https://skippy.org.uk/building-an-enigma/" target="_blank" rel="noopener">Building an Enigma – Skippy&#39;s Random Ramblings</a><br><a href="https://www.cryptomuseum.com/kits/enigma/" target="_blank" rel="noopener">Enigma-E</a></p>
 	  
 	</div>
 
@@ -173,7 +193,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/web/">web<span>53</span></a></li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
   </li>
 
     </ul>
@@ -196,7 +216,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Algorithms"><span class="toc-article-text">Algorithms</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Algorithms"><span class="toc-article-text">Algorithms</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Authenticity"><span class="toc-article-text">Authenticity</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Block-Ciphers"><span class="toc-article-text">Block Ciphers</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Modes-of-operation"><span class="toc-article-text">Modes of operation</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#AES"><span class="toc-article-text">AES</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Public-Key-Cryptography"><span class="toc-article-text">Public Key Cryptography</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#RSA"><span class="toc-article-text">RSA</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Attribute-Based-Encryption"><span class="toc-article-text">Attribute-Based Encryption</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Enigma-Machine"><span class="toc-article-text">Enigma Machine</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Emulator"><span class="toc-article-text">Emulator</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#DIY"><span class="toc-article-text">DIY</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
@@ -213,7 +233,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

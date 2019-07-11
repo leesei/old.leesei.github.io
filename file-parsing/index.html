@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>File Parsing | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="File Parsing">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> File Parsing</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://pythonistac.wordpress.com/2017/03/09/python-network-packet-dissection-frameworks-shootout-scapy-vs-construct-vs-hachoir-vs-kaitai-struct/" target="_blank" rel="noopener">Python network packet dissection frameworks shootout: Scapy vs Construct vs Hachoir vs Kaitai Struct – Adventures in Python</a></p>
+<h2 id="Kaitai"><a href="#Kaitai" class="headerlink" title="Kaitai"></a>Kaitai</h2><p><a href="http://kaitai.io/" target="_blank" rel="noopener">Kaitai Struct: declarative binary format parsing language</a><br><a href="https://github.com/kaitai-io/awesome-kaitai" target="_blank" rel="noopener">kaitai-io/awesome-kaitai: A curated list of Kaitai Struct tools and resources</a></p>
+<p><a href="http://doc.kaitai.io/" target="_blank" rel="noopener">Kaitai Struct: documentation</a><br><a href="http://doc.kaitai.io/user_guide.html" target="_blank" rel="noopener">Kaitai Struct User Guide</a><br><a href="http://doc.kaitai.io/ksy_reference.html#ksy-file" target="_blank" rel="noopener">Kaitai Struct: KSY reference</a></p>
+<p><a href="http://kaitai.io/workshop/" target="_blank" rel="noopener">Kaitai Struct: declarative binary format parsing language</a></p>
+<p><a href="http://kaitai.io/index.html#download" target="_blank" rel="noopener">kaitai-struct-compiler</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">bin/kaitai-struct-compiler -no-version-check</span><br></pre></td></tr></table></figure>
+
+<p>Root level keys:</p>
+<ul>
+<li>meta</li>
+<li>seq</li>
+<li>enums</li>
+<li>types</li>
+</ul>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p><a href="http://formats.kaitai.io/" target="_blank" rel="noopener">File Format Gallery for Kaitai Struct</a></p>
+<p><a href="http://formats.kaitai.io/zip/index.html" target="_blank" rel="noopener">.zip file format format spec for Kaitai Struct</a><br><a href="http://formats.kaitai.io/bmp/index.html" target="_blank" rel="noopener">.bmp file format format spec for Kaitai Struct</a><br><a href="http://formats.kaitai.io/quicktime_mov/index.html" target="_blank" rel="noopener">quicktime_mov format spec for Kaitai Struct</a></p>
+<p><a href="http://formats.kaitai.io/dicom/index.html" target="_blank" rel="noopener">Digital Imaging and Communications in Medicine (DICOM) file format format spec for Kaitai Struct</a><br><a href="https://github.com/kaitai-io/dicom.ksy" target="_blank" rel="noopener">kaitai-io/dicom.ksy: DICOM (Digital Imaging and Communications in Medicine) file format spec for Kaitai Struct</a></p>
+<p><a href="http://download.microsoft.com/download/D/3/3/D334A189-E51B-47FF-B0E8-C0479AFB0E3C/%5BMS-XLSX%5D.pdf" target="_blank" rel="noopener">MS-XSLX spec (pdf)</a></p>
+<h3 id="JPEG"><a href="#JPEG" class="headerlink" title="JPEG"></a>JPEG</h3><p><a href="http://formats.kaitai.io/jpeg/index.html" target="_blank" rel="noopener">.jpg / .jpeg / .jpe / .jif / .jfif / .jfi file format format spec for Kaitai Struct</a><br><a href="http://www.anttikupila.com/flash/getting-jpg-dimensions-with-as3-without-loading-the-entire-file/" target="_blank" rel="noopener">Getting JPG dimensions with AS3 without loading the entire file – Antti Kupila</a></p>
+<h3 id="Point-Cloud"><a href="#Point-Cloud" class="headerlink" title="Point Cloud"></a>Point Cloud</h3><p><a href="http://pointclouds.org/documentation/tutorials/pcd_file_format.php" target="_blank" rel="noopener">The PCD (Point Cloud Data) file format - Point Cloud Library (PCL)</a><br><a href="https://www.wikiwand.com/en/PLY_(file_format%29" target="_blank" rel="noopener">PLY (file format) - Wikiwand</a><br><a href="https://www.wikiwand.com/en/Wavefront_.obj_file" target="_blank" rel="noopener">Wavefront .obj file - Wikiwand</a><br><a href="https://www.wikiwand.com/en/STL_(file_format%29" target="_blank" rel="noopener">STL (file format) - Wikiwand</a></p>
+<p><a href="https://stackoverflow.com/questions/27224934/can-i-generate-point-cloud-from-mesh" target="_blank" rel="noopener">3d - Can I generate Point Cloud from mesh? - Stack Overflow</a></p>
+<p><a href="http://fabacademy.org/2018/docs/FabAcademy-Tutorials/week5_3dscanning_and_printing/point_cloud_mesh.html" target="_blank" rel="noopener">Point Cloud to Mesh · GitBook</a></p>
+<h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><p><a href="https://docs.python.org/3/library/struct.html" target="_blank" rel="noopener">7.1. struct — Interpret bytes as packed binary data — Python 3 documentation</a></p>
+<p><a href="https://www.devdungeon.com/content/working-binary-data-python" target="_blank" rel="noopener">Working with Binary Data in Python | DevDungeon</a></p>
+<p><a href="https://docs.python.org/3/library/stdtypes.html#int.from_bytes" target="_blank" rel="noopener">4. int.from_bytes — Python 3 documentation</a><br><a href="https://docs.python.org/3/library/stdtypes.html#int.to_bytes" target="_blank" rel="noopener">4. int.to_bytes — Python 3 documentation</a></p>
+<p><a href="https://docs.python.org/3/library/struct.html" target="_blank" rel="noopener">7.1. struct — Interpret bytes as packed binary data — Python 3 documentation</a></p>
+<p><a href="https://construct.readthedocs.io/en/latest/" target="_blank" rel="noopener">Construct — Construct documentation</a></p>
+<p><a href="http://hachoir.readthedocs.io/en/latest/" target="_blank" rel="noopener">Welcome to Hachoir’s documentation! — Hachoir documentation</a></p>
+<p><a href="https://pythonhosted.org/bitstring/" target="_blank" rel="noopener">Features — bitstring documentation</a></p>
+<p><a href="https://github.com/Sepero/SearchBin" target="_blank" rel="noopener">Sepero/SearchBin: Search within binary files for a string, hex, or even another binary file</a></p>
+<h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h2><p><a href="https://github.com/francisrstokes/construct-js" target="_blank" rel="noopener">francisrstokes/construct-js: 🛠️A library for creating byte level data structures.</a></p>
+<p>SharedArrayBuffer vs Int8Array</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/rpc/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/adblocking/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2018-08-01 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/binary-file/">binary-file<span>1</span></a></li> <li><a href="/tags/parsing/">parsing<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Kaitai"><span class="toc-article-text">Kaitai</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Examples"><span class="toc-article-text">Examples</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#JPEG"><span class="toc-article-text">JPEG</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Point-Cloud"><span class="toc-article-text">Point Cloud</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Python"><span class="toc-article-text">Python</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#JavaScript"><span class="toc-article-text">JavaScript</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

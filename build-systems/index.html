@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Build Systems | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Build Systems"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Build Systems">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,15 +106,17 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="http://hyperpolyglot.org/build" target="_blank" rel="external">Build Tools: Make, Rake, Ant, Sbt - Hyperpolyglot</a></p>
-<blockquote>
-<p>see <code>build-systems-node-js.md</code></p>
-</blockquote>
+	    <p><a href="http://hyperpolyglot.org/build" target="_blank" rel="noopener">Build Tools: Make, Rake, Ant, Sbt - Hyperpolyglot</a><br><a href="https://www.signalfx.com/blog/the-13-things-that-make-a-good-build-system/" target="_blank" rel="noopener">The 13 Things That Make a Good Build System | SignalFx</a></p>
 <a id="more"></a>
-<h2 id="GNU-Make"><a href="#GNU-Make" class="headerlink" title="GNU Make"></a>GNU Make</h2><p><a href="http://www.gnu.org/software/make/" target="_blank" rel="external">Make - GNU Project - Free Software Foundation</a><br><a href="http://www.gnu.org/software/make/manual/make.html" target="_blank" rel="external">GNU make</a><br><a href="http://codeofrob.com/entries/the-joy-of-make-at-jsconfeu.html" target="_blank" rel="external">The joy of make at jsconfeu</a><br><a href="http://www.smashingmagazine.com/2015/10/building-web-applications-with-make/" target="_blank" rel="external">Building Web Applications With Make – Smashing Magazine</a></p>
-<p><a href="http://www.ifnamemain.com/posts/2014/Mar/13/autoconf_automake/" target="_blank" rel="external">Creating configuration scripts and Makefiles using autoconf &amp; automake</a></p>
-<h3 id="non-recursive-make"><a href="#non-recursive-make" class="headerlink" title="non-recursive make"></a>non-recursive make</h3><p><a href="http://c2.com/cgi/wiki?RecursiveMakeConsideredHarmful" target="_blank" rel="external">Recursive Make Considered Harmful</a><br><a href="http://www.linux-mag.com/id/2101/" target="_blank" rel="external">Recursive make Reloaded | Linux Magazine</a><br><a href="http://evbergen.home.xs4all.nl/nonrecursive-make.html" target="_blank" rel="external">Implementing non-recursive make</a></p>
-<p>I evaluated two implementations: <a href="https://github.com/aostruszka/nonrec-make/" target="_blank" rel="external">aostruszka/nonrec-make</a> and <a href="https://github.com/dmoulding/boilermake" target="_blank" rel="external">dmoulding-boilermake · GitHub</a> on these grounds:</p>
+
+<h2 id="GNU-Make"><a href="#GNU-Make" class="headerlink" title="GNU Make"></a>GNU Make</h2><p><a href="http://www.gnu.org/software/make/" target="_blank" rel="noopener">Make - GNU Project - Free Software Foundation</a><br><a href="https://www.gnu.org/software/make/manual/make.html" target="_blank" rel="noopener">GNU make</a><br><a href="https://seisman.github.io/how-to-write-makefile/" target="_blank" rel="noopener">跟我一起写 Makefile</a> <a href="https://github.com/seisman/how-to-write-makefile" target="_blank" rel="noopener">source</a><br><a href="http://makefiletutorial.com/" target="_blank" rel="noopener">Makefile Tutorial by Example</a></p>
+<p><a href="http://codeofrob.com/entries/the-joy-of-make-at-jsconfeu.html" target="_blank" rel="noopener">The joy of make at jsconfeu</a><br><a href="http://nuclear.mutantstargoat.com/articles/make/" target="_blank" rel="noopener">Practical Makefiles, by example</a><br><a href="http://www.smashingmagazine.com/2015/10/building-web-applications-with-make/" target="_blank" rel="noopener">Building Web Applications With Make – Smashing Magazine</a><br><a href="https://blog.jcoglan.com/2014/02/05/building-javascript-projects-with-make/" target="_blank" rel="noopener">Building JavaScript projects with Make – The If Works</a><br><a href="http://mrbook.org/blog/tutorials/make/" target="_blank" rel="noopener">Makefiles – Mrbook&#39;s Stuff</a><br><a href="https://www.olioapps.com/blog/the-lost-art-of-the-makefile/" target="_blank" rel="noopener">The Lost Art of the Makefile</a><br><a href="https://remysharp.com/2014/12/02/makefile" target="_blank" rel="noopener">Makefile instead of hoop jumping</a> <a href="https://gist.github.com/remy/274232f8b47dfa163324" target="_blank" rel="noopener">gist</a></p>
+<p><a href="http://www.ifnamemain.com/posts/2014/Mar/13/autoconf_automake/" target="_blank" rel="noopener">Creating configuration scripts and Makefiles using autoconf &amp; automake</a></p>
+<p><a href="https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html" target="_blank" rel="noopener">GNU make: Automatic Variables</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># show rules</span></span><br><span class="line">make -pn</span><br><span class="line"></span><br><span class="line"><span class="comment"># shows how make works</span></span><br><span class="line">make --debug=v</span><br></pre></td></tr></table></figure>
+
+<h3 id="non-recursive-make"><a href="#non-recursive-make" class="headerlink" title="non-recursive make"></a>non-recursive make</h3><p><a href="http://c2.com/cgi/wiki?RecursiveMakeConsideredHarmful" target="_blank" rel="noopener">Recursive Make Considered Harmful</a><br><a href="http://www.linux-mag.com/id/2101/" target="_blank" rel="noopener">Recursive make Reloaded | Linux Magazine</a><br><a href="http://evbergen.home.xs4all.nl/nonrecursive-make.html" target="_blank" rel="noopener">Implementing non-recursive make</a></p>
+<p>I evaluated two implementations: <a href="https://github.com/aostruszka/nonrec-make/" target="_blank" rel="noopener">aostruszka/nonrec-make</a> and <a href="https://github.com/dmoulding/boilermake" target="_blank" rel="noopener">dmoulding-boilermake · GitHub</a> on these grounds:</p>
 <ul>
 <li>simple to modify and maintain</li>
 <li>fast to compile</li>
@@ -122,32 +124,37 @@
 <li>separate storage for object code generated</li>
 </ul>
 <p><code>boilermake</code> is quite restrictive in that each .mk only supports one target, so a module could contain multiple <code>.mk</code> to build multiple libs and test app. To add a dependency, we need:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">TGT_PREREQS += lib/libfoo.a</div><div class="line">TGT_LDLIBS  += -lfoo</div></pre></td></tr></table></figure>
-<p><code>nonrec-make</code> is easier in including multiple sub-makefiles and supports expanding rule for source files (akin to *.c). It also added support for <a href="https://github.com/aostruszka/nonrec-make/commit/0aaae67b1c67aeef28e6ca3a692fc4619878ba23" target="_blank" rel="external">external build system</a>.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TGT_PREREQS += lib/libfoo.a</span><br><span class="line">TGT_LDLIBS  += -lfoo</span><br></pre></td></tr></table></figure>
+
+<p><code>nonrec-make</code> is easier in including multiple sub-makefiles and supports expanding rule for source files (akin to *.c). It also added support for <a href="https://github.com/aostruszka/nonrec-make/commit/0aaae67b1c67aeef28e6ca3a692fc4619878ba23" target="_blank" rel="noopener">external build system</a>.</p>
 <p>Examples:</p>
 <ul>
-<li><a href="https://ghc.haskell.org/trac/ghc/wiki/Building/Architecture/Idiom/NonRecursiveMake" target="_blank" rel="external">GHC</a> (Haskell compiler)</li>
-<li>Android <a href="http://www.netmite.com/android/mydroid/development/pdk/docs/build_system.html" target="_blank" rel="external">1</a> <a href="http://elinux.org/Android_Build_System" target="_blank" rel="external">2</a> <a href="http://www.programering.com/a/MDN5EDNwATM.html" target="_blank" rel="external">3</a> <a href="https://docs.google.com/document/d/1jDmWgVgorTY_njX68juH5vt0KY_FXWgxkxmi2v_W_a4/edit" target="_blank" rel="external">4</a></li>
+<li><a href="https://ghc.haskell.org/trac/ghc/wiki/Building/Architecture/Idiom/NonRecursiveMake" target="_blank" rel="noopener">GHC</a> (Haskell compiler)</li>
+<li>Android <a href="http://www.netmite.com/android/mydroid/development/pdk/docs/build_system.html" target="_blank" rel="noopener">1</a> <a href="http://elinux.org/Android_Build_System" target="_blank" rel="noopener">2</a> <a href="http://www.programering.com/a/MDN5EDNwATM.html" target="_blank" rel="noopener">3</a> <a href="https://docs.google.com/document/d/1jDmWgVgorTY_njX68juH5vt0KY_FXWgxkxmi2v_W_a4/edit" target="_blank" rel="noopener">4</a></li>
 </ul>
-<h3 id="CMake"><a href="#CMake" class="headerlink" title="CMake"></a>CMake</h3><p><a href="http://www.cmake.org/" target="_blank" rel="external">CMake</a><br><a href="https://github.com/unbornchikken/cmake-js" target="_blank" rel="external">unbornchikken-cmake-js · GitHub</a><br><a href="https://www.gitbook.com/book/tuannguyen68/learning-cmake-a-beginner-s-guide/details" target="_blank" rel="external">Learning CMake: A beginner’s guide · GitBook</a><br><a href="http://aosabook.org/en/cmake.html" target="_blank" rel="external">The Architecture of Open Source Applications: CMake</a></p>
-<h2 id="Buck"><a href="#Buck" class="headerlink" title="Buck"></a>Buck</h2><p><a href="https://buckbuild.com/" target="_blank" rel="external">Buck: A fast build tool</a> by Facebook</p>
-<h2 id="Lake"><a href="#Lake" class="headerlink" title="Lake"></a>Lake</h2><p><a href="http://stevedonovan.github.io/lake/topics/index.md.html" target="_blank" rel="external">Lake – a Lua-based Build Engine</a><br><a href="https://github.com/stevedonovan/Lake" target="_blank" rel="external">stevedonovan/Lake: A Lua-based Build Tool</a></p>
-<h2 id="Gradle"><a href="#Gradle" class="headerlink" title="Gradle"></a>Gradle</h2><p><a href="https://gradle.org/" target="_blank" rel="external">Gradle: Build Automation for the JVM, Android, and C/C++</a><br><a href="https://docs.gradle.org/current/release-notes" target="_blank" rel="external">Gradle 2.4 Release Notes</a><br><a href="https://docs.gradle.org/current/userguide/userguide.html" target="_blank" rel="external">Gradle User Guide</a><br><a href="http://dongchuan.gitbooks.io/gradle-user-guide-/content/" target="_blank" rel="external">Gradle User Guide 中文版</a></p>
-<p><a href="https://gradle.org/getting-started-native/" target="_blank" rel="external">Getting Started - Native (C/C++) - Gradle</a><br><a href="https://gradle.org/getting-started-jvm/" target="_blank" rel="external">Getting Started - Java / JVM - Gradle</a><br><a href="https://gradle.org/getting-started-android/" target="_blank" rel="external">Getting Started - Android - Gradle</a></p>
-<p><a href="http://code.tutsplus.com/tutorials/using-gradle-build-variants--cms-25005" target="_blank" rel="external">Using Gradle Build Variants - Tuts+ Code Tutorial</a><br><a href="http://technologyconversations.com/2014/06/18/build-tools/" target="_blank" rel="external">Java Build Tools: Ant vs Maven vs Gradle | Technology Conversations</a></p>
-<h3 id="Android-adoption"><a href="#Android-adoption" class="headerlink" title="Android adoption"></a>Android adoption</h3><p><a href="http://code.tutsplus.com/tutorials/the-ins-and-outs-of-gradle--cms-22978" target="_blank" rel="external">The Ins and Outs of Gradle - Tuts+ Code Tutorial</a><br><a href="http://tools.android.com/tech-docs/new-build-system" target="_blank" rel="external">New Build System - Android Tools Project Site</a><br><a href="https://developer.android.com/sdk/installing/studio-build.html" target="_blank" rel="external">Build System Overview | Android Developers</a></p>
+<h3 id="CMake"><a href="#CMake" class="headerlink" title="CMake"></a>CMake</h3><p><a href="http://www.cmake.org/" target="_blank" rel="noopener">CMake</a><br><a href="https://github.com/unbornchikken/cmake-js" target="_blank" rel="noopener">unbornchikken-cmake-js · GitHub</a><br><a href="https://www.gitbook.com/book/tuannguyen68/learning-cmake-a-beginner-s-guide/details" target="_blank" rel="noopener">Learning CMake: A beginner&#39;s guide · GitBook</a><br><a href="http://aosabook.org/en/cmake.html" target="_blank" rel="noopener">The Architecture of Open Source Applications: CMake</a></p>
+<h2 id="Buck"><a href="#Buck" class="headerlink" title="Buck"></a>Buck</h2><p><a href="https://buckbuild.com/" target="_blank" rel="noopener">Buck: A fast build tool</a> by Facebook</p>
+<p><a href="https://hackernoon.com/7-reasons-to-use-buck-build-5b44d7413585" target="_blank" rel="noopener">7 Reasons to Use Buck Build – Hacker Noon</a><br><a href="https://hackernoon.com/even-more-reasons-to-use-buck-build-9e2f6bf451d4" target="_blank" rel="noopener">(Even) More Reasons to Use Buck Build – Hacker Noon</a><br><a href="https://hackernoon.com/how-to-create-a-buck-based-c-c-project-38b85273d6a6" target="_blank" rel="noopener">How to Create a Buck-based C/C++ Project – Hacker Noon</a><br><a href="https://hackernoon.com/generating-a-single-include-c-header-file-using-buck-827f20be3f9d" target="_blank" rel="noopener">Generating a Single-Include C++ Header File Using Buck</a><br><a href="https://hackernoon.com/lessons-learned-from-porting-300-projects-to-buck-build-ff6463b65142" target="_blank" rel="noopener">Lessons Learned from Porting 300 C/C++ Projects to Buck Build</a></p>
+<h2 id="BuildInfer"><a href="#BuildInfer" class="headerlink" title="BuildInfer"></a>BuildInfer</h2><p><a href="https://buildinfer.loopperfect.com/" target="_blank" rel="noopener">BuildInfer — Next Generation C/C++ Build Acceleration</a><br><a href="https://hackernoon.com/why-not-make-db142ccb2081" target="_blank" rel="noopener">Why Not Make? – Hacker Noon</a></p>
+<h2 id="Meson"><a href="#Meson" class="headerlink" title="Meson"></a>Meson</h2><p><a href="https://mesonbuild.com/" target="_blank" rel="noopener">The Meson Build system</a></p>
+<h2 id="Lake"><a href="#Lake" class="headerlink" title="Lake"></a>Lake</h2><p><a href="http://stevedonovan.github.io/lake/topics/index.md.html" target="_blank" rel="noopener">Lake – a Lua-based Build Engine</a><br><a href="https://github.com/stevedonovan/Lake" target="_blank" rel="noopener">stevedonovan/Lake: A Lua-based Build Tool</a></p>
+<h2 id="Gradle"><a href="#Gradle" class="headerlink" title="Gradle"></a>Gradle</h2><blockquote>
+<p>see <code>gradle.md</code></p>
+</blockquote>
 <h2 id="Node-js-ecosystem"><a href="#Node-js-ecosystem" class="headerlink" title="Node.js ecosystem"></a>Node.js ecosystem</h2><blockquote>
 <p>see <code>build-systems-node-js.md</code></p>
 </blockquote>
-<h2 id="Bazel"><a href="#Bazel" class="headerlink" title="Bazel"></a>Bazel</h2><p><a href="http://bazel.io/" target="_blank" rel="external">Bazel</a>, supported <a href="http://bazel.io/docs/build-encyclopedia.html#rules" target="_blank" rel="external">languages</a></p>
+<h2 id="Bazel"><a href="#Bazel" class="headerlink" title="Bazel"></a>Bazel</h2><p><a href="http://bazel.build/" target="_blank" rel="noopener">Bazel</a>, supported <a href="http://bazel.build/docs/build-encyclopedia.html#rules" target="_blank" rel="noopener">languages</a></p>
 <h2 id="gyp"><a href="#gyp" class="headerlink" title="gyp"></a>gyp</h2><p>gyp was the build system used by Chromium and Node.<br>But Chromium has since moved to GN.</p>
-<p><a href="https://chromium.googlesource.com/external/gyp/+/HEAD/docs/UserDocumentation.md" target="_blank" rel="external">gyp-UserDocumentation.md</a><br><a href="https://n8.io/converting-a-c-library-to-gyp/" target="_blank" rel="external">Converting a C library to gyp — n8.io</a></p>
-<h2 id="Ninja"><a href="#Ninja" class="headerlink" title="Ninja"></a>Ninja</h2><p><a href="https://chromium.googlesource.com/chromium/src/+/master/tools/gn/README.md" target="_blank" rel="external">What is GN?</a><br><a href="http://aosabook.org/en/posa/ninja.html" target="_blank" rel="external">The Performance of Open Source Software | Ninja</a></p>
-<p><a href="https://github.com/saghul/gyn" target="_blank" rel="external">saghul/gyn</a></p>
-<h2 id="Pants"><a href="#Pants" class="headerlink" title="Pants"></a>Pants</h2><p><a href="https://pantsbuild.github.io/" target="_blank" rel="external">Pants Build</a><br>Pants is a build system written by Twitter to build Python and Java codes.</p>
-<p><a href="https://www.youtube.com/playlist?list=PLDVc2EaAVPg8ACDeLfN2KWkPZi0Th5d04" target="_blank" rel="external">Getting Started with the Pants Build System - YouTube</a></p>
-<h2 id="tup"><a href="#tup" class="headerlink" title="tup"></a>tup</h2><p><a href="http://gittup.org/tup/" target="_blank" rel="external">tup | Home</a></p>
-<h2 id="Waf"><a href="#Waf" class="headerlink" title="Waf"></a>Waf</h2><p><a href="https://waf.io/" target="_blank" rel="external">Waf: the meta build system</a><br><a href="https://waf.io/book/" target="_blank" rel="external">The Waf Book</a><br><a href="https://github.com/waf-project/waf" target="_blank" rel="external">waf-project/waf: The Waf build system</a></p>
+<p><a href="https://chromium.googlesource.com/external/gyp/+/HEAD/docs/UserDocumentation.md" target="_blank" rel="noopener">gyp-UserDocumentation.md</a><br><a href="https://n8.io/converting-a-c-library-to-gyp/" target="_blank" rel="noopener">Converting a C library to gyp — n8.io</a></p>
+<h2 id="Ninja"><a href="#Ninja" class="headerlink" title="Ninja"></a>Ninja</h2><p><a href="https://ninja-build.org/" target="_blank" rel="noopener">Ninja, a small build system with a focus on speed</a><br><a href="https://docs.google.com/presentation/d/15Zwb53JcncHfEwHpnG_PoIbbzQ3GQi_cpujYwbpcbZo/edit#slide=id.g119d702868_0_12" target="_blank" rel="noopener">Using GN build - Google Slides</a><br><a href="http://aosabook.org/en/posa/ninja.html" target="_blank" rel="noopener">The Performance of Open Source Software | Ninja</a></p>
+<p><a href="https://gn.googlesource.com/gn/+/master/docs/" target="_blank" rel="noopener">docs - gn - Git at Google</a> GN is a meta-build system that generates build files for Ninja.</p>
+<p><a href="https://github.com/saghul/gyn" target="_blank" rel="noopener">saghul/gyn</a></p>
+<h2 id="Pants"><a href="#Pants" class="headerlink" title="Pants"></a>Pants</h2><p><a href="https://pantsbuild.github.io/" target="_blank" rel="noopener">Pants Build</a><br>Pants is a build system written by Twitter to build Python and Java codes.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLDVc2EaAVPg8ACDeLfN2KWkPZi0Th5d04" target="_blank" rel="noopener">Getting Started with the Pants Build System - YouTube</a></p>
+<h2 id="tup"><a href="#tup" class="headerlink" title="tup"></a>tup</h2><p><a href="http://gittup.org/tup/" target="_blank" rel="noopener">tup | Home</a></p>
+<h2 id="Waf"><a href="#Waf" class="headerlink" title="Waf"></a>Waf</h2><p><a href="https://waf.io/" target="_blank" rel="noopener">Waf: the meta build system</a><br><a href="https://waf.io/book/" target="_blank" rel="noopener">The Waf Book</a><br><a href="https://github.com/waf-project/waf" target="_blank" rel="noopener">waf-project/waf: The Waf build system</a></p>
+<h2 id="Make-It-Quick-MIQ"><a href="#Make-It-Quick-MIQ" class="headerlink" title="Make-It-Quick (MIQ)"></a>Make-It-Quick (MIQ)</h2><p><a href="https://github.com/c3d/make-it-quick" target="_blank" rel="noopener">c3d/make-it-quick: A simple auto-configuring make-only build system</a></p>
 	  
 	</div>
 
@@ -205,7 +212,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-lang/">comp.lang<span>33</span></a></li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
   </li>
 
     </ul>
@@ -218,7 +225,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/make/">make<span>1</span></a></li> <li><a href="/tags/lake/">lake<span>1</span></a></li> <li><a href="/tags/gradle/">gradle<span>1</span></a></li> <li><a href="/tags/bazel/">bazel<span>1</span></a></li> <li><a href="/tags/gyn/">gyn<span>1</span></a></li> <li><a href="/tags/gn/">gn<span>1</span></a></li>
+  <li><a href="/tags/make/">make<span>1</span></a></li> <li><a href="/tags/buck/">buck<span>1</span></a></li> <li><a href="/tags/meson/">meson<span>1</span></a></li> <li><a href="/tags/lake/">lake<span>1</span></a></li> <li><a href="/tags/gradle/">gradle<span>2</span></a></li> <li><a href="/tags/bazel/">bazel<span>1</span></a></li> <li><a href="/tags/gyn/">gyn<span>1</span></a></li> <li><a href="/tags/gn/">gn<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -228,7 +235,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GNU-Make"><span class="toc-article-text">GNU Make</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#non-recursive-make"><span class="toc-article-text">non-recursive make</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#CMake"><span class="toc-article-text">CMake</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Buck"><span class="toc-article-text">Buck</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Lake"><span class="toc-article-text">Lake</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gradle"><span class="toc-article-text">Gradle</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Android-adoption"><span class="toc-article-text">Android adoption</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Node-js-ecosystem"><span class="toc-article-text">Node.js ecosystem</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bazel"><span class="toc-article-text">Bazel</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gyp"><span class="toc-article-text">gyp</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ninja"><span class="toc-article-text">Ninja</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Pants"><span class="toc-article-text">Pants</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#tup"><span class="toc-article-text">tup</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Waf"><span class="toc-article-text">Waf</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GNU-Make"><span class="toc-article-text">GNU Make</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#non-recursive-make"><span class="toc-article-text">non-recursive make</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#CMake"><span class="toc-article-text">CMake</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Buck"><span class="toc-article-text">Buck</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#BuildInfer"><span class="toc-article-text">BuildInfer</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Meson"><span class="toc-article-text">Meson</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Lake"><span class="toc-article-text">Lake</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gradle"><span class="toc-article-text">Gradle</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Node-js-ecosystem"><span class="toc-article-text">Node.js ecosystem</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bazel"><span class="toc-article-text">Bazel</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gyp"><span class="toc-article-text">gyp</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ninja"><span class="toc-article-text">Ninja</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Pants"><span class="toc-article-text">Pants</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#tup"><span class="toc-article-text">tup</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Waf"><span class="toc-article-text">Waf</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Make-It-Quick-MIQ"><span class="toc-article-text">Make-It-Quick (MIQ)</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -245,7 +252,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Bookmarklets | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Bookmarklets"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Bookmarklets">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -112,71 +112,85 @@
 <li>URL</li>
 <li>DOM</li>
 </ul>
-<p><a href="http://bookmarkleteer.com/" target="_blank" rel="external">Bookmarkleteer: Create and Share Bookmarklets Online</a> (down), <a href="https://github.com/coolaj86/bookmarkleteer" target="_blank" rel="external">source</a><br><a href="http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/" target="_blank" rel="external">How To Make a Bookmarklet For Your Web Application | BetterExplained</a><br><a href="http://www.2ality.com/2011/06/implementing-bookmarklets.html" target="_blank" rel="external">Implementing bookmarklets in JavaScript</a></p>
+<p><a href="http://bookmarkleteer.com/" target="_blank" rel="noopener">Bookmarkleteer: Create and Share Bookmarklets Online</a> (down), <a href="https://github.com/coolaj86/bookmarkleteer" target="_blank" rel="noopener">source</a><br><a href="http://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/" target="_blank" rel="noopener">How To Make a Bookmarklet For Your Web Application | BetterExplained</a><br><a href="http://www.2ality.com/2011/06/implementing-bookmarklets.html" target="_blank" rel="noopener">Implementing bookmarklets in JavaScript</a></p>
 <a id="more"></a>
-<h3 id="Repository"><a href="#Repository" class="headerlink" title="Repository"></a>Repository</h3><p><a href="http://marklets.com/" target="_blank" rel="external">Bookmarklets | Bookmarklet Search Engine</a><br><a href="http://benalman.com/projects/bookmarklets/" target="_blank" rel="external">Ben Alman » Bookmarklets</a><br><a href="https://github.com/janmoesen/bookmarklets" target="_blank" rel="external">janmoesen/bookmarklets</a><br><a href="http://linkstore.ru/book/index-en.jsp" target="_blank" rel="external">Bookmarklets</a><br><a href="https://www.squarefree.com/bookmarklets/" target="_blank" rel="external">Jesse’s Bookmarklets Site</a><br><a href="http://www.bookmarklets.com/tools/categor.html" target="_blank" rel="external">Bookmarklets - Tool Categories</a></p>
+
+<h3 id="Repository"><a href="#Repository" class="headerlink" title="Repository"></a>Repository</h3><p><a href="http://marklets.com/" target="_blank" rel="noopener">Bookmarklets | Bookmarklet Search Engine</a><br><a href="http://benalman.com/projects/bookmarklets/" target="_blank" rel="noopener">Ben Alman » Bookmarklets</a><br><a href="https://github.com/janmoesen/bookmarklets" target="_blank" rel="noopener">janmoesen/bookmarklets</a><br><a href="http://linkstore.ru/book/index-en.jsp" target="_blank" rel="noopener">Bookmarklets</a><br><a href="https://www.squarefree.com/bookmarklets/" target="_blank" rel="noopener">Jesse&#39;s Bookmarklets Site</a><br><a href="http://www.bookmarklets.com/tools/categor.html" target="_blank" rel="noopener">Bookmarklets - Tool Categories</a></p>
 <h3 id="Creating-bookmarklets"><a href="#Creating-bookmarklets" class="headerlink" title="Creating bookmarklets"></a>Creating bookmarklets</h3><ul>
-<li>Create any bookmark, edit it to change the title and paste the <code>javascript:</code> link as the url.</li>
-<li>Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the <code>javascript:</code> link is url-escaped).</li>
+<li><p>Create any bookmark, edit it to change the title and paste the <code>javascript:</code> link as the url.</p>
+</li>
+<li><p>Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the <code>javascript:</code> link is url-escaped).</p>
+</li>
 <li><p>You may organize bookmarklets in fully documented <code>.js</code></p>
 <ul>
-<li>URL encode and minifiy it</li>
+<li><p>URL encode and minifiy it</p>
+</li>
 <li><p>use this to generate the link: (FIXME)</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="built_in">echo</span> -n <span class="string">"javascript:"</span>; uglifyjs --no-copyright file.js ; <span class="built_in">echo</span></div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -n <span class="string">"javascript:"</span>; uglifyjs --no-copyright file.js ; <span class="built_in">echo</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>put them in Gist and use a loader, see <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="external">here</a></p>
-</li>
-</ul>
+<li><p>put them in Gist and use a loader, see <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="noopener">here</a></p>
 </li>
 </ul>
-<p><a href="https://atom.io/packages/bookmarklet" target="_blank" rel="external">bookmarklet</a> Atom package<br><a href="http://js.do/blog/bookmarklets/" target="_blank" rel="external">Bookmarklets construction set - Create bookmarklets online</a></p>
-<h2 id="Bookmarklet-Crunchinator"><a href="#Bookmarklet-Crunchinator" class="headerlink" title="Bookmarklet Crunchinator"></a><a href="http://ted.mielczarek.org/code/mozilla/bookmarklet.html" target="_blank" rel="external">Bookmarklet Crunchinator</a></h2><h2 id="Email-Link"><a href="#Email-Link" class="headerlink" title="Email Link"></a>Email Link</h2><p>Generates a <code>mailto:</code> link with the webpage’s URL and title.<br>I use this frequently to share links.<br>I registered Gmail to handle <code>mailto:</code> according to <a href="http://webapps.stackexchange.com/a/33951" target="_blank" rel="external">this</a>.</p>
-<figure class="highlight js"><figcaption><span>Email Link</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"mailto:?SUBJECT="</span>+<span class="built_in">document</span>.title+<span class="string">"&amp;BODY="</span>+<span class="built_in">escape</span>(location.href), <span class="string">"_blank"</span>,<span class="string">"width=628,left="</span>+screen.width*<span class="number">.5</span>+<span class="string">",height=600,top="</span>+screen.height*<span class="number">.1</span>+<span class="string">",resizable,scrollbars=no"</span>))</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><a href="https://atom.io/packages/bookmarklet" target="_blank" rel="noopener">bookmarklet</a> Atom package<br><a href="http://js.do/blog/bookmarklets/" target="_blank" rel="noopener">Bookmarklets construction set - Create bookmarklets online</a></p>
+<h2 id="Bookmarklet-Crunchinator"><a href="#Bookmarklet-Crunchinator" class="headerlink" title="Bookmarklet Crunchinator"></a><a href="http://ted.mielczarek.org/code/mozilla/bookmarklet.html" target="_blank" rel="noopener">Bookmarklet Crunchinator</a></h2><h2 id="Email-Link"><a href="#Email-Link" class="headerlink" title="Email Link"></a>Email Link</h2><p>Generates a <code>mailto:</code> link with the webpage&#39;s URL and title.<br>I use this frequently to share links.<br>I registered Gmail to handle <code>mailto:</code> according to <a href="http://webapps.stackexchange.com/a/33951" target="_blank" rel="noopener">this</a>.</p>
+<figure class="highlight js"><figcaption><span>Email Link</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"mailto:?SUBJECT="</span>+<span class="built_in">document</span>.title+<span class="string">"&amp;BODY="</span>+<span class="built_in">escape</span>(location.href), <span class="string">"_blank"</span>,<span class="string">"width=628,left="</span>+screen.width*<span class="number">.5</span>+<span class="string">",height=600,top="</span>+screen.height*<span class="number">.1</span>+<span class="string">",resizable,scrollbars=no"</span>))</span><br></pre></td></tr></table></figure>
+
 <h2 id="Markdown-Link"><a href="#Markdown-Link" class="headerlink" title="Markdown Link"></a>Markdown Link</h2><p>Creates a Markdown link <code>[]()</code> for the current page. Copy and paste to Markdown documents.</p>
-<figure class="highlight js"><figcaption><span>Markdown Link</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:prompt(<span class="string">'Markdown link for this page:'</span>,<span class="string">'['</span>+<span class="built_in">document</span>.title+<span class="string">']('</span>+<span class="built_in">window</span>.location.href+<span class="string">')'</span>);</div></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>Markdown Link</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:prompt(<span class="string">'Markdown link for this page:'</span>,<span class="string">'['</span>+<span class="built_in">document</span>.title+<span class="string">']('</span>+<span class="built_in">window</span>.location.href+<span class="string">')'</span>);</span><br></pre></td></tr></table></figure>
+
 <h2 id="Duplicate-Tab"><a href="#Duplicate-Tab" class="headerlink" title="Duplicate Tab"></a>Duplicate Tab</h2><p>Duplicates this tab, useful for when you wish to change the url manually.</p>
-<figure class="highlight js"><figcaption><span>Duplicate Tab</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(location.href));</div></pre></td></tr></table></figure>
-<h2 id="Up-a-Directory"><a href="#Up-a-Directory" class="headerlink" title="Up a Directory"></a>Up a Directory</h2><p>I miss the “Up” button in file manager so I bring it to browser.</p>
-<figure class="highlight js"><figcaption><span>Up a Directory</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(location.href=location.href.substring(<span class="number">0</span>,location.href.substring(<span class="number">0</span>,location.href.length<span class="number">-1</span>).lastIndexOf(<span class="string">'/'</span>)+<span class="number">1</span>))</div></pre></td></tr></table></figure>
-<h2 id="Proxy-via-GAE"><a href="#Proxy-via-GAE" class="headerlink" title="Proxy via GAE"></a>Proxy via GAE</h2><p>Sometime, someone blocks my access to website.<br><a href="https://github.com/bslatkin/mirrorrr" target="_blank" rel="external">mirrorrr</a> to the rescue.</p>
-<figure class="highlight js"><figcaption><span>Proxy via GAE</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(location.href=<span class="string">'https://leesei-proxy.appspot.com/?url='</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href))</div></pre></td></tr></table></figure>
-<h2 id="jQuerify"><a href="#jQuerify" class="headerlink" title="jQuerify"></a>jQuerify</h2><p>Loads <a href="http://jquery.com/" target="_blank" rel="external">jQuery</a> (from <a href="https://developers.google.com/speed/libraries/devguide#jquery" target="_blank" rel="external">Google CDN</a>) on any website, use Dev Console to play with it.</p>
-<figure class="highlight"><figcaption><span>jQuerify</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!")%7Dvar e;e=document.createElement("script");e.addEventListener("load",t);e.src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";document.head.appendChild(e)%7D())</div></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>Duplicate Tab</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(location.href));</span><br></pre></td></tr></table></figure>
+
+<h2 id="Up-a-Directory"><a href="#Up-a-Directory" class="headerlink" title="Up a Directory"></a>Up a Directory</h2><p>I miss the &quot;Up&quot; button in file manager so I bring it to browser.</p>
+<figure class="highlight js"><figcaption><span>Up a Directory</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(location.href=location.href.substring(<span class="number">0</span>,location.href.substring(<span class="number">0</span>,location.href.length<span class="number">-1</span>).lastIndexOf(<span class="string">'/'</span>)+<span class="number">1</span>))</span><br></pre></td></tr></table></figure>
+
+<h2 id="Proxy-via-GAE"><a href="#Proxy-via-GAE" class="headerlink" title="Proxy via GAE"></a>Proxy via GAE</h2><p>Sometime, someone blocks my access to website.<br><a href="https://github.com/bslatkin/mirrorrr" target="_blank" rel="noopener">mirrorrr</a> to the rescue.</p>
+<figure class="highlight js"><figcaption><span>Proxy via GAE</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(location.href=<span class="string">'https://leesei-proxy.appspot.com/?url='</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href))</span><br></pre></td></tr></table></figure>
+
+<h2 id="jQuerify"><a href="#jQuerify" class="headerlink" title="jQuerify"></a>jQuerify</h2><p>Loads <a href="http://jquery.com/" target="_blank" rel="noopener">jQuery</a> (from <a href="https://developers.google.com/speed/libraries/devguide#jquery" target="_blank" rel="noopener">Google CDN</a>) on any website, use Dev Console to play with it.</p>
+<figure class="highlight"><figcaption><span>jQuerify</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!")%7Dvar e;e=document.createElement("script");e.addEventListener("load",t);e.src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";document.head.appendChild(e)%7D())</span><br></pre></td></tr></table></figure>
+
 <h2 id="GrabLinks"><a href="#GrabLinks" class="headerlink" title="GrabLinks"></a>GrabLinks</h2><blockquote>
 <p>Note: this is auto updateing as the bookmarklet loads the gist every time it is clicked.</p>
 </blockquote>
-<p>List all the links in Markdown contained in the hovered portion of the page.<br><a href="http://brettterpstra.com/projects/grablinks/" target="_blank" rel="external">GrabLinks - BrettTerpstra.com</a>, <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="external">gist</a>.</p>
+<p>List all the links in Markdown contained in the hovered portion of the page.<br><a href="http://brettterpstra.com/projects/grablinks/" target="_blank" rel="noopener">GrabLinks - BrettTerpstra.com</a>, <a href="https://gist.github.com/ttscoff/5834741" target="_blank" rel="noopener">gist</a>.</p>
 <p>Bookmarklet on website.</p>
 <h2 id="Read-Cookie"><a href="#Read-Cookie" class="headerlink" title="Read Cookie"></a>Read Cookie</h2><p>This is rudimentary, could have parsed it a little bit.<br>But why need this if we have DevTool?</p>
-<figure class="highlight js"><figcaption><span>Read Cookie</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">if</span>(<span class="built_in">document</span>.cookie.length&lt;<span class="number">1</span>)&#123;alert(<span class="string">'No cookie for this site.'</span>)&#125;<span class="keyword">else</span>&#123;alert(<span class="string">'Cookie for this site:\n'</span>+<span class="built_in">document</span>.cookie)&#125;</div></pre></td></tr></table></figure>
-<h2 id="Pocket"><a href="#Pocket" class="headerlink" title="Pocket"></a>Pocket</h2><p><a href="https://getpocket.com/add" target="_blank" rel="external">Pocket: How to Save</a><br><a href="http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet" target="_blank" rel="external">Pocket | Using the Pocket Bookmarklet</a></p>
-<p>Bookmarklet on website (click “install the bookmarklet”).</p>
-<h2 id="Google-Bookmark"><a href="#Google-Bookmark" class="headerlink" title="Google Bookmark"></a>Google Bookmark</h2><p><a href="https://support.google.com/chrome/answer/100215?hl=en" target="_blank" rel="external">Google Bookmarks - Chrome Help</a></p>
+<figure class="highlight js"><figcaption><span>Read Cookie</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">if</span>(<span class="built_in">document</span>.cookie.length&lt;<span class="number">1</span>)&#123;alert(<span class="string">'No cookie for this site.'</span>)&#125;<span class="keyword">else</span>&#123;alert(<span class="string">'Cookie for this site:\n'</span>+<span class="built_in">document</span>.cookie)&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Pocket"><a href="#Pocket" class="headerlink" title="Pocket"></a>Pocket</h2><p><a href="https://getpocket.com/add" target="_blank" rel="noopener">Pocket: How to Save</a><br><a href="http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet" target="_blank" rel="noopener">Pocket | Using the Pocket Bookmarklet</a></p>
+<p>Bookmarklet on website (click &quot;install the bookmarklet&quot;).</p>
+<h2 id="Google-Bookmark"><a href="#Google-Bookmark" class="headerlink" title="Google Bookmark"></a>Google Bookmark</h2><p><a href="https://support.google.com/chrome/answer/100215?hl=en" target="_blank" rel="noopener">Google Bookmarks - Chrome Help</a></p>
 <p>Bookmarklet on website.</p>
 <h2 id="BrowserPad"><a href="#BrowserPad" class="headerlink" title="BrowserPad"></a>BrowserPad</h2><p>HTML5 <code>&lt;contenteditable&gt;</code> is a makeshift cross platform Notepad replacement.<br>A little styling makes it better.</p>
-<figure class="highlight js"><figcaption><span>BrowserPad</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"data:text/html, &lt;html style='height: 100%'&gt; &lt;head&gt; &lt;title&gt;BrowserPad&lt;/title&gt;&lt;head&gt; &lt;body contenteditable style='background-color:#333; color: #ddd; font-family: courier; font-weight: bold'&gt; &lt;/body&gt; &lt;/html&gt;"</span>, <span class="string">"_blank"</span>, <span class="string">"width=800,height=600"</span>));</div></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>BrowserPad</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"data:text/html, &lt;html style='height: 100%'&gt; &lt;head&gt; &lt;title&gt;BrowserPad&lt;/title&gt;&lt;head&gt; &lt;body contenteditable style='background-color:#333; color: #ddd; font-family: courier; font-weight: bold'&gt; &lt;/body&gt; &lt;/html&gt;"</span>, <span class="string">"_blank"</span>, <span class="string">"width=800,height=600"</span>));</span><br></pre></td></tr></table></figure>
+
 <h2 id="Transforming-page"><a href="#Transforming-page" class="headerlink" title="Transforming page"></a>Transforming page</h2><h3 id="Google-Mobile-View"><a href="#Google-Mobile-View" class="headerlink" title="Google Mobile View"></a>Google Mobile View</h3><p>This is an undocumented transformer by Google.</p>
-<figure class="highlight js"><figcaption><span>GWT</span></figcaption><table><tr><td class="code"><pre><div class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"http://www.google.com/gwt/x?u="</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href)));</div></pre></td></tr></table></figure>
-<h3 id="Readability"><a href="#Readability" class="headerlink" title="Readability"></a>Readability</h3><p><a href="https://readability.com/" target="_blank" rel="external">Readability</a> is a service that let you focus on the content of the webpage.<br><a href="http://heckyesmarkdown.com/#bookmarklets" target="_blank" rel="external">heckyesmarkdown</a> provides wrapper around Readability’s <a href="https://readability.com/developers/api" target="_blank" rel="external">API</a>.</p>
-<p>Bookmarklet on website.<br>Use “Readability→Markdown” for clean HTML or “Readability→Markdown (raw)” for Markdown.</p>
-<h3 id="Print-Friendly"><a href="#Print-Friendly" class="headerlink" title="Print Friendly"></a>Print Friendly</h3><p><a href="http://www.printfriendly.com/" target="_blank" rel="external">Print Friendly</a> is a service provides a “print friendly” version of the webpage. It grabs the content intelligently, allow you to remove the unneed parts and save the result as PDF.</p>
+<figure class="highlight js"><figcaption><span>GWT</span></figcaption><table><tr><td class="code"><pre><span class="line">javascript:<span class="keyword">void</span>(<span class="built_in">window</span>.open(<span class="string">"http://www.google.com/gwt/x?u="</span>+<span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.href)));</span><br></pre></td></tr></table></figure>
+
+<h3 id="Readability"><a href="#Readability" class="headerlink" title="Readability"></a>Readability</h3><p><a href="https://readability.com/" target="_blank" rel="noopener">Readability</a> is a service that let you focus on the content of the webpage.<br><a href="http://heckyesmarkdown.com/#bookmarklets" target="_blank" rel="noopener">heckyesmarkdown</a> provides wrapper around Readability&#39;s <a href="https://readability.com/developers/api" target="_blank" rel="noopener">API</a>.</p>
+<p>Bookmarklet on website.<br>Use &quot;Readability→Markdown&quot; for clean HTML or &quot;Readability→Markdown (raw)&quot; for Markdown.</p>
+<h3 id="Print-Friendly"><a href="#Print-Friendly" class="headerlink" title="Print Friendly"></a>Print Friendly</h3><p><a href="http://www.printfriendly.com/" target="_blank" rel="noopener">Print Friendly</a> is a service provides a &quot;print friendly&quot; version of the webpage. It grabs the content intelligently, allow you to remove the unneed parts and save the result as PDF.</p>
 <p>Bookmarklet on website.</p>
-<h2 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h2><h3 id="KeepVid"><a href="#KeepVid" class="headerlink" title="KeepVid"></a>KeepVid</h3><p><a href="http://keepvid.com/" target="_blank" rel="external">KeepVid</a> is a service for downloading videos from various sites.<br>Personally I use <a href="http://rg3.github.io/youtube-dl/" target="_blank" rel="external">youtube-dl</a>, but this is for non-technical people.</p>
-<p><a href="http://keepvid.com/extensions" target="_blank" rel="external">KeepVid / Extensions</a></p>
-<p><a href="http://marklets.com/KeepVid.aspx" target="_blank" rel="external">KeepVid Bookmarklet | Bookmarklet Search Engine</a></p>
+<h2 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h2><h3 id="KeepVid"><a href="#KeepVid" class="headerlink" title="KeepVid"></a>KeepVid</h3><p><a href="http://keepvid.com/" target="_blank" rel="noopener">KeepVid</a> is a service for downloading videos from various sites.<br>Personally I use <a href="http://rg3.github.io/youtube-dl/" target="_blank" rel="noopener">youtube-dl</a>, but this is for non-technical people.</p>
+<p><a href="http://keepvid.com/extensions" target="_blank" rel="noopener">KeepVid / Extensions</a></p>
+<p><a href="http://marklets.com/KeepVid.aspx" target="_blank" rel="noopener">KeepVid Bookmarklet | Bookmarklet Search Engine</a></p>
 <p>Bookmarklet on website.</p>
-<h3 id="Extract-Audio-from-video"><a href="#Extract-Audio-from-video" class="headerlink" title="Extract Audio from video"></a>Extract Audio from video</h3><p><a href="http://www.dirpy.com/" target="_blank" rel="external">Dirpy</a> and <a href="http://www.youtube-mp3.org/" target="_blank" rel="external">YouTube to mp3 Converter</a> both do the job.</p>
-<p><a href="http://marklets.com/Dirpy.aspx" target="_blank" rel="external">Dirpy Bookmarklet | Bookmarklet Search Engine</a></p>
-<p><a href="http://marklets.com/Youtube%20MP3%20Downloader.aspx" target="_blank" rel="external">Youtube MP3 Downloader Bookmarklet | Bookmarklet Search Engine</a></p>
+<h3 id="Extract-Audio-from-video"><a href="#Extract-Audio-from-video" class="headerlink" title="Extract Audio from video"></a>Extract Audio from video</h3><p><a href="http://www.dirpy.com/" target="_blank" rel="noopener">Dirpy</a> and <a href="http://www.youtube-mp3.org/" target="_blank" rel="noopener">YouTube to mp3 Converter</a> both do the job.</p>
+<p><a href="http://marklets.com/Dirpy.aspx" target="_blank" rel="noopener">Dirpy Bookmarklet | Bookmarklet Search Engine</a></p>
+<p><a href="http://marklets.com/Youtube%20MP3%20Downloader.aspx" target="_blank" rel="noopener">Youtube MP3 Downloader Bookmarklet | Bookmarklet Search Engine</a></p>
 <p>Bookmarklet on website.</p>
 <h3 id="YouTube-Frames-as-Storyboard"><a href="#YouTube-Frames-as-Storyboard" class="headerlink" title="YouTube Frames as Storyboard"></a>YouTube Frames as Storyboard</h3><p>Gernerate a storyboard of thumbnails of the video.</p>
-<p><a href="http://www.labnol.org/internet/print-youtube-video/28217/" target="_blank" rel="external">How to Print a YouTube Video - Storyboard Bookmarklet</a><br><a href="https://www.youtube.com/watch?v=Y6yfGGxXyHw" target="_blank" rel="external">YouTube Frames as Storyboard - YouTube</a></p>
+<p><a href="http://www.labnol.org/internet/print-youtube-video/28217/" target="_blank" rel="noopener">How to Print a YouTube Video - Storyboard Bookmarklet</a><br><a href="https://www.youtube.com/watch?v=Y6yfGGxXyHw" target="_blank" rel="noopener">YouTube Frames as Storyboard - YouTube</a></p>
 <p>Bookmarklet on website.</p>
-<h3 id="YouTube-Popup"><a href="#YouTube-Popup" class="headerlink" title="YouTube Popup"></a>YouTube Popup</h3><p><a href="http://www.amreldib.com/blog/OpenYouTubeVideosInPopUpWindowWithBookmark/" target="_blank" rel="external">Open YouTube Videos in PopUp Window with a Bookmark · Amr Eldib</a><br><a href="https://support.google.com/youtube/answer/171780" target="_blank" rel="external">Embed videos and playlists - YouTube Help</a></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">javascript:(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> url = <span class="built_in">window</span>.location;</div><div class="line">    <span class="keyword">if</span>(url.origin.indexOf(<span class="string">"www.youtube.com"</span>) == <span class="number">-1</span>)</div><div class="line">    &#123;</div><div class="line">        alert(<span class="string">"Sorry, this is not a YouTube page! URL: "</span> + url.href);</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">else</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">var</span> width  = <span class="string">"width="</span> + <span class="number">600</span>;</div><div class="line">        <span class="keyword">var</span> height = <span class="string">"height="</span> + <span class="number">480</span>;</div><div class="line">        <span class="keyword">var</span> left   = <span class="string">"left="</span> + (screen.width  - width)/<span class="number">2</span>;</div><div class="line">        <span class="keyword">var</span> top    = <span class="string">"top="</span> + (screen.height - height)/<span class="number">2</span>;</div><div class="line">        </div><div class="line">        <span class="keyword">var</span> query = <span class="built_in">window</span>.location.search.substring(<span class="number">1</span>);</div><div class="line">        <span class="keyword">var</span> vars = query.split(<span class="string">"&amp;"</span>);</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;vars.length;i++) &#123;</div><div class="line">            <span class="keyword">var</span> pair = vars[i].split(<span class="string">"="</span>);</div><div class="line">            <span class="keyword">if</span> (pair[<span class="number">0</span>] == <span class="string">"v"</span>) &#123;</div><div class="line">                <span class="keyword">var</span> videoId = pair[<span class="number">1</span>];</div><div class="line">            &#125;</div><div class="line">        &#125; </div><div class="line">        </div><div class="line">        <span class="built_in">window</span>.open(<span class="string">"http://www.youtube.com/embed/"</span> + videoId, <span class="built_in">document</span>.title, <span class="string">"location=no, directories=no, menubar=no, toolbar=no, scrollbars=no, status=no, resizable=yes, "</span> + width + <span class="string">", "</span> + height + <span class="string">", "</span> + left + <span class="string">", "</span> + top );</div><div class="line">    &#125;</div><div class="line">&#125;());</div></pre></td></tr></table></figure>
-<h3 id="URL-shortener"><a href="#URL-shortener" class="headerlink" title="URL shortener"></a>URL shortener</h3><p><a href="http://is.gd/" target="_blank" rel="external">is.gd - a URL shortener. Mmmm, tasty URLs!</a><br>Bookmarklet on <a href="http://is.gd/faq.php#bookmarklet" target="_blank" rel="external">FAQ</a>.</p>
-<p><a href="http://4fun.tw/" target="_blank" rel="external">硬是要縮 - 比 PPT 短網址更安全的縮網址服務</a></p>
-<p><a href="http://2lo.ng4.me/" target="_blank" rel="external">2lo.ng4.me - short urls</a></p>
+<h3 id="YouTube-Popup"><a href="#YouTube-Popup" class="headerlink" title="YouTube Popup"></a>YouTube Popup</h3><p><a href="http://www.amreldib.com/blog/OpenYouTubeVideosInPopUpWindowWithBookmark/" target="_blank" rel="noopener">Open YouTube Videos in PopUp Window with a Bookmark · Amr Eldib</a><br><a href="https://support.google.com/youtube/answer/171780" target="_blank" rel="noopener">Embed videos and playlists - YouTube Help</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">javascript:(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> url = <span class="built_in">window</span>.location;</span><br><span class="line">    <span class="keyword">if</span>(url.origin.indexOf(<span class="string">"www.youtube.com"</span>) == <span class="number">-1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        alert(<span class="string">"Sorry, this is not a YouTube page! URL: "</span> + url.href);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> width  = <span class="string">"width="</span> + <span class="number">600</span>;</span><br><span class="line">        <span class="keyword">var</span> height = <span class="string">"height="</span> + <span class="number">480</span>;</span><br><span class="line">        <span class="keyword">var</span> left   = <span class="string">"left="</span> + (screen.width  - width)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">var</span> top    = <span class="string">"top="</span> + (screen.height - height)/<span class="number">2</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">var</span> query = <span class="built_in">window</span>.location.search.substring(<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">var</span> vars = query.split(<span class="string">"&amp;"</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;vars.length;i++) &#123;</span><br><span class="line">            <span class="keyword">var</span> pair = vars[i].split(<span class="string">"="</span>);</span><br><span class="line">            <span class="keyword">if</span> (pair[<span class="number">0</span>] == <span class="string">"v"</span>) &#123;</span><br><span class="line">                <span class="keyword">var</span> videoId = pair[<span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; </span><br><span class="line">        </span><br><span class="line">        <span class="built_in">window</span>.open(<span class="string">"http://www.youtube.com/embed/"</span> + videoId, <span class="built_in">document</span>.title, <span class="string">"location=no, directories=no, menubar=no, toolbar=no, scrollbars=no, status=no, resizable=yes, "</span> + width + <span class="string">", "</span> + height + <span class="string">", "</span> + left + <span class="string">", "</span> + top );</span><br><span class="line">    &#125;</span><br><span class="line">&#125;());</span><br></pre></td></tr></table></figure>
+
+<h3 id="URL-shortener"><a href="#URL-shortener" class="headerlink" title="URL shortener"></a>URL shortener</h3><p><a href="http://is.gd/" target="_blank" rel="noopener">is.gd - a URL shortener. Mmmm, tasty URLs!</a><br>Bookmarklet on <a href="http://is.gd/faq.php#bookmarklet" target="_blank" rel="noopener">FAQ</a>.</p>
+<p><a href="http://4fun.tw/" target="_blank" rel="noopener">硬是要縮 - 比 PPT 短網址更安全的縮網址服務</a></p>
+<p><a href="http://2lo.ng4.me/" target="_blank" rel="noopener">2lo.ng4.me - short urls</a></p>
 <p>Bookmarklet on website.</p>
 	  
 	</div>
@@ -235,7 +249,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/web/">web<span>53</span></a></li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
   </li>
 
     </ul>
@@ -275,7 +289,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

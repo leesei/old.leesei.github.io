@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Android content command | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Android content command"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Android content command">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -107,15 +107,22 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p>Notes for interacting with ContentProvider in console on Android system.</p>
-<p><a href="https://github.com/sromku/adb-export" target="_blank" rel="external">sromku/adb-export: Bash script to export android content providers data to csv</a></p>
+<p><a href="https://github.com/sromku/adb-export" target="_blank" rel="noopener">sromku/adb-export: Bash script to export android content providers data to csv</a></p>
 <a id="more"></a>
-<h2 id="content-command"><a href="#content-command" class="headerlink" title="content command"></a><code>content</code> command</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">usage: adb shell content [subcommand] [options]</div><div class="line"></div><div class="line">usage: adb shell content insert --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] --bind &lt;BINDING&gt; [--bind &lt;BINDING&gt;...]</div><div class="line">  &lt;URI&gt; a content provider URI.</div><div class="line">  &lt;BINDING&gt; binds a typed value to a column and is formatted:</div><div class="line">  &lt;COLUMN_NAME&gt;:&lt;TYPE&gt;:&lt;COLUMN_VALUE&gt; where:</div><div class="line">  &lt;TYPE&gt; specifies data type such as:</div><div class="line">  b - boolean, s - string, i - integer, l - long, f - float, d - double</div><div class="line">  Note: Omit the value for passing an empty string, e.g column:s:</div><div class="line">  Example:</div><div class="line">  # Add &quot;new_setting&quot; secure setting with value &quot;new_value&quot;.</div><div class="line">  adb shell content insert --uri content://settings/secure --bind name:s:new_setting --bind value:s:new_value</div><div class="line"></div><div class="line">usage: adb shell content update --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] [--where &lt;WHERE&gt;]</div><div class="line">  &lt;WHERE&gt; is a SQL style where clause in quotes (You have to escape single quotes - see example below).</div><div class="line">  Example:</div><div class="line">  # Change &quot;new_setting&quot; secure setting to &quot;newer_value&quot;.</div><div class="line">  adb shell content update --uri content://settings/secure --bind value:s:newer_value --where &quot;name=\&apos;new_setting\&apos;&quot;</div><div class="line"></div><div class="line">usage: adb shell content delete --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] --bind &lt;BINDING&gt; [--bind &lt;BINDING&gt;...] [--where &lt;WHERE&gt;]</div><div class="line">  Example:</div><div class="line">  # Remove &quot;new_setting&quot; secure setting.</div><div class="line">  adb shell content delete --uri content://settings/secure --where &quot;name=\&apos;new_setting\&apos;&quot;</div><div class="line"></div><div class="line">usage: adb shell content query --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] [--projection &lt;PROJECTION&gt;] [--where &lt;WHERE&gt;] [--sort &lt;SORT_ORDER&gt;]</div><div class="line">  &lt;PROJECTION&gt; is a list of colon separated column names and is formatted:</div><div class="line">  &lt;COLUMN_NAME&gt;[:&lt;COLUMN_NAME&gt;...]</div><div class="line">  &lt;SORT_OREDER&gt; is the order in which rows in the result should be sorted.</div><div class="line">  Example:</div><div class="line">  # Select &quot;name&quot; and &quot;value&quot; columns from secure settings where &quot;name&quot; is equal to &quot;new_setting&quot; and sort the result by name in ascending order.</div><div class="line">  adb shell content query --uri content://settings/secure --projection name:value --where &quot;name=\&apos;new_setting\&apos;&quot; --sort &quot;name ASC&quot;</div></pre></td></tr></table></figure>
-<h2 id="pulling-database-from-device"><a href="#pulling-database-from-device" class="headerlink" title="pulling database from device"></a>pulling database from device</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># pull databases/</span></div><div class="line"><span class="built_in">cd</span> /data/data; busybox find . -type d -name databases -type d | busybox xargs busybox tar cf /sdcard/databases.tar</div><div class="line">adbpull databases.tar</div><div class="line">tar xf databases.tar</div></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># pull data/data</span></div><div class="line"><span class="built_in">cd</span> /data/data; busybox tar cf /sdcard/data.tar .</div><div class="line">adbpull data.tar</div><div class="line">tar xf data.tar</div></pre></td></tr></table></figure>
-<h2 id="settings-command"><a href="#settings-command" class="headerlink" title="settings command"></a><code>settings</code> command</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">usage:  settings [--user NUM] get namespace key</div><div class="line">        settings [--user NUM] put namespace key value</div><div class="line"></div><div class="line">&apos;namespace&apos; is one of &#123;system, secure, global&#125;, case-insensitive</div><div class="line">If &apos;--user NUM&apos; is not given, the operations are performed on the owner user.</div></pre></td></tr></table></figure>
+
+<h2 id="content-command"><a href="#content-command" class="headerlink" title="content command"></a><code>content</code> command</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">usage: adb shell content [subcommand] [options]</span><br><span class="line"></span><br><span class="line">usage: adb shell content insert --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] --bind &lt;BINDING&gt; [--bind &lt;BINDING&gt;...]</span><br><span class="line">  &lt;URI&gt; a content provider URI.</span><br><span class="line">  &lt;BINDING&gt; binds a typed value to a column and is formatted:</span><br><span class="line">  &lt;COLUMN_NAME&gt;:&lt;TYPE&gt;:&lt;COLUMN_VALUE&gt; where:</span><br><span class="line">  &lt;TYPE&gt; specifies data type such as:</span><br><span class="line">  b - boolean, s - string, i - integer, l - long, f - float, d - double</span><br><span class="line">  Note: Omit the value for passing an empty string, e.g column:s:</span><br><span class="line">  Example:</span><br><span class="line">  # Add &quot;new_setting&quot; secure setting with value &quot;new_value&quot;.</span><br><span class="line">  adb shell content insert --uri content://settings/secure --bind name:s:new_setting --bind value:s:new_value</span><br><span class="line"></span><br><span class="line">usage: adb shell content update --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] [--where &lt;WHERE&gt;]</span><br><span class="line">  &lt;WHERE&gt; is a SQL style where clause in quotes (You have to escape single quotes - see example below).</span><br><span class="line">  Example:</span><br><span class="line">  # Change &quot;new_setting&quot; secure setting to &quot;newer_value&quot;.</span><br><span class="line">  adb shell content update --uri content://settings/secure --bind value:s:newer_value --where &quot;name=\&apos;new_setting\&apos;&quot;</span><br><span class="line"></span><br><span class="line">usage: adb shell content delete --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] --bind &lt;BINDING&gt; [--bind &lt;BINDING&gt;...] [--where &lt;WHERE&gt;]</span><br><span class="line">  Example:</span><br><span class="line">  # Remove &quot;new_setting&quot; secure setting.</span><br><span class="line">  adb shell content delete --uri content://settings/secure --where &quot;name=\&apos;new_setting\&apos;&quot;</span><br><span class="line"></span><br><span class="line">usage: adb shell content query --uri &lt;URI&gt; [--user &lt;USER_ID&gt;] [--projection &lt;PROJECTION&gt;] [--where &lt;WHERE&gt;] [--sort &lt;SORT_ORDER&gt;]</span><br><span class="line">  &lt;PROJECTION&gt; is a list of colon separated column names and is formatted:</span><br><span class="line">  &lt;COLUMN_NAME&gt;[:&lt;COLUMN_NAME&gt;...]</span><br><span class="line">  &lt;SORT_OREDER&gt; is the order in which rows in the result should be sorted.</span><br><span class="line">  Example:</span><br><span class="line">  # Select &quot;name&quot; and &quot;value&quot; columns from secure settings where &quot;name&quot; is equal to &quot;new_setting&quot; and sort the result by name in ascending order.</span><br><span class="line">  adb shell content query --uri content://settings/secure --projection name:value --where &quot;name=\&apos;new_setting\&apos;&quot; --sort &quot;name ASC&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="pulling-database-from-device"><a href="#pulling-database-from-device" class="headerlink" title="pulling database from device"></a>pulling database from device</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># pull databases/</span></span><br><span class="line"><span class="built_in">cd</span> /data/data; busybox find . -<span class="built_in">type</span> d -name databases -<span class="built_in">type</span> d | busybox xargs busybox tar cf /sdcard/databases.tar</span><br><span class="line">adbpull databases.tar</span><br><span class="line">tar xf databases.tar</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># pull data/data</span></span><br><span class="line"><span class="built_in">cd</span> /data/data; busybox tar cf /sdcard/data.tar .</span><br><span class="line">adbpull data.tar</span><br><span class="line">tar xf data.tar</span><br></pre></td></tr></table></figure>
+
+<h2 id="settings-command"><a href="#settings-command" class="headerlink" title="settings command"></a><code>settings</code> command</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">usage:  settings [--user NUM] get namespace key</span><br><span class="line">        settings [--user NUM] put namespace key value</span><br><span class="line"></span><br><span class="line">&apos;namespace&apos; is one of &#123;system, secure, global&#125;, case-insensitive</span><br><span class="line">If &apos;--user NUM&apos; is not given, the operations are performed on the owner user.</span><br></pre></td></tr></table></figure>
+
 <h2 id="samples"><a href="#samples" class="headerlink" title="samples"></a>samples</h2><h3 id="Settings"><a href="#Settings" class="headerlink" title="Settings"></a>Settings</h3><p>Settings database located at <code>/data/data/com.android.providers.settings/databases/settings.db</code></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">content query --uri content://settings/secure</div><div class="line"><span class="comment"># this fails, better to use settings</span></div><div class="line">content update --uri content://com.google.settings/partner --bind value:s:gps --where name=<span class="string">"\'location_providers_allowed\'"</span></div><div class="line"></div><div class="line">settings get system screen_off_timeout</div><div class="line">settings put system screen_off_timeout 36000000</div><div class="line"><span class="comment"># use `content query` to list keys in `&#123;system, secure, global&#125;` table</span></div></pre></td></tr></table></figure>
-<h3 id="com-google-settings-partner"><a href="#com-google-settings-partner" class="headerlink" title="com.google.settings/partner"></a><code>com.google.settings/partner</code></h3><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">content query --uri content://com.google.settings/partner</div><div class="line">content update --uri content://com.google.settings/partner --bind value:i:0 --where name=<span class="string">"\'network_location_opt_in\'"</span></div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">content query --uri content://settings/secure</span><br><span class="line"><span class="comment"># this fails, better to use settings</span></span><br><span class="line">content update --uri content://com.google.settings/partner --<span class="built_in">bind</span> value:s:gps --<span class="built_in">where</span> name=<span class="string">"\'location_providers_allowed\'"</span></span><br><span class="line"></span><br><span class="line">settings get system screen_off_timeout</span><br><span class="line">settings put system screen_off_timeout 36000000</span><br><span class="line"><span class="comment"># use `content query` to list keys in `&#123;system, secure, global&#125;` table</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="com-google-settings-partner"><a href="#com-google-settings-partner" class="headerlink" title="com.google.settings/partner"></a><code>com.google.settings/partner</code></h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">content query --uri content://com.google.settings/partner</span><br><span class="line">content update --uri content://com.google.settings/partner --<span class="built_in">bind</span> value:i:0 --<span class="built_in">where</span> name=<span class="string">"\'network_location_opt_in\'"</span></span><br></pre></td></tr></table></figure>
+
 	  
 	</div>
 
@@ -186,7 +193,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/content/">content<span>1</span></a></li>
+  <li><a href="/tags/shell-tool/">shell-tool<span>23</span></a></li> <li><a href="/tags/content/">content<span>1</span></a></li> <li><a href="/tags/settings/">settings<span>11</span></a></li>
     </ul>
 	</div>
 		
@@ -213,7 +220,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

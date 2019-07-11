@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Nvidia GPU in Docker | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Nvidia GPU in Docker">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Nvidia GPU in Docker</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://developer.nvidia.com/nvidia-container-runtime" target="_blank" rel="noopener">NVIDIA Container Runtime | NVIDIA Developer</a><br><a href="https://devblogs.nvidia.com/gpu-containers-runtime/" target="_blank" rel="noopener">Enabling GPUs in the Container Runtime Ecosystem | NVIDIA Developer Blog</a></p>
+<p><a href="https://github.com/NVIDIA/nvidia-docker" target="_blank" rel="noopener">NVIDIA/nvidia-docker: Build and run Docker containers leveraging NVIDIA GPUs</a><br><a href="https://github.com/NVIDIA/nvidia-docker/releases" target="_blank" rel="noopener">Releases · NVIDIA/nvidia-docker</a> <a href="https://github.com/NVIDIA/nvidia-docker/wiki/Motivation" target="_blank" rel="noopener">Motivation · NVIDIA/nvidia-docker Wiki</a><br>2.0 uses <code>nvidia-container-runtime</code> instead of <code>runC</code>.</p>
+<p><a href="https://nvidia.github.io/libnvidia-container/" target="_blank" rel="noopener">Repository configuration | libnvidia-container</a><br><a href="https://github.com/nvidia/nvidia-container-runtime#installation" target="_blank" rel="noopener">NVIDIA/nvidia-container-runtime: NVIDIA container runtime</a> a modified runC that will invoke <code>nvidia-container-cli</code> from project <code>libnvidia-container</code> when container starts.<br><a href="https://github.com/NVIDIA/libnvidia-container" target="_blank" rel="noopener">NVIDIA/libnvidia-container: NVIDIA container runtime library</a></p>
+<h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><p><a href="https://github.com/NVIDIA/nvidia-docker/wiki/Installation-%28version-2.0%29" target="_blank" rel="noopener">Installation (version 2.0) · NVIDIA/nvidia-docker Wiki</a></p>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><ul>
+<li>Installation Ubuntu 16.04 Server (16.04 with upgrade)</li>
+<li>Install Docker CE (17.06+) with.deb<br><a href="https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-from-a-package" target="_blank" rel="noopener">https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-from-a-package</a></li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo apt install libltdl7</span><br><span class="line">sudo dpkg -i docker-ce_17.06.2-ce-0-ubuntu_amd64.deb</span><br><span class="line">sudo systemctl <span class="built_in">enable</span> docker &amp;&amp; sudo systemctl start docker</span><br><span class="line">sudo usermod -a -G docker <span class="variable">$&#123;USER&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="NVIDIA-driver"><a href="#NVIDIA-driver" class="headerlink" title="NVIDIA driver"></a>NVIDIA driver</h2><p><a href="https://github.com/NVIDIA/nvidia-docker/wiki/Frequently-Asked-Questions#how-do-i-install-the-nvidia-driver" target="_blank" rel="noopener">How do I install the NVIDIA driver? · NVIDIA/nvidia-docker Wiki</a><br><a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu-installation" target="_blank" rel="noopener">Installation Guide Linux :: CUDA Toolkit Documentation</a><br><a href="https://www.linkedin.com/pulse/installing-nvidia-cuda-80-ubuntu-1604-linux-gpu-new-victor" target="_blank" rel="noopener">Installing Nvidia CUDA 8.0 on Ubuntu 16.04 for Linux GPU Computing (New Troubleshooting Guide)</a></p>
+<p>install NVIDIA driver (384.90+) and CUDA</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo apt-get install nvidia-384 nvidia-cuda-toolkit</span><br><span class="line"></span><br><span class="line"><span class="comment"># verify installation</span></span><br><span class="line">lsmod | grep nvidia</span><br><span class="line">ldconfig -p | grep -E <span class="string">'nvidia|cuda'</span></span><br><span class="line"></span><br><span class="line">nvidia-smi</span><br><span class="line">nvidia-modprobe</span><br><span class="line">nvcc --version</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://comzyh.com/blog/archives/967/" target="_blank" rel="noopener">解决 Driver/library version mismatch | Comzyh 的博客</a><br>Also fixed by a reboot<br><a href="https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa" target="_blank" rel="noopener">Proprietary GPU Drivers : “Graphics Drivers” team</a><br><a href="https://blog.csdn.net/xianglao1935/article/details/80512345" target="_blank" rel="noopener">https://blog.csdn.net/xianglao1935/article/details/80512345</a></p>
+<h2 id="nvidia-docker2"><a href="#nvidia-docker2" class="headerlink" title="nvidia-docker2"></a><code>nvidia-docker2</code></h2><blockquote>
+<p>Note: installing this overwrites <code>/etc/docker/daemon.json</code></p>
+</blockquote>
+<p>Set default runtime of docker daemon with <code>--default-runtime=nvidia</code>.<br><a href="https://github.com/nvidia/nvidia-container-runtime#environment-variables-oci-spec" target="_blank" rel="noopener">Environment variables (OCI spec)</a></p>
+<blockquote>
+<p>Use <code>nvidia-docker2</code> matching the Docker version installed</p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \</span><br><span class="line">  sudo apt-key add -</span><br><span class="line">curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu16.04/amd64/nvidia-docker.list | \</span><br><span class="line">  sudo tee /etc/apt/sources.list.d/nvidia-docker.list</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nvidia-docker2  <span class="comment"># latest</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># MUST match the Docker version installed</span></span><br><span class="line">apt show nvidia-docker2 -a | grep Version</span><br><span class="line">apt show nvidia-container-runtime -a | grep Version</span><br><span class="line"><span class="comment"># for Docker 17.06.2</span></span><br><span class="line">sudo apt-get install \</span><br><span class="line">  nvidia-docker2=2.0.3+docker17.06.2-1 \</span><br><span class="line">  nvidia-container-runtime=2.0.0+docker17.06.2-1</span><br><span class="line"><span class="comment"># for Docker 17.09</span></span><br><span class="line">sudo apt-get install \</span><br><span class="line">  nvidia-docker2=2.0.3+docker17.09.0-1 \</span><br><span class="line">  nvidia-container-runtime=2.0.0+docker17.09.0-1</span><br><span class="line">sudo pkill -SIGHUP dockerd</span><br></pre></td></tr></table></figure>
+
+<h2 id="Changing-default-runtime"><a href="#Changing-default-runtime" class="headerlink" title="Changing default runtime"></a>Changing default runtime</h2><p>Use <code>/usr/bin/nvidia-container-runtime</code> in <code>/etc/docker/daemon.json</code>:</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"default-runtime"</span>: <span class="string">"nvidia"</span>,</span><br><span class="line">  <span class="attr">"runtimes"</span>: &#123;</span><br><span class="line">    <span class="attr">"nvidia"</span>: &#123;</span><br><span class="line">      <span class="attr">"path"</span>: <span class="string">"/usr/bin/nvidia-container-runtime"</span>,</span><br><span class="line">      <span class="attr">"runtimeArgs"</span>: []</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># now use</span></span><br><span class="line">docker run --rm nvidia/cuda:8.0-runtime-ubuntu16.04 nvidia-smi</span><br><span class="line"><span class="comment"># instead of</span></span><br><span class="line">docker run --runtime=nvidia --rm nvidia/cuda:8.0-runtime-ubuntu16.04 nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment"># swarm service also work</span></span><br><span class="line">docker swarm init</span><br><span class="line">docker service create --name cuda-service --constraint node.labels.gpu==<span class="literal">true</span> nvidia/cuda:<span class="built_in">test</span>-service</span><br></pre></td></tr></table></figure>
+
+<h2 id="cuda-Base-Image"><a href="#cuda-Base-Image" class="headerlink" title="cuda Base Image"></a>cuda Base Image</h2><p><a href="https://hub.docker.com/r/nvidia/cuda/" target="_blank" rel="noopener">nvidia/cuda - Docker Hub</a><br><a href="https://gitlab.com/nvidia/cuda/blob/ubuntu16.04/8.0/runtime/Dockerfile" target="_blank" rel="noopener">8.0/runtime/Dockerfile · ubuntu16.04 · nvidia / cuda · GitLab</a><br><a href="https://gitlab.com/nvidia/cuda/blob/ubuntu16.04/8.0/devel/Dockerfile" target="_blank" rel="noopener">8.0/devel/Dockerfile · ubuntu16.04 · nvidia / cuda · GitLab</a><br><a href="https://gitlab.com/nvidia/cuda/blob/ubuntu16.04/8.0/runtime/cudnn8/Dockerfile" target="_blank" rel="noopener">8.0/runtime/cudnn8/Dockerfile · ubuntu16.04 · nvidia / cuda · GitLab</a></p>
+<h2 id="Kubernetes"><a href="#Kubernetes" class="headerlink" title="Kubernetes"></a>Kubernetes</h2><p><a href="https://developer.nvidia.com/kubernetes-gpu" target="_blank" rel="noopener">NVIDIA Container Runtime and Orchestrators | NVIDIA Developer</a><br><a href="https://docs.nvidia.com/datacenter/kubernetes/kubernetes-install-guide/index.html" target="_blank" rel="noopener">Kubernetes on NVIDIA GPUs Installation Guide :: Data Center Documentation</a></p>
+<p><a href="https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/" target="_blank" rel="noopener">Schedule GPUs - Kubernetes</a><br><a href="https://ubuntu.com/blog/using-gpgpus-with-kubernetes" target="_blank" rel="noopener">Using GPGPUs with Kubernetes | Ubuntu</a><br><a href="https://www.infoq.cn/article/ypP*1sbAuBAD1KL1qB4K" target="_blank" rel="noopener">基于 Kubernetes 的 GPU 类型调度实现</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/slayers/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/math/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2017-11-03 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/container/">container<span>11</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-deploy/">web-deploy<span>16</span></a></li> <li><a href="/tags/docker/">docker<span>7</span></a></li> <li><a href="/tags/nvidia/">nvidia<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

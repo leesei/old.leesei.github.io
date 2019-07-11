@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>JavaScript Snippets | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="JavaScript Snippets">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> JavaScript Snippets</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <blockquote>
+<p>TODO: add code from <code>~/commonroom/node-belt/</code></p>
+</blockquote>
+<h2 id="looping"><a href="#looping" class="headerlink" title="looping"></a>looping</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// looping POJO</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> key <span class="keyword">in</span> obj) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(key + <span class="string">" -&gt; "</span> + obj[key]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> [key, value] <span class="keyword">of</span> <span class="built_in">Object</span>.entries(obj)) &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`<span class="subst">$&#123;key&#125;</span>: <span class="subst">$&#123;value&#125;</span>`</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">Object</span>.keys(obj).map(<span class="function"><span class="params">value</span> =&gt;</span> &#123;&#125;);</span><br><span class="line"><span class="built_in">Object</span>.values(obj).map(<span class="function"><span class="params">value</span> =&gt;</span> &#123;&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// looping array</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> item <span class="keyword">of</span> arr) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(item);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// arr.map(function callback(currentValue[, index[, array]])</span></span><br><span class="line">arr.map(<span class="function"><span class="params">item</span> =&gt;</span> &#123;&#125;);</span><br><span class="line"><span class="comment">// arr.forEach(function callback(currentValue[, index[, array]])</span></span><br><span class="line">arr.forEach(<span class="function"><span class="params">item</span> =&gt;</span> &#123;&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="padding"><a href="#padding" class="headerlink" title="padding"></a>padding</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">//pads left</span></span><br><span class="line"><span class="built_in">String</span>.prototype.lpad = <span class="function"><span class="keyword">function</span>(<span class="params">padChar, length</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> str = <span class="keyword">this</span>;</span><br><span class="line">  <span class="keyword">var</span> padString = (length &gt; str.length)?</span><br><span class="line">    <span class="comment">// limit padding char to 1 character</span></span><br><span class="line">    <span class="built_in">Array</span>(length-str.length+<span class="number">1</span>).join(padChar[<span class="number">0</span>]) : <span class="string">''</span>;</span><br><span class="line">  <span class="keyword">return</span> (padString + str);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//pads right</span></span><br><span class="line"><span class="built_in">String</span>.prototype.rpad = <span class="function"><span class="keyword">function</span>(<span class="params">padChar, length</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> str = <span class="keyword">this</span>;</span><br><span class="line">  <span class="keyword">var</span> padString = (length &gt; str.length)?</span><br><span class="line">    <span class="comment">// limit padding char to 1 character</span></span><br><span class="line">    <span class="built_in">Array</span>(length-str.length+<span class="number">1</span>).join(padChar[<span class="number">0</span>]) : <span class="string">''</span>;</span><br><span class="line">  <span class="keyword">return</span> (str + padString);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// usage</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"5"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(str.lpad(<span class="string">" "</span>, <span class="number">3</span>)); <span class="comment">//result "  5"</span></span><br><span class="line"><span class="built_in">console</span>.log(str.rpad(<span class="string">"0"</span>, <span class="number">3</span>)); <span class="comment">//result "500"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">"56789"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(str.lpad(<span class="string">" "</span>, <span class="number">3</span>)); <span class="comment">//result "56789"</span></span><br><span class="line"><span class="built_in">console</span>.log(str.rpad(<span class="string">"0"</span>, <span class="number">3</span>)); <span class="comment">//result "56789"</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="debounce"><a href="#debounce" class="headerlink" title="debounce"></a>debounce</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Code from _.debounce()</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Returns a function, that, as long as it continues to be invoked, will not</span></span><br><span class="line"><span class="comment">// be triggered. The function will be called after it stops being called for</span></span><br><span class="line"><span class="comment">// N milliseconds. If `immediate` is passed, trigger the function on the</span></span><br><span class="line"><span class="comment">// leading edge, instead of the trailing.</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">func, wait, immediate</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> timeout;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> context = <span class="keyword">this</span>, args = <span class="built_in">arguments</span>;</span><br><span class="line">        <span class="keyword">var</span> later = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            timeout = <span class="literal">null</span>;</span><br><span class="line">            <span class="keyword">if</span> (!immediate) func.apply(context, args);</span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="keyword">var</span> callNow = immediate &amp;&amp; !timeout;</span><br><span class="line">        clearTimeout(timeout);</span><br><span class="line">        timeout = setTimeout(later, wait);</span><br><span class="line">        <span class="keyword">if</span> (callNow) func.apply(context, args);</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Usage</span></span><br><span class="line"><span class="keyword">var</span> myEfficientFn = debounce(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">// All the taxing stuff you do</span></span><br><span class="line">&#125;, <span class="number">250</span>);</span><br><span class="line"><span class="built_in">window</span>.addEventListener(<span class="string">'resize'</span>, myEfficientFn);</span><br><span class="line">input.onchange = myEfficientFn;</span><br></pre></td></tr></table></figure>
+
+<h2 id="ISO-date"><a href="#ISO-date" class="headerlink" title="ISO date"></a>ISO date</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">pad</span>(<span class="params">number</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (number &lt; <span class="number">10</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">'0'</span> + number;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> number;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ISODateString</span>(<span class="params">date</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> date.getUTCFullYear() +</span><br><span class="line">    pad(date.getUTCMonth() + <span class="number">1</span>) +</span><br><span class="line">    pad(date.getUTCDate());</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h2 id="dynamically-register-source"><a href="#dynamically-register-source" class="headerlink" title="dynamically register source"></a>dynamically register source</h2><p>This sample code is for adding routes to Hapi, but the technique is applicable elsewhere.</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Look through the routes in</span></span><br><span class="line"><span class="comment">// all the subdirectories of API</span></span><br><span class="line"><span class="comment">// and create a new route for each</span></span><br><span class="line">glob.sync(<span class="string">'api/**/routes/*.js'</span>, &#123;</span><br><span class="line">  root: __dirname</span><br><span class="line">&#125;).forEach(<span class="function"><span class="params">file</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> route = <span class="built_in">require</span>(path.join(__dirname, file));</span><br><span class="line">  server.route(route);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="pick-from-object"><a href="#pick-from-object" class="headerlink" title="pick from object"></a>pick from object</h2><p><a href="https://stackoverflow.com/questions/25553910/one-liner-to-take-some-properties-from-object-in-es-6" target="_blank" rel="noopener">javascript - One-liner to take some properties from object in ES 6 - Stack Overflow</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ES6 destructing requires a reconstruction for object output</span></span><br><span class="line"><span class="keyword">const</span> &#123;color, height&#125; = source;</span><br><span class="line"><span class="keyword">const</span> subset = &#123;color, height&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// one liner</span></span><br><span class="line"><span class="keyword">var</span> subset = [<span class="string">'color'</span>, <span class="string">'height'</span>].reduce(</span><br><span class="line">  (o, k) =&gt; &#123; o[k] = source[k]; <span class="keyword">return</span> o; &#125;, &#123;&#125;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">// function</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">pick</span>(<span class="params">source, ...fields</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> fields.reduce(<span class="function">(<span class="params">o, x</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">if</span>(source.hasOwnProperty(x)) o[x] = source[x];</span><br><span class="line">        <span class="keyword">return</span> o;</span><br><span class="line">    &#125;, &#123;&#125;);</span><br><span class="line">&#125;</span><br><span class="line">subset = pick(source, <span class="string">'color'</span>, <span class="string">'height'</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="Convert-string-to-ByteArray"><a href="#Convert-string-to-ByteArray" class="headerlink" title="Convert string to ByteArray"></a>Convert string to ByteArray</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Returns a new array of bytes representing the given string encoded in UTF-8.</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">toUtf8ByteArray</span>(<span class="params">str</span>) </span>&#123;</span><br><span class="line">  str = <span class="built_in">encodeURI</span>(str);</span><br><span class="line">  <span class="keyword">var</span> result = [];</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; str.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (str.charAt(i) != <span class="string">"%"</span>)</span><br><span class="line">      result.push(str.charCodeAt(i));</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">      result.push(<span class="built_in">parseInt</span>(str.substr(i + <span class="number">1</span>, <span class="number">2</span>), <span class="number">16</span>));</span><br><span class="line">      i += <span class="number">2</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/nayuki/QR-Code-generator/blob/98d1f0cc91d060cbb2cd19a4663e4cfac237cd51/javascript/qrcodegen.js#L881" target="_blank" rel="noopener">QR-Code-generator/qrcodegen.js at 98d1f0cc91d060cbb2cd19a4663e4cfac237cd51 · nayuki/QR-Code-generator</a></p>
+<h2 id="Stack-Restify-over-Express"><a href="#Stack-Restify-over-Express" class="headerlink" title="Stack Restify over Express"></a>Stack Restify over Express</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> restify = <span class="built_in">require</span>(<span class="string">'restify'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// see http://stackoverflow.com/a/13690887/665507</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Restify server config here</span></span><br><span class="line"><span class="keyword">var</span> server = restify.createServer(&#123;</span><br><span class="line">  name: <span class="string">'restify-test'</span>,</span><br><span class="line">  version: <span class="string">'1.0.0'</span>,</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Express config here</span></span><br><span class="line"><span class="keyword">var</span> expressApp = express()</span><br><span class="line">    .use(express.logger())</span><br><span class="line">    .use(express.bodyParser())</span><br><span class="line">    .use(express.query())</span><br><span class="line">    .use(express.cookieParser())</span><br><span class="line">    <span class="comment">// And this is where the magic happens</span></span><br><span class="line">    .use(<span class="string">"/api"</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">             server.server.emit(<span class="string">'request'</span>, req, res);</span><br><span class="line">         &#125;);</span><br><span class="line"></span><br><span class="line">expressApp.listen(<span class="number">8080</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="HTTPS-server"><a href="#HTTPS-server" class="headerlink" title="HTTPS server"></a>HTTPS server</h2><p>Generate key with <code>openssl</code> first.</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'Hello World'</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</span><br><span class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> options = &#123;</span><br><span class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</span><br><span class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (port) &#123;</span><br><span class="line">    http.createServer(app).listen(port);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (ports) &#123;</span><br><span class="line">    https.createServer(options, app).listen(ports);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/typescript-notes/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/javascript-notes/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-12-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/javascript/">javascript<span>14</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#looping"><span class="toc-article-text">looping</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#padding"><span class="toc-article-text">padding</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#debounce"><span class="toc-article-text">debounce</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ISO-date"><span class="toc-article-text">ISO date</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#dynamically-register-source"><span class="toc-article-text">dynamically register source</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#pick-from-object"><span class="toc-article-text">pick from object</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Convert-string-to-ByteArray"><span class="toc-article-text">Convert string to ByteArray</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Stack-Restify-over-Express"><span class="toc-article-text">Stack Restify over Express</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#HTTPS-server"><span class="toc-article-text">HTTPS server</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

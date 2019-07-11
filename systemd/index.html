@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>systemd | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="systemd"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="systemd">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,16 +106,25 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="http://www.wikiwand.com/en/Systemd" target="_blank" rel="external">systemd - Wikiwand</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/" target="_blank" rel="external">systemd - freedesktop.org</a><br><a href="https://wiki.archlinux.org/index.php/systemd" target="_blank" rel="external">systemd - ArchWiki</a><br><a href="https://wiki.debian.org/systemd" target="_blank" rel="external">systemd - Debian Wiki</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/" target="_blank" rel="external">TipsAndTricks</a></p>
-<p><a href="http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html" target="_blank" rel="external">Meet systemd, the controversial project taking over a Linux distro near you | PCWorld</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units" target="_blank" rel="external">How To Use Systemctl to Manage Systemd Services and Units | DigitalOcean</a><br><a href="https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal" target="_blank" rel="external">Systemd Essentials: Working with Services, Units, and the Journal | DigitalOcean</a></p>
+	    <p><a href="http://www.wikiwand.com/en/Systemd" target="_blank" rel="noopener">systemd - Wikiwand</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/" target="_blank" rel="noopener">systemd - freedesktop.org</a><br><a href="https://wiki.archlinux.org/index.php/systemd" target="_blank" rel="noopener">systemd - ArchWiki</a><br><a href="https://wiki.debian.org/systemd" target="_blank" rel="noopener">systemd - Debian Wiki</a><br><a href="http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/" target="_blank" rel="noopener">TipsAndTricks</a></p>
+<p><a href="http://0pointer.de/blog/projects/systemd.html" target="_blank" rel="noopener">Rethinking PID 1</a><br><a href="http://0pointer.de/blog/projects/the-biggest-myths.html" target="_blank" rel="noopener">The Biggest Myths</a> by author of <code>systemd</code></p>
+<p><a href="http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html" target="_blank" rel="noopener">Meet systemd, the controversial project taking over a Linux distro near you | PCWorld</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units" target="_blank" rel="noopener">How To Use Systemctl to Manage Systemd Services and Units | DigitalOcean</a><br><a href="https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal" target="_blank" rel="noopener">Systemd Essentials: Working with Services, Units, and the Journal | DigitalOcean</a><br><a href="https://media.ccc.de/v/ASG2018-230-systemd_in_2018/oembed" target="_blank" rel="noopener">media.ccc.de - systemd in 2018</a></p>
 <p>System services are written in <code>.service</code> files, located in:<br><code>/usr/lib/systemd/system</code> (enabled) and <code>/usr/lib/systemd/system/</code> (available).</p>
-<p>This is what <code>systemctl enable teamviewerd</code> does:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">ln -s &apos;/usr/lib/systemd/system/teamviewerd.service&apos; &apos;/etc/systemd/system/graphical.target.wants/teamviewerd.service&apos;</div></pre></td></tr></table></figure></p>
+<p>This is what <code>systemctl enable teamviewerd</code> does:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ln -s <span class="string">'/usr/lib/systemd/system/teamviewerd.service'</span> <span class="string">'/etc/systemd/system/graphical.target.wants/teamviewerd.service'</span></span><br></pre></td></tr></table></figure>
+
 <p><code>/etc/systemd/system/display-manager.service</code> symlinks to the DM (or <code>plymouth</code> wrapper).</p>
-<p><a href="http://systemd-free.org/" target="_blank" rel="external">Archlinux, systemd-free</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">systemd-ui</div><div class="line">systemctl</div><div class="line">systemd-analyze</div><div class="line">journalctl</div></pre></td></tr></table></figure>
-<p><a href="https://blog.codeship.com/running-node-js-linux-systemd/" target="_blank" rel="external">Running Node.js on Linux with systemd - via @codeship | via @codeship</a></p>
-<p>Docker service example:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">[Unit]</div><div class="line">Description=Redis container</div><div class="line">Requires=docker.service</div><div class="line">After=docker.service</div><div class="line"></div><div class="line">[Service]</div><div class="line">Restart=always</div><div class="line">ExecStart=/usr/bin/docker start -a redis_server</div><div class="line">ExecStop=/usr/bin/docker stop -t 2 redis_server</div><div class="line"></div><div class="line">[Install]</div><div class="line">WantedBy=local.target</div></pre></td></tr></table></figure></p>
-<h4 id="systemctl"><a href="#systemctl" class="headerlink" title="systemctl"></a>systemctl</h4><p><code>systemctl</code> - List active services in system</p>
+<p><a href="http://systemd-free.org/" target="_blank" rel="noopener">Archlinux, systemd-free</a></p>
+<p><code>systemd-ui</code></p>
+<p><a href="https://www.mankier.com/1/systemctl" target="_blank" rel="noopener">systemctl command man page - systemd | ManKier</a><br><a href="https://www.mankier.com/1/systemd-analyze" target="_blank" rel="noopener">systemd-analyze command man page - systemd | ManKier</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">systemd-analyze blame | head -5</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://blog.codeship.com/running-node-js-linux-systemd/" target="_blank" rel="noopener">Running Node.js on Linux with systemd - via @codeship | via @codeship</a></p>
+<p>Docker service example:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Redis container</span><br><span class="line">Requires=docker.service</span><br><span class="line">After=docker.service</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Restart=always</span><br><span class="line">ExecStart=/usr/bin/docker start -a redis_server</span><br><span class="line">ExecStop=/usr/bin/docker stop -t 2 redis_server</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=local.target</span><br></pre></td></tr></table></figure>
+
+<h2 id="systemctl"><a href="#systemctl" class="headerlink" title="systemctl"></a>systemctl</h2><p><code>systemctl</code> - List active services in system</p>
+<p><code>systemctl list-unit-files</code> - List all services in system</p>
 <p><code>systemctl --all</code> - List all services in system</p>
 <p><code>systemctl start SERVICE.service</code> - Use it to start a service. Does not persist after reboot   </p>
 <p><code>systemctl stop SERVICE.service</code> - Use it to stop a service. Does not persist after reboot</p>
@@ -127,12 +136,18 @@
 <p><code>systemctl is-enabled SERVICE.service</code> - Check if a service is currently configured to start or not on the next reboot.</p>
 <p><code>systemctl is-active SERVICE.service</code> - Check if a service is currently active.</p>
 <p><code>systemctl show SERVICE.service</code> - Show all the information about the service.</p>
-<h4 id="Lennart-Poettering"><a href="#Lennart-Poettering" class="headerlink" title="Lennart Poettering"></a>Lennart Poettering</h4><p><a href="http://0pointer.de/blog/projects/why.html" target="_blank" rel="external">Why systemd?</a><br><a href="http://0pointer.de/blog/projects/the-biggest-myths.html" target="_blank" rel="external">The Biggest Myths</a><br><a href="https://docs.google.com/document/pub?id=1IC9yOXj7j6cdLLxWEBAGRL6wl97tFxgjLUEHIX3MSTs" target="_blank" rel="external">systemd journal</a></p>
-<h4 id="systemd-for-Developers"><a href="#systemd-for-Developers" class="headerlink" title="systemd for Developers"></a>systemd for Developers</h4><p><a href="http://0pointer.net/blog/projects/socket-activation.html" target="_blank" rel="external">systemd for Developers I</a><br><a href="http://0pointer.net/blog/projects/socket-activation2.html" target="_blank" rel="external">systemd for Developers II</a><br><a href="http://0pointer.net/blog/projects/journal-submit.html" target="_blank" rel="external">systemd for Developers III</a></p>
-<h4 id="systemd-for-Administrators"><a href="#systemd-for-Administrators" class="headerlink" title="systemd for Administrators"></a>systemd for Administrators</h4><blockquote>
-<p>TODO:<br><a href="http://0pointer.net/blog/archives.html" target="_blank" rel="external">http://0pointer.net/blog/archives.html</a><br>select “systemd for Administrators” and generate links</p>
+<h2 id="Lennart-Poettering"><a href="#Lennart-Poettering" class="headerlink" title="Lennart Poettering"></a>Lennart Poettering</h2><p><a href="http://0pointer.de/blog/projects/why.html" target="_blank" rel="noopener">Why systemd?</a><br><a href="http://0pointer.de/blog/projects/the-biggest-myths.html" target="_blank" rel="noopener">The Biggest Myths</a><br><a href="https://docs.google.com/document/pub?id=1IC9yOXj7j6cdLLxWEBAGRL6wl97tFxgjLUEHIX3MSTs" target="_blank" rel="noopener">systemd journal</a></p>
+<h2 id="systemd-for-Developers"><a href="#systemd-for-Developers" class="headerlink" title="systemd for Developers"></a>systemd for Developers</h2><p><a href="http://0pointer.net/blog/projects/socket-activation.html" target="_blank" rel="noopener">systemd for Developers I</a><br><a href="http://0pointer.net/blog/projects/socket-activation2.html" target="_blank" rel="noopener">systemd for Developers II</a><br><a href="http://0pointer.net/blog/projects/journal-submit.html" target="_blank" rel="noopener">systemd for Developers III</a></p>
+<h2 id="systemd-for-Administrators"><a href="#systemd-for-Administrators" class="headerlink" title="systemd for Administrators"></a>systemd for Administrators</h2><blockquote>
+<p>TODO:<br><a href="http://0pointer.net/blog/archives.html" target="_blank" rel="noopener">http://0pointer.net/blog/archives.html</a><br>select &quot;systemd for Administrators&quot; and generate links</p>
 </blockquote>
-<p><a href="http://0pointer.net/blog/projects/systemd-for-admins-1.html" target="_blank" rel="external">systemd for Administrators, Part 1</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-2.html" target="_blank" rel="external">systemd for Administrators, Part II</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-3.html" target="_blank" rel="external">systemd for Administrators, Part III</a><br>….<br><a href="http://0pointer.net/blog/systemd-for-administrators-part-xxi.html" target="_blank" rel="external">systemd For Administrators, Part XXI</a></p>
+<p><a href="http://0pointer.net/blog/projects/systemd-for-admins-1.html" target="_blank" rel="noopener">systemd for Administrators, Part 1</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-2.html" target="_blank" rel="noopener">systemd for Administrators, Part II</a><br><a href="http://0pointer.net/blog/projects/systemd-for-admins-3.html" target="_blank" rel="noopener">systemd for Administrators, Part III</a><br>....<br><a href="http://0pointer.net/blog/systemd-for-administrators-part-xxi.html" target="_blank" rel="noopener">systemd For Administrators, Part XXI</a></p>
+<h2 id="journalctl"><a href="#journalctl" class="headerlink" title="journalctl"></a>journalctl</h2><p><a href="https://www.mankier.com/1/journalctl" target="_blank" rel="noopener">journalctl command man page - systemd | ManKier</a><br><a href="https://www.freedesktop.org/software/systemd/man/journalctl.html" target="_blank" rel="noopener">journalctl</a><br><a href="https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.journalctl.html" target="_blank" rel="noopener">journalctl: Query the systemd Journal | Reference | openSUSE Leap 42.3</a><br><a href="http://landoflinux.com/linux_journalctl_examples.html" target="_blank" rel="noopener">Displaying Linux Log files with journalctl</a><br><a href="https://www.loggly.com/ultimate-guide/using-journalctl/" target="_blank" rel="noopener">Using journalctl -The Ultimate Guide to Logging</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs" target="_blank" rel="noopener">How To Use Journalctl to View and Manipulate Systemd Logs | DigitalOcean</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># clean logs</span></span><br><span class="line">journalctl --disk-usage</span><br><span class="line">sudo journalctl --vacuum-size=500M</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># jump to end</span></span><br><span class="line">journalctl -e</span><br><span class="line"><span class="comment"># reverse logs</span></span><br><span class="line">journalctl -r</span><br><span class="line"><span class="comment"># follow journal</span></span><br><span class="line">journalctl -f</span><br><span class="line"><span class="comment"># filter to `docker` service</span></span><br><span class="line">journalctl -u</span><br></pre></td></tr></table></figure>
+
+<h2 id="Binding"><a href="#Binding" class="headerlink" title="Binding"></a>Binding</h2><p><a href="https://github.com/torfsen/python-systemd-tutorial" target="_blank" rel="noopener">torfsen/python-systemd-tutorial: A tutorial for writing a systemd service in Python</a></p>
 	  
 	</div>
 
@@ -148,7 +163,7 @@
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/chatbot/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/locks/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -203,7 +218,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/desktop/">desktop<span>16</span></a></li>
+  <li><a href="/tags/desktop/">desktop<span>18</span></a></li>
     </ul>
 	</div>
 		
@@ -213,7 +228,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#systemctl"><span class="toc-article-text">systemctl</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#Lennart-Poettering"><span class="toc-article-text">Lennart Poettering</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#systemd-for-Developers"><span class="toc-article-text">systemd for Developers</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#systemd-for-Administrators"><span class="toc-article-text">systemd for Administrators</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#systemctl"><span class="toc-article-text">systemctl</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Lennart-Poettering"><span class="toc-article-text">Lennart Poettering</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#systemd-for-Developers"><span class="toc-article-text">systemd for Developers</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#systemd-for-Administrators"><span class="toc-article-text">systemd for Administrators</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#journalctl"><span class="toc-article-text">journalctl</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Binding"><span class="toc-article-text">Binding</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -230,7 +245,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

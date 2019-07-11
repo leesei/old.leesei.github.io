@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Linux setup | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Linux setup"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Linux setup">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,22 +106,43 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p>ArchLinux has IMO the best Linux <a href="https://www.archlinux.org/" target="_blank" rel="external">wiki</a>.<br>Most of the Linux tricks can be found there.</p>
-<p><a href="http://linuxtoolkit.blogspot.hk/" target="_blank" rel="external">Linux Toolkits</a></p>
+	    <p>ArchLinux has IMO the best Linux <a href="https://www.archlinux.org/" target="_blank" rel="noopener">wiki</a>.<br>Most of the Linux tricks can be found there.</p>
+<p><a href="http://linuxtoolkit.blogspot.hk/" target="_blank" rel="noopener">Linux Toolkits</a><br><a href="https://askubuntu.com/questions/248914/what-is-hardware-enablement-hwe" target="_blank" rel="noopener">kernel - What is hardware enablement (HWE)? - Ask Ubuntu</a></p>
 <a id="more"></a>
-<h2 id="Bootable-USB-key"><a href="#Bootable-USB-key" class="headerlink" title="Bootable USB key"></a>Bootable USB key</h2><p>Creating a bootable USB key in Linux is <a href="https://wiki.archlinux.org/index.php/USB_flash_installation_media" target="_blank" rel="external">straight forward</a>.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">sudo dd if=[iso] of=[usb device] bs=4M</div></pre></td></tr></table></figure>
-<p>Also see <code>dd-usb-iso</code>.</p>
-<p>Note <a href="http://antergos.com/wiki/article/create-a-working-live-usb/" target="_blank" rel="external">some utils</a> modify the partition label of the ISO, that can cause problem during bootup.</p>
-<ul>
-<li>[UNetbootin]<a href="http://unetbootin.github.io/" target="_blank" rel="external">UNetbootin - Homepage and Downloads</a></li>
-<li>Linux Live USB Creator</li>
-<li>Universal USB Installer</li>
-<li>Live USB Creator</li>
-<li><a href="https://rufus.akeo.ie/" target="_blank" rel="external">Rufus</a></li>
-</ul>
-<h2 id="HiDPI"><a href="#HiDPI" class="headerlink" title="HiDPI"></a>HiDPI</h2><p><a href="https://wiki.archlinux.org/index.php/HiDPI" target="_blank" rel="external">HiDPI - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/Xorg#Display_size_and_DPI" target="_blank" rel="external">Xorg#Display_size_and_DPI - ArchWiki</a></p>
-<p><a href="http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi" target="_blank" rel="external">How to find and change the screen DPI? - Ask Ubuntu</a><br><a href="http://askubuntu.com/questions/393400/is-it-possible-to-have-two-different-dpi-configurations-for-two-different-screen" target="_blank" rel="external">multiple monitors - Is it possible to have two different DPI configurations for two different screens? - Ask Ubuntu</a><br><a href="https://bbs.archlinux.org/viewtopic.php?id=177660" target="_blank" rel="external">[SOLVED] Openbox - setting different dpi on external monitor / Applications &amp; Desktop Environments / Arch Linux Forums</a></p>
+
+<h2 id="HiDPI"><a href="#HiDPI" class="headerlink" title="HiDPI"></a>HiDPI</h2><p><a href="https://wiki.archlinux.org/index.php/HiDPI" target="_blank" rel="noopener">HiDPI - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/Xorg#Display_size_and_DPI" target="_blank" rel="noopener">Xorg#Display_size_and_DPI - ArchWiki</a></p>
+<p><a href="http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi" target="_blank" rel="noopener">How to find and change the screen DPI? - Ask Ubuntu</a><br><a href="http://askubuntu.com/questions/393400/is-it-possible-to-have-two-different-dpi-configurations-for-two-different-screen" target="_blank" rel="noopener">multiple monitors - Is it possible to have two different DPI configurations for two different screens? - Ask Ubuntu</a><br><a href="https://bbs.archlinux.org/viewtopic.php?id=177660" target="_blank" rel="noopener">[SOLVED] Openbox - setting different dpi on external monitor / Applications &amp; Desktop Environments / Arch Linux Forums</a></p>
+<p>Wayland allows different DPI on multihead setup</p>
+<h2 id="Battery"><a href="#Battery" class="headerlink" title="Battery"></a>Battery</h2><p><a href="https://www.phoronix.com/scan.php?page=article&item=laptop-battery-july18&num=1" target="_blank" rel="noopener">A Closer Look At The Linux Laptop Power Use Between Ubuntu, Fedora, Clear &amp; Antergos - Phoronix</a><br><a href="https://www.howtogeek.com/55185/how-to-maximize-the-battery-life-on-your-linux-laptop/" target="_blank" rel="noopener">How to Maximize Your Linux Laptop’s Battery Life</a><br><a href="https://www.makeuseof.com/tag/easily-increase-battery-life-tlp-linux/" target="_blank" rel="noopener">7 Simple Tips to Improve Your Linux Laptop&#39;s Battery Life</a><br><a href="https://fosspost.org/tutorials/7-tips-to-reduce-battery-usage-on-linux" target="_blank" rel="noopener">7 Tips To Reduce Battery Usage On Linux</a></p>
+<p><a href="https://linrunner.de/en/tlp/tlp.html" target="_blank" rel="noopener">linrunner.de: TLP – Linux Advanced Power Management</a><br><a href="https://www.tecmint.com/tlp-increase-and-optimize-linux-battery-life/" target="_blank" rel="noopener">TLP – Quickly Increase and Optimize Linux Laptop Battery Life</a></p>
+<p><a href="https://www.omgubuntu.co.uk/2019/05/slimbook-battery-optimizer-ubuntu" target="_blank" rel="noopener">A Handy Battery Optimizer for Ubuntu Laptops - OMG! Ubuntu!</a></p>
+<p><a href="https://www.2daygeek.com/check-laptop-battery-status-and-charging-state-in-linux-terminal/" target="_blank" rel="noopener">5 Ways To Check Laptop Battery Status And Level From Linux Terminal | 2daygeek.com</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo tlp-stat -b</span><br><span class="line">sudo tlp-stat -s</span><br><span class="line">batstat</span><br><span class="line">gnome-power-statistics</span><br><span class="line">cat /sys/class/power_supply/BAT0/*</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.tecmint.com/powertop-monitors-linux-laptop-battery-usage/" target="_blank" rel="noopener">PowerTop - Monitors Total Power Usage and Improve Linux Laptop Battery Life</a></p>
+<p><a href="https://www.maketecheasier.com/monitor-laptop-battery-usage-linux/" target="_blank" rel="noopener">How to Monitor Laptop Battery Usage in Linux - Make Tech Easier</a></p>
+<p><a href="https://www.reddit.com/r/linux/comments/7wn791/battery_life_on_linux_systems/" target="_blank" rel="noopener">Battery life on linux systems : linux</a></p>
+<h2 id="Wifi"><a href="#Wifi" class="headerlink" title="Wifi"></a>Wifi</h2><p><a href="https://wikidevi.com/wiki/Category:Wireless_adapter" target="_blank" rel="noopener">Category:Wireless adapter - WikiDevi</a><br><a href="https://www.wirelesshack.org/top-linux-compatible-usb-wireless-adapters.html" target="_blank" rel="noopener">Top Linux Compatible USB Wireless Adapters | WirelesSHack</a></p>
+<p><a href="https://bbs.archlinux.org/viewtopic.php?id=231987" target="_blank" rel="noopener">wpa_supplicant authentication timed out / Networking, Server, and Protection / Arch Linux Forums</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">iwconfig</span><br><span class="line"></span><br><span class="line">sudo lshw -c network</span><br><span class="line">sudo iwlist scan</span><br><span class="line">iwd</span><br><span class="line">iw dev</span><br><span class="line">sudo iw dev wlp0s20u11 scan</span><br><span class="line"></span><br><span class="line">rfkill list all  <span class="comment"># toggle wireless devices</span></span><br><span class="line"></span><br><span class="line">nmcli dev wifi list</span><br><span class="line">nmcli device wifi connect <span class="string">"&#123;&#123;SSID&#125;&#125;"</span> password <span class="string">"&#123;&#123;PASSPHRASE&#125;&#125;"</span></span><br><span class="line">nmcli device wifi hotspot ssid <span class="string">"&#123;&#123;SSID&#125;&#125;"</span> password <span class="string">"&#123;&#123;PASSPHRASE&#125;&#125;"</span></span><br><span class="line"></span><br><span class="line">ifconfig wlan0 up</span><br><span class="line">iwconfig wlan0 essid <span class="string">"&#123;&#123;SSID&#125;&#125;"</span></span><br><span class="line">iwconfig wlan0 essid <span class="string">"&#123;&#123;SSID&#125;&#125;"</span> key <span class="string">"&#123;&#123;WEP KEY&#125;&#125;"</span></span><br><span class="line">iwconfig wlan0 essid <span class="string">"&#123;&#123;SSID&#125;&#125;"</span> key s:<span class="string">"&#123;&#123;WPA/WPA2 KEY&#125;&#125;"</span></span><br><span class="line">dhcpcd wlan0</span><br><span class="line"></span><br><span class="line">wpa_supplicant -i wlp0s20u11 -c &lt;(wpa_passphrase <span class="string">"&#123;&#123;SSID&#125;&#125;"</span> <span class="string">"&#123;&#123;PASSPHRASE&#125;&#125;"</span>) -d</span><br></pre></td></tr></table></figure>
+
+<h3 id="NetworkManager-logs"><a href="#NetworkManager-logs" class="headerlink" title="NetworkManager logs"></a>NetworkManager logs</h3><p>Enable debugging of NetworkManager</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo vi /usr/lib/systemd/system/NetworkManager.service</span><br><span class="line">sudo journalctl -fu wpa_supplicant.service</span><br><span class="line">sudo journalctl -fu NetworkManager <span class="comment"># show logs</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">- ExecStart=/usr/sbin/NetworkManager --no-daemon</span></span><br><span class="line"><span class="addition">+ ExecStart=/usr/sbin/NetworkManager --no-daemon --log-level=debug</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="TL-WN823N-dongle"><a href="#TL-WN823N-dongle" class="headerlink" title="TL-WN823N (dongle)"></a>TL-WN823N (dongle)</h3><p><a href="https://michaelheap.com/tp-link-tl-wn823n-on-arch-linux/" target="_blank" rel="noopener">TP-Link TL-WN823N on Arch Linux – mheap</a><br><a href="https://github.com/Mange/rtl8192eu-linux-driver" target="_blank" rel="noopener">Mange/rtl8192eu-linux-driver: Drivers for the rtl8192eu chipset for wireless adapters (D-Link DWA-131 rev E1 included!)</a><br><a href="https://blog.csdn.net/sxbyyy/article/details/73865023" target="_blank" rel="noopener">Ubuntu 16.04 解决 TL-WN826N 的驱动问题 - CSDN 博客</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/Mange/rtl8192eu-linux-driver</span><br><span class="line"><span class="built_in">cd</span> rtl8192eu-linux-driver</span><br><span class="line">sudo dkms add .</span><br><span class="line">sudo dkms install rtl8192eu/1.0</span><br><span class="line"></span><br><span class="line">sudo dkms uninstall rtl8192eu/1.0</span><br><span class="line">sudo dkms remove rtl8192eu/1.0 --all</span><br><span class="line"></span><br><span class="line">ln -s /var/lib/dkms/rtl8192eu/1.0/<span class="built_in">source</span> /usr/src/rtl8192eu-1.0</span><br><span class="line">sudo dkms install rtl8192eu/1.0 -k 4.14.56-1-lts</span><br><span class="line">sudo dkms install rtl8192eu/1.0 -k 5.1.3-arch2-1-ARCH</span><br><span class="line"></span><br><span class="line">rmmod rtl8xxxu</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://bbs.archlinux.org/viewtopic.php?id=219909" target="_blank" rel="noopener">[SOLVED] rtl8192eu USB Wifi not working / Kernel &amp; Hardware / Arch Linux Forums</a><br><a href="https://github.com/Mange/rtl8192eu-linux-driver/issues/46#issuecomment-323710229" target="_blank" rel="noopener">https://github.com/Mange/rtl8192eu-linux-driver/issues/46#issuecomment-323710229</a></p>
+<p>Disable kernel rtl8xxxu driver:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo su</span><br><span class="line">mkdir -p /etc/modprobe.d</span><br><span class="line">cat &lt;&lt; EOF &gt; /etc/modprobe.d/rtl8xxxu-blacklist.conf</span><br><span class="line"><span class="comment"># Do not load the 'rtl8xxxu' module on boot.</span></span><br><span class="line">blacklist rtl8xxxu</span><br><span class="line">EOF</span><br></pre></td></tr></table></figure>
+
+<h3 id="BCM3413-Toshiba-C660"><a href="#BCM3413-Toshiba-C660" class="headerlink" title="BCM3413 (Toshiba C660)"></a>BCM3413 (Toshiba C660)</h3><p>Using <code>bcmwl-kernel-source</code> proprietary driver on Ubuntu Mate 18.04</p>
+<p><a href="https://askubuntu.com/questions/1087090/ubuntu-18-04-lts-wifi-problems" target="_blank" rel="noopener">networking - Ubuntu 18.04 LTS wifi problems - Ask Ubuntu</a><br><a href="https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers" target="_blank" rel="noopener">networking - Installing Broadcom Wireless Drivers - Ask Ubuntu</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/default/crda</span><br><span class="line"></span><br><span class="line">REGDOMAIN=HK</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://superuser.com/questions/626601/alternative-to-bcmwl-kernel-source-package" target="_blank" rel="noopener">linux - alternative to bcmwl-kernel-source package - Super User</a><br>vs <code>linux-firmware-nonfree</code>, <code>firmware-b43-installer</code>, <code>b43-fwcutter</code>?<br><a href="http://pof.eslack.org/2012/05/23/why-broadcom-80211-linux-sta-driver-sucks-and-how-to-fix-it/" target="_blank" rel="noopener">Why Broadcom 802.11 Linux STA driver sucks, and how to fix it | pofHQ</a>(2012)</p>
 	  
 	</div>
 
@@ -192,7 +213,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/desktop/">desktop<span>16</span></a></li>
+  <li><a href="/tags/desktop/">desktop<span>18</span></a></li>
     </ul>
 	</div>
 		
@@ -202,7 +223,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bootable-USB-key"><span class="toc-article-text">Bootable USB key</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#HiDPI"><span class="toc-article-text">HiDPI</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#HiDPI"><span class="toc-article-text">HiDPI</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Battery"><span class="toc-article-text">Battery</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Wifi"><span class="toc-article-text">Wifi</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#NetworkManager-logs"><span class="toc-article-text">NetworkManager logs</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#TL-WN823N-dongle"><span class="toc-article-text">TL-WN823N (dongle)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#BCM3413-Toshiba-C660"><span class="toc-article-text">BCM3413 (Toshiba C660)</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
@@ -219,7 +240,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

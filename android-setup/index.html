@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Android setup | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Android setup"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Android setup">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -108,32 +108,41 @@
 	<div class="mypage">		
 	    <p>Connecting to Android devices on Linux.</p>
 <a id="more"></a>
-<h2 id="Get-vendorID"><a href="#Get-vendorID" class="headerlink" title="Get vendorID"></a>Get vendorID</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ lsusb</div><div class="line">...</div><div class="line">Bus 008 Device 042: ID 18d1:0003 Google Inc. </div><div class="line">Bus 007 Device 053: ID 2207:0010  </div><div class="line">...</div></pre></td></tr></table></figure>
+
+<h2 id="Get-vendorID"><a href="#Get-vendorID" class="headerlink" title="Get vendorID"></a>Get vendorID</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ lsusb</span><br><span class="line">...</span><br><span class="line">Bus 008 Device 042: ID 18d1:0003 Google Inc.</span><br><span class="line">Bus 007 Device 053: ID 2207:0010</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
 <p>The first part of ID is vendorID (18d1 and 2207 in the above example)</p>
-<h2 id="Update-adb-usb-ini"><a href="#Update-adb-usb-ini" class="headerlink" title="Update adb_usb.ini"></a>Update adb_usb.ini</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># with android-sdk properly setup</span></div><div class="line">android update adb</div></pre></td></tr></table></figure>
+<h2 id="Update-adb-usb-ini"><a href="#Update-adb-usb-ini" class="headerlink" title="Update adb_usb.ini"></a>Update <code>adb_usb.ini</code></h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># with android-sdk properly setup</span></span><br><span class="line">android update adb</span><br></pre></td></tr></table></figure>
+
 <p><code>~/.android/</code> is created, append vendor id to <code>~/.android/adb_usb.ini</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.</div><div class="line"># USE &apos;android update adb&apos; TO GENERATE.</div><div class="line"># 1 USB VENDOR ID PER LINE.</div><div class="line">0x18d1</div><div class="line">0x2207</div></pre></td></tr></table></figure>
-<h2 id="Restart-adb-server"><a href="#Restart-adb-server" class="headerlink" title="Restart adb server"></a>Restart adb server</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">adb <span class="built_in">kill</span>-server</div><div class="line">adb devices</div><div class="line"><span class="comment"># use `sudo` to start server if you see "permissions denied"</span></div><div class="line">sudo $(<span class="built_in">which</span> adb) devices</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># ANDROID 3RD PARTY USB VENDOR ID LIST -- DO NOT EDIT.</span><br><span class="line"># USE &apos;android update adb&apos; TO GENERATE.</span><br><span class="line"># 1 USB VENDOR ID PER LINE.</span><br><span class="line">0x18d1</span><br><span class="line">0x2207</span><br></pre></td></tr></table></figure>
+
+<h2 id="Restart-adb-server"><a href="#Restart-adb-server" class="headerlink" title="Restart adb server"></a>Restart adb server</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">adb <span class="built_in">kill</span>-server</span><br><span class="line">adb devices</span><br><span class="line"><span class="comment"># use `sudo` to start server if you see "permissions denied"</span></span><br><span class="line">sudo $(<span class="built_in">which</span> adb) devices</span><br></pre></td></tr></table></figure>
+
 <h2 id="Add-udev-rule"><a href="#Add-udev-rule" class="headerlink" title="Add udev rule"></a>Add udev rule</h2><blockquote>
 <p>Newer system should not need this.</p>
 </blockquote>
-<p><a href="http://developer.android.com/tools/device.html" target="_blank" rel="external">Using Hardware Devices | Android Developers</a><br><a href="http://www.reactivated.net/writing_udev_rules.html" target="_blank" rel="external">Writing udev rules</a><br><a href="https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules" target="_blank" rel="external">android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules</a></p>
-<p>Add <code>51-adb.rules</code> to <code>/etc/udev/rules.d</code>:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># allwinner board</div><div class="line">#SUBSYSTEM==&quot;usb&quot;, SYSFS&#123;idVendor&#125;==&quot;18d1&quot;, MODE=&quot;0666&quot;</div><div class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;18d1&quot;, MODE=&quot;0666&quot;, GROUP=&quot;plugdev&quot;</div><div class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;18d1&quot;,ATTR&#123;idProduct&#125;==&quot;0003&quot;,SYMLINK+=&quot;android_adb&quot;</div><div class="line"># rockchip board</div><div class="line">#SUBSYSTEM==&quot;usb&quot;, SYSFS&#123;idVendor&#125;==&quot;2207&quot;, MODE=&quot;0666&quot;</div><div class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;2207&quot;, MODE=&quot;0666&quot;, GROUP=&quot;plugdev&quot;</div><div class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;2207&quot;,ATTR&#123;idProduct&#125;==&quot;0010&quot;,SYMLINK+=&quot;android_adb&quot;</div></pre></td></tr></table></figure></p>
+<p><a href="http://developer.android.com/tools/device.html" target="_blank" rel="noopener">Using Hardware Devices | Android Developers</a><br><a href="https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules" target="_blank" rel="noopener">android-udev-rules/51-android.rules at master · M0Rf30/android-udev-rules</a></p>
+<p>Add <code>51-adb.rules</code> to <code>/etc/udev/rules.d</code>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># allwinner board</span><br><span class="line">#SUBSYSTEM==&quot;usb&quot;, SYSFS&#123;idVendor&#125;==&quot;18d1&quot;, MODE=&quot;0666&quot;</span><br><span class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;18d1&quot;, MODE=&quot;0666&quot;, GROUP=&quot;plugdev&quot;</span><br><span class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;18d1&quot;,ATTR&#123;idProduct&#125;==&quot;0003&quot;,SYMLINK+=&quot;android_adb&quot;</span><br><span class="line"># rockchip board</span><br><span class="line">#SUBSYSTEM==&quot;usb&quot;, SYSFS&#123;idVendor&#125;==&quot;2207&quot;, MODE=&quot;0666&quot;</span><br><span class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;2207&quot;, MODE=&quot;0666&quot;, GROUP=&quot;plugdev&quot;</span><br><span class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;2207&quot;,ATTR&#123;idProduct&#125;==&quot;0010&quot;,SYMLINK+=&quot;android_adb&quot;</span><br></pre></td></tr></table></figure>
+
 <blockquote>
 <p>make sure your user is in group <code>plugdev</code></p>
 </blockquote>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># restart udev</span></div><div class="line">sudo udevadm control --reload-rules</div><div class="line">sudo service udev restart</div></pre></td></tr></table></figure>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/" target="_blank" rel="external">http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/</a><br><a href="https://wiki.archlinux.org/index.php/android" target="_blank" rel="external">https://wiki.archlinux.org/index.php/android</a><br><a href="http://community.linuxmint.com/tutorial/view/888" target="_blank" rel="external">http://community.linuxmint.com/tutorial/view/888</a><br><a href="http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions" target="_blank" rel="external">http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># restart udev</span></span><br><span class="line">sudo udevadm control --reload-rules</span><br><span class="line">sudo service udev restart</span><br></pre></td></tr></table></figure>
+
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/" target="_blank" rel="noopener">http://www.slatedroid.com/topic/41219-connecting-to-a-rk3066-based-board-via-adb-on-linux/</a><br><a href="https://wiki.archlinux.org/index.php/android" target="_blank" rel="noopener">https://wiki.archlinux.org/index.php/android</a><br><a href="http://community.linuxmint.com/tutorial/view/888" target="_blank" rel="noopener">http://community.linuxmint.com/tutorial/view/888</a><br><a href="http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions" target="_blank" rel="noopener">http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions</a></p>
 <h2 id="MTP"><a href="#MTP" class="headerlink" title="MTP"></a>MTP</h2><blockquote>
-<p><a href="http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html" target="_blank" rel="external">http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html</a><br><a href="http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access" target="_blank" rel="external">http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access</a><br>see <code>/etc/udev/rules.d/</code> and <code>/lib/udev/rules.d/</code></p>
+<p><a href="http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html" target="_blank" rel="noopener">http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html</a><br><a href="http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access" target="_blank" rel="noopener">http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access</a><br>see <code>/etc/udev/rules.d/</code> and <code>/lib/udev/rules.d/</code></p>
 </blockquote>
 <p>Add <code>51-android-mtp.rule</code> to <code>/etc/udev/rules.d</code>: (not working)</p>
 <blockquote>
-<p>this get rids of “Unable to open MTP device ‘[usb:007,038]’” <a href="https://www.youtube.com/watch?v=SV4x_Oc3EPg" target="_blank" rel="external">pop-up</a>, but the device listed is empty</p>
+<p>this get rids of &quot;Unable to open MTP device &#39;[usb:007,038]&#39;&quot; <a href="https://www.youtube.com/watch?v=SV4x_Oc3EPg" target="_blank" rel="noopener">pop-up</a>, but the device listed is empty</p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># samsung note3</div><div class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;04e8&quot;, ATTR&#123;idProduct&#125;==&quot;6860&quot;, MODE=&quot;0666&quot;, OWNER=&quot;[username]&quot;</div></pre></td></tr></table></figure>
-<p><a href="http://forum.xda-developers.com/showthread.php?t=2055563" target="_blank" rel="external">HOWTO: Linux and MTP - xda-developers</a><br><a href="http://forums.linuxmint.com/viewtopic.php?t=116879#p660869" target="_blank" rel="external">Samsung Galaxy Devices and Linux Mint</a><br><a href="http://www.webupd8.org/2013/01/upgrade-to-gvfs-with-mtp-support-in.html" target="_blank" rel="external">Upgrade To Gvfs With MTP Support In Ubuntu 12.10 Or 12.04 To Easily Connect Android 4.0+ Devices ~ Web Upd8: Ubuntu / Linux blog</a><br><a href="https://wiki.archlinux.org/index.php/MTP" target="_blank" rel="external">MTP - ArchWiki</a><br><a href="http://www.adebenham.com/mtpfs/" target="_blank" rel="external">MTPfs « Dual Elephants</a><br><a href="http://roger.steneteg.org/299/mount-mtp-device-on-debian-7-wheezy/" target="_blank" rel="external">Mount MTP device on Debian 7 wheezy | Roger Steneteg</a><br><a href="http://forum.xda-developers.com/showthread.php?t=2140939" target="_blank" rel="external">[GUIDE] How-To Automount Your Note 10.1 to Linux with MTP - xda-developers</a><br><a href="http://askubuntu.com/questions/87667/getting-mtp-enabled-devices-to-work-with-ubuntu/308366#308366" target="_blank" rel="external">Getting MTP enabled devices to work with Ubuntu? - Ask Ubuntu</a><br><a href="http://www.legendiary.at/2013/01/27/the-easy-way-share-data-between-nexus-7-and-debian/" target="_blank" rel="external">The easy way: share data between Nexus 7 and Debian | Legen … d(i)ary!</a><br><a href="http://www.legendiary.at/2013/01/27/the-hard-way-make-mtp-work-with-nexus-7-on-debian/" target="_blank" rel="external">The hard way: make MTP work with Nexus 7 on Debian | Legen … d(i)ary!</a></p>
-<h3 id="issues"><a href="#issues" class="headerlink" title="issues"></a>issues</h3><p><a href="http://sourceforge.net/p/libmtp/bugs/574/" target="_blank" rel="external">http://sourceforge.net/p/libmtp/bugs/574/</a><br><a href="https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010" target="_blank" rel="external">https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># samsung note3</span><br><span class="line">SUBSYSTEM==&quot;usb&quot;, ATTR&#123;idVendor&#125;==&quot;04e8&quot;, ATTR&#123;idProduct&#125;==&quot;6860&quot;, MODE=&quot;0666&quot;, OWNER=&quot;[username]&quot;</span><br></pre></td></tr></table></figure>
+
+<p><a href="http://forum.xda-developers.com/showthread.php?t=2055563" target="_blank" rel="noopener">HOWTO: Linux and MTP - xda-developers</a><br><a href="https://www.linux.org/threads/intro-to-mtp-ptp-and-ums.11283/" target="_blank" rel="noopener">Intro to MTP, PTP, and UMS | Linux.org</a><br><a href="http://forums.linuxmint.com/viewtopic.php?t=116879#p660869" target="_blank" rel="noopener">Samsung Galaxy Devices and Linux Mint</a><br><a href="https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/" target="_blank" rel="noopener">Android USB Connections Explained: MTP, PTP, and USB Mass Storage</a><br><a href="https://wiki.archlinux.org/index.php/MTP" target="_blank" rel="noopener">MTP - ArchWiki</a><br><a href="http://www.adebenham.com/mtpfs/" target="_blank" rel="noopener">MTPfs « Dual Elephants</a><br><a href="http://roger.steneteg.org/299/mount-mtp-device-on-debian-7-wheezy/" target="_blank" rel="noopener">Mount MTP device on Debian 7 wheezy | Roger Steneteg</a><br><a href="http://forum.xda-developers.com/showthread.php?t=2140939" target="_blank" rel="noopener">[GUIDE] How-To Automount Your Note 10.1 to Linux with MTP - xda-developers</a><br><a href="http://askubuntu.com/questions/87667/getting-mtp-enabled-devices-to-work-with-ubuntu/308366#308366" target="_blank" rel="noopener">Getting MTP enabled devices to work with Ubuntu? - Ask Ubuntu</a><br><a href="http://www.legendiary.at/2013/01/27/the-easy-way-share-data-between-nexus-7-and-debian/" target="_blank" rel="noopener">The easy way: share data between Nexus 7 and Debian | Legen ... d(i)ary!</a><br><a href="http://www.legendiary.at/2013/01/27/the-hard-way-make-mtp-work-with-nexus-7-on-debian/" target="_blank" rel="noopener">The hard way: make MTP work with Nexus 7 on Debian | Legen ... d(i)ary!</a></p>
+<h3 id="issues"><a href="#issues" class="headerlink" title="issues"></a>issues</h3><p><a href="http://sourceforge.net/p/libmtp/bugs/574/" target="_blank" rel="noopener">http://sourceforge.net/p/libmtp/bugs/574/</a><br><a href="https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010" target="_blank" rel="noopener">https://bugs.launchpad.net/ubuntu/+source/libmtp/+bug/1015010</a></p>
 	  
 	</div>
 
@@ -204,7 +213,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/adb/">adb<span>2</span></a></li> <li><a href="/tags/linux/">linux<span>1</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li>
+  <li><a href="/tags/settings/">settings<span>11</span></a></li> <li><a href="/tags/linux/">linux<span>2</span></a></li> <li><a href="/tags/adb/">adb<span>2</span></a></li>
     </ul>
 	</div>
 		
@@ -231,7 +240,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

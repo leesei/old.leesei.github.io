@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>MongoDB | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="MongoDB"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="MongoDB">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,8 +106,46 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="drop-database"><a href="#drop-database" class="headerlink" title="drop database"></a>drop database</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&gt; show dbs</div><div class="line">db1      0.03412GB</div><div class="line">local   0.078125GB</div><div class="line">sessions        0.203125GB</div><div class="line">&gt; use db1</div><div class="line">switched to db db1</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; &quot;dropped&quot; : &quot;db1&quot;, &quot;ok&quot; : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local   0.078125GB</div><div class="line">sessions        0.203125GB</div></pre></td></tr></table></figure>
-<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p><a href="http://docs.mongodb.org/manual/reference/" target="_blank" rel="external">http://docs.mongodb.org/manual/reference/</a></p>
+	    <blockquote>
+<p>MongoDB after 3.6 uses <a href="https://www.mongodb.com/licensing/server-side-public-license" target="_blank" rel="noopener">SSPL</a></p>
+</blockquote>
+<p><a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDB for GIANT Ideas | MongoDB</a><br><a href="https://university.mongodb.com/courses/catalog" target="_blank" rel="noopener">MongoDB University Online Courses</a></p>
+<p><a href="https://university.mongodb.com/courses/M001/about" target="_blank" rel="noopener">About M001</a><br><a href="https://university.mongodb.com/courses/M040/about" target="_blank" rel="noopener">M040: New Features and Tools in MongoDB 4.0</a></p>
+<p><a href="https://docs.mongodb.com/manual/reference/" target="_blank" rel="noopener">Reference — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/" target="_blank" rel="noopener">The MongoDB 4.0 Manual — MongoDB Manual</a><br><a href="https://www.youtube.com/playlist?list=PLyROlY1vFlbdA45cHtcId5NLxPDHJ_lpb" target="_blank" rel="noopener">MongoDB - Back to Basics - YouTube</a></p>
+<p><a href="https://studio3t.com/knowledge-base/categories/mongodb-tutorials/" target="_blank" rel="noopener">MongoDB Tutorials | Studio 3T</a><br><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jpvoYriLI0bY8DOgWZfi6u" target="_blank" rel="noopener">MongoDB Tutorial for Beginners - YouTube</a></p>
+<p><a href="https://medium.com/@bretcameron/mongodb-a-beginners-guide-8fca0c7787a4" target="_blank" rel="noopener">MongoDB: A Beginner’s Guide – Bret Cameron – Medium</a><br><a href="http://thecodebarbarian.com/stock-price-notifications-with-mongoose-and-mongodb-change-streams.html" target="_blank" rel="noopener">Stock Price Notifications with Mongoose and MongoDB Change Streams | www.thecodebarbarian.com</a></p>
+<p><a href="https://github.com/karlseguin/the-little-mongodb-book" target="_blank" rel="noopener">karlseguin/the-little-mongodb-book: The Little MongoDB Book</a> 2.6</p>
+<h2 id="mongod-server"><a href="#mongod-server" class="headerlink" title="mongod server"></a><code>mongod</code> server</h2><p><a href="https://docs.mongodb.com/manual/reference/program/mongod/" target="_blank" rel="noopener">mongod — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/core/authentication/" target="_blank" rel="noopener">Authentication — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/core/authorization/" target="_blank" rel="noopener">Role-Based Access Control — MongoDB Manual</a></p>
+<p><a href="https://www.lakshminp.com/docker-mongodb" target="_blank" rel="noopener">Booting a mongoDB container with user specified credentials | Lakshmi Narasimhan</a></p>
+<p><a href="https://github.com/docker-library/mongo" target="_blank" rel="noopener">docker-library/mongo: Docker Official Image packaging for MongoDB</a><br><a href="https://github.com/docker-library/docs/blob/master/mongo/README.md" target="_blank" rel="noopener">docs/README.md at master · docker-library/docs</a></p>
+<p><a href="https://github.com/bitnami/bitnami-docker-mongodb" target="_blank" rel="noopener">bitnami/bitnami-docker-mongodb: Bitnami MongoDB Docker Image</a></p>
+<h2 id="mongo-client"><a href="#mongo-client" class="headerlink" title="mongo client"></a><code>mongo</code> client</h2><p><a href="https://docs.mongodb.com/manual/reference/program/mongo/" target="_blank" rel="noopener">mongo — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/reference/mongo-shell/" target="_blank" rel="noopener">mongo Shell Quick Reference — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/reference/operator/" target="_blank" rel="noopener">Operators — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/crud/" target="_blank" rel="noopener">MongoDB CRUD Operations — MongoDB Manual</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongo --host host --port port -u database</span><br><span class="line"></span><br><span class="line"># show databases</span><br><span class="line">&gt; show dbs</span><br><span class="line"># use a database</span><br><span class="line">&gt; use &lt;db_name&gt;</span><br><span class="line"></span><br><span class="line"># show collections</span><br><span class="line">&gt; show collections</span><br><span class="line"></span><br><span class="line"># operations</span><br><span class="line">&gt; db.&lt;collection&gt;.&lt;operation&gt;(&lt;options&gt;)</span><br><span class="line"># query</span><br><span class="line">&gt; db.foo.find(&#123;name: &apos;bar&apos;&#125;)</span><br><span class="line"></span><br><span class="line">## drop database</span><br><span class="line">&gt; use db1</span><br><span class="line">switched to db db1</span><br><span class="line">&gt; db.dropDatabase()</span><br><span class="line">&#123; &quot;dropped&quot; : &quot;db1&quot;, &quot;ok&quot; : 1 &#125;</span><br><span class="line">&gt; show dbs</span><br><span class="line">local   0.078125GB</span><br><span class="line">sessions        0.203125GB</span><br></pre></td></tr></table></figure>
+
+<p>Using <code>mongo</code> in shell script:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">mongo <span class="string">"<span class="variable">$rootAuthDatabase</span>"</span> &lt;&lt;-EOJS</span><br><span class="line">                db.createUser(&#123;</span><br><span class="line">                    user: $(_js_escape <span class="string">"<span class="variable">$MONGO_INITDB_ROOT_USERNAME</span>"</span>),</span><br><span class="line">                    <span class="built_in">pwd</span>: $(_js_escape <span class="string">"<span class="variable">$MONGO_INITDB_ROOT_PASSWORD</span>"</span>),</span><br><span class="line">                    roles: [ &#123; role: <span class="string">'root'</span>, db: $(_js_escape <span class="string">"<span class="variable">$rootAuthDatabase</span>"</span>) &#125; ]</span><br><span class="line">                &#125;)</span><br><span class="line">            EOJS</span><br></pre></td></tr></table></figure>
+
+<h3 id="mongodump-mongorestore"><a href="#mongodump-mongorestore" class="headerlink" title="mongodump/mongorestore"></a><code>mongodump</code>/<code>mongorestore</code></h3><p><a href="https://docs.mongodb.com/manual/reference/program/mongodump/" target="_blank" rel="noopener">mongodump — MongoDB Manual</a><br>Dump the database in binary.</p>
+<h3 id="mongoexport"><a href="#mongoexport" class="headerlink" title="mongoexport"></a><code>mongoexport</code></h3><p><a href="https://docs.mongodb.com/manual/reference/program/mongoexport/" target="_blank" rel="noopener">mongoexport — MongoDB Manual</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">mongoexport --db <span class="built_in">test</span> --collection traffic --out traffic.json </span><br><span class="line">mongoexport --db users --collection contacts --<span class="built_in">type</span>=csv --fields name,address --out /opt/backups/contacts.csv</span><br><span class="line"><span class="comment"># fieldFile can be used for CSV</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="On-the-contrary"><a href="#On-the-contrary" class="headerlink" title="On the contrary"></a>On the contrary</h2><p><a href="http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/" target="_blank" rel="noopener">Why You Should Never Use MongoDB « Sarah Mei</a><br><a href="http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/" target="_blank" rel="noopener">Why you should never, ever, ever use MongoDB - joepie91&#39;s Ramblings</a><br><a href="https://engineering.meteor.com/mongodb-queries-dont-always-return-all-matching-documents-654b6594a827#.9h3o08c1d" target="_blank" rel="noopener">MongoDB queries don’t always return all matching documents! — Meteor Engineering</a></p>
+<h2 id="Benchmark"><a href="#Benchmark" class="headerlink" title="Benchmark"></a>Benchmark</h2><p><a href="https://scalegrid.io/blog/comparing-mongodb-performance-on-public-clouds-aws-azure-digital-ocean/" target="_blank" rel="noopener">Comparing MongoDB performance on public clouds: AWS, Azure &amp; DigitalOcean</a></p>
+<h2 id="Schema-Validation"><a href="#Schema-Validation" class="headerlink" title="Schema Validation"></a>Schema Validation</h2><p><a href="https://docs.mongodb.com/manual/core/schema-validation/" target="_blank" rel="noopener">Schema Validation — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/reference/operator/query/jsonSchema/#op._S_jsonSchema" target="_blank" rel="noopener">$jsonSchema — MongoDB Manual</a><br><a href="https://tools.ietf.org/html/draft-fge-json-schema-validation-00" target="_blank" rel="noopener">draft-fge-json-schema-validation-00 - JSON Schema: interactive and non interactive validation</a></p>
+<p><a href="http://json-schema.org/" target="_blank" rel="noopener">JSON Schema | The home of JSON Schema</a><br><a href="https://stackoverflow.com/questions/38717933/jsonschema-attribute-conditionally-required" target="_blank" rel="noopener">jsonSchema attribute conditionally required - Stack Overflow</a><br><a href="https://stackoverflow.com/questions/47674950/json-schema-conditional-dependency" target="_blank" rel="noopener">jsonschema - JSON schema: conditional dependency - Stack Overflow</a></p>
+<p>Showing validation rules:  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">db.getCollectionInfos(&#123;name: &quot;myCollection&quot;&#125;)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://mongoosejs.com/" target="_blank" rel="noopener">Mongoose ODM</a> client side ORM and validation</p>
+<h2 id="Scaling"><a href="#Scaling" class="headerlink" title="Scaling"></a>Scaling</h2><p><a href="https://docs.mongodb.com/manual/replication/" target="_blank" rel="noopener">Replication — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/sharding/" target="_blank" rel="noopener">Sharding — MongoDB Manual</a></p>
+<p><a href="http://www.mongodb-is-web-scale.com/" target="_blank" rel="noopener">MongoDB is web scale</a><br><a href="https://hub.packtpub.com/indexing-replicating-and-sharding-in-mongodb-tutorial/" target="_blank" rel="noopener">Indexing, Replicating, and Sharding in MongoDB [Tutorial] | Packt Hub</a><br><a href="https://dzone.com/articles/configuring-a-mongodb-replica-set-for-analytics" target="_blank" rel="noopener">Configuring a MongoDB Replica Set for Analytics - DZone Database</a></p>
+<h2 id="Data-Modeling"><a href="#Data-Modeling" class="headerlink" title="Data Modeling"></a>Data Modeling</h2><p><a href="https://docs.mongodb.com/manual/core/data-modeling-introduction/" target="_blank" rel="noopener">Data Modeling Introduction — MongoDB Manual</a><br><a href="https://docs.mongodb.com/master/tutorial/model-data-for-atomic-operations/" target="_blank" rel="noopener">Model Data for Atomic Operations — MongoDB Manual</a></p>
+<p><a href="https://alexanderpaterson.com/posts/modelling-entity-relations-in-mongodb" target="_blank" rel="noopener">Modelling Entity Relations In MongoDB | Alexander Paterson</a> populating reference with <code>$match</code> and <code>$unwind</code><br><a href="http://www.infoq.com/cn/articles/migrate-from-rmdb-mongodb" target="_blank" rel="noopener">如何将关系型数据导入MongoDB？</a><br><a href="https://docs.mongodb.com/manual/reference/operator/aggregation/" target="_blank" rel="noopener">Aggregation Pipeline Operators — MongoDB Manual</a><br><a href="https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/" target="_blank" rel="noopener">mongoose: Referencing schema in properties or arrays | Alexander Zeitler</a></p>
+<p><a href="http://thecodebarbarian.com/a-nodejs-perspective-on-mongodb-34-collations" target="_blank" rel="noopener">A Node.js Perspective on MongoDB 3.4: Collations | www.thecodebarbarian.com</a></p>
+<p><a href="https://www.mongodb.com/blog/post/thinking-documents-part-1" target="_blank" rel="noopener">Thinking in Documents: Part 1 | MongoDB</a><br><a href="https://www.mongodb.com/blog/post/thinking-documents-part-2" target="_blank" rel="noopener">Thinking in Documents: Part 2 | MongoDB</a><br><a href="https://www.agile-code.com/blog/mongodb-thinking-in-documents/" target="_blank" rel="noopener">MongoDB - Thinking in Documents - agile-code.com</a></p>
+<p><a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1" target="_blank" rel="noopener">6 Rules of Thumb for MongoDB Schema Design: Part 1 | MongoDB</a><br><a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-2" target="_blank" rel="noopener">6 Rules of Thumb for MongoDB Schema Design: Part 2 | MongoDB</a><br><a href="https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-3" target="_blank" rel="noopener">6 Rules of Thumb for MongoDB Schema Design: Part 3 | MongoDB</a></p>
+<h2 id="Tips-and-Tricks"><a href="#Tips-and-Tricks" class="headerlink" title="Tips and Tricks"></a>Tips and Tricks</h2><p><a href="https://docs.mongodb.com/manual/tutorial/perform-two-phase-commits/" target="_blank" rel="noopener">Perform Two Phase Commits — MongoDB Manual</a><br><a href="https://docs.mongodb.com/manual/tutorial/expire-data/" target="_blank" rel="noopener">Expire Data from Collections by Setting TTL — MongoDB Manual</a></p>
+<p><a href="http://thecodebarbarian.com/a-node-js-perspective-on-mongodb-4-transactions.html" target="_blank" rel="noopener">A Node.js Perspective on MongoDB 4.0: Transactions | www.thecodebarbarian.com</a></p>
 	  
 	</div>
 
@@ -165,7 +203,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>40</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -178,7 +216,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/mongodb/">mongodb<span>1</span></a></li>
+  <li><a href="/tags/notes/">notes<span>24</span></a></li> <li><a href="/tags/mongodb/">mongodb<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -188,7 +226,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#drop-database"><span class="toc-article-text">drop database</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#reference"><span class="toc-article-text">reference</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#mongod-server"><span class="toc-article-text">mongod server</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#mongo-client"><span class="toc-article-text">mongo client</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#mongodump-mongorestore"><span class="toc-article-text">mongodump/mongorestore</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#mongoexport"><span class="toc-article-text">mongoexport</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#On-the-contrary"><span class="toc-article-text">On the contrary</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Benchmark"><span class="toc-article-text">Benchmark</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Schema-Validation"><span class="toc-article-text">Schema Validation</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Scaling"><span class="toc-article-text">Scaling</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Data-Modeling"><span class="toc-article-text">Data Modeling</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tips-and-Tricks"><span class="toc-article-text">Tips and Tricks</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -205,7 +243,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

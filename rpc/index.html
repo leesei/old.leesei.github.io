@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Remote Procedure Call | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Remote Procedure Call">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Remote Procedure Call</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h1 id="RPC"><a href="#RPC" class="headerlink" title="RPC"></a>RPC</h1><p><a href="http://www.wikiwand.com/en/Remote_procedure_call" target="_blank" rel="noopener">Remote procedure call - Wikiwand</a><br>Usually an interface description language (<a href="#idl">IDL</a>) is used to define the data sent over the wire. The IDL that can usually generate bindings for multiple languages.</p>
+<p>Message queues can be used for RPC calls.</p>
+<blockquote>
+<p>see <code>message-queue.md</code></p>
+</blockquote>
+<h2 id="zerorpc"><a href="#zerorpc" class="headerlink" title="zerorpc"></a>zerorpc</h2><p><a href="http://www.zerorpc.io/" target="_blank" rel="noopener">zerorpc</a> MessagePack + ZeroMQ<br><a href="https://github.com/0rpc" target="_blank" rel="noopener">zerorpc</a> Org</p>
+<h2 id="gRPC"><a href="#gRPC" class="headerlink" title="gRPC"></a>gRPC</h2><p><a href="http://www.grpc.io/" target="_blank" rel="noopener">grpc - grpc.io</a><br><a href="https://www.wikiwand.com/en/GRPC" target="_blank" rel="noopener">gRPC - Wikiwand</a><br><a href="https://github.com/grpc" target="_blank" rel="noopener">grpc</a> Org<br>A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.</p>
+<p><a href="https://coreos.com/blog/gRPC-protobufs-swagger.html" target="_blank" rel="noopener">Take a REST with HTTP-2, Protobufs, and Swaggerquay</a><br><a href="https://thenewstack.io/grpc-lean-mean-communication-protocol-microservices/" target="_blank" rel="noopener">Google&#39;s gRPC: A Lean and Mean Communication Protocol for Microservices - The New Stack</a></p>
+<p><a href="https://www.youtube.com/watch?v=RoXT_Rkg8LA" target="_blank" rel="noopener">Intro to gRPC: A Modern Toolkit for Microservice Communication - YouTube</a><br><a href="https://nordicapis.com/exploring-the-grpc-framework-for-building-microservices/" target="_blank" rel="noopener">Exploring The gRPC Framework for Building Microservices | Nordic APIs |</a></p>
+<p><a href="https://itnext.io/effectively-communicate-between-microservices-de7252ba2f3c" target="_blank" rel="noopener">Effectively communicate between Microservices – ITNEXT</a> TL;DR: Use gRPC<br><a href="https://medium.com/@avidaneran/tensorflow-serving-rest-vs-grpc-e8cef9d4ff62" target="_blank" rel="noopener">Tensorflow serving: REST vs gRPC – Avidan Eran – Medium</a> REST is faster for small data payload</p>
+<p><a href="https://github.com/bradleyjkemp/grpc-tools" target="_blank" rel="noopener">bradleyjkemp/grpc-tools: A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.</a></p>
+<p><a href="https://www.nginx.com/blog/nginx-1-13-10-grpc" target="_blank" rel="noopener">Introducing gRPC Support with NGINX 1.13.10 - NGINX</a></p>
+<h3 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h3><p><a href="https://github.com/grpc/grpc-web" target="_blank" rel="noopener">grpc/grpc-web: gRPC for Web Clients</a><br><a href="https://improbable.io/games/blog/grpc-web-moving-past-restjson-towards-type-safe-web-apis" target="_blank" rel="noopener">gRPC-Web: Moving past REST+JSON towards type-safe Web APIs - Improbable</a><br><a href="https://www.cncf.io/blog/2018/10/24/grpc-web-is-going-ga/" target="_blank" rel="noopener">gRPC-Web is going GA - Cloud Native Computing Foundation</a></p>
+<p><a href="https://github.com/grpc-ecosystem/grpc-gateway" target="_blank" rel="noopener">grpc-ecosystem/grpc-gateway: gRPC to JSON proxy generator following the gRPC HTTP spec</a></p>
+<p><a href="https://medium.freecodecamp.org/how-to-use-grpc-web-with-react-1c93feb691b5" target="_blank" rel="noopener">How to use gRPC-web with React – freeCodeCamp.org</a></p>
+<h3 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h3><p><a href="https://toolbox.kurio.co.id/implementing-grpc-service-in-golang-afb9e05c0064" target="_blank" rel="noopener">Implementing gRPC service in Golang – Kurio Toolbox</a><br><a href="https://medium.com/@amsokol.com/tutorial-how-to-develop-go-grpc-microservice-with-http-rest-endpoint-middleware-kubernetes-daebb36a97e9" target="_blank" rel="noopener">[Tutorial, Part 1] How to develop Go gRPC microservice with HTTP/REST endpoint, middleware…</a><br><a href="https://medium.com/@amsokol.com/tutorial-how-to-develop-go-grpc-microservice-with-http-rest-endpoint-middleware-kubernetes-af1fff81aeb2" target="_blank" rel="noopener">[Tutorial, Part 2] How to develop Go gRPC microservice with HTTP/REST endpoint, middleware…</a><br><a href="https://medium.com/@amsokol.com/tutorial-part-3-how-to-develop-go-grpc-microservice-with-http-rest-endpoint-middleware-739aac8f1d7e" target="_blank" rel="noopener">[Tutorial, Part 3] How to develop Go gRPC microservice with HTTP/REST endpoint, middleware…</a></p>
+<h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p><a href="https://medium.com/@alfianlosari/building-grpc-service-server-note-crud-api-with-node-js-bcc5478d5bdb" target="_blank" rel="noopener">Building gRPC Service Server Note CRUD API with node.js</a></p>
+<h2 id="RSocket"><a href="#RSocket" class="headerlink" title="RSocket"></a>RSocket</h2><p><a href="http://rsocket.io/" target="_blank" rel="noopener">RSocket</a><br><a href="https://medium.com/netifi/rpc-thunder-dome-3103e2449957" target="_blank" rel="noopener">RPC Thunder Dome – Netifi – Medium</a><br><a href="https://www.infoq.com/articles/give-rest-a-rest-rsocket" target="_blank" rel="noopener">Give REST a Rest with RSocket</a></p>
+<p><a href="https://softwareengineeringdaily.com/2019/01/22/rsocket-reactive-streaming-service-networking-with-ryland-degnan/" target="_blank" rel="noopener">RSocket: Reactive Streaming Service Networking with Ryland Degnan - Software Engineering Daily</a></p>
+<h2 id="Scuttlebutt"><a href="#Scuttlebutt" class="headerlink" title="Scuttlebutt"></a>Scuttlebutt</h2><p><a href="https://github.com/ssbc" target="_blank" rel="noopener">Secure Scuttlebutt Consortium</a><br><a href="https://medium.com/clebertech-en/the-definitive-guide-to-secure-scuttlebutt-a1b3a3fd73f6" target="_blank" rel="noopener">The definitive guide to Secure Scuttlebutt – clebertech-en – Medium</a><br><a href="http://scuttlebot.io/more/protocols/secure-scuttlebutt.html" target="_blank" rel="noopener">Secure Scuttlebutt - Scuttlebot</a><br><a href="https://ssbc.github.io/scuttlebutt-protocol-guide/index.html" target="_blank" rel="noopener">Scuttlebutt Protocol Guide</a><br><a href="https://github.com/ssbc/scuttlebutt-guide" target="_blank" rel="noopener">ssbc/scuttlebutt-guide: A collection of links to known resources!</a></p>
+<p><a href="https://www.scuttlebutt.nz/" target="_blank" rel="noopener">Scuttlebutt · GitBook</a> Patchwork client</p>
+<p>Patchwork is a user interface for displaying messages from the distributed database (Scuttlebot) to the user, and to allow the user to add new messages. The underlying protocol supports arbitrary message types, Patchwork exposes a UI for interacting with a subset of them. Anyone could write and use other UIs while still contributing to the same database. <a href="https://github.com/ssbc/patchbay" target="_blank" rel="noopener">Patchbay</a> for example is a more developer-centric frontend.</p>
+<p><a href="http://scuttlebot.io/" target="_blank" rel="noopener">Scuttlebot peer-to-peer log store</a> used as a database, identity provider, and messaging system<br><a href="https://github.com/dominictarr/sbot-web" target="_blank" rel="noopener">dominictarr/sbot-web</a></p>
+<h2 id="TARS"><a href="#TARS" class="headerlink" title="TARS"></a>TARS</h2><p><a href="https://tars.tencent.com/base/tars_index/en/index.html" target="_blank" rel="noopener">TARS,rpc framework by tencent</a><br><a href="https://github.com/TarsCloud/Tars" target="_blank" rel="noopener">TarsCloud/Tars: Tars is a highly performance rpc framework based on naming service using tars protocol and provides a semi-automatic operation platform.</a></p>
+<h2 id="Dubbo"><a href="#Dubbo" class="headerlink" title="Dubbo"></a>Dubbo</h2><p>RPC framework created by Alibaba.</p>
+<p><a href="http://dubbo.io/" target="_blank" rel="noopener">DUBBO</a><br><a href="https://www.gitbook.com/@dubbo" target="_blank" rel="noopener">dubbo (@dubbo) on GitBook · GitBook</a></p>
+<p><a href="https://github.com/alibaba/dubbo" target="_blank" rel="noopener">alibaba/dubbo: Dubbo is a high-performance, java based, open source RPC framework</a></p>
+<h2 id="ICE"><a href="#ICE" class="headerlink" title="ICE"></a>ICE</h2><blockquote>
+<p>GPLv2</p>
+</blockquote>
+<p><a href="https://www.wikiwand.com/en/Internet_Communications_Engine" target="_blank" rel="noopener">Internet Communications Engine - Wikiwand</a><br><a href="https://zeroc.com/" target="_blank" rel="noopener">ZeroC - Network Your Software</a></p>
+<h2 id="JSON-RPC"><a href="#JSON-RPC" class="headerlink" title="JSON-RPC"></a>JSON-RPC</h2><p><a href="https://www.jsonrpc.org/" target="_blank" rel="noopener">JSON-RPC</a><br><a href="http://www.simple-is-better.org/rpc/index.html" target="_blank" rel="noopener">simple is better - JSON-RPC</a></p>
+<hr>
+<h1 id="IDL"><a href="#IDL" class="headerlink" title="IDL"></a>IDL</h1><blockquote>
+<p>TODO: merge <code>Dropbox/caravan/caravan/interchange-format</code></p>
+</blockquote>
+<h2 id="Protocol-Buffers"><a href="#Protocol-Buffers" class="headerlink" title="Protocol Buffers"></a>Protocol Buffers</h2><p><a href="https://developers.google.com/protocol-buffers/" target="_blank" rel="noopener">Protocol Buffers  |  Google Developers</a><br><a href="https://www.wikiwand.com/en/Protocol_Buffers" target="_blank" rel="noopener">Protocol Buffers - Wikiwand</a></p>
+<p><a href="https://codeburst.io/protocol-buffers-part-1-serialization-library-for-microservices-37418e72908b" target="_blank" rel="noopener">Protocol Buffers, Part 1 — Serialization Library for Microservices</a><br><a href="https://codeburst.io/protocol-buffers-part-2-the-untold-parts-of-using-any-6a328560048d" target="_blank" rel="noopener">Protocol Buffers, Part 2 — The Untold Parts Of Using “Any”</a></p>
+<h2 id="MessagePack"><a href="#MessagePack" class="headerlink" title="MessagePack"></a>MessagePack</h2><h2 id="Thrift"><a href="#Thrift" class="headerlink" title="Thrift"></a>Thrift</h2><p><a href="https://thrift.apache.org/" target="_blank" rel="noopener">Apache Thrift - Home</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/driving/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/file-parsing/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2018-08-02 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-dev/">web-dev<span>22</span></a></li> <li><a href="/tags/rpc/">rpc<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#RPC"><span class="toc-article-text">RPC</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#zerorpc"><span class="toc-article-text">zerorpc</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gRPC"><span class="toc-article-text">gRPC</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Web"><span class="toc-article-text">Web</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Go"><span class="toc-article-text">Go</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Node"><span class="toc-article-text">Node</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#RSocket"><span class="toc-article-text">RSocket</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Scuttlebutt"><span class="toc-article-text">Scuttlebutt</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#TARS"><span class="toc-article-text">TARS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Dubbo"><span class="toc-article-text">Dubbo</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ICE"><span class="toc-article-text">ICE</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#JSON-RPC"><span class="toc-article-text">JSON-RPC</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#IDL"><span class="toc-article-text">IDL</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Protocol-Buffers"><span class="toc-article-text">Protocol Buffers</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#MessagePack"><span class="toc-article-text">MessagePack</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Thrift"><span class="toc-article-text">Thrift</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

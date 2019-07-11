@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Elasticsearch | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Elasticsearch">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Elasticsearch</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="Elasticsearch"><a href="#Elasticsearch" class="headerlink" title="Elasticsearch"></a>Elasticsearch</h2><p><a href="https://www.elastic.co/products/elasticsearch" target="_blank" rel="noopener">Elasticsearch | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" target="_blank" rel="noopener">Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/client/index.html" target="_blank" rel="noopener">Elasticsearch Clients | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/plugins/current/index.html" target="_blank" rel="noopener">Elasticsearch Plugins and Integrations | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/index.html" target="_blank" rel="noopener">Elasticsearch: The Definitive Guide | Elastic</a> For 2.x</p>
+<p><a href="https://opendistro.github.io/for-elasticsearch/" target="_blank" rel="noopener">Open Distro for Elasticsearch | Open Distro</a> AWS&#39;s distro after Elasticsearch.co&#39;s license change</p>
+<p><a href="https://www.elastic.co/blog/a-practical-introduction-to-elasticsearch" target="_blank" rel="noopener">A Practical Introduction to Elasticsearch | Elastic</a><br><a href="https://www.elastic.co/blog/elasticsearch-5-0-0-released" target="_blank" rel="noopener">Elasticsearch 5.0.0 GA released | Elastic</a><br><a href="https://www.elastic.co/blog/found-crash-elasticsearch" target="_blank" rel="noopener">Six Ways to Crash Elasticsearch | Elastic</a><br><a href="https://www.elastic.co/blog/monitoring-kafka-with-elastic-stack-1-filebeat" target="_blank" rel="noopener">Monitoring Kafka with Elastic Stack: Filebeat | Elastic</a> uses 5.0 ingest pipeline<br><a href="https://www.elastic.co/blog/setting-up-elasticsearch-for-a-blog" target="_blank" rel="noopener">Setting Up Elasticsearch for a Blog | Elastic</a> create index, mapping via API, 2.x<br><a href="https://www.elastic.co/blog/found-elasticsearch-as-nosql" target="_blank" rel="noopener">Elasticsearch as a NoSQL Database | Elastic</a><br><a href="https://www.elastic.co/blog/reindex-is-coming" target="_blank" rel="noopener">Reindex is coming! | Elastic</a></p>
+<p><a href="https://codeburst.io/elasticsearch-by-example-part-1-a4a38cd97f55" target="_blank" rel="noopener">Elasticsearch by Example: Part 1 – codeburst</a><br><a href="https://codeburst.io/elasticsearch-by-example-part-2-73f9816f5404" target="_blank" rel="noopener">Elasticsearch by Example: Part 2 – codeburst</a><br><a href="https://codeburst.io/elasticsearch-by-example-part-3-2ec44d99892d" target="_blank" rel="noopener">Elasticsearch by Example: Part 3 – codeburst</a><br><a href="https://codeburst.io/elasticsearch-by-example-part-4-cd11928a579e" target="_blank" rel="noopener">Elasticsearch by Example: Part 4 – codeburst</a><br><a href="https://codeburst.io/elasticsearch-by-example-part-5-6495f69f3797" target="_blank" rel="noopener">Elasticsearch by Example: Part 5 – codeburst</a></p>
+<p><a href="https://egghead.io/courses/get-started-with-elasticsearch" target="_blank" rel="noopener">Get data from Elasticsearch by id using http from @wfbutton on @eggheadio</a><br><a href="https://github.com/rekibnikufesin/elasticsearch-intro" target="_blank" rel="noopener">rekibnikufesin/elasticsearch-intro</a><br><a href="https://github.com/dwyl/learn-elasticsearch" target="_blank" rel="noopener">dwyl/learn-elasticsearch: Learn how to use ElasticSearch to power a great search experience for your project/product/website.</a></p>
+<p><a href="http://elasticsearch-cheatsheet.jolicode.com/" target="_blank" rel="noopener">Elasticsearch Cheat Sheet for developers</a><br><a href="https://logz.io/blog/elasticsearch-cheat-sheet/" target="_blank" rel="noopener">A Useful Elasticsearch Cheat Sheet in Times of Trouble</a><br><a href="https://sematext.com/elasticsearch-developer-cheat-sheet/" target="_blank" rel="noopener">Elasticsearch Developer Cheat Sheet</a><br><a href="https://sematext.com/elasticsearch-devops-cheat-sheet/" target="_blank" rel="noopener">Elasticsearch Devops Cheat Sheet and Snippets</a></p>
+<p><a href="https://www.compose.com/articles/getting-started-with-elasticsearch-and-node/" target="_blank" rel="noopener">Getting started with Elasticsearch and Node.js - Part 1</a><br><a href="https://www.compose.com/articles/elasticsearch-and-node-part-ii/" target="_blank" rel="noopener">Getting started with Elasticsearch and Node.js - Part 2</a><br><a href="https://www.compose.com/articles/getting-started-with-elasticsearch-and-node-js-part-3/" target="_blank" rel="noopener">Getting started with Elasticsearch and Node.js - Part 3</a></p>
+<h3 id="CLI-API"><a href="#CLI-API" class="headerlink" title="CLI API"></a>CLI API</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># create index</span></span><br><span class="line">http PUT http://elasticsearch:9200/INDEX</span><br><span class="line"><span class="comment"># get index</span></span><br><span class="line">http -b http://elasticsearch:9200/INDEX?pretty</span><br><span class="line"><span class="comment"># get all indices</span></span><br><span class="line">http -b http://elasticsearch:9200/_cat/indices?pretty</span><br><span class="line"><span class="comment"># get all index templates</span></span><br><span class="line">http -b http://elasticsearch:9200/_template?pretty</span><br><span class="line"></span><br><span class="line"><span class="comment"># _reindex</span></span><br><span class="line">curl -XPOST elasticsearch:9200/_reindex?pretty -d<span class="string">'&#123;</span></span><br><span class="line"><span class="string">  "source": &#123;</span></span><br><span class="line"><span class="string">    "index": "src",</span></span><br><span class="line"><span class="string">    "query": &#123;</span></span><br><span class="line"><span class="string">      "match": &#123;</span></span><br><span class="line"><span class="string">        "tags": "bananas"</span></span><br><span class="line"><span class="string">      &#125;</span></span><br><span class="line"><span class="string">    &#125;</span></span><br><span class="line"><span class="string">  &#125;,</span></span><br><span class="line"><span class="string">  "dest": &#123;</span></span><br><span class="line"><span class="string">    "index": "dest"</span></span><br><span class="line"><span class="string">  &#125;</span></span><br><span class="line"><span class="string">&#125;'</span></span><br><span class="line">http -b POST http://elasticsearch:9200/_reindex?pretty &lt;&lt; EOF</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">"source"</span>: &#123;</span><br><span class="line">    <span class="string">"index"</span>: <span class="string">"src"</span>,</span><br><span class="line">    <span class="string">"query"</span>: &#123;</span><br><span class="line">      <span class="string">"match"</span>: &#123;</span><br><span class="line">        <span class="string">"tags"</span>: <span class="string">"bananas"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">"dest"</span>: &#123;</span><br><span class="line">    <span class="string">"index"</span>: <span class="string">"dest"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="comment"># performance, stats</span></span><br><span class="line"><span class="comment">## show on-going tasks</span></span><br><span class="line">http <span class="string">"http://elasticsearch:9200/_tasks?pretty&amp;detailed&amp;actions=*reindex,*byquery"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># insert document</span></span><br><span class="line">http -b POST http://elasticsearch:9200/INDEX/TYPE?pretty &lt;&lt; EOF</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">"userId"</span>: 10,</span><br><span class="line">  <span class="string">"name"</span>: &#123;</span><br><span class="line">    <span class="string">"first"</span>: <span class="string">"Katherine"</span>,</span><br><span class="line">    <span class="string">"last"</span>: <span class="string">"Jones"</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">"tags"</span>: [<span class="string">"trick manager"</span>, <span class="string">"restaurant manager"</span>]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="comment"># get mapping</span></span><br><span class="line">http http://elasticsearch:9200/INDEX/TYPE/_mapping?pretty</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">"name"</span> : &#123;</span><br><span class="line">    <span class="string">"properties"</span> : &#123;</span><br><span class="line">      <span class="string">"name"</span> : &#123;</span><br><span class="line">        <span class="string">"properties"</span> : &#123;</span><br><span class="line">          <span class="string">"first"</span> : &#123;</span><br><span class="line">            <span class="string">"type"</span> : <span class="string">"string"</span></span><br><span class="line">          &#125;,</span><br><span class="line">          <span class="string">"last"</span> : &#123;</span><br><span class="line">            <span class="string">"type"</span> : <span class="string">"string"</span></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="string">"tags"</span> : &#123;</span><br><span class="line">        <span class="string">"type"</span> : <span class="string">"string"</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="string">"userId"</span> : &#123;</span><br><span class="line">        <span class="string">"type"</span> : <span class="string">"long"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://github.com/taskrabbit/elasticsearch-dump" target="_blank" rel="noopener">taskrabbit/elasticsearch-dump: Import and export tools for elasticsearch</a><br><a href="https://github.com/ElasticSearchCLITools/esTail" target="_blank" rel="noopener">ElasticSearchCLITools/esTail: ElasticSearch CLI Tail - This application simulate the tail command against a index which has a @timestamp</a></p>
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/api-conventions.html" target="_blank" rel="noopener">API Conventions | Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html" target="_blank" rel="noopener">Document APIs | Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search.html" target="_blank" rel="noopener">Search APIs | Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html" target="_blank" rel="noopener">Indices APIs | Elasticsearch Reference | Elastic</a> vs <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html" target="_blank" rel="noopener">Document&#39;s index API</a>?<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/cat.html" target="_blank" rel="noopener">cat APIs | Elasticsearch Reference | Elastic</a> return data in tabulated forms</p>
+<h3 id="Internals"><a href="#Internals" class="headerlink" title="Internals"></a>Internals</h3><p><a href="https://www.elastic.co/blog/found-elasticsearch-from-the-bottom-up" target="_blank" rel="noopener">Elasticsearch from the Bottom Up, Part 1 | Elastic</a> !important, Lucent links<br><a href="https://www.elastic.co/blog/found-elasticsearch-top-down" target="_blank" rel="noopener">Elasticsearch from the Top Down | Elastic</a><br><a href="https://www.elastic.co/blog/found-elasticsearch-in-production" target="_blank" rel="noopener">Elasticsearch in Production | Elastic</a> !important, network partition, profiling endpoints<br><a href="https://www.elastic.co/blog/tracking-in-sync-shard-copies" target="_blank" rel="noopener">Elasticsearch Internals - Tracking in-sync shard copies | Elastic</a><br><a href="https://www.elastic.co/blog/hot-warm-architecture-in-elasticsearch-5-x" target="_blank" rel="noopener">Elasticsearch Hot Warm Architecture | Elastic</a></p>
+<p>An index is stored in a set of shards, which are themselves Lucene indices consisting of segments. Search happens on segments. Documents marked deleted will be removed when segments are merges.<br>Elasticsearch creates 5 shards per index by default.</p>
+<p><a href="https://www.elastic.co/blog/refreshing_news" target="_blank" rel="noopener">Where are my documents?Refreshing news... | Elastic</a><br><a href="https://www.elastic.co/blog/disk-based-field-data-a-k-a-doc-values" target="_blank" rel="noopener">Disk-Based Field Data a.k.a. Doc Values | Elastic</a> inverted index<br><a href="https://www.elastic.co/blog/sparse-versus-dense-document-values-with-apache-lucene" target="_blank" rel="noopener">Sparse versus dense document values with Apache Lucene | Elastic</a></p>
+<h3 id="Index-Creation-Mapping"><a href="#Index-Creation-Mapping" class="headerlink" title="Index Creation/Mapping"></a>Index Creation/Mapping</h3><p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html" target="_blank" rel="noopener">index template</a> to control how the daily index is generated<br>Mapping will be generated dynamically but it:</p>
+<ul>
+<li>may detect field types incorrectly</li>
+<li>produce duplicate fields (<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-source-field.html" target="_blank" rel="noopener"><code>_source</code></a> and <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-all-field.html" target="_blank" rel="noopener"><code>_all</code></a></li>
+<li>always use <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html" target="_blank" rel="noopener">standard analyzer</a> which tokenizes strings</li>
+<li>all keys in the documents will end up in the index&#39;s mapping</li>
+</ul>
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html" target="_blank" rel="noopener">Mapping | Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/blog/found-elasticsearch-mapping-introduction" target="_blank" rel="noopener">An Introduction to Elasticsearch Mapping | Elastic</a> !important<br>The schema in Elasticsearch is a mapping that describes the the fields in the JSON documents along with their data type, as well as how they should be indexed in the Lucene indexes that lie under the hood. Because of this, in Elasticsearch terms, we usually call this schema a “mapping”.<br>&quot;Mapping type&quot; (keys at root level of mapping) is the name of type in index, see below.<br>An field can be of &quot;multi-field&quot; type to support multiple way of indexing (or not at all).<br><a href="https://www.elastic.co/blog/index-vs-type" target="_blank" rel="noopener">Index vs. Type | Elastic</a><br>In the past we tried to make elasticsearch easier to understand by building an analogy with relational databases: indices would be like a database, and types like a table in a database. This was a mistake. Types are being <a href="https://github.com/elastic/elasticsearch/issues/15613" target="_blank" rel="noopener">phased out</a> since 5.x.<br><a href="https://www.elastic.co/blog/found-mapping-workflow" target="_blank" rel="noopener">A Data Exploration Workflow for Mappings | Elastic</a> insert a document and reference the dynamically generated mapping<br><a href="https://www.elastic.co/blog/managing-relations-inside-elasticsearch" target="_blank" rel="noopener">Managing Relations Inside Elasticsearch | Elastic</a><br>Elasticsearch has a concept of &quot;query time&quot; joining with <a href="https://www.elastic.co/guide/reference/mapping/parent-field" target="_blank" rel="noopener">parent/child-relations</a> and &quot;index time&quot; joining with <a href="https://www.elastic.co/guide/reference/mapping/nested-type" target="_blank" rel="noopener">nested types</a>.<br><a href="https://www.elastic.co/blog/index-type-parent-child-join-now-future-in-elasticsearch" target="_blank" rel="noopener">Indices, types, and parent / child: current status and upcoming changes in Elasticsearch | Elastic</a><br><a href="https://www.elastic.co/blog/managing-time-based-indices-efficiently" target="_blank" rel="noopener">And the big one said &quot;Rollover&quot; — Managing Elasticsearch time-based indices efficiently | Elastic</a> introduces Rollover template<br><a href="https://www.elastic.co/blog/removal-of-mapping-types-elasticsearch" target="_blank" rel="noopener">Removal of mapping types in Elasticsearch 6.0 | Elastic</a></p>
+<h3 id="Data-types"><a href="#Data-types" class="headerlink" title="Data types"></a>Data types</h3><p><a href="https://www.elastic.co/blog/strings-are-dead-long-live-strings" target="_blank" rel="noopener">Elasticsearch replaces string type with two new types text and keyword. | Elastic</a> <code>text</code> vs <code>keyword</code> (full text vs exact match)<br><a href="https://www.elastic.co/blog/numeric-and-date-ranges-in-elasticsearch-just-another-brick-in-the-wall" target="_blank" rel="noopener">Numeric and Date Ranges...Just Another Brick in the Wall | Elastic</a><br><a href="https://www.elastic.co/blog/searching-numb3rs-in-5.0" target="_blank" rel="noopener">Searching numb3rs in 5.0 | Elastic</a></p>
+<h3 id="Ingest"><a href="#Ingest" class="headerlink" title="Ingest"></a>Ingest</h3><p>Elastic search gained the power to ingest logs in 5.0. Consider it a little cousin of Logstash.</p>
+<p><a href="https://www.elastic.co/blog/writing-your-own-ingest-processor-for-elasticsearch" target="_blank" rel="noopener">Writing Your Own Ingest Processor for Elasticsearch | Elastic</a><br><a href="https://www.elastic.co/blog/new-way-to-ingest-part-1" target="_blank" rel="noopener">A New Way To Ingest - Part 1 | Elastic</a><br><a href="https://www.elastic.co/blog/new-way-to-ingest-part-2" target="_blank" rel="noopener">A New Way To Ingest - Part 2 | Elastic</a><br><a href="https://www.elastic.co/blog/ingest-node-a-clients-perspective" target="_blank" rel="noopener">Elastic Ingest Node: A Client&#39;s Perspective | Elastic</a></p>
+<h3 id="Text-Analyzer"><a href="#Text-Analyzer" class="headerlink" title="Text Analyzer"></a>Text Analyzer</h3><p><a href="https://www.elastic.co/blog/found-text-analysis-part-1" target="_blank" rel="noopener">All About Analyzers, Part One | Elastic</a><br><a href="https://www.elastic.co/blog/found-text-analysis-part-2" target="_blank" rel="noopener">All About Analyzers, Part Two | Elastic</a></p>
+<p><em>Match query</em> also went through <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html" target="_blank" rel="noopener">standard analyzer</a> and <em>term query</em> looks for exact match.</p>
+<h3 id="Query"><a href="#Query" class="headerlink" title="Query"></a>Query</h3><p>Elasticsearch is powered by Apache Lucene query language.</p>
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html" target="_blank" rel="noopener">Query DSL | Elasticsearch Reference | Elastic</a></p>
+<p><a href="https://www.elastic.co/blog/found-beginner-troubleshooting" target="_blank" rel="noopener">Troubleshooting Elasticsearch searches, for Beginners | Elastic</a> !important<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-scripting-painless.html" target="_blank" rel="noopener">Painless Scripting Language | Elasticsearch Reference | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-scripting-expression.html" target="_blank" rel="noopener">Lucene Expressions Language | Elasticsearch Reference | Elastic</a></p>
+<p><a href="https://www.elastic.co/blog/painless-a-new-scripting-language" target="_blank" rel="noopener">Painless: A New Scripting Language | Elastic</a><br><a href="https://www.elastic.co/blog/using-painless-kibana-scripted-fields" target="_blank" rel="noopener">Using Painless in Kibana scripted fields | Elastic</a><br><a href="https://www.elastic.co/blog/a-profile-a-day-keeps-the-doctor-away-the-elasticsearch-search-profiler" target="_blank" rel="noopener">A Profile a Day Keeps the Doctor Away: The Elasticsearch Search Profiler | Elastic</a><br><a href="https://www.elastic.co/blog/elasticsearch-query-execution-order" target="_blank" rel="noopener">In which order are my Elasticsearch queries/filters executed? | Elastic</a><br><a href="https://www.elastic.co/blog/the-great-query-refactoring-thou-shalt-only-parse-once" target="_blank" rel="noopener">The Great Query Refactoring: Thou shalt only parse once | Elastic</a><br><a href="https://www.elastic.co/blog/instant-aggregations-rewriting-queries-for-fun-and-profit" target="_blank" rel="noopener">Instant Aggregations: Rewriting Queries for fun and profit | Elastic</a><br><a href="https://www.elastic.co/blog/monitoring-the-search-queries" target="_blank" rel="noopener">Monitoring the Search Queries | Elastic</a> monitoring production Elasticsearch with Packetbeats</p>
+<p><a href="https://www.compose.com/articles/elasticsearch-pm-part-4-querying-and-search-options/" target="_blank" rel="noopener">Elasticsearch.pm - Part 4: Querying and Search Options</a></p>
+<blockquote>
+<p>set <code>explain</code> to <code>true</code> on search object</p>
+</blockquote>
+<h4 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h4><p><a href="https://www.elastic.co/blog/an-introduction-to-elasticsearch-sql-with-practical-examples-part-1" target="_blank" rel="noopener">An Introduction to Elasticsearch SQL with Practical Examples - Part 1 | Elastic</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/xpack-sql.html" target="_blank" rel="noopener">SQL Access | Elasticsearch Reference [6.3] | Elastic</a></p>
+<h4 id="Lucene"><a href="#Lucene" class="headerlink" title="Lucene"></a>Lucene</h4><p><a href="http://lucene.apache.org/core/" target="_blank" rel="noopener">Apache Lucene - Apache Lucene Core</a><br><a href="http://lucene.apache.org/core/6_4_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description" target="_blank" rel="noopener">org.apache.lucene.queryparser.classic (Lucene 6.4.1 API)</a><br><a href="http://www.lucenetutorial.com/index.html" target="_blank" rel="noopener">Welcome to Lucene Tutorial.com - Lucene Tutorial.com</a></p>
+<h3 id="Aggregation"><a href="#Aggregation" class="headerlink" title="Aggregation"></a>Aggregation</h3><p><a href="https://www.elastic.co/blog/found-elasticsearch-aggregations" target="_blank" rel="noopener">Elasticsearch&#39;s New Aggregations | Elastic</a></p>
+<p>Aggregation groups documents into buckets of documents; replaces facets since 1.0</p>
+<h3 id="Scaling"><a href="#Scaling" class="headerlink" title="Scaling"></a>Scaling</h3><p><a href="https://www.elastic.co/blog/found-sizing-elasticsearch" target="_blank" rel="noopener">Sizing Elasticsearch | Elastic</a> scaling Elasticsearch, shard and index, inverted index<br><a href="https://www.elastic.co/blog/every-shard-deserves-a-home" target="_blank" rel="noopener">Every Shard deserves a home. | Elastic</a><br><a href="https://www.elastic.co/blog/small-medium-or-large-scaling-elasticsearch-and-evolving-the-elastic-stack-to-fit" target="_blank" rel="noopener">Scaling Elasticsearch, Kibana, Beats, and Logstash | Elastic</a> Architecture, 5.x<br><a href="https://www.elastic.co/blog/hot-warm-architecture-in-elasticsearch-5-x" target="_blank" rel="noopener">Elasticsearch Hot Warm Architecture | Elastic</a></p>
+<h3 id="Securing-Elasticsearch"><a href="#Securing-Elasticsearch" class="headerlink" title="Securing Elasticsearch"></a>Securing Elasticsearch</h3><p><a href="https://www.elastic.co/guide/en/x-pack/current/xpack-security.html" target="_blank" rel="noopener">Securing Elasticsearch and Kibana | X-Pack for the Elastic Stack | Elastic</a><br><a href="https://www.elastic.co/blog/getting-started-with-elasticsearch-ssl-native-authentication" target="_blank" rel="noopener">Getting Started with Elasticsearch and SSL &amp; Native Authentication | Elastic</a><br><a href="https://www.elastic.co/blog/getting-started-with-shield-document-level-security-in-elasticsearch" target="_blank" rel="noopener">Getting Started with Shield’s Document Level Security in Elasticsearch | Elastic</a></p>
+<h3 id="Discovery"><a href="#Discovery" class="headerlink" title="Discovery"></a>Discovery</h3><p><a href="https://github.com/github/elasticsearch-srv-discovery" target="_blank" rel="noopener">github/elasticsearch-srv-discovery: Elasticsearch discovery with SRV records</a><br><a href="https://github.com/lithiumtech/elasticsearch-consul-discovery" target="_blank" rel="noopener">lithiumtech/elasticsearch-consul-discovery: Consul based node discovery plugin for elasticsearch</a></p>
+<h2 id="Curator"><a href="#Curator" class="headerlink" title="Curator"></a>Curator</h2><p><a href="https://github.com/elastic/curator" target="_blank" rel="noopener">elastic/curator: Curator: Tending your Elasticsearch indices</a><br><a href="https://www.elastic.co/guide/en/elasticsearch/client/curator/current/index.html" target="_blank" rel="noopener">Curator Reference | Elastic</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/elastic-stack/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/message-queue/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-08-03 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/database/">database<span>5</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Elasticsearch"><span class="toc-article-text">Elasticsearch</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#CLI-API"><span class="toc-article-text">CLI API</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Internals"><span class="toc-article-text">Internals</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Index-Creation-Mapping"><span class="toc-article-text">Index Creation/Mapping</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Data-types"><span class="toc-article-text">Data types</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Ingest"><span class="toc-article-text">Ingest</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Text-Analyzer"><span class="toc-article-text">Text Analyzer</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Query"><span class="toc-article-text">Query</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#SQL"><span class="toc-article-text">SQL</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#Lucene"><span class="toc-article-text">Lucene</span></a></li></ol></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Aggregation"><span class="toc-article-text">Aggregation</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Scaling"><span class="toc-article-text">Scaling</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Securing-Elasticsearch"><span class="toc-article-text">Securing Elasticsearch</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Discovery"><span class="toc-article-text">Discovery</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Curator"><span class="toc-article-text">Curator</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

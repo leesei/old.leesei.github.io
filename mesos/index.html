@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Mesos | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Mesos"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Mesos">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -106,24 +106,25 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h1 id="Mesos"><a href="#Mesos" class="headerlink" title="Mesos"></a>Mesos</h1><p><a href="http://mesos.apache.org/" target="_blank" rel="external">Apache Mesos</a> <a href="https://github.com/mesos" target="_blank" rel="external">Github</a><br><a href="http://www.wikiwand.com/en/Apache_Mesos" target="_blank" rel="external">Apache Mesos - Wikiwand</a></p>
-<p>Apache Mesos is inspired by the Google’s paper of their Borg system. It abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively. Twitter have been using it since 2007.<br>Mesos provides the low level API. It usually requires a “framework” (scheduler) to tell it what to do and on which node to execute the task.</p>
+	    <h1 id="Mesos"><a href="#Mesos" class="headerlink" title="Mesos"></a>Mesos</h1><p><a href="http://mesos.apache.org/" target="_blank" rel="noopener">Apache Mesos</a> <a href="https://github.com/mesos" target="_blank" rel="noopener">Github</a><br><a href="http://www.wikiwand.com/en/Apache_Mesos" target="_blank" rel="noopener">Apache Mesos - Wikiwand</a></p>
+<p>Apache Mesos is inspired by the Google&#39;s paper of their Borg system. It abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively. Twitter have been using it since 2007.<br>Mesos provides the low level API. It usually requires a &quot;framework&quot; (scheduler) to tell it what to do and on which node to execute the task.</p>
 <p>It uses Zookeeper underneath for leader election. Non-responsive node will be removed, replace by new node; if the old node response later on the response will be disposed and it will be killed to prevent duplication.</p>
 <p>Mesos is best run on bare metal or on VM.</p>
-<p><a href="https://www.oreilly.com/ideas/a-tale-of-two-clusters-mesos-and-yarn" target="_blank" rel="external">A tale of two clusters: Mesos and YARN - O’Reilly Media</a></p>
+<p><a href="https://www.oreilly.com/ideas/a-tale-of-two-clusters-mesos-and-yarn" target="_blank" rel="noopener">A tale of two clusters: Mesos and YARN - O&#39;Reilly Media</a></p>
 <blockquote>
-<p>Mesos is low-level infrastructure; it needs frameworks like Aurora to give it something to do. As David Messina, VP of marketing for Docker, put it in an email, “Aurora is intended for humans to interact with and perform high-level tasks like ‘run 100 instances of my service’, while Mesos is a toolkit that programmers interact with to build other systems.”</p>
+<p>Mesos is low-level infrastructure; it needs frameworks like Aurora to give it something to do. As David Messina, VP of marketing for Docker, put it in an email, &quot;Aurora is intended for humans to interact with and perform high-level tasks like &#39;run 100 instances of my service&#39;, while Mesos is a toolkit that programmers interact with to build other systems.&quot;</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h2><p><a href="https://www.youtube.com/watch?v=n5GT7OFSh58" target="_blank" rel="external">Building Distributed Frameworks on Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=GfpGmhZwaoM" target="_blank" rel="external">How Airbnb Simplifies with Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=Itufcu8Z-Bc" target="_blank" rel="external">Running Mesos at Atlassian - YouTube</a><br><a href="https://www.youtube.com/watch?v=OgVaQPYEsVo" target="_blank" rel="external">Simplifying with Mesos and Marathon - YouTube</a><br><a href="https://www.youtube.com/watch?v=E4lxX6epM_U" target="_blank" rel="external">Operating Apache Aurora and Mesos at Twitter - YouTube</a><br><a href="https://www.youtube.com/watch?v=u5jd9YT9EsY" target="_blank" rel="external">Run Any App on Mesos on Any Infrastructure Using Docker - YouTube</a><br><a href="https://www.youtube.com/watch?v=d7vZWm_xS9c" target="_blank" rel="external">Running YARN Alongside Mesos - YouTube</a></p>
-<h2 id="Mini-Mesos"><a href="#Mini-Mesos" class="headerlink" title="Mini-Mesos"></a>Mini-Mesos</h2><p><a href="https://minimesos.org/" target="_blank" rel="external">minimesos.org - Testing infrastructure for Mesos frameworks</a><br><a href="http://thenewstack.io/mini-mesos/" target="_blank" rel="external">Mini-Mesos: What’s a Nice XPer Doing in a Company Like This? - The New Stack</a></p>
-<h2 id="Mesosphere"><a href="#Mesosphere" class="headerlink" title="Mesosphere"></a>Mesosphere</h2><p><a href="https://mesosphere.com/" target="_blank" rel="external">Introducing The Mesosphere Datacenter Operating System</a> <a href="https://github.com/mesosphere" target="_blank" rel="external">Github</a><br><a href="https://mesosphere.com/blog/" target="_blank" rel="external">Blog - Mesosphere</a></p>
-<p><a href="http://www.infoworld.com/article/2933324/data-center/mesosphere-os-manages-entire-data-centers-with-one-click.html" target="_blank" rel="external">Mesosphere OS manages entire data centers with one click | InfoWorld</a><br><a href="https://mesosphere.com/blog/2016/04/19/hindman-mesos-dcos/" target="_blank" rel="external">Taking Mesos to the next level with DC/OS</a></p>
-<h2 id="Marathon"><a href="#Marathon" class="headerlink" title="Marathon"></a>Marathon</h2><p><a href="https://mesosphere.github.io/marathon/" target="_blank" rel="external">Marathon: A cluster-wide init and control system for services in cgroups or Docker containers</a><br><a href="https://github.com/mesosphere/marathon" target="_blank" rel="external">mesosphere/marathon: Deploy and manage containers (including Docker) on top of Apache Mesos at scale.</a><br>Marathon is used for long running services.</p>
-<p><a href="https://mesosphere.com/blog/2016/02/17/marathon-production-ready-containers/" target="_blank" rel="external">Mesosphere Marathon for production container environments</a></p>
-<h2 id="Chronos"><a href="#Chronos" class="headerlink" title="Chronos"></a>Chronos</h2><p><a href="http://mesos.github.io/chronos/" target="_blank" rel="external">Chronos: Fault tolerant job scheduler for Mesos</a><br><a href="https://github.com/mesos/chronos" target="_blank" rel="external">mesos/chronos: Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules</a><br>Chronos is used to execute services at particular time, like cron, for batch processing.</p>
-<h2 id="Aurora"><a href="#Aurora" class="headerlink" title="Aurora"></a>Aurora</h2><p><a href="http://aurora.apache.org/" target="_blank" rel="external">Apache Aurora</a> <a href="https://github.com/apache/aurora" target="_blank" rel="external">Github</a><br>Aurora is a Mesos framework for long-running services and batch jobs. It is build by Twitter and the creator Bill Farner joined Docker Inc.</p>
-<p><a href="https://www.youtube.com/watch?v=asd_h6VzaJc" target="_blank" rel="external">Introduction to Apache Aurora - YouTube</a><br><a href="http://stackoverflow.com/questions/28651922/marathon-vs-aurora-and-their-purposes" target="_blank" rel="external">mesos - Marathon vs Aurora and their purposes - Stack Overflow</a></p>
+
+<h2 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h2><p><a href="https://www.youtube.com/watch?v=n5GT7OFSh58" target="_blank" rel="noopener">Building Distributed Frameworks on Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=GfpGmhZwaoM" target="_blank" rel="noopener">How Airbnb Simplifies with Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=Itufcu8Z-Bc" target="_blank" rel="noopener">Running Mesos at Atlassian - YouTube</a><br><a href="https://www.youtube.com/watch?v=OgVaQPYEsVo" target="_blank" rel="noopener">Simplifying with Mesos and Marathon - YouTube</a><br><a href="https://www.youtube.com/watch?v=E4lxX6epM_U" target="_blank" rel="noopener">Operating Apache Aurora and Mesos at Twitter - YouTube</a><br><a href="https://www.youtube.com/watch?v=u5jd9YT9EsY" target="_blank" rel="noopener">Run Any App on Mesos on Any Infrastructure Using Docker - YouTube</a><br><a href="https://www.youtube.com/watch?v=d7vZWm_xS9c" target="_blank" rel="noopener">Running YARN Alongside Mesos - YouTube</a></p>
+<h2 id="Mini-Mesos"><a href="#Mini-Mesos" class="headerlink" title="Mini-Mesos"></a>Mini-Mesos</h2><p><a href="https://minimesos.org/" target="_blank" rel="noopener">minimesos.org - Testing infrastructure for Mesos frameworks</a><br><a href="http://thenewstack.io/mini-mesos/" target="_blank" rel="noopener">Mini-Mesos: What’s a Nice XPer Doing in a Company Like This? - The New Stack</a></p>
+<h2 id="Mesosphere"><a href="#Mesosphere" class="headerlink" title="Mesosphere"></a>Mesosphere</h2><p><a href="https://mesosphere.com/" target="_blank" rel="noopener">Introducing The Mesosphere Datacenter Operating System</a> <a href="https://github.com/mesosphere" target="_blank" rel="noopener">Github</a><br><a href="https://mesosphere.com/blog/" target="_blank" rel="noopener">Blog - Mesosphere</a></p>
+<p><a href="http://www.infoworld.com/article/2933324/data-center/mesosphere-os-manages-entire-data-centers-with-one-click.html" target="_blank" rel="noopener">Mesosphere OS manages entire data centers with one click | InfoWorld</a><br><a href="https://mesosphere.com/blog/2016/04/19/hindman-mesos-dcos/" target="_blank" rel="noopener">Taking Mesos to the next level with DC/OS</a></p>
+<h2 id="Marathon"><a href="#Marathon" class="headerlink" title="Marathon"></a>Marathon</h2><p><a href="https://mesosphere.github.io/marathon/" target="_blank" rel="noopener">Marathon: A cluster-wide init and control system for services in cgroups or Docker containers</a><br><a href="https://github.com/mesosphere/marathon" target="_blank" rel="noopener">mesosphere/marathon: Deploy and manage containers (including Docker) on top of Apache Mesos at scale.</a><br>Marathon is used for long running services.</p>
+<p><a href="https://mesosphere.com/blog/2016/02/17/marathon-production-ready-containers/" target="_blank" rel="noopener">Mesosphere Marathon for production container environments</a></p>
+<h2 id="Chronos"><a href="#Chronos" class="headerlink" title="Chronos"></a>Chronos</h2><p><a href="http://mesos.github.io/chronos/" target="_blank" rel="noopener">Chronos: Fault tolerant job scheduler for Mesos</a><br><a href="https://github.com/mesos/chronos" target="_blank" rel="noopener">mesos/chronos: Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules</a><br>Chronos is used to execute services at particular time, like cron, for batch processing.</p>
+<h2 id="Aurora"><a href="#Aurora" class="headerlink" title="Aurora"></a>Aurora</h2><p><a href="http://aurora.apache.org/" target="_blank" rel="noopener">Apache Aurora</a> <a href="https://github.com/apache/aurora" target="_blank" rel="noopener">Github</a><br>Aurora is a Mesos framework for long-running services and batch jobs. It is build by Twitter and the creator Bill Farner joined Docker Inc.</p>
+<p><a href="https://www.youtube.com/watch?v=asd_h6VzaJc" target="_blank" rel="noopener">Introduction to Apache Aurora - YouTube</a><br><a href="http://stackoverflow.com/questions/28651922/marathon-vs-aurora-and-their-purposes" target="_blank" rel="noopener">mesos - Marathon vs Aurora and their purposes - Stack Overflow</a></p>
 	  
 	</div>
 
@@ -181,7 +182,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/web/">web<span>53</span></a></li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
   </li>
 
     </ul>
@@ -194,7 +195,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/web-deploy/">web-deploy<span>13</span></a></li>
+  <li><a href="/tags/web-deploy/">web-deploy<span>16</span></a></li>
     </ul>
 	</div>
 		
@@ -221,7 +222,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

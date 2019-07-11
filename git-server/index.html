@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
   <title>Git server | leesei&#39;s notebook</title>
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Git server"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Git server">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -113,23 +113,44 @@
 <li>include web interface for better access</li>
 </ul>
 <a id="more"></a>
-<p><a href="http://gitprep.yukikimoto.com/" target="_blank" rel="external">GitPrep</a> GitHub clone in Perl<br><a href="https://github.com/gitbucket/gitbucket" target="_blank" rel="external">gitbucket/gitbucket</a> GitHub clone<br><a href="https://www.gerritcodereview.com/" target="_blank" rel="external">Gerrit Code Review</a> by Google<br><a href="http://gitolite.com/gitolite/index.html" target="_blank" rel="external">gitolite</a> replace gitosis, written in Perl<br><a href="http://stackoverflow.com/questions/13318715/how-do-programs-like-gitolite-work/" target="_blank" rel="external">ssh - How do programs like gitolite work? - Stack Overflow</a></p>
-<p><a href="https://www.kernel.org/pub/software/scm/git/docs/git-daemon.html" target="_blank" rel="external">git-daemon(1)</a><br><a href="https://git-scm.com/docs/git-daemon" target="_blank" rel="external">Git - git-daemon Documentation</a></p>
-<p><a href="http://stackoverflow.com/questions/10888300/gitosis-vs-gitolite" target="_blank" rel="external">vanilla git/ssh</a></p>
-<p><a href="http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/" target="_blank" rel="external">Run your own GitHub-like service with the help of Docker · Docker Pirates ARMed with explosive stuff</a></p>
-<h2 id="gitosis"><a href="#gitosis" class="headerlink" title="gitosis"></a>gitosis</h2><p><a href="https://github.com/tv42/gitosis" target="_blank" rel="external">tv42/gitosis</a> no update since 2007<br><a href="https://git-scm.com/book/en/v1/Git-on-the-Server-Gitosis" target="_blank" rel="external">Gitbook</a><br><a href="http://mivok.net/2010/03/05/gitosis.html" target="_blank" rel="external">Mivok.net - Gitosis - manage git repositories sanely</a></p>
+
+<p><a href="http://gitprep.yukikimoto.com/" target="_blank" rel="noopener">GitPrep</a> GitHub clone in Perl<br><a href="https://github.com/gitbucket/gitbucket" target="_blank" rel="noopener">gitbucket/gitbucket</a> GitHub clone<br><a href="https://www.gerritcodereview.com/" target="_blank" rel="noopener">Gerrit Code Review</a> by Google</p>
+<p><a href="https://www.kernel.org/pub/software/scm/git/docs/git-daemon.html" target="_blank" rel="noopener">git-daemon(1)</a><br><a href="https://git-scm.com/docs/git-daemon" target="_blank" rel="noopener">Git - git-daemon Documentation</a></p>
+<p><a href="http://stackoverflow.com/questions/10888300/gitosis-vs-gitolite" target="_blank" rel="noopener">vanilla git/ssh</a></p>
+<p><a href="http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker/" target="_blank" rel="noopener">Run your own GitHub-like service with the help of Docker · Docker Pirates ARMed with explosive stuff</a></p>
+<h2 id="Sharing-port-22"><a href="#Sharing-port-22" class="headerlink" title="Sharing port 22"></a>Sharing port 22</h2><p>Sharing port 22 with containerized git server</p>
+<p><a href="http://www.ateijelo.com/blog/2016/07/09/share-port-22-between-docker-gogs-ssh-and-local-system" target="_blank" rel="noopener">Share port 22 between Gogs inside Docker &amp; the local system</a><br><a href="https://discuss.gogs.io/t/how-to-config-ssh-settings/34" target="_blank" rel="noopener">How to config SSH settings - Tips, Tricks, and How-To&#39;s - Gogs Discussion</a></p>
+<blockquote>
+<p><code>git</code> user need login shell?</p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># test from client</span></span><br><span class="line">ssh git@&lt;host&gt; /bin/<span class="literal">true</span></span><br><span class="line">ssh git@&lt;host&gt; git-receive-pack &lt;path-to-git-repository&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># on host</span></span><br><span class="line">ssh -v git@127.0.0.1:10022 git-receive-pack &lt;path-to-git-repository&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="gitosis"><a href="#gitosis" class="headerlink" title="gitosis"></a>gitosis</h2><p><a href="https://github.com/tv42/gitosis" target="_blank" rel="noopener">tv42/gitosis</a> no update since 2007<br><a href="https://git-scm.com/book/en/v1/Git-on-the-Server-Gitosis" target="_blank" rel="noopener">Gitbook</a><br><a href="http://mivok.net/2010/03/05/gitosis.html" target="_blank" rel="noopener">Mivok.net - Gitosis - manage git repositories sanely</a></p>
 <p>The <code>git</code> user will check <code>/home/git/.gitosis.conf</code> (which symlinks to <code>/home/git/repositories/gitosis-admin.git/gitosis.conf</code>) for repo access<br>It will be updated upon push to <code>gitosis-admin</code>.</p>
-<p>To debug gitosis, edit <code>/home/git/.gitosis.conf</code> and add:<br><figure class="highlight"><table><tr><td class="code"><pre><div class="line">[gitosis]</div><div class="line">loglevel=DEBUG</div><div class="line"></div><div class="line">...</div></pre></td></tr></table></figure></p>
+<p>To debug gitosis, edit <code>/home/git/.gitosis.conf</code> and add:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="section">[gitosis]</span></span><br><span class="line"><span class="attr">loglevel</span>=DEBUG</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
 <p>You can even edit it to override the access control.</p>
-<h2 id="GitLab"><a href="#GitLab" class="headerlink" title="GitLab"></a>GitLab</h2><p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab</a> GitHub clone, bought <a href="https://gitorious.org/" target="_blank" rel="external">gitorious</a></p>
-<p><a href="http://doc.gitlab.com/ce/" target="_blank" rel="external">GitLab Documentation</a><br><a href="http://doc.gitlab.com/ce/ci/quick_start/README.html" target="_blank" rel="external">GitLab CI</a> integrated to GitLab</p>
-<p>The Omnibus package simplifies the setup of GitLab ALOT<br><a href="https://about.gitlab.com/downloads/" target="_blank" rel="external">Download GitLab Community Edition (CE) | GitLab</a></p>
-<p>Upgrading GitLab is as simple as:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">sudo gitlab-ctl stop unicorn</div><div class="line">sudo gitlab-ctl stop sidekiq</div><div class="line">sudo gitlab-rake gitlab:backup:create</div><div class="line">sudo dpkg -i gitlab_x.x.x-omnibus.xxx.deb</div><div class="line">sudo gitlab-ctl reconfigure</div></pre></td></tr></table></figure></p>
-<p><a href="https://wiki.archlinux.org/index.php/gitlab" target="_blank" rel="external">Gitlab - ArchWiki</a><br><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md" target="_blank" rel="external">README.md · master · GitLab.org / omnibus-gitlab · GitLab</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-gitlab-as-your-very-own-private-github-clone" target="_blank" rel="external">How To Set Up GitLab As Your Very Own Private GitHub Clone | DigitalOcean</a> from scratch</p>
-<h2 id="Gogs"><a href="#Gogs" class="headerlink" title="Gogs"></a>Gogs</h2><p><a href="http://gogs.io/" target="_blank" rel="external">Gogs</a> GitHub clone in Go<br><a href="https://discuss.gogs.io/" target="_blank" rel="external">Gogs Discussion</a></p>
-<p><a href="https://gogs.io/docs" target="_blank" rel="external">Introduction - Gogs - Go Git Service</a><br><a href="https://gogs.io/docs/intro/troubleshooting.html" target="_blank" rel="external">Troubleshooting - Gogs - Go Git Service</a></p>
-<p><a href="http://jbrodriguez.io/gogs-an-alternative-to-gitlab/" target="_blank" rel="external">Gogs, an alternative to Gitlab</a></p>
-<h2 id="gitweb"><a href="#gitweb" class="headerlink" title="gitweb"></a>gitweb</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># start server</span></div><div class="line">git instaweb <span class="_">-d</span> webrick --start</div><div class="line"></div><div class="line"><span class="comment"># visit http://localhost:1234</span></div><div class="line"></div><div class="line"><span class="comment"># stop server</span></div><div class="line">git instaweb <span class="_">-d</span> webrick --stop</div></pre></td></tr></table></figure>
+<h2 id="Gitolite"><a href="#Gitolite" class="headerlink" title="Gitolite"></a>Gitolite</h2><p><a href="http://gitolite.com/gitolite/index.html" target="_blank" rel="noopener">gitolite</a> replace gitosis, written in Perl<br><a href="http://stackoverflow.com/questions/13318715/how-do-programs-like-gitolite-work/" target="_blank" rel="noopener">ssh - How do programs like gitolite work? - Stack Overflow</a><br><a href="https://sysadmincasts.com/episodes/11-internal-git-server-with-gitolite" target="_blank" rel="noopener">Internal Git server with Gitolite</a></p>
+<h2 id="GitLab"><a href="#GitLab" class="headerlink" title="GitLab"></a>GitLab</h2><p><a href="https://about.gitlab.com/" target="_blank" rel="noopener">GitLab</a> GitHub clone, bought <a href="https://gitorious.org/" target="_blank" rel="noopener">gitorious</a></p>
+<p><a href="http://doc.gitlab.com/ce/" target="_blank" rel="noopener">GitLab Documentation</a><br><a href="http://doc.gitlab.com/ce/ci/quick_start/README.html" target="_blank" rel="noopener">GitLab CI</a> integrated to GitLab</p>
+<p>The Omnibus package simplifies the setup of GitLab ALOT<br><a href="https://about.gitlab.com/downloads/" target="_blank" rel="noopener">Download GitLab Community Edition (CE) | GitLab</a></p>
+<p><a href="https://about.gitlab.com/2018/06/22/gitlab-11-0-released/" target="_blank" rel="noopener">GitLab 11.0 released with Auto DevOps and License Management | GitLab</a><br><a href="https://linuxtechlab.com/simple-guide-backup-restore-gitlab/" target="_blank" rel="noopener">Easy &amp; simple guide to Backup &amp; Restore GITLAB - LinuxTechLab</a></p>
+<p>Upgrading GitLab is as simple as:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo gitlab-ctl stop unicorn</span><br><span class="line">sudo gitlab-ctl stop sidekiq</span><br><span class="line">sudo gitlab-rake gitlab:backup:create</span><br><span class="line">sudo dpkg -i gitlab_x.x.x-omnibus.xxx.deb</span><br><span class="line">sudo gitlab-ctl reconfigure</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://wiki.archlinux.org/index.php/gitlab" target="_blank" rel="noopener">Gitlab - ArchWiki</a><br><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md" target="_blank" rel="noopener">README.md · master · GitLab.org / omnibus-gitlab · GitLab</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-gitlab-as-your-very-own-private-github-clone" target="_blank" rel="noopener">How To Set Up GitLab As Your Very Own Private GitHub Clone | DigitalOcean</a> from scratch</p>
+<h2 id="Gogs"><a href="#Gogs" class="headerlink" title="Gogs"></a>Gogs</h2><p><a href="http://gogs.io/" target="_blank" rel="noopener">Gogs</a> GitHub clone in Go<br><a href="https://discuss.gogs.io/" target="_blank" rel="noopener">Gogs Discussion</a></p>
+<p><a href="https://gogs.io/docs" target="_blank" rel="noopener">Introduction - Gogs - Go Git Service</a><br><a href="https://gogs.io/docs/intro/troubleshooting.html" target="_blank" rel="noopener">Troubleshooting - Gogs - Go Git Service</a><br><a href="https://gogs.io/docs/advanced/configuration_cheat_sheet" target="_blank" rel="noopener">Config Cheat Sheet - Gogs</a></p>
+<p><a href="http://jbrodriguez.io/gogs-an-alternative-to-gitlab/" target="_blank" rel="noopener">Gogs, an alternative to Gitlab</a></p>
+<h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><p><a href="https://github.com/gogs/docs-api" target="_blank" rel="noopener">gogs/docs-api: A repository for Gogs API v1 documentation.</a></p>
+<p><a href="https://github.com/mattddowney/gogs-bash" target="_blank" rel="noopener">mattddowney/gogs-bash: Bash Script for Interacting with the GOGS API</a><br><a href="https://github.com/unfoldingWord-dev/node-gogs-client" target="_blank" rel="noopener">unfoldingWord-dev/node-gogs-client: A client library for interacting with the gogs REST api</a><br><a href="https://pythonhosted.org/gogs-client/index.html" target="_blank" rel="noopener">gogs_client — gogs_client documentation</a> Python<br><a href="https://github.com/gogs/go-gogs-client" target="_blank" rel="noopener">gogs/go-gogs-client: Gogs API client in Go.</a> official Go one</p>
+<h2 id="Gitea"><a href="#Gitea" class="headerlink" title="Gitea"></a>Gitea</h2><p><a href="https://gitea.io/en-us/" target="_blank" rel="noopener">Gitea</a></p>
+<p>Gitea is a <a href="https://blog.gitea.io/2016/12/welcome-to-gitea/" target="_blank" rel="noopener">fork of Gogs</a> at 2016-11 that is more community based.</p>
+<p><a href="https://docs.gitea.io/en-us/comparison/" target="_blank" rel="noopener">Gitea compared to other Git hosting options - Docs</a></p>
+<h2 id="sr-ht"><a href="#sr-ht" class="headerlink" title="sr.ht"></a>sr.ht</h2><p><a href="https://meta.sr.ht/" target="_blank" rel="noopener">sr.ht - software hosting for hackers</a></p>
+<h2 id="gitweb"><a href="#gitweb" class="headerlink" title="gitweb"></a>gitweb</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># start server</span></span><br><span class="line">git instaweb -d webrick --start</span><br><span class="line"></span><br><span class="line"><span class="comment"># visit http://localhost:1234</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># stop server</span></span><br><span class="line">git instaweb -d webrick --stop</span><br></pre></td></tr></table></figure>
+
 	  
 	</div>
 
@@ -145,7 +166,7 @@
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/java/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/scala/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -187,7 +208,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/uncategorized/">uncategorized<span>60</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -195,6 +216,14 @@
 	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/git/">git<span>4</span></a></li>
+    </ul>
+	</div>
 		
 
 	<!-- toc -->
@@ -202,7 +231,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gitosis"><span class="toc-article-text">gitosis</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GitLab"><span class="toc-article-text">GitLab</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gogs"><span class="toc-article-text">Gogs</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gitweb"><span class="toc-article-text">gitweb</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Sharing-port-22"><span class="toc-article-text">Sharing port 22</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gitosis"><span class="toc-article-text">gitosis</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gitolite"><span class="toc-article-text">Gitolite</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GitLab"><span class="toc-article-text">GitLab</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gogs"><span class="toc-article-text">Gogs</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#API"><span class="toc-article-text">API</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Gitea"><span class="toc-article-text">Gitea</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#sr-ht"><span class="toc-article-text">sr.ht</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gitweb"><span class="toc-article-text">gitweb</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -219,7 +248,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

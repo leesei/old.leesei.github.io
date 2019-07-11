@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Gradle | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Gradle">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Gradle</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://gradle.org/" target="_blank" rel="noopener">Gradle: Build Automation for the JVM, Android, and C/C++</a><br><a href="https://gradle.org/features/" target="_blank" rel="noopener">Gradle | Gradle Features</a></p>
+<p><a href="https://docs.gradle.org/current/userguide/command_line_interface.html" target="_blank" rel="noopener">Command-Line Interface</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># info and debug log</span></span><br><span class="line">gradle -i task</span><br><span class="line">gradle -d task</span><br><span class="line"></span><br><span class="line"><span class="comment"># show project properties</span></span><br><span class="line">gradle properties</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://docs.gradle.org/current/release-notes" target="_blank" rel="noopener">Gradle Release Notes</a><br><a href="https://docs.gradle.org/current/userguide/userguide.html" target="_blank" rel="noopener">Gradle User Guide</a><br><a href="https://gradle.org/guides/" target="_blank" rel="noopener">Gradle | Gradle Tutorials and Guides</a><br><a href="http://dongchuan.gitbooks.io/gradle-user-guide-/content/" target="_blank" rel="noopener">Gradle User Guide 中文版</a> of older version</p>
+<p><a href="https://www.androidauthority.com/introduction-to-gradle-991743/" target="_blank" rel="noopener">An introduction to Gradle for complete beginners - Android Authority</a><br><a href="https://docs.gradle.org/current/userguide/cpp_plugins.html" target="_blank" rel="noopener">Building C++ applications and libraries</a><br><a href="https://docs.gradle.org/current/userguide/building_java_projects.html" target="_blank" rel="noopener">Building Java &amp; JVM projects</a></p>
+<p><a href="https://code.tutsplus.com/tutorials/gradle-in-60-seconds--cms-25296" target="_blank" rel="noopener">Gradle in 60 Seconds</a><br><a href="http://code.tutsplus.com/tutorials/using-gradle-build-variants--cms-25005" target="_blank" rel="noopener">Using Gradle Build Variants - Tuts+ Code Tutorial</a><br><a href="https://code.tutsplus.com/tutorials/the-ins-and-outs-of-gradle--cms-22978" target="_blank" rel="noopener">The Ins and Outs of Gradle</a></p>
+<p><a href="https://gradle.com/training/" target="_blank" rel="noopener">Trainings | Gradle Enterprise</a><br><a href="https://gradle.com/blog/" target="_blank" rel="noopener">Blog | Gradle Enterprise</a><br><a href="https://gradle.com/blog/dependency-management-with-gradle-fundamentals/" target="_blank" rel="noopener">Dependency Management with Gradle Part 1 - Fundamentals | Gradle Enterprise</a><br><a href="https://gradle.com/blog/category/build-best-practices/" target="_blank" rel="noopener">Build Best Practicess | Gradle Enterprise</a><br><a href="https://gradle.com/blog/category/build-performance/" target="_blank" rel="noopener">Build performances | Gradle Enterprise</a></p>
+<p><a href="https://medium.com/@chrisbanes/circleci-cache-key-over-many-files-c9e07f4d471a" target="_blank" rel="noopener">CircleCI cache key over many files – Chris Banes – Medium</a></p>
+<h2 id="DSL"><a href="#DSL" class="headerlink" title="DSL"></a>DSL</h2><p><a href="https://docs.gradle.org/current/dsl/index.html" target="_blank" rel="noopener">Gradle DSL Version</a></p>
+<p><a href="https://kotlinexpertise.com/gradlekotlindsl/" target="_blank" rel="noopener">The Power of Gradle Kotlin DSL - Kotlin Expertise Blog</a><br><a href="https://docs.gradle.org/current/userguide/kotlin_dsl.html" target="_blank" rel="noopener">Gradle Kotlin DSL Primer</a><br><a href="https://docs.gradle.org/current/userguide/groovy_build_script_primer.html" target="_blank" rel="noopener">A Groovy Build Script Primer</a></p>
+<p><a href="https://blog.gradle.org/kotlin-dsl-1.0" target="_blank" rel="noopener">Gradle Kotlin DSL 1.0</a><br><a href="https://blog.gradle.org/kotlin-scripting-update" target="_blank" rel="noopener">The Road to Gradle Script Kotlin 1.0</a><br><a href="https://blog.gradle.org/kotlin-meets-gradle" target="_blank" rel="noopener">Kotlin Meets Gradle</a><br><a href="https://github.com/gradle/kotlin-dsl" target="_blank" rel="noopener">gradle/kotlin-dsl: Kotlin language support for Gradle build scripts</a></p>
+<p><a href="https://kotlinexpertise.com/gradlekotlindsl/" target="_blank" rel="noopener">The Power of Gradle Kotlin DSL - Kotlin Expertise Blog</a><br><a href="https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/" target="_blank" rel="noopener">Migrating build logic from Groovy to Kotlin</a><br><a href="https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737" target="_blank" rel="noopener">Migrating Android build scripts from Groovy to Kotlin DSL</a></p>
+<h3 id="Anti-pattern"><a href="#Anti-pattern" class="headerlink" title="Anti-pattern"></a>Anti-pattern</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// don&apos;t use this</span><br><span class="line">apply plugin: &apos;kotlin&apos;</span><br><span class="line"></span><br><span class="line">// use this</span><br><span class="line">plugins &#123;</span><br><span class="line">    kotlin(&quot;jvm&quot;) version &quot;1.3.21&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><p><a href="https://github.com/gradle/gradle/tree/master/subprojects/docs/src/samples" target="_blank" rel="noopener">gradle/subprojects/docs/src/samples at master · gradle/gradle</a><br><a href="https://github.com/gradle/kotlin-dsl/tree/master/samples" target="_blank" rel="noopener">kotlin-dsl/samples at master · gradle/kotlin-dsl</a></p>
+<p><a href="https://github.com/JetBrains/kotlin" target="_blank" rel="noopener">JetBrains/kotlin: The Kotlin Programming Language</a> Kotlin project uses Kotlin DSL</p>
+<h3 id="Groovy-vs-Kotlin"><a href="#Groovy-vs-Kotlin" class="headerlink" title="Groovy vs Kotlin"></a>Groovy vs Kotlin</h3><p>I prefer Kotlin over Groovy:</p>
+<ul>
+<li>Kotlin is more modern, has more potential and more worthy to learn than Groovy</li>
+<li>Parentheses for function invocation is optional in Groovy, making it even harder to distingush between setting field or calling function</li>
+</ul>
+<figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">repositories &#123;</span><br><span class="line">    jcenter()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">configurations &#123;</span><br><span class="line">    ktlint</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dependencies &#123;</span><br><span class="line">    ktlint <span class="string">"com.github.shyiko:ktlint:0.29.0"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">task ktlint(<span class="string">type:</span> JavaExec, <span class="string">group:</span> <span class="string">"verification"</span>) &#123;</span><br><span class="line">    description = <span class="string">"Check Kotlin code style."</span></span><br><span class="line">    classpath = configurations.ktlint</span><br><span class="line">    main = <span class="string">"com.github.shyiko.ktlint.Main"</span></span><br><span class="line">    args <span class="string">"src/**/*.kt"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">task ktlintFormat(<span class="string">type:</span> JavaExec, <span class="string">group:</span> <span class="string">"formatting"</span>) &#123;</span><br><span class="line">    description = <span class="string">"Fix Kotlin code style deviations."</span></span><br><span class="line">    classpath = configurations.ktlint</span><br><span class="line">    main = <span class="string">"com.github.shyiko.ktlint.Main"</span></span><br><span class="line">    args <span class="string">"-F"</span>, <span class="string">"src/**/*.kt"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">allprojects &#123;</span><br><span class="line">    apply <span class="string">from:</span> <span class="string">"$rootDir/ktlint.gradle"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><p><a href="https://plugins.gradle.org/" target="_blank" rel="noopener">Gradle - Plugins</a></p>
+<h2 id="Wrapper"><a href="#Wrapper" class="headerlink" title="Wrapper"></a>Wrapper</h2><p><a href="https://docs.gradle.org/current/userguide/gradle_wrapper.html" target="_blank" rel="noopener">The Gradle Wrapper</a></p>
+<p>A local copy of Gradle can be downloaded in <code>./gradle/</code>, a wrapper <code>gradlew</code> will be created. This allows for version controlling Gradle tool and self-contained build environment.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># with gradle installed on host</span></span><br><span class="line">gradle init --dsl kotlin</span><br><span class="line">gradle wraper --gradle-version=5.3.1</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># even better using gradle Docker image</span></span><br><span class="line">docker run --rm -u $(id -u):$(id -g) \</span><br><span class="line">   -v <span class="string">"<span class="variable">$PWD</span>"</span>:/home/gradle/project -w /home/gradle/project \</span><br><span class="line">   gradle gradle init --dsl kotlin</span><br><span class="line">docker run --rm -u $(id -u):$(id -g) \</span><br><span class="line">   -v <span class="string">"<span class="variable">$PWD</span>"</span>:/home/gradle/project -w /home/gradle/project \</span><br><span class="line">   gradle gradle wrapper --gradle-version=5.3.1</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://hub.docker.com/_/gradle" target="_blank" rel="noopener">gradle - Docker Hub</a></p>
+<h2 id="Lifecycle"><a href="#Lifecycle" class="headerlink" title="Lifecycle"></a>Lifecycle</h2><p><a href="https://docs.gradle.org/current/userguide/build_lifecycle.html" target="_blank" rel="noopener">Build Lifecycle</a><br><a href="https://proandroiddev.com/understanding-gradle-the-build-lifecycle-5118c1da613f" target="_blank" rel="noopener">Understanding Gradle: the Build Lifecycle – ProAndroidDev</a><br><a href="http://melix.github.io/blog/2018/09/gradle-lifecycle.html" target="_blank" rel="noopener">Cédric Champeau&#39;s blog: Gradle myth busting: lifecycle</a></p>
+<h2 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># show tasks</span></span><br><span class="line">gradle tasks</span><br><span class="line"><span class="comment"># also show tasks not in task group</span></span><br><span class="line">gradle tasks --all</span><br><span class="line"></span><br><span class="line"><span class="comment"># filter by task group</span></span><br><span class="line">gradle tasks --group=<span class="string">"build setup"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># show details of task</span></span><br><span class="line">gradle -q <span class="built_in">help</span> --task &lt;task&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># upload build scan to https://scans.gradle.com/</span></span><br><span class="line"><span class="comment"># https://gradle.com/build-scans/</span></span><br><span class="line">gradle --scan &lt;task&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Milti-project"><a href="#Milti-project" class="headerlink" title="Milti project"></a>Milti project</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list sub-projects, displayed in a hierarchy</span></span><br><span class="line">gradle projects</span><br></pre></td></tr></table></figure>
+
+<h2 id="Docker-plugins"><a href="#Docker-plugins" class="headerlink" title="Docker plugins"></a>Docker plugins</h2><p><a href="https://github.com/palantir/gradle-docker" target="_blank" rel="noopener">palantir/gradle-docker: a Gradle plugin for orchestrating docker builds and pushes.</a><br><a href="https://bmuschko.github.io/gradle-docker-plugin/" target="_blank" rel="noopener">Gradle Docker Plugin User Guide &amp; Examples</a><br><a href="https://github.com/bmuschko/gradle-docker-plugin" target="_blank" rel="noopener">bmuschko/gradle-docker-plugin: Gradle plugin for managing Docker images and containers.</a><br><a href="https://github.com/avast/gradle-docker-compose-plugin" target="_blank" rel="noopener">avast/gradle-docker-compose-plugin: Simplifies usage of Docker Compose for integration testing in Gradle environment.</a></p>
+<h2 id="Comparison"><a href="#Comparison" class="headerlink" title="Comparison"></a>Comparison</h2><p><a href="https://gradle.org/maven-vs-gradle/" target="_blank" rel="noopener">Gradle vs Maven Comparison</a><br><a href="https://dzone.com/articles/gradle-vs-maven" target="_blank" rel="noopener">Gradle vs. Maven - DZone Java</a><br><a href="http://technologyconversations.com/2014/06/18/build-tools/" target="_blank" rel="noopener">Java Build Tools: Ant vs Maven vs Gradle | Technology Conversations</a></p>
+<h2 id="Android-adoption"><a href="#Android-adoption" class="headerlink" title="Android adoption"></a>Android adoption</h2><p><a href="http://tools.android.com/tech-docs/new-build-system" target="_blank" rel="noopener">New Build System - Android Tools Project Site</a><br><a href="https://developer.android.com/sdk/installing/studio-build.html" target="_blank" rel="noopener">Build System Overview | Android Developers</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/kotlin-snippets/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/kotlin/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2019-04-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/gradle/">gradle<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#DSL"><span class="toc-article-text">DSL</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Anti-pattern"><span class="toc-article-text">Anti-pattern</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Examples"><span class="toc-article-text">Examples</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Groovy-vs-Kotlin"><span class="toc-article-text">Groovy vs Kotlin</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Wrapper"><span class="toc-article-text">Wrapper</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Lifecycle"><span class="toc-article-text">Lifecycle</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tasks"><span class="toc-article-text">Tasks</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Milti-project"><span class="toc-article-text">Milti project</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Docker-plugins"><span class="toc-article-text">Docker plugins</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Comparison"><span class="toc-article-text">Comparison</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Android-adoption"><span class="toc-article-text">Android adoption</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

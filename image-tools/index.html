@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>Image Optimization | leesei&#39;s notebook</title>
+  <title>Image Tools | leesei&#39;s notebook</title>
 
   <meta name="author" content="leesei">
   
@@ -12,11 +12,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Image Optimization"/>
-  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+  <meta property="og:title" content="Image Tools">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
 
   
-    <meta property="og:image" content="undefined"/>
+    <meta property="og:image" content>
   
 
   
@@ -39,7 +39,7 @@
 
 
 </head>
-
+</html>
  <body>  
   <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -90,7 +90,7 @@
 
 	
 		<div class="page-header">		
-			<h1> Image Optimization</h1>
+			<h1> Image Tools</h1>
 		</div>		
 	
 
@@ -106,7 +106,7 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="https://github.com/fogleman/primitive" target="_blank" rel="external">fogleman/primitive: Reproducing images with geometric primitives.</a></p>
+	    <p><a href="https://github.com/fogleman/primitive" target="_blank" rel="noopener">fogleman/primitive: Reproducing images with geometric primitives.</a></p>
 <h2 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick"></a>ImageMagick</h2><table>
 <thead>
 <tr>
@@ -114,8 +114,7 @@
 <th>Description</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td><code>animate</code></td>
 <td>animate an image sequence on any X server.</td>
 </tr>
@@ -159,15 +158,29 @@
 <td><code>stream</code></td>
 <td>a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats. It writes the pixel components as they are read from the input image a row at a time making stream desirable when working with large images or when you require raw pixel components.</td>
 </tr>
-</tbody>
-</table>
-<p><a href="http://www.imagemagick.org/Usage/" target="_blank" rel="external">ImageMagick v6 Examples</a><br><a href="http://www.imagemagick.org/script/command-line-tools.php" target="_blank" rel="external">Command-line Tools @ ImageMagick</a><br><a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="external">ImageMagick: Convert, Edit, Or Compose Bitmap Images</a></p>
-<p><a href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html" target="_blank" rel="external">ImageMagick使用心得</a><br><a href="https://daniel.haxx.se/blog/2016/03/11/turn-many-pictures-into-a-movie/" target="_blank" rel="external">Turn many pictures into a movie | daniel.haxx.se</a></p>
-<p><a href="http://www.apress.com/us/book/9781590595909" target="_blank" rel="external">The Definitive Guide to ImageMagick | Michael Still | Apress</a> <a href="http://www.stillhq.com/imagemagick/book/" target="_blank" rel="external">author’s site</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># resizing image</span></div><div class="line">convert -resize 300x300 image.jpg image-small.jpg</div><div class="line"></div><div class="line"><span class="comment"># crop lower part of image</span></div><div class="line">convert input.jpg -crop 300x150+0+150 +repage image-cropped.jpg</div><div class="line"></div><div class="line"><span class="comment"># add shadow</span></div><div class="line">convert screenshot.jpg \( +<span class="built_in">clone</span> -background black -shadow 60×5+0+5 \) +swap -background white -layers merge +repage shadow.jpg</div><div class="line"></div><div class="line"><span class="comment"># add timestamp, http://www.imagemagick.org/script/escape.php</span></div><div class="line">convert *.jpg -font Arial -pointsize 72 -gravity SouthEast -fill yellow -annotate +100+100 %[exif:datetime] output-%d.jpg</div><div class="line"></div><div class="line"><span class="comment"># convert to pdf</span></div><div class="line">convert a.png b.png -compress jpeg -resize 1240x1753 \</div><div class="line">                      -extent 1240x1753 -gravity center \</div><div class="line">                      -units PixelsPerInch -density 150x150 multipage.pdf</div><div class="line"></div><div class="line"><span class="comment"># convert sequence of images to GIF</span></div><div class="line">convert -delay <span class="string">'1x20'</span> *.png output.gif <span class="comment"># 20FPS</span></div><div class="line">convert -delay <span class="string">'2x1'</span> *.png output.gif  <span class="comment"># 2 sec each frame</span></div><div class="line"></div><div class="line"><span class="comment"># create a 36*36 favicon</span></div><div class="line">convert -resize 72x72 -extent 72x72 -gravity center -background white input.svg -resize 36x36 favicon.ico</div></pre></td></tr></table></figure>
-<h3 id="creating-image"><a href="#creating-image" class="headerlink" title="creating image"></a>creating image</h3><p><a href="http://www.imagemagick.org/Usage/canvas/#random" target="_blank" rel="external">http://www.imagemagick.org/Usage/canvas/#random</a><br><a href="http://www.imagemagick.org/Usage/canvas/#tile" target="_blank" rel="external">http://www.imagemagick.org/Usage/canvas/#tile</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># patterned image</span></div><div class="line">convert -size 30x54 pattern:hexagons \</div><div class="line">          -fill tomato     -opaque white \</div><div class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</div><div class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span> \</div><div class="line">          -roll +15+27 \</div><div class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</div><div class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span>   miff:- |\</div><div class="line">convert -size 200x200 tile:- image.jpg</div><div class="line"></div><div class="line">convert -size 500x500 pattern:checkerboard  miff:- |\</div><div class="line">convert -size 5000x5000 tile:- image.jpg</div></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># get quality of JPEG file</span></div><div class="line">identify -verbose file.jpg | grep Quality</div></pre></td></tr></table></figure>
+</tbody></table>
+<p><a href="http://www.imagemagick.org/Usage/" target="_blank" rel="noopener">ImageMagick v6 Examples</a><br><a href="http://www.imagemagick.org/script/command-line-tools.php" target="_blank" rel="noopener">Command-line Tools @ ImageMagick</a><br><a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="noopener">ImageMagick: Convert, Edit, Or Compose Bitmap Images</a></p>
+<p><a href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html" target="_blank" rel="noopener">ImageMagick使用心得</a><br><a href="https://daniel.haxx.se/blog/2016/03/11/turn-many-pictures-into-a-movie/" target="_blank" rel="noopener">Turn many pictures into a movie | daniel.haxx.se</a></p>
+<p><a href="http://www.apress.com/us/book/9781590595909" target="_blank" rel="noopener">The Definitive Guide to ImageMagick | Michael Still | Apress</a> <a href="http://www.stillhq.com/imagemagick/book/" target="_blank" rel="noopener">author&#39;s site</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># crop lower part of image</span></span><br><span class="line">convert input.jpg -crop 300x150+0+150 +repage image-cropped.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add shadow</span></span><br><span class="line">convert screenshot.jpg \( +<span class="built_in">clone</span> -background black -shadow 60×5+0+5 \) +swap -background white -layers merge +repage shadow.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add timestamp, http://www.imagemagick.org/script/escape.php</span></span><br><span class="line">convert *.jpg -font Arial -pointsize 72 -gravity SouthEast -fill yellow -annotate +100+100 %[exif:datetime] output-%d.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert to pdf</span></span><br><span class="line">convert a.png b.png -compress jpeg -resize 1240x1753 \</span><br><span class="line">                      -extent 1240x1753 -gravity center \</span><br><span class="line">                      -units PixelsPerInch -density 150x150 multipage.pdf</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert sequence of images to GIF</span></span><br><span class="line">convert -delay <span class="string">'1x20'</span> *.png output.gif <span class="comment"># 20FPS</span></span><br><span class="line">convert -delay <span class="string">'2x1'</span> *.png output.gif  <span class="comment"># 2 sec each frame</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Resizing-Image"><a href="#Resizing-Image" class="headerlink" title="Resizing Image"></a>Resizing Image</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># resizing image</span></span><br><span class="line">convert -resize 300x300 image.jpg image-small.jpg</span><br><span class="line">convert -resize 1080 &#123;from_path&#125; &#123;to_path&#125;  <span class="comment"># fix weight only</span></span><br><span class="line">convert -resize x1080 &#123;from_path&#125; &#123;to_path&#125;  <span class="comment"># fix height only</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># very low quality</span></span><br><span class="line">convert -thumbnail &#123;width&#125; *.jpg</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://askubuntu.com/questions/135477/how-can-i-scale-all-images-in-a-folder-to-the-same-width" target="_blank" rel="noopener">How can I scale all images in a folder to the same width? - Ask Ubuntu</a></p>
+<p><a href="http://www.imagemagick.org/script/command-line-processing.php#geometry" target="_blank" rel="noopener">Command-line Processing Geometry @ ImageMagick</a></p>
+<h3 id="Image-stitching"><a href="#Image-stitching" class="headerlink" title="Image stitching"></a>Image stitching</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># horizontal</span></span><br><span class="line">convert image.jpg ...  +append output.jpg</span><br><span class="line"><span class="comment"># vertical</span></span><br><span class="line">convert image.jpg ...  -append output.jpg</span><br></pre></td></tr></table></figure>
+
+<p><code>mogrify -adjoin</code></p>
+<h3 id="creating-image"><a href="#creating-image" class="headerlink" title="creating image"></a>creating image</h3><p><a href="http://www.imagemagick.org/Usage/canvas/#random" target="_blank" rel="noopener">http://www.imagemagick.org/Usage/canvas/#random</a><br><a href="http://www.imagemagick.org/Usage/canvas/#tile" target="_blank" rel="noopener">http://www.imagemagick.org/Usage/canvas/#tile</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># solid color image</span></span><br><span class="line">convert -size 100x100 canvas:khaki  canvas_khaki.gif</span><br><span class="line">convert -size 100x100 xc:wheat  canvas_wheat.gif</span><br><span class="line"></span><br><span class="line"><span class="comment"># patterned image</span></span><br><span class="line">convert -size 30x54 pattern:hexagons \</span><br><span class="line">          -fill tomato     -opaque white \</span><br><span class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</span><br><span class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span> \</span><br><span class="line">          -roll +15+27 \</span><br><span class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</span><br><span class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span>   miff:- |\</span><br><span class="line">convert -size 200x200 tile:- image.jpg</span><br><span class="line"></span><br><span class="line">convert -size 500x500 pattern:checkerboard  miff:- |\</span><br><span class="line">convert -size 5000x5000 tile:- image.jpg</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># get quality of JPEG file</span></span><br><span class="line">identify -verbose file.jpg | grep Quality</span><br></pre></td></tr></table></figure>
+
+<h3 id="Favicon"><a href="#Favicon" class="headerlink" title="Favicon"></a>Favicon</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># create a 36*36 favicon</span></span><br><span class="line">convert -resize 72x72 -extent 72x72 -gravity center -background white input.svg -resize 36x36 favicon.ico</span><br><span class="line"></span><br><span class="line"><span class="comment"># IE is still braindead so still use favicon.ico</span></span><br><span class="line"></span><br><span class="line">convert -resize x16 -gravity center -crop 16x16+0+0 -flatten -colors 256 input.png output-16x16.ico</span><br><span class="line">convert -resize x32 -gravity center -crop 32x32+0+0 -flatten -colors 256 input.png output-32x32.ico</span><br><span class="line">convert output-16x16.ico output-32x32.ico favicon.ico</span><br><span class="line"></span><br><span class="line"><span class="comment"># Then, HTML needs to specify size="XxY" as largest size due to browser bugs</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"shortcut icon"</span> href=<span class="string">"/favicon.ico"</span> sizes=<span class="string">"32x32"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create apple ones</span></span><br><span class="line"></span><br><span class="line">convert -resize x152 input.png apple-touch-icon-152x152.png</span><br><span class="line">convert -resize x120 input.png apple-touch-icon-120x120.png</span><br><span class="line">convert -resize x76  input.png apple-touch-icon-76x76.png</span><br><span class="line">convert -resize x60  input.png apple-touch-icon-60x60.png</span><br><span class="line"></span><br><span class="line"><span class="comment"># HTML for apple</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"152x152"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-152x152.png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"120x120"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-120x120.png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"76x76"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-76x76png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-60x60.png' %&gt;"</span>&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Colorspace"><a href="#Colorspace" class="headerlink" title="Colorspace"></a>Colorspace</h3><p><a href="https://imagemagick.org/script/color-management.php" target="_blank" rel="noopener">Color Management @ ImageMagick</a><br><a href="https://www.imagemagick.org/discourse-server/viewtopic.php?t=16464" target="_blank" rel="noopener">Converting anything to RGB correctly - ImageMagick</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">convert CMYK.jpg -profile /usr/share/color/icc/colord/sRGB.icc RGB.jpg</span><br></pre></td></tr></table></figure>
+
 	  
 	</div>
 
@@ -183,7 +196,7 @@
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/history-internet/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/image-formats/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -225,7 +238,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>40</span></a></li>
+    <li><a href="/categories/app/">app<span>50</span></a></li>
   </li>
 
     </ul>
@@ -238,7 +251,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/imagemagick/">ImageMagick<span>1</span></a></li> <li><a href="/tags/primitive/">primitive<span>1</span></a></li>
+  <li><a href="/tags/shell-tool/">shell-tool<span>23</span></a></li> <li><a href="/tags/imagemagick/">ImageMagick<span>1</span></a></li> <li><a href="/tags/primitive/">primitive<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -248,7 +261,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ImageMagick"><span class="toc-article-text">ImageMagick</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#creating-image"><span class="toc-article-text">creating image</span></a></li></ol></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ImageMagick"><span class="toc-article-text">ImageMagick</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Resizing-Image"><span class="toc-article-text">Resizing Image</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Image-stitching"><span class="toc-article-text">Image stitching</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#creating-image"><span class="toc-article-text">creating image</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Favicon"><span class="toc-article-text">Favicon</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Colorspace"><span class="toc-article-text">Colorspace</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
@@ -265,7 +278,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 leesei
+  &copy; 2019 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Adblocking | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Adblocking">
+  <meta property="og:site_name" content="leesei&#39;s notebook">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Adblocking</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo" target="_blank" rel="noopener">Nano Adblocker - Chrome Web Store</a> uBlock Origin fork that integrates better with Nano Defender<br><a href="https://chrome.google.com/webstore/detail/nano-defender/ggolfgbegefeeoocgjbmkembbncoadlb" target="_blank" rel="noopener">Nano Defender - Chrome Web Store</a><br><a href="https://github.com/NanoAdblocker/NanoCore" target="_blank" rel="noopener">NanoAdblocker/NanoCore: Just another adblocker</a></p>
+<p><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en" target="_blank" rel="noopener">uBlock Origin - Chrome Web Store</a><br><a href="https://github.com/gorhill/uBlock" target="_blank" rel="noopener">gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</a><br><a href="https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin" target="_blank" rel="noopener">Nano Defender</a><br><a href="https://www.ghacks.net/2019/02/15/integrate-nano-defender-with-ublock-origin-to-block-anti-adblocker/" target="_blank" rel="noopener">Integrate Nano Defender with uBlock Origin to block Anti-Adblocker - gHacks Tech News</a><br>Add <code>https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt</code> to <code>userResourcesLocation</code> of Advanced settings.</p>
+<p><a href="https://www.wikiwand.com/en/UBlock_Origin" target="_blank" rel="noopener">uBlock Origin - Wikiwand</a><br><a href="https://github.com/gorhill/uBlock/wiki" target="_blank" rel="noopener">Home · gorhill/uBlock Wiki</a><br><a href="https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared" target="_blank" rel="noopener">uBlock vs. ABP: efficiency compared · gorhill/uBlock Wiki</a></p>
+<p>I ditched the Adblock/Adblock Plus family and turned to Nano Adblocker for the anti adblock feature. The lighter footprint is a plus.</p>
+<p>Edit: Nano Adblocker&#39;s rules seems to break some site (Viu.com), I fall back to uBlock Origin + Nano Defender</p>
+<h2 id="Custom-Filter"><a href="#Custom-Filter" class="headerlink" title="Custom Filter"></a>Custom Filter</h2><p><a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax" target="_blank" rel="noopener">Static filter syntax · gorhill/uBlock Wiki</a><br><a href="https://adblockplus.org/filter-cheatsheet" target="_blank" rel="noopener">Adblock Plus filters explained</a><br><a href="https://adblockplus.org/en/filters" target="_blank" rel="noopener">Writing Adblock Plus filters</a></p>
+<p>Snippets that can be added to filter (like Userscript)<br><a href="https://github.com/gorhill/uBlock/wiki/Resources-Library" target="_blank" rel="noopener">Resources Library · gorhill/uBlock Wiki</a><br><a href="https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt" target="_blank" rel="noopener">NanoFilters/NanoResources.txt at master · NanoAdblocker/NanoFilters</a></p>
+<p><a href="https://github.com/gorhill/uBlock/wiki/Dynamic-filtering" target="_blank" rel="noopener">Dynamic filtering · gorhill/uBlock Wiki</a><br><a href="https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax" target="_blank" rel="noopener">Dynamic filtering: rule syntax · gorhill/uBlock Wiki</a></p>
+<h2 id="Pi-hole"><a href="#Pi-hole" class="headerlink" title="Pi-hole"></a>Pi-hole</h2><p><a href="https://pi-hole.net/" target="_blank" rel="noopener">Pi-hole®: A black hole for Internet advertisements – curl -sSL https://install.pi-hole.net | bash</a></p>
+<p><a href="https://www.raspberrypi.org/blog/pi-hole-raspberry-pi/" target="_blank" rel="noopener">Block ads at home using Pi-hole and a Raspberry Pi - Raspberry Pi</a><br><a href="https://jacobsalmela.com/2014/06/11/raspberry-pi-block-ads-adtrap/" target="_blank" rel="noopener">Pi-hole: A Raspberry Pi Ad-Blocker with DNS Caching (Ultra-fast) – Jacob Salmela</a><br><a href="https://jacobsalmela.com/2014/09/26/raspberry-pi-ad-blocker-advanced-setup/" target="_blank" rel="noopener">Pi-hole: Raspberry Pi Ad-Blocker [Advanced Setup] – Jacob Salmela</a></p>
+<p><a href="https://github.com/roots84/DNS-Swapper" target="_blank" rel="noopener">roots84/DNS-Swapper: A handy little tool to quickly switch between two DNS-Servers</a></p>
+<h2 id="Anti-Adblock-Blocker"><a href="#Anti-Adblock-Blocker" class="headerlink" title="Anti Adblock Blocker"></a>Anti Adblock Blocker</h2><p><a href="https://www.blockadblock.com/" target="_blank" rel="noopener">BlockAdblock | Stop Losing Ad Revenue</a></p>
+<p><a href="https://jspenguin2017.github.io/uBlockProtector/" target="_blank" rel="noopener">Nano Defender</a><br><a href="https://github.com/jspenguin2017/uBlockProtector" target="_blank" rel="noopener">jspenguin2017/uBlockProtector: An anti-adblock defuser for Nano Adblocker and uBlock Origin</a></p>
+<p><a href="https://www.schneier.com/blog/archives/2018/01/detecting_adblo.html" target="_blank" rel="noopener">Detecting Adblocker Blockers - Schneier on Security</a><br><a href="http://technewsreporter.blogspot.com/2015/12/how-to-bypass-websites-that-block-ad.html" target="_blank" rel="noopener">TNR: How To Bypass Websites that Block &quot;AdBlock&quot; (e.g. Forbes)</a></p>
+<h2 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h2><p><a href="https://labs.ft.com/2017/02/ad-blocking-experiments" target="_blank" rel="noopener">Ad Blocking Experiments | FT Labs</a><br><a href="https://www.scientificamerican.com/article/where-will-the-ad-versus-ad-blocker-arms-race-end/" target="_blank" rel="noopener">Where Will the Ad versus Ad Blocker Arms Race End? - Scientific American</a><br><a href="https://www.makeuseof.com/tag/publishers-need-stop-whining-adblock/" target="_blank" rel="noopener">Publishers Need to Stop Whining About Adblock</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/file-parsing/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/human-rights/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2018-07-27 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>89</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Custom-Filter"><span class="toc-article-text">Custom Filter</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Pi-hole"><span class="toc-article-text">Pi-hole</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Anti-Adblock-Blocker"><span class="toc-article-text">Anti Adblock Blocker</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Discussion"><span class="toc-article-text">Discussion</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2019 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>
