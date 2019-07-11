@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Computer Graphics | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Computer Graphics"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Computer Graphics</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://www.tomshardware.com/reviews/gpu-hierarchy,4388.html" target="_blank" rel="external">GPU Hierarchy - Comparison of Graphics Cards for Gaming</a><br><a href="https://www.youtube.com/watch?v=cvcAjgMUPUA" target="_blank" rel="external">How Rendering Graphics Works in Games! - YouTube</a></p>
+<p>RAM of GPU matters the most on high texture and output resolution.</p>
+<p><a href="https://www.youtube.com/channel/UCOgm-72B_tibAM2I5j-mBiQ" target="_blank" rel="external">ICTGraphicsLab - YouTube</a></p>
+<h2 id="History"><a href="#History" class="headerlink" title="History"></a>History</h2><p><a href="https://www.youtube.com/watch?v=QyjyWUrHsFc" target="_blank" rel="external">A Brief History of Graphics - YouTube</a><br><a href="http://www.tomshardware.com/picturestory/735-history-of-amd-graphics.html" target="_blank" rel="external">The 30 Year History of AMD Graphics, In Pictures</a><br><a href="http://www.tomshardware.com/picturestory/715-history-of-nvidia-gpus.html" target="_blank" rel="external">The History Of Nvidia GPUs</a></p>
+<h2 id="Antialiasing"><a href="#Antialiasing" class="headerlink" title="Antialiasing"></a>Antialiasing</h2><p><a href="http://www.wikiwand.com/en/Anti-aliasing" target="_blank" rel="external">Anti-aliasing - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Spatial_anti-aliasing" target="_blank" rel="external">Spatial anti-aliasing - Wikiwand</a><br><a href="http://www.tweakguides.com/Crysis3_6.html" target="_blank" rel="external">TweakGuides.com - Crysis 3 Tweak Guide</a></p>
+<p>FXAA does AA on full screen post-processing and may introduce blurriness<br>SMAA based on MLAA post-processing and may add temporal AA to the mix (which causes shadows for slow moving objects)<br>MSAA is the traditional approach but takes more resources<br>SSAA super sample AA</p>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><blockquote>
+<p>see <code>khronos-group.md</code><br>see <code>khronos-group.md#vulkan</code></p>
+</blockquote>
+<p>The next gen API all focus on exposing the low level GPU hardware to software developer.</p>
+<p><a href="https://www.techpowerup.com/226960/closer-to-the-metal-shader-intrinsic-functions" target="_blank" rel="external">Reaching Console Performance: Shader Intrinsic Functions | techPowerUp</a><br><a href="https://www.youtube.com/watch?v=r0fgEVEgK_k" target="_blank" rel="external">WTF is going on with DX12 and Vulkan? - YouTube</a><br><a href="https://www.youtube.com/watch?v=ApvTaSAG--4" target="_blank" rel="external">Does DirectX 12 Suck? - YouTube</a></p>
+<p><a href="https://www.youtube.com/watch?v=A91BPapLK38" target="_blank" rel="external">WTF is going on with SLI? - YouTube</a><br>Adapters are linked if they are close to the same hardware, unlinked otherwise.<br>Implicit Mode (linked implicitly) (IMA, Implicit Multiadaptor)  is SLI/Crossfire.<br>Explicit Modes (EMA, Explicit Multiadaptor) can work on linked and unlinked hardware.</p>
+<h3 id="DX12"><a href="#DX12" class="headerlink" title="DX12"></a>DX12</h3><p><a href="http://wccftech.com/nvidia-amd-directx-12-graphic-card-list-features-explained/" target="_blank" rel="external">Exclusive: The Nvidia and AMD DirectX 12 Editorial - Complete DX12 Graphic Card List with Specifications, Asynchronous Shaders and Hardware Features Explained</a> !important<br><a href="http://arstechnica.com/gaming/2015/08/directx-12-tested-an-early-win-for-amd-and-disappointment-for-nvidia/" target="_blank" rel="external">DirectX 12 tested: An early win for AMD and disappointment for Nvidia | Ars Technica</a><br><a href="http://arstechnica.com/gaming/2016/02/directx-12-amd-and-nvidia-gpus-finally-work-together-but-amd-still-has-the-lead/" target="_blank" rel="external">Multi-GPU DirectX 12 shootouts show AMD with performance lead over Nvidia | Ars Technica</a><br><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn899119(v=vs.85%29.aspx" target="_blank" rel="external">Direct3D 12 Glossary (Windows)</a></p>
+<p>Asynchronous compute shaders in DX12 benefits the most when CPU is the bottleneck</p>
+<h3 id="Mental"><a href="#Mental" class="headerlink" title="Mental"></a>Mental</h3><p><a href="http://www.amd.com/mantleen-us/innovations/software-technologies/technologies-gaming/mantle" target="_blank" rel="external">Mantle Graphics API | AMD</a></p>
+<p><a href="https://community.amd.com/community/gaming/blog/2015/05/12/one-of-mantles-futures-vulkan" target="_blank" rel="external">Gaming: One of Mantle’s Futures: Vulkan | Community</a> Chronos Group has chosen the best and brightest parts of Mantle to serve as the foundation for “Vulkan”<br><a href="https://community.amd.com/community/gaming/blog/2015/05/12/on-apis-and-the-future-of-mantle" target="_blank" rel="external">Gaming: On APIs and the future of Mantle | Community</a> AMD recommends DX12 or Vulcan<br><a href="http://www.pcworld.com/article/2894036/mantle-is-a-vulkan-amds-dead-graphics-api-rises-from-the-ashes-as-opengls-successor.html" target="_blank" rel="external">Mantle is a Vulkan: AMD’s dead graphics API rises from the ashes in OpenGL’s successor | PCWorld</a><br><a href="http://www.pcworld.com/article/2891672/amds-mantle-10-is-dead-long-live-directx.html" target="_blank" rel="external">AMD’s Mantle 1.0 is dead; long live DirectX | PCWorld</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/computers/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/music-theory/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-10-18 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/uncategorized/">uncategorized<span>60</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#History"><span class="toc-article-text">History</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Antialiasing"><span class="toc-article-text">Antialiasing</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#API"><span class="toc-article-text">API</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#DX12"><span class="toc-article-text">DX12</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Mental"><span class="toc-article-text">Mental</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

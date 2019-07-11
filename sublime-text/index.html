@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Sublime Text | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -107,39 +108,43 @@
 	<div class="mypage">		
 	    <p><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text: The text editor you’ll fall in love with</a><br><a href="https://github.com/SublimeTextIssues" target="_blank" rel="external">Sublime Text Issues</a></p>
 <a id="more"></a>
-<h2 id="Must_Read_Docs"><a href="#Must_Read_Docs" class="headerlink" title="Must Read Docs"></a>Must Read Docs</h2><p><a href="http://www.sublimetext.com/docs/3/" target="_blank" rel="external">Sublime Text 3 Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/" target="_blank" rel="external">Sublime Text Unofficial Documentation</a></p>
-<h2 id="Project_Files"><a href="#Project_Files" class="headerlink" title="Project Files"></a>Project Files</h2><p><a href="http://www.sublimetext.com/docs/3/projects.html" target="_blank" rel="external">Projects - Sublime Text 3 Documentation</a><br><a href="http://code.tutsplus.com/tutorials/sublime-text-2-project-bliss--net-27256" target="_blank" rel="external">Sublime Text 2 Project Bliss - Tuts+ Code Tutorial</a></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">folders</span>":</span><br><span class="line">    <span class="value">[</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">path</span>": <span class="value"><span class="string">"src"</span></span>,</span><br><span class="line">            "<span class="attribute">folder_exclude_patterns</span>": <span class="value">[<span class="string">"backup"</span>]</span>,</span><br><span class="line">            "<span class="attribute">follow_symlinks</span>": <span class="value"><span class="literal">true</span></span><br><span class="line">        </span>&#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">path</span>": <span class="value"><span class="string">"docs"</span></span>,</span><br><span class="line">            "<span class="attribute">name</span>": <span class="value"><span class="string">"Documentation"</span></span>,</span><br><span class="line">            "<span class="attribute">file_exclude_patterns</span>": <span class="value">[<span class="string">"*.css"</span>]</span><br><span class="line">        </span>&#125;</span><br><span class="line">    ]</span>,</span><br><span class="line">    "<span class="attribute">settings</span>":</span><br><span class="line">    <span class="value">&#123;</span><br><span class="line">        "<span class="attribute">tab_size</span>": <span class="value"><span class="number">8</span></span><br><span class="line">    </span>&#125;</span>,</span><br><span class="line">    "<span class="attribute">build_systems</span>":</span><br><span class="line">    <span class="value">[</span><br><span class="line">        &#123;</span><br><span class="line">            "<span class="attribute">name</span>": <span class="value"><span class="string">"List"</span></span>,</span><br><span class="line">            "<span class="attribute">shell_cmd</span>": <span class="value"><span class="string">"ls -l"</span></span><br><span class="line">        </span>&#125;</span><br><span class="line">    ]</span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"folders"</span>:</span><br><span class="line">    [</span><br><span class="line">        &#123; <span class="comment">// theme</span></span><br><span class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/themes/twentyeleven"</span>,</span><br><span class="line">            <span class="string">"name"</span>: <span class="string">"Twenty Eleven Theme"</span>,</span><br><span class="line">            <span class="string">"file_exclude_patterns"</span>:[</span><br><span class="line">                <span class="string">"._*"</span>,</span><br><span class="line">                <span class="string">"*.ico"</span>,</span><br><span class="line">                <span class="string">"*.swf"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">"folder_exclude_patterns"</span>: [</span><br><span class="line">                <span class="string">"images"</span></span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123; <span class="comment">// plugins folder</span></span><br><span class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/plugins"</span>,</span><br><span class="line">            <span class="string">"name"</span>: <span class="string">"Plugins Folder"</span>,</span><br><span class="line">            <span class="string">"file_exclude_patterns"</span>:[</span><br><span class="line">                <span class="string">"._*"</span>, <span class="comment">// you need to specify this *again*</span></span><br><span class="line">                <span class="string">"*.bak"</span>,</span><br><span class="line">                <span class="string">"*.sample"</span>,</span><br><span class="line">                <span class="string">"*.tar"</span>,</span><br><span class="line">                <span class="string">"*.tgz"</span>,</span><br><span class="line">                <span class="string">"*.zip"</span></span><br><span class="line">            ],</span><br><span class="line">            <span class="string">"folder_exclude_patterns"</span>: [</span><br><span class="line">                <span class="string">"akismet"</span><span class="comment">//,</span></span><br><span class="line">                <span class="comment">// add any other plugins you wish to exclude</span></span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ],</span><br><span class="line">    <span class="string">"settings"</span>:</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="string">"tab_size"</span>: <span class="number">4</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Customization_after_install"><a href="#Customization_after_install" class="headerlink" title="Customization after install"></a>Customization after install</h2><p><a href="https://github.com/mrmartineau/SublimeTextSetupWiki/wiki" target="_blank" rel="external">Home · mrmartineau/SublimeTextSetupWiki Wiki</a><br><a href="http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2" target="_blank" rel="external">Perfect Workflow in Sublime Text 2 - Tuts+ Course</a> (The full version on Youtube was taken down.)<br><a href="https://scotch.io/tag/sublime-text" target="_blank" rel="external">Tag Archive for “sublime-text” | Scotch</a><br><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP" target="_blank" rel="external">Sublime Text Tutorials - YouTube</a><br><a href="https://github.com/SublimeText/" target="_blank" rel="external">Sublime Text Packages</a></p>
+<h2 id="Must-Read-Docs"><a href="#Must-Read-Docs" class="headerlink" title="Must Read Docs"></a>Must Read Docs</h2><p><a href="http://www.sublimetext.com/docs/3/" target="_blank" rel="external">Sublime Text 3 Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/" target="_blank" rel="external">Sublime Text Unofficial Documentation</a></p>
+<h2 id="Project-Files"><a href="#Project-Files" class="headerlink" title="Project Files"></a>Project Files</h2><p><a href="http://www.sublimetext.com/docs/3/projects.html" target="_blank" rel="external">Projects - Sublime Text 3 Documentation</a><br><a href="http://code.tutsplus.com/tutorials/sublime-text-2-project-bliss--net-27256" target="_blank" rel="external">Sublime Text 2 Project Bliss - Tuts+ Code Tutorial</a></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"folders"</span>:</div><div class="line">    [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"path"</span>: <span class="string">"src"</span>,</div><div class="line">            <span class="attr">"folder_exclude_patterns"</span>: [<span class="string">"backup"</span>],</div><div class="line">            <span class="attr">"follow_symlinks"</span>: <span class="literal">true</span></div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"path"</span>: <span class="string">"docs"</span>,</div><div class="line">            <span class="attr">"name"</span>: <span class="string">"Documentation"</span>,</div><div class="line">            <span class="attr">"file_exclude_patterns"</span>: [<span class="string">"*.css"</span>]</div><div class="line">        &#125;</div><div class="line">    ],</div><div class="line">    <span class="attr">"settings"</span>:</div><div class="line">    &#123;</div><div class="line">        <span class="attr">"tab_size"</span>: <span class="number">8</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">"build_systems"</span>:</div><div class="line">    [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"name"</span>: <span class="string">"List"</span>,</div><div class="line">            <span class="attr">"shell_cmd"</span>: <span class="string">"ls -l"</span></div><div class="line">        &#125;</div><div class="line">    ]</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="string">"folders"</span>:</div><div class="line">    [</div><div class="line">        &#123; <span class="comment">// theme</span></div><div class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/themes/twentyeleven"</span>,</div><div class="line">            <span class="string">"name"</span>: <span class="string">"Twenty Eleven Theme"</span>,</div><div class="line">            <span class="string">"file_exclude_patterns"</span>:[</div><div class="line">                <span class="string">"._*"</span>,</div><div class="line">                <span class="string">"*.ico"</span>,</div><div class="line">                <span class="string">"*.swf"</span></div><div class="line">            ],</div><div class="line">            <span class="string">"folder_exclude_patterns"</span>: [</div><div class="line">                <span class="string">"images"</span></div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123; <span class="comment">// plugins folder</span></div><div class="line">            <span class="string">"path"</span>: <span class="string">"/C/wamp/www/wordpress/wp-content/plugins"</span>,</div><div class="line">            <span class="string">"name"</span>: <span class="string">"Plugins Folder"</span>,</div><div class="line">            <span class="string">"file_exclude_patterns"</span>:[</div><div class="line">                <span class="string">"._*"</span>, <span class="comment">// you need to specify this *again*</span></div><div class="line">                <span class="string">"*.bak"</span>,</div><div class="line">                <span class="string">"*.sample"</span>,</div><div class="line">                <span class="string">"*.tar"</span>,</div><div class="line">                <span class="string">"*.tgz"</span>,</div><div class="line">                <span class="string">"*.zip"</span></div><div class="line">            ],</div><div class="line">            <span class="string">"folder_exclude_patterns"</span>: [</div><div class="line">                <span class="string">"akismet"</span><span class="comment">//,</span></div><div class="line">                <span class="comment">// add any other plugins you wish to exclude</span></div><div class="line">            ]</div><div class="line">        &#125;</div><div class="line">    ],</div><div class="line">    <span class="string">"settings"</span>:</div><div class="line">    &#123;</div><div class="line">        <span class="string">"tab_size"</span>: <span class="number">4</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="PATH-setting"><a href="#PATH-setting" class="headerlink" title="PATH setting"></a><code>PATH</code> setting</h2><p><a href="https://forum.sublimetext.com/t/term-environment-variable-not-set-when-python-build-on-mac/25495" target="_blank" rel="external">“TERM environment variable not set.” when Python build (on mac) - Technical Support - Sublime Forum</a><br><a href="http://www.sublimelinter.com/en/latest/troubleshooting.html#debugging-path-problems" target="_blank" rel="external">Troubleshooting &gt; Debugging PATH problems — SublimeLinter documentation</a></p>
+<p><strong>Make sure your shell do not echo anything to the console when you login.</strong></p>
+<p><code>import os; os.environ[&#39;PATH&#39;]</code> in Sublime Console<br><code>$SHELL -l -c &#39;echo ${PATH}&#39;</code> in terminal, used by SublimeLinter</p>
+<p><a href="http://robdodson.me/hacking-the-path-variable-in-sublime-text/" target="_blank" rel="external">Hacking the PATH variable in Sublime Text</a><br><a href="https://xn--sergemond-f4a.ca/en/articles/os-x-environment-at-login/" target="_blank" rel="external">Setting environment variables on login in OS X • Serge Émond</a><br><a href="https://github.com/int3h/SublimeFixMacPath" target="_blank" rel="external">int3h/SublimeFixMacPath: A Sublime Text 2/3 plugin to set the PATH correctly on OS X</a></p>
+<h2 id="Customization-after-install"><a href="#Customization-after-install" class="headerlink" title="Customization after install"></a>Customization after install</h2><p><a href="https://github.com/mrmartineau/SublimeTextSetupWiki/wiki" target="_blank" rel="external">Home · mrmartineau/SublimeTextSetupWiki Wiki</a><br><a href="http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2" target="_blank" rel="external">Perfect Workflow in Sublime Text 2 - Tuts+ Course</a><br><a href="https://www.youtube.com/playlist?list=PLB_IY29eVwsXTToA7tqFV5uaqRw00XMy0" target="_blank" rel="external">Sublime Text Perfect Workflow - YouTube</a><br><a href="https://www.youtube.com/watch?v=04gKiTiRlq8" target="_blank" rel="external">Getting Started with SublimeText - YouTube</a><br><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP" target="_blank" rel="external">Sublime Text Tutorials - YouTube</a><br><a href="https://scotch.io/tag/sublime-text" target="_blank" rel="external">Tag Archive for “sublime-text” | Scotch</a><br><a href="https://github.com/SublimeText/" target="_blank" rel="external">Sublime Text Packages</a></p>
 <p><a href="https://www.shortcutfoo.com/app/dojos/sublime-text-2-win" target="_blank" rel="external">Sublimetext commands and shortcuts | ShortcutFoo</a></p>
 <h3 id="Console"><a href="#Console" class="headerlink" title="Console"></a>Console</h3><p>Use <kbd>Ctrl</kbd>+<kbd>`</kbd> to enter Sublime’s Python console</p>
-<h3 id="Install_Directory"><a href="#Install_Directory" class="headerlink" title="Install Directory"></a>Install Directory</h3><ul>
+<h3 id="Install-Directory"><a href="#Install-Directory" class="headerlink" title="Install Directory"></a>Install Directory</h3><ul>
 <li><strong>Windows</strong>: </li>
 <li><strong>OS X</strong>: </li>
 <li><strong>Linux</strong>: <code>/opt/sublime_text/</code></li>
 </ul>
-<h3 id="Data_Directory"><a href="#Data_Directory" class="headerlink" title="Data Directory"></a>Data Directory</h3><ul>
+<h3 id="Data-Directory"><a href="#Data-Directory" class="headerlink" title="Data Directory"></a>Data Directory</h3><ul>
 <li><strong>Windows</strong>: <code>%APPDATA%\Sublime Text 3</code></li>
 <li><strong>OS X</strong>: <code>~/Library/Application Support/Sublime Text 3</code></li>
 <li><strong>Linux</strong>: <code>~/.config/sublime-text-3</code></li>
 </ul>
-<h3 id="Package_Directory"><a href="#Package_Directory" class="headerlink" title="Package Directory"></a>Package Directory</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sublime.packages_path()</span><br></pre></td></tr></table></figure>
+<h3 id="Package-Directory"><a href="#Package-Directory" class="headerlink" title="Package Directory"></a>Package Directory</h3><figure class="highlight python"><table><tr><td class="code"><pre><div class="line">sublime.packages_path()</div></pre></td></tr></table></figure>
 <p>Default packages are located at <code>&lt;Install Directory&gt;/Packages</code>.</p>
-<h3 id="Package_Control"><a href="#Package_Control" class="headerlink" title="Package Control"></a>Package Control</h3><p><a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control - the Sublime Text package manager</a></p>
+<h3 id="Package-Control"><a href="#Package-Control" class="headerlink" title="Package Control"></a>Package Control</h3><p><a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control - the Sublime Text package manager</a></p>
 <p>Follow the instruction to install Package Control via Sublime console.</p>
 <p>Installed packages (Package Control &gt; Settings - User):<br><code>&lt;DATA&gt;/Packages/User/Package Control.sublime-settings</code></p>
 <blockquote>
 <p>You can do batch install by editing this file and restarting Sublime Text.</p>
 </blockquote>
 <p><a href="https://packagecontrol.io/docs#Package_Developers" target="_blank" rel="external">Docs for Package Developers - Package Control</a><br><a href="https://packagecontrol.io/docs/submitting_a_package#Step_2" target="_blank" rel="external">Submitting a Package - Package Control</a></p>
-<h2 id="Extension_Development"><a href="#Extension_Development" class="headerlink" title="Extension Development"></a>Extension Development</h2><p>Sublime Text’s extensions are usually compatible with TextMate. This design choice make migration from TextMate easy and helps to build Sublime Text’s user base.</p>
+<h2 id="Extension-Development"><a href="#Extension-Development" class="headerlink" title="Extension Development"></a>Extension Development</h2><p>Sublime Text’s extensions are usually compatible with TextMate. This design choice make migration from TextMate easy and helps to build Sublime Text’s user base.</p>
 <p>It is recommended to use <a href="https://packagecontrol.io/packages/AAAPackageDev" target="_blank" rel="external">AAAPackageDev</a> to write extensions, which now use YAML over JSON by defaults for the definitions.<br><a href="https://packagecontrol.io/packages/PackageResourceViewer" target="_blank" rel="external">PackageResourceViewer</a> is great for viewing files of installed packages (other than visiting the repository).</p>
 <p><a href="http://docs.sublimetext.info/en/latest/extensibility/extensibility.html" target="_blank" rel="external">Extending Sublime Text — Sublime Text Unofficial Documentation</a></p>
 <p><a href="http://www.sublimetext.com/docs/plugin-examples" target="_blank" rel="external">Sublime Text - Plugin Examples</a><br><a href="http://www.sublimetext.com/docs/api-reference" target="_blank" rel="external">Sublime Text - Plugin API Reference</a></p>
 <p><a href="http://code.tutsplus.com/tutorials/how-to-create-a-sublime-text-2-plugin--net-22685" target="_blank" rel="external">How to Create a Sublime Text 2 Plugin - Tuts+ Code Tutorial</a><br><a href="http://clarknikdelpowell.com/blog/creating-sublime-text-3-plugins-part-1/" target="_blank" rel="external">Creating Sublime Text 3 Plugins – Part 1 | Clark/Nikdel/Powell</a><br><a href="http://clarknikdelpowell.com/blog/creating-sublime-text-3-plugins-part-2/" target="_blank" rel="external">Creating Sublime Text 3 Plugins – Part 2 | Clark/Nikdel/Powell</a></p>
 <p><a href="https://github.com/SublimeText/PackageTesting" target="_blank" rel="external">SublimeText/PackageTesting</a></p>
-<h3 id="Theme_Development"><a href="#Theme_Development" class="headerlink" title="Theme Development"></a>Theme Development</h3><p>Actually there are two things here:</p>
+<h3 id="Theme-Development"><a href="#Theme-Development" class="headerlink" title="Theme Development"></a>Theme Development</h3><p>Actually there are two things here:</p>
 <ul>
 <li>theme of Sublime Text</li>
 <li>color scheme</li>
@@ -147,16 +152,17 @@
 <p><a href="http://manual.macromates.com/en/themes" target="_blank" rel="external">TextMate Manual » Themes</a></p>
 <p>Online editor:<br><a href="http://tmtheme-editor.herokuapp.com/" target="_blank" rel="external">TmTheme Editor</a><br><a href="https://github.com/aziz/tmTheme-Editor" target="_blank" rel="external">aziz/tmTheme-Editor</a></p>
 <p>Local editor:<br><a href="http://mattdmo.com/guide-to-installing-colorschemeeditor-for-sublime-text-3/" target="_blank" rel="external">A Guide to Installing ColorSchemeEditor for Sublime Text 3 | MattDMo.com</a><br><a href="https://github.com/facelessuser/ColorSchemeEditor" target="_blank" rel="external">facelessuser/ColorSchemeEditor</a></p>
-<h3 id="Syntax_Development"><a href="#Syntax_Development" class="headerlink" title="Syntax Development"></a>Syntax Development</h3><p><a href="http://manual.macromates.com/en/language_grammars" target="_blank" rel="external">TextMate Manual » Language Grammars</a><br><a href="http://manual.macromates.com/en/scope_selectors" target="_blank" rel="external">TextMate Manual » Scope Selectors</a></p>
-<p><a href="http://www.sublimetext.com/docs/3/syntax.html" target="_blank" rel="external">Syntax - Sublime Text 3 Documentation</a><br><a href="http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Unofficial Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions (reference) — Sublime Text Unofficial Documentation</a><br><a href="http://sublimetext.info/docs/en/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Help</a> (deprecated)</p>
+<h3 id="Syntax-Development"><a href="#Syntax-Development" class="headerlink" title="Syntax Development"></a>Syntax Development</h3><p><a href="http://manual.macromates.com/en/language_grammars" target="_blank" rel="external">TextMate Manual » Language Grammars</a><br><a href="http://manual.macromates.com/en/scope_selectors" target="_blank" rel="external">TextMate Manual » Scope Selectors</a></p>
+<p><a href="http://www.sublimetext.com/docs/3/syntax.html" target="_blank" rel="external">Syntax - Sublime Text 3 Documentation</a> new <code>.sublime-syntax</code><br><a href="http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Unofficial Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions (reference) — Sublime Text Unofficial Documentation</a><br><a href="http://sublimetext.info/docs/en/extensibility/syntaxdefs.html" target="_blank" rel="external">Syntax Definitions — Sublime Text Help</a> (deprecated)</p>
 <p><a href="https://bitbucket.org/klorenz/syntaxhighlighttools" target="_blank" rel="external">klorenz / SyntaxHighlightTools — Bitbucket</a> has docs on tmPreferences.</p>
 <p><a href="http://tmtheme-editor.herokuapp.com/stats" target="_blank" rel="external">TmTheme Editor Stats</a> to see what scopes are being recognized by themes.</p>
 <p><a href="http://www.sublimetext.com/forum/viewtopic.php?p=48270" target="_blank" rel="external">Sublime Forum • View topic - How to highlight a nested scope?</a><br><a href="https://www.google.com.hk/search?q=sublime+tmlanguage+site:www.sublimetext.com" target="_blank" rel="external">sublime tmlanguage site:www.sublimetext.com - Google Search</a></p>
 <p>Use <a href="https://regex101.com/#python" target="_blank" rel="external">Regex101</a> to test the regex (use <code>gm</code> flags).<br><a href="https://regex101.com/r/cX0eW3" target="_blank" rel="external">https://regex101.com/r/cX0eW3</a></p>
-<h3 id="Snippets_Development"><a href="#Snippets_Development" class="headerlink" title="Snippets Development"></a>Snippets Development</h3><p><a href="http://www.hongkiat.com/blog/sublime-code-snippets/" target="_blank" rel="external">Working with Code Snippets in Sublime Text - Hongkiat</a><br><a href="http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/quickly-insert-text-and-code-with-sublime-text-snippets/" target="_blank" rel="external">Quickly Insert Text &amp; Code with Sublime Text Snippets :: Scott Granneman</a></p>
-<p><a href="http://docs.sublimetext.info/en/latest/extensibility/snippets.html" target="_blank" rel="external">Snippets — Sublime Text Unofficial Documentation</a></p>
-<h3 id="Publishing_to_Package_Control"><a href="#Publishing_to_Package_Control" class="headerlink" title="Publishing to Package Control"></a>Publishing to Package Control</h3><p><a href="https://packagecontrol.io/docs#Package_Developers" target="_blank" rel="external">Docs - Package Control</a><br><a href="https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json" target="_blank" rel="external">example-repository.json</a></p>
-<h2 id="My_Installed_Packages"><a href="#My_Installed_Packages" class="headerlink" title="My Installed Packages"></a>My Installed Packages</h2><h3 id="Color_scheme/Themes"><a href="#Color_scheme/Themes" class="headerlink" title="Color scheme/Themes"></a>Color scheme/Themes</h3><table>
+<h3 id="Snippets-Development"><a href="#Snippets-Development" class="headerlink" title="Snippets Development"></a>Snippets Development</h3><p><a href="http://www.hongkiat.com/blog/sublime-code-snippets/" target="_blank" rel="external">Working with Code Snippets in Sublime Text - Hongkiat</a><br><a href="http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/quickly-insert-text-and-code-with-sublime-text-snippets/" target="_blank" rel="external">Quickly Insert Text &amp; Code with Sublime Text Snippets :: Scott Granneman</a></p>
+<p><a href="http://docs.sublimetext.info/en/latest/extensibility/snippets.html" target="_blank" rel="external">Snippets — Sublime Text Unofficial Documentation</a><br><a href="http://docs.sublimetext.info/en/latest/reference/completions.html" target="_blank" rel="external">Completions Files — Sublime Text Unofficial Documentation</a></p>
+<h3 id="Publishing-to-Package-Control"><a href="#Publishing-to-Package-Control" class="headerlink" title="Publishing to Package Control"></a>Publishing to Package Control</h3><p><a href="https://packagecontrol.io/docs#Package_Developers" target="_blank" rel="external">Docs - Package Control</a><br><a href="https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json" target="_blank" rel="external">example-repository.json</a></p>
+<h2 id="My-Installed-Packages"><a href="#My-Installed-Packages" class="headerlink" title="My Installed Packages"></a>My Installed Packages</h2><p><a href="https://packagecontrol.io/packages/Environment Settings" target="_blank" rel="external">Environment Settings - Packages - Package Control</a><br><a href="https://packagecontrol.io/packages/Shell Turtlestein" target="_blank" rel="external">Shell Turtlestein - Packages - Package Control</a><br><a href="https://packagecontrol.io/packages/SublimeREPL" target="_blank" rel="external">SublimeREPL - Packages - Package Control</a></p>
+<h3 id="Color-scheme-Themes"><a href="#Color-scheme-Themes" class="headerlink" title="Color scheme/Themes"></a>Color scheme/Themes</h3><table>
 <thead>
 <tr>
 <th>Package</th>
@@ -177,6 +183,10 @@
 <td>Using this one</td>
 </tr>
 <tr>
+<td><a href="https://packagecontrol.io/packages/Theme%20-%20Cobalt2" target="_blank" rel="external">Theme - Cobalt2</a></td>
+<td>Using this one</td>
+</tr>
+<tr>
 <td><a href="https://packagecontrol.io/packages/Theme%20-%20Flatland" target="_blank" rel="external">Theme - Flatland</a></td>
 <td></td>
 </tr>
@@ -187,7 +197,7 @@
 </tbody>
 </table>
 <p><a href="https://packagecontrol.io/browse/labels/color%20scheme" target="_blank" rel="external">color scheme - Labels - Package Control</a><br><a href="https://packagecontrol.io/browse/labels/theme" target="_blank" rel="external">theme - Labels - Package Control</a></p>
-<h3 id="Syntax/Snippets"><a href="#Syntax/Snippets" class="headerlink" title="Syntax/Snippets"></a>Syntax/Snippets</h3><table>
+<h3 id="Syntax-Snippets"><a href="#Syntax-Snippets" class="headerlink" title="Syntax/Snippets"></a>Syntax/Snippets</h3><table>
 <thead>
 <tr>
 <th>Package</th>
@@ -232,12 +242,16 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/Console%20API%20Snippets%20(JavaScript)" target="_blank" rel="external">Console API Snippets (JavaScript)</a></td>
+<td><a href="https://packagecontrol.io/packages/Console%20API%20Snippets%20%28JavaScript%29" target="_blank" rel="external">Console API Snippets (JavaScript)</a></td>
 <td></td>
 </tr>
 <tr>
 <td>Diagram</td>
 <td><a href="https://github.com/jvantuyl/sublime_diagram_plugin/tree/master/Syntaxes" target="_blank" rel="external">Syntax</a> only</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting" target="_blank" rel="external">Dockerfile Syntax Highlighting</a></td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting" target="_blank" rel="external">Dotfiles Syntax Highlighting</a></td>
@@ -268,10 +282,6 @@
 <td>Currently only used for JSON</td>
 </tr>
 <tr>
-<td>[Standard​Format][]</td>
-<td>Change <code>command</code> to <code>[&quot;semistandard&quot;, &quot;-F&quot;, &quot;--stdin&quot;]</code></td>
-</tr>
-<tr>
 <td><a href="https://packagecontrol.io/packages/MarkdownEditing" target="_blank" rel="external">MarkdownEditing</a></td>
 <td>Also includes color scheme and snippets for Markdown</td>
 </tr>
@@ -296,11 +306,23 @@
 <td></td>
 </tr>
 <tr>
+<td><a href="https://packagecontrol.io/packages/Rust%20Enhanced" target="_blank" rel="external">Rust Enhanced</a></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="https://packagecontrol.io/packages/SCSS" target="_blank" rel="external">SCSS</a></td>
 <td></td>
 </tr>
 <tr>
+<td><a href="https://packagecontrol.io/packages/ShellScriptImproved" target="_blank" rel="external">ShellScriptImproved</a></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="https://packagecontrol.io/packages/Tmux" target="_blank" rel="external">Tmux</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/TOML" target="_blank" rel="external">TOML</a></td>
 <td></td>
 </tr>
 </tbody>
@@ -319,7 +341,7 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/Alignment" target="_blank" rel="external">Alignment</a></td>
+<td><a href="https://packagecontrol.io/packages/AlignTab" target="_blank" rel="external">AlignTab</a></td>
 <td></td>
 </tr>
 <tr>
@@ -336,6 +358,10 @@
 </tr>
 <tr>
 <td><a href="https://packagecontrol.io/packages/C%2B%2B%20Starting%20Kit" target="_blank" rel="external">-C++ Starting Kit</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/ColorHelper" target="_blank" rel="external">ColorHelper</a></td>
 <td></td>
 </tr>
 <tr>
@@ -383,7 +409,11 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/OmniMarkupPreviewer" target="_blank" rel="external">OmniMarkupPreviewer</a></td>
+<td><a href="https://packagecontrol.io/packages/NodeRequirer" target="_blank" rel="external">NodeRequirer</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/OmniMarkupPreviewer" target="_blank" rel="external">-OmniMarkupPreviewer</a></td>
 <td></td>
 </tr>
 <tr>
@@ -430,9 +460,13 @@
 <td><a href="https://packagecontrol.io/packages/WordHighlight" target="_blank" rel="external">WordHighlight</a></td>
 <td></td>
 </tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/YAML%20Nav" target="_blank" rel="external">YAML Nav</a></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<h3 id="Plugins_development"><a href="#Plugins_development" class="headerlink" title="Plugins development"></a>Plugins development</h3><table>
+<h3 id="Plugins-development"><a href="#Plugins-development" class="headerlink" title="Plugins development"></a>Plugins development</h3><table>
 <thead>
 <tr>
 <th>Package</th>
@@ -491,7 +525,7 @@
 <td>This causes <a href="https://github.com/SublimeLinter/SublimeLinter-html-tidy/issues/33" target="_blank" rel="external">error</a> in <code>paths</code></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/SublimeLinter-contrib-semistandard" target="_blank" rel="external">Sublime​Linter-contrib-semistandard</a></td>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-contrib-eslint" target="_blank" rel="external">Sublime​Linter-contrib-eslint</a></td>
 <td></td>
 </tr>
 <tr>
@@ -503,19 +537,19 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/SublimeLinter-jshint" target="_blank" rel="external">SublimeLinter-jshint</a></td>
-<td></td>
-</tr>
-<tr>
 <td><a href="https://packagecontrol.io/packages/SublimeLinter-json" target="_blank" rel="external">SublimeLinter-json</a></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="https://packagecontrol.io/packages/SublimeLinter-lua" target="_blank" rel="external">SublimeLinter-lua</a></td>
-<td></td>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-luacheck" target="_blank" rel="external">SublimeLinter-luacheck</a></td>
+<td><a href="http://luacheck.readthedocs.io/en/stable/" target="_blank" rel="external">Luacheck documentation</a></td>
 </tr>
 <tr>
 <td><a href="https://packagecontrol.io/packages/SublimeLinter-pep8" target="_blank" rel="external">SublimeLinter-pep8</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/SublimeLinter-pyyaml" target="_blank" rel="external">SublimeLinter-pyyaml</a></td>
 <td></td>
 </tr>
 <tr>
@@ -586,7 +620,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -599,7 +633,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/package-control/">package-control<span>1</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/sublime-text/">sublime-text<span>1</span></a></li>
+  <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/sublime-text/">sublime-text<span>1</span></a></li> <li><a href="/tags/package-control/">package-control<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -609,7 +643,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Must_Read_Docs"><span class="toc-article-text">Must Read Docs</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Project_Files"><span class="toc-article-text">Project Files</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Customization_after_install"><span class="toc-article-text">Customization after install</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Console"><span class="toc-article-text">Console</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Install_Directory"><span class="toc-article-text">Install Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Data_Directory"><span class="toc-article-text">Data Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package_Directory"><span class="toc-article-text">Package Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package_Control"><span class="toc-article-text">Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Extension_Development"><span class="toc-article-text">Extension Development</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Theme_Development"><span class="toc-article-text">Theme Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax_Development"><span class="toc-article-text">Syntax Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Snippets_Development"><span class="toc-article-text">Snippets Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Publishing_to_Package_Control"><span class="toc-article-text">Publishing to Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#My_Installed_Packages"><span class="toc-article-text">My Installed Packages</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Color_scheme/Themes"><span class="toc-article-text">Color scheme/Themes</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax/Snippets"><span class="toc-article-text">Syntax/Snippets</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins_development"><span class="toc-article-text">Plugins development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Linter"><span class="toc-article-text">Linter</span></a></li></ol></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Must-Read-Docs"><span class="toc-article-text">Must Read Docs</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Project-Files"><span class="toc-article-text">Project Files</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#PATH-setting"><span class="toc-article-text">PATH setting</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Customization-after-install"><span class="toc-article-text">Customization after install</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Console"><span class="toc-article-text">Console</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Install-Directory"><span class="toc-article-text">Install Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Data-Directory"><span class="toc-article-text">Data Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package-Directory"><span class="toc-article-text">Package Directory</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Package-Control"><span class="toc-article-text">Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Extension-Development"><span class="toc-article-text">Extension Development</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Theme-Development"><span class="toc-article-text">Theme Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax-Development"><span class="toc-article-text">Syntax Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Snippets-Development"><span class="toc-article-text">Snippets Development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Publishing-to-Package-Control"><span class="toc-article-text">Publishing to Package Control</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#My-Installed-Packages"><span class="toc-article-text">My Installed Packages</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Color-scheme-Themes"><span class="toc-article-text">Color scheme/Themes</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Syntax-Snippets"><span class="toc-article-text">Syntax/Snippets</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins"><span class="toc-article-text">Plugins</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Plugins-development"><span class="toc-article-text">Plugins development</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Linter"><span class="toc-article-text">Linter</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
@@ -626,7 +660,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

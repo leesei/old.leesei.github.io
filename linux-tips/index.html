@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Linux Tips and Tricks | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Linux Tips and Tricks"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Linux Tips and Tricks</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>These tips and tricks shall be promoted to its own post when the topic has accumulated enough contents.</p>
+<p><a href="https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0" target="_blank" rel="external">Introduction to Linux | edX</a><br><a href="https://kernelnewbies.org/" target="_blank" rel="external">Linux Kernel Newbies - Linux Kernel Newbies</a></p>
+<h2 id="Online-manpages"><a href="#Online-manpages" class="headerlink" title="Online manpages"></a>Online manpages</h2><p><a href="http://www.die.net/search/?q=%s" target="_blank" rel="external">http://www.die.net/search/?q=%s</a>  Better format for sending to Kindle<br><a href="https://www.mankier.com/?q=%s" target="_blank" rel="external">https://www.mankier.com/?q=%s</a>  Better coloring and TOC, with tldr<br><a href="http://man.cx/%s" target="_blank" rel="external">http://man.cx/%s</a>  Better coloring and TOC</p>
+<a id="more"></a>
+<h2 id="Check-system-install-time"><a href="#Check-system-install-time" class="headerlink" title="Check system install time"></a>Check system install time</h2><p><a href="http://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed" target="_blank" rel="external">How do I find how long ago a Linux system was installed? - Unix &amp; Linux Stack Exchange</a></p>
+<p>We need several tools:  </p>
+<ul>
+<li><code>df</code> to look up the device path of <code>/</code>  </li>
+<li><code>tune2fs</code> to query the file system’s info  </li>
+<li>GNU tools for command line magic ;-)</li>
+</ul>
+<p><strong>Vanilla commands</strong></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ df /</div><div class="line">Filesystem      Size  Used Avail Use% Mounted on</div><div class="line">/dev/sdb3       184G   18G  164G  10% /</div><div class="line">$ sudo tune2fs <span class="_">-l</span> /dev/sdb3</div><div class="line">...</div><div class="line">&lt;fs info&gt;</div><div class="line">Filesystem created:       Tue Aug 25 18:15:09 2015</div><div class="line">&lt;fs info&gt;</div><div class="line">...</div></pre></td></tr></table></figure>
+<p><strong>Apply command line magic</strong></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ sudo tune2fs <span class="_">-l</span> $(df / | sed -n <span class="string">'2 p'</span> | cut <span class="_">-d</span><span class="string">' '</span> <span class="_">-f</span>1) | grep <span class="string">'Filesystem created:'</span></div><div class="line">Filesystem created:       Tue Aug 25 18:15:09 2015</div></pre></td></tr></table></figure>
+<h2 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h2><p><a href="https://magiclen.org/linux-intel-cpu/" target="_blank" rel="external">Linux下如何開啟或關閉Intel CPU的Turbo Boost功能？ | MagicLen</a></p>
+<h2 id="Freezes"><a href="#Freezes" class="headerlink" title="Freezes"></a>Freezes</h2><p><a href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/159356" target="_blank" rel="external">Bug #159356 “System freeze on high memory usage” : Bugs : linux package : Ubuntu</a></p>
+<p>Some suggested adding this to <code>/etc/rc.local</code>:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">sysctl vm.vfs_cache_pressure=100000</div></pre></td></tr></table></figure></p>
+<h2 id="Swap"><a href="#Swap" class="headerlink" title="Swap"></a>Swap</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo su</div><div class="line">SWAPFILE=/swapfile</div><div class="line">dd <span class="keyword">if</span>=/dev/zero of=<span class="variable">$&#123;SWAPFILE&#125;</span> bs=1M count=8192 status=progress</div><div class="line">chmod 600 <span class="variable">$&#123;SWAPFILE&#125;</span></div><div class="line">mkswap <span class="variable">$&#123;SWAPFILE&#125;</span></div><div class="line"><span class="comment"># test</span></div><div class="line">swapoff <span class="_">-a</span>; swapon <span class="variable">$&#123;SWAPFILE&#125;</span></div><div class="line">free -h</div><div class="line"><span class="comment"># commit to fstab</span></div><div class="line"><span class="built_in">printf</span> <span class="string">"\n\n<span class="variable">$&#123;SWAPFILE&#125;</span> none swap sw 0 0\n"</span> &gt;&gt; /etc/fstab</div></pre></td></tr></table></figure>
+<p><a href="http://www.cy berciti.biz/faq/linux-add-a-swap-file-howto/" target="_blank" rel="external">Linux Add a Swap File – Howto</a></p>
+<h3 id="swappiness"><a href="#swappiness" class="headerlink" title="swappiness"></a>swappiness</h3><p><a href="https://rudd-o.com/linux-and-free-software/tales-from-responsivenessland-why-linux-feels-slow-and-how-to-fix-that" target="_blank" rel="external">Tales from responsivenessland: why Linux feels slow, and how to fix that — Rudd-O.com in English</a><br><a href="https://www.linux.com/news/all-about-linux-swap-space" target="_blank" rel="external">All about Linux swap space | Linux.com | The source for Linux information</a></p>
+<p><code>/etc/sysctl.d/sysctl.conf</code>:<br><figure class="highlight"><table><tr><td class="code"><pre><div class="line"># decrease swappiness, can be higher for swapping on SSD</div><div class="line">vm.swappiness = 30</div><div class="line"></div><div class="line"># prefer file system (inode/dentry) cache</div><div class="line">vm.vfs_cache_pressure = 70</div></pre></td></tr></table></figure></p>
+<h2 id="Network-buffer"><a href="#Network-buffer" class="headerlink" title="Network buffer"></a>Network buffer</h2><p>This modify the buffer sizes temporarily. Change <code>sysctl.conf</code> to make the change permanent.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="built_in">echo</span> 1048576 &gt;/proc/sys/net/core/rmem_max</div><div class="line"><span class="built_in">echo</span> 1048576 &gt;/proc/sys/net/core/rmem_default</div></pre></td></tr></table></figure>
+<h2 id="Kernel-Modules"><a href="#Kernel-Modules" class="headerlink" title="Kernel Modules"></a>Kernel Modules</h2><p><a href="http://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/" target="_blank" rel="external">What is the Linux Kernel and What Does It Do?</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># show available modules and drivers (`uname -r` show kernel release)</span></div><div class="line">ls /lib/modules/$(uname -r)</div><div class="line">ls /lib/modules/$(uname -r)/kernel/drivers/</div><div class="line"></div><div class="line"><span class="comment"># show loaded modules</span></div><div class="line">lsmod</div><div class="line"></div><div class="line"><span class="comment"># load moduleX</span></div><div class="line">modprobe moduleX</div><div class="line"><span class="comment"># unload moduleX</span></div><div class="line">modprobe -r moduleX</div></pre></td></tr></table></figure>
+<h2 id="mount-iso-without-root"><a href="#mount-iso-without-root" class="headerlink" title="mount .iso without root"></a>mount <code>.iso</code> without root</h2><p><a href="https://igurublog.wordpress.com/downloads/script-mountiso/" target="_blank" rel="external">Script: mountiso « IgnorantGuru’s Blog</a></p>
+<p><a href="https://igurublog.wordpress.com/2011/01/22/how-to-allow-mounting-of-iso-files-by-a-regular-user/" target="_blank" rel="external">HOW TO: Allow Mounting Of ISO Files By A Regular User « IgnorantGuru’s Blog</a></p>
+<h2 id="Screen-capture-as-GIF"><a href="#Screen-capture-as-GIF" class="headerlink" title="Screen capture as GIF"></a>Screen capture as GIF</h2><p>Used kazam to capture the screen area and used mplayer to spit out the frames from the video using: <code>mplayer -ao null video-file-name -vo jpeg:outdir=output</code></p>
+<p>Then I manually (optional) deleted the frames that I did not want or thought are redundant (a.k.a editing). Gnome Image Viewer works great for this, just press delete key when you want to delete the current picture.</p>
+<p>Next I created the gif using imagemagick: <code>convert output/* output.gif</code></p>
+<p>And finally optimized the size of the gif using: <code>convert output.gif -fuzz 10% -layers Optimize optimised.gif</code></p>
+<p><code>-fuzz</code> can be adjusted for quality over quantity.</p>
+<h2 id="pandoc-conversion"><a href="#pandoc-conversion" class="headerlink" title="pandoc conversion"></a>pandoc conversion</h2><p><a href="http://pandoc.org/README.html" target="_blank" rel="external">Pandoc - Pandoc User’s Guide</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">pandoc <span class="_">-f</span> FROM -t TO -o OUTPUT INPUT</div><div class="line"></div><div class="line">FIN=&lt;inputfile&gt;</div><div class="line"><span class="comment"># convert md to HTML</span></div><div class="line">pandoc <span class="_">-f</span> markdown -t html -o <span class="variable">$&#123;FIN%.*&#125;</span>.html <span class="variable">$&#123;FIN&#125;</span></div><div class="line"><span class="comment"># convert md to HTML</span></div><div class="line"><span class="comment"># markdown_github is available but the output is weird</span></div><div class="line">pandoc <span class="_">-f</span> markdown -t textile -o <span class="variable">$&#123;FIN%.*&#125;</span>.textile <span class="variable">$&#123;FIN&#125;</span></div></pre></td></tr></table></figure>
+<h2 id="Enterprise-Hum"><a href="#Enterprise-Hum" class="headerlink" title="Enterprise Hum"></a>Enterprise Hum</h2><p><a href="https://www.reddit.com/r/LinuxActionShow/comments/37bjr1/emulate_the_enterprise_hum/" target="_blank" rel="external">Emulate the Enterprise Hum… : LinuxActionShow</a></p>
+<blockquote>
+<p>requires <code>sox</code></p>
+</blockquote>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpass -1 120 gain +14</div></pre></td></tr></table></figure>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/military-rank/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/git-server/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-03-11 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/desktop/">desktop<span>16</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Online-manpages"><span class="toc-article-text">Online manpages</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Check-system-install-time"><span class="toc-article-text">Check system install time</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#CPU"><span class="toc-article-text">CPU</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Freezes"><span class="toc-article-text">Freezes</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Swap"><span class="toc-article-text">Swap</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#swappiness"><span class="toc-article-text">swappiness</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Network-buffer"><span class="toc-article-text">Network buffer</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Kernel-Modules"><span class="toc-article-text">Kernel Modules</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#mount-iso-without-root"><span class="toc-article-text">mount .iso without root</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Screen-capture-as-GIF"><span class="toc-article-text">Screen capture as GIF</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#pandoc-conversion"><span class="toc-article-text">pandoc conversion</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Enterprise-Hum"><span class="toc-article-text">Enterprise Hum</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

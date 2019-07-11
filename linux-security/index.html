@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Linux Security | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Linux Security"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Linux Security</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://www.cyberciti.biz/tips/selinux-vs-apparmor-vs-grsecurity.html" target="_blank" rel="external">Linux Kernel Security (SELinux vs AppArmor vs Grsecurity)</a><br><a href="http://searchenterpriselinux.techtarget.com/tip/Security-face-off-Red-Hats-SELinux-vs-SUSE-AppArmor-others" target="_blank" rel="external">Security face-off: Red Hat’s SELinux vs. SUSE AppArmor, others</a><br><a href="http://security.stackexchange.com/questions/29378/comparsion-between-apparmor-and-selinux" target="_blank" rel="external">access control - Comparsion Between AppArmor and Selinux - Information Security Stack Exchange</a></p>
+<blockquote>
+<p>see <code>docker-ecosystem.md#security</code></p>
+</blockquote>
+<h2 id="SELinux"><a href="#SELinux" class="headerlink" title="SELinux"></a>SELinux</h2><p><a href="https://selinuxproject.org/page/Main_Page" target="_blank" rel="external">SELinux Wiki</a><br><a href="https://www.wikiwand.com/en/Security-Enhanced_Linux" target="_blank" rel="external">Security-Enhanced Linux - Wikiwand</a></p>
+<p><a href="https://opensource.com/business/13/11/selinux-policy-guide" target="_blank" rel="external">Your visual how-to guide for SELinux policy enforcement | Opensource.com</a><br><a href="http://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf" target="_blank" rel="external">http://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf</a></p>
+<h2 id="AppArmor"><a href="#AppArmor" class="headerlink" title="AppArmor"></a>AppArmor</h2><p><a href="https://www.wikiwand.com/en/AppArmor" target="_blank" rel="external">AppArmor - Wikiwand</a><br><a href="https://wiki.ubuntu.com/AppArmor" target="_blank" rel="external">AppArmor - Ubuntu Wiki</a></p>
+<h2 id="seccomp"><a href="#seccomp" class="headerlink" title="seccomp"></a>seccomp</h2><p><a href="https://www.wikiwand.com/en/Seccomp" target="_blank" rel="external">seccomp - Wikiwand</a></p>
+<h2 id="Namespace"><a href="#Namespace" class="headerlink" title="Namespace"></a>Namespace</h2><p><a href="https://blog.yadutaf.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/" target="_blank" rel="external">Introduction to Linux namespaces - Part 1: UTS | Yet another enthusiast blog!</a><br><a href="https://blog.yadutaf.fr/2013/12/28/introduction-to-linux-namespaces-part-2-ipc/" target="_blank" rel="external">Introduction to Linux namespaces - Part 2: IPC | Yet another enthusiast blog!</a><br><a href="https://blog.yadutaf.fr/2014/01/05/introduction-to-linux-namespaces-part-3-pid/" target="_blank" rel="external">Introduction to Linux namespaces - Part 3: PID | Yet another enthusiast blog!</a><br><a href="https://blog.yadutaf.fr/2014/01/12/introduction-to-linux-namespaces-part-4-ns-fs/" target="_blank" rel="external">Introduction to Linux namespaces - Part 4: NS (FS) | Yet another enthusiast blog!</a><br><a href="https://blog.yadutaf.fr/2014/01/19/introduction-to-linux-namespaces-part-5-net/" target="_blank" rel="external">Introduction to Linux namespaces – Part 5: NET | Yet another enthusiast blog!</a><br><a href="https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/" target="_blank" rel="external">Docker for your users - Introducing user namespace | Yet another enthusiast blog!</a></p>
+<p><a href="http://lwn.net/Articles/531114/" target="_blank" rel="external">Namespaces in operation, part 1: namespaces overview [LWN.net]</a><br><a href="http://man7.org/linux/man-pages/man7/namespaces.7.html" target="_blank" rel="external">namespaces(7) - Linux manual page</a></p>
+<h2 id="Cgroup"><a href="#Cgroup" class="headerlink" title="Cgroup"></a>Cgroup</h2><p>Control groups</p>
+<h2 id="Containers"><a href="#Containers" class="headerlink" title="Containers"></a>Containers</h2><blockquote>
+<p>see <code>docker-ecosystem.md#runc</code><br>see <code>docker-ecosystem.md#security</code></p>
+</blockquote>
+<p>Libcontainer exposes a easy interface to lower level Linux security features to “contain” the environment. It accesses five namespaces – Process, Network, Mount, Hostname, and Shared Memory – to work with Linux.</p>
+<p><a href="https://blog.openshift.com/containers-are-linux/" target="_blank" rel="external">Containers are Linux – OpenShift Blog</a></p>
+<p><a href="http://media.wix.com/ugd/295986_d5059f95a78e451db5de3d54f711e45d.pdf" target="_blank" rel="external">Linux Containers and the Future Cloud</a> (PDF)<br><a href="http://www.netdevconf.org/1.1/tutorial-namespaces-and-cgroups-basis-linux-containers-rami-rosen.html" target="_blank" rel="external">Tutorial: “Namespaces and CGroups, the basis of Linux containers” (Rami Rosen) | Netdev 1.1</a> <a href="http://media.wix.com/ugd/295986_d73d8d6087ed430c34c21f90b0b607fd.pdf" target="_blank" rel="external">PDF</a><br><a href="https://fosdem.org/2016/schedule/event/namespaces_and_cgroups/" target="_blank" rel="external">FOSDEM 2016 - How containers work in Linux</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/manga/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/euler-s-identity/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-05-30 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/linux/">linux<span>26</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/security/">security<span>6</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#SELinux"><span class="toc-article-text">SELinux</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#AppArmor"><span class="toc-article-text">AppArmor</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#seccomp"><span class="toc-article-text">seccomp</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Namespace"><span class="toc-article-text">Namespace</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Cgroup"><span class="toc-article-text">Cgroup</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Containers"><span class="toc-article-text">Containers</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

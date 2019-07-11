@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hugo | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Hugo"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Hugo</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="https://gohugo.io/" target="_blank" rel="external">Hugo :: A fast and modern static website engine</a><br><a href="https://www.youtube.com/watch?v=R-fJWOO1bjE" target="_blank" rel="external">Comparing Static Site Engines with Brian Rinaldi - YouTube</a></p>
+<p><a href="http://spf13.com/" target="_blank" rel="external">Hacking Management</a> Author’s blog</p>
+<p><a href="https://gohugo.io/extras/shortcodes/" target="_blank" rel="external">Hugo - Shortcodes</a> = tags<br><a href="https://gohugo.io/templates/go-templates/" target="_blank" rel="external">Hugo - Go Template Primer</a><br><a href="https://gohugo.io/taxonomies/overview/" target="_blank" rel="external">Hugo - Taxonomy Overview</a><br><a href="https://gohugo.io/extras/highlighting/" target="_blank" rel="external">Hugo - Syntax Highlighting</a></p>
+<a id="more"></a>
+<h2 id="CLI"><a href="#CLI" class="headerlink" title="CLI"></a>CLI</h2><p><a href="https://gohugo.io/overview/usage/" target="_blank" rel="external">Hugo - Using Hugo</a><br><a href="https://gohugo.io/commands/" target="_blank" rel="external">Hugo - Commands</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">yaourt -S hugo-bin pygmentize <span class="comment"># for Arch</span></div><div class="line"></div><div class="line">hugo <span class="built_in">help</span></div><div class="line">hugo config</div><div class="line">hugo new site &lt;name&gt;</div><div class="line">hugo new post/&lt;file.md&gt;</div><div class="line">hugo -v</div><div class="line"></div><div class="line"><span class="comment"># install themes, Hugo does not comes with default theme</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/dim0627/hugo_theme_robust.git themes/hugo_theme_robust</div><div class="line"><span class="comment"># cd themes/hugo_theme_robust; git checkout b8ce466; cd ../../</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/spf13/herring-cove.git themes/herring-cove</div><div class="line"></div><div class="line">hugo server</div><div class="line">hugo server --theme=&lt;theme&gt; --buildDrafts</div></pre></td></tr></table></figure>
+<h2 id="Config"><a href="#Config" class="headerlink" title="Config"></a>Config</h2><p><a href="https://gohugo.io/overview/configuration/" target="_blank" rel="external">Hugo - Configuring Hugo</a><br><a href="https://gohugo.io/content/archetypes/" target="_blank" rel="external">Hugo - Archetypes</a><br><a href="https://gohugo.io/content/front-matter/" target="_blank" rel="external">Hugo - Front Matter</a></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">draft:</span> <span class="literal">false</span></div><div class="line"><span class="attr">isCJKLanguage:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
+<h2 id="Template"><a href="#Template" class="headerlink" title="Template"></a>Template</h2><p><a href="https://gohugo.io/templates/overview/" target="_blank" rel="external">Hugo - Hugo Templates</a><br><a href="https://golang.org/pkg/text/template/" target="_blank" rel="external">text/template - The Go Programming Language</a><br><a href="https://golang.org/pkg/html/template/" target="_blank" rel="external">html/template - The Go Programming Language</a></p>
+<h2 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h2><p><a href="http://themes.gohugo.io/" target="_blank" rel="external">Hugo Themes Site</a><br><a href="https://github.com/spf13/hugoThemes/" target="_blank" rel="external">spf13/hugoThemes: All Themes Hugo</a></p>
+<p><a href="https://github.com/spf13/HugoBasicExample" target="_blank" rel="external">spf13/HugoBasicExample: Example site to use with Hugo &amp; Hugo Themes</a></p>
+<p>I need: </p>
+<ul>
+<li>archive page (title only; link to months, see <a href="http://wuchong.me/jacman/archives/" target="_blank" rel="external">jacman</a>)</li>
+<li>categories index page</li>
+<li>tags index page</li>
+<li>tags widget sorted by posts</li>
+<li>categories widget</li>
+<li>TOC</li>
+</ul>
+<p>It’s better to show tags and categories in archive and main index.</p>
+<p><a href="http://themes.gohugo.io/hugo-theme-minos/" target="_blank" rel="external">Hugo Theme: Minos</a> side TOC, responsive, tags/categories index<br><a href="http://themes.gohugo.io/theme/hugo-pacman-theme/post/first/" target="_blank" rel="external">first - Hugo PacMan Theme Demo</a> side TOC<br><a href="http://themes.gohugo.io/hugo-dusk/" target="_blank" rel="external">Hugo Theme: Hugo Dusk</a> tags/categories index<br><a href="http://themes.gohugo.io/simple-a/" target="_blank" rel="external">Hugo Theme: Simple A</a> tags/categories index<br><a href="http://themes.gohugo.io/hugo-theme-bootstrap4-blog/" target="_blank" rel="external">Hugo Theme: Hugo Bootstrap V4 Blog</a> project and about<br><a href="http://themes.gohugo.io/hugo-theme-wave/" target="_blank" rel="external">Hugo Theme: Wave</a> tags/categories index<br><a href="http://themes.gohugo.io/theme/kube/" target="_blank" rel="external">Kube for Hugo</a> top TOC<br><a href="http://themes.gohugo.io/hugo-hello-programmer-theme/" target="_blank" rel="external">Hugo Theme: Hello Programmer</a> TOC<br><a href="http://themes.gohugo.io/aglaus/" target="_blank" rel="external">Hugo Theme: Aglaus</a> AMP, responsive<br><a href="http://themes.gohugo.io/gohugo-amp/" target="_blank" rel="external">Hugo Theme: Gohugo Amp</a> AMP showcase<br><a href="http://themes.gohugo.io/mainroad/" target="_blank" rel="external">Hugo Theme: Mainroad</a></p>
+<p>Portfolio themes:<br><a href="http://themes.gohugo.io/academic/" target="_blank" rel="external">Hugo Theme: Academic</a><br><a href="http://themes.gohugo.io/hugoscroll/" target="_blank" rel="external">Hugo Theme: Hugo Scroll</a><br><a href="http://themes.gohugo.io/freelancer/" target="_blank" rel="external">Hugo Theme: Freelancer</a><br><a href="http://themes.gohugo.io/creative/" target="_blank" rel="external">Hugo Theme: Creative</a></p>
+<p>Docs themes:<br><a href="http://themes.gohugo.io/docdock/" target="_blank" rel="external">Hugo Theme: DocDock</a><br><a href="http://themes.gohugo.io/hugo-theme-learn/" target="_blank" rel="external">Hugo Theme: Learn</a><br><a href="http://themes.gohugo.io/docuapi/" target="_blank" rel="external">Hugo Theme: DocuAPI</a><br><a href="http://themes.gohugo.io/hugo-alabaster-theme/" target="_blank" rel="external">Hugo Theme: Alabaster</a><br><a href="http://themes.gohugo.io/material-docs/" target="_blank" rel="external">Hugo Theme: Material Docs</a> side TOC, tags/categories?<br><a href="http://themes.gohugo.io/hugo-paper-now/" target="_blank" rel="external">Hugo Theme: Paper Now</a></p>
+<h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p><a href="https://www.aerobatic.com/blog/hugo-npm-buildtool-setup/" target="_blank" rel="external">Aerobatic - NPM scripts for building and deploying Hugo sites</a><br><a href="https://gohugo.io/tutorials/github-pages-blog/" target="_blank" rel="external">Hugo - Hosting on GitHub Pages</a></p>
+<h2 id="Tutorial"><a href="#Tutorial" class="headerlink" title="Tutorial"></a>Tutorial</h2><p><a href="https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce" target="_blank" rel="external">Hugo Website Tutorial with a Live Static E-Commerce Example - Snipcart</a></p>
+<h2 id="Tips-and-Tricks"><a href="#Tips-and-Tricks" class="headerlink" title="Tips and Tricks"></a>Tips and Tricks</h2><p><a href="https://discuss.gohugo.io/t/live-hugo-site-search-with-lunr-js/2857/13" target="_blank" rel="external">Live Hugo Site search with Lunr.js - tips &amp; tricks - Hugo Discussion</a></p>
+<h3 id="Dump-context"><a href="#Dump-context" class="headerlink" title="Dump context"></a>Dump context</h3><p>Add <code>layouts/index.html</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&#123;&#123; range $k, $v := .Site.Params &#125;&#125;</div><div class="line">    &#123;&#123; $k &#125;&#125; : &#123;&#123; $v &#125;&#125;</div><div class="line">&#123;&#123; end &#125;&#125;</div><div class="line"></div><div class="line">&#123;&#123; range $k, $v := .Site.taxonomy &#125;&#125;</div><div class="line">    &#123;&#123; $k &#125;&#125; : &#123;&#123; $v &#125;&#125;</div><div class="line">&#123;&#123; end &#125;&#125;</div></pre></td></tr></table></figure>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/nix/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/gundam/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2017-05-09 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/hexo/">hexo<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#CLI"><span class="toc-article-text">CLI</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Config"><span class="toc-article-text">Config</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Template"><span class="toc-article-text">Template</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Themes"><span class="toc-article-text">Themes</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Deployment"><span class="toc-article-text">Deployment</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tutorial"><span class="toc-article-text">Tutorial</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tips-and-Tricks"><span class="toc-article-text">Tips and Tricks</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Dump-context"><span class="toc-article-text">Dump context</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

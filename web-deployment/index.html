@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Web Deployment | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Web Deployment"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Web Deployment</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p><a href="http://blog.gaplotech.com/how-tvmost-is-built/" target="_blank" rel="external">毛記電視網站是怎樣練成的？| Gap撈Tech</a></p>
+<p><a href="http://berb.github.io/diploma-thesis/index.html" target="_blank" rel="external">Concurrent Programming for Scalable Web Architectures</a><br><a href="http://aosabook.org/en/distsys.html" target="_blank" rel="external">The Architecture of Open Source Applications (Volume 2): Scalable Web Architecture and Distributed Systems</a></p>
+<blockquote>
+<p>see <code>web-reverse-proxy</code></p>
+</blockquote>
+<h2 id="Firewall-Transversal"><a href="#Firewall-Transversal" class="headerlink" title="Firewall Transversal"></a>Firewall Transversal</h2><p><a href="https://ngrok.com/" target="_blank" rel="external">ngrok - secure introspectable tunnels to localhost</a></p>
+<h2 id="Benchmarking"><a href="#Benchmarking" class="headerlink" title="Benchmarking"></a>Benchmarking</h2><p><a href="http://gatling.io/" target="_blank" rel="external">Gatling Load and Performance testing - Open-source load and performance testing</a><br><a href="https://github.com/shekhargulati/52-technologies-in-2016/blob/master/10-gatling/README.md" target="_blank" rel="external">52-technologies-in-2016/10-gatling</a></p>
+<p><a href="https://httpd.apache.org/docs/current/programs/ab.html" target="_blank" rel="external">ab - Apache HTTP server benchmarking tool - Apache HTTP Server</a><br>Use <code>ab -k</code> (keepalive) to avoid testing connections (kernel responsibility)</p>
+<p><a href="https://github.com/wg/wrk" target="_blank" rel="external">wg/wrk: Modern HTTP benchmarking tool</a><br><a href="https://github.com/giltene/wrk2" target="_blank" rel="external">giltene/wrk2: A constant throughput, correct latency recording variant of wrk</a><br><a href="https://github.com/rakyll/hey" target="_blank" rel="external">rakyll/hey: HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom</a></p>
+<p><a href="http://gatling.io/#/" target="_blank" rel="external">Gatling Project, Stress Tool</a><br><a href="http://gatling.io/docs/2.2.3/" target="_blank" rel="external">Gatling — Gatling documentation</a><br><a href="http://gatling.io/#/cheat-sheet/2.2.3" target="_blank" rel="external">Cheat Sheet</a><br><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">./gatling.sh <span class="_">-s</span> &lt;class&gt; -on &lt;result-basename&gt; -rd &lt;description&gt;</div></pre></td></tr></table></figure></p>
+<p><a href="https://www.youtube.com/watch?v=gOZvtBYzIVc" target="_blank" rel="external">Stresstests with Gatling by Niko Köbler - YouTube</a><br><a href="https://www.youtube.com/watch?v=VUPTaPms210" target="_blank" rel="external">Stéphane Landelle - Load Testing Done Right with Gatling - YouTube</a></p>
+<p><a href="https://www.joedog.org/siege-home/" target="_blank" rel="external">Siege Home</a></p>
+<p><a href="https://github.com/mcollina/autocannon" target="_blank" rel="external">mcollina/autocannon: fast HTTP/1.1 benchmarking tool written in Node.js</a><br><a href="https://github.com/alexfernandez/loadtest" target="_blank" rel="external">alexfernandez/loadtest: Runs a load test on the selected URL. Easy to extend minimally for your own ends.</a></p>
+<p><a href="http://oss.oetiker.ch/smokeping/index.en.html" target="_blank" rel="external">SmokePing - About SmokePing</a><br><a href="http://tomoconnor.eu/blogish/smokeping-nginx/#.VvbNZGF96_5" target="_blank" rel="external">Smokeping on Nginx</a></p>
+<p><a href="https://www.simonholywell.com/post/2015/06/parallel-benchmark-many-urls-with-apachebench/" target="_blank" rel="external">Simultaneously benchmark many URLs with ApacheBench and GNU parallel · Simon Holywell</a></p>
+<p><a href="https://www.youtube.com/watch?v=lJ8ydIuPFeU" target="_blank" rel="external">“How NOT to Measure Latency” by Gil Tene - YouTube</a></p>
+<h2 id="Storage"><a href="#Storage" class="headerlink" title="Storage"></a>Storage</h2><p><a href="http://www.druva.com/blog/object-storage-versus-block-storage-understanding-technology-differences/" target="_blank" rel="external">Object Storage versus Block Storage: Understanding the Technology Differences - Druva</a><br><a href="http://searchstorage.techtarget.com/magazineContent/Block-vs-file-storage-to-support-virtual-server-environments" target="_blank" rel="external">Block vs. file storage to support virtual server environments - Storage Technology Magazine</a><br><a href="http://searchcloudstorage.techtarget.com/feature/How-an-object-store-differs-from-file-and-block-storage" target="_blank" rel="external">How an object store differs from file and block storage</a></p>
+<h2 id="ops-stuff"><a href="#ops-stuff" class="headerlink" title="ops stuff"></a>ops stuff</h2><blockquote>
+<p><code>~/caravan/devops</code>, <code>devops.md</code></p>
+</blockquote>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/star-wars/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/netflix-oss/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-02-05 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/cloud/">cloud<span>7</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-deploy/">web-deploy<span>13</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Firewall-Transversal"><span class="toc-article-text">Firewall Transversal</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Benchmarking"><span class="toc-article-text">Benchmarking</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Storage"><span class="toc-article-text">Storage</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ops-stuff"><span class="toc-article-text">ops stuff</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

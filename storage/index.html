@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Storage | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,41 +106,130 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="Platters_Drive"><a href="#Platters_Drive" class="headerlink" title="Platters Drive"></a>Platters Drive</h2><p><a href="https://www.pugetsystems.com/labs/articles/Western-Digital-Green-vs-Red-Hard-Drives-602/" target="_blank" rel="external">Western Digital Green vs. Red Hard Drives - Puget Custom Computers</a></p>
+	    <h2 id="Platters-Drive"><a href="#Platters-Drive" class="headerlink" title="Platters Drive"></a>Platters Drive</h2><p><a href="https://www.backblaze.com/b2/hard-drive-test-data.html" target="_blank" rel="external">Hard Drive Test Data - Determining Failure Rates and More</a></p>
+<p><a href="https://www.pugetsystems.com/labs/articles/Western-Digital-Green-vs-Red-Hard-Drives-602/" target="_blank" rel="external">Western Digital Green vs. Red Hard Drives - Puget Custom Computers</a></p>
 <p>Cable doesn’t matter:<br><a href="https://www.pugetsystems.com/labs/articles/SATA-3Gb-s-vs-6Gb-s-Cable-Performance-Revisited-183/" target="_blank" rel="external">SATA 3Gb/s vs. 6Gb/s Cable Performance (Revisited) - Puget Custom Computers</a></p>
-<p>Platters of traditional maganetic disks are divided into tracks (rings), then into sectors. Sectors are grouped into block and given addresses.</p>
+<p>Platters of traditional magnetic disks are divided into tracks (rings), then into sectors. Sectors are grouped into block and given addresses.</p>
 <blockquote>
 <p>how about cylinders, heads or sectors?</p>
 </blockquote>
 <p>Data is written on blocks. So the minimum space a file takes up is (sector size * block size).</p>
-<p>Ext4 defined “Extens” on block </p>
-<h2 id="SSD"><a href="#SSD" class="headerlink" title="SSD"></a>SSD</h2><p><a href="http://www.wikiwand.com/en/Solid-state_storage" target="_blank" rel="external">Solid-state storage - Wikiwand</a><br><a href="http://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work/" target="_blank" rel="external">Solid-state revolution: in-depth on how SSDs really work | Ars Technica</a><br><a href="http://www.anandtech.com/show/2614/2" target="_blank" rel="external">How SSDs Work - Intel X25-M SSD: Intel Delivers One of the World’s Fastest Drives</a><br><a href="http://www.anandtech.com/print/2738" target="_blank" rel="external">The SSD Anthology: Understanding SSDs and New Drives from OCZ</a><br><a href="http://anandtech.com/print/2829" target="_blank" rel="external">The SSD Relapse: Understanding and Choosing the Best SSD</a><br><a href="http://oczforum.com/staff/meander/OCZ_SSD_ABC_Guide.pdf" target="_blank" rel="external">SSD ABC Guide – OCZ Forum</a></p>
-<p>Cells stores the bits (1 per cell for SLC, 2 for MLC, 3 for <a href="http://www.anandtech.com/show/5067/understanding-tlc-nand" target="_blank" rel="external">TLC</a>). Beware that Samsung’s 840 series (using TLC) have <a href="http://www.techspot.com/article/997-samsung-ssd-read-performance-degradation/" target="_blank" rel="external">performance degradation</a> problem.<br>Cells are then organized into pages, then pages into blocks.<br>Writes is done on pages and erase is done on blocks.</p>
-<p><a href="http://www.anandtech.com/show/6433/intel-ssd-dc-s3700-200gb-review/3" target="_blank" rel="external">Consistent Performance: A Reality? - The Intel SSD DC S3700 (200GB) Review</a><br><a href="http://www.techspot.com/news/61090-researchers-publish-first-large-scale-field-ssd-reliability.html" target="_blank" rel="external">Researchers publish first large-scale, in-field SSD reliability report - TechSpot</a><br><a href="http://searchsolidstatestorage.techtarget.com/podcast/How-NAND-flash-degrades-and-what-vendors-do-to-increase-SSD-endurance" target="_blank" rel="external">How NAND flash degrades and what vendors do to increase SSD endurance</a></p>
-<p><a href="http://techreport.com/review/26701/samsung-850-pro-solid-state-drive-reviewed" target="_blank" rel="external">Samsung’s 850 Pro solid-state drive reviewed - The Tech Report</a> (V-NAND flash)<br><a href="http://arstechnica.com/gadgets/2015/04/from-the-wirecutter-the-best-consumer-grade-ssd-for-most-people/" target="_blank" rel="external">From The Wirecutter: The best consumer-grade SSD (for most people) | Ars Technica</a></p>
-<h3 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h3><p><a href="http://blog.nuclex-games.com/2009/12/aligning-an-ssd-on-linux/" target="_blank" rel="external">Aligning an SSD on Linux » Cygon’s Blog</a><br><a href="http://www.linux.org/threads/solid-state-drive-ssd-%E2%80%93-info-and-alignment.6572/" target="_blank" rel="external">Solid State Drive (SSD) – Info and Alignment | Linux.org</a></p>
+<p><a href="https://www.backblaze.com/blog/hdd-versus-ssd-whats-the-diff/" target="_blank" rel="external">Solid State vs. Hard Disk: Differences Between SSD and HDD</a></p>
+<h2 id="SSD"><a href="#SSD" class="headerlink" title="SSD"></a>SSD</h2><p><a href="http://www.wikiwand.com/en/Solid-state_storage" target="_blank" rel="external">Solid-state storage - Wikiwand</a><br><a href="http://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work/" target="_blank" rel="external">Solid-state revolution: in-depth on how SSDs really work | Ars Technica</a><br><a href="http://www.anandtech.com/show/2614/2" target="_blank" rel="external">How SSDs Work - Intel X25-M SSD: Intel Delivers One of the World’s Fastest Drives</a><br><a href="http://www.anandtech.com/print/2738" target="_blank" rel="external">The SSD Anthology: Understanding SSDs and New Drives from OCZ</a><br><a href="http://anandtech.com/print/2829" target="_blank" rel="external">The SSD Relapse: Understanding and Choosing the Best SSD</a><br><a href="http://oczforum.com/staff/meander/OCZ_SSD_ABC_Guide.pdf" target="_blank" rel="external">SSD ABC Guide – OCZ Forum</a> (PDF)<br><a href="http://www.overclock.net/t/1179518/seans-ssd-buyers-guide-information-thread" target="_blank" rel="external">Sean’s SSD Buyers Guide &amp; Information Thread</a></p>
+<p><a href="http://ssd.userbenchmark.com/" target="_blank" rel="external">Best SSD 2016 - 119 Charts - UserBenchmark</a></p>
+<p><a href="http://www.zdnet.com/article/what-we-learned-about-ssds-in-2015/" target="_blank" rel="external">What we learned about SSDs in 2015 | ZDNet</a><br><a href="http://arstechnica.com/gadgets/2015/04/from-the-wirecutter-the-best-consumer-grade-ssd-for-most-people/" target="_blank" rel="external">From The Wirecutter: The best consumer-grade SSD (for most people) | Ars Technica</a></p>
+<p><a href="https://sites.google.com/site/easylinuxtipsproject/ssd" target="_blank" rel="external">SSD: how to optimize your Solid State Drive for Linux Mint 17.3, Ubuntu 14.04 and Debian - Easy Linux tips project</a></p>
+<h3 id="NAND-Cell"><a href="#NAND-Cell" class="headerlink" title="NAND Cell"></a>NAND Cell</h3><p>Cells stores the bits (1 per cell for SLC, 2 for MLC, 3 for <a href="http://www.anandtech.com/show/5067/understanding-tlc-nand" target="_blank" rel="external">TLC</a>). Beware that Samsung’s 840 series (using TLC) have <a href="http://www.techspot.com/article/997-samsung-ssd-read-performance-degradation/" target="_blank" rel="external">performance degradation</a> problem.<br>Cells are then organized into pages, then pages into blocks.<br>Writes is done on pages and erase is done on blocks.</p>
+<p>Samsung’s 850 series and Crucial MX300 uses 3D NAND technology that improves performance and durability and overcome density limits of planar NAND.<br><a href="http://techreport.com/review/26701/samsung-850-pro-solid-state-drive-reviewed" target="_blank" rel="external">Samsung’s 850 Pro solid-state drive reviewed - The Tech Report</a> (V-NAND flash)</p>
+<p>Crucial uses free unused NAND in SLC mode as write buffer to speed up writes (Dynamic Write Acceleration).</p>
+<p><a href="http://www.userbenchmark.com/Faq/What-s-the-difference-between-SLC-MLC-and-TLC/107" target="_blank" rel="external">What’s the difference between SLC, MLC and TLC? - Answers - UserBenchmark</a><br><a href="http://www.userbenchmark.com/Faq/What-s-the-difference-between-NAND-and-V-NAND/104" target="_blank" rel="external">What’s the difference between NAND and V-NAND? - Answers - UserBenchmark</a><br><a href="https://www.youtube.com/watch?v=-XZNr7mS0iw" target="_blank" rel="external">SSD Life Expectancy - YouTube</a></p>
+<h3 id="Controller"><a href="#Controller" class="headerlink" title="Controller"></a>Controller</h3><p><a href="https://www.facebook.com/notes/plextor-台灣/ssd的核心-marvell-vs-sandforce-controller-大對決-下-小p的ssd秘密實驗室/406211976056515" target="_blank" rel="external">SSD的核心!! Marvell v.s SandForce Controller 大對決 (下) - 小P的SSD秘密實驗室</a></p>
+<p>LSI SandForce controllers will compress data before writing to NAND to enhance data rate and enhance SSD life.<br><a href="http://www.kingston.com/en/ssd/enterprise/technical_brief/what_is_durawrite" target="_blank" rel="external">Technical Brief - What is DuraWrite | Kingston</a></p>
+<h3 id="Degradation"><a href="#Degradation" class="headerlink" title="Degradation"></a>Degradation</h3><p><a href="http://www.anandtech.com/show/6433/intel-ssd-dc-s3700-200gb-review/3" target="_blank" rel="external">Consistent Performance: A Reality? - The Intel SSD DC S3700 (200GB) Review</a><br><a href="http://www.techspot.com/news/61090-researchers-publish-first-large-scale-field-ssd-reliability.html" target="_blank" rel="external">Researchers publish first large-scale, in-field SSD reliability report - TechSpot</a><br><a href="http://searchsolidstatestorage.techtarget.com/podcast/How-NAND-flash-degrades-and-what-vendors-do-to-increase-SSD-endurance" target="_blank" rel="external">How NAND flash degrades and what vendors do to increase SSD endurance</a></p>
+<h3 id="Alignment"><a href="#Alignment" class="headerlink" title="Alignment"></a>Alignment</h3><p>Alignment used to an issue years ago, but no longer.</p>
+<p><a href="http://blog.nuclex-games.com/2009/12/aligning-an-ssd-on-linux/" target="_blank" rel="external">Aligning an SSD on Linux » Cygon’s Blog</a><br><a href="http://www.linux.org/threads/solid-state-drive-ssd-%E2%80%93-info-and-alignment.6572/" target="_blank" rel="external">Solid State Drive (SSD) – Info and Alignment | Linux.org</a></p>
 <h3 id="Trim"><a href="#Trim" class="headerlink" title="Trim"></a>Trim</h3><p><a href="http://www.wikiwand.com/en/Trim_%28computing%29" target="_blank" rel="external">Trim (computing) - Wikiwand</a><br><a href="http://www.thessdreview.com/daily-news/latest-buzz/garbage-collection-and-trim-in-ssds-explained-an-ssd-primer/" target="_blank" rel="external">Garbage Collection and TRIM in SSDs Explained - An SSD Primer | The SSD Review</a></p>
-<h3 id="ADATA_SP-920_256GB"><a href="#ADATA_SP-920_256GB" class="headerlink" title="ADATA SP-920 256GB"></a>ADATA SP-920 256GB</h3><p>Launch: 2014-04<br>NAND: Micron 128Gbit 20nm Sync MLC<br>Controller: Marvell</p>
+<h3 id="ADATA-SP-920-256GB"><a href="#ADATA-SP-920-256GB" class="headerlink" title="ADATA SP-920 256GB"></a>ADATA SP-920 256GB</h3><p>Launch: 2014-04<br>NAND: Micron 128Gbit 20nm Sync MLC<br>Controller: Marvell</p>
 <p>It’s actually a re-branded Crucial M550.</p>
 <p><a href="http://www.adata.com/us/ssd/feature/286" target="_blank" rel="external">Premier Pro SP920 Series Solid State Drive_Premier Pro_Solid State Drives_Products_ADATA Technology</a><br><a href="http://www.anandtech.com/show/7908/adata-sp920-128gb-256gb-512gb-1tb-review" target="_blank" rel="external">ADATA SP920 (128GB, 256GB, 512GB &amp; 1TB) Review</a><br><a href="http://www.anandtech.com/show/7864/crucial-m550-review-128gb-256gb-512gb-and-1tb-models-tested" target="_blank" rel="external">Crucial M550 Review: 128GB, 256GB, 512GB and 1TB Models Tested</a><br><a href="http://www.hkepc.com/11176" target="_blank" rel="external">Marvell 主控、效能更優勝 ADATA SP920 固態硬碟 - 電腦領域 HKEPC Hardware - 全港 No.1 PC網站</a></p>
-<h3 id="Linux_setup"><a href="#Linux_setup" class="headerlink" title="Linux setup"></a>Linux setup</h3><blockquote>
+<h3 id="Linux-setup"><a href="#Linux-setup" class="headerlink" title="Linux setup"></a>Linux setup</h3><blockquote>
 <p>move to linux-{desktop,setup}.md?</p>
 </blockquote>
 <p><a href="https://wiki.debian.org/SSDOptimization" target="_blank" rel="external">SSDOptimization - Debian Wiki</a><br><a href="https://wiki.archlinux.org/index.php/Solid_State_Drives" target="_blank" rel="external">Solid State Drives - ArchWiki</a><br><a href="http://andyduffell.com/techblog/?p=852" target="_blank" rel="external">Techblog » Blog Archive » How to check TRIM is working on your SSD running Linux</a><br><a href="http://blog.neutrino.es/2013/howto-properly-activate-trim-for-your-ssd-on-linux-fstrim-lvm-and-dmcrypt/" target="_blank" rel="external">How to properly activate TRIM for your SSD on Linux: fstrim, lvm and dm-crypt | synaptic fault</a></p>
 <p>mount with ‘discard’ and ‘noatime’ option in <code>/etc/fstab</code><br>use anacron to schedule a weekly <code>fstrim</code><br>add udev rule to set I/O scheduler to <code>noop</code> or <code>deadline</code></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="shebang">#!/bin/sh</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># To find which FS support trim, we check that DISC-MAX (discard max bytes)</span></span><br><span class="line"><span class="comment"># is great than zero. Check discard_max_bytes documentation at</span></span><br><span class="line"><span class="comment"># https://www.kernel.org/doc/Documentation/block/queue-sysfs.txt</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="keyword">for</span> fs <span class="keyword">in</span> $(lsblk -o MOUNTPOINT,NAME,DISC-MAX,FSTYPE | grep -E <span class="string">'^/.* [1-9]+.* '</span> | awk <span class="string">'&#123;print $1&#125;'</span>); <span class="keyword">do</span></span><br><span class="line">    fstrim <span class="string">"<span class="variable">$fs</span>"</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-<h2 id="Benchmarking/Info"><a href="#Benchmarking/Info" class="headerlink" title="Benchmarking/Info"></a>Benchmarking/Info</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># perform speed test</span></span><br><span class="line">sudo hdparm -t /dev/sda</span><br><span class="line">sudo hdparm -I /dev/sda</span><br></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo smartctl <span class="operator">-a</span> /dev/sda</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># read speed benchmark&#10;sudo dd if=/dev/sdX1 of=/dev/zero bs=1M count=400 iflag=direct&#10;# write speed benchmark&#10;sudo dd if=/dev/zero of=/dev/sdX1 bs=1M count=400 skip=1000 oflag=direct</span><br></pre></td></tr></table></figure>
-<p>GNOME Disk has built-in benchmarking feature.</p>
-<p><a href="https://wiki.archlinux.org/index.php/SSD_Benchmarking" target="_blank" rel="external">SSD Benchmarking - ArchWiki</a></p>
-<h2 id="Interface"><a href="#Interface" class="headerlink" title="Interface"></a>Interface</h2><h3 id="Parallel_ATA"><a href="#Parallel_ATA" class="headerlink" title="Parallel ATA"></a>Parallel ATA</h3><p>This is obsolete.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="comment">#</span></div><div class="line"><span class="comment"># To find which FS support trim, we check that DISC-MAX (discard max bytes)</span></div><div class="line"><span class="comment"># is great than zero. Check discard_max_bytes documentation at</span></div><div class="line"><span class="comment"># https://www.kernel.org/doc/Documentation/block/queue-sysfs.txt</span></div><div class="line"><span class="comment">#</span></div><div class="line"><span class="keyword">for</span> fs <span class="keyword">in</span> $(lsblk -o MOUNTPOINT,NAME,DISC-MAX,FSTYPE | grep -E <span class="string">'^/.* [1-9]+.* '</span> | awk <span class="string">'&#123;print $1&#125;'</span>); <span class="keyword">do</span></div><div class="line">    fstrim <span class="string">"<span class="variable">$fs</span>"</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure>
+<h2 id="3D-XPoint"><a href="#3D-XPoint" class="headerlink" title="3D XPoint"></a>3D XPoint</h2><p><a href="http://www.infoworld.com/article/3194348/flash-storage/3d-xpoint-memory-nand-flash-killer-or-dram-replacement.html" target="_blank" rel="external">3D XPoint memory: NAND flash killer or DRAM replacement? | InfoWorld</a><br><a href="http://www.userbenchmark.com/Faq/What-is-3D-XPoint-and-how-fast-is-it/106" target="_blank" rel="external">What is 3D XPoint and how fast is it? - Answers - UserBenchmark</a></p>
+<h2 id="Flash"><a href="#Flash" class="headerlink" title="Flash"></a>Flash</h2><h3 id="eMMC"><a href="#eMMC" class="headerlink" title="eMMC"></a>eMMC</h3><p><a href="http://www.howtogeek.com/196541/emmc-vs.-ssd-not-all-solid-state-storage-is-equal/" target="_blank" rel="external">eMMC vs. SSD: Not All Solid-State Storage is Equal</a><br><a href="https://www.datalight.com/solutions/technologies/emmc/what-is-emmc" target="_blank" rel="external">What is eMMC Memory – software support | Reliance Nitro | Datalight</a></p>
+<h2 id="Benchmarking-Info"><a href="#Benchmarking-Info" class="headerlink" title="Benchmarking/Info"></a>Benchmarking/Info</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># perform speed test</span></div><div class="line">sudo hdparm -t /dev/sda</div><div class="line">sudo hdparm -I /dev/sda</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># read speed benchmark</div><div class="line">sudo dd if=/dev/sdX1 of=/dev/zero bs=1M count=400 iflag=direct</div><div class="line"># write speed benchmark, `cd` to mount point of device</div><div class="line">sudo dd if=/dev/zero of=testtmp bs=1M count=400 skip=1000 conv=fdatasync</div><div class="line">rm testtmp</div></pre></td></tr></table></figure>
+<p>GNOME Disk (<code>gnome-disks</code>) has built-in benchmarking feature.</p>
+<p><a href="https://romanrm.net/dd-benchmark" target="_blank" rel="external">How to use ‘dd’ to benchmark your disk or CPU? - rm’s homepage</a><br><a href="https://wiki.archlinux.org/index.php/SSD_Benchmarking" target="_blank" rel="external">SSD Benchmarking - ArchWiki</a><br><a href="http://www.tomsitpro.com/articles/enterprise-ssd-testing,2-863.html" target="_blank" rel="external">How We Test Enterprise SSDs - Tom’s IT Pro</a></p>
+<h2 id="SMART"><a href="#SMART" class="headerlink" title="SMART"></a>SMART</h2><p><a href="http://www.wikiwand.com/en/S.M.A.R.T." target="_blank" rel="external">S.M.A.R.T. - Wikiwand</a><br><a href="https://www.smartmontools.org/" target="_blank" rel="external">smartmontools</a><br><a href="http://crystalmark.info/software/CrystalDiskInfo/index-e.html" target="_blank" rel="external">CrystalDiskInfo - Software - Crystal Dew World</a><br><a href="https://www.backblaze.com/blog/hard-drive-smart-stats/" target="_blank" rel="external">Hard Drive SMART Stats</a><br><a href="https://www.backblaze.com/smart" target="_blank" rel="external">SMART Drive and Failure Rates (Backblaze)</a><br><a href="http://www.hdsentinel.com/smart/" target="_blank" rel="external">Can we believe S.M.A.R.T. ?</a><br><a href="http://www.hdsentinel.com/smart/index.php" target="_blank" rel="external">How Hard Disk S.M.A.R.T. Works?</a></p>
+<p><a href="http://www.wikiwand.com/en/S.M.A.R.T.#/Known_ATA_S.M.A.R.T._attributes" target="_blank" rel="external">Known ATA S.M.A.R.T. attributes - Wikiwand</a><br><a href="http://www.hdsentinel.com/smart/smartattr.php" target="_blank" rel="external">Can we believe S.M.A.R.T. ? - S.M.A.R.T. attribute list</a><br><a href="https://kb.acronis.com/content/9636" target="_blank" rel="external">S.M.A.R.T. Monitoring | Knowledge Base</a> with description article</p>
+<p>Backblaze uses these 5 to diagnose drive failure:<br>SMART 5 – Reallocated_Sector_Count. !important<br>SMART 187 – Reported_Uncorrectable_Errors.<br>SMART 188 – Command_Timeout.<br>SMART 197 – Current_Pending_Sector_Count. !important<br>SMART 198 – Offline_Uncorrectable. !!important</p>
+<p><a href="https://www.backblaze.com/blog/what-smart-stats-indicate-hard-drive-failures/" target="_blank" rel="external">What SMART Hard Disk Errors Actually Tell Us</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># all SMART tools require su</span></div><div class="line">sudo su</div><div class="line"><span class="comment"># query device info</span></div><div class="line">smartctl -P show /dev/sda</div><div class="line"><span class="comment"># enable SMART</span></div><div class="line">smartctl <span class="_">-s</span> on /dev/sda</div><div class="line"><span class="comment"># do test</span></div><div class="line">smartctl -t short /dev/sda</div><div class="line">smartctl -t long /dev/sda</div><div class="line"><span class="comment"># show all info</span></div><div class="line">smartctl <span class="_">-a</span> /dev/sda</div><div class="line"><span class="comment"># or use the GUI</span></div><div class="line">gsmartcontrol</div></pre></td></tr></table></figure>
+<h2 id="Interface"><a href="#Interface" class="headerlink" title="Interface"></a>Interface</h2><h3 id="Parallel-ATA"><a href="#Parallel-ATA" class="headerlink" title="Parallel ATA"></a>Parallel ATA</h3><p>This interface is obsolete.</p>
 <p><a href="http://www.wikiwand.com/en/Parallel_ATA" target="_blank" rel="external">Parallel ATA - Wikiwand</a></p>
 <h3 id="SATA"><a href="#SATA" class="headerlink" title="SATA"></a>SATA</h3><p><a href="http://www.wikiwand.com/en/Serial_ATA" target="_blank" rel="external">Serial ATA - Wikiwand</a></p>
+<p>SATA 1 - 1.5 Gb/s (150 MB)<br>SATA 2 – 3 Gb/s (300 MB/s)<br>SATA 3 – 6 Gb/s (600 MB/s) (NCQ)<br>SATA 3.1 – 6 Gb/s (600 MB/s) (mSATA) (TRIM)<br>SATA 3.2 – 16 Gb/s (1969 MB/s)</p>
+<h3 id="SAS"><a href="#SAS" class="headerlink" title="SAS"></a>SAS</h3><p><a href="https://www.wikiwand.com/en/Serial_Attached_SCSI" target="_blank" rel="external">Serial Attached SCSI - Wikiwand</a></p>
 <h3 id="M-2"><a href="#M-2" class="headerlink" title="M.2"></a>M.2</h3><p>Replaces mSATA.</p>
 <p><a href="http://www.wikiwand.com/en/M.2" target="_blank" rel="external">M.2 - Wikiwand</a><br><a href="http://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/" target="_blank" rel="external">Understanding M.2, the interface that will speed up your next SSD | Ars Technica</a></p>
 <h3 id="USB"><a href="#USB" class="headerlink" title="USB"></a>USB</h3><p><a href="http://www.beyondlogic.org/usbnutshell/usb1.shtml" target="_blank" rel="external">USB in a NutShell</a></p>
 <p><a href="http://www.tomshardware.com/print/usb-3-uas-turbo,reviews-3215.html" target="_blank" rel="external">Faster USB 3.0 Performance: Examining UASP And Turbo Mode</a></p>
+<h2 id="Bus"><a href="#Bus" class="headerlink" title="Bus"></a>Bus</h2><p>In the old days of SATA and IDE, interface (the connector) and the bus (the protocol) were one in the same so the distinction was not explicit.<br>SSD will easily saturate the bandwidth of older interface. With the adoption of new interfaces, new bus was invented (NVMe/PCIe). And the old protocol are applied to the new interface (SATA/M.2).</p>
+<p><a href="https://www.wikiwand.com/en/NVM_Express" target="_blank" rel="external">NVM Express - Wikiwand</a></p>
+<p><a href="https://www.youtube.com/watch?v=u-kACJLKNOI" target="_blank" rel="external">Choosing the right SSD: SATA, M.2, PCIe, and NVMe explained by JJ - YouTube</a><br><a href="http://www.pcworld.com/article/2899351/everything-you-need-to-know-about-nvme.html" target="_blank" rel="external">Everything you need to know about NVMe, the insanely fast future for SSDs | PCWorld</a></p>
+<p><a href="http://www.computershopper.com/feature/2016-guide-the-best-m.2-solid-state-drives-tested" target="_blank" rel="external">2016 Guide: The Best M.2 Solid-State Drives, Tested - ComputerShopper.com</a><br><a href="http://www.pcworld.com/article/2977024/storage/m2-ssd-roundup-tiny-drives-deliver-huge-performance.html" target="_blank" rel="external">M.2 SSD roundup: Tiny drives deliver huge performance | PCWorld</a></p>
+<p><a href="http://cdn.ttgtmedia.com/CascadingTargetedDownloads/downloads/PCIe solid state storage definition.pdf" target="_blank" rel="external">Weigh the pros and cons of PCIe-based SSD</a> (PDF)</p>
+<p><a href="http://www.techbang.com/posts/22114-shout-out-your-support-msi-motherboard-nvme-ssd-simple-to-understand-this-different-and-popular-ahci" target="_blank" rel="external">MSI 主機板喊出支援 NVMe，簡單看懂這與通俗的 AHCI 有什麼不同 | T客邦 - 我只推薦好東西</a></p>
+<p><a href="https://www.youtube.com/watch?v=opwON-7J_wI" target="_blank" rel="external">M.2 As Fast As Possible - YouTube</a><br><a href="https://www.youtube.com/watch?v=ItMY3WHHowQ" target="_blank" rel="external">The FASTEST SSD Technology Explained - M.2, U.2, and MORE - YouTube</a></p>
+<h2 id="Advanced-Format"><a href="#Advanced-Format" class="headerlink" title="Advanced Format"></a>Advanced Format</h2><p><a href="https://www.wikiwand.com/en/Advanced_Format" target="_blank" rel="external">Advanced Format - Wikiwand</a><br><a href="http://www.minitool.com/lib/advanced-format.html" target="_blank" rel="external">A Brief Introduction of Advanced Format</a></p>
+<p><a href="https://www.hgst.com/sites/default/files/resources/AFtechbrief.pdf" target="_blank" rel="external">HGST Advanced Format Technology Brief</a> (PDF)<br><a href="http://www.wdc.com/wdproducts/library/Flyer/ENG/2178-771123.pdf" target="_blank" rel="external">WD Advanced Format Technology Brief Flyer</a> (PDF)</p>
+<h2 id="NRAM"><a href="#NRAM" class="headerlink" title="NRAM"></a>NRAM</h2><p><a href="http://www.infoworld.com/article/3114220/storage/fujitsu-now-making-dram-killer-with-1000x-performance-boost.html" target="_blank" rel="external">Fujitsu now making DRAM killer with 1,000x performance boost | InfoWorld</a></p>
+<h2 id="Decoding-Part-Numbers"><a href="#Decoding-Part-Numbers" class="headerlink" title="Decoding Part Numbers"></a>Decoding Part Numbers</h2><h3 id="Western-Digital"><a href="#Western-Digital" class="headerlink" title="Western Digital"></a>Western Digital</h3><p><a href="http://www.wdc.com/wdproducts/library/other/2579-001028.pdf" target="_blank" rel="external">WD Model Number Format for OEM and Distribution Channels</a></p>
+<p><strong>WD 0000 ABCD</strong><br>0000: Capacity<br>A: Capacity Unit/Form Factor<br>B: Business Unit/Brand<br>C: RPM/Buffer Size or Attribute<br>D: Interface/Connector</p>
+<h3 id="HGST"><a href="#HGST" class="headerlink" title="HGST"></a>HGST</h3><p><a href="https://www.hgst.com/support/hard-drive-support/warranty-returns/find-serial-number" target="_blank" rel="external">How to find your Serial, Part, Model or Item Number | HGST</a><br><a href="http://freedatarecoveryquote.com/hitachi-global-storage-technologies-model-number/" target="_blank" rel="external">How to read most of the Hitachi Global Storage Technologies model number - Free Data Recovery Quote</a> (2012)<br><a href="https://www.hgst.com/sites/default/files/resources/Ultrastar-7K6000-DS.pdf" target="_blank" rel="external">Ultrastar-7K6000-DS.pdf</a></p>
+<p>How to read the Ultrastar model number<br>Example: HUS7260xxAL421y = xTB, 4Kn SAS 12Gb/s</p>
+<p>H = HGST<br>U =  <em>Series</em><br>S = <em>Type</em><br>72 = 7200 RPM<br>60 = Full capacity<br>xx = <em>Capacity</em> of this model<br>A = Generation code<br>L = 26.1mm z-height<br>42 = <em>Interface</em><br>1 = 128MB buffer (for Ultrastar)<br>y = <em>Data Security Mode</em></p>
+<table>
+<thead>
+<tr>
+<th>Series (U)</th>
+<th>Type (S)</th>
+<th>Capacity (xx)</th>
+<th>Interface (42)</th>
+<th>Data Security Mode (y)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T = Travelstar</td>
+<td>S = Standard</td>
+<td>80 = 8TB</td>
+<td>42 = 4Kn SAS 12Gb/s</td>
+<td>0 = Instant Secure Erase</td>
+</tr>
+<tr>
+<td>D = Deskstar</td>
+<td>E = Enhanced Availability</td>
+<td>60 = 6TB</td>
+<td>52 = 512e SAS 12Gb/s</td>
+<td>1 = Bulk Data Encryption (SATA), TCG SED encryption (SAS)</td>
+</tr>
+<tr>
+<td></td>
+<td>C = Compact</td>
+<td>50 = 5TB</td>
+<td>E6 = 512e SATA 6Gb/s</td>
+<td>4 = Secure Erase (overwrite only)</td>
+</tr>
+<tr>
+<td>U = Ultrastar</td>
+<td></td>
+<td>40 = 4TB</td>
+<td>N6 = 4Kn SATA 6Gb/s</td>
+<td>5 = TCG encryption with FIPS (SAS)</td>
+</tr>
+<tr>
+<td>H = He8</td>
+<td></td>
+<td>20 = 2TB</td>
+<td>A6*= 512n SATA 6Gb/s</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>S2*= 512n SAS 12Gb/s</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>*Available in 4TB and 2TB capacities</p>
+<h3 id="Seagate’s"><a href="#Seagate’s" class="headerlink" title="Seagate’s"></a>Seagate’s</h3><p><a href="http://blog.mpecsinc.ca/2010/11/seagates-new-model-numbering-scheme.html" target="_blank" rel="external">MPECS Inc. Blog: Seagate’s New Model Numbering Scheme</a> (2010)</p>
 	  
 	</div>
 
@@ -197,7 +287,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-hardware/">comp.hardware<span>7</span></a></li>
+    <li><a href="/categories/comp-hardware/">comp.hardware<span>10</span></a></li>
   </li>
 
     </ul>
@@ -210,7 +300,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/harddisk/">harddisk<span>1</span></a></li> <li><a href="/tags/ssd/">ssd<span>1</span></a></li> <li><a href="/tags/storage/">storage<span>2</span></a></li>
+  <li><a href="/tags/storage/">storage<span>4</span></a></li> <li><a href="/tags/ssd/">ssd<span>1</span></a></li> <li><a href="/tags/harddisk/">harddisk<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -220,7 +310,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Platters_Drive"><span class="toc-article-text">Platters Drive</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#SSD"><span class="toc-article-text">SSD</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Alignment"><span class="toc-article-text">Alignment</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Trim"><span class="toc-article-text">Trim</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#ADATA_SP-920_256GB"><span class="toc-article-text">ADATA SP-920 256GB</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Linux_setup"><span class="toc-article-text">Linux setup</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Benchmarking/Info"><span class="toc-article-text">Benchmarking/Info</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Interface"><span class="toc-article-text">Interface</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Parallel_ATA"><span class="toc-article-text">Parallel ATA</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#SATA"><span class="toc-article-text">SATA</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#M-2"><span class="toc-article-text">M.2</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#USB"><span class="toc-article-text">USB</span></a></li></ol></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Platters-Drive"><span class="toc-article-text">Platters Drive</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#SSD"><span class="toc-article-text">SSD</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#NAND-Cell"><span class="toc-article-text">NAND Cell</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Controller"><span class="toc-article-text">Controller</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Degradation"><span class="toc-article-text">Degradation</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Alignment"><span class="toc-article-text">Alignment</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Trim"><span class="toc-article-text">Trim</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#ADATA-SP-920-256GB"><span class="toc-article-text">ADATA SP-920 256GB</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Linux-setup"><span class="toc-article-text">Linux setup</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#3D-XPoint"><span class="toc-article-text">3D XPoint</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Flash"><span class="toc-article-text">Flash</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#eMMC"><span class="toc-article-text">eMMC</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Benchmarking-Info"><span class="toc-article-text">Benchmarking/Info</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#SMART"><span class="toc-article-text">SMART</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Interface"><span class="toc-article-text">Interface</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Parallel-ATA"><span class="toc-article-text">Parallel ATA</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#SATA"><span class="toc-article-text">SATA</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#SAS"><span class="toc-article-text">SAS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#M-2"><span class="toc-article-text">M.2</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#USB"><span class="toc-article-text">USB</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Bus"><span class="toc-article-text">Bus</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Advanced-Format"><span class="toc-article-text">Advanced Format</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#NRAM"><span class="toc-article-text">NRAM</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Decoding-Part-Numbers"><span class="toc-article-text">Decoding Part Numbers</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Western-Digital"><span class="toc-article-text">Western Digital</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#HGST"><span class="toc-article-text">HGST</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Seagate’s"><span class="toc-article-text">Seagate’s</span></a></li></ol></li></ol>
 		</div>
 	
 	</div>
@@ -237,7 +327,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

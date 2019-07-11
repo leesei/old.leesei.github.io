@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Ruby settings | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,13 +107,12 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p><a href="http://jimeh.me/blog/2011/11/01/my-ruby-development-environment/" target="_blank" rel="external">My Ruby Development Environment</a></p>
-<h2 id="Install_rvm"><a href="#Install_rvm" class="headerlink" title="Install <code>rvm</code>"></a>Install <code>rvm</code></h2><p><a href="https://rvm.io/" target="_blank" rel="external">RVM: Ruby Version Manager</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">\curl -L https://get.rvm.io | bash <span class="operator">-s</span> stable</span><br><span class="line"><span class="built_in">source</span> ~/.rvm/bin/rvm</span><br></pre></td></tr></table></figure>
-<h2 id="Installing/updating_Rubies"><a href="#Installing/updating_Rubies" class="headerlink" title="Installing/updating Rubies"></a>Installing/updating Rubies</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">rvm list known</span><br><span class="line"></span><br><span class="line"><span class="comment"># ruby-latest have to be compiled</span></span><br><span class="line">RUBY_VERSION=ruby-<span class="number">2.0</span>.<span class="number">0</span></span><br><span class="line">rvm install <span class="variable">$&#123;RUBY_VERSION&#125;</span></span><br><span class="line">rvm <span class="built_in">alias</span> create default <span class="variable">$&#123;RUBY_VERSION&#125;</span></span><br></pre></td></tr></table></figure>
-<h2 id="rvm_basics"><a href="#rvm_basics" class="headerlink" title="<code>rvm</code> basics"></a><code>rvm</code> basics</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">rvm list </span><br><span class="line">rvm info    <span class="comment"># general rvm info</span></span><br><span class="line">rvm gemdir  <span class="comment"># current gem directory</span></span><br></pre></td></tr></table></figure>
+<h2 id="Install-rvm"><a href="#Install-rvm" class="headerlink" title="Install rvm"></a>Install <code>rvm</code></h2><p><a href="https://rvm.io/" target="_blank" rel="external">RVM: Ruby Version Manager</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">\curl -L https://get.rvm.io | bash <span class="_">-s</span> stable</div><div class="line"><span class="built_in">source</span> ~/.rvm/bin/rvm</div></pre></td></tr></table></figure>
+<h2 id="Installing-updating-Rubies"><a href="#Installing-updating-Rubies" class="headerlink" title="Installing/updating Rubies"></a>Installing/updating Rubies</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">rvm list known</div><div class="line"></div><div class="line"><span class="comment"># ruby-latest have to be compiled</span></div><div class="line">RUBY_VERSION=ruby-2.0.0</div><div class="line">rvm install <span class="variable">$&#123;RUBY_VERSION&#125;</span></div><div class="line">rvm <span class="built_in">alias</span> create default <span class="variable">$&#123;RUBY_VERSION&#125;</span></div></pre></td></tr></table></figure>
+<h2 id="rvm-basics"><a href="#rvm-basics" class="headerlink" title="rvm basics"></a><code>rvm</code> basics</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">rvm list </div><div class="line">rvm info    <span class="comment"># general rvm info</span></div><div class="line">rvm gemdir  <span class="comment"># current gem directory</span></div></pre></td></tr></table></figure>
 <h2 id="modules"><a href="#modules" class="headerlink" title="modules"></a>modules</h2><p>gem or rvm install?</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># app</span></span><br><span class="line">gem install humongous <span class="comment"># mongodb browser</span></span><br><span class="line"><span class="comment"># redhat openshift</span></span><br><span class="line">gem install rhc</span><br></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># heroku can alternately installed by</span></span><br><span class="line">wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">gem install gitsu</div><div class="line">gem install mdl</div><div class="line"></div><div class="line"><span class="comment"># redhat openshift</span></div><div class="line">gem install rhc</div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -170,7 +170,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-lang/">comp.lang<span>27</span></a></li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>33</span></a></li>
   </li>
 
     </ul>
@@ -183,7 +183,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/gem/">gem<span>1</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/python/">python<span>4</span></a></li> <li><a href="/tags/rvm/">rvm<span>1</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li>
+  <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/package-manager/">package-manager<span>9</span></a></li> <li><a href="/tags/python/">python<span>5</span></a></li> <li><a href="/tags/rvm/">rvm<span>1</span></a></li> <li><a href="/tags/gem/">gem<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -193,7 +193,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Install_rvm"><span class="toc-article-text">Install rvm</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Installing/updating_Rubies"><span class="toc-article-text">Installing/updating Rubies</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#rvm_basics"><span class="toc-article-text">rvm basics</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#modules"><span class="toc-article-text">modules</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Install-rvm"><span class="toc-article-text">Install rvm</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Installing-updating-Rubies"><span class="toc-article-text">Installing/updating Rubies</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#rvm-basics"><span class="toc-article-text">rvm basics</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#modules"><span class="toc-article-text">modules</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -210,7 +210,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Shell history expansion | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,13 +106,13 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <h2 id="History_Expansion"><a href="#History_Expansion" class="headerlink" title="History Expansion"></a>History Expansion</h2><p><a href="http://www.eriwen.com/bash/effective-shorthand/" target="_blank" rel="external">http://www.eriwen.com/bash/effective-shorthand/</a><br><a href="http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/" target="_blank" rel="external">http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/</a><br><a href="https://www.mankier.com/1/zshexpn" target="_blank" rel="external">zshexpn: zsh expansion and substitution - man page</a><br><a href="https://www.mankier.com/1/bash#History_Expansion" target="_blank" rel="external">bash: History_Expansion - man page</a></p>
+	    <h2 id="History-Expansion"><a href="#History-Expansion" class="headerlink" title="History Expansion"></a>History Expansion</h2><p><a href="http://www.eriwen.com/bash/effective-shorthand/" target="_blank" rel="external">http://www.eriwen.com/bash/effective-shorthand/</a><br><a href="http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/" target="_blank" rel="external">http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/</a><br><a href="https://www.mankier.com/1/zshexpn" target="_blank" rel="external">zshexpn: zsh expansion and substitution - man page</a><br><a href="https://www.mankier.com/1/bash#History_Expansion" target="_blank" rel="external">bash: History_Expansion - man page</a></p>
 <blockquote>
 <p>TODO: add zsh manual</p>
 </blockquote>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">man <span class="built_in">history</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">man <span class="built_in">history</span></div></pre></td></tr></table></figure>
 <p>Each line of history is a <em>command</em>, consisting of more than one <em>words</em> (0-indexed).</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">cp myfile.txt my/directory/path</span><br><span class="line"><span class="built_in">cd</span> !$  <span class="comment"># cd my/directory/path</span></span><br><span class="line"></span><br><span class="line">vi /etc/fstabs  <span class="comment"># oops!</span></span><br><span class="line">sudo !!  <span class="comment"># sudo vi /etc/fstab</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span> <span class="number">6</span> <span class="number">7</span> <span class="number">8</span> <span class="number">9</span> <span class="number">10</span>  <span class="comment"># test word designators</span></span><br><span class="line">/path/to/file/a.b.c        <span class="comment"># test modifiers</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">cp myfile.txt my/directory/path</div><div class="line"><span class="built_in">cd</span> !$  <span class="comment"># cd my/directory/path</span></div><div class="line"></div><div class="line">vi /etc/fstabs  <span class="comment"># oops!</span></div><div class="line">sudo !!  <span class="comment"># sudo vi /etc/fstab</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 1 2 3 4 5 6 7 8 9 10  <span class="comment"># test word designators</span></div><div class="line">/path/to/file/a.b.c        <span class="comment"># test modifiers</span></div></pre></td></tr></table></figure>
 <p>Event designators:<br><code>!</code> start a history substitution, will use last command if no event designator specified<br><code>!!</code> expands to the last command<br><code>!42</code> expands to the 42nd command in the history list<br><code>!-3</code> 3 commands before (all arguments)<br><code>!string</code> most recent command stating with <em>string</em><br><code>!?string?</code> most recent command stating with <em>string</em><br><code>^foo^bar</code> last command with the first occurrence of <em>foo</em> replaced with <em>bar</em><br><code>!#</code> expands to current command typed so far</p>
 <p>Word Designators:<br>Word designators follow event designators, separated by <code>:</code></p>
 <p><code>:0</code> command name<br><code>:n</code> n-th word, 0-indexed, of the command (= n-th argument, 1-indexed)<br><code>:x-y</code> range of words from x to y (0-indexed, -y is synonymous with 0-y)<br><code>:^</code> 1st word, 0-indexed (= first arguement)<br><code>:$</code> last word (= last argument)<br><code>:*</code> all words but the zeroth (synonymous with 1-$)<br><code>:n*</code> n-th (0-indexed) to last words (synonymous with n-$) (= n-th to last argument)</p>
@@ -119,7 +120,7 @@
 <p>Modifiers:<br>Modifiers follow word designators, seperated by <code>:</code></p>
 <p><code>:h</code> head pathname (<code>dirname</code>)<br><code>:t</code> tail pathname (<code>basename</code>)<br><code>:e</code> suffix<br><code>:r</code> remove suffix<br><code>:p</code> print but not execute (TAB in mordern shell does this)<br><code>:q</code>/<code>:x</code> quote substituted words to prevent further substitutions<br><code>:Q</code> unquote words<br><code>:u</code> uppercase all words<br><code>:l</code> lowercase all words<br><code>:s/foo/bar/</code> replace <em>foo</em> with <em>bar</em><br><code>:gs/foo/bar/</code> global replace <em>foo</em> with <em>bar</em></p>
 <p><code>!!:$:e</code> suffix of the last argument of the last command<br><code>!!:$:h</code> basepath of the last argument of the last command</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ls /path/to/file/a.b.c</span><br><span class="line">!$:h   <span class="comment"># /path/to/file</span></span><br><span class="line">!$:t   <span class="comment"># a.b.c</span></span><br><span class="line">!$:e   <span class="comment"># c</span></span><br><span class="line">!$:r   <span class="comment"># /path/to/file/a.b</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span> <span class="number">6</span> <span class="number">7</span> <span class="number">8</span> <span class="number">9</span> <span class="number">10</span></span><br><span class="line">!:q    <span class="comment">#'echo' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'</span></span><br><span class="line">!:<span class="number">2</span>-<span class="number">5</span>  <span class="comment"># 2 3 4 5</span></span><br><span class="line">!:*    <span class="comment"># 1 2 3 4 5 6 7 8 9 10</span></span><br><span class="line">!:<span class="number">1</span>-<span class="number">3</span>:s/<span class="number">1</span>/foo/:s/<span class="number">2</span>/bar/:s/<span class="number">3</span>/baz/:q  <span class="comment"># 'foo' 'bar' 'baz'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ls /path/to/file/a.b.c</div><div class="line">!$:h   <span class="comment"># /path/to/file</span></div><div class="line">!$:t   <span class="comment"># a.b.c</span></div><div class="line">!$:e   <span class="comment"># c</span></div><div class="line">!$:r   <span class="comment"># /path/to/file/a.b</span></div><div class="line"></div><div class="line"><span class="built_in">echo</span> 1 2 3 4 5 6 7 8 9 10</div><div class="line">!:q    <span class="comment">#'echo' '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'</span></div><div class="line">!:2-5  <span class="comment"># 2 3 4 5</span></div><div class="line">!:*    <span class="comment"># 1 2 3 4 5 6 7 8 9 10</span></div><div class="line">!:1-3:s/1/foo/:s/2/bar/:s/3/baz/:q  <span class="comment"># 'foo' 'bar' 'baz'</span></div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -129,7 +130,7 @@
 <ul class="pagination">
 	 
 				
-    	<li class="prev"><a href="/shell-notes/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+    	<li class="prev"><a href="/debian-ubuntu-notes/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
   		
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
@@ -177,7 +178,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+    <li><a href="/categories/linux/">linux<span>26</span></a></li>
   </li>
 
     </ul>
@@ -190,7 +191,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/shell/">shell<span>5</span></a></li>
+  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/shell/">shell<span>5</span></a></li>
     </ul>
 	</div>
 		
@@ -212,7 +213,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

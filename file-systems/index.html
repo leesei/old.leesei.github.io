@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>File Systems | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,12 +106,38 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="http://www.wikiwand.com/en/File_system" target="_blank" rel="external">File system - Wikiwand</a></p>
-<h2 id="Well-known_file_sytems"><a href="#Well-known_file_sytems" class="headerlink" title="Well-known file sytems"></a>Well-known file sytems</h2><p><a href="http://www.wikiwand.com/en/Be_File_System" target="_blank" rel="external">Be File System - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Btrfs" target="_blank" rel="external">Btrfs - Wikiwand</a><br><a href="http://www.wikiwand.com/en/ExFAT" target="_blank" rel="external">exFAT - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Ext4" target="_blank" rel="external">ext4 - Wikiwand</a><br><a href="http://www.wikiwand.com/en/HFS_Plus" target="_blank" rel="external">HFS Plus - Wikiwand</a><br><a href="http://www.wikiwand.com/en/NILFS" target="_blank" rel="external">NILFS - Wikiwand</a><br><a href="http://www.wikiwand.com/en/NTFS" target="_blank" rel="external">NTFS - Wikiwand</a><br><a href="http://www.wikiwand.com/en/XFS" target="_blank" rel="external">XFS - Wikiwand</a><br><a href="http://www.wikiwand.com/en/ZFS" target="_blank" rel="external">ZFS - Wikiwand</a></p>
+	    <p><a href="http://www.wikiwand.com/en/File_system" target="_blank" rel="external">File system - Wikiwand</a><br><a href="https://www.wikiwand.com/en/List_of_file_systems" target="_blank" rel="external">List of file systems - Wikiwand</a></p>
+<p><a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/part-file-systems.html" target="_blank" rel="external">Part I. File Systems</a></p>
+<blockquote>
+<p>see <code>distributed-file-systems.md</code></p>
+<p>TODO: add corruption info on NTFS and HFS+</p>
+</blockquote>
+<h2 id="Well-known-file-systems"><a href="#Well-known-file-systems" class="headerlink" title="Well-known file systems"></a>Well-known file systems</h2><p><a href="http://www.wikiwand.com/en/Be_File_System" target="_blank" rel="external">Be File System - Wikiwand</a><br><a href="http://www.wikiwand.com/en/ExFAT" target="_blank" rel="external">exFAT - Wikiwand</a><br><a href="http://www.wikiwand.com/en/Ext4" target="_blank" rel="external">ext4 - Wikiwand</a><br><a href="http://www.wikiwand.com/en/F2FS" target="_blank" rel="external">F2FS - Wikiwand</a><br><a href="http://www.wikiwand.com/en/HFS_Plus" target="_blank" rel="external">HFS Plus - Wikiwand</a><br><a href="http://www.wikiwand.com/en/NILFS" target="_blank" rel="external">NILFS - Wikiwand</a><br><a href="http://www.wikiwand.com/en/NTFS" target="_blank" rel="external">NTFS - Wikiwand</a></p>
 <p><a href="https://github.com/marook/tagfs" target="_blank" rel="external">marook/tagfs</a><br><a href="https://rffr.de/nhfs-nonhierarchical-file-system/" target="_blank" rel="external">NHFS - Nonhierarchical File System - 0815 Blog</a></p>
-<h3 id="techniques/internals"><a href="#techniques/internals" class="headerlink" title="techniques/internals"></a>techniques/internals</h3><p><a href="http://www.linux.org/threads/intro-to-inodes.4130/" target="_blank" rel="external">Intro to Inodes | Linux.org</a><br><a href="http://www.linux.org/threads/intro-to-extents.4131/" target="_blank" rel="external">Intro to Extents | Linux.org</a><br><a href="http://www.linux.org/threads/journal-file-system.4136/" target="_blank" rel="external">Journal File System | Linux.org</a><br><a href="http://www.wikiwand.com/en/Journaling_file_system" target="_blank" rel="external">Journaling file system - Wikiwand</a><br><a href="http://www.linux.org/threads/direct-i-o.4230/" target="_blank" rel="external">Direct I/O | Linux.org</a></p>
-<h2 id="Articles"><a href="#Articles" class="headerlink" title="Articles"></a>Articles</h2><p><a href="http://arstechnica.com/gadgets/2008/03/past-present-future-file-systems/" target="_blank" rel="external">From BFS to ZFS: past, present, and future of file systems | Ars Technica</a><br><a href="http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/" target="_blank" rel="external">Bitrot and atomic COWs: Inside “next-gen” filesystems | Ars Technica</a><br><a href="http://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/2/" target="_blank" rel="external">Ars walkthrough: Using the ZFS next-gen filesystem on Linux | Ars Technica</a></p>
+<h3 id="Comparison"><a href="#Comparison" class="headerlink" title="Comparison"></a>Comparison</h3><p><a href="http://www.phoronix.com/scan.php?page=article&amp;item=linux-40-hdd&amp;num=1" target="_blank" rel="external">Linux 4.0 Hard Drive Comparison With EXT4 / Btrfs / XFS / NTFS / NILFS2 / ReiserFS - Phoronix</a><br><a href="http://www.phoronix.com/scan.php?page=article&amp;item=linux-44-47-fs&amp;num=1" target="_blank" rel="external">Linux 4.4 To 4.7 - EXT4 vs. F2FS vs. Btrfs Benchmarks - Phoronix</a><br><a href="http://www.unixmen.com/review-ext4-vs-btrfs-vs-xfs/" target="_blank" rel="external">Review EXT4 vs. Btrfs vs. XFS | Unixmen</a><br><a href="https://hardforum.com/threads/xfs-vs-zfs.1593111/" target="_blank" rel="external">XFS vs ZFS | [H]ard|Forum</a><br><a href="http://www.ilsistemista.net/index.php/virtualization/47-zfs-btrfs-xfs-ext4-and-lvm-with-kvm-a-storage-performance-comparison.html" target="_blank" rel="external">ZFS, BTRFS, XFS, EXT4 and LVM with KVM – a storage performance comparison</a></p>
+<h3 id="bcachefs"><a href="#bcachefs" class="headerlink" title="bcachefs"></a>bcachefs</h3><p><a href="https://lwn.net/Articles/655366/" target="_blank" rel="external">The bcachefs filesystem [LWN.net]</a><br><a href="https://www.wikiwand.com/en/Bcache" target="_blank" rel="external">bcache - Wikiwand</a><br><a href="https://bcache.evilpiepirate.org/Bcachefs/" target="_blank" rel="external">Bcachefs</a></p>
+<p><a href="https://www.patreon.com/bcachefs" target="_blank" rel="external">Kent Overstreet is creating bcachefs - a  next generation Linux filesystem | Patreon</a></p>
+<h3 id="Btrfs"><a href="#Btrfs" class="headerlink" title="Btrfs"></a>Btrfs</h3><p><a href="http://www.wikiwand.com/en/Btrfs" target="_blank" rel="external">Btrfs - Wikiwand</a></p>
+<p>Btrfs is not stable for use outside a test system.<br><a href="http://www.jupiterbroadcasting.com/80097/btrfs-meltdown-lup-87/" target="_blank" rel="external">btrfs Meltdown | LUP 87 | Jupiter Broadcasting</a><br><a href="http://www.jupiterbroadcasting.com/80442/churning-over-btrfs-lup-88/" target="_blank" rel="external">Churning Over Btrfs | LUP 88 | Jupiter Broadcasting</a></p>
+<h3 id="XFS"><a href="#XFS" class="headerlink" title="XFS"></a>XFS</h3><p><a href="http://www.wikiwand.com/en/XFS" target="_blank" rel="external">XFS - Wikiwand</a><br><a href="http://lwn.net/Articles/638546/" target="_blank" rel="external">XFS: There and back … and there again? [LWN.net]</a></p>
+<h3 id="ZFS"><a href="#ZFS" class="headerlink" title="ZFS"></a>ZFS</h3><p><a href="http://www.wikiwand.com/en/ZFS" target="_blank" rel="external">ZFS - Wikiwand</a><br>ZFS provides bitrot protection.</p>
+<p><a href="http://zfsonlinux.org/" target="_blank" rel="external">ZFS on Linux</a></p>
+<p><a href="http://www.jamescoyle.net/how-to/478-create-a-zfs-volume-on-ubuntu" target="_blank" rel="external">Create a ZFS volume on Ubuntu – JamesCoyle.net</a></p>
+<p><a href="http://arstechnica.com/gadgets/2008/03/past-present-future-file-systems/" target="_blank" rel="external">From BFS to ZFS: past, present, and future of file systems | Ars Technica</a><br><a href="http://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/2/" target="_blank" rel="external">Ars walkthrough: Using the ZFS next-gen filesystem on Linux | Ars Technica</a></p>
+<p><a href="https://rudd-o.com/linux-and-free-software/ways-in-which-zfs-is-better-than-btrfs" target="_blank" rel="external">How ZFS continues to be better than btrfs — Rudd-O.com in English</a><br><a href="http://www.datamation.com/data-center/the-zfs-story-clearing-up-the-confusion-1.html" target="_blank" rel="external">The ZFS Story: Clearing Up the Confusion - Datamation</a><br><a href="http://louwrentius.com/why-i-do-not-use-zfs-as-a-file-system-for-my-nas.html" target="_blank" rel="external">Why I do not use ZFS as a file system for my NAS</a> in 2011<br><a href="http://louwrentius.com/why-i-do-use-zfs-as-a-file-system-for-my-nas.html" target="_blank" rel="external">Why I Do Use ZFS as a File System for My NAS</a> in 2015</p>
 <p><a href="https://www.youtube.com/watch?v=UP_JfUUmDZo" target="_blank" rel="external">An Introduction to the Implementation of ZFS (part 1 of 2) - YouTube</a><br><a href="https://www.youtube.com/watch?v=l-RCLgLxuSc" target="_blank" rel="external">An Introduction to the Implementation of ZFS (part 2 of 2) - YouTube</a></p>
+<h3 id="techniques-internals"><a href="#techniques-internals" class="headerlink" title="techniques/internals"></a>techniques/internals</h3><p><a href="http://www.linux.org/threads/intro-to-inodes.4130/" target="_blank" rel="external">Intro to Inodes | Linux.org</a><br><a href="http://www.linux.org/threads/intro-to-extents.4131/" target="_blank" rel="external">Intro to Extents | Linux.org</a><br><a href="http://www.linux.org/threads/journal-file-system.4136/" target="_blank" rel="external">Journal File System | Linux.org</a><br><a href="http://www.wikiwand.com/en/Journaling_file_system" target="_blank" rel="external">Journaling file system - Wikiwand</a><br><a href="http://www.linux.org/threads/direct-i-o.4230/" target="_blank" rel="external">Direct I/O | Linux.org</a><br><a href="https://www.wikiwand.com/en/Extent_%28file_systems%29" target="_blank" rel="external">Extent (file systems) - Wikiwand</a></p>
+<p><a href="https://ext4.wiki.kernel.org/index.php/Main_Page" target="_blank" rel="external">Ext4 Wiki</a></p>
+<h2 id="Articles"><a href="#Articles" class="headerlink" title="Articles"></a>Articles</h2><p><a href="http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/" target="_blank" rel="external">Bitrot and atomic COWs: Inside “next-gen” filesystems | Ars Technica</a><br><a href="http://arstechnica.com/information-technology/2012/01/microsoft-introduces-new-robust-resilient-file-system-for-windows-server-8/" target="_blank" rel="external">Microsoft introduces new robust “Resilient File System” for Windows Server 8 | Ars Technica</a></p>
+<h2 id="Linux-LVM"><a href="#Linux-LVM" class="headerlink" title="Linux LVM"></a>Linux LVM</h2><p><a href="https://www.wikiwand.com/en/Logical_Volume_Manager_%28Linux%29" target="_blank" rel="external">Logical Volume Manager (Linux) - Wikiwand</a></p>
+<p><a href="https://wiki.archlinux.org/index.php/LVM" target="_blank" rel="external">LVM - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/Software_RAID_and_LVM" target="_blank" rel="external">Software RAID and LVM - ArchWiki</a></p>
+<p><a href="https://linuxconfig.org/linux-lvm-logical-volume-manager" target="_blank" rel="external">Linux lvm - Logical Volume Manager</a><br><a href="https://www.redhat.com/magazine/009jul05/features/lvm2/" target="_blank" rel="external">The Linux Logical Volume Manager | Red Hat</a><br><a href="https://www.howtoforge.com/linux_lvm" target="_blank" rel="external">A Beginner’s Guide To LVM</a><br><a href="http://www.tldp.org/HOWTO/LVM-HOWTO/" target="_blank" rel="external">LVM HOWTO</a></p>
+<p><a href="https://www.novell.com/coolsolutions/appnote/19386.html" target="_blank" rel="external">Cool Solutions: Recovering a Lost LVM Volume Disk</a><br><a href="http://www.softpanorama.org/Commercial_linuxes/LVM/recovery_of_lvm_partitions.shtml" target="_blank" rel="external">Recovery of LVM partitions</a><br><a href="http://www.softpanorama.org/Commercial_linuxes/LVM/recovery_of_lvm_partitions.shtml" target="_blank" rel="external">Recovery of LVM partitions</a></p>
+<p><a href="https://www.jethrocarr.com/2013/11/23/restoring-lvm-volumes/" target="_blank" rel="external">Restoring LVM volumes | Jethro Carr</a></p>
+<h2 id="Mhddfs"><a href="#Mhddfs" class="headerlink" title="Mhddfs"></a>Mhddfs</h2><p><a href="https://romanrm.net/mhddfs" target="_blank" rel="external">mhddfs: join several filesystems together to form a single larger one - rm’s homepage</a><br><a href="http://www.tecmint.com/combine-partitions-into-one-in-linux-using-mhddfs/" target="_blank" rel="external">Mhddfs - Combine Several Smaller Partition into One Large Virtual Storage</a><br><a href="http://dominicm.com/install-and-configure-mhddfs-virtual-storage-pool/" target="_blank" rel="external">Install &amp; Configure MHDDFS Virtual Storage Pool | DominicM</a><br><a href="http://
+zornsoftware.codenature.info/blog/why-i-ditched-raid-and-greyhole-for-mhddfs.html" target="_blank" rel="external">Why I ditched RAID and Greyhole for MHDDFS | Zorn Software</a></p>
+<p><a href="http://dominicm.com/install-configure-mhddfs-on-arch-linux/" target="_blank" rel="external">Install MHDDFS on Arch Linux | DominicM</a></p>
+<h2 id="gt-2TB-partition"><a href="#gt-2TB-partition" class="headerlink" title="&gt; 2TB partition"></a>&gt; 2TB partition</h2><p><a href="http://www.thegeekstuff.com/2011/09/parted-command-examples/" target="_blank" rel="external">http://www.thegeekstuff.com/2011/09/parted-command-examples/</a><br><a href="http://www.systutorials.com/46294/making-gpt-partition-table-and-creating-partitions-with-parted-on-linux/" target="_blank" rel="external">http://www.systutorials.com/46294/making-gpt-partition-table-and-creating-partitions-with-parted-on-linux/</a><br><a href="http://www.thegeekstuff.com/2012/08/2tb-gtp-parted/" target="_blank" rel="external">http://www.thegeekstuff.com/2012/08/2tb-gtp-parted/</a></p>
 	  
 	</div>
 
@@ -120,7 +147,7 @@
 <ul class="pagination">
 	 
 				
-    	<li class="prev"><a href="/linux-apps/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+    	<li class="prev"><a href="/network-file-systems/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
   		
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
@@ -168,7 +195,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+    <li><a href="/categories/linux/">linux<span>26</span></a></li>
   </li>
 
     </ul>
@@ -181,7 +208,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/file-system/">file-system<span>1</span></a></li> <li><a href="/tags/storage/">storage<span>2</span></a></li>
+  <li><a href="/tags/file-system/">file-system<span>3</span></a></li> <li><a href="/tags/storage/">storage<span>4</span></a></li>
     </ul>
 	</div>
 		
@@ -191,7 +218,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Well-known_file_sytems"><span class="toc-article-text">Well-known file sytems</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#techniques/internals"><span class="toc-article-text">techniques/internals</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Articles"><span class="toc-article-text">Articles</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Well-known-file-systems"><span class="toc-article-text">Well-known file systems</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Comparison"><span class="toc-article-text">Comparison</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#bcachefs"><span class="toc-article-text">bcachefs</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Btrfs"><span class="toc-article-text">Btrfs</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#XFS"><span class="toc-article-text">XFS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#ZFS"><span class="toc-article-text">ZFS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#techniques-internals"><span class="toc-article-text">techniques/internals</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Articles"><span class="toc-article-text">Articles</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Linux-LVM"><span class="toc-article-text">Linux LVM</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Mhddfs"><span class="toc-article-text">Mhddfs</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#gt-2TB-partition"><span class="toc-article-text">> 2TB partition</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -208,7 +235,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

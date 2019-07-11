@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>awk notes | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,13 +107,13 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p><a href="http://en.wikipedia.org/wiki/AWK" target="_blank" rel="external">AWK</a> is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">awk <span class="string">'&#123;PROGRAM&#125;'</span> file</span><br><span class="line">awk <span class="operator">-f</span> &lt;PROGRAM.awk&gt; file</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">awk <span class="string">'&#123;PROGRAM&#125;'</span> file</div><div class="line">awk <span class="_">-f</span> &lt;PROGRAM.awk&gt; file</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <p>program is executed on a row basis, with optional rules to switch the statements (block) to execute<br>each row is parsed into fields by the separator</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NR      Number of Row&#10;NF      Number of Fields&#10;$()     field substitution</span><br></pre></td></tr></table></figure>
-<h2 id="field_seperator"><a href="#field_seperator" class="headerlink" title="field seperator"></a>field seperator</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">awk <span class="string">'BEGIN &#123; FS = ":" &#125; ; &#123; print $2 &#125;'</span></span><br><span class="line">awk -F: <span class="string">'&#123; print $2 &#125;'</span></span><br></pre></td></tr></table></figure>
-<h2 id="print_number_of_lines"><a href="#print_number_of_lines" class="headerlink" title="print number of lines"></a>print number of lines</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">awk <span class="string">'BEGIN &#123;sum=0&#125; &#123;sum=sum+1&#125; END &#123;print sum&#125;'</span> filename</span><br><span class="line">awk <span class="string">'END&#123;print NR&#125;'</span> filename</span><br></pre></td></tr></table></figure>
-<h2 id="print_line_number_and_second_last_field"><a href="#print_line_number_and_second_last_field" class="headerlink" title="print line number and second last field"></a>print line number and second last field</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">awk <span class="string">'&#123; print "Line " NR ": " $(NF-1) &#125;'</span> test.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">NR      Number of Row</div><div class="line">NF      Number of Fields</div><div class="line">$()     field substitution</div></pre></td></tr></table></figure>
+<h2 id="field-separator"><a href="#field-separator" class="headerlink" title="field separator"></a>field separator</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">awk <span class="string">'BEGIN &#123; FS = ":" &#125; ; &#123; print $2 &#125;'</span></div><div class="line">awk -F: <span class="string">'&#123; print $2 &#125;'</span></div></pre></td></tr></table></figure>
+<h2 id="print-number-of-lines"><a href="#print-number-of-lines" class="headerlink" title="print number of lines"></a>print number of lines</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">awk <span class="string">'BEGIN &#123;sum=0&#125; &#123;sum=sum+1&#125; END &#123;print sum&#125;'</span> filename</div><div class="line">awk <span class="string">'END&#123;print NR&#125;'</span> filename</div></pre></td></tr></table></figure>
+<h2 id="print-line-number-and-second-last-field"><a href="#print-line-number-and-second-last-field" class="headerlink" title="print line number and second last field"></a>print line number and second last field</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">awk <span class="string">'&#123; print "Line " NR ": " $(NF-1) &#125;'</span> test.txt</div></pre></td></tr></table></figure>
 <table>
 <thead>
 <tr>
@@ -147,12 +148,15 @@
 </tr>
 </tbody>
 </table>
-<h2 id="print_first_16K_lines"><a href="#print_first_16K_lines" class="headerlink" title="print first 16K lines"></a>print first 16K lines</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">awk -F &#39;&#39; &#39;NF &#60; 16384&#39; infile &#62;outfile&#10;awk &#39;length($0) &#60; 16384&#39; infile &#62;outfile&#10;# which is equivalent to&#10;awk &#39;&#123; if (length($0) &#60; 16384) print &#125;&#39; infile &#62;outfile</span><br></pre></td></tr></table></figure>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.gnu.org/software/gawk/manual/gawk.html" target="_blank" rel="external">The GNU Awk User’s Guide</a><br><a href="http://www.softpanorama.org/Tools/awk.shtml" target="_blank" rel="external">AWK Programming</a><br><a href="http://www.eriwen.com/tools/awk-is-a-beautiful-tool/" target="_blank" rel="external">awk is a beautiful tool</a><br><a href="http://fanqiang.chinaunix.net/program/other/2005-09-07/3621.shtml" target="_blank" rel="external">awk使用手册 - fanqiang.com</a><br><a href="http://coolshell.cn/articles/9070.html" target="_blank" rel="external">AWK 简明教程 | 酷 壳 - CoolShell.cn</a></p>
-<p><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-one/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-two/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part II: Text Conversion and Substitution - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-three/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part III: Selective Printing and Deleting of Certain Lines - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/update-on-famous-awk-one-liners-explained/" target="_blank" rel="external">Update on Famous Awk One-Liners Explained: String and Array Creation - good coders code, great reuse</a></p>
+<h2 id="print-first-16K-lines"><a href="#print-first-16K-lines" class="headerlink" title="print first 16K lines"></a>print first 16K lines</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">awk -F &apos;&apos; &apos;NF &lt; 16384&apos; infile &gt;outfile</div><div class="line">awk &apos;length($0) &lt; 16384&apos; infile &gt;outfile</div><div class="line"># which is equivalent to</div><div class="line">awk &apos;&#123; if (length($0) &lt; 16384) print &#125;&apos; infile &gt;outfile</div></pre></td></tr></table></figure>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.gnu.org/software/gawk/manual/gawk.html" target="_blank" rel="external">The GNU Awk User’s Guide</a><br><a href="http://www.softpanorama.org/Tools/awk.shtml" target="_blank" rel="external">AWK Programming</a><br><a href="http://www.eriwen.com/tools/awk-is-a-beautiful-tool/" target="_blank" rel="external">awk is a beautiful tool</a><br><a href="http://fanqiang.chinaunix.net/program/other/2005-09-07/3621.shtml" target="_blank" rel="external">awk使用手册 - fanqiang.com</a><br><a href="http://coolshell.cn/articles/9070.html" target="_blank" rel="external">AWK 简明教程 | 酷 壳 - CoolShell.cn</a><br><a href="http://www.tutorialspoint.com/awk/" target="_blank" rel="external">AWK Tutorial</a></p>
+<p><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-one/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-two/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part II: Text Conversion and Substitution - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/awk-one-liners-explained-part-three/" target="_blank" rel="external">Famous Awk One-Liners Explained, Part III: Selective Printing and Deleting of Certain Lines - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/update-on-famous-awk-one-liners-explained/" target="_blank" rel="external">Update on Famous Awk One-Liners Explained: String and Array Creation - good coders code, great reuse</a><br><a href="http://www.pement.org/awk/awk1line.txt" target="_blank" rel="external">http://www.pement.org/awk/awk1line.txt</a></p>
+<p><a href="http://reasoniamhere.com/2013/09/16/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-1/" target="_blank" rel="external">AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 1 - Blog - Reason I Am Here - Nacho Caballero</a><br><a href="http://reasoniamhere.com/2013/09/17/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-2/" target="_blank" rel="external">AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 2 - Blog - Reason I Am Here - Nacho Caballero</a><br><a href="http://reasoniamhere.com/2013/09/18/awk-gtf-how-to-analyze-a-transcriptome-like-a-pro-part-3/" target="_blank" rel="external">AWK GTF! How to Analyze a Transcriptome Like a Pro - Part 3 - Blog - Reason I Am Here - Nacho Caballero</a></p>
+<p><a href="http://www.ibm.com/developerworks/library/l-awk1/" target="_blank" rel="external">Common threads: Awk by example, Part 1</a><br><a href="http://www.ibm.com/developerworks/library/l-awk2/" target="_blank" rel="external">Common threads: Awk by example, Part 2</a></p>
+<p><a href="http://www.funtoo.org/Awk_by_Example,_Part_1" target="_blank" rel="external">Awk by Example, Part 1 : An intro to the great language with the strange name</a><br><a href="http://www.funtoo.org/Awk_by_Example,_Part_2" target="_blank" rel="external">Awk by Example, Part 2 : Records, loops, and arrays</a><br><a href="http://www.funtoo.org/Awk_by_Example,_Part_3" target="_blank" rel="external">Awk by Example, Part 3 : String functions and … checkbooks?</a></p>
 <p><a href="http://www.catonmat.net/blog/awk-nawk-and-gawk-cheat-sheet/" target="_blank" rel="external">Awk, Nawk and GNU Awk Cheat Sheet - good coders code, great reuse</a></p>
-<p><a href="http://www.grymoire.com/Unix/Awk.html" target="_blank" rel="external">Awk - A Tutorial and Introduction - by Bruce Barnett</a><br><a href="http://www.grymoire.com/Unix/AwkRef.html" target="_blank" rel="external">Awk Quick Reference - Bruce Barnett</a></p>
-<p><a href="http://www.pement.org/awk/awk1line.txt" target="_blank" rel="external">http://www.pement.org/awk/awk1line.txt</a></p>
+<p><a href="http://www.grymoire.com/Unix/Awk.html" target="_blank" rel="external">Awk - A Tutorial and Introduction - by Bruce Barnett</a><br><a href="http://www.grymoire.com/Unix/AwkRef.html" target="_blank" rel="external">Awk Quick Reference - Bruce Barnett</a><br><a href="http://www.folkstalk.com/2011/12/good-examples-of-awk-command-in-unix.html" target="_blank" rel="external">Top Examples of Awk Command in Unix</a><br><a href="http://www.thegeekstuff.com/2010/01/8-powerful-awk-built-in-variables-fs-ofs-rs-ors-nr-nf-filename-fnr/" target="_blank" rel="external">8 Powerful Awk Built-in Variables – FS, OFS, RS, ORS, NR, NF, FILENAME, FNR</a></p>
+<p><a href="https://library.oreilly.com/book/9781565922259/sed-amp-awk/toc.xhtml" target="_blank" rel="external">sed &amp; awk, 2nd Edition</a></p>
 	  
 	</div>
 
@@ -210,7 +214,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -223,7 +227,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/awk/">awk<span>1</span></a></li> <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li>
+  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/awk/">awk<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -233,7 +237,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#field_seperator"><span class="toc-article-text">field seperator</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print_number_of_lines"><span class="toc-article-text">print number of lines</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print_line_number_and_second_last_field"><span class="toc-article-text">print line number and second last field</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print_first_16K_lines"><span class="toc-article-text">print first 16K lines</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#field-separator"><span class="toc-article-text">field separator</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print-number-of-lines"><span class="toc-article-text">print number of lines</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print-line-number-and-second-last-field"><span class="toc-article-text">print line number and second last field</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#print-first-16K-lines"><span class="toc-article-text">print first 16K lines</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -250,7 +254,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

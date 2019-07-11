@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>sed notes | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,12 +107,16 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p><a href="http://en.wikipedia.org/wiki/Sed" target="_blank" rel="external">sed</a> (stream editor) is a Unix utility that parses and transforms text, using a simple, compact programming language.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sed <span class="string">'commands'</span> file</span><br><span class="line">sed <span class="operator">-f</span> &lt;PROGRAM.sed&gt; file</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sed <span class="string">'commands'</span> file</div><div class="line">sed <span class="_">-f</span> &lt;PROGRAM.sed&gt; file</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.eriwen.com/tools/get-sed-savvy-1/" target="_blank" rel="external">Get sed savvy - part 1</a><br><a href="http://www.eriwen.com/tools/get-sed-savvy-2/" target="_blank" rel="external">Get sed savvy - part 2</a><br><a href="http://www.eriwen.com/tools/get-sed-savvy-3/" target="_blank" rel="external">Get sed savvy - part 3</a><br><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-one/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part I: File Spacing, Numbering and Text Conversion and Substitution - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-two/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part II: Selective Printing of Certain Lines - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-three/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part III: Selective Deletion of Certain Lines and Special Applications - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/" target="_blank" rel="external">Sed - UNIX Stream Editor - Cheat Sheet - good coders code, great reuse</a><br><a href="http://sed.sourceforge.net/sed1line.txt" target="_blank" rel="external">Sed one-liners</a><br><a href="http://www.funtoo.org/Sed_by_Example,_Part_1" target="_blank" rel="external">Sed by Example, Part 1</a><br><a href="http://www.funtoo.org/Sed_by_Example,_Part_2" target="_blank" rel="external">Sed by Example, Part 2</a><br><a href="http://www.funtoo.org/Sed_by_Example,_Part_3" target="_blank" rel="external">Sed by Example, Part 3</a><br><a href="http://www.grymoire.com/Unix/Sed.html" target="_blank" rel="external">Sed - An Introduction and Tutorial</a><br><a href="https://www.digitalocean.com/community/tutorial_series/using-sed" target="_blank" rel="external">Using Sed | DigitalOcean</a><br><a href="http://coolshell.cn/articles/9104.html" target="_blank" rel="external">sed 简明教程 | 酷 壳 - CoolShell.cn</a><br><a href="http://www.yourownlinux.com/search/label/sed" target="_blank" rel="external">Your Own Linux..!: sed</a></p>
-<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># trim leading and trailing whitespace</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;string&#125;</span> | sed <span class="string">'s/^[[:space:]]*\(.*\)[[:space:]]*$/\1/'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># search and replace in file (inplace)</span></span><br><span class="line">sed -i <span class="string">'s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g'</span> file</span><br><span class="line"><span class="comment"># replace "apple" with "(apple)", not '&amp;' is reference</span></span><br><span class="line">sed s/apple/(&amp;)/ file</span><br><span class="line"><span class="comment"># or use regex group</span></span><br><span class="line">sed s/\(apple\)/(\<span class="number">1</span>)/ file</span><br></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># get n-th line from file</span></span><br><span class="line">sed -n <span class="string">'&lt;n&gt; p'</span> filename</span><br><span class="line"><span class="built_in">echo</span> filename | sed <span class="string">"&lt;n&gt;q;d"</span></span><br><span class="line"><span class="comment"># count length of line 10</span></span><br><span class="line">sed -n <span class="string">'10 p'</span> filename | wc -c</span><br></pre></td></tr></table></figure>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># insert at N-th line of file</span></span><br><span class="line">sed -i <span class="string">'N i &lt;LINE-TO-BE-ADDED&gt;'</span> FILE.txt</span><br></pre></td></tr></table></figure>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://www.eriwen.com/tools/get-sed-savvy-1/" target="_blank" rel="external">Get sed savvy - part 1</a><br><a href="http://www.eriwen.com/tools/get-sed-savvy-2/" target="_blank" rel="external">Get sed savvy - part 2</a><br><a href="http://www.eriwen.com/tools/get-sed-savvy-3/" target="_blank" rel="external">Get sed savvy - part 3</a></p>
+<p><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-one/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part I: File Spacing, Numbering and Text Conversion and Substitution - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-two/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part II: Selective Printing of Certain Lines - good coders code, great reuse</a><br><a href="http://www.catonmat.net/blog/sed-one-liners-explained-part-three/" target="_blank" rel="external">Famous Sed One-Liners Explained, Part III: Selective Deletion of Certain Lines and Special Applications - good coders code, great reuse</a><br><a href="http://sed.sourceforge.net/sed1line.txt" target="_blank" rel="external">Sed one-liners</a></p>
+<p><a href="http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/" target="_blank" rel="external">Sed - UNIX Stream Editor - Cheat Sheet - good coders code, great reuse</a></p>
+<p><a href="http://www.funtoo.org/Sed_by_Example,_Part_1" target="_blank" rel="external">Sed by Example, Part 1</a><br><a href="http://www.funtoo.org/Sed_by_Example,_Part_2" target="_blank" rel="external">Sed by Example, Part 2</a><br><a href="http://www.funtoo.org/Sed_by_Example,_Part_3" target="_blank" rel="external">Sed by Example, Part 3</a><br><a href="http://www.grymoire.com/Unix/Sed.html" target="_blank" rel="external">Sed - An Introduction and Tutorial</a><br><a href="https://www.digitalocean.com/community/tutorial_series/using-sed" target="_blank" rel="external">Using Sed | DigitalOcean</a><br><a href="http://coolshell.cn/articles/9104.html" target="_blank" rel="external">sed 简明教程 | 酷 壳 - CoolShell.cn</a><br><a href="http://www.yourownlinux.com/search/label/sed" target="_blank" rel="external">Your Own Linux..!: sed</a><br><a href="http://www.linuxjournal.com/article/7231" target="_blank" rel="external">Text Manipulation with sed | Linux Journal</a></p>
+<p><a href="https://library.oreilly.com/book/9781565922259/sed-amp-awk/toc.xhtml" target="_blank" rel="external">sed &amp; awk, 2nd Edition</a></p>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># trim leading and trailing whitespace</span></div><div class="line"><span class="built_in">echo</span> <span class="variable">$&#123;string&#125;</span> | sed <span class="string">'s/^[[:space:]]*\(.*\)[[:space:]]*$/\1/'</span></div><div class="line"></div><div class="line"><span class="comment"># search and replace in file (inplace)</span></div><div class="line">sed -i <span class="string">'s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g'</span> file</div><div class="line"><span class="comment"># replace "apple" with "(apple)", not '&amp;' is reference</span></div><div class="line">sed s/apple/(&amp;)/ file</div><div class="line"><span class="comment"># or use regex group</span></div><div class="line">sed s/\(apple\)/(\1)/ file</div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># get n-th line from file</span></div><div class="line">sed -n <span class="string">'&lt;n&gt; p'</span> filename</div><div class="line"><span class="built_in">echo</span> filename | sed <span class="string">"&lt;n&gt;q;d"</span></div><div class="line"><span class="comment"># count length of line 10</span></div><div class="line">sed -n <span class="string">'10 p'</span> filename | wc -c</div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># insert at N-th line of file</span></div><div class="line">sed -i <span class="string">'N i &lt;LINE-TO-BE-ADDED&gt;'</span> FILE.txt</div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -169,7 +174,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -182,7 +187,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/notes/">notes<span>19</span></a></li> <li><a href="/tags/sed/">sed<span>1</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li>
+  <li><a href="/tags/notes/">notes<span>21</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/sed/">sed<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -209,7 +214,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

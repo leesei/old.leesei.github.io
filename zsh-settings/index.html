@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>zsh settings | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,21 +106,24 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="http://zshwiki.org/home/" target="_blank" rel="external">ZshWiki</a></p>
-<p><a href="http://zsh.sourceforge.net/Doc/Release/zsh_toc.html" target="_blank" rel="external">zsh: Table of Contents</a></p>
-<p><a href="https://wiki.archlinux.org/index.php/Zsh" target="_blank" rel="external">Zsh - ArchWiki</a></p>
-<p><a href="https://github.com/robbyrussell/oh-my-zsh/wiki" target="_blank" rel="external">Home · robbyrussell/oh-my-zsh Wiki</a></p>
+	    <p><a href="http://www.zsh.org/" target="_blank" rel="external">Zsh</a><br><a href="http://zshwiki.org/home/" target="_blank" rel="external">ZshWiki</a><br><a href="http://zsh.sourceforge.net/Doc/Release/zsh_toc.html" target="_blank" rel="external">zsh: Table of Contents</a><br><a href="https://wiki.archlinux.org/index.php/Zsh" target="_blank" rel="external">Zsh - ArchWiki</a><br><a href="https://github.com/zsh-users/" target="_blank" rel="external">zsh-users</a></p>
+<p><a href="https://github.com/unixorn/awesome-zsh-plugins" target="_blank" rel="external">unixorn/awesome-zsh-plugins: A collection of ZSH frameworks, plugins &amp; themes inspired by the various awesome list collections out there.</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLu8EoSxDXHP7tXPJp5ZmUpuT7sFvrswzf" target="_blank" rel="external">Command Line Power User - YouTube</a> video series by Web Bos<br><a href="http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/" target="_blank" rel="external">Master Your Z Shell with These Outrageously Useful Tips - Blog - Reason I Am Here - Nacho Caballero</a></p>
 <p><a href="https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/" target="_blank" rel="external">Zsh/Bash startup files loading order (.bashrc, .zshrc etc.) | The Lumber Room</a></p>
-<h2 id="oh-my-zsh"><a href="#oh-my-zsh" class="headerlink" title="oh-my-zsh"></a>oh-my-zsh</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">curl -L http://install.ohmyz.sh | sh</span><br></pre></td></tr></table></figure>
-<p><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="external">Plugins · robbyrussell/oh-my-zsh Wiki</a></p>
+<h2 id="oh-my-zsh"><a href="#oh-my-zsh" class="headerlink" title="oh-my-zsh"></a>oh-my-zsh</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">curl -L http://install.ohmyz.sh | sh</div></pre></td></tr></table></figure>
+<p><a href="https://github.com/robbyrussell/oh-my-zsh/wiki" target="_blank" rel="external">Home · robbyrussell/oh-my-zsh Wiki</a><br><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="external">Plugins · robbyrussell/oh-my-zsh Wiki</a></p>
+<p><a href="https://twit.tv/shows/floss-weekly/episodes/411" target="_blank" rel="external">FLOSS Weekly 411 Oh My Zsh | TWiT</a><br><a href="https://medium.freecodecamp.com/d-oh-my-zsh-af99ca54212c#.su80q8anf" target="_blank" rel="external">d’Oh My Zsh</a></p>
 <p><a href="http://zshthem.es/" target="_blank" rel="external">zshthem.es</a></p>
 <p><a href="http://blog.patshead.com/2011/04/improve-your-oh-my-zsh-startup-time-maybe.html" target="_blank" rel="external">Improve Your oh-my-zsh Startup Time (Maybe) - Patshead.com Blog</a></p>
-<h2 id="default_shell"><a href="#default_shell" class="headerlink" title="default shell"></a>default shell</h2><p>With oh-my-zsh installed and <code>~/.zshrc</code> updated, you may change your default shell to zsh.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">chsh <span class="operator">-s</span> /bin/zsh <span class="variable">$&#123;USER&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="antigen"><a href="#antigen" class="headerlink" title="antigen"></a>antigen</h2><p><a href="http://antigen.sharats.me/" target="_blank" rel="external">antigen.sharats.me</a><br><a href="https://github.com/zsh-users/antigen" target="_blank" rel="external">zsh-users/antigen: A plugin manager for zsh, inspired by oh-my-zsh and vundle.</a></p>
+<h2 id="default-shell"><a href="#default-shell" class="headerlink" title="default shell"></a>default shell</h2><p>With oh-my-zsh installed and <code>~/.zshrc</code> updated, you may change your default shell to zsh.</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">chsh <span class="_">-s</span> /bin/zsh <span class="variable">$&#123;USER&#125;</span></div></pre></td></tr></table></figure>
+<h2 id="Completion"><a href="#Completion" class="headerlink" title="Completion"></a>Completion</h2><p><a href="https://limpet.net/mbrubeck/2009/10/30/compleat.html" target="_blank" rel="external">Compleat: Bash completion for human beings</a><br><a href="https://github.com/mbrubeck/compleat" target="_blank" rel="external">mbrubeck/compleat: Generate command-line completions using a simple DSL.</a><br><a href="https://github.com/zsh-users/zsh-completions" target="_blank" rel="external">zsh-users/zsh-completions: Additional completion definitions for Zsh.</a></p>
 <h2 id="history"><a href="#history" class="headerlink" title="history"></a>history</h2><p><a href="http://www.lowlevelmanager.com/2012/04/zsh-history-extend-and-persist.html" target="_blank" rel="external">Low Level Manager: zsh history: extend and persist</a><br><a href="http://www.lowlevelmanager.com/2012/05/zsh-history-expansion.html" target="_blank" rel="external">Low Level Manager: Zsh history expansion</a><br><a href="http://zshwiki.org/home/examples/zhisthack" target="_blank" rel="external">examples:zhisthack [ZshWiki]</a></p>
 <h2 id="prompt"><a href="#prompt" class="headerlink" title="prompt"></a>prompt</h2><p><a href="http://zshwiki.org/home/config/prompt" target="_blank" rel="external">config:prompt [ZshWiki]</a></p>
 <p><a href="http://www.lowlevelmanager.com/2012/03/smile-zsh-prompt-happysad-face.html" target="_blank" rel="external">Low Level Manager: Smile! with a Zsh prompt happy/sad face</a><br><a href="https://github.com/jimeh/git-aware-prompt" target="_blank" rel="external">jimeh/git-aware-prompt</a><br><a href="https://github.com/sindresorhus/pure" target="_blank" rel="external">sindresorhus/pure</a></p>
 <p><a href="http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html" target="_blank" rel="external">How to: Change / Setup bash custom prompt (PS1)</a></p>
+<p><a href="https://github.com/nojhan/liquidprompt" target="_blank" rel="external">nojhan/liquidprompt</a></p>
 	  
 	</div>
 
@@ -177,7 +181,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/linux/">linux<span>18</span></a></li>
+    <li><a href="/categories/linux/">linux<span>26</span></a></li>
   </li>
 
     </ul>
@@ -190,7 +194,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/oh-my-zsh/">oh-my-zsh<span>1</span></a></li> <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/shell/">shell<span>5</span></a></li> <li><a href="/tags/zsh/">zsh<span>1</span></a></li>
+  <li><a href="/tags/settings/">settings<span>10</span></a></li> <li><a href="/tags/shell/">shell<span>5</span></a></li> <li><a href="/tags/zsh/">zsh<span>1</span></a></li> <li><a href="/tags/oh-my-zsh/">oh-my-zsh<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -200,7 +204,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#oh-my-zsh"><span class="toc-article-text">oh-my-zsh</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#default_shell"><span class="toc-article-text">default shell</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#history"><span class="toc-article-text">history</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#prompt"><span class="toc-article-text">prompt</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#oh-my-zsh"><span class="toc-article-text">oh-my-zsh</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#antigen"><span class="toc-article-text">antigen</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#default-shell"><span class="toc-article-text">default shell</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Completion"><span class="toc-article-text">Completion</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#history"><span class="toc-article-text">history</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#prompt"><span class="toc-article-text">prompt</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -217,7 +221,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

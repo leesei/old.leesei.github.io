@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>OpenSSL | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,14 +106,19 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="https://www.wikiwand.com/en/X.509" target="_blank" rel="external">X.509 - Wikiwand</a><br><a href="http://info.ssl.com/article.aspx?id=12149" target="_blank" rel="external">DER vs. CRT vs. CER vs. PEM Certificates and How To Convert Them</a><br><code>.pem</code> == <code>.crt</code> == X.509?<br><code>.key</code> == <code>.csr</code> == DER?<br><code>.pfx</code>/<code>.p12</code> == PKCS#12</p>
-<p>key: no meta data, just the prime numbers and moduluses<br>cert: with meta data</p>
-<p><a href="https://www.sslshopper.com/article-most-common-openssl-commands.html" target="_blank" rel="external">The Most Common OpenSSL Commands</a></p>
-<h2 id="cert_generation"><a href="#cert_generation" class="headerlink" title="cert generation"></a>cert generation</h2><p><a href="https://info.ssl.com/how-to-create-a-pfx-p12-certificate-file-using-openssl/" target="_blank" rel="external">How to create a .pfx/.p12 certificate file using OpenSSL – SSL Information and FAQ</a><br><a href="https://info.ssl.com/howto-generate-a-csr-for-openssl-see-tools-ssl-com/" target="_blank" rel="external">HOWTO: Generate a CSR for OpenSSL – (see tools.ssl.com) – SSL Information and FAQ</a><br><a href="http://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl" target="_blank" rel="external">ssl - How to create a self-signed certificate with openssl? - Stack Overflow</a><br><a href="https://www.digicert.com/easy-csr/openssl.htm" target="_blank" rel="external">OpenSSL CSR Tool - Create Your CSR Faster | DigiCert.com</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># new private key and Certificate Signing Request</span></span><br><span class="line">openssl req -out CSR.csr -new -newkey rsa:<span class="number">2048</span> -nodes -keyout privateKey.key</span><br><span class="line"></span><br><span class="line">openssl genrsa -out privatekey.pem <span class="number">2048</span></span><br><span class="line">openssl req -new -key privatekey.pem -x509 -days <span class="number">7300</span> -out certificate.pem</span><br></pre></td></tr></table></figure>
-<h2 id="query_cert"><a href="#query_cert" class="headerlink" title="query cert"></a>query cert</h2><p><a href="https://coolaj86.com/articles/how-to-examine-an-ssl-https-tls-cert/" target="_blank" rel="external">How to examine the metadata of an SSL (HTTPS/TLS) cert</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># X.509</span></span><br><span class="line">openssl x509 -text -noout -in certificate.pem</span><br><span class="line"></span><br><span class="line"><span class="comment"># DER</span></span><br><span class="line">openssl req -text -noout -in certificate.csr</span><br><span class="line"></span><br><span class="line"><span class="comment"># PKCS#12 (.pfx or .p12)</span></span><br><span class="line">openssl pkcs12 -info -in key.p12</span><br></pre></td></tr></table></figure>
-<h2 id="convertion"><a href="#convertion" class="headerlink" title="convertion"></a>convertion</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># DER (.crt .cer .der) -&gt; PEM</span></span><br><span class="line">openssl x509 -inform der -in certificate.cer -out certificate.pem</span><br><span class="line"><span class="comment"># PEM -&gt; DER</span></span><br><span class="line">openssl x509 -outform der -in certificate.pem -out certificate.der</span><br><span class="line"><span class="comment"># PKCS#12 -&gt; PEM</span></span><br><span class="line">openssl pkcs12 -in keyStore.pfx -out keyStore.pem -nodes</span><br><span class="line"><span class="comment">#  You can add -nocerts to only output the private key or add -nokeys to only output the certificates.</span></span><br><span class="line"><span class="comment"># PEM -&gt; PKCS#12</span></span><br><span class="line">openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile CACert.crt</span><br></pre></td></tr></table></figure>
+	    <p><a href="https://www.openssl.org/" target="_blank" rel="external">OpenSSL</a> is a toolkit for the TLS and SSL.<br><a href="https://www.sslshopper.com/article-most-common-openssl-commands.html" target="_blank" rel="external">The Most Common OpenSSL Commands</a></p>
+<h2 id="key-cert-types"><a href="#key-cert-types" class="headerlink" title="key/cert types"></a>key/cert types</h2><p><a href="https://www.wikiwand.com/en/X.509" target="_blank" rel="external">X.509 - Wikiwand</a><br><a href="http://info.ssl.com/article.aspx?id=12149" target="_blank" rel="external">DER vs. CRT vs. CER vs. PEM Certificates and How To Convert Them</a></p>
+<p><code>.pem</code>, <code>.key</code>, <code>.csr</code>  are used for keys<br><code>.crt</code> == X.509? probably<br><code>.csr</code> can be converted to <code>.crt</code> by signing with private key<br><code>.pfx</code>/<code>.p12</code> == PKCS#12</p>
+<p>key: no meta data, just the prime numbers and modulus<br>cert: with meta data</p>
+<h2 id="cert-generation"><a href="#cert-generation" class="headerlink" title="cert generation"></a>cert generation</h2><p><a href="https://info.ssl.com/how-to-create-a-pfx-p12-certificate-file-using-openssl/" target="_blank" rel="external">How to create a .pfx/.p12 certificate file using OpenSSL – SSL Information and FAQ</a><br><a href="https://info.ssl.com/howto-generate-a-csr-for-openssl-see-tools-ssl-com/" target="_blank" rel="external">HOWTO: Generate a CSR for OpenSSL – (see tools.ssl.com) – SSL Information and FAQ</a><br><a href="http://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl" target="_blank" rel="external">ssl - How to create a self-signed certificate with openssl? - Stack Overflow</a><br><a href="https://www.digicert.com/easy-csr/openssl.htm" target="_blank" rel="external">OpenSSL CSR Tool - Create Your CSR Faster | DigiCert.com</a></p>
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04" target="_blank" rel="external">How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 16.04 | DigitalOcean</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># private key and cert (CSR in the pipeline)</span></div><div class="line">openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt</div><div class="line"></div><div class="line">openssl genrsa -out privatekey.pem 2048 <span class="comment"># key only</span></div><div class="line">openssl req -new -key privatekey.pem -out CSR.csr <span class="comment"># CSR only</span></div><div class="line"><span class="comment"># private key and CSR</span></div><div class="line">openssl req -nodes -new -newkey rsa:2048 -keyout privatekey.key -out CSR.csr</div><div class="line"><span class="comment"># then sign SSH certificate (.crt) with csr</span></div><div class="line">openssl x509 -req -days 365 -in CSR.csr -signkey privatekey.key -out selfsigned.crt</div><div class="line"></div><div class="line">openssl genpkey -algorithm RSA -out privatekey.pem -pkeyopt rsa_keygen_bits:2048 <span class="comment"># key only</span></div><div class="line">openssl rsa -pubout -in privatekey.pem -out publickey.pem</div></pre></td></tr></table></figure>
+<h2 id="query-cert"><a href="#query-cert" class="headerlink" title="query cert"></a>query cert</h2><p><a href="https://coolaj86.com/articles/how-to-examine-an-ssl-https-tls-cert/" target="_blank" rel="external">How to examine the metadata of an SSL (HTTPS/TLS) cert</a><br><a href="https://www.sslshopper.com/ssl-certificate-tools.html" target="_blank" rel="external">SSL Certificate Tools</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># X.509</span></div><div class="line">openssl x509 -text -noout -in certificate.pem</div><div class="line">openssl x509 -text -noout -in certificate.cert</div><div class="line"></div><div class="line"><span class="comment"># DER</span></div><div class="line">openssl req -text -noout -in certificate.csr</div><div class="line"></div><div class="line"><span class="comment"># PKCS#12 (.pfx or .p12)</span></div><div class="line">openssl pkcs12 -info -in key.p12</div></pre></td></tr></table></figure>
+<h2 id="conversion"><a href="#conversion" class="headerlink" title="conversion"></a>conversion</h2><p><a href="https://www.sslshopper.com/ssl-converter.html" target="_blank" rel="external">SSL Converter - Convert SSL Certificates to different formats</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># DER (.crt .cer .der) -&gt; PEM</span></div><div class="line">openssl x509 -inform der -in certificate.cer -out certificate.pem</div><div class="line"><span class="comment"># PEM -&gt; DER</span></div><div class="line">openssl x509 -outform der -in certificate.pem -out certificate.der</div><div class="line"><span class="comment"># PKCS#12 -&gt; PEM</span></div><div class="line">openssl pkcs12 -in keyStore.pfx -out keyStore.pem -nodes</div><div class="line"><span class="comment">#  You can add -nocerts to only output the private key or add -nokeys to only output the certificates.</span></div><div class="line"><span class="comment"># PEM -&gt; PKCS#12</span></div><div class="line">openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile CACert.crt</div></pre></td></tr></table></figure>
+<h2 id="troubleshooting"><a href="#troubleshooting" class="headerlink" title="troubleshooting"></a>troubleshooting</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo su</div><div class="line">sudo tcpdump -vvv <span class="_">-s</span> 0 -nni &lt;interface&gt; -w &lt;file&gt; host &lt;host&gt; and port &lt;port&gt; &amp;</div><div class="line">openssl s_client -connect &lt;host&gt;:&lt;port&gt; -state -msg</div><div class="line"></div><div class="line"><span class="comment"># e.g.</span></div><div class="line">sudo su</div><div class="line">sudo tcpdump -vvv <span class="_">-s</span> 0 -nni eno1 -w internal.cap host 10.6.64.170 and port 443 &amp;</div><div class="line">openssl s_client -connect 10.6.64.170:443 -state -msg</div></pre></td></tr></table></figure>
+<p><a href="https://support.f5.com/kb/en-us/solutions/public/15000/400/sol15475.html" target="_blank" rel="external">SOL15475 - Troubleshooting SSL/TLS renegotiation</a><br><a href="https://support.f5.com/kb/en-us/solutions/public/15000/200/sol15292.html" target="_blank" rel="external">SOL15292 - Troubleshooting SSL/TLS handshake failures</a><br><a href="https://support.f5.com/kb/en-us/solutions/public/10000/200/sol10209.html" target="_blank" rel="external">SOL10209 - Overview of packet tracing with the ssldump utility</a></p>
 	  
 	</div>
 
@@ -170,7 +176,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -193,7 +199,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#cert_generation"><span class="toc-article-text">cert generation</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#query_cert"><span class="toc-article-text">query cert</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#convertion"><span class="toc-article-text">convertion</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#key-cert-types"><span class="toc-article-text">key/cert types</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#cert-generation"><span class="toc-article-text">cert generation</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#query-cert"><span class="toc-article-text">query cert</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#conversion"><span class="toc-article-text">conversion</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#troubleshooting"><span class="toc-article-text">troubleshooting</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -210,7 +216,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

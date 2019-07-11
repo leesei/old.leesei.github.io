@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Mesos | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Mesos"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Mesos</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h1 id="Mesos"><a href="#Mesos" class="headerlink" title="Mesos"></a>Mesos</h1><p><a href="http://mesos.apache.org/" target="_blank" rel="external">Apache Mesos</a> <a href="https://github.com/mesos" target="_blank" rel="external">Github</a><br><a href="http://www.wikiwand.com/en/Apache_Mesos" target="_blank" rel="external">Apache Mesos - Wikiwand</a></p>
+<p>Apache Mesos is inspired by the Google’s paper of their Borg system. It abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively. Twitter have been using it since 2007.<br>Mesos provides the low level API. It usually requires a “framework” (scheduler) to tell it what to do and on which node to execute the task.</p>
+<p>It uses Zookeeper underneath for leader election. Non-responsive node will be removed, replace by new node; if the old node response later on the response will be disposed and it will be killed to prevent duplication.</p>
+<p>Mesos is best run on bare metal or on VM.</p>
+<p><a href="https://www.oreilly.com/ideas/a-tale-of-two-clusters-mesos-and-yarn" target="_blank" rel="external">A tale of two clusters: Mesos and YARN - O’Reilly Media</a></p>
+<blockquote>
+<p>Mesos is low-level infrastructure; it needs frameworks like Aurora to give it something to do. As David Messina, VP of marketing for Docker, put it in an email, “Aurora is intended for humans to interact with and perform high-level tasks like ‘run 100 instances of my service’, while Mesos is a toolkit that programmers interact with to build other systems.”</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h2><p><a href="https://www.youtube.com/watch?v=n5GT7OFSh58" target="_blank" rel="external">Building Distributed Frameworks on Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=GfpGmhZwaoM" target="_blank" rel="external">How Airbnb Simplifies with Mesos - YouTube</a><br><a href="https://www.youtube.com/watch?v=Itufcu8Z-Bc" target="_blank" rel="external">Running Mesos at Atlassian - YouTube</a><br><a href="https://www.youtube.com/watch?v=OgVaQPYEsVo" target="_blank" rel="external">Simplifying with Mesos and Marathon - YouTube</a><br><a href="https://www.youtube.com/watch?v=E4lxX6epM_U" target="_blank" rel="external">Operating Apache Aurora and Mesos at Twitter - YouTube</a><br><a href="https://www.youtube.com/watch?v=u5jd9YT9EsY" target="_blank" rel="external">Run Any App on Mesos on Any Infrastructure Using Docker - YouTube</a><br><a href="https://www.youtube.com/watch?v=d7vZWm_xS9c" target="_blank" rel="external">Running YARN Alongside Mesos - YouTube</a></p>
+<h2 id="Mini-Mesos"><a href="#Mini-Mesos" class="headerlink" title="Mini-Mesos"></a>Mini-Mesos</h2><p><a href="https://minimesos.org/" target="_blank" rel="external">minimesos.org - Testing infrastructure for Mesos frameworks</a><br><a href="http://thenewstack.io/mini-mesos/" target="_blank" rel="external">Mini-Mesos: What’s a Nice XPer Doing in a Company Like This? - The New Stack</a></p>
+<h2 id="Mesosphere"><a href="#Mesosphere" class="headerlink" title="Mesosphere"></a>Mesosphere</h2><p><a href="https://mesosphere.com/" target="_blank" rel="external">Introducing The Mesosphere Datacenter Operating System</a> <a href="https://github.com/mesosphere" target="_blank" rel="external">Github</a><br><a href="https://mesosphere.com/blog/" target="_blank" rel="external">Blog - Mesosphere</a></p>
+<p><a href="http://www.infoworld.com/article/2933324/data-center/mesosphere-os-manages-entire-data-centers-with-one-click.html" target="_blank" rel="external">Mesosphere OS manages entire data centers with one click | InfoWorld</a><br><a href="https://mesosphere.com/blog/2016/04/19/hindman-mesos-dcos/" target="_blank" rel="external">Taking Mesos to the next level with DC/OS</a></p>
+<h2 id="Marathon"><a href="#Marathon" class="headerlink" title="Marathon"></a>Marathon</h2><p><a href="https://mesosphere.github.io/marathon/" target="_blank" rel="external">Marathon: A cluster-wide init and control system for services in cgroups or Docker containers</a><br><a href="https://github.com/mesosphere/marathon" target="_blank" rel="external">mesosphere/marathon: Deploy and manage containers (including Docker) on top of Apache Mesos at scale.</a><br>Marathon is used for long running services.</p>
+<p><a href="https://mesosphere.com/blog/2016/02/17/marathon-production-ready-containers/" target="_blank" rel="external">Mesosphere Marathon for production container environments</a></p>
+<h2 id="Chronos"><a href="#Chronos" class="headerlink" title="Chronos"></a>Chronos</h2><p><a href="http://mesos.github.io/chronos/" target="_blank" rel="external">Chronos: Fault tolerant job scheduler for Mesos</a><br><a href="https://github.com/mesos/chronos" target="_blank" rel="external">mesos/chronos: Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules</a><br>Chronos is used to execute services at particular time, like cron, for batch processing.</p>
+<h2 id="Aurora"><a href="#Aurora" class="headerlink" title="Aurora"></a>Aurora</h2><p><a href="http://aurora.apache.org/" target="_blank" rel="external">Apache Aurora</a> <a href="https://github.com/apache/aurora" target="_blank" rel="external">Github</a><br>Aurora is a Mesos framework for long-running services and batch jobs. It is build by Twitter and the creator Bill Farner joined Docker Inc.</p>
+<p><a href="https://www.youtube.com/watch?v=asd_h6VzaJc" target="_blank" rel="external">Introduction to Apache Aurora - YouTube</a><br><a href="http://stackoverflow.com/questions/28651922/marathon-vs-aurora-and-their-purposes" target="_blank" rel="external">mesos - Marathon vs Aurora and their purposes - Stack Overflow</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/lua/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/digimon/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-03-21 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-deploy/">web-deploy<span>13</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#Mesos"><span class="toc-article-text">Mesos</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Video"><span class="toc-article-text">Video</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Mini-Mesos"><span class="toc-article-text">Mini-Mesos</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Mesosphere"><span class="toc-article-text">Mesosphere</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Marathon"><span class="toc-article-text">Marathon</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Chronos"><span class="toc-article-text">Chronos</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Aurora"><span class="toc-article-text">Aurora</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

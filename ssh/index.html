@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>SSH | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -107,16 +108,21 @@
 	<div class="mypage">		
 	    <p><a href="https://www.mankier.com/1/ssh-keygen" target="_blank" rel="external">ssh-keygen - man page</a></p>
 <p><a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">Generating SSH keys - User Documentation</a><br><a href="https://help.github.com/articles/working-with-ssh-key-passphrases/" target="_blank" rel="external">Working with SSH key passphrases - User Documentation</a></p>
-<h2 id="password-less_login"><a href="#password-less_login" class="headerlink" title="password-less login"></a>password-less login</h2><p><a href="http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE" target="_blank" rel="external">The Computer Kid: Password-less SSH</a></p>
+<h2 id="password-less-login"><a href="#password-less-login" class="headerlink" title="password-less login"></a>password-less login</h2><p><a href="http://www.thecomputerkid.com/2013/07/password-less-ssh.html#.VR4fbemUdhE" target="_blank" rel="external">The Computer Kid: Password-less SSH</a></p>
 <p>You can specify host alias, user and id in <code>~/.ssh/config</code>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Host 64.28&#10;    HostName 10.6.64.28&#10;    User kylee&#10;    IdentityFile ~/.ssh/kylee.id_rsa</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">Host 64.28</div><div class="line">    HostName 10.6.64.28</div><div class="line">    User kylee</div><div class="line">    IdentityFile ~/.ssh/kylee.id_rsa</div></pre></td></tr></table></figure>
 <p>I now use this setting instead of multiple global <code>IdentityFile</code> entries.</p>
-<p>Also see <code>ssh ssh-copy-id</code> command</p>
-<h3 id="on_client"><a href="#on_client" class="headerlink" title="on client"></a>on client</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># generate ssh key pair (if you don't have one)</span></span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line"></span><br><span class="line">scp ~/.ssh/id_rsa.pub user@server:~/</span><br></pre></td></tr></table></figure>
-<h3 id="on_server"><a href="#on_server" class="headerlink" title="on server"></a>on server</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add public key to authorized_keys</span></span><br><span class="line">cat ~/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="comment"># enforce permission settings</span></span><br><span class="line">chmod <span class="number">700</span> ~/.ssh</span><br><span class="line">chmod <span class="number">640</span> ~/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">\rm ~/id_rsa.pub</span><br></pre></td></tr></table></figure>
-<h2 id="ssh_tunneling"><a href="#ssh_tunneling" class="headerlink" title="ssh tunneling"></a>ssh tunneling</h2><p><a href="https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/" target="_blank" rel="external">SSH Tunneling Explained | Source Open</a><br><a href="http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/" target="_blank" rel="external">Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net</a><br><a href="https://underthehood.myob.com/ssh-tunnels-for-fun-and-profit/" target="_blank" rel="external">SSH tunnels for fun and profit</a><br><a href="https://coolaj86.com/articles/access-web-pages-through-your-home-network-via-ssh/" target="_blank" rel="external">Access web pages through your home network via SSH</a></p>
+<p>Also see <code>ssh-copy-id</code> command instead of using <code>scp</code> as below.<br>It handles pushing public key to server and properly setting the permissions of the key.</p>
+<h3 id="on-client"><a href="#on-client" class="headerlink" title="on client"></a>on client</h3><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># generate ssh key pair (if you don't have one)</span></div><div class="line">ssh-keygen -t rsa</div><div class="line"><span class="comment"># generate key with no passphrase</span></div><div class="line">ssh-keygen -t rsa -b 4096 <span class="_">-f</span> privateKey.pem -N <span class="string">""</span></div><div class="line"></div><div class="line"><span class="comment"># scp requires next step on server</span></div><div class="line">scp ~/.ssh/id_rsa.pub user@server:~/.ssh/</div><div class="line"></div><div class="line"><span class="comment"># or ssh-copy-id</span></div><div class="line">ssh-copy-id user@server</div><div class="line">ssh-copy-id -i ID_FILE user@server</div></pre></td></tr></table></figure>
+<h3 id="on-server"><a href="#on-server" class="headerlink" title="on server"></a>on server</h3><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># add public key to authorized_keys</span></div><div class="line">cat ~/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</div><div class="line"></div><div class="line"><span class="comment"># enforce permission settings</span></div><div class="line">chmod 700 ~/.ssh</div><div class="line">chmod 640 ~/.ssh/authorized_keys</div><div class="line"></div><div class="line">\rm ~/id_rsa.pub</div></pre></td></tr></table></figure>
+<h2 id="copying-lots-of-small-files"><a href="#copying-lots-of-small-files" class="headerlink" title="copying lots of small files"></a>copying lots of small files</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">tar czf - &lt;files&gt; | ssh user@host <span class="string">"cd /wherever &amp;&amp; tar xvzf -"</span></div><div class="line"><span class="comment"># if the files are not compressible</span></div><div class="line">tar cf - &lt;files&gt; | ssh user@host <span class="string">"cd /wherever &amp;&amp; tar xvf -"</span></div><div class="line"></div><div class="line">git archive --format=tar origin/master | gzip -9c | ssh user@yourserver.com <span class="string">"tar --directory=/var/www -xvzf -"</span></div></pre></td></tr></table></figure>
+<h2 id="ssh-tunneling"><a href="#ssh-tunneling" class="headerlink" title="ssh tunneling"></a>ssh tunneling</h2><p><a href="https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/" target="_blank" rel="external">SSH Tunneling Explained | Source Open</a><br><a href="http://www.marksanborn.net/howto/bypass-firewall-and-nat-with-reverse-ssh-tunnel/" target="_blank" rel="external">Bypass Firewall and NAT with Reverse SSH Tunnel - MarkSanborn.net</a><br><a href="https://underthehood.myob.com/ssh-tunnels-for-fun-and-profit/" target="_blank" rel="external">SSH tunnels for fun and profit</a><br><a href="https://coolaj86.com/articles/access-web-pages-through-your-home-network-via-ssh/" target="_blank" rel="external">Access web pages through your home network via SSH</a></p>
+<p><a href="https://github.com/apenwarr/sshuttle" target="_blank" rel="external">apenwarr/sshuttle: Transparent proxy server that works as a poor man’s VPN.</a><br><a href="http://tomoconnor.eu/blogish/vpn-technologies-primer/#.VvZp1WF96_4" target="_blank" rel="external">VPN Technologies: A primer</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ ssh <span class="_">-f</span> -N -L 9906:127.0.0.1:3306 coolio@database.example.com</div><div class="line"><span class="comment"># -f puts ssh in background</span></div><div class="line"><span class="comment"># -N makes it not execute a remote command</span></div><div class="line"><span class="comment"># or with config</span></div><div class="line">$ ssh <span class="_">-f</span> -N tunnel</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">Host tunnel</div><div class="line">    HostName database.example.com</div><div class="line">    IdentityFile ~/.ssh/coolio.example.key</div><div class="line">    LocalForward 9906 127.0.0.1:3306</div><div class="line">    User coolio</div></pre></td></tr></table></figure>
+<p>This will forward all local port <code>9906</code> traffic to port <code>3306</code> on the remote <code>dev.example.com</code> server, letting me point my desktop to <code>localhost</code> (<code>127.0.0.1:9906</code>) and have it behave exactly as if I had exposed port 3306 on the remote server and connected directly to it.</p>
 <h2 id="sshfs"><a href="#sshfs" class="headerlink" title="sshfs"></a>sshfs</h2><p><a href="http://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/" target="_blank" rel="external">How to Mount a Remote Folder using SSH on Ubuntu</a><br><a href="http://xmodulo.com/how-to-mount-remote-directory-over-ssh-on-linux.html" target="_blank" rel="external">How to mount a remote directory over ssh on Linux - Xmodulo</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># install sshfs (once)</span></span><br><span class="line">sudo apt-get install sshfs</span><br><span class="line"></span><br><span class="line"><span class="comment"># mount sshfs</span></span><br><span class="line">sshfs user@yourdomain.com:/path/to/remote <span class="built_in">local</span>/path</span><br><span class="line"></span><br><span class="line"><span class="comment"># unmount sshfs</span></span><br><span class="line">fusermount -u <span class="built_in">local</span>_mountpoint</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># install sshfs (once)</span></div><div class="line">sudo apt-get install sshfs</div><div class="line"></div><div class="line"><span class="comment"># mount sshfs</span></div><div class="line">sshfs user@yourdomain.com:/path/to/remote <span class="built_in">local</span>/path</div><div class="line"></div><div class="line"><span class="comment"># unmount sshfs</span></div><div class="line">fusermount -u <span class="built_in">local</span>_mountpoint</div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -174,7 +180,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -187,7 +193,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li> <li><a href="/tags/ssh/">ssh<span>1</span></a></li>
+  <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/ssh/">ssh<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -197,7 +203,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#password-less_login"><span class="toc-article-text">password-less login</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#on_client"><span class="toc-article-text">on client</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#on_server"><span class="toc-article-text">on server</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ssh_tunneling"><span class="toc-article-text">ssh tunneling</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#sshfs"><span class="toc-article-text">sshfs</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#password-less-login"><span class="toc-article-text">password-less login</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#on-client"><span class="toc-article-text">on client</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#on-server"><span class="toc-article-text">on server</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#copying-lots-of-small-files"><span class="toc-article-text">copying lots of small files</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ssh-tunneling"><span class="toc-article-text">ssh tunneling</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#sshfs"><span class="toc-article-text">sshfs</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -214,7 +220,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

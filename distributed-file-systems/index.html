@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Distributed File Systems | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Distributed File Systems"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Distributed File Systems</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h1 id="Distributed-Storage"><a href="#Distributed-Storage" class="headerlink" title="Distributed Storage"></a>Distributed Storage</h1><p><a href="https://www.wikiwand.com/en/Clustered_file_system#/Distributed_file_systems" target="_blank" rel="external">Clustered file system - Wikiwand</a><br><a href="https://www.wikiwand.com/en/List_of_file_systems#/Distributed_file_systems" target="_blank" rel="external">List of Distributed file systems - Wikiwand</a><br><a href="https://www.wikiwand.com/en/Comparison_of_distributed_file_systems" target="_blank" rel="external">Comparison of distributed file systems - Wikiwand</a></p>
+<p><a href="http://www.solidfire.com/blog/distributed-storage-picking-the-right-tool-for-the-job/" target="_blank" rel="external">Distributed Storage: Picking The Right Tool For The Job | SolidFire | Blog</a><br><a href="https://blogs.vmware.com/vsphere/2012/09/distributed-storage-tech-preview-with-video.html" target="_blank" rel="external">Distributed Storage Tech Preview [with video] - VMware vSphere Blog - VMware Blogs</a> (2012)<br><a href="http://pl.atyp.us/2015-05-dfs-sbfaq.html" target="_blank" rel="external">Distributed File System SBFAQ</a></p>
+<p><a href="http://stackoverflow.com/questions/17425153/distributed-file-systems-gridfs-vs-glusterfs-vs-ceph-vs-hekafs-benchmarks" target="_blank" rel="external">filesystems - Distributed File Systems: GridFS vs. GlusterFS vs Ceph vs HekaFS Benchmarks - Stack Overflow</a><br><a href="https://www.openstack.org/summit/vancouver-2015/summit-videos/presentation/ceph-at-cern-a-year-in-the-life-of-a-petabyte-scale-block-storage-service" target="_blank" rel="external">Ceph at CERN: A Year in the Life of a Petabyte-Scale Block Storage Service » OpenStack Open Source Cloud Computing Software</a></p>
+<p><a href="https://vimeo.com/album/2920922/video/98428204" target="_blank" rel="external">Performance comparison of distributed file systems, Marian Marinov (1H Ltd) on Vimeo</a><br><a href="https://www.youtube.com/watch?v=JfRqpdgoiRQ" target="_blank" rel="external">[Linux.conf.au 2013] - grand distributed storage debate glusterfs and ceph going head head - YouTube</a><br><a href="https://www.youtube.com/watch?v=OopRMUYiY5E" target="_blank" rel="external">Ceph at CERN: A Year in the Life of a Petabyte-Scale Block Storage Service - YouTube</a></p>
+<p><a href="http://www.slideshare.net/azilian/performance-comparison" target="_blank" rel="external">Performance comparison of Distributed File Systems on 1Gbit networks</a></p>
+<p><a href="http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_installing_manually_book/content/index.html" target="_blank" rel="external">Hortonworks Data Platform - Hortonworks Data Platform</a></p>
+<h2 id="Ceph"><a href="#Ceph" class="headerlink" title="Ceph"></a>Ceph</h2><p><a href="https://www.wikiwand.com/en/Ceph_%28software%29" target="_blank" rel="external">Ceph (software) - Wikiwand</a><br><a href="http://ceph.com/" target="_blank" rel="external">ceph.com</a> </p>
+<p><a href="http://www.redhat.com/en/technologies/storage/ceph" target="_blank" rel="external">Red Hat Ceph Storage | Red Hat</a></p>
+<p><a href="http://ceph.com/planet/bootstrap-your-ceph-cluster-in-docker/" target="_blank" rel="external">Bootstrap your Ceph cluster in Docker</a><br><a href="https://github.com/ceph/ceph-docker" target="_blank" rel="external">ceph/ceph-docker: Docker files and images to run Ceph in containers</a></p>
+<blockquote>
+<p>Note that ceph has several aspects: <code>rados</code> is the underlying object-storage, quite solid and libraries for most languages; <code>radosgw</code> is an S3/Swift compatible system; <code>rbd</code> is a shared-block-storage (similar to iSCSI, supported by KVM, OpenStack, and others); CephFS is the POSIX-compliant mountable filesystem. </p>
+</blockquote>
+<p><a href="https://www.youtube.com/watch?v=OyH1C0C4HzM" target="_blank" rel="external">Ceph Intro and Architectural Overview by Ross Turk - YouTube</a><br><a href="https://www.youtube.com/watch?v=lG6eeUNw9iI" target="_blank" rel="external">Fundamentals of Ceph by Greg Farnum - YouTube</a></p>
+<h2 id="GlusterFS"><a href="#GlusterFS" class="headerlink" title="GlusterFS"></a>GlusterFS</h2><p><a href="http://www.wikiwand.com/en/GlusterFS" target="_blank" rel="external">GlusterFS - Wikiwand</a><br><a href="http://www.gluster.org/" target="_blank" rel="external">Storage for your Cloud. — Gluster</a><br><a href="http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Architecture/" target="_blank" rel="external">Architecture - Gluster Docs</a></p>
+<p><a href="http://www.redhat.com/en/technologies/storage/gluster" target="_blank" rel="external">Red Hat Gluster Storage (formerly Red Hat Storage Server) | Red Hat</a><br><a href="http://www.redhat.com/en/resources/red-hat-gluster-storage-architecture" target="_blank" rel="external">Red Hat Gluster Storage architecture | Red Hat</a></p>
+<p><a href="http://blog.lavoie.sl/2013/04/lamp-cluster-distributed-filesystem.html" target="_blank" rel="external">LAMP Cluster — Distributed filesystem • Websites, Hosting and Friends</a><br><a href="http://blog.lavoie.sl/2013/12/glusterfs-performance-on-different-frameworks.html" target="_blank" rel="external">GlusterFS performance on different frameworks • Websites, Hosting and Friends</a></p>
+<p><a href="https://www.youtube.com/watch?v=HkBndZOcEA0" target="_blank" rel="external">Demystifying Gluster - GlusterFS For SysAdmins - YouTube</a></p>
+<p><a href="http://www.jamescoyle.net/tag/glusterfs" target="_blank" rel="external">GlusterFS – JamesCoyle.net</a></p>
+<h2 id="OrangeFS"><a href="#OrangeFS" class="headerlink" title="OrangeFS"></a>OrangeFS</h2><p><a href="https://www.wikiwand.com/en/OrangeFS" target="_blank" rel="external">OrangeFS - Wikiwand</a><br><a href="http://orangefs.com/" target="_blank" rel="external">OrangeFS</a> more info than <a href="http://www.orangefs.org/" target="_blank" rel="external">orangefs.org</a></p>
+<p>An open source FS by EMC, the one behind<br><a href="http://www.wikiwand.com/en/EMC_Isilon" target="_blank" rel="external">EMC Isilon - Wikiwand</a></p>
+<h2 id="XtreemFS"><a href="#XtreemFS" class="headerlink" title="XtreemFS"></a>XtreemFS</h2><p><a href="http://www.wikiwand.com/en/XtreemFS" target="_blank" rel="external">XtreemFS - Wikiwand</a><br><a href="http://www.xtreemfs.org/" target="_blank" rel="external">XtreemFS - Fault-Tolerant Distributed File System</a></p>
+<blockquote>
+<p>I tested XtreemFS and found that it does not work well. There are problems like data corruption (<a href="https://github.com/xtreemfs/xtreemfs/issues/359" target="_blank" rel="external">#359</a>), read errors in degraded mode (<a href="https://github.com/xtreemfs/xtreemfs/issues/357" target="_blank" rel="external">#357</a>/<a href="https://github.com/xtreemfs/xtreemfs/issues/235" target="_blank" rel="external">#235</a>), crippled read-only mode (<a href="https://github.com/xtreemfs/xtreemfs/issues/358" target="_blank" rel="external">#358</a>) etc.; build system is a mess plus XtreemFS depends on old (not updated since 2007) non-free JAR (<a href="https://github.com/xtreemfs/xtreemfs/issues/309" target="_blank" rel="external">#309</a>, <a href="https://github.com/xtreemfs/xtreemfs/issues/173" target="_blank" rel="external">#173</a>) so XtreemFS is in violation of DFSG and not distributable in Debian. Also I’m not happy about how devs respond to bugs. Finally XtreemFS is written in poor language notorious for inefficient memory management so naturally XtreemFS can’t stand against GfarmFS and LizardFS in performance comparison.</p>
+</blockquote>
+<h2 id="HDFS"><a href="#HDFS" class="headerlink" title="HDFS"></a>HDFS</h2><h2 id="LizardFS"><a href="#LizardFS" class="headerlink" title="LizardFS"></a>LizardFS</h2><p><a href="https://lizardfs.com/" target="_blank" rel="external">LizardFS</a></p>
+<h2 id="seaweedfs"><a href="#seaweedfs" class="headerlink" title="seaweedfs"></a>seaweedfs</h2><p><a href="https://github.com/chrislusf/seaweedfs" target="_blank" rel="external">chrislusf/seaweedfs: SeaweedFS is a simple and highly scalable distributed file system.</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/desktop-apps/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/network-file-systems/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-05-20 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/linux/">linux<span>26</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/file-system/">file-system<span>3</span></a></li> <li><a href="/tags/storage/">storage<span>4</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#Distributed-Storage"><span class="toc-article-text">Distributed Storage</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ceph"><span class="toc-article-text">Ceph</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GlusterFS"><span class="toc-article-text">GlusterFS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#OrangeFS"><span class="toc-article-text">OrangeFS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#XtreemFS"><span class="toc-article-text">XtreemFS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#HDFS"><span class="toc-article-text">HDFS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#LizardFS"><span class="toc-article-text">LizardFS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#seaweedfs"><span class="toc-article-text">seaweedfs</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

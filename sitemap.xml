@@ -2,898 +2,2299 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://leesei.github.io/drawing/</loc>
-    <lastmod>2015-12-08T03:24:45.900Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/world-history/</loc>
-    <lastmod>2015-12-08T03:24:25.680Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/rube-goldberg-machines/</loc>
-    <lastmod>2015-12-08T03:23:38.990Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/buddhism/</loc>
-    <lastmod>2015-12-08T03:23:23.350Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/nw-js/</loc>
-    <lastmod>2015-12-08T03:22:42.130Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/openssl/</loc>
-    <lastmod>2015-12-08T03:22:25.930Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/electron/</loc>
-    <lastmod>2015-12-08T03:22:11.850Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/morality/</loc>
-    <lastmod>2015-12-08T03:21:53.880Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/decision-making/</loc>
-    <lastmod>2015-12-08T03:21:46.060Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/mobile-os/</loc>
-    <lastmod>2015-12-08T03:20:37.470Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ux/</loc>
-    <lastmod>2015-12-08T03:20:27.230Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/awesome-lists/</loc>
-    <lastmod>2015-12-08T03:20:10.190Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/web-security/</loc>
-    <lastmod>2015-12-08T03:19:00.340Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/dns/</loc>
-    <lastmod>2015-12-08T03:18:25.510Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/second-machine-age/</loc>
-    <lastmod>2015-12-08T03:17:20.430Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/dollar-symbol/</loc>
-    <lastmod>2015-12-08T03:17:14.780Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/money-and-banking/</loc>
-    <lastmod>2015-12-08T03:16:38.430Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/fairy-tales/</loc>
-    <lastmod>2015-12-08T03:16:17.680Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/linux-apps/</loc>
-    <lastmod>2015-12-08T03:13:43.809Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/mythology/</loc>
-    <lastmod>2015-12-08T03:12:16.689Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/barcode/</loc>
-    <lastmod>2015-12-08T03:05:54.219Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/podcast/</loc>
-    <lastmod>2015-12-08T03:05:40.869Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/si-units/</loc>
-    <lastmod>2015-12-08T03:05:13.669Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/webpack/</loc>
-    <lastmod>2015-12-08T03:04:00.939Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/browserify/</loc>
-    <lastmod>2015-12-08T03:03:56.429Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/react-js/</loc>
-    <lastmod>2015-12-08T03:01:01.448Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/bridges/</loc>
-    <lastmod>2015-12-08T02:59:25.078Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/robotics/</loc>
-    <lastmod>2015-12-08T02:59:02.498Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/plasma/</loc>
-    <lastmod>2015-12-08T02:58:47.408Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/fuel-cell/</loc>
-    <lastmod>2015-12-08T02:58:34.358Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/wierd-science/</loc>
-    <lastmod>2015-12-08T02:58:02.278Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/flux-alternatives/</loc>
-    <lastmod>2015-12-08T02:57:48.328Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/flux/</loc>
-    <lastmod>2015-12-08T02:57:34.278Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/why-is-water-transparent/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/when-average-is-not-enough/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/wordpress/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/zenity/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/wordpress-dev/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/web-development/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ww-ii/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/windows-manager/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/windows-desktop/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/zsh-settings/</loc>
-    <lastmod>2015-12-08T02:32:19.116Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/vim-settings/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ts-analyzer/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/trackball/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/vps-hosting/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/transmissions/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/voting-systems/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/virtualization/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/uml/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/vim-notes/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/vikings/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/userscript/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/us-and-canada-border/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/unicode/</loc>
-    <lastmod>2015-12-08T02:32:19.106Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/tmux/</loc>
-    <lastmod>2015-12-08T02:32:19.096Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/social-coding/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/simple-machines/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ssh/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/tintint/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/storage/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/sublime-text/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ssl-tls/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/software-licensing-dev/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/syntax-highlighting/</loc>
-    <lastmod>2015-12-08T02:32:19.086Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-network/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-tools/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-string-expansion/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/reverse-proxy-dev/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-recording/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/sed-notes/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-notes/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ruby-settings/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/rust/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/shell-history-expansion/</loc>
-    <lastmod>2015-12-08T02:32:19.076Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/restify-express/</loc>
-    <lastmod>2015-12-08T02:32:19.066Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/python-settings/</loc>
-    <lastmod>2015-12-08T02:32:19.056Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/python-notes/</loc>
-    <lastmod>2015-12-08T02:32:19.056Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/public-domain-books/</loc>
-    <lastmod>2015-12-08T02:32:19.056Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/regex/</loc>
-    <lastmod>2015-12-08T02:32:19.056Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/postal-js/</loc>
-    <lastmod>2015-12-08T02:32:19.046Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/popcorn-time/</loc>
-    <lastmod>2015-12-08T02:32:19.046Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/philosophy/</loc>
-    <lastmod>2015-12-08T02:32:19.046Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/passwords/</loc>
-    <lastmod>2015-12-08T02:32:19.036Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/perl/</loc>
-    <lastmod>2015-12-08T02:32:19.036Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/opencv/</loc>
-    <lastmod>2015-12-08T02:32:19.026Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/paradox/</loc>
-    <lastmod>2015-12-08T02:32:19.026Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/node-js-notes/</loc>
-    <lastmod>2015-12-08T02:32:19.016Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/node-js-https/</loc>
-    <lastmod>2015-12-08T02:32:19.016Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/node-js-settings/</loc>
-    <lastmod>2015-12-08T02:32:19.016Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/natural-languages/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/nginx/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/mooc/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/movies-database/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/mongodb/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/model-of-grief/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/net-neutrality/</loc>
-    <lastmod>2015-12-08T02:32:19.006Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/mali-gpu/</loc>
-    <lastmod>2015-12-08T02:32:18.996Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/markdown/</loc>
-    <lastmod>2015-12-08T02:32:18.996Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/linux-setup/</loc>
-    <lastmod>2015-12-08T02:32:18.976Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/linux-desktop/</loc>
-    <lastmod>2015-12-08T02:32:18.946Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/kodi/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/khronos-group/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/javascript-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/issue-tracker/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/iot/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/http-agents/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/lifehack/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/learn-to-code/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/lcd/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/latex/</loc>
-    <lastmod>2015-12-08T02:32:18.936Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hexo/</loc>
-    <lastmod>2015-12-08T02:32:18.926Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/heroku/</loc>
-    <lastmod>2015-12-08T02:32:18.926Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hapi/</loc>
-    <lastmod>2015-12-08T02:32:18.926Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hong-kong-places/</loc>
-    <lastmod>2015-12-08T02:32:18.926Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/how-games-works/</loc>
-    <lastmod>2015-12-08T02:32:18.926Z</lastmod>
+    <loc>http://leesei.github.io/cloud-providers/</loc>
+    
+    <lastmod>2017-06-02T14:28:02.826Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/hadoop/</loc>
-    <lastmod>2015-12-08T02:32:18.906Z</lastmod>
+    
+    <lastmod>2017-06-01T07:19:15.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/gnuplot/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/scientific-method/</loc>
+    
+    <lastmod>2017-06-01T07:16:36.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/git-settings/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/wierd-science/</loc>
+    
+    <lastmod>2017-06-01T07:15:28.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/git-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/web-authentication/</loc>
+    
+    <lastmod>2017-06-01T07:12:21.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/gamification/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/cross-platform-apps-desktop/</loc>
+    
+    <lastmod>2017-06-01T07:06:34.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/go-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/fonts/</loc>
+    
+    <lastmod>2017-06-01T06:41:35.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/gitbook/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
+    <loc>http://leesei.github.io/passwords/</loc>
+    
+    <lastmod>2017-06-01T06:36:48.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/hackintosh/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/gold-standard/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/graphql/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/grub/</loc>
-    <lastmod>2015-12-08T02:32:18.896Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/games-and-arts/</loc>
-    <lastmod>2015-12-08T02:32:18.866Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/game-engines/</loc>
-    <lastmod>2015-12-08T02:32:18.866Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/food/</loc>
-    <lastmod>2015-12-08T02:32:18.856Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/firearms/</loc>
-    <lastmod>2015-12-08T02:32:18.856Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/file-systems/</loc>
-    <lastmod>2015-12-08T02:32:18.856Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/ffmpeg/</loc>
-    <lastmod>2015-12-08T02:32:18.856Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/facebook-problems/</loc>
-    <lastmod>2015-12-08T02:32:18.836Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/engines/</loc>
-    <lastmod>2015-12-08T02:32:18.836Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/docker/</loc>
-    <lastmod>2015-12-08T02:32:18.816Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/disappearing-polish-s/</loc>
-    <lastmod>2015-12-08T02:32:18.816Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/dev-testing/</loc>
-    <lastmod>2015-12-08T02:32:18.806Z</lastmod>
+    <loc>http://leesei.github.io/desktop-apps/</loc>
+    
+    <lastmod>2017-06-01T06:27:52.000Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/database/</loc>
-    <lastmod>2015-12-08T02:32:18.796Z</lastmod>
+    
+    <lastmod>2017-06-01T03:14:42.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/debian-ubuntu-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.796Z</lastmod>
+    <loc>http://leesei.github.io/natural-languages/</loc>
+    
+    <lastmod>2017-05-31T17:33:52.008Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/cron/</loc>
-    <lastmod>2015-12-08T02:32:18.776Z</lastmod>
+    <loc>http://leesei.github.io/kubernetes/</loc>
+    
+    <lastmod>2017-05-31T15:13:30.030Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/cross-platform-apps-mobile/</loc>
-    <lastmod>2015-12-08T02:32:18.776Z</lastmod>
+    <loc>http://leesei.github.io/node-js-notes/</loc>
+    
+    <lastmod>2017-05-31T14:14:45.043Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/corporate/</loc>
-    <lastmod>2015-12-08T02:32:18.736Z</lastmod>
+    <loc>http://leesei.github.io/learn-to-code/</loc>
+    
+    <lastmod>2017-05-31T14:09:10.563Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/copyright/</loc>
-    <lastmod>2015-12-08T02:32:18.736Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/computer-hardware-portals/</loc>
-    <lastmod>2015-12-08T02:32:18.706Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/comics/</loc>
-    <lastmod>2015-12-08T02:32:18.706Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/colorspace/</loc>
-    <lastmod>2015-12-08T02:32:18.656Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/cinnamon-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.646Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/cold-weapons/</loc>
-    <lastmod>2015-12-08T02:32:18.646Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/cinnamon-setup/</loc>
-    <lastmod>2015-12-08T02:32:18.646Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/capitalism/</loc>
-    <lastmod>2015-12-08T02:32:18.596Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/build-systems/</loc>
-    <lastmod>2015-12-08T02:32:18.546Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/boot/</loc>
-    <lastmod>2015-12-08T02:32:18.526Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/bitnami/</loc>
-    <lastmod>2015-12-08T02:32:18.506Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/bookmarklets/</loc>
-    <lastmod>2015-12-08T02:32:18.506Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/bnf/</loc>
-    <lastmod>2015-12-08T02:32:18.506Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/badges/</loc>
-    <lastmod>2015-12-08T02:32:18.496Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/awk-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.476Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/aws/</loc>
-    <lastmod>2015-12-08T02:32:18.476Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/augmented-reality/</loc>
-    <lastmod>2015-12-08T02:32:18.476Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/atom/</loc>
-    <lastmod>2015-12-08T02:32:18.456Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/atheist-vs-religion/</loc>
-    <lastmod>2015-12-08T02:32:18.456Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/artificial-intelligence/</loc>
-    <lastmod>2015-12-08T02:32:18.446Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/are-modern-human-better-than-before/</loc>
-    <lastmod>2015-12-08T02:32:18.446Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/arch-packages/</loc>
-    <lastmod>2015-12-08T02:32:18.426Z</lastmod>
+    <loc>http://leesei.github.io/web-reverse-proxy/</loc>
+    
+    <lastmod>2017-05-31T14:01:04.563Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/arch-linux/</loc>
-    <lastmod>2015-12-08T02:32:18.416Z</lastmod>
+    
+    <lastmod>2017-05-31T04:46:51.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/antitrust/</loc>
-    <lastmod>2015-12-08T02:32:18.416Z</lastmod>
+    <loc>http://leesei.github.io/image-tools/</loc>
+    
+    <lastmod>2017-05-31T04:42:14.000Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/apache/</loc>
-    <lastmod>2015-12-08T02:32:18.416Z</lastmod>
+    <loc>http://leesei.github.io/linux-desktop/</loc>
+    
+    <lastmod>2017-05-30T13:53:50.582Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/android-studio/</loc>
-    <lastmod>2015-12-08T02:32:18.406Z</lastmod>
+    <loc>http://leesei.github.io/music-theory/</loc>
+    
+    <lastmod>2017-05-30T05:43:29.308Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/android-setup/</loc>
-    <lastmod>2015-12-08T02:32:18.386Z</lastmod>
+    <loc>http://leesei.github.io/python-snippets/</loc>
+    
+    <lastmod>2017-05-30T02:02:27.169Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/python-notes/</loc>
+    
+    <lastmod>2017-05-30T01:49:05.240Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/css-notes/</loc>
+    
+    <lastmod>2017-05-29T09:38:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/javascript-pipeline/</loc>
+    
+    <lastmod>2017-05-29T06:01:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/debian-ubuntu-notes/</loc>
+    
+    <lastmod>2017-05-29T04:31:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/kernel/</loc>
+    
+    <lastmod>2017-05-29T04:13:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/image-formats/</loc>
+    
+    <lastmod>2017-05-29T03:39:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/grub/</loc>
+    
+    <lastmod>2017-05-27T16:01:43.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ebook/</loc>
+    
+    <lastmod>2017-05-27T05:17:20.052Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/redhat/</loc>
+    
+    <lastmod>2017-05-25T05:53:22.000Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/android-notes/</loc>
-    <lastmod>2015-12-08T02:32:18.376Z</lastmod>
+    
+    <lastmod>2017-05-25T05:51:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/boot/</loc>
+    
+    <lastmod>2017-05-25T05:49:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/network/</loc>
+    
+    <lastmod>2017-05-25T05:47:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/elk/</loc>
+    
+    <lastmod>2017-05-25T05:18:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-notes/</loc>
+    
+    <lastmod>2017-05-25T05:17:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/libc/</loc>
+    
+    <lastmod>2017-05-25T05:16:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/svg/</loc>
+    
+    <lastmod>2017-05-25T05:03:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ansible/</loc>
+    
+    <lastmod>2017-05-24T05:16:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/functional-programming/</loc>
+    
+    <lastmod>2017-05-23T16:41:50.677Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-development/</loc>
+    
+    <lastmod>2017-05-23T06:08:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/docker/</loc>
+    
+    <lastmod>2017-05-22T01:56:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-deployment/</loc>
+    
+    <lastmod>2017-05-22T01:44:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/dev-testing/</loc>
+    
+    <lastmod>2017-05-22T01:44:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-tools/</loc>
+    
+    <lastmod>2017-05-18T04:52:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-network/</loc>
+    
+    <lastmod>2017-05-18T04:45:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/windows-desktop/</loc>
+    
+    <lastmod>2017-05-18T04:26:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/http-agents/</loc>
+    
+    <lastmod>2017-05-16T16:25:34.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/rust/</loc>
+    
+    <lastmod>2017-05-16T04:46:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/bike-science/</loc>
+    
+    <lastmod>2017-05-15T05:16:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/coreos/</loc>
+    
+    <lastmod>2017-05-15T01:29:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mooc/</loc>
+    
+    <lastmod>2017-05-12T09:27:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/javascript-notes/</loc>
+    
+    <lastmod>2017-05-12T06:01:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/social-coding/</loc>
+    
+    <lastmod>2017-05-12T05:52:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/python-settings/</loc>
+    
+    <lastmod>2017-05-11T03:53:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/openshift/</loc>
+    
+    <lastmod>2017-05-11T02:04:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/docker-io/</loc>
+    
+    <lastmod>2017-05-11T02:04:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/visualization/</loc>
+    
+    <lastmod>2017-05-11T02:03:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-2d/</loc>
+    
+    <lastmod>2017-05-11T02:03:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/charts/</loc>
+    
+    <lastmod>2017-05-11T02:00:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/d3-js/</loc>
+    
+    <lastmod>2017-05-11T01:58:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/computer-hardware-portals/</loc>
+    
+    <lastmod>2017-05-10T21:31:34.323Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/storage/</loc>
+    
+    <lastmod>2017-05-10T21:25:44.433Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/container-ecosystem/</loc>
+    
+    <lastmod>2017-05-10T10:28:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/aws/</loc>
+    
+    <lastmod>2017-05-10T10:24:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/github/</loc>
+    
+    <lastmod>2017-05-10T10:12:27.000Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/android-content/</loc>
-    <lastmod>2015-12-08T02:32:18.376Z</lastmod>
+    
+    <lastmod>2017-05-10T09:00:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/node-js-settings/</loc>
+    
+    <lastmod>2017-05-10T08:59:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/nix/</loc>
+    
+    <lastmod>2017-05-10T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/fish-notes/</loc>
+    
+    <lastmod>2017-05-10T08:49:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/zsh-settings/</loc>
+    
+    <lastmod>2017-05-10T08:48:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/java/</loc>
+    
+    <lastmod>2017-05-10T07:49:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/atom/</loc>
+    
+    <lastmod>2017-05-10T05:11:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/go-notes/</loc>
+    
+    <lastmod>2017-05-10T05:04:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ffmpeg/</loc>
+    
+    <lastmod>2017-05-10T04:02:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/dev-documentation/</loc>
+    
+    <lastmod>2017-05-10T03:02:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/how-games-works/</loc>
+    
+    <lastmod>2017-05-09T17:42:06.951Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ssl-tls/</loc>
+    
+    <lastmod>2017-05-09T17:08:10.024Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/build-systems/</loc>
+    
+    <lastmod>2017-05-09T13:31:40.670Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/git-notes/</loc>
+    
+    <lastmod>2017-05-09T13:13:37.381Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hugo/</loc>
+    
+    <lastmod>2017-05-09T07:52:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/regex/</loc>
+    
+    <lastmod>2017-05-09T06:32:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/unicode/</loc>
+    
+    <lastmod>2017-05-09T05:58:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo/</loc>
+    
+    <lastmod>2017-05-09T05:19:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/devops/</loc>
+    
+    <lastmod>2017-05-09T03:03:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cinnamon-setup/</loc>
+    
+    <lastmod>2017-05-07T14:06:29.412Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gundam/</loc>
+    
+    <lastmod>2017-05-03T14:05:42.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/network-file-systems/</loc>
+    
+    <lastmod>2017-05-02T01:37:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/linux-security/</loc>
+    
+    <lastmod>2017-05-01T16:31:02.974Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/react-js/</loc>
+    
+    <lastmod>2017-04-28T05:27:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/graphql/</loc>
+    
+    <lastmod>2017-04-27T15:53:18.168Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/microservice/</loc>
+    
+    <lastmod>2017-04-26T10:27:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/artificial-intelligence/</loc>
+    
+    <lastmod>2017-04-25T15:23:38.214Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/openssl/</loc>
+    
+    <lastmod>2017-04-25T09:41:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/redux-js/</loc>
+    
+    <lastmod>2017-04-25T08:55:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cloud-backup/</loc>
+    
+    <lastmod>2017-04-20T15:24:31.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ssh/</loc>
+    
+    <lastmod>2017-04-18T03:09:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/nginx/</loc>
+    
+    <lastmod>2017-04-13T05:02:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ux/</loc>
+    
+    <lastmod>2017-04-11T04:37:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hapi/</loc>
+    
+    <lastmod>2017-04-06T02:15:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/copyright/</loc>
+    
+    <lastmod>2017-04-03T04:12:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hashicorp/</loc>
+    
+    <lastmod>2017-03-30T04:16:10.319Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/psychology/</loc>
+    
+    <lastmod>2017-03-30T04:14:19.331Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/behavioral-economics/</loc>
+    
+    <lastmod>2017-03-30T04:11:55.452Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/second-machine-age/</loc>
+    
+    <lastmod>2017-03-30T04:11:07.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/podcast/</loc>
+    
+    <lastmod>2017-03-26T05:30:43.981Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/sublime-text/</loc>
+    
+    <lastmod>2017-03-17T08:33:32.948Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/map/</loc>
+    
+    <lastmod>2017-03-17T08:32:20.169Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/build-systems-node-js/</loc>
+    
+    <lastmod>2017-03-15T16:01:24.851Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/opensuse/</loc>
+    
+    <lastmod>2017-03-15T13:28:19.344Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-security/</loc>
+    
+    <lastmod>2017-03-14T15:06:41.747Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/perl/</loc>
+    
+    <lastmod>2017-03-01T03:09:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/canvas/</loc>
+    
+    <lastmod>2017-02-27T05:23:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/flux-alternatives/</loc>
+    
+    <lastmod>2017-02-26T16:52:11.701Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cross-platform-apps-mobile/</loc>
+    
+    <lastmod>2017-02-26T09:13:01.243Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/immutability/</loc>
+    
+    <lastmod>2017-02-26T09:08:29.084Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/colorspace/</loc>
+    
+    <lastmod>2017-02-25T16:10:11.435Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-roman/</loc>
+    
+    <lastmod>2017-02-22T18:16:30.706Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/arch-packages/</loc>
+    
+    <lastmod>2017-02-22T17:59:37.469Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/flux/</loc>
+    
+    <lastmod>2017-02-22T17:15:05.938Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/reactive-programming/</loc>
+    
+    <lastmod>2017-02-22T15:50:52.006Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/vue-js/</loc>
+    
+    <lastmod>2017-02-22T15:37:43.039Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/jojo/</loc>
+    
+    <lastmod>2017-02-18T11:17:30.745Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-world/</loc>
+    
+    <lastmod>2017-02-16T15:51:01.185Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/pixar-universe/</loc>
+    
+    <lastmod>2017-02-16T15:47:49.416Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/game-engines/</loc>
+    
+    <lastmod>2017-02-12T10:03:51.546Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/google-cloud-platform/</loc>
+    
+    <lastmod>2017-02-11T03:05:23.745Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ingress-protection/</loc>
+    
+    <lastmod>2017-02-10T13:51:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mithril-js/</loc>
+    
+    <lastmod>2017-02-08T17:41:38.078Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/badges/</loc>
+    
+    <lastmod>2017-02-08T17:30:43.469Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/image-optimization/</loc>
+    
+    <lastmod>2017-02-07T06:31:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/atheist-vs-religion/</loc>
+    
+    <lastmod>2017-02-06T18:03:44.135Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/space-science/</loc>
+    
+    <lastmod>2017-02-06T17:41:23.331Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/engines/</loc>
+    
+    <lastmod>2017-02-05T15:10:59.622Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/comics/</loc>
+    
+    <lastmod>2017-02-05T09:41:25.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/computers/</loc>
+    
+    <lastmod>2017-02-02T03:59:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/urbit/</loc>
+    
+    <lastmod>2017-01-30T11:19:11.181Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/css-pipeline/</loc>
+    
+    <lastmod>2017-01-30T09:52:38.758Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/digimon/</loc>
+    
+    <lastmod>2017-01-29T11:05:02.154Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/chatbot/</loc>
+    
+    <lastmod>2017-01-29T06:06:42.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/computer-hardware/</loc>
+    
+    <lastmod>2017-01-25T11:05:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-europe/</loc>
+    
+    <lastmod>2017-01-23T04:14:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-chinese/</loc>
+    
+    <lastmod>2017-01-23T04:13:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-egypt/</loc>
+    
+    <lastmod>2017-01-23T03:50:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/computer-graphics/</loc>
+    
+    <lastmod>2017-01-19T10:20:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/khronos-group/</loc>
+    
+    <lastmod>2017-01-19T10:03:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cold-weapons/</loc>
+    
+    <lastmod>2017-01-16T05:21:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/tmux/</loc>
+    
+    <lastmod>2017-01-09T06:02:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mixed-reality/</loc>
+    
+    <lastmod>2017-01-07T14:11:37.778Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-internet/</loc>
+    
+    <lastmod>2017-01-07T13:29:43.107Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/are-modern-human-better-than-before/</loc>
+    
+    <lastmod>2017-01-07T13:14:38.321Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/systemd/</loc>
+    
+    <lastmod>2017-01-06T18:51:15.032Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/wordpress/</loc>
+    
+    <lastmod>2017-01-06T14:24:20.876Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ww-ii/</loc>
+    
+    <lastmod>2017-01-05T05:37:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/file-systems/</loc>
+    
+    <lastmod>2017-01-05T04:28:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/wordpress-dev/</loc>
+    
+    <lastmod>2017-01-01T09:44:53.167Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/heroku/</loc>
+    
+    <lastmod>2016-12-30T03:11:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/project-name/</loc>
+    
+    <lastmod>2016-12-27T09:03:11.713Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/vim-notes/</loc>
+    
+    <lastmod>2016-12-19T19:32:04.574Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/vim-settings/</loc>
+    
+    <lastmod>2016-12-19T19:31:32.804Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/android-studio/</loc>
+    
+    <lastmod>2016-12-09T03:30:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/dns/</loc>
+    
+    <lastmod>2016-11-25T09:04:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/git-server/</loc>
+    
+    <lastmod>2016-11-24T16:47:00.906Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gitbook/</loc>
+    
+    <lastmod>2016-11-21T05:58:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/lua/</loc>
+    
+    <lastmod>2016-11-18T05:06:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/voting-systems/</loc>
+    
+    <lastmod>2016-11-18T03:33:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/enterprise-server/</loc>
+    
+    <lastmod>2016-11-09T03:39:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gamepad/</loc>
+    
+    <lastmod>2016-10-24T06:44:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/games-and-arts/</loc>
+    
+    <lastmod>2016-10-24T06:10:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/batteries/</loc>
+    
+    <lastmod>2016-10-23T09:12:08.399Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/brexit/</loc>
+    
+    <lastmod>2016-10-11T07:43:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/distributed-file-systems/</loc>
+    
+    <lastmod>2016-10-07T08:42:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/toxics/</loc>
+    
+    <lastmod>2016-10-02T14:33:48.314Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/memory/</loc>
+    
+    <lastmod>2016-09-29T17:26:58.344Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/awk-notes/</loc>
+    
+    <lastmod>2016-09-29T07:26:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/iot/</loc>
+    
+    <lastmod>2016-09-29T06:14:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/firearms/</loc>
+    
+    <lastmod>2016-09-28T14:16:24.473Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/summons-board/</loc>
+    
+    <lastmod>2016-09-27T16:17:32.176Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/chinese-swords/</loc>
+    
+    <lastmod>2016-09-26T05:02:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/linux-setup/</loc>
+    
+    <lastmod>2016-09-25T14:05:41.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/why-businesses-exist-in-clusters/</loc>
+    
+    <lastmod>2016-09-23T16:40:39.198Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/kerihime-sweets/</loc>
+    
+    <lastmod>2016-09-23T15:31:17.464Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/nw-js/</loc>
+    
+    <lastmod>2016-09-22T16:52:46.086Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/electron/</loc>
+    
+    <lastmod>2016-09-22T16:47:05.997Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/zenity/</loc>
+    
+    <lastmod>2016-09-22T16:37:18.668Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/osx/</loc>
+    
+    <lastmod>2016-09-22T16:32:01.779Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/advertorial/</loc>
+    
+    <lastmod>2016-09-21T17:48:35.570Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/router/</loc>
+    
+    <lastmod>2016-09-21T17:32:03.623Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/wine-tasting/</loc>
+    
+    <lastmod>2016-09-21T17:27:14.264Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/spec-work/</loc>
+    
+    <lastmod>2016-09-21T17:12:35.755Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/flow-programming/</loc>
+    
+    <lastmod>2016-09-21T17:00:12.327Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mycroft/</loc>
+    
+    <lastmod>2016-09-21T15:53:44.164Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/distributed-computing/</loc>
+    
+    <lastmod>2016-09-21T15:27:00.516Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/charity/</loc>
+    
+    <lastmod>2016-09-21T14:28:43.572Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/linux-tips/</loc>
+    
+    <lastmod>2016-09-20T08:11:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/window-manager/</loc>
+    
+    <lastmod>2016-09-20T08:09:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/lcd/</loc>
+    
+    <lastmod>2016-09-20T06:05:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/morality/</loc>
+    
+    <lastmod>2016-09-20T05:56:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/p2p/</loc>
+    
+    <lastmod>2016-09-20T03:04:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/total-js/</loc>
+    
+    <lastmod>2016-09-16T17:30:00.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cardboard-box/</loc>
+    
+    <lastmod>2016-09-14T03:00:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/kindle/</loc>
+    
+    <lastmod>2016-09-13T07:08:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ww-i/</loc>
+    
+    <lastmod>2016-09-12T08:25:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/simple-machines/</loc>
+    
+    <lastmod>2016-09-12T06:56:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/calendar/</loc>
+    
+    <lastmod>2016-09-09T05:51:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-biblical/</loc>
+    
+    <lastmod>2016-09-09T05:51:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/virtualization/</loc>
+    
+    <lastmod>2016-09-07T13:49:20.690Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/slavery/</loc>
+    
+    <lastmod>2016-09-07T09:58:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/constitutions/</loc>
+    
+    <lastmod>2016-09-07T07:28:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/2016-electoral-reform/</loc>
+    
+    <lastmod>2016-09-05T17:46:24.125Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gold-standard/</loc>
+    
+    <lastmod>2016-09-01T14:34:26.803Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/angularjs2/</loc>
+    
+    <lastmod>2016-08-20T09:31:37.742Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/angularjs/</loc>
+    
+    <lastmod>2016-08-20T09:30:58.872Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/kids-learning/</loc>
+    
+    <lastmod>2016-08-17T15:02:02.837Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/tiled-image/</loc>
+    
+    <lastmod>2016-08-17T04:45:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/motion-sickness/</loc>
+    
+    <lastmod>2016-08-17T02:59:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gnuplot/</loc>
+    
+    <lastmod>2016-08-12T11:02:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/history-japanese/</loc>
+    
+    <lastmod>2016-08-10T15:50:36.086Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/trackball/</loc>
+    
+    <lastmod>2016-08-08T14:53:06.120Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/moon-story/</loc>
+    
+    <lastmod>2016-08-07T13:35:02.527Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/net-neutrality/</loc>
+    
+    <lastmod>2016-07-31T17:00:12.068Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/model-of-grief/</loc>
+    
+    <lastmod>2016-07-31T16:52:16.197Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/advertisement/</loc>
+    
+    <lastmod>2016-07-30T15:10:47.245Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/corporate/</loc>
+    
+    <lastmod>2016-07-27T07:48:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/coffee/</loc>
+    
+    <lastmod>2016-07-23T07:16:50.014Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/aurelia/</loc>
+    
+    <lastmod>2016-07-20T14:15:51.089Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/remote-desktop/</loc>
+    
+    <lastmod>2016-07-15T09:52:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/manga/</loc>
+    
+    <lastmod>2016-06-25T15:54:50.483Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/one-piece/</loc>
+    
+    <lastmod>2016-06-18T16:17:08.340Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mythology/</loc>
+    
+    <lastmod>2016-06-18T10:56:41.173Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/jquery/</loc>
+    
+    <lastmod>2016-06-17T05:47:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-3d/</loc>
+    
+    <lastmod>2016-06-14T03:41:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/lego/</loc>
+    
+    <lastmod>2016-06-12T10:18:10.290Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/star-wars/</loc>
+    
+    <lastmod>2016-06-11T15:34:26.941Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ember-js/</loc>
+    
+    <lastmod>2016-06-06T06:33:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mesos/</loc>
+    
+    <lastmod>2016-06-05T14:11:54.834Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/web-caching/</loc>
+    
+    <lastmod>2016-06-04T14:17:45.277Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/euler-s-identity/</loc>
+    
+    <lastmod>2016-05-26T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/money-and-banking/</loc>
+    
+    <lastmod>2016-05-26T08:13:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/rkt/</loc>
+    
+    <lastmod>2016-05-19T15:28:17.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/restful-api/</loc>
+    
+    <lastmod>2016-05-17T15:00:41.492Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/uml/</loc>
+    
+    <lastmod>2016-05-15T08:37:42.911Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/nodal/</loc>
+    
+    <lastmod>2016-05-13T15:01:58.155Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/barcode/</loc>
+    
+    <lastmod>2016-05-10T09:17:06.845Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/openseadragon/</loc>
+    
+    <lastmod>2016-05-06T05:53:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/yed/</loc>
+    
+    <lastmod>2016-05-05T14:34:36.695Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/upnp/</loc>
+    
+    <lastmod>2016-05-04T17:57:33.556Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/sed-notes/</loc>
+    
+    <lastmod>2016-05-02T07:26:14.912Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/internet-archive/</loc>
+    
+    <lastmod>2016-04-30T16:12:22.131Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/ampersand-js/</loc>
-    <lastmod>2015-12-08T02:32:18.336Z</lastmod>
+    
+    <lastmod>2016-04-24T10:23:08.061Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/tags/index.html</loc>
-    <lastmod>2015-08-26T05:43:41.354Z</lastmod>
+    <loc>http://leesei.github.io/web-map/</loc>
+    
+    <lastmod>2016-04-24T09:48:58.927Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/categories/index.html</loc>
-    <lastmod>2015-08-26T05:43:41.354Z</lastmod>
+    <loc>http://leesei.github.io/food/</loc>
+    
+    <lastmod>2016-04-24T08:41:21.159Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/README.html</loc>
-    <lastmod>2015-08-26T05:43:39.294Z</lastmod>
+    <loc>http://leesei.github.io/forecast/</loc>
+    
+    <lastmod>2016-04-24T08:17:15.985Z</lastmod>
+    
   </url>
   
   <url>
-    <loc>http://leesei.github.io/asset/test.js</loc>
-    <lastmod>2015-08-26T05:43:39.284Z</lastmod>
+    <loc>http://leesei.github.io/new-energy-source/</loc>
+    
+    <lastmod>2016-04-24T08:06:20.620Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/presentation/</loc>
+    
+    <lastmod>2016-04-23T16:31:45.557Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/bookmarklets/</loc>
+    
+    <lastmod>2016-04-23T10:57:32.704Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/markdown/</loc>
+    
+    <lastmod>2016-04-23T05:48:14.807Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/chromium-content/</loc>
+    
+    <lastmod>2016-04-22T03:35:23.000Z</lastmod>
+    
   </url>
   
   <url>
     <loc>http://leesei.github.io/about/index.html</loc>
-    <lastmod>2015-08-26T05:43:39.154Z</lastmod>
+    
+    <lastmod>2016-04-18T05:25:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/juggling/</loc>
+    
+    <lastmod>2016-04-17T15:46:41.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/disney-universe/</loc>
+    
+    <lastmod>2016-04-17T15:09:45.237Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/library-classification/</loc>
+    
+    <lastmod>2016-04-17T14:45:23.901Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/growth-economy/</loc>
+    
+    <lastmod>2016-04-17T14:40:46.962Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/syntax-highlighting/</loc>
+    
+    <lastmod>2016-04-13T01:43:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/military-rank/</loc>
+    
+    <lastmod>2016-04-12T15:03:38.597Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/middleman/</loc>
+    
+    <lastmod>2016-04-12T15:03:37.843Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/apache/</loc>
+    
+    <lastmod>2016-04-08T10:17:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/userscript/</loc>
+    
+    <lastmod>2016-04-05T17:26:32.988Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/crypto/</loc>
+    
+    <lastmod>2016-04-05T06:10:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/latex/</loc>
+    
+    <lastmod>2016-04-01T10:29:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/dnd/</loc>
+    
+    <lastmod>2016-03-27T17:47:23.573Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cinnamon-notes/</loc>
+    
+    <lastmod>2016-03-23T16:14:57.574Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/nps/</loc>
+    
+    <lastmod>2016-03-19T06:29:56.578Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ruby-settings/</loc>
+    
+    <lastmod>2016-03-18T03:09:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-string-expansion/</loc>
+    
+    <lastmod>2016-02-25T06:24:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/china-town/</loc>
+    
+    <lastmod>2016-02-21T12:46:37.579Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/basketball/</loc>
+    
+    <lastmod>2016-02-19T04:58:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-sharing/</loc>
+    
+    <lastmod>2016-02-15T05:36:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/antikythera-mechanism/</loc>
+    
+    <lastmod>2016-02-14T13:16:45.859Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/paradox/</loc>
+    
+    <lastmod>2016-02-07T10:40:23.558Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/netflix-oss/</loc>
+    
+    <lastmod>2016-02-04T01:15:49.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/seif/</loc>
+    
+    <lastmod>2016-01-31T09:54:23.470Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/postal-js/</loc>
+    
+    <lastmod>2015-12-15T06:02:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/decision-making/</loc>
+    
+    <lastmod>2015-12-11T18:11:17.051Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/awesome-lists/</loc>
+    
+    <lastmod>2015-12-10T05:33:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/drawing/</loc>
+    
+    <lastmod>2015-12-08T03:24:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/rube-goldberg-machines/</loc>
+    
+    <lastmod>2015-12-08T03:23:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/buddhism/</loc>
+    
+    <lastmod>2015-12-08T03:23:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mobile-os/</loc>
+    
+    <lastmod>2015-12-08T03:20:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/dollar-symbol/</loc>
+    
+    <lastmod>2015-12-08T03:17:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/fairy-tales/</loc>
+    
+    <lastmod>2015-12-08T03:16:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/si-units/</loc>
+    
+    <lastmod>2015-12-08T03:05:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/bridges/</loc>
+    
+    <lastmod>2015-12-08T02:59:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/robotics/</loc>
+    
+    <lastmod>2015-12-08T02:59:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/transmissions/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/vps-hosting/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/ts-analyzer/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/movies-database/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mongodb/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/restify-express/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/public-domain-books/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/us-and-canada-border/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/tintint/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/popcorn-time/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/vikings/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/opencv/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/when-average-is-not-enough/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/shell-history-expansion/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/why-is-water-transparent/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/node-js-https/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/philosophy/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/software-licensing-dev/</loc>
+    
+    <lastmod>2015-12-08T02:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/issue-tracker/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/disappearing-polish-s/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/facebook-problems/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/capitalism/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/gamification/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hackintosh/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hong-kong-places/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/bnf/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/bitnami/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/cron/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/kodi/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/lifehack/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/antitrust/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/mali-gpu/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/android-setup/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/git-settings/</loc>
+    
+    <lastmod>2015-12-08T02:32:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/categories/index.html</loc>
+    
+    <lastmod>2015-06-24T12:01:28.481Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/tags/index.html</loc>
+    
+    <lastmod>2015-04-16T09:33:57.474Z</lastmod>
+    
   </url>
   
 </urlset>

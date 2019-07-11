@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Restify Express | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,7 +107,7 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p>Stack Restify over Express </p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> restify = <span class="built_in">require</span>(<span class="string">'restify'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// see http://stackoverflow.com/a/13690887/665507</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Restify server config here</span></span><br><span class="line"><span class="keyword">var</span> server = restify.createServer(&#123;</span><br><span class="line">  name: <span class="string">'restify-test'</span>,</span><br><span class="line">  version: <span class="string">'1.0.0'</span>,</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Express config here</span></span><br><span class="line"><span class="keyword">var</span> expressApp = express()</span><br><span class="line">    .use(express.logger())</span><br><span class="line">    .use(express.bodyParser())</span><br><span class="line">    .use(express.query())</span><br><span class="line">    .use(express.cookieParser())</span><br><span class="line">    <span class="comment">// And this is where the magic happens</span></span><br><span class="line">    .use(<span class="string">"/api"</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">             server.server.emit(<span class="string">'request'</span>, req, res);</span><br><span class="line">         &#125;);</span><br><span class="line"></span><br><span class="line">expressApp.listen(<span class="number">8080</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</div><div class="line"><span class="keyword">var</span> restify = <span class="built_in">require</span>(<span class="string">'restify'</span>);</div><div class="line"></div><div class="line"><span class="comment">// see http://stackoverflow.com/a/13690887/665507</span></div><div class="line"></div><div class="line"><span class="comment">// Restify server config here</span></div><div class="line"><span class="keyword">var</span> server = restify.createServer(&#123;</div><div class="line">  name: <span class="string">'restify-test'</span>,</div><div class="line">  version: <span class="string">'1.0.0'</span>,</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// Express config here</span></div><div class="line"><span class="keyword">var</span> expressApp = express()</div><div class="line">    .use(express.logger())</div><div class="line">    .use(express.bodyParser())</div><div class="line">    .use(express.query())</div><div class="line">    .use(express.cookieParser())</div><div class="line">    <span class="comment">// And this is where the magic happens</span></div><div class="line">    .use(<span class="string">"/api"</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</div><div class="line">             server.server.emit(<span class="string">'request'</span>, req, res);</div><div class="line">         &#125;);</div><div class="line"></div><div class="line">expressApp.listen(<span class="number">8080</span>);</div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -164,7 +165,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/web/">web<span>29</span></a></li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
   </li>
 
     </ul>
@@ -177,7 +178,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/express/">express<span>1</span></a></li> <li><a href="/tags/node-js/">node-js<span>5</span></a></li> <li><a href="/tags/restify/">restify<span>1</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
+  <li><a href="/tags/node-js/">node-js<span>6</span></a></li> <li><a href="/tags/snippets/">snippets<span>3</span></a></li> <li><a href="/tags/restify/">restify<span>1</span></a></li> <li><a href="/tags/express/">express<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -199,7 +200,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

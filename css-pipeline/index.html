@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CSS Bundling | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="CSS Bundling"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> CSS Bundling</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>If the CSS preprocessor supports <code>@import</code> <code>node_modules</code>, it supports bundling.</p>
+<p><a href="http://www.456bereastreet.com/archive/201603/why_i_dont_use_css_preprocessors/" target="_blank" rel="external">Why I don’t use CSS preprocessors | 456 Berea Street</a></p>
+<p><a href="http://www.leanpanda.com/blog/2015/07/20/css-preprocessors/" target="_blank" rel="external">BazaarJS: CSS pre and post processors</a></p>
+<p><a href="http://csscomb.com/" target="_blank" rel="external">CSScomb: Makes your code beautiful</a></p>
+<h2 id="Minifier"><a href="#Minifier" class="headerlink" title="Minifier"></a>Minifier</h2><p><a href="https://goalsmashers.github.io/css-minification-benchmark/" target="_blank" rel="external">css-minification-benchmark results</a></p>
+<p><a href="https://github.com/jakubpawlowicz/clean-css" target="_blank" rel="external">jakubpawlowicz/clean-css: A fast, efficient, and well tested CSS minifier for node.js.</a><br><a href="http://cssnano.co/" target="_blank" rel="external">cssnano: A modular minifier based on the PostCSS ecosystem</a></p>
+<p><a href="https://github.com/purifycss/purifycss" target="_blank" rel="external">purifycss/purifycss: Remove unused CSS. Also works with single-page apps.</a></p>
+<h2 id="Rework"><a href="#Rework" class="headerlink" title="Rework"></a>Rework</h2><p><a href="https://github.com/reworkcss" target="_blank" rel="external">rework</a> <a href="https://github.com/reworkcss/rework-npm" target="_blank" rel="external">API</a> and <a href="https://github.com/sethvincent/rework-npm-cli" target="_blank" rel="external">sethvincent/rework-npm-cli</a><br>Rework is a framework for CSS preprocessing (like Broswerify), it provides <a href="https://github.com/reworkcss/rework-npm" target="_blank" rel="external">api</a> that support <code>@import</code> <code>node_modules</code> folder and bundling.</p>
+<p><a href="http://makerlog.org/posts/rework-npm-myth-clean-css/" target="_blank" rel="external">Using rework-npm for bundling css from npm along with myth and clean-css | makerlog</a><br><a href="http://dontkry.com/posts/code/using-npm-on-the-client-side.html#stylesheets" target="_blank" rel="external">Using npm on the client side | dontkry.com</a></p>
+<h3 id="Myth"><a href="#Myth" class="headerlink" title="Myth"></a>Myth</h3><p><a href="http://www.myth.io/" target="_blank" rel="external">Myth - CSS the way it was imagined.</a> API and CLI</p>
+<p>Based on Rework, use future CSS spec today (like Babel for JavaScript)</p>
+<h3 id="resin"><a href="#resin" class="headerlink" title="resin"></a>resin</h3><p><a href="https://github.com/topcoat/resin" target="_blank" rel="external">topcoat/resin: A future facing CSS preprocessor made with rework</a></p>
+<h2 id="PostCSS"><a href="#PostCSS" class="headerlink" title="PostCSS"></a>PostCSS</h2><p><a href="https://github.com/postcss/postcss" target="_blank" rel="external">postcss/postcss</a> API and CLI<br><a href="http://cssnext.io/" target="_blank" rel="external">cssnext - Use tomorrow’s CSS syntax, today.</a></p>
+<p><a href="https://tylergaw.com/articles/sass-to-postcss" target="_blank" rel="external">From Sass to PostCSS by Tyler Gaw</a><br><a href="https://medium.com/@svilen/getting-started-with-postcss-a-quick-guide-for-sass-users-90c8b675d5f4#.isx90919d" target="_blank" rel="external">Getting started with PostCSS: A quick guide for Sass users — Medium</a><br><a href="https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284#.nhhec7hnx" target="_blank" rel="external">The End of Global CSS — SEEK UI Engineering — Medium</a></p>
+<p><a href="https://github.com/css-modules/css-modules" target="_blank" rel="external">css-modules/css-modules: Documentation about css-modules</a><br><a href="https://github.com/css-modules/css-modulesify" target="_blank" rel="external">css-modules/css-modulesify: A browserify plugin to load CSS Modules</a><br><a href="https://github.com/ruanyf/css-modules-demos" target="_blank" rel="external">ruanyf/css-modules-demos: a collection of simple demos of CSS Modules</a></p>
+<h2 id="npm-css"><a href="#npm-css" class="headerlink" title="npm-css"></a>npm-css</h2><p><a href="https://github.com/defunctzombie/npm-css" target="_blank" rel="external">defunctzombie/npm-css</a></p>
+<p>Pure bundler</p>
+<h2 id="Other-Preprocessors"><a href="#Other-Preprocessors" class="headerlink" title="Other Preprocessors"></a>Other Preprocessors</h2><p><a href="http://csspre.com/" target="_blank" rel="external">Blog ◩ CSS PREprocessors</a><br><a href="http://csspre.com/compare/" target="_blank" rel="external">Compare ◩ CSS PREprocessors</a></p>
+<p><a href="https://github.com/less/less.js" target="_blank" rel="external">less/less.js</a></p>
+<p><a href="https://sass-compatibility.github.io/" target="_blank" rel="external">Sass Compatibility</a></p>
+<p><a href="http://csswizardry.com/2016/06/improving-your-css-with-parker/" target="_blank" rel="external">Improving Your CSS with Parker – CSS Wizardry – CSS, OOCSS, front-end architecture, performance and more, by Harry Roberts</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/javascript-pipeline/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/dnd/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-12-21 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/npm-css/">npm-css<span>1</span></a></li> <li><a href="/tags/rework/">rework<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Minifier"><span class="toc-article-text">Minifier</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Rework"><span class="toc-article-text">Rework</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Myth"><span class="toc-article-text">Myth</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#resin"><span class="toc-article-text">resin</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#PostCSS"><span class="toc-article-text">PostCSS</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#npm-css"><span class="toc-article-text">npm-css</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Other-Preprocessors"><span class="toc-article-text">Other Preprocessors</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

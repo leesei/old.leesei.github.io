@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>DNS | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,11 +106,28 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts" target="_blank" rel="external">An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean</a><br><a href="https://www.digitalocean.com/community/tutorials/a-comparison-of-dns-server-types-how-to-choose-the-right-dns-configuration" target="_blank" rel="external">A Comparison of DNS Server Types: How To Choose the Right DNS Configuration | DigitalOcean</a><br><a href="http://code.tutsplus.com/tutorials/an-introduction-to-learning-and-using-dns-records--cms-24704" target="_blank" rel="external">An Introduction to Learning and Using DNS Records - Tuts+ Code Tutorial</a></p>
-<h2 id="Verifying_Registry"><a href="#Verifying_Registry" class="headerlink" title="Verifying Registry"></a>Verifying Registry</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># this should show new name server</span></span><br><span class="line">whois yourdomainname.com</span><br><span class="line"><span class="comment"># might show info from old name server due to caching</span></span><br><span class="line">dig -t NS yourdomainname.com</span><br><span class="line"><span class="comment"># explicitly use new name server</span></span><br><span class="line">dig -t NS yourdomainname.com @new-nameserver</span><br><span class="line"><span class="comment"># should have yourdomainname in "ANSWER SECTION"</span></span><br></pre></td></tr></table></figure>
+	    <p><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts" target="_blank" rel="external">An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean</a><br><a href="https://www.digitalocean.com/community/tutorials/a-comparison-of-dns-server-types-how-to-choose-the-right-dns-configuration" target="_blank" rel="external">A Comparison of DNS Server Types: How To Choose the Right DNS Configuration | DigitalOcean</a><br><a href="http://code.tutsplus.com/tutorials/an-introduction-to-learning-and-using-dns-records--cms-24704" target="_blank" rel="external">An Introduction to Learning and Using DNS Records - Tuts+ Code Tutorial</a><br><a href="https://scotch.io/tutorials/dns-explained-how-your-browser-finds-websites" target="_blank" rel="external">DNS Explained – How Your Browser Finds Websites | Scotch</a></p>
+<p><a href="https://blog.cloudflare.com/cloudflare-dns-is-simple-fast-and-flexible/" target="_blank" rel="external">CloudFlare DNS is simple, fast and flexible</a><br><a href="https://blog.cloudflare.com/65gbps-ddos-no-problem/" target="_blank" rel="external">How to Launch a 65Gbps DDoS, and How to Stop One</a></p>
+<blockquote>
+<p>see <code>network.md#anycast</code></p>
+</blockquote>
+<h2 id="Verifying-Registry"><a href="#Verifying-Registry" class="headerlink" title="Verifying Registry"></a>Verifying Registry</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># this should show new name server</span></div><div class="line">whois yourdomainname.com</div><div class="line"><span class="comment"># might show info from old name server due to caching</span></div><div class="line">dig -t NS yourdomainname.com</div><div class="line"><span class="comment"># explicitly use new name server</span></div><div class="line">dig -t NS yourdomainname.com @new-nameserver</div><div class="line"><span class="comment"># should have yourdomainname in "ANSWER SECTION"</span></div><div class="line"></div><div class="line">nslookup google.com</div><div class="line">host -v google.com</div><div class="line">drill google.com</div></pre></td></tr></table></figure>
 <p><a href="https://www.digitalocean.com/community/tutorial_series/an-introduction-to-managing-dns" target="_blank" rel="external">An Introduction to Managing DNS | DigitalOcean</a> (Series)<br><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean" target="_blank" rel="external">How To Set Up a Host Name with DigitalOcean | DigitalOcean</a></p>
-<h2 id="Registrars"><a href="#Registrars" class="headerlink" title="Registrars"></a>Registrars</h2><p><a href="https://www.hover.com/" target="_blank" rel="external">Hover - domain name and email management made simple</a><br><a href="https://www.namecheap.com/" target="_blank" rel="external">Namecheap.com • Cheap Domain Name Registration &amp; Web Hosting</a><br><a href="https://www.godaddy.com/tlds/gtld.aspx" target="_blank" rel="external">gTLD Extensions | Discover Your Next Domain - GoDaddy</a><br><a href="http://www.gandi.net/" target="_blank" rel="external">Domain name registrar and VPS cloud hosting - Gandi.net</a><br><a href="https://www.name.com/" target="_blank" rel="external">Domain Names | Search and Register New Domains, Web Hosting, Website Builder, SSL Certificates | Name.com</a></p>
+<h2 id="Registrars"><a href="#Registrars" class="headerlink" title="Registrars"></a>Registrars</h2><p><a href="https://www.hover.com/" target="_blank" rel="external">Hover - domain name and email management made simple</a></p>
+<p><a href="https://www.namecheap.com/" target="_blank" rel="external">Namecheap.com • Cheap Domain Name Registration &amp; Web Hosting</a><br><a href="https://help.hover.com/hc/en-us/articles/217282457-How-to-Edit-DNS-records-A-CNAME-MX-TXT-and-SRV-Updated-Aug-2015-" target="_blank" rel="external">How to: Edit DNS records - A, CNAME, MX, TXT, and SRV (Updated Aug 2015) – Hover Help Center</a></p>
+<p><a href="https://www.godaddy.com/tlds/gtld.aspx" target="_blank" rel="external">gTLD Extensions | Discover Your Next Domain - GoDaddy</a><br><a href="http://www.gandi.net/" target="_blank" rel="external">Domain name registrar and VPS cloud hosting - Gandi.net</a><br><a href="https://www.name.com/" target="_blank" rel="external">Domain Names | Search and Register New Domains, Web Hosting, Website Builder, SSL Certificates | Name.com</a><br><a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSPod-免费智能DNS解析服务商-电信<em>网通</em>教育网,智能DNS</a></p>
 <p><a href="http://freedns.afraid.org/" target="_blank" rel="external">FreeDNS - Free DNS - Dynamic DNS - Static DNS subdomain and domain hosting</a><br><a href="https://coolaj86.com/articles/free-dns-hosting-with-freedns-afraid-org.html" target="_blank" rel="external">Free DNS hosting with freedns.afraid.org</a><br><a href="https://dns.js.org/" target="_blank" rel="external">JS.ORG | DNS</a></p>
+<h2 id="Public-DNS"><a href="#Public-DNS" class="headerlink" title="Public DNS"></a>Public DNS</h2><h3 id="Google-DNS"><a href="#Google-DNS" class="headerlink" title="Google DNS"></a>Google DNS</h3><p><a href="https://developers.google.com/speed/public-dns/" target="_blank" rel="external">Public DNS  |  Google Developers</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">8.8.8.8</div><div class="line">8.8.4.4</div></pre></td></tr></table></figure>
+<h3 id="OpenDNS"><a href="#OpenDNS" class="headerlink" title="OpenDNS"></a>OpenDNS</h3><p><a href="https://www.opendns.com/home-internet-security/" target="_blank" rel="external">Home Internet Security | OpenDNS</a><br><a href="http://208.69.38.170/" target="_blank" rel="external">OpenDNS &gt; System (also available at http://208.69.38.170/)</a><br>Allows you to link IPs to your predefined filters.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">208.67.222.222</div><div class="line">208.67.220.220</div></pre></td></tr></table></figure>
+<h3 id="ScrubIt"><a href="#ScrubIt" class="headerlink" title="ScrubIt"></a>ScrubIt</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">67.138.54.100</div><div class="line">207.225.209.66</div></pre></td></tr></table></figure>
+<h3 id="dnsadvantage"><a href="#dnsadvantage" class="headerlink" title="dnsadvantage"></a>dnsadvantage</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">156.154.70.1</div><div class="line">156.154.71.1</div></pre></td></tr></table></figure>
+<h2 id="Private-DNS-Server"><a href="#Private-DNS-Server" class="headerlink" title="Private DNS Server"></a>Private DNS Server</h2><p><a href="http://www.aboutdebian.com/dns.htm" target="_blank" rel="external">Linux DNS Server - How To Set Up Static or Dynamic DNS for Your Internet Servers</a></p>
+<p><a href="http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/" target="_blank" rel="external">Deploying a DNS Server using Docker - SAMEER NAIK</a><br><a href="https://github.com/sameersbn/docker-bind" target="_blank" rel="external">sameersbn/docker-bind: Dockerize BIND DNS server with webmin for DNS administration</a></p>
+<p><a href="https://github.com/miekg/coredns" target="_blank" rel="external">miekg/coredns: CoreDNS is a DNS server that runs middleware</a></p>
+<h2 id="DDNS"><a href="#DDNS" class="headerlink" title="DDNS"></a>DDNS</h2><p><a href="http://www.noip.com/free" target="_blank" rel="external">Free Dynamic DNS - No-IP.com - Managed DNS Services</a><br><a href="http://www.makeuseof.com/tag/5-best-dynamic-dns-providers-can-lookup-free-today/" target="_blank" rel="external">5 Best Dynamic DNS Providers You Can Lookup for Free Today</a><br><a href="http://www.oray.com/" target="_blank" rel="external">花生壳官网|动态域名|免费域名建站|DDNS|向日葵远程控制|蒲公英路由器-Oray开放的互联网应用服务引领者</a></p>
+<p><a href="http://xip.io/" target="_blank" rel="external">xip.io: wildcard DNS for everyone</a> resolves <code>[*.]&lt;IP&gt;.xip.io</code> to <code>&lt;IP&gt;</code>.</p>
 	  
 	</div>
 
@@ -167,7 +185,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/web/">web<span>29</span></a></li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
   </li>
 
     </ul>
@@ -182,7 +200,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Verifying_Registry"><span class="toc-article-text">Verifying Registry</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Registrars"><span class="toc-article-text">Registrars</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Verifying-Registry"><span class="toc-article-text">Verifying Registry</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Registrars"><span class="toc-article-text">Registrars</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Public-DNS"><span class="toc-article-text">Public DNS</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Google-DNS"><span class="toc-article-text">Google DNS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#OpenDNS"><span class="toc-article-text">OpenDNS</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#ScrubIt"><span class="toc-article-text">ScrubIt</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#dnsadvantage"><span class="toc-article-text">dnsadvantage</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Private-DNS-Server"><span class="toc-article-text">Private DNS Server</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#DDNS"><span class="toc-article-text">DDNS</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -199,7 +217,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Node.js HTTPS server | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,7 +107,7 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p>Generate key with <code>openssl</code> first.</p>
-<h2 id="server"><a href="#server" class="headerlink" title="server"></a>server</h2><figure class="highlight javascript"><figcaption><span>http-server.js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'Hello World'</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</span><br><span class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> options = &#123;</span><br><span class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</span><br><span class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (port) &#123;</span><br><span class="line">    http.createServer(app).listen(port);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (ports) &#123;</span><br><span class="line">    https.createServer(options, app).listen(ports);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="server"><a href="#server" class="headerlink" title="server"></a>server</h2><figure class="highlight javascript"><figcaption><span>http-server.js</span></figcaption><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</div><div class="line"><span class="keyword">var</span> app = express();</div><div class="line"></div><div class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res</span>)</span>&#123;</div><div class="line">    res.send(<span class="string">'Hello World'</span>);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="keyword">var</span> port = <span class="number">3000</span>;</div><div class="line"><span class="keyword">var</span> ports = <span class="number">3443</span>;</div><div class="line"></div><div class="line"><span class="keyword">var</span> options = &#123;</div><div class="line">    key: fs.readFileSync(<span class="string">'./privatekey.pem'</span>),</div><div class="line">    cert: fs.readFileSync(<span class="string">'./certificate.pem'</span>)</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">if</span> (port) &#123;</div><div class="line">    http.createServer(app).listen(port);</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening http on port '</span> + port + <span class="string">'...'</span>);</div><div class="line">&#125;</div><div class="line"><span class="keyword">if</span> (ports) &#123;</div><div class="line">    https.createServer(options, app).listen(ports);</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'Listening https on port '</span> + ports + <span class="string">'...'</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 	  
 	</div>
 
@@ -164,7 +165,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/comp-lang/">comp.lang<span>27</span></a></li>
+    <li><a href="/categories/comp-lang/">comp.lang<span>33</span></a></li>
   </li>
 
     </ul>
@@ -177,7 +178,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/node-js/">node-js<span>5</span></a></li> <li><a href="/tags/openssl/">openssl<span>2</span></a></li> <li><a href="/tags/snippets/">snippets<span>2</span></a></li>
+  <li><a href="/tags/node-js/">node-js<span>6</span></a></li> <li><a href="/tags/openssl/">openssl<span>2</span></a></li> <li><a href="/tags/snippets/">snippets<span>3</span></a></li>
     </ul>
 	</div>
 		
@@ -204,7 +205,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

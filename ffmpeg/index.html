@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>avconv/ffmpeg | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -105,23 +106,25 @@
 
 	<!-- content -->
 	<div class="mypage">		
-	    <p>FFmpeg is a library and utility for AV format convertion.<br>Libav is a fork of FFmpeg with more transparent governance.<br>The paramters for <code>ffmepg</code> and <code>avconv</code> are <em>MOSTLY</em> compatible.</p>
-<p><a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html" target="_blank" rel="external">The FFmpeg/Libav situation</a><br><a href="https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav" target="_blank" rel="external">FFmpeg versus Libav · mpv-player/mpv Wiki</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ffmpeg [global options] [[infile options][-i infile]]... &#123;[outfile options] outfile&#125;...</span><br></pre></td></tr></table></figure>
+	    <p>FFmpeg is a library and utility for AV format conversion.<br>Libav is a fork of FFmpeg with more transparent governance.<br>The paramters for <code>ffmepg</code> and <code>avconv</code> are <em>MOSTLY</em> compatible.</p>
+<p><a href="http://blog.pkh.me/p/13-the-ffmpeg-libav-situation.html" target="_blank" rel="external">The FFmpeg/Libav situation</a><br><a href="https://github.com/mpv-player/mpv/wiki/FFmpeg-versus-Libav" target="_blank" rel="external">FFmpeg versus Libav · mpv-player/mpv Wiki</a><br><a href="https://wiki.debian.org/Debate/libav-provider/ffmpeg" target="_blank" rel="external">Debate/libav-provider/ffmpeg - Debian Wiki</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">ffmpeg [global options] [[infile options][-i infile]]... &#123;[outfile options] outfile&#125;...</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h2 id="FFMpeg_on_Debian"><a href="#FFMpeg_on_Debian" class="headerlink" title="FFMpeg on Debian"></a>FFMpeg on Debian</h2><blockquote>
+<h2 id="FFMpeg-on-Debian"><a href="#FFMpeg-on-Debian" class="headerlink" title="FFMpeg on Debian"></a>FFMpeg on Debian</h2><blockquote>
 <p><a href="http://stackoverflow.com/a/9477756/665507" target="_blank" rel="external">http://stackoverflow.com/a/9477756/665507</a></p>
 </blockquote>
 <p>If you wanted real FFMpeg on Ubuntu/Debian:</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo add-apt-repository ppa:jon-severinsson/ffmpeg</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ffmpeg</span><br></pre></td></tr></table></figure>
-<h2 id="trim_clip"><a href="#trim_clip" class="headerlink" title="trim clip"></a>trim clip</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># frame accurate, may not be keyframe</span></span><br><span class="line">avconv -i &lt;infile&gt; -ss &lt;second/hh:mm:ss[.xxx]&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br><span class="line"><span class="comment"># search by keyframe, faster</span></span><br><span class="line">avconv -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo add-apt-repository ppa:jon-severinsson/ffmpeg</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install ffmpeg</div></pre></td></tr></table></figure>
+<h2 id="trim-clip"><a href="#trim-clip" class="headerlink" title="trim clip"></a>trim clip</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># frame accurate, may not be keyframe</span></div><div class="line">avconv -i &lt;infile&gt; -ss &lt;second/hh:mm:ss[.xxx]&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</div><div class="line"><span class="comment"># search by keyframe, faster</span></div><div class="line">avconv -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -t &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</div></pre></td></tr></table></figure>
 <p><code>t</code> is duration counts from <code>ss</code></p>
 <blockquote>
 <p>TODO: add tool to do diff of <code>hh:mm:ss[.xxx]</code> format time</p>
 </blockquote>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># keyframe seek, time is reset, `-to` should be the duration</span></span><br><span class="line">ffmpeg -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -to &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># keyframe seek, time is reset, `-to` should be the duration</span></div><div class="line">ffmpeg -ss &lt;second/hh:mm:ss[.xxx]&gt; -i &lt;infile&gt; -to &lt;second/hh:mm:ss[.xxx]&gt; -c copy &lt;outfile&gt;</div></pre></td></tr></table></figure>
 <p>use <code>-c:a</code> and <code>-c:v</code> to specify audio and video codecs</p>
-<h2 id="color_format_conversion"><a href="#color_format_conversion" class="headerlink" title="color format conversion"></a>color format conversion</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ffmpeg -pix_fmt yuv420p <span class="operator">-s</span> <span class="number">352</span>x288 -i in.yuv -pix_fmt nv12 out.yuv</span><br></pre></td></tr></table></figure>
+<h2 id="color-format-conversion"><a href="#color-format-conversion" class="headerlink" title="color format conversion"></a>color format conversion</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ffmpeg -pix_fmt yuv420p <span class="_">-s</span> 352x288 -i in.yuv -pix_fmt nv12 out.yuv</div></pre></td></tr></table></figure>
+<h2 id="GIF-generation"><a href="#GIF-generation" class="headerlink" title="GIF generation"></a>GIF generation</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># generate 1 FPS for the first minute</div><div class="line">ffmpeg -i input.mp4 -vf scale=320:-1,fps=1 -to 60 output.gif</div><div class="line"></div><div class="line"># using per frame palettes</div><div class="line">ffmpeg -i input.mp4 -vf &quot;scale=320:-1:flags=lanczos,fps=1,palettegen&quot; -to 60  -y /tmp/palette.png</div><div class="line">ffmpeg -i input.mp4 -i /tmp/palette.png -to 60 -lavfi &quot;scale=320:-1:flags=lanczos,fps=1[x];[x][1:v]paletteuse=dither=sierra2_4a&quot; output.gif</div><div class="line"></div><div class="line"># same with Image magic</div><div class="line">ffmpeg -i input.mp4 -vf scale=320:-1,fps=1 -to 60 -f image2pipe -vcodec ppm - | convert -delay 100 -loop 0 - output.gif</div><div class="line"># with optimize (~15% reduction)</div><div class="line">ffmpeg -i input.mp4 -vf scale=320:-1,fps=1 -to 60 -f image2pipe -vcodec ppm - | convert - gif:- | convert -layers Optimize  -delay 100 -loop 0 - output.gif</div></pre></td></tr></table></figure>
+<p>Using per frame palettes:<br><a href="http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html" target="_blank" rel="external">High quality GIF with FFmpeg</a><br><a href="https://github.com/lukechilds/gifgen" target="_blank" rel="external">lukechilds/gifgen: Simple high quality GIF encoding</a><br><a href="https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality" target="_blank" rel="external">How do I convert a video to GIF using ffmpeg, with reasonable quality? - Super User</a></p>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="http://ffmpeg.org/documentation.html" target="_blank" rel="external">Documentation</a><br><a href="http://ffmpeg.org/ffmpeg.html" target="_blank" rel="external">ffmpeg Documentation</a></p>
 <p><a href="http://trac.ffmpeg.org/" target="_blank" rel="external">FFmpeg</a><br><a href="https://wiki.archlinux.org/index.php/FFmpeg" target="_blank" rel="external">FFmpeg - ArchWiki</a><br><a href="https://trac.ffmpeg.org/wiki/Seeking" target="_blank" rel="external">Seeking – FFmpeg</a></p>
 <p><a href="http://howto-pages.org/ffmpeg/" target="_blank" rel="external">ffmpeg audio/video manipulation</a><br><a href="http://www.catswhocode.com/blog/19-ffmpeg-commands-for-all-needs" target="_blank" rel="external">19 ffmpeg commands for all needs | CatsWhoCode.com</a></p>
@@ -184,7 +187,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -197,7 +200,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/avconv/">avconv<span>1</span></a></li> <li><a href="/tags/ffmpeg/">ffmpeg<span>1</span></a></li> <li><a href="/tags/shell-tool/">shell-tool<span>16</span></a></li>
+  <li><a href="/tags/shell-tool/">shell-tool<span>22</span></a></li> <li><a href="/tags/ffmpeg/">ffmpeg<span>1</span></a></li> <li><a href="/tags/avconv/">avconv<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -207,7 +210,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#FFMpeg_on_Debian"><span class="toc-article-text">FFMpeg on Debian</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#trim_clip"><span class="toc-article-text">trim clip</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#color_format_conversion"><span class="toc-article-text">color format conversion</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#FFMpeg-on-Debian"><span class="toc-article-text">FFMpeg on Debian</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#trim-clip"><span class="toc-article-text">trim clip</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#color-format-conversion"><span class="toc-article-text">color format conversion</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#GIF-generation"><span class="toc-article-text">GIF generation</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reference"><span class="toc-article-text">Reference</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -224,7 +227,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

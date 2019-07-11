@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   
   <title>Shell Tools (Network) | leesei&#39;s notebook</title>
+
   <meta name="author" content="leesei">
   
   <meta name="description" content="Technical blog for the future me and other beings.">
@@ -22,7 +23,7 @@
   
     <link href="/favicon.png" rel="icon">
   
-  
+
   <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -106,9 +107,21 @@
 	<!-- content -->
 	<div class="mypage">		
 	    <p>Network related shell tools</p>
-<h2 id="Nmap"><a href="#Nmap" class="headerlink" title="Nmap"></a>Nmap</h2><p><a href="https://nmap.org/" target="_blank" rel="external">Nmap: the Network Mapper - Free Security Scanner</a></p>
-<h2 id="netcat"><a href="#netcat" class="headerlink" title="netcat"></a>netcat</h2><p><a href="http://nc110.sourceforge.net/" target="_blank" rel="external">http://nc110.sourceforge.net/</a><br><a href="http://www.catonmat.net/blog/unix-utilities-netcat/" target="_blank" rel="external">http://www.catonmat.net/blog/unix-utilities-netcat/</a><br><a href="http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/" target="_blank" rel="external">http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/</a><br><a href="http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/" target="_blank" rel="external">http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/</a></p>
-<h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h2><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># list listening TCP ports</span></span><br><span class="line">netstat -antlp</span><br><span class="line">lsof -i udp:<span class="number">24000</span></span><br><span class="line">lsof -i tcp:<span class="number">80</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="nmap"><a href="#nmap" class="headerlink" title="nmap"></a><code>nmap</code></h2><p><a href="https://nmap.org/" target="_blank" rel="external">Nmap: the Network Mapper - Free Security Scanner</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">nmap -p 443 --script ssl-enum-ciphers &lt;host&gt;</div></pre></td></tr></table></figure>
+<h2 id="netcat"><a href="#netcat" class="headerlink" title="netcat"></a><code>netcat</code></h2><p><a href="http://nc110.sourceforge.net/" target="_blank" rel="external">Netcat: the TCP/IP swiss army</a><br><a href="http://www.catonmat.net/blog/unix-utilities-netcat/" target="_blank" rel="external">A Unix Utility You Should Know About: Netcat - good coders code, great coders reuse</a><br><a href="http://blog.hawkhost.com/2009/12/12/using-netcat-as-an-intercepting-proxy/" target="_blank" rel="external">Using netcat as an intercepting proxy | Hawk Host Blog</a><br><a href="http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/" target="_blank" rel="external">Netcat – a couple of useful examples | G-Loaded Journal</a><br><a href="http://www.admin-magazine.com/Articles/Netcat-The-Admin-s-Best-Friend" target="_blank" rel="external">Netcat – The Admin’s Best Friend » ADMIN Magazine</a><br><a href="http://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/" target="_blank" rel="external">Hack Like a Pro: How to Use Netcat, the Swiss Army Knife of Hacking Tools « Null Byte</a></p>
+<p><a href="https://www.upguard.com/articles/wireshark-vs.-netcat-for-network-protocol-analysis" target="_blank" rel="external">Wireshark vs. Netcat for Network Protocol Analysis</a></p>
+<h2 id="ss"><a href="#ss" class="headerlink" title="ss"></a><code>ss</code></h2><p><a href="https://www.linux.com/learn/intro-to-linux/2017/4/probe-your-linux-sockets-ss" target="_blank" rel="external">Probe Your Linux Sockets With ss | Linux.com | The source for Linux information</a></p>
+<h2 id="tcpdump"><a href="#tcpdump" class="headerlink" title="tcpdump"></a><code>tcpdump</code></h2><p><a href="https://www.mankier.com/1/tcpdump" target="_blank" rel="external">tcpdump - man page - ManKier</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">tcpdump -vvv <span class="_">-s</span> 0 -nni &lt;interface&gt; -w &lt;file&gt; host &lt;host&gt; and port &lt;port&gt; &amp;</div></pre></td></tr></table></figure>
+<h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a><code>traceroute</code></h2><p><a href="https://www.mankier.com/8/traceroute" target="_blank" rel="external">traceroute - man page - ManKier</a></p>
+<p><a href="http://www.slashroot.in/how-does-traceroute-work-and-examples-using-traceroute-command" target="_blank" rel="external">How Does Traceroute Work and Example’s of using traceroute command</a></p>
+<h2 id="check-connection"><a href="#check-connection" class="headerlink" title="check connection"></a>check connection</h2><p><a href="https://www.cyberciti.biz/faq/howto-determine-ethernet-connection-speed/" target="_blank" rel="external">Linux – Determine / Find Ethernet Connection Speed</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">sudo mii-tool -v eno1</div><div class="line">ethtool eno1</div></pre></td></tr></table></figure>
+<h2 id="Wireshark"><a href="#Wireshark" class="headerlink" title="Wireshark"></a>Wireshark</h2><p>Wireshark can open many dump formats (e.g. <code>.cap</code>/<code>.pcap</code> from <code>tcpdump</code>)</p>
+<p><a href="https://www.wireshark.org/" target="_blank" rel="external">Wireshark · Go Deep.</a><br><a href="http://www.pcworld.com/article/186871/track_down_network_problems_with_wireshark.html" target="_blank" rel="external">Track Down Network Problems With Wireshark | PCWorld</a></p>
+<h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a><code>netstat</code></h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line"><span class="comment"># list listening TCP ports</span></div><div class="line">netstat -antlp</div><div class="line">lsof -i udp:24000</div><div class="line">lsof -i tcp:80</div></pre></td></tr></table></figure>
 <p><a href="https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/systemadmin/systemadmin.plugin.zsh" target="_blank" rel="external">oh-my-zsh/systemadmin.plugin.zsh at master · robbyrussell/oh-my-zsh</a></p>
 	  
 	</div>
@@ -125,7 +138,7 @@
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-		   <li class="next"><a href="/graphql/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+		   <li class="next"><a href="/facebook-problems/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -167,7 +180,7 @@
     <ul id="categorys" class="tag_box list-unstyled collapse in">
           
   <li>
-    <li><a href="/categories/app/">app<span>34</span></a></li>
+    <li><a href="/categories/app/">app<span>40</span></a></li>
   </li>
 
     </ul>
@@ -180,7 +193,7 @@
 	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
     <ul id="tags" class="tag_box list-unstyled collapse in">	  
 	    
-  <li><a href="/tags/netcat/">netcat<span>1</span></a></li> <li><a href="/tags/netstat/">netstat<span>1</span></a></li> <li><a href="/tags/nmap/">nmap<span>1</span></a></li>
+  <li><a href="/tags/netcat/">netcat<span>1</span></a></li> <li><a href="/tags/nmap/">nmap<span>1</span></a></li> <li><a href="/tags/netstat/">netstat<span>1</span></a></li> <li><a href="/tags/tcpdump/">tcpdump<span>1</span></a></li> <li><a href="/tags/traceroute/">traceroute<span>1</span></a></li> <li><a href="/tags/ss/">ss<span>1</span></a></li>
     </ul>
 	</div>
 		
@@ -190,7 +203,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
-			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Nmap"><span class="toc-article-text">Nmap</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netcat"><span class="toc-article-text">netcat</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netstat"><span class="toc-article-text">netstat</span></a></li></ol>
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#nmap"><span class="toc-article-text">nmap</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netcat"><span class="toc-article-text">netcat</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#ss"><span class="toc-article-text">ss</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#tcpdump"><span class="toc-article-text">tcpdump</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#traceroute"><span class="toc-article-text">traceroute</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#check-connection"><span class="toc-article-text">check connection</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Wireshark"><span class="toc-article-text">Wireshark</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#netstat"><span class="toc-article-text">netstat</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -207,7 +220,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2015 leesei
+  &copy; 2017 leesei
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
 </p>

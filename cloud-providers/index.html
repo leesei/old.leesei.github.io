@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Cloud Providers | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Cloud Providers"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Cloud Providers</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <h2 id="PaaS"><a href="#PaaS" class="headerlink" title="PaaS"></a>PaaS</h2><p>A PAAS that supports autoscaling and database.</p>
+<p><a href="https://zeit.co/now#faq" target="_blank" rel="external">Now: realtime global deployments</a></p>
+<h2 id="Azure"><a href="#Azure" class="headerlink" title="Azure"></a>Azure</h2><p><a href="http://azure.microsoft.com/en-us/pricing/details/websites/" target="_blank" rel="external">http://azure.microsoft.com/en-us/pricing/details/websites/</a><br><a href="http://azure.microsoft.com/en-us/pricing/details/sql-database/" target="_blank" rel="external">http://azure.microsoft.com/en-us/pricing/details/sql-database/</a></p>
+<p>Basic Tier<br>3 VM + 250GB SQL + Auto Scale = $71<br>(plus bandwidth fees)</p>
+<p>Supports C#, Java, Node, PHP, Python in SDK<br>It seems the “Websites” is the PAAS<br>But pricing page also indicates VM instances (IAAS)<br>Supports dynamic scaling out of the box, higher tier support more advances scaling algorithm</p>
+<h2 id="Google-App-Engine"><a href="#Google-App-Engine" class="headerlink" title="Google App Engine"></a>Google App Engine</h2><p><a href="https://cloud.google.com/appengine/pricing" target="_blank" rel="external">https://cloud.google.com/appengine/pricing</a><br><a href="https://cloud.google.com/appengine/docs/quotas" target="_blank" rel="external">https://cloud.google.com/appengine/docs/quotas</a></p>
+<p>Supports Python, Java, PHP, Go in SDK<br>Supports any language with Google Cloud VMs (IAAS)<br>Supports dynamic scaling out of the box</p>
+<p>1 frontend + 1GB Datastore = Free</p>
+<p>1 frontend + 64GB Datastore + Auto Scale = $11.52<br>(plus extra frontend, bandwidth, read/write operation fees)</p>
+<h2 id="Heroku"><a href="#Heroku" class="headerlink" title="Heroku"></a>Heroku</h2><p><a href="https://www.heroku.com/pricing" target="_blank" rel="external">https://www.heroku.com/pricing</a></p>
+<p>Supports any language with buildpacks<br>Plenty of add-ons</p>
+<p>1 dyno + 10K row Postgres = Free</p>
+<p>1 dynos + 64GB Postgres + <a href="https://addons.heroku.com/adept-scale#skiff" target="_blank" rel="external">Adept Scale</a> = $68<br>(plus extra frontend, bandwidth fees)</p>
+<h1 id="IaaS"><a href="#IaaS" class="headerlink" title="IaaS"></a>IaaS</h1><p><a href="http://www.infoworld.com/article/3179785/cloud-computing/aws-vs-azure-vs-google-cloud-which-free-tier-is-best.html" target="_blank" rel="external">AWS vs. Azure vs. Google Cloud: Which free tier is best? | InfoWorld</a><br><a href="http://www.infoworld.com/article/3057586/cloud-computing/cloud-review-amazon-microsoft-google-ibm-and-joyent-compared.html" target="_blank" rel="external">Cloud review: Amazon, Microsoft, Google, IBM, and Joyent | InfoWorld</a><br><a href="http://www.infoworld.com/article/3150205/cloud-computing/cloud-compute-aws-azure-google-softlayer-compared.html" target="_blank" rel="external">Cloud compute: AWS, Azure, Google, SoftLayer compared | InfoWorld</a></p>
+<p><a href="https://libcloud.apache.org/" target="_blank" rel="external">Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs | Apache Libcloud</a><br><a href="https://libcloud.readthedocs.io/en/latest/" target="_blank" rel="external">Apache Libcloud documentation</a><br><a href="https://github.com/islamgulov/libcloud.rest" target="_blank" rel="external">islamgulov/libcloud.rest: REST Interface for Libcloud</a><br><a href="https://github.com/pkgcloud/pkgcloud" target="_blank" rel="external">pkgcloud/pkgcloud: pkgcloud is a standard library for node.js that abstracts away differences among multiple cloud providers.</a><br><a href="https://github.com/apcera/libretto" target="_blank" rel="external">apcera/libretto: Libretto is a Golang library to create Virtual Machines (VMs) on any cloud and Virtual Machine hosting platforms such as AWS, Azure, OpenStack, vSphere, or VirtualBox.</a></p>
+<h2 id="Amazon-Web-Service"><a href="#Amazon-Web-Service" class="headerlink" title="Amazon Web Service"></a>Amazon Web Service</h2><blockquote>
+<p>see <code>aws.md</code></p>
+</blockquote>
+<h2 id="Google-Compute-Engine"><a href="#Google-Compute-Engine" class="headerlink" title="Google Compute Engine"></a>Google Compute Engine</h2><p><a href="https://cloudplatform.googleblog.com/2016/03/IAM-best-practice-guides-available-now.html" target="_blank" rel="external">Google Cloud Platform Blog: IAM best practice guides available now</a><br><a href="https://cloud.google.com/free/docs/always-free-usage-limits" target="_blank" rel="external">Always Free Usage Limits  |  Google Cloud Platform Free Tier  |  Google Cloud Platform</a></p>
+<h2 id="Rackspace"><a href="#Rackspace" class="headerlink" title="Rackspace"></a>Rackspace</h2><p><a href="https://www.rackspace.com/" target="_blank" rel="external">Rackspace: Managed Dedicated &amp; Cloud Computing Services</a></p>
+<h2 id="DigitalOcean"><a href="#DigitalOcean" class="headerlink" title="DigitalOcean"></a>DigitalOcean</h2><p><a href="https://www.digitalocean.com/" target="_blank" rel="external">Simple Cloud Computing, Built for Developers | DigitalOcean</a><br><a href="https://developers.digitalocean.com/documentation/" target="_blank" rel="external">DigitalOcean API</a><br><a href="http://www.infoworld.com/article/3155347/cloud-computing/review-digitalocean-keeps-cloud-simple.html" target="_blank" rel="external">Review: DigitalOcean keeps the cloud simple | InfoWorld</a></p>
+<p><a href="https://github.com/kbknapp/docli-rs" target="_blank" rel="external">kbknapp/docli-rs: Command-line utility for managing DigitalOcean infrastructure</a><br><a href="https://github.com/kbknapp/doapi-rs" target="_blank" rel="external">kbknapp/doapi-rs: Wrapper library for utilizing DigitalOcean API v2 in Rust</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/aws/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/web-reverse-proxy/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-06-17 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/cloud/">cloud<span>7</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-deploy/">web-deploy<span>13</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

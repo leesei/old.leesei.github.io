@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Redux | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Redux"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Redux</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Redux by Dan Abramov (gaearon) implements Flux Store in a FP way. This enables a lot of interesting tools, including <em>time travel</em> with app state. He committed the topic to a conference and Redux came out of the demo code. It is now part of the official React project.</p>
+<p><a href="http://redux.js.org/" target="_blank" rel="external">Redux Doc</a><br><a href="https://github.com/reactjs/redux" target="_blank" rel="external">reactjs/redux: Predictable state container for JavaScript apps</a><br><a href="http://redux.js.org/docs/introduction/Ecosystem.html" target="_blank" rel="external">Ecosystem · Redux</a><br><a href="https://github.com/xgrommx/awesome-redux" target="_blank" rel="external">xgrommx/awesome-redux</a><br><a href="https://github.com/markerikson/react-redux-links" target="_blank" rel="external">markerikson/react-redux-links: Curated tutorial and resource links I’ve collected on React, Redux, ES6, and more</a></p>
+<p>Redux = <strong><em>Red</em></strong>ucer + Fl<strong><em>ux</em></strong></p>
+<p><a href="https://www.youtube.com/watch?v=WIqbzHdEPVM" target="_blank" rel="external">React.js Conf 2016 - Lin Clark - A Cartoon Guide to the Wilds of Data Handling - YouTube</a></p>
+<h2 id="Action-and-ActionCreator"><a href="#Action-and-ActionCreator" class="headerlink" title="Action and ActionCreator"></a>Action and ActionCreator</h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="comment">// Action</span></div><div class="line">&#123; type: <span class="string">'ADD_TODO'</span>, text: <span class="string">'Use Redux'</span> &#125;</div><div class="line"></div><div class="line"><span class="comment">// ActionCreator</span></div><div class="line">addTodo = (text) =&gt; &#123;</div><div class="line">  <span class="keyword">return</span> &#123; type: <span class="string">'ADD_TODO'</span>, text &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// thunk, return function/promise for `dispatch()`</span></div><div class="line"><span class="comment">// avoid accessing state other than conditional dispatch</span></div><div class="line"><span class="comment">// (using cached data, checking authentication)</span></div><div class="line"><span class="comment">// passing data in store is considered an anti-pattern</span></div><div class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">addTodoWithCheck</span>(<span class="params">text</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> (dispatch, getState) =&gt; &#123;</div><div class="line">    <span class="keyword">if</span> (getState().todos.length === <span class="number">3</span>) &#123;</div><div class="line">      <span class="comment">// early exit</span></div><div class="line">      <span class="keyword">return</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    dispatch(addTodo(text));</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Reducer"><a href="#Reducer" class="headerlink" title="Reducer"></a>Reducer</h2><figure class="highlight js"><table><tr><td class="code"><pre><div class="line">reducer = (state, action) =&gt; &#123;</div><div class="line">  <span class="keyword">return</span> newState;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// reducing boilerplate with `createReducer()` and state slicing</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createReducer</span>(<span class="params">initialState, handlers</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> <span class="title">reducer</span>(<span class="params">state = initialState, action</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (handlers.hasOwnProperty(action.type)) &#123;</div><div class="line">      <span class="keyword">return</span> handlers[action.type](state, action)</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="keyword">return</span> state</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">const</span> visibilityReducer = createReducer(<span class="string">'SHOW_ALL'</span>, &#123;</div><div class="line">  <span class="string">'SET_VISIBILITY_FILTER'</span> : (visibilityState, action) =&gt; action.visibility</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="keyword">const</span> todosReducer = createReducer([], &#123;</div><div class="line">  <span class="comment">// case handlers</span></div><div class="line">  <span class="string">'ADD_TODO'</span> : addTodo,</div><div class="line">  <span class="string">'TOGGLE_TODO'</span> : toggleTodo,</div><div class="line">  <span class="string">'EDIT_TODO'</span> : editTodo</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="keyword">const</span> appReducer = combineReducers(&#123;</div><div class="line">  visibilityFilter : visibilityReducer,</div><div class="line">  todos : todosReducer</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p><a href="http://redux.js.org/docs/recipes/reducers/ReusingReducerLogic.html" target="_blank" rel="external">Reusing Reducer Logic · Redux</a> by bounding different <code>name</code> to it for different components and state slice</p>
+<h3 id="Middleware"><a href="#Middleware" class="headerlink" title="Middleware"></a>Middleware</h3><figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">loadPosts</span>(<span class="params">userId</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> &#123;</div><div class="line">    <span class="comment">// Types of actions to emit before and after</span></div><div class="line">    types: [<span class="string">'LOAD_POSTS_REQUEST'</span>, <span class="string">'LOAD_POSTS_SUCCESS'</span>, <span class="string">'LOAD_POSTS_FAILURE'</span>],</div><div class="line">    <span class="comment">// Check the cache (optional):</span></div><div class="line">    shouldCallAPI: (state) =&gt; !state.posts[userId],</div><div class="line">    <span class="comment">// Perform the fetching:</span></div><div class="line">    callAPI: () =&gt; fetch(<span class="string">`http://myapi.com/users/<span class="subst">$&#123;userId&#125;</span>/posts`</span>),</div><div class="line">    <span class="comment">// Arguments to inject in begin/end actions</span></div><div class="line">    payload: &#123; userId &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">callAPIMiddleware</span>(<span class="params">&#123; dispatch, getState &#125;</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> next =&gt; action =&gt; &#123;</div><div class="line">    <span class="keyword">const</span> &#123;</div><div class="line">      types,</div><div class="line">      callAPI,</div><div class="line">      shouldCallAPI = () =&gt; <span class="literal">true</span>,</div><div class="line">      payload = &#123;&#125;</div><div class="line">    &#125; = action</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (!types) &#123;</div><div class="line">      <span class="comment">// Normal action: pass it on</span></div><div class="line">      <span class="keyword">return</span> next(action)</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (!shouldCallAPI(getState())) &#123;</div><div class="line">      <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">const</span> [ requestType, successType, failureType ] = types</div><div class="line"></div><div class="line">    dispatch(<span class="built_in">Object</span>.assign(&#123;&#125;, payload, &#123;</div><div class="line">      type: requestType</div><div class="line">    &#125;))</div><div class="line"></div><div class="line">    <span class="keyword">return</span> callAPI().then(</div><div class="line">      response =&gt; dispatch(<span class="built_in">Object</span>.assign(&#123;&#125;, payload, &#123;</div><div class="line">        response,</div><div class="line">        type: successType</div><div class="line">      &#125;)),</div><div class="line">      error =&gt; dispatch(<span class="built_in">Object</span>.assign(&#123;&#125;, payload, &#123;</div><div class="line">        error,</div><div class="line">        type: failureType</div><div class="line">      &#125;))</div><div class="line">    )</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Store"><a href="#Store" class="headerlink" title="Store"></a>Store</h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">import &#123; combineReducers, createStore, applyMiddleware &#125; from &apos;redux&apos;;</div><div class="line"></div><div class="line">rootReducer = combineReducers(&#123; key1: reducer1, key2: reducer2 &#125;);</div><div class="line">store = createStore(rootReducer, initState, applyMiddleware(middlewares));</div></pre></td></tr></table></figure>
+<hr>
+<p><a href="https://changelog.com/187/" target="_blank" rel="external">#187: Redux, React, and Functional JavaScript with Dan Abramov - The Changelog</a><br><a href="https://devchat.tv/js-jabber/181-jsj-the-evolution-of-flux-libraries-with-andrew-clark-and-dan-abramov" target="_blank" rel="external">JSJ The Evolution of Flux Libraries with Andrew Clark and Dan Abramov</a><br><a href="https://www.youtube.com/watch?v=xsSnOQynTHs" target="_blank" rel="external">Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015 - YouTube</a> The presentation where Redux is born<br><a href="https://www.youtube.com/watch?v=uvAXVMwHJXU" target="_blank" rel="external">Dan Abramov - The Redux Journey at react-europe 2016 - YouTube</a></p>
+<p><a href="https://gist.github.com/gaearon/ffd88b0e4f00b22c3159" target="_blank" rel="external">Redux without the sanity checks in a single file.</a><br><a href="https://gist.github.com/gaearon/074b0905337a6a835d82" target="_blank" rel="external">Super minimal React + Redux app</a></p>
+<p><a href="https://reduxframework.com/" target="_blank" rel="external">Redux Framework</a> for WordPress</p>
+<p><a href="http://blog.isquaredsoftware.com/series/idiomatic-redux/" target="_blank" rel="external">Idiomatic Redux · Mark’s Dev Blog</a><br><a href="https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/" target="_blank" rel="external">An Introduction To Redux – Smashing Magazine</a><br><a href="https://scotch.io/bar-talk/getting-started-with-redux-an-intro" target="_blank" rel="external">Getting Started with Redux: An Intro | Scotch</a><br><a href="http://www.jchapron.com/2015/08/14/getting-started-with-redux/" target="_blank" rel="external">Getting started with Redux - Example application | jchapron</a><br><a href="http://survivejs.com/blog/redux-interview/" target="_blank" rel="external">SurviveJS - Webpack and React - Redux - Reinventing Flux - Interview with Dan Abramov</a><br><a href="https://blog.javascripting.com/2015/08/12/reduce-your-side-effects/" target="_blank" rel="external">Flux: Reduce Your Side Effects</a><br><a href="https://blog.andyet.com/2015/08/06/what-the-flux-lets-redux" target="_blank" rel="external">What the Flux?! Let’s Redux. | &amp;yet Blog</a><br><a href="https://medium.com/@Lilobase/the-just-enough-redux-reading-list-74c954e1941#.2k80kp6mz" target="_blank" rel="external">The Just Enough Redux Reading List — Medium</a><br><a href="https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.lxpvf5krl" target="_blank" rel="external">A cartoon intro to Redux — Code Cartoons — Medium</a> Redux vs Flux<br><a href="http://blog.tryolabs.com/2016/04/19/understanding-the-redux-paradigm/" target="_blank" rel="external">Understanding the Redux paradigm | Tryolabs | Blog</a></p>
+<p><a href="https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a" target="_blank" rel="external">Step by Step Guide To Building React Redux Apps — Medium</a><br><a href="http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html" target="_blank" rel="external">Full-Stack Redux Tutorial</a><br><a href="https://auth0.com/blog/secure-your-react-and-redux-app-with-jwt-authentication/" target="_blank" rel="external">Secure Your React and Redux App with JWT Authentication</a></p>
+<p><a href="https://github.com/rackt/redux/pull/46" target="_blank" rel="external">Feeback wanted: Rewrite with ideas from @acdlite by gaearon · Pull Request #46 · rackt/redux</a></p>
+<p><a href="https://www.gitbook.com/book/tonyhb/redux-without-profanity/details" target="_blank" rel="external">Redux without Profanity · GitBook</a><br><a href="http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html" target="_blank" rel="external">Full-Stack Redux Tutorial</a><br><a href="https://github.com/happypoulp/redux-tutorial" target="_blank" rel="external">happypoulp/redux-tutorial: Learn how to use redux step by step</a>  targets redux 3.0.2 and react-redux 4.0.0<br><a href="https://codepen.io/thepeted/pen/bpovxz" target="_blank" rel="external">Game of Life (React + Redux)</a></p>
+<h2 id="Screencast"><a href="#Screencast" class="headerlink" title="Screencast"></a>Screencast</h2><p><a href="https://egghead.io/series/getting-started-with-redux" target="_blank" rel="external">Getting Started with Redux - Course by @dan_abramov @eggheadio</a> free video course, !important<br><a href="https://github.com/tayiorbeii/egghead.io_redux_course_notes" target="_blank" rel="external">tayiorbeii/egghead.io_redux_course_notes: Notes (and partial transcription) of Dan Abramov’s Redux course videos on http://egghead.io</a><br><a href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux" target="_blank" rel="external">Building React Applications with Idiomatic Redux - Course by @dan_abramov @eggheadio</a><br><a href="https://learnredux.com/" target="_blank" rel="external">Learn Redux — 20 video tutorials to help you learn how to build JavaScript apps with React.js and Redux.</a> free video course</p>
+<p><a href="https://www.youtube.com/watch?v=VJ38wSFbM3A" target="_blank" rel="external">17. React Redux with Dan Abramov - YouTube</a><br><a href="https://vimeo.com/100010922" target="_blank" rel="external">Live-editing React app without refresh on Vimeo</a><br><a href="https://www.youtube.com/playlist?list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy" target="_blank" rel="external">Learn Redux - YouTube</a> by Wes Bos</p>
+<h2 id="Ecosystem"><a href="#Ecosystem" class="headerlink" title="Ecosystem"></a>Ecosystem</h2><p><a href="https://github.com/markerikson/redux-ecosystem-links" target="_blank" rel="external">markerikson/redux-ecosystem-links: A categorized list of Redux-related addons, libraries, and utilities</a><br><a href="https://medium.com/@meagle/understanding-87566abcfb7a#.kpd9ykw40" target="_blank" rel="external">Understanding Redux Middleware – Medium</a></p>
+<p><a href="https://github.com/pauldijou/redux-act" target="_blank" rel="external">pauldijou/redux-act: An opinionated lib to create actions and reducers for Redux</a><br><a href="https://github.com/acdlite/redux-actions" target="_blank" rel="external">acdlite/redux-actions: Flux Standard Action utilities for Redux.</a><br><a href="https://github.com/acdlite/flux-standard-action" target="_blank" rel="external">acdlite/flux-standard-action: A human-friendly standard for Flux action objects.</a></p>
+<p><a href="https://github.com/rackt/redux-router" target="_blank" rel="external">rackt/redux-router</a></p>
+<p><a href="https://github.com/gaearon?tab=repositories" target="_blank" rel="external">gaearon (Dan Abramov)</a><br><a href="https://github.com/gaearon/react-hot-loader" target="_blank" rel="external">gaearon/react-hot-loader: Tweak React components in real time.</a><br><a href="https://github.com/gaearon/redux-devtools" target="_blank" rel="external">gaearon/redux-devtools: DevTools for Redux with hot reloading, action replay, and customizable UI</a><br>gaearon uses normalizr and make observations on Flux<br><a href="https://github.com/gaearon/flux-react-router-example" target="_blank" rel="external">gaearon/flux-react-router-example</a><br><a href="https://github.com/gaearon/normalizr" target="_blank" rel="external">gaearon/normalizr</a> normalize domain data</p>
+<p><a href="https://github.com/gajus/redux-immutable" target="_blank" rel="external">gajus/redux-immutable: redux-immutable is used to create an equivalent function of Redux combineReducers that works with Immutable.js state.</a></p>
+<p><a href="https://github.com/omnidan/redux-undo" target="_blank" rel="external">omnidan/redux-undo</a><br><a href="https://github.com/erikras/redux-form" target="_blank" rel="external">erikras/redux-form</a><br><a href="https://github.com/acdlite/redux-actions" target="_blank" rel="external">acdlite/redux-actions</a><br><a href="https://github.com/acdlite/redux-transducers" target="_blank" rel="external">acdlite/redux-transducers</a></p>
+<p><a href="https://github.com/roderickwang/redux-2way-binding" target="_blank" rel="external">roderickwang/redux-2way-binding</a></p>
+<p><a href="https://github.com/acdlite?tab=repositories" target="_blank" rel="external">acdlite (Andrew Clark)</a><br><a href="https://github.com/acdlite/recompose" target="_blank" rel="external">acdlite/recompose: A React utility belt for function components and higher-order components.</a><br><a href="https://github.com/acdlite/redux-promise" target="_blank" rel="external">acdlite/redux-promise: FSA-compliant promise middleware for Redux.</a></p>
+<p><a href="https://github.com/leoasis/redux-immutable-state-invariant" target="_blank" rel="external">leoasis/redux-immutable-state-invariant: Redux middleware that detects mutations between and outside redux dispatches. For development use only.</a><br><a href="https://github.com/socialtables/redux-unhandled-action" target="_blank" rel="external">socialtables/redux-unhandled-action: Redux middleware that logs an error to the console when an action is fired and the state is not mutated</a></p>
+<h2 id="Tips-and-Tricks"><a href="#Tips-and-Tricks" class="headerlink" title="Tips and Tricks"></a>Tips and Tricks</h2><p><a href="http://jlongster.com/Two-Weird-Tricks-with-Redux" target="_blank" rel="external">Two Weird Tricks with Redux</a></p>
+<h2 id="On-the-contrary"><a href="#On-the-contrary" class="headerlink" title="On the contrary"></a>On the contrary</h2><p><a href="https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367" target="_blank" rel="external">You Might Not Need Redux – Medium</a><br><a href="https://www.reddit.com/r/reactjs/comments/3towfy/redux_feels_bloated_complicated_and_not_easy_what/" target="_blank" rel="external">Redux feels bloated, complicated and not easy. What are the alternative? : reactjs</a><br><a href="http://stackoverflow.com/questions/32021763/what-could-be-the-downsides-of-using-redux-instead-of-flux/32916602#32916602" target="_blank" rel="external">reactjs - What could be the downsides of using Redux instead of Flux - Stack Overflow</a></p>
+<h2 id="Data-flow"><a href="#Data-flow" class="headerlink" title="Data flow"></a>Data flow</h2><p>Handles async and side effects:<br><a href="https://github.com/gaearon/redux-thunk" target="_blank" rel="external">gaearon/redux-thunk: Thunk middleware for Redux</a><br><a href="https://github.com/redux-saga/redux-saga" target="_blank" rel="external">redux-saga/redux-saga: An alternative side effect model for Redux apps</a><br><a href="https://github.com/lelandrichardson/redux-pack" target="_blank" rel="external">lelandrichardson/redux-pack: Sensible promise handling and middleware for redux</a></p>
+<p><a href="http://jamesknelson.com/join-the-dark-side-of-the-flux-responding-to-actions-with-actors/" target="_blank" rel="external">Actors: How to dispatch actions after Redux state changes</a><br><a href="http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/" target="_blank" rel="external">Can I dispatch multiple actions from Redux action creators?</a><br><a href="http://redux.js.org/docs/recipes/reducers/UpdatingNormalizedData.html" target="_blank" rel="external">Updating Normalized Data · Redux</a></p>
+<p><a href="http://www.christianalfoni.com/articles/2016_09_11_The-case-for-function-tree" target="_blank" rel="external">christianalfoni - The case for function tree</a><br><a href="https://medium.com/react-native-training/redux-4-ways-95a130da0cdc#.yhkcy935e" target="_blank" rel="external">Redux 4 Ways – React Native Training – Medium</a><br><a href="http://konkle.us/state-management-with-redux/" target="_blank" rel="external">State Management with Redux</a><br><a href="https://medium.com/@adamrackis/querying-a-redux-store-37db8c7f3b0f#.xax4uwvif" target="_blank" rel="external">Querying a Redux Store – Medium</a><br><a href="http://blog.isquaredsoftware.com/2017/01/idiomatic-redux-thoughts-on-thunks-sagas-abstraction-and-reusability/" target="_blank" rel="external">Idiomatic Redux: Thoughts on Thunks, Sagas, Abstraction, and Reusability · Mark’s Dev Blog</a><br><a href="https://medium.com/@thisismissem/you-may-not-need-to-thunk-f5dc7a6fcbca#.d28w6abao" target="_blank" rel="external">You may not need to thunk – Medium</a><br><a href="https://shift.infinite.red/using-redux-saga-to-simplify-your-growing-react-native-codebase-2b8036f650de#.yhy5r2mv2" target="_blank" rel="external">Using redux-saga To Simplify Your Growing React Native Codebase</a><br><a href="https://github.com/markerikson/react-redux-links/blob/master/redux-side-effects.md" target="_blank" rel="external">react-redux-links/redux-side-effects.md at master · markerikson/react-redux-links</a></p>
+<p><a href="https://www.youtube.com/watch?v=mVVNJKv9esE" target="_blank" rel="external">Cheng Lou - On the Spectrum of Abstraction at react-europe 2016 - YouTube</a> !important</p>
+<h2 id="react-redux"><a href="#react-redux" class="headerlink" title="react-redux"></a>react-redux</h2><p><a href="https://github.com/rackt/react-redux" target="_blank" rel="external">rackt/react-redux</a><br><a href="http://redux.js.org/docs/basics/UsageWithReact.html#implementing-container-components" target="_blank" rel="external">Implementing Container Components · Redux</a></p>
+<p><a href="https://www.youtube.com/watch?v=VJ38wSFbM3A" target="_blank" rel="external">17. React Redux with Dan Abramov - YouTube</a><br><a href="https://github.com/reactjs/react-redux/blob/master/docs/api.md" target="_blank" rel="external">react-redux/api.md at master · reactjs/react-redux</a></p>
+<p>Notice how <a href="http://redux.js.org/docs/basics/UsageWithReact.html#implementing-other-components" target="_blank" rel="external"><code>AddTodo</code></a> is implemented as a functional stateless components.</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="comment">// Container Components is generated with `connect()`</span></div><div class="line"><span class="keyword">import</span> &#123; connect &#125; <span class="keyword">from</span> <span class="string">'react-redux'</span></div><div class="line"></div><div class="line"><span class="comment">// selector and compute derived values</span></div><div class="line"><span class="keyword">const</span> mapStateToProps = (state, ownProps) =&gt; &#123;</div><div class="line">  <span class="keyword">return</span> &#123;</div><div class="line">    value1: state.key1,</div><div class="line">    computed: compute(state.key2)</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">// add `onXXX()` callback props and dispatch the action </span></div><div class="line"><span class="keyword">const</span> mapDispatchToProps = (dispatch, ownProps) =&gt; &#123;</div><div class="line">  <span class="keyword">return</span> &#123;</div><div class="line">    onClick: () =&gt; dispatch(...)</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// mapDispatchToProps() can be replaced by an object of ActionCreators</span></div><div class="line"><span class="comment">// they will be wrapped by `dispatch()` upon invocation</span></div><div class="line"><span class="comment">// https://github.com/reactjs/react-redux/blob/master/docs/api.md </span></div><div class="line"></div><div class="line"><span class="comment">// `dispatch()` and the objects returned by the functions will </span></div><div class="line"><span class="comment">// be passed to the wrapped Presentation Container as `props`</span></div><div class="line"><span class="keyword">const</span> VisibleTodoList = connect(</div><div class="line">  mapStateToProps,</div><div class="line">  mapDispatchToProps,</div><div class="line">  mergeProps,</div><div class="line">  options</div><div class="line">)(TodoList)</div><div class="line"></div><div class="line"><span class="comment">// if `mapStateToProps()` is expensive</span></div><div class="line"><span class="comment">// override `options.areStatesEqual` to compare subtree</span></div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> VisibleTodoList</div></pre></td></tr></table></figure>
+<h2 id="Derived-Data"><a href="#Derived-Data" class="headerlink" title="Derived Data"></a>Derived Data</h2><p><a href="https://github.com/reactjs/reselect" target="_blank" rel="external">reactjs/reselect: Selector library for Redux</a> memoized transform<br><a href="https://github.com/HeyImAlex/reselect-map" target="_blank" rel="external">heyimalex/reselect-map: Selectors for mapping over collections</a> the transform is expensive for each item<br><a href="http://redux.js.org/docs/recipes/ComputingDerivedData.html" target="_blank" rel="external">Computing Derived Data · Redux</a></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">import</span> &#123; createSelector &#125; <span class="keyword">from</span> <span class="string">'reselect'</span></div><div class="line"></div><div class="line"><span class="comment">// signature matches the invocation from `mapStateToProps()`</span></div><div class="line"><span class="keyword">const</span> inputSelector1 = (state, props) =&gt; state[props.key1]</div><div class="line"><span class="keyword">const</span> inputSelector2 = (state, props) =&gt; state.key2</div><div class="line"></div><div class="line"><span class="keyword">const</span> mySelector = createSelector(</div><div class="line">  inputSelector1, inputSelector2...,</div><div class="line">  (input1, input2...) =&gt; &#123;</div><div class="line">    <span class="keyword">return</span> ...</div><div class="line">  &#125;</div><div class="line">)</div><div class="line"></div><div class="line"><span class="comment">// check this if the component using `mySelector()` have multiple instances</span></div><div class="line"><span class="comment">// http://redux.js.org/docs/recipes/ComputingDerivedData.html#sharing-selectors-across-multiple-components</span></div></pre></td></tr></table></figure>
+<h2 id="boilerplates"><a href="#boilerplates" class="headerlink" title="boilerplates"></a>boilerplates</h2><p><a href="https://github.com/gaearon/library-boilerplate" target="_blank" rel="external">gaearon/library-boilerplate</a> webpack<br><a href="https://github.com/mattdennewitz/universal-redux-boilerplate" target="_blank" rel="external">mattdennewitz/universal-redux-boilerplate</a> webpack<br><a href="https://github.com/jackielii/simplest-redux-example" target="_blank" rel="external">jackielii/simplest-redux-example</a> browserify<br><a href="https://github.com/jonathanp/map-item-filter" target="_blank" rel="external">jonathanp/map-item-filter</a> browserify</p>
+<p><a href="https://github.com/redux-bootstrap/redux-bootstrap" target="_blank" rel="external">redux-bootstrap/redux-bootstrap: A bootstrap() function for initializing Redux applications.</a></p>
+<p><a href="https://medium.freecodecamp.com/scaling-your-redux-app-with-ducks-6115955638be#.txowddfkt" target="_blank" rel="external">Scaling your Redux App with ducks</a> folder structure</p>
+<h3 id="project-generators"><a href="#project-generators" class="headerlink" title="project generators"></a>project generators</h3><p><a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="external">facebookincubator/create-react-app: Create React apps with no build configuration.</a><br><a href="https://github.com/insin/nwb" target="_blank" rel="external">insin/nwb: A toolkit for React, Preact &amp; Inferno apps, React libraries and other npm modules for the web, with no configuration (until you need it)</a></p>
+<p><a href="https://neutrino.js.org/" target="_blank" rel="external">Introduction · Neutrino</a><br><a href="https://github.com/mozilla-neutrino/neutrino-dev" target="_blank" rel="external">mozilla-neutrino/neutrino-dev: Create and build modern JavaScript applications with zero initial configuration.</a><br><a href="https://davidwalsh.name/neutrino" target="_blank" rel="external">Modern JavaScript Apps with Neutrino</a></p>
+<p><a href="https://github.com/zeit/next.js" target="_blank" rel="external">zeit/next.js: Framework for server-rendered React apps</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/graphql/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/flux-alternatives/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-12-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/web/">web<span>53</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/web-dev/">web-dev<span>20</span></a></li> <li><a href="/tags/javascript/">javascript<span>14</span></a></li> <li><a href="/tags/react-js/">react-js<span>4</span></a></li> <li><a href="/tags/flux/">flux<span>3</span></a></li> <li><a href="/tags/redux-js/">redux-js<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Action-and-ActionCreator"><span class="toc-article-text">Action and ActionCreator</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Reducer"><span class="toc-article-text">Reducer</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Middleware"><span class="toc-article-text">Middleware</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Store"><span class="toc-article-text">Store</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Screencast"><span class="toc-article-text">Screencast</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ecosystem"><span class="toc-article-text">Ecosystem</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tips-and-Tricks"><span class="toc-article-text">Tips and Tricks</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#On-the-contrary"><span class="toc-article-text">On the contrary</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Data-flow"><span class="toc-article-text">Data flow</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#react-redux"><span class="toc-article-text">react-redux</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Derived-Data"><span class="toc-article-text">Derived Data</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#boilerplates"><span class="toc-article-text">boilerplates</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#project-generators"><span class="toc-article-text">project generators</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

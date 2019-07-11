@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Kernel | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Kernel"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Kernel</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <blockquote>
+<p>include <code>rtos.md</code></p>
+</blockquote>
+<h2 id="Linux-Kernel"><a href="#Linux-Kernel" class="headerlink" title="Linux Kernel"></a>Linux Kernel</h2><p><a href="https://www.wikiwand.com/en/Linux_kernel" target="_blank" rel="external">Linux kernel - Wikiwand</a><br><a href="https://www.ibm.com/developerworks/library/l-linux-kernel/" target="_blank" rel="external">Anatomy of the Linux kernel</a></p>
+<p><a href="https://lwn.net/" target="_blank" rel="external">Welcome to LWN.net [LWN.net]</a><br><a href="https://kernelnewbies.org/" target="_blank" rel="external">Linux Kernel Newbies - Linux Kernel Newbies</a></p>
+<p><a href="https://www.quora.com/What-are-good-ways-to-understand-the-Linux-kernel" target="_blank" rel="external">What are good ways to understand the Linux kernel? - Quora</a></p>
+<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><p><a href="https://www.gitbook.com/book/0xax/linux-insides/details" target="_blank" rel="external">Linux Inside · GitBook</a><br><a href="http://www.kroah.com/lkn/" target="_blank" rel="external">Linux Kernel in a Nutshell</a> 2.6.18 @2006<br><a href="https://lwn.net/Kernel/LDD3/" target="_blank" rel="external">Linux Device Drivers, Third Edition [LWN.net]</a> 2.6.10 @2005</p>
+<h3 id="Video-Driver"><a href="#Video-Driver" class="headerlink" title="Video Driver"></a>Video Driver</h3><p>Proprietary (non-free) drivers is a source of problem. You will have to rebuild the driver every time the kernel is updated. Otherwise X will fail to start.<br>If performance is not an issue it is <a href="https://wiki.archlinux.org/index.php/Enhance_system_stability#Choose_open-source_drivers" target="_blank" rel="external">recommended</a> to use the free drivers.</p>
+<p><a href="https://wiki.archlinux.org/index.php/bumblebee" target="_blank" rel="external">Bumblebee - ArchWiki</a></p>
+<h4 id="Hybrid-graphics"><a href="#Hybrid-graphics" class="headerlink" title="Hybrid graphics"></a>Hybrid graphics</h4><p><a href="https://wiki.archlinux.org/index.php/hybrid_graphics" target="_blank" rel="external">Hybrid graphics - ArchWiki</a></p>
+<p><a href="https://help.ubuntu.com/community/HybridGraphics" target="_blank" rel="external">HybridGraphics - Community Help Wiki</a><br><a href="https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu" target="_blank" rel="external">How To Switch Between Intel and Nvidia Graphics Card on Ubuntu</a></p>
+<p><a href="http://www.thelinuxrain.com/articles/the-state-of-nvidia-optimus-on-linux" target="_blank" rel="external">The State of NVIDIA Optimus on Linux | The Linux Rain</a></p>
+<h2 id="Unikernel"><a href="#Unikernel" class="headerlink" title="Unikernel"></a>Unikernel</h2><p><a href="https://www.wikiwand.com/en/Unikernel" target="_blank" rel="external">Unikernel - Wikiwand</a></p>
+<p><a href="http://www.includeos.org/" target="_blank" rel="external">IncludeOS</a><br><a href="https://github.com/oscarlab/graphene" target="_blank" rel="external">oscarlab/graphene: Graphene / Graphene-SGX Library OS - a library OS for Linux multi-process applications, with Intel SGX support</a><br><a href="https://wiki.xenproject.org/wiki/Mini-OS-DevNotes" target="_blank" rel="external">Mini-OS-DevNotes - Xen</a></p>
+<p><a href="https://www.joyent.com/blog/unikernels-are-unfit-for-production" target="_blank" rel="external">Joyent | Unikernels are unfit for production</a></p>
+<h3 id="Unikernel-1"><a href="#Unikernel-1" class="headerlink" title="Unikernel"></a>Unikernel</h3><p><a href="http://unikernel.org/" target="_blank" rel="external">Unikernels - Rethinking Cloud Infrastructure</a> (bought by Docker)<br><a href="http://unikernel.org/projects/" target="_blank" rel="external">Projects | Unikernels</a> Kernel as a lib</p>
+<p><a href="https://blog.docker.com/2016/01/unikernel/" target="_blank" rel="external">Unikernel Systems Joins Docker | Docker Blog</a><br><a href="http://thenewstack.io/dockers-unikernel-experiment-begins-paying-off-mac-os-libraries/" target="_blank" rel="external">Docker’s Unikernel Experiment Begins Paying Off with Mac OS Libraries - The New Stack</a><br><a href="https://blog.docker.com/2016/05/docker-unikernels-open-source/" target="_blank" rel="external">Improving Docker with Unikernels: Introducing HyperKit, VPNKit and DataKit | Docker Blog</a><br><a href="https://github.com/docker/hyperkit" target="_blank" rel="external">docker/hyperkit: A toolkit for embedding hypervisor capabilities in your application</a></p>
+<p><a href="http://www.includeos.org/" target="_blank" rel="external">IncludeOS</a></p>
+<p><a href="http://softwareengineeringdaily.com/2016/09/14/unikernels-with-idit-levine/" target="_blank" rel="external">Unikernels with Idit Levine | Software Engineering Daily</a> Mirage, Rump, UniK</p>
+<h4 id="MirageOS"><a href="#MirageOS" class="headerlink" title="MirageOS"></a>MirageOS</h4><p><a href="https://mirage.io/" target="_blank" rel="external">MirageOS</a> build unikernel for network applications, deploy minimum app, written in OCaml<br><a href="http://www.se-radio.net/2014/05/episode-204-anil-madhavapeddy-on-the-mirage-cloud-operating-system-and-the-ocaml-language/" target="_blank" rel="external">Episode 204: Anil Madhavapeddy on the Mirage Cloud Operating System and the OCaml Language : Software Engineering Radio</a><br><a href="https://www.infoq.com/presentations/mirage-os" target="_blank" rel="external">My Other Internet is a Mirage</a></p>
+<p>Boots domain 0 OS</p>
+<h4 id="Rump"><a href="#Rump" class="headerlink" title="Rump"></a>Rump</h4><p>POSIX compatible unikernel<br><a href="http://rumpkernel.org/" target="_blank" rel="external">Rump Kernels</a><br><a href="https://github.com/rumpkernel/rumprun" target="_blank" rel="external">rumpkernel/rumprun: The Rumprun unikernel and toolchain for various platforms</a></p>
+<h4 id="UniK"><a href="#UniK" class="headerlink" title="UniK"></a>UniK</h4><p><a href="http://softwareengineeringdaily.com/2016/08/11/unikernels-and-unik-with-scott-weiss/" target="_blank" rel="external">unikernels and unik with Scott Weiss | Software Engineering Daily</a></p>
+<p><a href="https://github.com/emc-advanced-dev/unik" target="_blank" rel="external">emc-advanced-dev/unik: The Unikernel Compilation and Deployment Platform</a> Kubernetes for unikernel, supports different providers</p>
+<p><a href="http://www.infoworld.com/article/3082051/open-source-tools/unikernel-power-comes-to-java-nodejs-go-and-python-apps.html" target="_blank" rel="external">Unikernel power comes to Java, Node.js, Go, and Python apps | InfoWorld</a></p>
+<h2 id="Light-kernel"><a href="#Light-kernel" class="headerlink" title="Light kernel"></a>Light kernel</h2><blockquote>
+<p>see <code>rtos.md</code></p>
+</blockquote>
+<p><a href="https://github.com/littlekernel/lk" target="_blank" rel="external">littlekernel/lk: LK embedded kernel</a><a href="https://github.com/fuchsia-mirror/magenta" target="_blank" rel="external">fuchsia-mirror/magenta: Magenta Kernel, Core Drivers, and Services</a></p>
+<h2 id="Microkernel"><a href="#Microkernel" class="headerlink" title="Microkernel"></a>Microkernel</h2><p><a href="https://www.wikiwand.com/en/Microkernel" target="_blank" rel="external">Microkernel - Wikiwand</a><br><a href="https://www.reddit.com/r/linux/comments/69umqo/is_linux_kernel_design_outdated/" target="_blank" rel="external">Is Linux kernel design outdated? : linux</a></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/cloud-backup/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/rkt/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-03-27 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/uncategorized/">uncategorized<span>60</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Linux-Kernel"><span class="toc-article-text">Linux Kernel</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Books"><span class="toc-article-text">Books</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Video-Driver"><span class="toc-article-text">Video Driver</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#Hybrid-graphics"><span class="toc-article-text">Hybrid graphics</span></a></li></ol></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Unikernel"><span class="toc-article-text">Unikernel</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Unikernel-1"><span class="toc-article-text">Unikernel</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#MirageOS"><span class="toc-article-text">MirageOS</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#Rump"><span class="toc-article-text">Rump</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#UniK"><span class="toc-article-text">UniK</span></a></li></ol></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Light-kernel"><span class="toc-article-text">Light kernel</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Microkernel"><span class="toc-article-text">Microkernel</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>

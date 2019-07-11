@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ansible | leesei&#39;s notebook</title>
+
+  <meta name="author" content="leesei">
+  
+  <meta name="description" content="Technical blog for the future me and other beings.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Ansible"/>
+  <meta property="og:site_name" content="leesei&#39;s notebook"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">leesei&#39;s notebook</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header">		
+			<h1> Ansible</h1>
+		</div>		
+	
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div class="col-md-9">
+	
+
+			
+
+	<!-- content -->
+	<div class="mypage">		
+	    <p>Ansible runs over SSH so there is no need for agent in slave nodes. This reduces dependency of the management toolchain, eliminates the possibility of the agent are down or out of date.</p>
+<blockquote>
+<p>see <code>Ansible_in_Depth.pdf</code></p>
+</blockquote>
+<p><a href="https://www.ansible.com/" target="_blank" rel="external">Ansible is Simple IT Automation</a> <a href="https://github.com/ansible/ansible" target="_blank" rel="external">github</a><br><a href="https://galaxy.ansible.com/" target="_blank" rel="external">Ansible Galaxy | Find, reuse, and share the best Ansible content</a> repository for Ansible roles</p>
+<p><a href="http://docs.ansible.com/" target="_blank" rel="external">Ansible Documentation</a><br><a href="https://www.ansible.com/videos" target="_blank" rel="external">Ansible Resources - Videos</a><br><a href="https://www.ansible.com/blog/topic/ansible" target="_blank" rel="external">Ansible Blog | Ansible.com | Ansible</a></p>
+<p><a href="https://www.ansible.com/webinar-on-demand-ansible-introduction" target="_blank" rel="external">Ansible Webinar On Demand Introduction To Ansible</a> !important<br><a href="https://codereviewvideos.com/course/ansible-tutorial" target="_blank" rel="external">Ansible Tutorial</a></p>
+<p><a href="http://jpmens.net/2012/06/06/configuration-management-with-ansible/" target="_blank" rel="external">Jan-Piet Mens :: Configuration management with Ansible</a> a bit old, links are dead<br><a href="http://www.infoworld.com/article/3119346/data-center/review-ansible-shows-the-beef.html" target="_blank" rel="external">Review: Ansible shows the beef | InfoWorld</a><br><a href="https://blog.serverdensity.com/what-ive-learnt-from-using-ansible-exclusively-for-2-years/" target="_blank" rel="external">Lessons from using Ansible exclusively for 2 years.</a></p>
+<p><a href="https://github.com/afroisalreadyinu/practical-ansible-intro" target="_blank" rel="external">afroisalreadyinu/practical-ansible-intro: A practical guide to Ansible</a><br><a href="https://github.com/ansible/ansible-examples" target="_blank" rel="external">ansible/ansible-examples: A few starter examples of ansible playbooks, to show features and how they work together.</a><br><a href="https://github.com/geerlingguy/ansible-for-devops" target="_blank" rel="external">geerlingguy/ansible-for-devops: Ansible examples from Ansible for DevOps.</a><br><a href="https://github.com/Servers-for-Hackers" target="_blank" rel="external">Servers For Hackers</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">YAML truthy</div><div class="line">  true , True* , TRUE , yes , Yes , YES , on , On , ON , y , Y</div><div class="line">YAML falsey</div><div class="line">  false , False* , FALSE , no , No , NO , off , Off , OFF , n , N</div><div class="line"></div><div class="line">module arg truthy</div><div class="line">yes* , on , 1 , true</div><div class="line">module arg falsey</div><div class="line">no* , off , 0 , false</div><div class="line"></div><div class="line">* recommended</div></pre></td></tr></table></figure>
+<h2 id="Beginners"><a href="#Beginners" class="headerlink" title="Beginners"></a>Beginners</h2><p><a href="https://www.youtube.com/watch?v=xMHVvHZ-Zn4" target="_blank" rel="external">What is Ansible? A short DevOps Introduction - YouTube</a><br><a href="https://www.youtube.com/watch?v=fYd_KQpfBs8&amp;feature=youtu.be&amp;a" target="_blank" rel="external">Configuration Management With Ansible: A Whirlwind Tour - YouTube</a><br><a href="https://www.youtube.com/watch?v=qEuk65few9I" target="_blank" rel="external">Learn you some Ansible for great good! - YouTube</a><br><a href="https://www.youtube.com/watch?v=Qi0AhK7PMCI" target="_blank" rel="external">Michael DeHaan: Ansible - Python-Powered Radically Simple IT Automation - PyCon 2014 - YouTube</a><br><a href="https://www.youtube.com/watch?v=7tfTR42iNSs" target="_blank" rel="external">James Cammarata - Achieving Continuous Delivery: An Automation Story - PyCon 2015 - YouTube</a></p>
+<p><a href="http://www.kernel-overload.com/ansible-basic-usage-and-common-issues-encountered/" target="_blank" rel="external">Ansible basic usage and common issues encountered</a><br><a href="https://serversforhackers.com/an-ansible-tutorial" target="_blank" rel="external">An Ansible Tutorial - Servers for Hackers</a><br><a href="https://medium.com/@denot/ansible-101-d6dc9f86df0a#.1ojrwyk0w" target="_blank" rel="external">Ansible 101 — Medium</a><br><a href="http://zaiste.net/2014/05/ansible_101/" target="_blank" rel="external">Ansible 101 | zaiste.net</a></p>
+<p><a href="https://www.youtube.com/watch?v=sy8i4VXIVEE" target="_blank" rel="external">Ansible 2.0 &amp; Beyond - YouTube</a><br><a href="http://www.slideshare.net/jimi-c/v2-and-beyond" target="_blank" rel="external">V2 and beyond</a><br><a href="https://www.ansible.com/blog/ansible-2.0-launch" target="_blank" rel="external">Ansible 2.0 Has Arrived</a></p>
+<p><a href="http://devo.ps/blog/ansible-simply-kicks-ass/" target="_blank" rel="external">Ansible Simply Kicks Ass | devo.ps</a><br><a href="https://speakerdeck.com/erikaheidi/automation-made-simple-with-ansible-1" target="_blank" rel="external">Automation made simple with Ansible // Speaker Deck</a><br><a href="http://theodorosploumis.github.io/ansible-python/#/" target="_blank" rel="external">Ansible - The configuration management tool for humans</a><br><a href="http://www.slideshare.net/GiovanniAlbero/ansible-49674704" target="_blank" rel="external">Ansible from Introduction to Amazon AWS</a><br><a href="https://www.upguard.com/articles/top-5-best-and-worst-attributes-of-ansible" target="_blank" rel="external">Top 5 Best and Worst Attributes of Ansible</a></p>
+<p><a href="http://vfarcic.github.io/ansible-workshop/#/cover" target="_blank" rel="external">Ansible Workshop</a><br><a href="https://www.ctl.io/developers/blog/post/ansible-cant-make-breakfast" target="_blank" rel="external">Ansible Q&amp;A: It Can’t Make Your Breakfast Yet - CenturyLink Cloud Developer Center</a></p>
+<h2 id="Admin-UI"><a href="#Admin-UI" class="headerlink" title="Admin UI"></a>Admin UI</h2><p><a href="https://www.ansible.com/tower" target="_blank" rel="external">Ansible Tower | Ansible.com</a> (commercial) web UI for Ansible, with logging and status</p>
+<p><a href="https://github.com/ansible-semaphore/semaphore" target="_blank" rel="external">ansible-semaphore/semaphore: Open Source Alternative to Ansible Tower</a></p>
+<h2 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices"></a>Best Practices</h2><p><a href="http://docs.ansible.com/ansible/playbooks_best_practices.html" target="_blank" rel="external">Playbook Best Practices — Ansible Documentation</a><br><a href="https://www.ansible.com/blog/ansible-best-practices-essentials" target="_blank" rel="external">Ansible Best Practices: The Essentials</a><br><a href="http://hakunin.com/six-ansible-practices" target="_blank" rel="external">6 practices for super smooth Ansible experience by Maxim Chernyak</a><br><a href="https://www.theodo.fr/blog/2015/10/best-practices-to-build-great-ansible-playbooks/" target="_blank" rel="external">Best practices to build great Ansible playbooks | Theodo</a><br><a href="https://github.com/fdavis/ansible-best-practices" target="_blank" rel="external">fdavis/ansible-best-practices: This is my working example of Ansible best practices</a></p>
+<p><a href="http://jpmens.net/2015/02/26/validate-ansible-templates/" target="_blank" rel="external">Jan-Piet Mens :: Validate Ansible templates!</a></p>
+<p><a href="http://codeheaven.io/15-things-you-should-know-about-ansible/" target="_blank" rel="external">15 Things You Should Know About Ansible</a></p>
+<p><a href="https://www.linuxserver.io/index.php/2016/02/08/how-to-use-vagrant-provision-with-ansible-for-playbook-development/" target="_blank" rel="external">How to use Vagrant provision with Ansible for playbook development – Linuxserver.io</a> !important</p>
+<h2 id="Inventory"><a href="#Inventory" class="headerlink" title="Inventory"></a>Inventory</h2><p>Inventory is an INI-like file that describes the servers to manages, the grouping of them and the parameters for connection.</p>
+<p>Ansible loads <code>/etc/ansible/hosts</code> by default. It’s recommended to use <code>-i</code> option to pass different inventory files per use case.</p>
+<p>The inventory file can be a program as long as it emits the correct JSON upon invocation.</p>
+<h2 id="Connection-Modes"><a href="#Connection-Modes" class="headerlink" title="Connection Modes"></a>Connection Modes</h2><blockquote>
+<p>see <code>Scaling_and_Performance_of_the_Ansible_Management_Toolchain.pdf</code></p>
+</blockquote>
+<p>Local: affects the local system only, used for “pull” and “push-pull” topology<br>Paramiko: Python SSH module (obsolete since 1.2)<br>SSH with Control Persist: default mode, SSH connection is kept alive for a timeout (say 30 minutes)<br>Accelerated: temporary daemon will be created that only allows connections only from the initiating user, the communication is encrypted with AES keys exchanged in SSH, 2.5x faster than SSH</p>
+<p><a href="http://jpmens.net/2012/07/14/ansible-pull-instead-of-push/" target="_blank" rel="external">Jan-Piet Mens :: Ansible: pull instead of push</a></p>
+<h2 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h2><p><a href="http://docs.ansible.com/ansible/playbooks_variables.html" target="_blank" rel="external">Variables — Ansible Documentation</a><br><a href="http://docs.ansible.com/ansible/playbooks_filters.html" target="_blank" rel="external">Jinja2 filters — Ansible Documentation</a><br><a href="https://docs.ansible.com/ansible/playbooks_tests.html" target="_blank" rel="external">Jinja2 tests — Ansible Documentation</a><br><a href="http://jinja.pocoo.org/docs/dev/templates/#builtin-filters" target="_blank" rel="external">List of Builtin Filters</a><br><a href="http://sasheldon.com/blog/2013/12/14/simplifying-json-response-mocks-with-jinja/" target="_blank" rel="external">Simplifying JSON Response Mocks With Jinja - sasheldon.com</a></p>
+<p><a href="https://blog.codecentric.de/en/2014/08/jinja2-better-ansible-playbooks-templates/" target="_blank" rel="external">Jinja2 for better Ansible playbooks and templates - codecentric Blog : codecentric Blog</a><br><a href="https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/" target="_blank" rel="external">[Howto] Introduction to Ansible variables – /home/liquidat</a></p>
+<h2 id="Fact"><a href="#Fact" class="headerlink" title="Fact"></a>Fact</h2><p><a href="http://jpmens.net/2012/07/15/ansible-it-s-a-fact/" target="_blank" rel="external">Jan-Piet Mens :: Ansible: it’s a fact</a></p>
+<p>You can use <code>set_fact</code> to dynamically create variables:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">- set_fact: </div><div class="line">    myvar: &quot;&#123;&#123; result.stdout | from_json &#125;&#125;&quot;</div></pre></td></tr></table></figure></p>
+<p><a href="http://docs.ansible.com/ansible/set_fact_module.html" target="_blank" rel="external">set_fact - Set host facts from a task — Ansible Documentation</a></p>
+<p><a href="http://docs.ansible.com/ansible/playbooks_variables.html#fact-caching" target="_blank" rel="external">Variables — Ansible Documentation</a> fact caching<br><a href="https://blog.bytework.eu/fast-caching-facts-ansible/" target="_blank" rel="external">Fast Caching facts ansible – Erik’s Blog</a></p>
+<h2 id="Modules"><a href="#Modules" class="headerlink" title="Modules"></a>Modules</h2><p><a href="http://docs.ansible.com/ansible/modules.html" target="_blank" rel="external">About Modules — Ansible Documentation</a><br><a href="http://docs.ansible.com/ansible/list_of_all_modules.html" target="_blank" rel="external">All Modules — Ansible Documentation</a></p>
+<h2 id="Playbooks"><a href="#Playbooks" class="headerlink" title="Playbooks"></a>Playbooks</h2><p><a href="http://docs.ansible.com/ansible/playbooks.html" target="_blank" rel="external">Playbooks — Ansible Documentation</a></p>
+<p>Playbooks contain Plays; Plays contain Tasks; Tasks invoke modules.<br>Handlers are tasks that can be run once after tasks.</p>
+<p><a href="https://blog.codecentric.de/en/2014/08/jinja2-better-ansible-playbooks-templates/" target="_blank" rel="external">Jinja2 for better Ansible playbooks and templates - codecentric Blog : codecentric Blog</a></p>
+<p><a href="http://stackoverflow.com/questions/20563639/ansible-playbook-shell-output" target="_blank" rel="external">sed - Ansible playbook shell output - Stack Overflow</a><br><a href="http://docs.ansible.com/ansible/debug_module.html" target="_blank" rel="external">debug - Print statements during execution — Ansible Documentation</a></p>
+<p><a href="https://www.amon.cx/blog/one-year-with-ansible/#" target="_blank" rel="external">Amon - What I learned from a year using Ansible extensively</a> install, test playbook with docker<br><a href="http://www.stinebaugh.info/ansible-playbook-to-create-a-minimal-headless-raspberry-pi/" target="_blank" rel="external">Ansible Playbook to create a minimal headless raspberry pi – Stineblog</a></p>
+<p><a href="https://gist.github.com/phred/2897937" target="_blank" rel="external">Insanely complete Ansible playbook, showing off all the options</a><br><a href="https://www.digitalocean.com/community/tutorials/how-to-create-ansible-playbooks-to-automate-system-configuration-on-ubuntu" target="_blank" rel="external">How To Create Ansible Playbooks to Automate System Configuration on Ubuntu | DigitalOcean</a></p>
+<h2 id="Alternatives"><a href="#Alternatives" class="headerlink" title="Alternatives"></a>Alternatives</h2><p><a href="https://github.com/pstadler/flightplan" target="_blank" rel="external">pstadler/flightplan: Run sequences of shell commands against local and remote hosts.</a><br><a href="http://www.fabfile.org/" target="_blank" rel="external">Welcome to Fabric!</a> <a href="http://docs.fabfile.org/en/latest/" target="_blank" rel="external">documentation</a></p>
+<hr>
+<h2 id="unsorted-notes"><a href="#unsorted-notes" class="headerlink" title="unsorted notes"></a>unsorted notes</h2><p>Play<br>  target<br>  vars<br>  handlers<br>  tasks</p>
+<p>Variable hierarchy<br>inventory<br>cli<br>playbook<br>module facts</p>
+<p>directive<br>vars, vars_files, vars_prompt<br>module<br>local_action<br>script</p>
+<p>async, poll</p>
+<p>In pull mode, each managed node pull the config from git and run locally, without connecting to any controlling host machine.</p>
+<p>AnsibleModule class, lib/ansible/module_common.py</p>
+<h3 id="Role"><a href="#Role" class="headerlink" title="Role"></a>Role</h3><p>Breakdown a playbook into a predefined directory structure for better modularization.<br><a href="http://docs.ansible.com/ansible/playbooks_roles.html#roles" target="_blank" rel="external">Playbook Roles and Include Statements — Ansible Documentation</a></p>
+<p>Point of entry: <code>meta/main.yml</code><br>Can declare dependency for other roles here.</p>
+<p>The easiest way to create a role is with <code>ansible-galaxy</code>:<br><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ansible-galaxy init &lt;role&gt;</div></pre></td></tr></table></figure></p>
+<p><a href="http://willthames.github.io/2015/04/03/worked-example-of-versioning.html" target="_blank" rel="external">A Worked Example of Role Versioning</a><br><a href="http://www.kernel-overload.com/ansible-roles-explained-in-practice/" target="_blank" rel="external">Ansible roles explained in practice</a><br><a href="http://blog.evanstoner.net/post/116143629247/ansible-pattern-wrapper-roles" target="_blank" rel="external">Evan Stoner — Ansible Pattern: Using Wrappers to Parameterize…</a><br><a href="http://www.future500.nl/articles/2015/04/being-a-star-in-galaxy/" target="_blank" rel="external">Being a Star in Galaxy ● Future500 B.V.</a></p>
+<p><a href="http://www.azavea.com/blogs/labs/2014/10/creating-ansible-roles-from-scratch-part-1/" target="_blank" rel="external">Creating Ansible Roles from Scratch: Part 1 | Azavea Labs</a><br><a href="http://www.azavea.com/blogs/labs/2014/10/creating-ansible-roles-from-scratch-part-2/" target="_blank" rel="external">Creating Ansible Roles from Scratch: Part 2 | Azavea Labs</a></p>
+<p><a href="https://serversforhackers.com/video/ansible-roles" target="_blank" rel="external">Ansible: Roles - Servers for Hackers</a></p>
+<h3 id="Error-Handling"><a href="#Error-Handling" class="headerlink" title="Error Handling"></a>Error Handling</h3><p><a href="http://docs.ansible.com/ansible/playbooks_error_handling.html" target="_blank" rel="external">Error Handling In Playbooks — Ansible Documentation</a><br><a href="http://www.erickenney.io/Blog//2015/02/20/handling-ansible-errors/" target="_blank" rel="external">Error Catching in Ansible — Hey There Fancy Pants</a><br><a href="http://serverfault.com/questions/748844/how-to-do-proper-error-handling-in-ansible" target="_blank" rel="external">deployment - How to do proper error handling in ansible? - Server Fault</a></p>
+<h2 id="葉秉哲-William-Yeh"><a href="#葉秉哲-William-Yeh" class="headerlink" title="葉秉哲 (William Yeh)"></a>葉秉哲 (William Yeh)</h2><p><a href="https://github.com/softarch-school/ansible-workshop" target="_blank" rel="external">softarch-school/ansible-workshop: Ansible Workshop - Hands-On Materials.</a><br><a href="https://github.com/William-Yeh/build-docker-with-ansible" target="_blank" rel="external">William-Yeh/build-docker-with-ansible: Build Docker images with Ansible - A half-blood approach</a></p>
+<h2 id="Ansible-Vault"><a href="#Ansible-Vault" class="headerlink" title="Ansible Vault"></a>Ansible Vault</h2><p><a href="http://docs.ansible.com/ansible/playbooks_vault.html" target="_blank" rel="external">Vault — Ansible Documentation</a></p>
+<p><a href="http://www.alessandromazzoli.com/ansible-vault/" target="_blank" rel="external">ansible vault - alessandromazzoli.comalessandromazzoli.com</a><br><a href="https://www.onwebsecurity.com/devops/safely-storing-ansible-playbook-secrets" target="_blank" rel="external">Safely storing Ansible playbook secrets | On Web Security</a><br><a href="https://www.onwebsecurity.com/tools/openssl-the-ansible-vault-using-pbkdf2" target="_blank" rel="external">OpenSSL the Ansible vault.. using PBKDF2 | On Web Security</a><br><a href="https://pynet.twb-tech.com/blog/ansible/vault.html" target="_blank" rel="external">Python for Network Engineers | Articles</a><br><a href="http://stackoverflow.com/questions/21870083/specify-sudo-password-for-ansible" target="_blank" rel="external">Specify sudo password for Ansible - Stack Overflow</a></p>
+<p><a href="https://serversforhackers.com/video/ansible-using-vault" target="_blank" rel="external">Ansible: Using Vault - Servers for Hackers</a></p>
+<h2 id="Ansible-Container"><a href="#Ansible-Container" class="headerlink" title="Ansible Container"></a>Ansible Container</h2><p><a href="https://www.ansible.com/containers" target="_blank" rel="external">Container Management with Ansible</a><br><a href="https://www.ansible.com/blog/ansible-container-project" target="_blank" rel="external">5 Reasons We Started the Ansible Container Project</a><br><a href="https://www.ansible.com/blog/ansible-container-0-9" target="_blank" rel="external">Announcing Ansible Container 0.9</a> </p>
+<blockquote>
+<p>0.9 revamped the commands and internal</p>
+</blockquote>
+<p><a href="https://www.ansible.com/ansible-container" target="_blank" rel="external">Ansible Container - Container Automation with Ansible</a><br><a href="https://github.com/ansible/ansible-container" target="_blank" rel="external">ansible/ansible-container: Ansible Container is a tool to build Docker images and orchestrate containers using only Ansible playbooks.</a><br><a href="http://docs.ansible.com/ansible-container/" target="_blank" rel="external">Ansible Container Documentation</a></p>
+<p><code>Dockerfile</code> replacement with Ansible awesomeness</p>
+<h2 id="Edguim"><a href="#Edguim" class="headerlink" title="Edguim"></a>Edguim</h2><p>Use Ansible as a cross-platform package manager<br><a href="http://martinrusev.github.io/edgium/#" target="_blank" rel="external">Edgium</a><br><a href="http://martinrusev.github.io/edgium/#packages" target="_blank" rel="external">Edgium packages</a></p>
+<p><a href="https://github.com/martinrusev/edgium" target="_blank" rel="external">martinrusev/edgium: Collection of Ansible playbooks to quickly install up todate Linux packages</a></p>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><p><a href="http://docs.ansible.com/ansible/developing_api.html" target="_blank" rel="external">Python API — Ansible Documentation</a><br><a href="http://jpmens.net/2012/12/13/obtaining-remote-data-with-ansible-s-api/" target="_blank" rel="external">Jan-Piet Mens :: Obtaining remote data with Ansible’s API</a><br><a href="https://serversforhackers.com/running-ansible-programmatically" target="_blank" rel="external">Running Ansible Programmatically - Servers for Hackers</a><br><a href="https://serversforhackers.com/running-ansible-2-programmatically" target="_blank" rel="external">Running Ansible 2 Programmatically - Servers for Hackers</a><br><a href="http://tylerturk.com/extending-ansible/" target="_blank" rel="external">Extending Ansible – Tyler Turk’s Blog</a></p>
+<hr>
+<p><a href="https://valdhaus.co/writings/ansible-post-install/" target="_blank" rel="external">Ansible: Post-Install Setup</a><br><a href="http://www.big-bubbles.fluff.org/blogs/bubbles/blog/2015/06/16/puppet-to-ansible/" target="_blank" rel="external">Puppet to Ansible - Big Bubbles (no troubles)</a></p>
+<p><a href="http://tomoconnor.eu/blogish/getting-started-ansible/" target="_blank" rel="external">Part 1: Getting Started with Ansible</a><br><a href="http://tomoconnor.eu/blogish/part-2-deploying-applications-ansible/" target="_blank" rel="external">Part 2: Deploying Applications with Ansible</a><br><a href="http://tomoconnor.eu/blogish/part-3-ansible-and-amazon-web-services/" target="_blank" rel="external">Part 3: Ansible and Amazon Web Services</a><br><a href="http://tomoconnor.eu/blogish/part-4-ansible-tower/" target="_blank" rel="external">Part 4: Ansible Tower</a><br><a href="http://tomoconnor.eu/blogish/part-5-ansible-galaxy/" target="_blank" rel="external">Part 5: Ansible Galaxy</a><br><a href="https://github.com/tomoconnor/parallax" target="_blank" rel="external">tomoconnor/parallax: My collection of ansible templates, sensible defaults and an example of where to start from.</a></p>
+<p><a href="https://valdhaus.co/newsletters/ansible/" target="_blank" rel="external">Briefs on Ansible Newsletter</a> (ended)<br><a href="http://technologyconversations.com/?s=ansible" target="_blank" rel="external">ansible | Search Results | Technology Conversations</a></p>
+<p><a href="https://www.upguard.com/articles/ansible-vs.-ansible-tower" target="_blank" rel="external">Ansible vs. Ansible Tower</a><br><a href="https://valdhaus.co/writings/ansible-vs-shell-scripts/" target="_blank" rel="external">Shell Scripts vs Ansible: Fight!</a></p>
+<h2 id="perfmatters"><a href="#perfmatters" class="headerlink" title="#perfmatters"></a>#perfmatters</h2><p><a href="https://adamj.eu/tech/2015/05/18/making-ansible-a-bit-faster/" target="_blank" rel="external">Making Ansible a Bit Faster · Adam’s Tech Blog</a><br><a href="http://acalustra.com/acelerate-your-ansible-playbooks-with-async-tasks.html" target="_blank" rel="external">How to accelerate your Ansible Playbooks</a></p>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p><a href="http://docs.ansible.com/ansible/guide_docker.html" target="_blank" rel="external">Getting Started with Docker — Ansible Documentation</a> major updates in 2.1</p>
+<p><a href="https://purplebooth.co.uk/blog/2015/05/31/managing-docker/" target="_blank" rel="external">Managing Docker · Billie Thompson</a><br><a href="https://developer.rackspace.com/blog/ansible-and-docker/" target="_blank" rel="external">Ansible and Docker</a><br><a href="http://madrossan.github.io/docker_ansible/" target="_blank" rel="external">Docker + Ansible = Happiness! – Alex Madrossan – Just a humble geek</a><br><a href="https://www.ansible.com/blog/testing-ansible-roles-with-docker" target="_blank" rel="external">Testing Ansible Roles with Docker</a><br><a href="https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better" target="_blank" rel="external">Six Ways Ansible Makes Docker-Compose Better</a><br><a href="https://dzone.com/articles/how-ansible-and-docker-fit" target="_blank" rel="external">How Ansible and Docker Fit: Using Ansible to Bootstrap and Coordinate Docker Containers - DZone DevOps</a><br><a href="https://linuxacademy.com/howtoguides/posts/show/topic/13750-managing-docker-containers-with-ansible" target="_blank" rel="external">Managing Docker Containers with Ansible</a></p>
+<p><a href="http://www.slideshare.net/search/slideshow?searchfrom=header&amp;q=ansible+docker" target="_blank" rel="external">‘ansible docker’ on SlideShare</a></p>
+<h2 id="Monitoring"><a href="#Monitoring" class="headerlink" title="Monitoring"></a>Monitoring</h2><p><a href="http://agiletesting.blogspot.hk/2015/06/deploying-monitoring-tools-with-ansible.html" target="_blank" rel="external">Agile Testing: Deploying monitoring tools with ansible</a><br><a href="http://www.willhallonline.co.uk/blog/ansible-server-monitoring" target="_blank" rel="external">Ansible for Server Monitoring | Cambridge Web Design and Development by Will Hall Online</a></p>
+<p>Ansible + Nagios/Monit + Collectd = EPIC WIN</p>
+<h2 id="Tips-and-Tricks"><a href="#Tips-and-Tricks" class="headerlink" title="Tips and Tricks"></a>Tips and Tricks</h2><p><a href="http://www.slideshare.net/bcoca/ansible-tips-tricks" target="_blank" rel="external">Ansible tips &amp; tricks</a></p>
+<p><a href="http://blog.cliffano.com/2014/04/06/human-readable-ansible-playbook-log-output-using-callback-plugin/" target="_blank" rel="external">Studio Cliffano</a></p>
+<p><a href="https://www.ansible.com/blog/make-your-life-easier-by-creating-utilities-and-delegating-playbooks" target="_blank" rel="external">Make Your Life Easier by Creating Utilities and Delegating Playbooks</a><br><a href="https://www.youtube.com/watch?v=ekpjX3_1wY4" target="_blank" rel="external">Ansible Trips and Tricks Webinar #1 - YouTube</a><br><a href="https://www.youtube.com/watch?v=k0nUa9eQWak" target="_blank" rel="external">Ansible Tips &amp; Tricks Webinar #2 - YouTube</a><br><a href="https://www.youtube.com/watch?v=b3PMcINjqX4" target="_blank" rel="external">tips n tricks webinar #3 - YouTube</a><br><a href="https://www.youtube.com/watch?v=gBZ0WrdAsqA" target="_blank" rel="external">Ansible Tips &amp; Tricks webinar #4 - YouTube</a><br><a href="https://www.youtube.com/watch?v=F5iFGWRSG-4" target="_blank" rel="external">Ansible Tips &amp; Tricks webinar #5 - YouTube</a></p>
+<p><a href="http://devnull.guru/outage-recovery-ansible/" target="_blank" rel="external">Outage Recovery With Ansible</a><br><a href="https://www.ansible.com/blog/managing
+-vmware-guests" target="_blank" rel="external">A Shiny New Way to Manage VMware Guests</a></p>
+<p><a href="https://nylas.com/blog/graduating-past-playbooks" target="_blank" rel="external">Graduating Past Playbooks</a><br><a href="http://hakunin.com/six-ansible-practices" target="_blank" rel="external">6 practices for super smooth Ansible experience by Maxim Chernyak</a><br><code>group_vars/all</code> can be a folder, create <code>group_vars/all/{config,secret}</code>, add the latter to <code>.gitignore</code> FTW<br><a href="https://www.theodo.fr/blog/2015/10/best-practices-to-build-great-ansible-playbooks/" target="_blank" rel="external">Best practices to build great Ansible playbooks | Theodo</a></p>
+<p><a href="https://medium.com/@jmarhee/deploying-a-glusterfs-storage-cluster-with-ansible-on-digitalocean-14dacd721e23#.whqwo6a35" target="_blank" rel="external">Deploying a GlusterFS Storage Cluster withf Ansible on DigitalOcean — Medium</a><br><a href="http://rnowling.github.io/devops/2015/04/21/ansible-gluster.html" target="_blank" rel="external">Provisioning Gluster Servers with Ansible</a></p>
+<h2 id="CLI-Example"><a href="#CLI-Example" class="headerlink" title="CLI Example"></a>CLI Example</h2><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ansible HOST --become -m MODULE <span class="_">-a</span> MODULE_ARGS</div></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ansible HOST -m setup | grep release</div></pre></td></tr></table></figure>
+<h2 id="Playbook-example"><a href="#Playbook-example" class="headerlink" title="Playbook example"></a>Playbook example</h2><p><a href="https://debops.org/" target="_blank" rel="external">Your Debian-based data center in a box</a><br><a href="https://github.com/pigmonkey/spark" target="_blank" rel="external">pigmonkey/spark: Arch Linux Provisioning with Ansible</a></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">ansible-playbook PLAYBOOK -i HOSTS --user root --ask-pass</div></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><div class="line"><span class="attr">- hosts:</span> all    </div><div class="line"><span class="attr">   user:</span> root   <span class="comment"># server user</span></div><div class="line"><span class="attr">   sudo:</span> <span class="literal">yes</span>    <span class="comment"># is it super user</span></div><div class="line"><span class="attr">- name:</span> With module and args as keys</div><div class="line"><span class="attr">  apt:</span></div><div class="line"><span class="attr">    name:</span> <span class="string">"<span class="template-variable">&#123;&#123; item &#125;&#125;</span>"</span></div><div class="line"><span class="attr">    update_cache:</span> <span class="literal">yes</span></div><div class="line"><span class="attr">    cache_valid_time:</span> <span class="number">3600</span></div><div class="line"><span class="attr">  with_items:</span></div><div class="line"><span class="bullet">    -</span> htop</div><div class="line"><span class="bullet">    -</span> ngrep</div><div class="line"><span class="bullet">    -</span> vim</div><div class="line"><span class="attr">- name:</span> With action YAML multiline</div><div class="line"><span class="attr">  action:</span> apt <span class="string">&gt;</span></div><div class="line">    pkg=<span class="template-variable">&#123;&#123; item &#125;&#125;</span> </div><div class="line">    state=installed </div><div class="line">    update-cache=yes</div><div class="line"><span class="attr">  with_items:</span></div><div class="line"><span class="bullet">    -</span> python-dev</div><div class="line"><span class="bullet">    -</span> gcc</div><div class="line"><span class="bullet">    -</span> python-setuptools</div><div class="line"><span class="bullet">    -</span> git-core</div><div class="line"><span class="attr">- name:</span> Single line</div><div class="line"><span class="attr">  apt:</span> pkg=&#123;&#123; item &#125;&#125; state=installed update-cache=<span class="literal">yes</span></div><div class="line"><span class="attr">  with_items:</span></div><div class="line"><span class="bullet">    -</span> libmysqlclient-dev</div><div class="line"><span class="bullet">    -</span> mysql-server</div><div class="line"><span class="bullet">    -</span> redis-server</div><div class="line"><span class="bullet">    -</span> mysql-client</div><div class="line"><span class="bullet">    -</span> nginx</div><div class="line"><span class="bullet">    -</span> apache2</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="Notes-for-ansible-for-devops"><a href="#Notes-for-ansible-for-devops" class="headerlink" title="Notes for ansible-for-devops"></a>Notes for ansible-for-devops</h2><p>Pretask<br>Ad hoc command<br>Apt cache valid time<br>–force-handlers<br>Mywiki.Wooldridge.org/dotfiles<br>Magic variable</p>
+<p>Precedence<br>-e<br>Inventory, connection<br>Play, include<br>Inventory, others<br>Facts<br>Role default</p>
+<p>119<br>Digital ocean<br>122， 125<br>Dynamic inventory scripts<br>addhost, groupby<br>Doc, leanpub<br>124<br>Custom inventory</p>
+<p>www.sudo.ws<br>245,246 selinux link</p>
+<p>248 tower user guide,free?<br>260 debug</p>
+<p>265 rolespec, ci<br>266 Serverspec</p>
+<p>267 vagrant<br>Vagrant commands except init expects a vagrantfile in the current folder<br>Up, halt, suspend, ssh, sshconfig<br>current folder is mapped to /vagrant</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/fish-notes/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/devops/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	
+	</div> <!-- col-md-9/col-md-12 -->
+	
+	
+		<div class="col-md-3"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-02-17 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/cloud/">cloud<span>7</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/devops/">devops<span>9</span></a></li> <li><a href="/tags/ansible/">ansible<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Beginners"><span class="toc-article-text">Beginners</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Admin-UI"><span class="toc-article-text">Admin UI</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Best-Practices"><span class="toc-article-text">Best Practices</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Inventory"><span class="toc-article-text">Inventory</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Connection-Modes"><span class="toc-article-text">Connection Modes</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Variables"><span class="toc-article-text">Variables</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Fact"><span class="toc-article-text">Fact</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Modules"><span class="toc-article-text">Modules</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Playbooks"><span class="toc-article-text">Playbooks</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Alternatives"><span class="toc-article-text">Alternatives</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#unsorted-notes"><span class="toc-article-text">unsorted notes</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Role"><span class="toc-article-text">Role</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Error-Handling"><span class="toc-article-text">Error Handling</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#葉秉哲-William-Yeh"><span class="toc-article-text">葉秉哲 (William Yeh)</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ansible-Vault"><span class="toc-article-text">Ansible Vault</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Ansible-Container"><span class="toc-article-text">Ansible Container</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Edguim"><span class="toc-article-text">Edguim</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#API"><span class="toc-article-text">API</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#perfmatters"><span class="toc-article-text">#perfmatters</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Docker"><span class="toc-article-text">Docker</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Monitoring"><span class="toc-article-text">Monitoring</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Tips-and-Tricks"><span class="toc-article-text">Tips and Tricks</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#CLI-Example"><span class="toc-article-text">CLI Example</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Playbook-example"><span class="toc-article-text">Playbook example</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Notes-for-ansible-for-devops"><span class="toc-article-text">Notes for ansible-for-devops</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	
+
+</div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2017 leesei
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a> (customized by <a href="https://github.com/leesei/hexo-theme-freemind/tree/leesei.github.io">leesei</a>).
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'leesei';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+   </html>
