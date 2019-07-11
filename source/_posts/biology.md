@@ -1,7 +1,7 @@
 ---
 title: Biology
 categories:
-  - trivia
+  - science
 tags:
   - biology
 toc: true

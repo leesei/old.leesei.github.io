@@ -1,9 +1,9 @@
 ---
 title: 關於我轉生變成史萊姆這檔事
 categories:
-  - trivia
-tags:
   - anime
+tags:
+  - 
 toc: true
 date: 2019-03-30 21:52:25
 ---

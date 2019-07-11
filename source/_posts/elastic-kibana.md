@@ -1,5 +1,5 @@
 ---
-title: Elastic Stack
+title: Kibana
 categories:
   - web
 toc: true

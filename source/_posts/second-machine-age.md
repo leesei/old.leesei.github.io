@@ -1,7 +1,7 @@
 ---
 title: The Second Machine Age
 categories:
-  - trivia
+  - history
 toc: true
 date: 2015-09-08 11:23:26
 tags:

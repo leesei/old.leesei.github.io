@@ -1,7 +1,7 @@
 ---
 title: Paper Craft
 categories:
-  - uncategorized
+  - maker
 tags:
   - pepakura
 toc: true

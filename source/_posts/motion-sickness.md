@@ -1,7 +1,7 @@
 ---
 title: Motion Sickness
 categories:
-  - trivia
+  - science
 tags:
   - null
 toc: true

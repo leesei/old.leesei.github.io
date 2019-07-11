@@ -1,7 +1,7 @@
 ---
 title: Electronic Components
 categories:
-  - uncategorized
+  - maker
 tags:
   - electronics
 toc: true

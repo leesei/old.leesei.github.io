@@ -1,7 +1,7 @@
 ---
 title: Manga
 categories:
-  - trivia
+  - anime
 tags:
   - manga
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: 稅務
 categories:
-  - trivia
+  - finance
 tags:
   - null
 toc: true

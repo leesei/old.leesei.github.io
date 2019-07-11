@@ -16,11 +16,9 @@ cd leesei.github.io; npm install
 git clone --branch leesei.github.io https://github.com/leesei/hexo-theme-freemind.git themes/freemind
 
 # local serve
-hexo server
+npx hexo clean && npx hexo server
 
-# generate staic site with hexo-console-optimize 
-# not working for 3.0
+# hexo-console-optimize is not working for 3.0
 # hexo optimize
-hexo generate
-hexo deploy
+npx hexo clean && npx hexo generate && npx hexo deploy
 ```

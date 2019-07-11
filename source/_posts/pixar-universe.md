@@ -1,9 +1,9 @@
 ---
 title: Pixar Universe
 categories:
-  - trivia
+  - anime
 tags:
-  - null
+  - pixar
 toc: true
 date: 2016-04-17 23:11:18
 ---

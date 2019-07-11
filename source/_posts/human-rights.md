@@ -2,7 +2,7 @@
 title: "Human Rights"
 date: 2018-07-25 09:57:44
 categories:
-- trivia
+- law
 tags:
 - 
 toc: true

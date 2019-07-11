@@ -1,7 +1,7 @@
 ---
 title: Arduino
 categories:
-  - comp.hardware
+  - maker
 tags:
   - iot
   - arduino

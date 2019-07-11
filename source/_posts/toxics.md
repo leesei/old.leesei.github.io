@@ -1,9 +1,9 @@
 ---
 title: Toxics
 categories:
-  - trivia
-tags:
   - science
+tags:
+  - 
 toc: true
 date: 2016-10-02 21:47:05
 ---

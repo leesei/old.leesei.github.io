@@ -1,7 +1,7 @@
 ---
 title: Firearms
 categories:
-  - trivia
+  - weapons
 toc: true
 date: 2015-06-13 14:35:08
 tags:

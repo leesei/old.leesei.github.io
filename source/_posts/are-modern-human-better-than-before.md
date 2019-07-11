@@ -1,11 +1,13 @@
 ---
-title: Are Modern Human Better than Before?
+title: Anthropology
 categories:
-  - trivia
+  - anthropology
 toc: true
 date: 2015-08-07 11:28:18
 tags:
 ---
+
+## Are Modern Human Better than Before?
 
 [David Epstein: Are athletes really getting faster, better, stronger? - YouTube](https://www.youtube.com/watch?v=8COaMKbNrX0)
 

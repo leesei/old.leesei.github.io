@@ -1,7 +1,7 @@
 ---
 title: Passive Income
 categories:
-  - trivia
+  - finance
 tags:
   - null
 toc: true

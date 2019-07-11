@@ -1,7 +1,7 @@
 ---
 title: One Piece
 categories:
-  - trivia
+  - anime
 tags:
   - one-piece
   - manga

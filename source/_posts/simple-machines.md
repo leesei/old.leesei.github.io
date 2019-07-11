@@ -1,7 +1,7 @@
 ---
 title: Simple Machines
 categories:
-  - trivia
+  - science
 toc: true
 date: 2015-09-16 17:21:05
 tags:

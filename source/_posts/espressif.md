@@ -1,6 +1,6 @@
 ---
 title: Espressif
-  - comp.hardware
+  - maker
 tags:
   - iot
   - espressif

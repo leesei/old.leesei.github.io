@@ -2,7 +2,7 @@
 title: "Tuned mass damper"
 date: 2018-07-05 16:13:39
 categories:
-- trivia
+- science
 tags:
 - damper
 - physics

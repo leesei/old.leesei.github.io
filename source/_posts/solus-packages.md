@@ -1,9 +1,9 @@
 ---
 title: Solus Packages
 categories:
-  - uncategorized
+  - linux
 tags:
-  - null
+  - solus
 toc: true
 date: 2017-06-05 21:18:56
 ---

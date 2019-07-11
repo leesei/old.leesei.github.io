@@ -1,7 +1,7 @@
 ---
 title: "Internet of things"
 categories:
-  - comp.hardware
+  - maker
 tags:
   - iot
 toc: true

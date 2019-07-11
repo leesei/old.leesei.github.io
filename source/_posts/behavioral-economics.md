@@ -1,9 +1,9 @@
 ---
 title: Behavioral Economics
 categories:
-  - trivia
+  - economics
 tags:
-  - economy
+  - 
 toc: true
 date: 2016-04-24 15:59:34
 ---

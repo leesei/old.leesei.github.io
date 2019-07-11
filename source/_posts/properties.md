@@ -1,7 +1,7 @@
 ---
 title: 置業
 categories:
-  - trivia
+  - finance
 tags:
   - null
 toc: true

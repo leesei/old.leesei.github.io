@@ -6,6 +6,7 @@ toc: true
 date: 2015-08-03 13:22:02
 tags:
   - database
+  - elastic-stack
 ---
 
 ## Elasticsearch

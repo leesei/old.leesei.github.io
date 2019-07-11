@@ -2,7 +2,7 @@
 title: "Hypnosis"
 date: 2018-01-15 13:47:22
 categories:
-- trivia
+- science
 tags:
 - hypnosis
 toc: true

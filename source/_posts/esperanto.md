@@ -2,7 +2,7 @@
 title: "Esperanto"
 date: 2019-04-20 11:42:54
 categories:
-  - trivia
+  - language
 tags:
   - esperanto
 toc: true

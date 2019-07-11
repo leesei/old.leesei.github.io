@@ -1,9 +1,9 @@
 ---
 title: Brexit
 categories:
-  - trivia
+  - economics
 tags:
-  - null
+  - brexit
 toc: true
 date: 2016-08-05 21:37:39
 ---

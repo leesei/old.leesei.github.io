@@ -1,7 +1,7 @@
 ---
 title: File Parsing
 categories:
-  - comp.lang
+  - standard
 tags:
   - binary-file
   - parsing

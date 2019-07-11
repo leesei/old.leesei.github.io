@@ -1,9 +1,10 @@
 ---
 title: Hunter X Hunter
 categories:
-  - trivia
-tags:
   - anime
+tags:
+  - hxh
+  - hunterxhunter
 toc: true
 date: 2018-03-12 11:06:25
 ---

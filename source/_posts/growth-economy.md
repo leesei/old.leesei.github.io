@@ -1,9 +1,9 @@
 ---
 title: Growth Economy
 categories:
-  - trivia
+  - economics
 tags:
-  - economy
+  - 
 toc: true
 date: 2016-04-17 22:38:58
 ---

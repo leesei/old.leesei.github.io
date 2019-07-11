@@ -1,9 +1,9 @@
 ---
 title: ケリ姫スイーツ
 categories:
-  - trivia
-tags:
   - games
+tags:
+  - kerihime
 toc: true
 date: 2016-09-23 22:52:32
 ---

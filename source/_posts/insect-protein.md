@@ -1,7 +1,7 @@
 ---
 title: Insect Protein
 categories:
-  - trivia
+  - science
 tags:
   - null
 toc: true

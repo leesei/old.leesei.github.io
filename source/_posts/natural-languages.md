@@ -2,9 +2,13 @@
 title: "Natural Languages"
 date: 2015-04-10 12:16:54
 categories:
-  - trivia
+  - language
 tags:
   - natural-language
+  - english
+  - chinese
+  - japanese
+  - korean
 toc: true
 ---
 

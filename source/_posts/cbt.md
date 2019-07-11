@@ -1,9 +1,8 @@
 ---
-title: Psychology
+title: Cognitive Behavioural Therapy
 categories:
-  - trivia
+  - economics
 tags:
-  - science
   - cbt
 toc: true
 date: 2016-07-02 12:41:17
@@ -22,6 +21,3 @@ Challenge your thoughts, help patients recover faster than traditional Freudian 
 
 [Quirk CBT | What's Cognitive Behavioral Therapy?](https://quirk.fyi/)
 [Cognitive Distortion: Overgeneralization - CBT](https://quirk.fyi/distortions)
-
-[Obsessive–compulsive disorder - Wikiwand](http://www.wikiwand.com/en/Obsessive–compulsive_disorder) you cannot put off the thing discuss you the most
-[Exposure therapy - Wikiwand](http://www.wikiwand.com/en/Exposure_therapy) in a safe environmet, exposing the patient to what they fear; treatment to phobia, PTSD and OCD

@@ -1,7 +1,7 @@
 ---
 title: Message Queue
 categories:
-  - compd
+  - comp
 toc: true
 date: 2015-08-03 13:21:02
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Presentation
 categories:
-  - trivia
+  - business
 tags:
   - null
 toc: true

@@ -1,9 +1,9 @@
 ---
 title: Genetics Science
 categories:
-  - trivia
-tags:
   - science
+tags:
+  - 
 toc: true
 date: 2017-12-05 16:24:44
 ---

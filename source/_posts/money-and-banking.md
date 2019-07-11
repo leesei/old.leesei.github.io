@@ -1,11 +1,11 @@
 ---
 title: Money and Banking
 categories:
-  - trivia
+  - economics
 toc: true
 date: 2015-10-09 10:39:16
 tags:
-- economics
+- monetary-policy
 ---
 
 [Great Depression - Wikiwand](https://www.wikiwand.com/en/Great_Depression)

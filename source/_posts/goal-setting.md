@@ -1,9 +1,9 @@
 ---
 title: Goal Setting
 categories:
-- trivia
+- business
 tags:
-- psychology
+- 
 toc: true
 date: 2017-06-06 01:05:55
 ---

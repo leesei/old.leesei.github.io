@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi
 categories:
-  - comp.hardware
+  - maker
 tags:
   - iot
   - raspberry-pi

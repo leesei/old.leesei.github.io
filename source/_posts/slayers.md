@@ -1,9 +1,9 @@
 ---
 title: Slayers
 categories:
-  - trivia
-tags:
   - anime
+tags:
+  - slayers
 toc: true
 date: 2017-11-15 17:43:25
 ---

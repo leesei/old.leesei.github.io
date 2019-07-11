@@ -1,9 +1,9 @@
 ---
 title: Wierd Science
 categories:
-  - trivia
-tags:
   - science
+tags:
+  - 
 toc: true
 date: 2015-12-04 11:29:44
 ---

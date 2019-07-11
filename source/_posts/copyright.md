@@ -2,7 +2,7 @@
 title: "Copyright"
 date: 2015-04-13 12:36:22
 categories:
-  - trivia
+  - law
 tags:
   - copyright
 toc: true

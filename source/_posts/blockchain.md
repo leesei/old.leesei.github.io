@@ -1,9 +1,9 @@
 ---
 title: Blockchain
 categories:
-  - uncategorized
+  - crypto
 tags:
-  - null
+  - blockchain
 toc: true
 date: 2017-08-18 00:25:38
 ---

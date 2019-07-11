@@ -1,7 +1,7 @@
 ---
 title: "Optical Illusion"
 categories:
-  - trivia
+  - science
 toc: true
 date: 2019-06-20 10:30:18
 tags:

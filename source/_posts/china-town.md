@@ -1,7 +1,7 @@
 ---
 title: China Town
 categories:
-  - trivia
+  - history
 tags:
   - null
 toc: true

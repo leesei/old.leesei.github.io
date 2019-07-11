@@ -1,12 +1,12 @@
 ---
 title: Antikythera Mechanism
 categories:
-  - trivia
+- history
+- science
 toc: true
 date: 2015-12-11 14:21:56
 tags:
-- science
-- history
+-
 ---
 
 [Antikythera mechanism - Wikiwand](https://www.wikiwand.com/en/Antikythera_mechanism)

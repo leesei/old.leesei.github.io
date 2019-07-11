@@ -1,7 +1,7 @@
 ---
 title: Leadership
 categories:
-  - trivia
+  - business
 tags:
   -
 toc: true

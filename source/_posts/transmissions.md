@@ -1,12 +1,12 @@
 ---
 title: Transmission and Drivetrain
 categories:
-  - trivia
-  - transmission
-  - drivetrain
+  - automobile
 toc: true
 date: 2015-09-23 12:25:54
 tags:
+  - transmission
+  - drivetrain
 ---
 
 [CLASSIC: What Do Transmissions Do? - TechStuff (podcast)](https://player.fm/series/techstuff/classic-what-do-transmissions-do)

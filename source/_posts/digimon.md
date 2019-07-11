@@ -1,7 +1,7 @@
 ---
 title: Digimon
 categories:
-  - trivia
+  - anime
 tags:
   - digimon
 toc: true

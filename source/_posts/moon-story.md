@@ -2,8 +2,8 @@
 title: Moon Story
 categories:
   - history
-tags:
   - science
+tags:
   - moon
   - project-apollo
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: Advertorial
 categories:
-  - trivia
+  - economics
 tags:
   - null
 toc: true

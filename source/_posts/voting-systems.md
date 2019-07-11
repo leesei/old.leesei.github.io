@@ -1,7 +1,7 @@
 ---
 title: "Voting Systems"
 categories:
-  - trivia
+  - politics
 toc: true
 date: 2015-03-05 23:09:53
 tags:

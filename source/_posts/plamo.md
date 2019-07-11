@@ -1,7 +1,7 @@
 ---
 title: Plamo
 categories:
-  - trivia
+  - toys
 tags:
   - null
 toc: true

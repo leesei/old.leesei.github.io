@@ -1,9 +1,9 @@
 ---
 title: Scientific Method
 categories:
-  - trivia
-tags:
   - science
+tags:
+  - 
 toc: true
 date: 2015-12-11 13:49:42
 ---

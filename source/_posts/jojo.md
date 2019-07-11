@@ -1,9 +1,9 @@
 ---
 title: JoJo的奇妙冒险
 categories:
-  - trivia
+  - anime
 tags:
-  - null
+  - jojo
 toc: true
 date: 2016-12-22 12:37:51
 ---

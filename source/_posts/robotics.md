@@ -1,11 +1,11 @@
 ---
 title: Robotics
 categories:
-  - trivia
+  - maker
 toc: true
 date: 2015-10-19 15:46:34
 tags:
-  - science
+- 
 ---
 
 [Documentation - ROS Wiki](http://wiki.ros.org/)

@@ -1,11 +1,11 @@
 ---
 title: New Energy Source
 categories:
-  - trivia
+- science
 toc: true
 date: 2015-11-04 11:37:35
 tags:
-  - science
+  - 
 ---
 
 [Our Energy Future - University of California, San Diego | Coursera](https://www.coursera.org/learn/future-of-energy/)

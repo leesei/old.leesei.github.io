@@ -1,5 +1,5 @@
 ---
-title: Board Games
+title: PC Games
 categories:
   - games
 toc: true

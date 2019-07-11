@@ -2,12 +2,11 @@
 title: "Corporates"
 date: 2015-04-15 11:33:39
 categories:
-  - trivia
+  - business
 tags:
   - corporate
   - logo
   - funding
-  - economy
 ---
 
 [Company Man - YouTube](https://www.youtube.com/channel/UCQMyhrt92_8XM0KgZH6VnRg)

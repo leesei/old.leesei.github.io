@@ -1,7 +1,7 @@
 ---
 title: Electronics
 categories:
-  - uncategorized
+  - maker
 tags:
   - electronics
 toc: true

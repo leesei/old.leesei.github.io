@@ -1,7 +1,7 @@
 ---
 title: Microscopy
 categories:
-  - trivia
+  - science
 tags:
   - 
 toc: true

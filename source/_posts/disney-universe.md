@@ -1,9 +1,9 @@
 ---
 title: Disney Universe
 categories:
-  - trivia
+  - anime
 tags:
-  - null
+  - disney
 toc: true
 date: 2016-04-17 22:51:49
 ---

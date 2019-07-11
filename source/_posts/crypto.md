@@ -1,7 +1,7 @@
 ---
 title: Cryptography
 categories:
-  - web
+  - crypto
 tags:
   - cryptography
   - security

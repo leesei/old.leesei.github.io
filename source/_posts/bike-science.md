@@ -1,11 +1,11 @@
 ---
 title: Bike Science
 categories:
-  - trivia
+  - science
 toc: true
 date: 2015-12-04 11:29:44
 tags:
-- science
+- 
 ---
 
 [How Do Bikes Stay Up? - YouTube](https://www.youtube.com/watch?v=oZAc5t2lkvo)

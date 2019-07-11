@@ -1,5 +1,5 @@
 ---
-title: "Laptop"
+title: "CPUs"
 date: 2019-05-03 14:14:12
 categories:
   - comp.hardware

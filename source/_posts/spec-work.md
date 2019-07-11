@@ -1,9 +1,9 @@
 ---
 title: Speculative Work
 categories:
-  - trivia
+  - economics
 tags:
-  - economy
+  - 
 toc: true
 date: 2016-09-22 01:11:17
 ---

@@ -4,4 +4,4 @@ layout: about
 comments: false
 ---
 
-About page.
+This is my index to the WWW.

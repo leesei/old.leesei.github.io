@@ -1,7 +1,7 @@
 ---
 title: Cold Weapons
 categories:
-  - trivia
+  - weapons
 toc: true
 date: 2015-10-09 12:57:26
 tags:

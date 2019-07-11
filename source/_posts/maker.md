@@ -1,7 +1,7 @@
 ---
 title: Maker
 categories:
-  - uncategorized
+  - maker
 tags:
   - null
 toc: true
@@ -12,7 +12,6 @@ date: 2018-10-16 13:42:15
 
 [How a Crystal Radio Works - YouTube](https://www.youtube.com/watch?v=0-PParSmwtE)
 [Crystal Radios - YouTube](https://www.youtube.com/playlist?list=PLFsZmHTZL-zlSltC6ELZW9PK4ks7wgPRz)
-
 
 ## BB-8
 

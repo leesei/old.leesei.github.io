@@ -1,7 +1,7 @@
 ---
 title: Wood and Metal Work
 categories:
-  - uncategorized
+  - maker
 tags:
   - null
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: Maps
 categories:
-  - trivia
+  - science
 tags:
   - maps
 toc: true

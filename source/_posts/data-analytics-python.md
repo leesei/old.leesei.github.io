@@ -1,5 +1,5 @@
 ---
-title: Data Analytics
+title: Data Analytics (Python)
 categories:
   - big-data
 tags:
@@ -15,7 +15,6 @@ date: 2016-09-21 23:05:16
 
 [Python Data Analysis Library](https://pandas.pydata.org/)(`pandas`) massage data into a tabular state so it can be modeled
 [Spyder - Documentation](https://pythonhosted.org/spyder/#) Scientific PYthon Development EnviRonment
-
 
 [5 essential Python programming tools for data science—now updated](https://www.infoworld.com/article/3233250/python/5-essential-python-tools-for-data-sciencenow-improved.html)
 [Weekend Reading: Python | Linux Journal](https://www.linuxjournal.com/content/weekend-reading-using-python-science-and-machine-learning) science and ML

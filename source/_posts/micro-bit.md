@@ -1,7 +1,7 @@
 ---
 title: "Micro:bit"
 categories:
-  - comp.hardware
+  - maker
 tags:
   - iot
   - micro-bit

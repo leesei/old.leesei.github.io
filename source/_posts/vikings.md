@@ -2,7 +2,7 @@
 title: "Vikings"
 date: 2015-04-02 18:05:23
 categories:
-- trivia
+- history
 tags:
 - vikings
 ---

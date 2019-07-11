@@ -1,9 +1,9 @@
 ---
 title: Anime
 categories:
-  - trivia
-tags:
   - anime
+tags:
+  - 
 toc: true
 date: 2016-05-30 18:03:25
 ---

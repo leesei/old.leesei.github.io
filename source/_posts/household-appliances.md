@@ -2,7 +2,7 @@
 title: Household Appliances
 date: 2018-07-05 16:08:39
 categories:
-- trivia
+- science
 tags:
 - washing-machine
 - refrigerator
