@@ -109,6 +109,58 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2015-06-11 </div>
+			<div class="article-title"><a href="/build-systems-node-js/" >Build Systems (Node.js)</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="https://ponyfoo.com/articles/understanding-build-processes" target="_blank" rel="noopener">Understanding Build Processes</a></p>
+<blockquote>
+<p>see <code>javascript-pipeline.md</code>, <code>css-pipeline.md</code></p>
+</blockquote>
+<blockquote>
+<p>TODO: add <code>~/web/nodejs/build</code><br><a href="http://jakejs.com/" target="_blank" rel="noopener">Jake: JavaScript build tool task runner for NodeJS</a></p>
+</blockquote>
+<h2 id="Source-map"><a href="#Source-map" class="headerlink" title="Source map"></a>Source map</h2><p><a href="https://scotch.io/tutorials/​everything-you-wanted-to-know-about-javascript-source-maps" target="_blank" rel="noopener">​Everything You Wanted to Know About JavaScript Source Maps | Scotch</a><br><a href="https://blog.bugsnag.com/source-maps/" target="_blank" rel="noopener">Anatomy of source maps</a></p>
+<h2 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h2><p>You can define npm scripts in <code>package.json</code>. npm will automatically resolve binaries in <code>node_modules</code>.<br>You can use shell pipe in the command. This works great is your toolchains support piping.<br>If you need cross-platform support (well, Windows support), consider using Vanilla JS.</p>
+<p><a href="https://docs.npmjs.com/misc/scripts" target="_blank" rel="noopener">scripts | npm Documentation</a><br><a href="https://docs.npmjs.com/cli/run-script" target="_blank" rel="noopener">run-script | npm Documentation</a></p>
+<p><a href="http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/" target="_blank" rel="noopener">Why we should stop using Grunt &amp; Gulp</a><br><a href="http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/" target="_blank" rel="noopener">How to Use npm as a Build Tool</a><br><a href="https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.uvq7td3ik" target="_blank" rel="noopener">Why I Left Gulp and Grunt for npm Scripts — Free Code Camp — Medium</a><br><a href="https://ponyfoo.com/articles/choose-grunt-gulp-or-npm" target="_blank" rel="noopener">Choose: Grunt, Gulp, or npm?</a></p>
+<p><a href="http://www.sitepoint.com/guide-to-npm-as-a-build-tool/" target="_blank" rel="noopener">Give Grunt the Boot! A Guide to Using npm as a Build Tool</a><br><a href="http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/" target="_blank" rel="noopener">Gulp is awesome, but do we really need it?</a><br><a href="https://medium.com/@julesbou/you-don-t-need-grunt-a48605915319#.4dz5pd3we" target="_blank" rel="noopener">You don’t need Grunt — Medium</a> with CLI replacements<br><a href="https://medium.com/swlh/you-might-not-need-gulp-js-89a0220487dd#.1z2zfrucg" target="_blank" rel="noopener">You Might Not Need Gulp.js — Startups, Wanderlust, and Life Hacking — Medium</a><br><a href="http://blog.modulus.io/using-npm-scripts-to-build-asset-pipeline" target="_blank" rel="noopener">Using npm Scripts to Build an Asset Pipeline</a><br><a href="http://substack.net/task_automation_with_npm_run" target="_blank" rel="noopener">task automation with npm run</a></p>
+<h2 id="Vanilla-JS"><a href="#Vanilla-JS" class="headerlink" title="Vanilla JS"></a>Vanilla JS</h2><p>If your toolchain expose Node.js API, you can write an Node.js app as your pipeline. This is better the other task runners as you have nothing more to learn other then JavaScript and the API of the toolchain you are using.</p>
+<p><a href="http://blog.millermedeiros.com/node-js-as-a-build-script/" target="_blank" rel="noopener">Node.js as a build script | Blog | Miller Medeiros</a><br><a href="http://blog.millermedeiros.com/node-js-ant-grunt-and-other-build-tools/" target="_blank" rel="noopener">Node.js, Ant, Grunt and other build tools | Blog | Miller Medeiros</a></p>
+<p><a href="https://gist.github.com/substack/8313379" target="_blank" rel="noopener">introducing ./task.js, THE new javascript task runner automation framework</a><br><a href="https://blog.bevry.me/bevry-news-2015-weeks-34-35-36-7f1516cb2580" target="_blank" rel="noopener">Bevry News 2015 Weeks 34, 35, 36 — Bevry Blog</a></p>
+<p><a href="https://github.com/jprichardson/node-fs-extra" target="_blank" rel="noopener">jprichardson/node-fs-extra: Node.js: extra methods for the fs object like copy(), remove(), mkdirs()</a><br><a href="https://github.com/keithamus/hashmark" target="_blank" rel="noopener">keithamus/hashmark: Take contents of a file (or stdin), and output as new file with a hash in the name</a><br><a href="https://github.com/nicholaswyoung/revv" target="_blank" rel="noopener">nicholaswyoung/revv</a></p>
+<h3 id="ShellJS"><a href="#ShellJS" class="headerlink" title="ShellJS"></a>ShellJS</h3><p><a href="http://documentup.com/shelljs/shelljs" target="_blank" rel="noopener">ShellJS</a> portable Unix shell commands<br><a href="https://github.com/nzakas/shelljs-nodecli" target="_blank" rel="noopener">nzakas/shelljs-nodecli</a> easier to run binaries in <code>node_modules</code>, like npm scripts</p>
+<p><a href="http://kjbekkelund.github.io/presentations/js-build/" target="_blank" rel="noopener">Building JavaScript apps</a> <a href="https://github.com/kjbekkelund/js-build" target="_blank" rel="noopener">source</a></p>
+<p><a href="https://github.com/firebug/firebug/blob/master/extension/build.js" target="_blank" rel="noopener">https://github.com/firebug/firebug/blob/master/extension/build.js</a><br><a href="https://github.com/kjbekkelund/js-build/blob/master/make.js" target="_blank" rel="noopener">https://github.com/kjbekkelund/js-build/blob/master/make.js</a><br><a href="https://github.com/madrobby/zepto/blob/master/make" target="_blank" rel="noopener">https://github.com/madrobby/zepto/blob/master/make</a><br><a href="https://github.com/mozilla/pdf.js/blob/master/make.js" target="_blank" rel="noopener">https://github.com/mozilla/pdf.js/blob/master/make.js</a><br><a href="https://github.com/gnab/remark/blob/develop/make.js" target="_blank" rel="noopener">https://github.com/gnab/remark/blob/develop/make.js</a></p>
+<h2 id="Metalsmith"><a href="#Metalsmith" class="headerlink" title="Metalsmith"></a>Metalsmith</h2><p>Metalsmith was advertised as a static site generator, but the pipeline and plugins allow it to be used as a build system.</p>
+<p><a href="http://www.metalsmith.io/" target="_blank" rel="noopener">Metalsmith</a></p>
+<h2 id="Grunt"><a href="#Grunt" class="headerlink" title="Grunt"></a>Grunt</h2><p><a href="http://gruntjs.com/" target="_blank" rel="noopener">Grunt: The JavaScript Task Runner</a><br><a href="http://gruntjs.com/plugins" target="_blank" rel="noopener">Plugins - Grunt: The JavaScript Task Runner</a><br><a href="https://ponyfoo.com/articles/grunt-tips-and-tricks" target="_blank" rel="noopener">Grunt Tips and Tricks</a> </p>
+<p><a href="https://github.com/bahmutov/grunty" target="_blank" rel="noopener">bahmutov/grunty</a> Run any grunt plugin as NPM script without Gruntfile.js</p>
+<h2 id="Gulp"><a href="#Gulp" class="headerlink" title="Gulp"></a>Gulp</h2><p><a href="http://gulpjs.com/" target="_blank" rel="noopener">gulp.js - the streaming build system</a><br><a href="https://www.joezimjs.com/javascript/complete-guide-upgrading-gulp-4/" target="_blank" rel="noopener">The Complete-Ish Guide to Upgrading to Gulp 4 | Joe Zim&#39;s JavaScript Blog</a><br><a href="https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js" target="_blank" rel="noopener">Automate Your Tasks Easily with Gulp.js | Scotch</a><br><a href="http://teamtreehouse.com/library/gulp-basics" target="_blank" rel="noopener">Gulp Basics Course</a><br><a href="https://ponyfoo.com/articles/gulp-grunt-whatever" target="_blank" rel="noopener">Gulp, Grunt, Whatever</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHE2RsdyUNpbiVn-cfuV7Fos" target="_blank" rel="noopener">Learning Gulp - YouTube</a></p>
+<h2 id="Brunch"><a href="#Brunch" class="headerlink" title="Brunch"></a>Brunch</h2><p><a href="http://brunch.io/" target="_blank" rel="noopener">Brunch - ultra-fast HTML5 build tool</a><br><a href="https://github.com/brunch/brunch-guide" target="_blank" rel="noopener">brunch/brunch-guide</a></p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/build-systems-node-js/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-06-11 </div>
 			<div class="article-title"><a href="/build-systems/" >Build Systems</a></div>						
 		</h3>
 	
@@ -600,6 +652,43 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2015-05-20 </div>
+			<div class="article-title"><a href="/network-file-systems/" >Network File Systems</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <h1 id="Network-File-System"><a href="#Network-File-System" class="headerlink" title="Network File System"></a>Network File System</h1><p><a href="https://www.wikiwand.com/en/Network_File_System" target="_blank" rel="noopener">Network File System - Wikiwand</a><br><a href="https://www.wikiwand.com/en/Server_Message_Block" target="_blank" rel="noopener">Server Message Block - Wikiwand</a><br><a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-nfs.html" target="_blank" rel="noopener">Chapter 8. Network File System (NFS)</a></p>
+<p><a href="https://ferhatakgun.com/network-share-performance-differences-between-nfs-smb/" target="_blank" rel="noopener">Network share: Performance differences between NFS &amp; SMB</a><br><a href="http://wiki.linux-nfs.org/wiki/index.php/Comparison_of_NFS_vs._others" target="_blank" rel="noopener">Comparison of NFS vs. others - Linux NFS</a></p>
+<p>SMB2 &gt; AFP ~ CIFS</p>
+<p><a href="http://www.admin-magazine.com/HPC/Articles/Shared-Storage-with-NFS-and-SSHFS" target="_blank" rel="noopener">Shared Storage with NFS and SSHFS » ADMIN Magazine</a><br><a href="http://www.admin-magazine.com/HPC/Articles/Useful-NFS-Options-for-Tuning-and-Management" target="_blank" rel="noopener">Optimizing Your NFS Filesystem » ADMIN Magazine</a></p>
+<p><a href="http://blog.fosketts.net/2012/02/16/cifs-smb/" target="_blank" rel="noopener">Why You Should Never Again Utter The Word, &quot;CIFS&quot; - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2012/03/22/lan-manager-smb-cifs-history/" target="_blank" rel="noopener">From LAN Manager and SMB to CIFS: The Evolution of Prehistoric PC Network Protocols - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2014/09/23/fairy-tale-storage-protocols/" target="_blank" rel="noopener">A Fairy Tale of Two Storage Protocols - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2015/02/03/vsphere-6-nfs-41-finally/" target="_blank" rel="noopener">vSphere 6: NFS 4.1 Finally Has a Use? - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2015/03/20/using-nfs-to-share-data-between-unix-and-mac-os-x/" target="_blank" rel="noopener">Using NFS to Share Data Between UNIX and Mac OS X - Stephen Foskett, Pack Rat</a></p>
+<p><a href="http://www.brennan.id.au/19-Network_File_System.html" target="_blank" rel="noopener">Linux Home Server HOWTO - Network File System</a><br><a href="https://help.ubuntu.com/community/SettingUpNFSHowTo" target="_blank" rel="noopener">SettingUpNFSHowTo - Community Help Wiki</a><br><a href="http://nfs.sourceforge.net/nfs-howto/" target="_blank" rel="noopener">Linux NFS-HOWTO</a></p>
+<h2 id="Samba"><a href="#Samba" class="headerlink" title="Samba"></a>Samba</h2><p><a href="https://www.samba.org/samba/" target="_blank" rel="noopener">Samba - opening windows to a wider world</a><br><a href="https://www.samba.org/samba/docs/using_samba/toc.html" target="_blank" rel="noopener">Using Samba</a><br><a href="https://www.samba.org/samba/docs/man/manpages/smb.conf.5.html" target="_blank" rel="noopener">smb.conf</a></p>
+<h3 id="follow-symlink"><a href="#follow-symlink" class="headerlink" title="follow symlink"></a>follow symlink</h3><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="section">[global]</span></span><br><span class="line">follow symlinks = yes</span><br><span class="line">wide links = yes</span><br><span class="line">unix extensions = no</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo service smbd restart</span><br></pre></td></tr></table></figure>
+
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/network-file-systems/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-05-20 </div>
 			<div class="article-title"><a href="/distributed-file-systems/" >Distributed File Systems</a></div>						
 		</h3>
 	
@@ -682,43 +771,6 @@
   
 </div>
 	<a type="button" href="/distributed-file-systems/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2015-05-20 </div>
-			<div class="article-title"><a href="/network-file-systems/" >Network File Systems</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <h1 id="Network-File-System"><a href="#Network-File-System" class="headerlink" title="Network File System"></a>Network File System</h1><p><a href="https://www.wikiwand.com/en/Network_File_System" target="_blank" rel="noopener">Network File System - Wikiwand</a><br><a href="https://www.wikiwand.com/en/Server_Message_Block" target="_blank" rel="noopener">Server Message Block - Wikiwand</a><br><a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-nfs.html" target="_blank" rel="noopener">Chapter 8. Network File System (NFS)</a></p>
-<p><a href="https://ferhatakgun.com/network-share-performance-differences-between-nfs-smb/" target="_blank" rel="noopener">Network share: Performance differences between NFS &amp; SMB</a><br><a href="http://wiki.linux-nfs.org/wiki/index.php/Comparison_of_NFS_vs._others" target="_blank" rel="noopener">Comparison of NFS vs. others - Linux NFS</a></p>
-<p>SMB2 &gt; AFP ~ CIFS</p>
-<p><a href="http://www.admin-magazine.com/HPC/Articles/Shared-Storage-with-NFS-and-SSHFS" target="_blank" rel="noopener">Shared Storage with NFS and SSHFS » ADMIN Magazine</a><br><a href="http://www.admin-magazine.com/HPC/Articles/Useful-NFS-Options-for-Tuning-and-Management" target="_blank" rel="noopener">Optimizing Your NFS Filesystem » ADMIN Magazine</a></p>
-<p><a href="http://blog.fosketts.net/2012/02/16/cifs-smb/" target="_blank" rel="noopener">Why You Should Never Again Utter The Word, &quot;CIFS&quot; - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2012/03/22/lan-manager-smb-cifs-history/" target="_blank" rel="noopener">From LAN Manager and SMB to CIFS: The Evolution of Prehistoric PC Network Protocols - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2014/09/23/fairy-tale-storage-protocols/" target="_blank" rel="noopener">A Fairy Tale of Two Storage Protocols - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2015/02/03/vsphere-6-nfs-41-finally/" target="_blank" rel="noopener">vSphere 6: NFS 4.1 Finally Has a Use? - Stephen Foskett, Pack Rat</a><br><a href="http://blog.fosketts.net/2015/03/20/using-nfs-to-share-data-between-unix-and-mac-os-x/" target="_blank" rel="noopener">Using NFS to Share Data Between UNIX and Mac OS X - Stephen Foskett, Pack Rat</a></p>
-<p><a href="http://www.brennan.id.au/19-Network_File_System.html" target="_blank" rel="noopener">Linux Home Server HOWTO - Network File System</a><br><a href="https://help.ubuntu.com/community/SettingUpNFSHowTo" target="_blank" rel="noopener">SettingUpNFSHowTo - Community Help Wiki</a><br><a href="http://nfs.sourceforge.net/nfs-howto/" target="_blank" rel="noopener">Linux NFS-HOWTO</a></p>
-<h2 id="Samba"><a href="#Samba" class="headerlink" title="Samba"></a>Samba</h2><p><a href="https://www.samba.org/samba/" target="_blank" rel="noopener">Samba - opening windows to a wider world</a><br><a href="https://www.samba.org/samba/docs/using_samba/toc.html" target="_blank" rel="noopener">Using Samba</a><br><a href="https://www.samba.org/samba/docs/man/manpages/smb.conf.5.html" target="_blank" rel="noopener">smb.conf</a></p>
-<h3 id="follow-symlink"><a href="#follow-symlink" class="headerlink" title="follow symlink"></a>follow symlink</h3><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="section">[global]</span></span><br><span class="line">follow symlinks = yes</span><br><span class="line">wide links = yes</span><br><span class="line">unix extensions = no</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo service smbd restart</span><br></pre></td></tr></table></figure>
-
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/network-file-systems/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -1193,108 +1245,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2015-05-10 </div>
-			<div class="article-title"><a href="/boot/" >Boot</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <p><a href="https://www.wikiwand.com/en/Booting#/SPL" target="_blank" rel="noopener">Booting - Wikiwand</a></p>
-<p>POST -&gt; BIOS/ROM code -&gt; MBR of boot partition -&gt; Bootloader -&gt;<br>Kernel -&gt; <a href="https://wiki.archlinux.org/index.php/Init" target="_blank" rel="noopener"><code>init</code></a>/<a href="https://wiki.archlinux.org/index.php/Systemd" target="_blank" rel="noopener"><code>systemd</code></a> -&gt;<br>shell/display manager (login) -&gt; <code>startx</code>/<code>xinit</code> -&gt; DE</p>
-<ol>
-<li>CPU starts in real mode, executes instruction at 0xFFFF0<br>→ top of BIOS ROM</li>
-<li>self test (POST), configuration of devices (e.g. PCI<br>resource allocation), initialization of BIOS extensions<br>(option ROMs)</li>
-<li>load first sector of boot device (&quot;boot sector&quot;, MBR) to<br>0x7C00<br>MBR relocates itself, loads first sector of active partition to<br>0x7C00</li>
-<li>boot sector loads &quot;second stage&quot; boot loader<br>a. boot loader knows how to read kernel from file system<br>b. usually loads kernel to an address &gt; 1MB and switches to<br>protected mode before jumping to kernel entry point</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+--------+----------------+----------------+----------+</span><br><span class="line">| Boot   | Terminology #1 | Terminology #2 | Actual   |</span><br><span class="line">| stage  |                |                | program  |</span><br><span class="line">| number |                |                | name     |</span><br><span class="line">+--------+----------------+----------------+----------+</span><br><span class="line">| 1      |  Primary       |  -             | ROM code |</span><br><span class="line">|        |  Program       |                |          |</span><br><span class="line">|        |  Loader        |                |          |</span><br><span class="line">|        |                |                |          |</span><br><span class="line">| 2      |  Secondary     |  1st stage     | u-boot   |</span><br><span class="line">|        |  Program       |  bootloader    | SPL      |</span><br><span class="line">|        |  Loader (SPL)  |                |          |</span><br><span class="line">|        |                |                |          |</span><br><span class="line">| 3      |  -             |  2nd stage     | u-boot   |</span><br><span class="line">|        |                |  bootloader    |          |</span><br><span class="line">|        |                |                |          |</span><br><span class="line">| 4      |  -             |  -             | kernel   |</span><br><span class="line">|        |                |                |          |</span><br><span class="line">+--------+----------------+----------------+----------+</span><br></pre></td></tr></table></figure>
-
-<p><a href="http://wiki.osdev.org/System_Initialization_%28x86%29" target="_blank" rel="noopener">System Initialization (x86) - OSDev Wiki</a><br><a href="http://en.wikipedia.org/wiki/Linux_startup_process" target="_blank" rel="noopener">Linux startup process - Wikipedia, the free encyclopedia</a><br><a href="https://wiki.archlinux.org/index.php/Arch_boot_process" target="_blank" rel="noopener">Arch boot process - ArchWiki</a><br><a href="http://www.ibm.com/developerworks/linux/library/l-linuxboot/" target="_blank" rel="noopener">Inside the Linux boot process</a><br><a href="https://neosmart.net/wiki/mbr-boot-process/" target="_blank" rel="noopener">The BIOS/MBR Boot Process</a><br><a href="http://linux.vbird.org/linux_basic/0510osloader.php" target="_blank" rel="noopener">鳥哥的 Linux 私房菜 -- 第十九章、開機流程、模組管理與 Loader</a><br><a href="http://blog.roodo.com/rocksaying/archives/19886616.html" target="_blank" rel="noopener">如何訂製 Linux X 視窗環境 - 石頭閒語 - 樂多日誌</a></p>
-<p><a href="https://www.linuxboot.org/" target="_blank" rel="noopener">LinuxBoot</a></p>
-<p><a href="https://wiki.manjaro.org/index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI" target="_blank" rel="noopener">Some basics of MBR v/s GPT and BIOS v/s UEFI - Manjaro Linux</a></p>
-<h2 id="Bootloader"><a href="#Bootloader" class="headerlink" title="Bootloader"></a>Bootloader</h2><p><a href="https://wiki.osdev.org/Bootloader" target="_blank" rel="noopener">Bootloader - OSDev Wiki</a><br><a href="https://stackoverflow.com/questions/15665052/what-is-the-difference-between-a-bootrom-vs-bootloader-on-arm-systems" target="_blank" rel="noopener">What is the difference between a Bootrom vs bootloader on ARM systems - Stack Overflow</a><br><a href="https://stackoverflow.com/questions/15548004/why-do-we-need-a-bootloader-in-an-embedded-device" target="_blank" rel="noopener">linux - Why do we need a bootloader in an embedded device? - Stack Overflow</a></p>
-<p>SPL (secondary program loader) is needed when the static RAM cannot hold the whole bootloader and this abstract the hardware form bootloader<br><a href="https://stackoverflow.com/questions/31244862/what-is-the-use-of-spl-secondary-program-loader" target="_blank" rel="noopener">what is the use of SPL (secondary program loader) - Stack Overflow</a></p>
-<p><a href="https://www.denx.de/wiki/pub/U-Boot/MiniSummitELCE2013/tpl-presentation.pdf" target="_blank" rel="noopener">TPL: SPL loading SPL</a></p>
-<p><a href="https://www.denx.de/wiki/U-Boot" target="_blank" rel="noopener">WebHome &lt; U-Boot &lt; DENX</a><br><a href="https://www.wikiwand.com/en/Das_U-Boot" target="_blank" rel="noopener">Das U-Boot - Wikiwand</a><br><a href="https://www.youtube.com/watch?v=e6wlg9ntPVY" target="_blank" rel="noopener">Introduction to the U-Boot bootloader - YouTube</a><br><a href="https://www.youtube.com/watch?v=DV5S_ZSdK0s" target="_blank" rel="noopener">Embedded Linux Booting Process (Multi-Stage Bootloaders, Kernel, Filesystem) - YouTube</a></p>
-<h2 id="Boot-Partition"><a href="#Boot-Partition" class="headerlink" title="Boot Partition"></a>Boot Partition</h2><p><a href="http://en.wikipedia.org/wiki/Master_boot_record" target="_blank" rel="noopener">Master boot record - Wikipedia, the free encyclopedia</a><br><a href="http://wiki.osdev.org/MBR_(x86)" target="_blank" rel="noopener">MBR (x86) - OSDev Wiki</a><br><a href="http://en.wikipedia.org/wiki/GUID_Partition_Table" target="_blank" rel="noopener">GUID Partition Table - Wikipedia, the free encyclopedia</a><br><a href="http://www.ibm.com/developerworks/linux/library/l-gpt/index.html" target="_blank" rel="noopener">Make the most of large drives with GPT and Linux</a><br><a href="http://www.rodsbooks.com/gdisk/mbr2gpt.html" target="_blank" rel="noopener">Converting to or from GPT</a></p>
-<p><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/boot-and-system-volumes.html" target="_blank" rel="noopener">FGA: What &quot;boot&quot; and &quot;system&quot; volumes are</a><br><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/determining-system-volume.html" target="_blank" rel="noopener">FGA: How operating systems determine the location of the system volume when bootstrapped</a></p>
-<h2 id="BIOS"><a href="#BIOS" class="headerlink" title="BIOS"></a>BIOS</h2><p><a href="https://wiki.archlinux.org/index.php/Arch_boot_process" target="_blank" rel="noopener">Arch boot process - ArchWiki</a><br><a href="http://www.linuxjournal.com/article/4622" target="_blank" rel="noopener">Boot with GRUB | Linux Journal</a></p>
-<h3 id="OpenBIOS"><a href="#OpenBIOS" class="headerlink" title="OpenBIOS"></a>OpenBIOS</h3><p><a href="https://www.wikiwand.com/en/OpenBIOS" target="_blank" rel="noopener">OpenBIOS - Wikiwand</a><br><a href="http://www.openfirmware.info/Welcome_to_OpenBIOS" target="_blank" rel="noopener">OpenBIOS</a><br><a href="https://en.wikipedia.org/wiki/Category:Free_BIOS_implementations" target="_blank" rel="noopener">Category:Free BIOS implementations - Wikipedia, the free encyclopedia</a></p>
-<p><a href="https://www.coreboot.org/" target="_blank" rel="noopener">coreboot</a> <a href="https://www.wikiwand.com/en/Coreboot" target="_blank" rel="noopener">coreboot - Wikiwand</a><br><a href="https://libreboot.org/" target="_blank" rel="noopener">Libreboot project</a></p>
-<h3 id="Fixing-MBR"><a href="#Fixing-MBR" class="headerlink" title="Fixing MBR"></a>Fixing MBR</h3><p><a href="http://support.microsoft.com/kb/927392" target="_blank" rel="noopener">http://support.microsoft.com/kb/927392</a><br><a href="http://windows7themes.net/how-to-fix-mbr-in-windows-7.html" target="_blank" rel="noopener">http://windows7themes.net/how-to-fix-mbr-in-windows-7.html</a><br><a href="http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html" target="_blank" rel="noopener">http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html</a><br><a href="http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html" target="_blank" rel="noopener">http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html</a><br><a href="http://ubuntuforums.org/showthread.php?t=1014708" target="_blank" rel="noopener">http://ubuntuforums.org/showthread.php?t=1014708</a></p>
-<p><a href="http://www.linuxandubuntu.com/home" target="_blank" rel="noopener">LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo - Home</a></p>
-<h2 id="Bootable-USB-key"><a href="#Bootable-USB-key" class="headerlink" title="Bootable USB key"></a>Bootable USB key</h2><p>Creating a bootable USB key in Linux is <a href="https://wiki.archlinux.org/index.php/USB_flash_installation_media" target="_blank" rel="noopener">straight forward</a>.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo dd <span class="keyword">if</span>=<span class="variable">$&#123;iso&#125;</span> of=<span class="variable">$&#123;usb device&#125;</span> bs=4M</span><br><span class="line"><span class="comment"># note: the package is gddrescue</span></span><br><span class="line">sudo ddrescue <span class="variable">$&#123;iso&#125;</span> <span class="variable">$&#123;usb device&#125;</span> --force -D</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.vidarholen.net/contents/blog/?p=479" target="_blank" rel="noopener">Useless Use Of dd – Vidar’s Blog</a><br><a href="http://www.gnu.org/software/ddrescue/ddrescue.html" target="_blank" rel="noopener">Ddrescue - GNU Project - Free Software Foundation (FSF)</a> GNU ddrescue/gddrescue</p>
-<p><a href="https://wiki.archlinux.org/index.php/Multiboot_USB_drive#Workstation_live_medium" target="_blank" rel="noopener">Multiboot USB drive - ArchWiki</a><br><a href="https://github.com/jsamr/bootiso" target="_blank" rel="noopener">jsamr/bootiso: A bash script to securely create a bootable USB device from one ISO file. Just curl it, chmod it and go!</a><br>See also my <code>iso2usb</code>.</p>
-<p>Note <a href="http://antergos.com/wiki/article/create-a-working-live-usb/" target="_blank" rel="noopener">some utils</a> modify the partition label of the ISO, that can cause problem during bootup.</p>
-<ul>
-<li><a href="https://github.com/probonopd/SystemImageKit" target="_blank" rel="noopener">probonopd/SystemImageKit: Run (multiple) operating systems directly from image files. Add extensions, apps and configuration, which are one file each.</a> Multiple ISOs</li>
-<li>[UNetbootin]<a href="http://unetbootin.github.io/" target="_blank" rel="noopener">UNetbootin - Homepage and Downloads</a> multiplatform, <em>support Windows ISO</em><br><code>unetbootin method=diskimage isofile=&quot;my.iso&quot; installtype=USB targetdrive=/dev/sdc</code></li>
-<li><a href="https://etcher.io/" target="_blank" rel="noopener">Etcher</a> multiplatform</li>
-<li><a href="https://rufus.ie/" target="_blank" rel="noopener">Rufus</a> Windows, fast, <em>support Windows ISO</em></li>
-<li>Linux Live USB Creator</li>
-<li><a href="https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/" target="_blank" rel="noopener">Universal USB Installer</a> Windows, wine, fast, <em>support Windows ISO</em></li>
-<li><a href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/" target="_blank" rel="noopener">YUMI - Multiboot USB Creator</a> Windows, wine, Multiple ISOs</li>
-<li>Live USB Creator</li>
-</ul>
-<p>The Windows ISO cannot be <code>dd</code>-ed to USB flash. We must create a bootable NTFS partition then copy the contents over.</p>
-<p><a href="https://www.computerworld.com/article/3269118/microsoft-windows/best-places-to-find-windows-10-isos.html" target="_blank" rel="noopener">The best places to find Windows 10 ISOs | Computerworld</a><br><a href="https://www.microsoft.com/en-us/download/details.aspx?id=56485" target="_blank" rel="noopener">Download Windows USB/DVD Download Tool from Official Microsoft Download Center</a><br><a href="https://github.com/ValdikSS/windows2usb" target="_blank" rel="noopener">ValdikSS/windows2usb: Windows 7/8/8.1/10 ISO to Flash Drive burning utility for Linux (MBR/GPT, BIOS/UEFI, FAT32/NTFS)</a></p>
-<h2 id="PXEBoot"><a href="#PXEBoot" class="headerlink" title="PXEBoot"></a>PXEBoot</h2><p><a href="http://www.howtogeek.com/57601/what-is-network-booting-pxe-and-how-can-you-use-it/" target="_blank" rel="noopener">What Is Network Booting (PXE) and How Can You Use It?</a><br><a href="https://www.wikiwand.com/en/Preboot_Execution_Environment" target="_blank" rel="noopener">Preboot Execution Environment - Wikiwand</a></p>
-<h2 id="UEFI"><a href="#UEFI" class="headerlink" title="UEFI"></a>UEFI</h2><p>POST -&gt; UEFI -&gt; Boot Manager (in UEFI) -&gt;<br>UEFI application (in EFI System partition) -&gt; Bootloader -&gt; Kernel -&gt; ...</p>
-<p><a href="http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface" target="_blank" rel="noopener">Unified Extensible Firmware Interface - Wikipedia, the free encyclopedia</a><br><a href="https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface" target="_blank" rel="noopener">Unified Extensible Firmware Interface - ArchWiki</a><br><a href="https://wiki.archlinux.org/index.php/REFInd" target="_blank" rel="noopener">rEFInd - ArchWiki</a></p>
-<p><a href="http://wiki.osdev.org/UEFI" target="_blank" rel="noopener">UEFI - OSDev Wiki</a><br><a href="http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/efi-boot-process.html" target="_blank" rel="noopener">FGA: The EFI boot process.</a><br><a href="https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/" target="_blank" rel="noopener">UEFI boot: how does that actually work, then?</a></p>
-<h3 id="howtogeek-com"><a href="#howtogeek-com" class="headerlink" title="howtogeek.com"></a>howtogeek.com</h3><p><a href="http://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/" target="_blank" rel="noopener">HTG Explains: Learn How UEFI Will Replace Your PC’s BIOS</a><br><a href="http://www.howtogeek.com/184659/beginner-geek-hard-disk-partitions-explained/" target="_blank" rel="noopener">Beginner Geek: Hard Disk Partitions Explained</a><br><a href="http://www.howtogeek.com/193669/whats-the-difference-between-gpt-and-mbr-when-partitioning-a-drive/" target="_blank" rel="noopener">What’s the Difference Between GPT and MBR When Partitioning a Drive?</a></p>
-<h3 id="rodsbooks-com"><a href="#rodsbooks-com" class="headerlink" title="rodsbooks.com"></a>rodsbooks.com</h3><p><a href="http://www.rodsbooks.com/efi-bootloaders/" target="_blank" rel="noopener">Managing EFI Boot Loaders for Linux</a><br><a href="http://www.rodsbooks.com/linux-uefi/" target="_blank" rel="noopener">Linux on UEFI: A Quick Installation Guide</a><br><a href="http://www.rodsbooks.com/refind/index.html" target="_blank" rel="noopener">The rEFInd Boot Manager</a><br><a href="http://www.rodsbooks.com/efi-bootloaders/secureboot.html" target="_blank" rel="noopener">Managing EFI Boot Loaders for Linux: Dealing with Secure Boot</a></p>
-<p><a href="http://www.rodsbooks.com/efi-programming/index.html" target="_blank" rel="noopener">Programming for EFI</a></p>
-<h3 id="x86asm-net"><a href="#x86asm-net" class="headerlink" title="x86asm.net"></a>x86asm.net</h3><p><a href="http://x86asm.net/articles/introduction-to-uefi/index.html" target="_blank" rel="noopener">Introduction to UEFI</a><br><a href="http://x86asm.net/articles/uefi-programming-first-steps/index.html" target="_blank" rel="noopener">UEFI Programming - First Steps</a><br><a href="http://x86asm.net/articles/uefi-hypervisors-winning-the-race-to-bare-metal/index.html" target="_blank" rel="noopener">UEFI Hypervisors - Winning the Race to Bare Metal</a></p>
-<h2 id="Init-System-pid-1"><a href="#Init-System-pid-1" class="headerlink" title="Init System (pid 1)"></a>Init System (pid 1)</h2><p><a href="https://coolshell.cn/articles/17998.html" target="_blank" rel="noopener">Linux PID 1 和 Systemd | | 酷 壳 - CoolShell</a></p>
-<h3 id="init-sysvinit"><a href="#init-sysvinit" class="headerlink" title="init/sysvinit"></a><code>init</code>/<code>sysvinit</code></h3><p><a href="http://www.wikiwand.com/en/Init" target="_blank" rel="noopener">init - Wikiwand</a></p>
-<p>Originates from System V, the oldest and most widely used init system.<br><code>init</code> is <a href="http://refspecs.linuxfoundation.org/lsb.shtml" target="_blank" rel="noopener">LSB</a>-compliant.<br>Debian switched to <code>systemd</code> in 2015 with <a href="http://arstechnica.com/information-technology/2015/05/debian-8-linuxs-most-reliable-distro-makes-its-biggest-change-since-1993/" target="_blank" rel="noopener">Debian 8 Jessie</a> and caused the <a href="https://devuan.org/" target="_blank" rel="noopener">Devuan</a> fork.</p>
-<p><a href="http://sysv-rc-conf.sourceforge.net/" target="_blank" rel="noopener">sysv-rc-conf - Run-level configuration for SysV like init script links</a> UI tool</p>
-<p><a href="https://github.com/Fleshgrinder/nginx-sysvinit-script" target="_blank" rel="noopener">https://github.com/Fleshgrinder/nginx-sysvinit-script</a><br><a href="https://github.com/JasonGiedymin/nginx-init-ubuntu" target="_blank" rel="noopener">https://github.com/JasonGiedymin/nginx-init-ubuntu</a>  </p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ sudo update-rc.d</span><br><span class="line">usage: update-rc.d [-n] [-f] &lt;basename&gt; remove</span><br><span class="line">       update-rc.d [-n] &lt;basename&gt; defaults [NN | SS KK]</span><br><span class="line">       update-rc.d [-n] &lt;basename&gt; start|stop NN runlvl [runlvl] [...] .</span><br><span class="line">       update-rc.d [-n] &lt;basename&gt; <span class="built_in">disable</span>|<span class="built_in">enable</span> [S|2|3|4|5]</span><br><span class="line">                -n: not really</span><br><span class="line">                -f: force</span><br><span class="line"></span><br><span class="line">The <span class="built_in">disable</span>|<span class="built_in">enable</span> API is not stable and might change <span class="keyword">in</span> the future.</span><br></pre></td></tr></table></figure>
-
-<p>Examples:</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo update-rc.d -f nginx remove</span><br><span class="line">sudo update-rc.d nginx defaults</span><br></pre></td></tr></table></figure>
-
-<h3 id="upstart"><a href="#upstart" class="headerlink" title="upstart"></a><code>upstart</code></h3><blockquote>
-<p><code>upstart</code> is deprecated</p>
-</blockquote>
-<p><a href="http://www.wikiwand.com/en/Upstart" target="_blank" rel="noopener">Upstart - Wikiwand</a><br><a href="http://upstart.ubuntu.com/" target="_blank" rel="noopener">upstart - event-based init daemon</a></p>
-<p>Use <code>upstart</code> instead of <code>init.d</code> for Ubuntu:<br><a href="http://casear.chuto.tw/2013/05/31/upstart-setting-for-nginx-on-ubuntu/" target="_blank" rel="noopener">http://casear.chuto.tw/2013/05/31/upstart-setting-for-nginx-on-ubuntu/</a><br><a href="http://casear.chuto.tw/2013/05/31/upstart-setting-for-redis-on-ubuntu/" target="_blank" rel="noopener">http://casear.chuto.tw/2013/05/31/upstart-setting-for-redis-on-ubuntu/</a></p>
-<p>Ubuntu followed Debian&#39;s footstep and moved to <code>systemd</code> since <a href="http://www.theregister.co.uk/2015/05/05/ubuntu_15_04_review/" target="_blank" rel="noopener">15.04</a>.</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo service nginx status</span><br><span class="line">sudo service nginx start</span><br><span class="line">sudo service nginx stop</span><br></pre></td></tr></table></figure>
-
-<p>WordPress Upstart script example:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># /etc/init/docker-wordpress.conf</span><br><span class="line"># assuming an image with `--name=docker-wordpress` has been created</span><br><span class="line">description &quot;Wordpress - example.com&quot;</span><br><span class="line">author &quot;Doker Guru&quot;</span><br><span class="line">start on filesystem and started docker</span><br><span class="line">stop on runlevel [!2345]</span><br><span class="line">respawn</span><br><span class="line">exec /usr/bin/docker start -a docker-wordpress</span><br><span class="line">pre-stop exec /usr/bin/docker stop -a docker-wordpress</span><br></pre></td></tr></table></figure>
-
-<h3 id="systemd"><a href="#systemd" class="headerlink" title="systemd"></a><code>systemd</code></h3><blockquote>
-<p>see <code>systemd.md</code></p>
-</blockquote>
-<h3 id="Launchd"><a href="#Launchd" class="headerlink" title="Launchd"></a><code>Launchd</code></h3><p>used by MacOS</p>
-<p><a href="https://www.youtube.com/watch?v=SjrtySM9Dns" target="_blank" rel="noopener">Launchd: One Program to Rule them All - YouTube</a><br><a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html" target="_blank" rel="noopener">About Daemons and Services</a></p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/boot/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -1343,41 +1293,51 @@
 		
 			<li><a href="/categories/android/">android<span>4</span></a></li>
 		
-			<li><a href="/categories/anime/">anime<span>2</span></a></li>
+			<li><a href="/categories/anime/">anime<span>12</span></a></li>
+		
+			<li><a href="/categories/anthropology/">anthropology<span>1</span></a></li>
 		
 			<li><a href="/categories/app/">app<span>50</span></a></li>
 		
+			<li><a href="/categories/automobile/">automobile<span>2</span></a></li>
+		
+			<li><a href="/categories/autromobile/">autromobile<span>1</span></a></li>
+		
 			<li><a href="/categories/big-data/">big-data<span>2</span></a></li>
 		
-			<li><a href="/categories/business/">business<span>1</span></a></li>
+			<li><a href="/categories/business/">business<span>5</span></a></li>
 		
-			<li><a href="/categories/comp/">comp<span>10</span></a></li>
+			<li><a href="/categories/comp/">comp<span>11</span></a></li>
 		
-			<li><a href="/categories/comp-hardware/">comp.hardware<span>24</span></a></li>
+			<li><a href="/categories/comp-hardware/">comp.hardware<span>20</span></a></li>
 		
 			<li><a href="/categories/comp-hw/">comp.hw<span>1</span></a></li>
 		
-			<li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
-		
-			<li><a href="/categories/compd/">compd<span>1</span></a></li>
+			<li><a href="/categories/comp-lang/">comp.lang<span>47</span></a></li>
 		
 			<li><a href="/categories/container/">container<span>11</span></a></li>
 		
-			<li><a href="/categories/trivia/transmission/drivetrain/">drivetrain<span>1</span></a></li>
+			<li><a href="/categories/crypto/">crypto<span>2</span></a></li>
 		
 			<li><a href="/categories/ebook/">ebook<span>2</span></a></li>
 		
-			<li><a href="/categories/games/">games<span>15</span></a></li>
+			<li><a href="/categories/economics/">economics<span>14</span></a></li>
 		
-			<li><a href="/categories/history/">history<span>12</span></a></li>
+			<li><a href="/categories/finance/">finance<span>3</span></a></li>
 		
-			<li><a href="/categories/home-improvement/">home-improvement<span>1</span></a></li>
+			<li><a href="/categories/games/">games<span>16</span></a></li>
 		
-			<li><a href="/categories/law/">law<span>4</span></a></li>
+			<li><a href="/categories/history/">history<span>17</span></a></li>
+		
+			<li><a href="/categories/language/">language<span>2</span></a></li>
+		
+			<li><a href="/categories/law/">law<span>6</span></a></li>
 		
 			<li><a href="/categories/learning/">learning<span>1</span></a></li>
 		
-			<li><a href="/categories/linux/">linux<span>26</span></a></li>
+			<li><a href="/categories/linux/">linux<span>27</span></a></li>
+		
+			<li><a href="/categories/maker/">maker<span>11</span></a></li>
 		
 			<li><a href="/categories/math/">math<span>4</span></a></li>
 		
@@ -1385,19 +1345,27 @@
 		
 			<li><a href="/categories/philosophy/">philosophy<span>7</span></a></li>
 		
+			<li><a href="/categories/politics/">politics<span>2</span></a></li>
+		
 			<li><a href="/categories/law/politics/">politics<span>1</span></a></li>
 		
-			<li><a href="/categories/standard/">standard<span>1</span></a></li>
+			<li><a href="/categories/comp/science/">science<span>1</span></a></li>
 		
-			<li><a href="/categories/toys/">toys<span>2</span></a></li>
+			<li><a href="/categories/philosophy/science/">science<span>1</span></a></li>
 		
-			<li><a href="/categories/trivia/transmission/">transmission<span>1</span></a></li>
+			<li><a href="/categories/science/">science<span>23</span></a></li>
 		
-			<li><a href="/categories/trivia/">trivia<span>112</span></a></li>
+			<li><a href="/categories/history/science/">science<span>2</span></a></li>
 		
-			<li><a href="/categories/uncategorized/">uncategorized<span>7</span></a></li>
+			<li><a href="/categories/standard/">standard<span>2</span></a></li>
 		
-			<li><a href="/categories/web/">web<span>89</span></a></li>
+			<li><a href="/categories/toys/">toys<span>3</span></a></li>
+		
+			<li><a href="/categories/trivia/">trivia<span>39</span></a></li>
+		
+			<li><a href="/categories/weapons/">weapons<span>2</span></a></li>
+		
+			<li><a href="/categories/web/">web<span>88</span></a></li>
 		
 		</ul>
 	</div>
@@ -1408,48 +1376,48 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/arch-linux/">arch-linux<span>2</span></a></li>
+			<li><a href="/tags/net-neutrality/">net-neutrality<span>1</span></a></li>
 		
-			<li><a href="/tags/unit-test/">unit-test<span>1</span></a></li>
+			<li><a href="/tags/regex/">regex<span>1</span></a></li>
 		
-			<li><a href="/tags/internet/">internet<span>1</span></a></li>
+			<li><a href="/tags/world-war/">world-war<span>2</span></a></li>
 		
-			<li><a href="/tags/raspberry-pi/">raspberry-pi<span>1</span></a></li>
+			<li><a href="/tags/catholic-church/">catholic-church<span>1</span></a></li>
 		
-			<li><a href="/tags/espressif/">espressif<span>1</span></a></li>
+			<li><a href="/tags/history/">history<span>1</span></a></li>
 		
-			<li><a href="/tags/arm/">arm<span>1</span></a></li>
+			<li><a href="/tags/solus/">solus<span>1</span></a></li>
 		
-			<li><a href="/tags/microservice/">microservice<span>1</span></a></li>
+			<li><a href="/tags/health/">health<span>1</span></a></li>
 		
-			<li><a href="/tags/golang/">golang<span>1</span></a></li>
+			<li><a href="/tags/x11/">x11<span>2</span></a></li>
 		
-			<li><a href="/tags/ram/">ram<span>1</span></a></li>
+			<li><a href="/tags/iphone/">iphone<span>1</span></a></li>
 		
-			<li><a href="/tags/authentication/">authentication<span>1</span></a></li>
+			<li><a href="/tags/ai/">ai<span>1</span></a></li>
 		
-			<li><a href="/tags/bitmap/">bitmap<span>1</span></a></li>
+			<li><a href="/tags/imagemagick/">ImageMagick<span>1</span></a></li>
 		
-			<li><a href="/tags/osx/">osx<span>2</span></a></li>
+			<li><a href="/tags/debian/">debian<span>1</span></a></li>
 		
-			<li><a href="/tags/codec/">codec<span>1</span></a></li>
+			<li><a href="/tags/dark-ages/">dark-ages<span>1</span></a></li>
 		
-			<li><a href="/tags/funding/">funding<span>1</span></a></li>
+			<li><a href="/tags/lego/">lego<span>2</span></a></li>
 		
-			<li><a href="/tags/asciinema/">asciinema<span>1</span></a></li>
+			<li><a href="/tags/find/">find<span>1</span></a></li>
 		
-			<li><a href="/tags/sed/">sed<span>1</span></a></li>
+			<li><a href="/tags/svg/">svg<span>1</span></a></li>
 		
-			<li><a href="/tags/node-js/">node-js<span>4</span></a></li>
+			<li><a href="/tags/licence/">licence<span>1</span></a></li>
 		
-			<li><a href="/tags/manjaro/">manjaro<span>1</span></a></li>
+			<li><a href="/tags/hub/">hub<span>1</span></a></li>
 		
-			<li><a href="/tags/web-message/">web-message<span>1</span></a></li>
+			<li><a href="/tags/video/">video<span>1</span></a></li>
 		
-			<li><a href="/tags/electron/">electron<span>1</span></a></li>
+			<li><a href="/tags/tmuxifier/">tmuxifier<span>1</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>412</span></a></li>
+		   <li><a href="/tags">...<span>427</span></a></li>
 		 
 		</ul>
 	</div>

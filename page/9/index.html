@@ -109,7 +109,7 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2016-08-04 </div>
-			<div class="article-title"><a href="/image-tools/" >Image Tools</a></div>						
+			<div class="article-title"><a href="/image-optimization/" >Image Optimization</a></div>						
 		</h3>
 	
 
@@ -120,88 +120,21 @@
 	<div class="col-md-12">
 	  
 	
-	  <p><a href="https://github.com/fogleman/primitive" target="_blank" rel="noopener">fogleman/primitive: Reproducing images with geometric primitives.</a></p>
-<h2 id="ImageMagick"><a href="#ImageMagick" class="headerlink" title="ImageMagick"></a>ImageMagick</h2><table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>animate</code></td>
-<td>animate an image sequence on any X server.</td>
-</tr>
-<tr>
-<td><code>compare</code></td>
-<td>mathematically and visually annotate the difference between an image and its reconstruction.</td>
-</tr>
-<tr>
-<td><code>composite</code></td>
-<td>overlap one image over another.</td>
-</tr>
-<tr>
-<td><code>conjure</code></td>
-<td>interpret and execute scripts written in the Magick Scripting Language (MSL).</td>
-</tr>
-<tr>
-<td><code>convert</code></td>
-<td>convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</td>
-</tr>
-<tr>
-<td><code>display</code></td>
-<td>display an image or image sequence on any X server.</td>
-</tr>
-<tr>
-<td><code>identify</code></td>
-<td>describe the format and characteristics of one or more image files.</td>
-</tr>
-<tr>
-<td><code>import</code></td>
-<td>save any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen.</td>
-</tr>
-<tr>
-<td><code>mogrify</code></td>
-<td>resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. <code>mogrify</code> <em>overwrites</em> the original image file, whereas, <code>convert</code> writes to a different image file.</td>
-</tr>
-<tr>
-<td><code>montage</code></td>
-<td>create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more.</td>
-</tr>
-<tr>
-<td><code>stream</code></td>
-<td>a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats. It writes the pixel components as they are read from the input image a row at a time making stream desirable when working with large images or when you require raw pixel components.</td>
-</tr>
-</tbody></table>
-<p><a href="http://www.imagemagick.org/Usage/" target="_blank" rel="noopener">ImageMagick v6 Examples</a><br><a href="http://www.imagemagick.org/script/command-line-tools.php" target="_blank" rel="noopener">Command-line Tools @ ImageMagick</a><br><a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="noopener">ImageMagick: Convert, Edit, Or Compose Bitmap Images</a></p>
-<p><a href="http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html" target="_blank" rel="noopener">ImageMagick使用心得</a><br><a href="https://daniel.haxx.se/blog/2016/03/11/turn-many-pictures-into-a-movie/" target="_blank" rel="noopener">Turn many pictures into a movie | daniel.haxx.se</a></p>
-<p><a href="http://www.apress.com/us/book/9781590595909" target="_blank" rel="noopener">The Definitive Guide to ImageMagick | Michael Still | Apress</a> <a href="http://www.stillhq.com/imagemagick/book/" target="_blank" rel="noopener">author&#39;s site</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># crop lower part of image</span></span><br><span class="line">convert input.jpg -crop 300x150+0+150 +repage image-cropped.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add shadow</span></span><br><span class="line">convert screenshot.jpg \( +<span class="built_in">clone</span> -background black -shadow 60×5+0+5 \) +swap -background white -layers merge +repage shadow.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># add timestamp, http://www.imagemagick.org/script/escape.php</span></span><br><span class="line">convert *.jpg -font Arial -pointsize 72 -gravity SouthEast -fill yellow -annotate +100+100 %[exif:datetime] output-%d.jpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert to pdf</span></span><br><span class="line">convert a.png b.png -compress jpeg -resize 1240x1753 \</span><br><span class="line">                      -extent 1240x1753 -gravity center \</span><br><span class="line">                      -units PixelsPerInch -density 150x150 multipage.pdf</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert sequence of images to GIF</span></span><br><span class="line">convert -delay <span class="string">'1x20'</span> *.png output.gif <span class="comment"># 20FPS</span></span><br><span class="line">convert -delay <span class="string">'2x1'</span> *.png output.gif  <span class="comment"># 2 sec each frame</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Resizing-Image"><a href="#Resizing-Image" class="headerlink" title="Resizing Image"></a>Resizing Image</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># resizing image</span></span><br><span class="line">convert -resize 300x300 image.jpg image-small.jpg</span><br><span class="line">convert -resize 1080 &#123;from_path&#125; &#123;to_path&#125;  <span class="comment"># fix weight only</span></span><br><span class="line">convert -resize x1080 &#123;from_path&#125; &#123;to_path&#125;  <span class="comment"># fix height only</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># very low quality</span></span><br><span class="line">convert -thumbnail &#123;width&#125; *.jpg</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://askubuntu.com/questions/135477/how-can-i-scale-all-images-in-a-folder-to-the-same-width" target="_blank" rel="noopener">How can I scale all images in a folder to the same width? - Ask Ubuntu</a></p>
-<p><a href="http://www.imagemagick.org/script/command-line-processing.php#geometry" target="_blank" rel="noopener">Command-line Processing Geometry @ ImageMagick</a></p>
-<h3 id="Image-stitching"><a href="#Image-stitching" class="headerlink" title="Image stitching"></a>Image stitching</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># horizontal</span></span><br><span class="line">convert image.jpg ...  +append output.jpg</span><br><span class="line"><span class="comment"># vertical</span></span><br><span class="line">convert image.jpg ...  -append output.jpg</span><br></pre></td></tr></table></figure>
-
-<p><code>mogrify -adjoin</code></p>
-<h3 id="creating-image"><a href="#creating-image" class="headerlink" title="creating image"></a>creating image</h3><p><a href="http://www.imagemagick.org/Usage/canvas/#random" target="_blank" rel="noopener">http://www.imagemagick.org/Usage/canvas/#random</a><br><a href="http://www.imagemagick.org/Usage/canvas/#tile" target="_blank" rel="noopener">http://www.imagemagick.org/Usage/canvas/#tile</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># solid color image</span></span><br><span class="line">convert -size 100x100 canvas:khaki  canvas_khaki.gif</span><br><span class="line">convert -size 100x100 xc:wheat  canvas_wheat.gif</span><br><span class="line"></span><br><span class="line"><span class="comment"># patterned image</span></span><br><span class="line">convert -size 30x54 pattern:hexagons \</span><br><span class="line">          -fill tomato     -opaque white \</span><br><span class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</span><br><span class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span> \</span><br><span class="line">          -roll +15+27 \</span><br><span class="line">          -fill dodgerblue -draw <span class="string">'color 10,10 floodfill'</span> \</span><br><span class="line">          -fill limegreen  -draw <span class="string">'color 10,25 floodfill'</span>   miff:- |\</span><br><span class="line">convert -size 200x200 tile:- image.jpg</span><br><span class="line"></span><br><span class="line">convert -size 500x500 pattern:checkerboard  miff:- |\</span><br><span class="line">convert -size 5000x5000 tile:- image.jpg</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># get quality of JPEG file</span></span><br><span class="line">identify -verbose file.jpg | grep Quality</span><br></pre></td></tr></table></figure>
-
-<h3 id="Favicon"><a href="#Favicon" class="headerlink" title="Favicon"></a>Favicon</h3><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># create a 36*36 favicon</span></span><br><span class="line">convert -resize 72x72 -extent 72x72 -gravity center -background white input.svg -resize 36x36 favicon.ico</span><br><span class="line"></span><br><span class="line"><span class="comment"># IE is still braindead so still use favicon.ico</span></span><br><span class="line"></span><br><span class="line">convert -resize x16 -gravity center -crop 16x16+0+0 -flatten -colors 256 input.png output-16x16.ico</span><br><span class="line">convert -resize x32 -gravity center -crop 32x32+0+0 -flatten -colors 256 input.png output-32x32.ico</span><br><span class="line">convert output-16x16.ico output-32x32.ico favicon.ico</span><br><span class="line"></span><br><span class="line"><span class="comment"># Then, HTML needs to specify size="XxY" as largest size due to browser bugs</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"shortcut icon"</span> href=<span class="string">"/favicon.ico"</span> sizes=<span class="string">"32x32"</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create apple ones</span></span><br><span class="line"></span><br><span class="line">convert -resize x152 input.png apple-touch-icon-152x152.png</span><br><span class="line">convert -resize x120 input.png apple-touch-icon-120x120.png</span><br><span class="line">convert -resize x76  input.png apple-touch-icon-76x76.png</span><br><span class="line">convert -resize x60  input.png apple-touch-icon-60x60.png</span><br><span class="line"></span><br><span class="line"><span class="comment"># HTML for apple</span></span><br><span class="line"></span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"152x152"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-152x152.png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"120x120"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-120x120.png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> sizes=<span class="string">"76x76"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-76x76png' %&gt;"</span>&gt;</span><br><span class="line">&lt;link rel=<span class="string">"apple-touch-icon"</span> href=<span class="string">"&lt;%= image_path 'apple-touch-icon-60x60.png' %&gt;"</span>&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Colorspace"><a href="#Colorspace" class="headerlink" title="Colorspace"></a>Colorspace</h3><p><a href="https://imagemagick.org/script/color-management.php" target="_blank" rel="noopener">Color Management @ ImageMagick</a><br><a href="https://www.imagemagick.org/discourse-server/viewtopic.php?t=16464" target="_blank" rel="noopener">Converting anything to RGB correctly - ImageMagick</a></p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">convert CMYK.jpg -profile /usr/share/color/icc/colord/sRGB.icc RGB.jpg</span><br></pre></td></tr></table></figure>
-
+	  <p><a href="http://www.creativebloq.com/design/image-compression-tools-1132865" target="_blank" rel="noopener">18 image file compression tools tested | Creative Bloq</a><br><a href="https://imageoptim.com/versions.html" target="_blank" rel="noopener">ImageOptim alternatives for Windows and Linux</a></p>
+<p><a href="http://bellard.org/bpg/" target="_blank" rel="noopener">BPG Image format</a> H.265<br><a href="https://developers.google.com/speed/webp/" target="_blank" rel="noopener">A new image format for the Web  |  WebP  |  Google Developers</a></p>
+<h1 id="JPEG"><a href="#JPEG" class="headerlink" title="JPEG"></a>JPEG</h1><p><a href="https://blarg.co.uk/blog/comparison-of-jpeg-lossless-compression-tools" target="_blank" rel="noopener">Comparison of JPEG Lossless Compression Tools - blarg.co.uk</a></p>
+<p><a href="https://github.com/mozilla/mozjpeg" target="_blank" rel="noopener">mozilla/mozjpeg: Improved JPEG encoder.</a></p>
+<p><a href="https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/" target="_blank" rel="noopener">Lepton image compression: saving 22% losslessly from images at 15MB/s | Dropbox Tech Blog</a></p>
+<p><a href="http://www.elektronik.htw-aalen.de/packjpg/" target="_blank" rel="noopener">The home of PackJPG</a></p>
+<h1 id="PNG"><a href="#PNG" class="headerlink" title="PNG"></a>PNG</h1><p><a href="http://optipng.sourceforge.net/pngtech/optipng.html" target="_blank" rel="noopener">A guide to PNG optimization</a><br><a href="https://zoompf.com/blog/2014/11/png-optimization" target="_blank" rel="noopener">This Lossless PNG Optimization You&#39;re Probably Not Using Shrunk One File an Extra 39% - Zoompf Web Performance</a></p>
+<p><a href="https://pnggauntlet.com/" target="_blank" rel="noopener">PNGGauntlet</a> Combines PNGOUT, OptiPNG, and DeflOpt to create the smallest PNGs<br><a href="http://advsys.net/ken/util/pngout.htm" target="_blank" rel="noopener">PNGOUT Tutorial</a><br><a href="http://optipng.sourceforge.net/" target="_blank" rel="noopener">OptiPNG Home Page</a><br><a href="http://www.dotnetperls.com/deflopt" target="_blank" rel="noopener">DeflOpt Program: Optimize Compressed Files</a><br><a href="https://pngquant.org/" target="_blank" rel="noopener">pngquant — lossy PNG compressor</a><br><a href="https://tinypng.com/" target="_blank" rel="noopener">TinyPNG – Compress PNG images while preserving transparency</a> use color palette instead</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/image-tools/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/image-optimization/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -496,7 +429,7 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2016-07-02 </div>
-			<div class="article-title"><a href="/psychology/" >Psychology</a></div>						
+			<div class="article-title"><a href="/cbt/" >Cognitive Behavioural Therapy</a></div>						
 		</h3>
 	
 
@@ -512,14 +445,40 @@
 
 <p><a href="http://www.theallusionist.org/behave" target="_blank" rel="noopener">Allusionist 14: Behave — The Allusionist</a><br><a href="https://cognitivebehaveyourself.com/" target="_blank" rel="noopener">Cognitive Behave Yourself | Road testing what I recommend</a><br><a href="http://www.rcpsych.ac.uk/mentalhealthinformation/therapies/cognitivebehaviouraltherapy.aspx" target="_blank" rel="noopener">Cognitive Behavioural Therapy (CBT)</a><br><a href="http://www.thisiscbt.com/" target="_blank" rel="noopener">This is CBT</a></p>
 <p><a href="https://quirk.fyi/" target="_blank" rel="noopener">Quirk CBT | What&#39;s Cognitive Behavioral Therapy?</a><br><a href="https://quirk.fyi/distortions" target="_blank" rel="noopener">Cognitive Distortion: Overgeneralization - CBT</a></p>
-<p><a href="http://www.wikiwand.com/en/Obsessive–compulsive_disorder" target="_blank" rel="noopener">Obsessive–compulsive disorder - Wikiwand</a> you cannot put off the thing discuss you the most<br><a href="http://www.wikiwand.com/en/Exposure_therapy" target="_blank" rel="noopener">Exposure therapy - Wikiwand</a> in a safe environmet, exposing the patient to what they fear; treatment to phobia, PTSD and OCD</p>
 
 	
 	</div>
 	
   
 </div>
-	<a type="button" href="/psychology/#more" class="btn btn-default more">Read More</a>
+	<a type="button" href="/cbt/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2016-07-02 </div>
+			<div class="article-title"><a href="/psycology/" >Psycology</a></div>						
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p><a href="http://www.wikiwand.com/en/Obsessive–compulsive_disorder" target="_blank" rel="noopener">Obsessive–compulsive disorder - Wikiwand</a> you cannot put off the thing discuss you the most<br><a href="http://www.wikiwand.com/en/Exposure_therapy" target="_blank" rel="noopener">Exposure therapy - Wikiwand</a> in a safe environment, exposing the patient to what they fear; treatment to phobia, PTSD and OCD</p>
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/psycology/#more" class="btn btn-default more">Read More</a>
 </div>
 
 		
@@ -1205,141 +1164,6 @@
 </div>
 
 		
-			
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2016-05-15 </div>
-			<div class="article-title"><a href="/microservice/" >Microservice</a></div>						
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <p><img src="https://camo.githubusercontent.com/4e958c48927d8c150b59bd8d4ab2ab2568620822/687474703a2f2f63646e2e6d656d652e616d2f696e7374616e636573322f353030782f3536303334302e6a7067" alt="Modularize all the things"></p>
-<p>Module and Components are different in the sense that Components are composable. The iPhone charger is a Module but cannot charge an Android phone. Desktop PC hardwares can be interchanged and thus are Components.<br>Micorservice tends to compose Components, each is an independent Component, as an application.</p>
-<p>On an e-Commerse website, Orders, Wishlist, Recommendation, Product Category can all be separate micorservices.</p>
-<p><a href="http://microservices.io/index.html" target="_blank" rel="noopener">Microservices architecture</a><br><a href="https://docs.microsoft.com/en-us/azure/architecture/microservices/" target="_blank" rel="noopener">Building microservices on Azure | Microsoft Docs</a><br><a href="http://www.soa-manifesto.org/" target="_blank" rel="noopener">SOA Manifesto</a><br><a href="http://chrisrichardson.net/learnmicroservices.html" target="_blank" rel="noopener">Learn microservices</a><br><a href="https://dan.chak.org/enterprise-rails/chapter-13-soa-primer/" target="_blank" rel="noopener">Chapter 13: SOA Primer | dan chak</a><br><a href="http://thenewstack.io/from-monolith-to-microservices/" target="_blank" rel="noopener">From Monoliths to Microservices: An Architectural Strategy - The New Stack</a><br><a href="http://codeincomplete.com/posts/2014/9/1/soa/" target="_blank" rel="noopener">Code inComplete - SOA - Overview</a><br><a href="https://www.infoworld.com/article/3310946/application-development/how-to-build-resilient-microservices.html" target="_blank" rel="noopener">How to build resilient microservices | InfoWorld</a> !important, Ballerina</p>
-<p><a href="https://legacy.gitbook.com/book/docshome/microservices/details" target="_blank" rel="noopener">微服务：从设计到部署 · GitBook</a><br><a href="http://callistaenterprise.se/blogg/teknik/2015/05/20/blog-series-building-microservices/" target="_blank" rel="noopener">Blog Series - Building Microservices | Callista Enterprise</a></p>
-<p><a href="https://azure.microsoft.com/en-us/blog/microservices-an-application-revolution-powered-by-the-cloud/" target="_blank" rel="noopener">Microservices: An application revolution powered by the cloud | Blog | Microsoft Azure</a><br><a href="https://thenewstack.io/event-driven-design-will-drive-microservices-clarity/" target="_blank" rel="noopener">Effective Microservices Architecture with Event-Driven Design - The New Stack</a></p>
-<p><a href="http://technologyconversations.com/2015/11/10/microservices-the-essential-practices/" target="_blank" rel="noopener">Microservices: The Essential Practices | Technology Conversations</a><br><a href="http://technologyconversations.com/2015/01/07/monolithic-servers-vs-microservices/" target="_blank" rel="noopener">Monolithic Servers vs Microservices | Technology Conversations</a></p>
-<p><a href="https://www.javacodegeeks.com/2018/09/microservice-patterns-deployment-extension.html" target="_blank" rel="noopener">Microservice Patterns That Help Large Enterprises Speed Development, Deployment and Extension | Java Code Geeks - 2018</a><br><a href="https://www.javacodegeeks.com/2018/09/anti-patterns-stifle-microservices-adoption.html" target="_blank" rel="noopener">How Anti-Patterns Can Stifle Microservices Adoption in the Enterprise | Java Code Geeks - 2018</a></p>
-<p><a href="https://eng.uber.com/building-tincup/" target="_blank" rel="noopener">Rewriting Uber Engineering: The Opportunities Microservices Provide - Uber Engineering Blog</a><br><a href="https://nordicapis.com/asynchronous-apis-in-choreographed-microservices/" target="_blank" rel="noopener">Asynchronous APIs in Choreographed Microservices | Nordic APIs |</a></p>
-<p><a href="https://speakerdeck.com/yamen/microservices-101-the-big-why" target="_blank" rel="noopener">Microservices 101 - The Big Why? // Speaker Deck</a><br><a href="https://www.iron.io/when-and-why-for-microservices/" target="_blank" rel="noopener">When and Why for Microservices | Iron.io</a><br><a href="https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f" target="_blank" rel="noopener">Microservice Principles: Smart Endpoints and Dumb Pipes</a><br><a href="https://www.infoworld.com/article/3237697/application-development/what-are-microservices-lightweight-software-development-explained.html" target="_blank" rel="noopener">What are microservices? Lightweight software development explained | InfoWorld</a><br><a href="https://www.infoworld.com/article/3200034/application-development/tutorial-how-to-build-microservices-apps.html" target="_blank" rel="noopener">Microservices tutorial: How to build microservices apps  | InfoWorld</a><br><a href="https://www.infoworld.com/article/3271785/application-development/7-secrets-to-scaling-with-microservices.html" target="_blank" rel="noopener">7 secrets to scaling with microservices | InfoWorld</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247488815&idx=1&sn=36b990788c5d5b867f5a7cc817b3e543&chksm=f951a06cce26297ab086b0b8ab527eda42302adbbd487bfbb4a2939131b9a191c8e2b5a36c2f&scene=27#wechat_redirect" target="_blank" rel="noopener">微服务下使用 GraphQL 构建 BFF (Backend for Frontends)的实践</a></p>
-<p><a href="https://www.nginx.com/blog/introduction-to-microservices/" target="_blank" rel="noopener">Introduction to Microservices | NGINX</a> series by Nginx<br><a href="https://www.nginx.com/blog/tag/microservices/" target="_blank" rel="noopener">microservices Archives - NGINX</a><br><a href="https://www.nginx.com/blog/powering-microservices-sockets-using-nginx-kubernetes/" target="_blank" rel="noopener">NGINX Plus and Kubernetes Power Microservices Architectures</a><br><a href="https://www.nginx.com/blog/microservices-reference-architecture-free-ebook-nginx/" target="_blank" rel="noopener">NGINX Microservices Reference Architecture: Download the Free Ebook</a><br><a href="https://www.nginx.com/resources/library/designing-deploying-microservices/#download" target="_blank" rel="noopener">Microservices design and deployment with NGINX | Free Ebook</a></p>
-<p><a href="https://www.openmymind.net/SOA-Lessons-Learned-1/" target="_blank" rel="noopener">SOA Lessons Learned</a><br><a href="https://www.openmymind.net/Practical-SOA-Typed-Requests/" target="_blank" rel="noopener">Practical SOA / microservices - Typed Requests</a><br><a href="https://www.openmymind.net/Practical-SOA-Hydration-Part-1/" target="_blank" rel="noopener">Practical SOA / microservices - Hydration - Part 1</a><br><a href="https://www.openmymind.net/Practical-SOA-Hydration-Part-2/" target="_blank" rel="noopener">Practical SOA / microservices - Hydration - Part 2</a><br><a href="https://hub.packtpub.com/microservices-and-service-oriented-architecture/" target="_blank" rel="noopener">Microservices and Service Oriented Architecture | Packt Hub</a><br><a href="https://www.voxxed.com/blog/2016/01/microservices-versus-soa-practice/" target="_blank" rel="noopener">Microservices Versus SOA in Practice | Voxxed</a><br><a href="https://www.infoworld.com/article/3080611/application-development/learning-from-soa-5-lessons-for-the-microservices-era.html" target="_blank" rel="noopener">Learn from SOA: 5 lessons for the microservices era | InfoWorld</a></p>
-<p><a href="https://blog.codeship.com/simplifying-your-transition-from-macro-to-microservices/" target="_blank" rel="noopener">Simplifying Your Transition from Macro to Microservices - via @codeship | via @codeship</a><br><a href="https://blog.codeship.com/from-macro-to-microservices-jumpstarting-your-transition/" target="_blank" rel="noopener">From Macro to Microservices: Jumpstarting Your Transition - via @codeship | via @codeship</a><br><a href="https://resources.codeship.com/webinars/thank-you-building-apps-with-microservices?submissionGuid=c817a618-8d56-4026-bdf9-75ac6f61f64f" target="_blank" rel="noopener">An Introduction to Building Your Apps with Microservices</a><br><a href="https://hub.packtpub.com/building-scalable-microservices/" target="_blank" rel="noopener">Building Scalable Microservices | Packt Hub</a> Spring Boot<br><a href="https://hub.packtpub.com/breaking-microservices-architecture/" target="_blank" rel="noopener">Breaking into Microservices Architecture | Packt Hub</a></p>
-<p><a href="https://www.infoworld.com/article/3326530/google-go/20-go-projects-for-mastering-microservices.html" target="_blank" rel="noopener">20 Go language projects for mastering microservices | InfoWorld</a></p>
-<p><a href="https://itnext.io/graphql-in-a-microservices-architecture-d17922b886eb" target="_blank" rel="noopener">GraphQL in a Microservices Architecture – ITNEXT</a></p>
-<p><a href="https://www.youtube.com/watch?v=5yK3lx-PQV0" target="_blank" rel="noopener">Node, npm, and Service Oriented Architecture - Forward 4 Web Summit - YouTube</a><br><a href="https://www.youtube.com/watch?v=f40EybJwgBo" target="_blank" rel="noopener">Richard Rodger - &quot;How Microservcies fail and what to do about it&quot; - YouTube</a> <a href="https://www.dropbox.com/s/2kg7ng9bz8u9b4m/richardrodger-microservice-fail-dublin-sep.pdf?dl=0" target="_blank" rel="noopener">slide</a><br><a href="https://www.youtube.com/watch?v=CZ3wIuvmHeM" target="_blank" rel="noopener">Mastering Chaos - A Netflix Guide to Microservices - YouTube</a></p>
-<h2 id="Connecting-the-Services"><a href="#Connecting-the-Services" class="headerlink" title="Connecting the Services"></a>Connecting the Services</h2><p><a href="https://www.javacodegeeks.com/2018/08/microservices-java-developers-microservices-communication.html" target="_blank" rel="noopener">Microservices for Java Developers: Microservices Communication | Java Code Geeks - 2018</a><br><a href="https://blog.codeship.com/microservices-messaging-rest-isnt-always-best-choice/" target="_blank" rel="noopener">Microservices Messaging: Why REST Isn&#39;t Always the Best Choice - via @codeship | via @codeship</a><br><a href="https://www.javacodegeeks.com/2018/10/custom-framing-microservices-messaging.html" target="_blank" rel="noopener">Use Custom Packet Framing for Microservices Messaging | Java Code Geeks - 2018</a></p>
-<p><a href="https://blog.codeship.com/microservice-communication-queues/" target="_blank" rel="noopener">Microservice Communication with Queues - via @codeship | via @codeship</a><br><a href="https://codeburst.io/scaling-microservices-with-message-queues-spring-boot-and-kubernetes-d286c75c9fa0" target="_blank" rel="noopener">Scaling Microservices with Message Queues, Spring Boot and Kubernetes</a></p>
-<p><a href="https://dejanglozic.com/2014/05/06/rest-and-mqtt-yin-and-yang-of-micro-service-apis/" target="_blank" rel="noopener">REST and MQTT: Yin and Yang of Micro-Service APIs – Dejan Glozic</a><br><a href="https://github.com/mattduffield/microservices" target="_blank" rel="noopener">mattduffield/microservices: This is a sample using MQTT</a><br><a href="https://github.com/oemdaro/mqtt-microservices" target="_blank" rel="noopener">oemdaro/mqtt-microservices: The example of MQTT microservices based system build on top of Node.js, Go (Golang), Java, gRPC and Apache Kafka</a></p>
-<h2 id="Data"><a href="#Data" class="headerlink" title="Data"></a>Data</h2><p><a href="http://www.xenonique.co.uk/blog/2018/08/21/hot-shot-009-dealing-with-m-soa-data-part-1/" target="_blank" rel="noopener">Hot shot 009 – Dealing with M/SOA DATA (part 1) « Peter Pilgrim :: Java Champion :: Digital Developer Architect</a><br><a href="http://www.xenonique.co.uk/blog/2018/09/24/hot-shot-010-dealing-with-micro-service-oriented-architecture-data-part-2/" target="_blank" rel="noopener">Hot shot 010 – Dealing with Micro-Service Oriented Architecture DATA (part 2) « Peter Pilgrim :: Java Champion :: Digital Developer Architect</a><br><a href="https://www.youtube.com/watch?v=MrV0DqTqpFU" target="_blank" rel="noopener">The hardest part of microservices is your data - YouTube</a><br><a href="https://www.voltdb.com/landing/thank-you-data-architecture-microservices-webinar-recording/" target="_blank" rel="noopener">Thank You for Requesting this Webinar Recording - Is Your Data Architecture Ready for Microservices? - VoltDB</a></p>
-<h2 id="Microscaling"><a href="#Microscaling" class="headerlink" title="Microscaling"></a>Microscaling</h2><p><a href="https://app.microscaling.com/users/sign_up" target="_blank" rel="noopener">Microscaling in a Box - container scaling</a><br><a href="https://github.com/microscaling/microscaling" target="_blank" rel="noopener">microscaling/microscaling: Microscaling Engine</a></p>
-<p><a href="https://blog.codeship.com/increasing-resource-efficiency-microscaling/" target="_blank" rel="noopener">Increasing Resource Efficiency with Microscaling - via @codeship | via @codeship</a></p>
-<h2 id="Service-mesh"><a href="#Service-mesh" class="headerlink" title="Service mesh"></a>Service mesh</h2><p>&quot;Side-cart&quot; attached to the service for</p>
-<ul>
-<li>service discovery</li>
-<li>routing</li>
-<li>tracing</li>
-<li>failure handling</li>
-<li>security (zero-trust networking)</li>
-</ul>
-<p><a href="https://blog.thecodeteam.com/2018/02/05/getting-started-service-mesh-linkerd-intro/" target="_blank" rel="noopener">Getting Started with a Service Mesh - a Linkerd Intro - {code}</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247489379&idx=1&sn=0088a4c124cebf16f52c54ab50e458be&chksm=e8d7e8a1dfa061b7f7d256c99134a104849271a8930ef68228a7aae3fed6d08a0a1256f38196&scene=27#wechat_redirect" target="_blank" rel="noopener">service mesh 是什么，常用工具有哪些？</a><br><a href="https://www.oreilly.com/ideas/do-you-need-a-service-mesh" target="_blank" rel="noopener">Do you need a service mesh? - O&#39;Reilly Media</a><br><a href="https://www.javacodegeeks.com/2018/05/an-overview-of-the-service-mesh-and-its-tooling-options.html" target="_blank" rel="noopener">An Overview of the Service Mesh and Its Tooling Options | Java Code Geeks - 2018</a></p>
-<p><a href="https://cloud.google.com/blog/search;query=service%20mesh%20era;paginate=25;order=newest" target="_blank" rel="noopener">Google Cloud Blog - News, Features and Announcements</a></p>
-<p><a href="https://medium.com/avitotech/introducing-netramesh-lightweight-service-mesh-13f60162feb6" target="_blank" rel="noopener">Introducing netramesh — lightweight service mesh – AvitoTech – Medium</a></p>
-<p><a href="https://medium.com/@jeffzzq/linkerd-vs-istio-my-2-1e16557891a6" target="_blank" rel="noopener">Linkerd vs Istio: my 2¢ – Jeff Gensler – Medium</a><br><a href="https://www.envoyproxy.io/docs/envoy/latest/intro/comparison" target="_blank" rel="noopener">Comparison to similar systems — envoy documentation</a></p>
-<h2 id="Testing"><a href="#Testing" class="headerlink" title="Testing"></a>Testing</h2><p><a href="https://www.infoq.com/articles/test-java-microservices-service-mesh" target="_blank" rel="noopener">Improving Testability of Java Microservices with Container Orchestration and a Service Mesh</a></p>
-<h2 id="On-the-Contrary"><a href="#On-the-Contrary" class="headerlink" title="On the Contrary"></a>On the Contrary</h2><p><a href="http://hueniverse.com/2014/05/30/the-fallacy-of-tiny-modules/" target="_blank" rel="noopener">The Fallacy of Tiny Modules | hueniverse</a><br><a href="https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4#.i8l834nkh" target="_blank" rel="noopener">Small modules: it’s not quite that simple — Medium</a><br><a href="https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328" target="_blank" rel="noopener">One-line node modules · Issue #10 · sindresorhus/ama</a><br><a href="http://jlongster.com/Modularity" target="_blank" rel="noopener">Modularity</a><br><a href="http://blog.takipi.com/5-ways-to-not-f-up-your-microservices-in-production/" target="_blank" rel="noopener">Microservices in Production: 5 Challenges You Should Know | Takipi Blog</a><br><a href="https://genehughson.wordpress.com/2015/01/30/microservice-mistakes-complexity-as-a-service/" target="_blank" rel="noopener">Microservice Mistakes – Complexity as a Service | Form Follows Function</a><br><a href="http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html" target="_blank" rel="noopener">Microservices - Not a free lunch! - High Scalability -</a><br><a href="https://www.javacodegeeks.com/2018/10/microservices-becomes-darkservices.html" target="_blank" rel="noopener">When microservices becomes darkservices | Java Code Geeks - 2018</a><br><a href="https://segment.com/blog/goodbye-microservices/" target="_blank" rel="noopener">Goodbye Microservices: From 100s of problem children to 1 superstar · Segment Blog</a></p>
-<h2 id="Microservices-Demo"><a href="#Microservices-Demo" class="headerlink" title="Microservices Demo"></a><a href="https://github.com/microservices-demo" target="_blank" rel="noopener">Microservices Demo</a></h2><p><a href="https://github.com/microservices-demo/microservices-demo" target="_blank" rel="noopener">microservices-demo/microservices-demo: Deployment scripts &amp; config for Sock Shop</a><br><a href="https://github.com/microservices-demo/load-test" target="_blank" rel="noopener">microservices-demo/load-test: A load-test script &amp; container for Sock Shop</a></p>
-<p><a href="https://www.codeproject.com/Articles/1250650/Microservices-with-Kubernetes-Docker-Helm-Part-Gen" target="_blank" rel="noopener">Microservices with Kubernetes, Docker, Helm. (Part 1) Generic configuration and API Gateway - CodeProject</a></p>
-<h2 id="Martin-Fowler"><a href="#Martin-Fowler" class="headerlink" title="Martin Fowler"></a>Martin Fowler</h2><p><a href="http://martinfowler.com/articles/microservices.html" target="_blank" rel="noopener">Microservices</a> !important<br><a href="https://www.youtube.com/watch?v=wgdBVIX9ifA" target="_blank" rel="noopener">Microservices • Martin Fowler - YouTube</a><br>Characteristics of a Microservice Architecture:</p>
-<ul>
-<li>Componentization via Services</li>
-<li>Organized around Business Capabilities</li>
-<li>Products not Projects</li>
-<li>Smart endpoints and dumb pipes</li>
-<li>Decentralized Governance</li>
-<li>Decentralized Data Management</li>
-<li>Infrastructure Automation</li>
-<li>Design for failure</li>
-<li>Evolutionary Design</li>
-</ul>
-<p><a href="http://martinfowler.com/articles/microservice-testing/" target="_blank" rel="noopener">Testing Strategies in a Microservice Architecture</a><br><a href="http://martinfowler.com/bliki/MonolithFirst.html" target="_blank" rel="noopener">MonolithFirst</a></p>
-<h2 id="InfoQ"><a href="#InfoQ" class="headerlink" title="InfoQ"></a>InfoQ</h2><p><a href="https://www.infoq.com/presentations/migration-cloud-native" target="_blank" rel="noopener">Migrating to Microservices</a><br><a href="http://www.infoq.com/presentations/testing-web-services-soap-rest" target="_blank" rel="noopener">Testing Web Services, Microservices and APIs</a></p>
-<h2 id="DZone"><a href="#DZone" class="headerlink" title="DZone"></a>DZone</h2><p><a href="https://dzone.com/articles/micro-components-architecture-1" target="_blank" rel="noopener">Micro-Components Architecture - DZone Microservices</a> patterns used in microservices</p>
-<p><a href="https://dzone.com/microservices-news-tutorials-tools" target="_blank" rel="noopener">DZone Microservices</a><br><a href="https://dzone.com/articles/microservices-in-practice-1" target="_blank" rel="noopener">Microservices in Practice: From Architecture to Deployment - DZone Microservices</a><br><a href="https://dzone.com/articles/patterns-for-microservices-sync-vs-async" target="_blank" rel="noopener">Patterns for Microservices — Sync vs. Async - DZone Microservices</a><br><a href="https://dzone.com/articles/design-considerations-for-a-microservice-architect" target="_blank" rel="noopener">Design Considerations for a Microservice Architecture With Docker Swarm - DZone Microservices</a><br><a href="https://dzone.com/articles/10-best-practices-for-microservice-architectures" target="_blank" rel="noopener">10 Best Practices for Microservice Architectures - DZone Microservices</a><br><a href="https://dzone.com/articles/microservices-vs-soa-is-there-any-difference-at-al?fromrel=true" target="_blank" rel="noopener">Microservices vs. SOA – Is There Any Difference at All? - DZone Integration</a><br><a href="https://dzone.com/articles/microservices-vs-service-oriented-architecture-soa" target="_blank" rel="noopener">Microservices vs. Service-Oriented Architecture (SOA) - DZone Microservices</a><br><a href="https://dzone.com/articles/how-are-your-microservices-talking" target="_blank" rel="noopener">How Are Your Microservices Talking? - DZone Microservices</a> vs SOA<br><a href="https://dzone.com/articles/weve-done-soa-why-should-we-care-about-microservic" target="_blank" rel="noopener">We&#39;ve Done SOA, Why Should We Care About Microservices? - DZone Microservices</a></p>
-<p><a href="https://dzone.com/articles/getting-your-team-ready-for-microservices-part-1" target="_blank" rel="noopener">Getting Your Team Ready for Microservices — Part 1 - DZone Microservices</a><br><a href="https://dzone.com/articles/getting-your-team-ready-for-microservices-part-2" target="_blank" rel="noopener">Getting Your Team Ready for Microservices — Part 2 - DZone Microservices</a><br><a href="https://dzone.com/articles/microservices-organizational-practices-part-2" target="_blank" rel="noopener">Microservices: Organizational Practices, Part 2 - DZone Microservices</a><br><a href="https://dzone.com/articles/microservices-organizational-practices" target="_blank" rel="noopener">Microservices: Organizational Practices, Part 1 - DZone Microservices</a></p>
-<p><a href="https://dzone.com/articles/microservices-and-distributed-transactions" target="_blank" rel="noopener">Microservices and Distributed Transactions - DZone Microservices</a><br><a href="https://dzone.com/articles/distributed-transactions-and-microservices-still-d" target="_blank" rel="noopener">Distributed Transactions and Microservices Still Don&#39;t Mix - DZone Microservices</a></p>
-<h2 id="Auth0"><a href="#Auth0" class="headerlink" title="Auth0"></a>Auth0</h2><p>Auth0&#39;s three part series: !important<br><a href="https://auth0.com/blog/2015/09/04/an-introduction-to-microservices-part-1/" target="_blank" rel="noopener">An Introduction to Microservices, Part 1</a><br><a href="https://auth0.com/blog/2015/09/13/an-introduction-to-microservices-part-2-API-gateway/" target="_blank" rel="noopener">API Gateway. An Introduction to Microservices, Part 2</a><br><a href="https://auth0.com/blog/2015/10/02/an-introduction-to-microservices-part-3-the-service-registry/" target="_blank" rel="noopener">An Introduction to Microservices, Part 3: The Service Registry</a><br><a href="https://github.com/auth0-blog/mfa-and-microservices-blog-samples/tree/master/microservices" target="_blank" rel="noopener">mfa-and-microservices-blog-samples/microservices at master · auth0-blog/mfa-and-microservices-blog-samples</a></p>
-<hr>
-<h2 id="Linkerd"><a href="#Linkerd" class="headerlink" title="Linkerd"></a>Linkerd</h2><p><a href="https://buoyant.io/" target="_blank" rel="noopener">Buoyant | Open source Linkerd service mesh for cloud-native applications</a><br>Linkerd has built in Prometheus and Grafana dashboard</p>
-<p>Linkerd2 is built with Conduit, control plane in Go; data plane in Rust (Conduit)<br><a href="https://github.com/linkerd/linkerd2" target="_blank" rel="noopener">linkerd/linkerd2: Open source service mesh for cloud-native applications, v2</a><br><a href="https://www.cncf.io/blog/2018/09/18/linkerd-2-0-in-general-availability/" target="_blank" rel="noopener">Linkerd 2.0 Now In General Availability: From Service Mesh to Service Sidecar - Cloud Native Computing Foundation</a><br><a href="https://www.infoq.com/articles/linkerd-v2-production-adoption" target="_blank" rel="noopener">Linkerd v2: How Lessons from Production Adoption Resulted in a Rewrite of the Service Mesh</a><br><a href="https://kubernetes.io/blog/2018/09/18/hands-on-with-linkerd-2.0/" target="_blank" rel="noopener">Hands On With Linkerd 2.0 - Kubernetes</a><br><a href="https://linkerd.io/2019/04/16/announcing-linkerd-2.3/" target="_blank" rel="noopener">Linkerd - Announcing Linkerd 2.3: Towards Zero-Touch Zero-Trust Networking for Kubernetes</a></p>
-<p><a href="https://conduit.io/" target="_blank" rel="noopener">Conduit</a><br><a href="https://github.com/conduit-rust" target="_blank" rel="noopener">conduit-rust</a> GitHub Org<br><a href="https://github.com/conduit-rust/conduit" target="_blank" rel="noopener">conduit-rust/conduit: Web Application Interface for Rust</a><br><a href="https://blog.buoyant.io/2017/12/05/introducing-conduit/" target="_blank" rel="noopener">Introducing Conduit - blog.buoyant</a></p>
-<h3 id="v1"><a href="#v1" class="headerlink" title="v1"></a>v1</h3><p>based on framework in Twitter, JVM based<br><a href="https://linkerd.io/" target="_blank" rel="noopener">linkerd</a><br><a href="https://github.com/linkerd/linkerd" target="_blank" rel="noopener">linkerd/linkerd: Resilient service mesh for cloud native apps</a> 1.0, Scala<br><a href="https://twitter.github.io/finagle/" target="_blank" rel="noopener">Finagle</a> RPC for JVM<br><a href="https://kostyukov.net/posts/finagle-101/" target="_blank" rel="noopener">Vladimir Kostyukov - Finagle 101</a><br><a href="https://kostyukov.net/slides/finagle-101/?full#Cover" target="_blank" rel="noopener">Finagle — Finagle Under the Hood</a></p>
-<h2 id="Istio"><a href="#Istio" class="headerlink" title="Istio"></a>Istio</h2><p><a href="https://istio.io/" target="_blank" rel="noopener">Istio</a> !important, heavyweight, let Google run it<br><a href="https://github.com/istio/istio" target="_blank" rel="noopener">istio/istio: Sample code, build and tests and governance material for the Istio project.</a><br><a href="https://www.envoyproxy.io/" target="_blank" rel="noopener">Envoy Proxy - Home</a> out of application edge and service proxy used by Istio, eventually consistent</p>
-<p><a href="https://www.katacoda.com/courses/istio/deploy-istio-on-kubernetes" target="_blank" rel="noopener">Get Started with Istio and Kubernetes | Istio | Katacoda</a><br><a href="https://medium.com/namely-labs/a-crash-course-for-running-istio-1c6125930715" target="_blank" rel="noopener">A Crash Course For Running Istio – Namely Labs – Medium</a><br><a href="https://cloud.google.com/blog/products/networking/welcome-to-the-service-mesh-era-introducing-a-new-istio-blog-post-series" target="_blank" rel="noopener">Welcome to the service mesh era: Introducing a new Istio blog post series | Google Cloud Blog</a></p>
-<p><a href="https://dzone.com/articles/istio-service-mesh-control-plane" target="_blank" rel="noopener">Istio Service Mesh Control Plane - DZone Microservices</a><br><a href="https://medium.com/avitotech/running-istio-on-kubernetes-in-production-part-i-a8bbf7fec18e" target="_blank" rel="noopener">Running Istio on Kubernetes in production. Part I. – AvitoTech – Medium</a><br><a href="https://medium.com/avitotech/istio-and-kubernetes-in-production-part-2-tracing-6304a5af82e9" target="_blank" rel="noopener">Istio and Kubernetes in production. Part 2. Tracing</a></p>
-<p><a href="https://itnext.io/kubernetes-based-microservice-observability-with-istio-service-mesh-part-1-bed3dd0fac0b" target="_blank" rel="noopener">Kubernetes-based Microservice Observability with Istio Service Mesh: Part 1</a><br><a href="https://itnext.io/kubernetes-based-microservice-observability-with-istio-service-mesh-part-2-f25c4b474a65" target="_blank" rel="noopener">Kubernetes-based Microservice Observability with Istio Service Mesh: Part 2</a></p>
-<p><a href="https://www.youtube.com/watch?v=gauOI0O9fRM" target="_blank" rel="noopener">Microservices in the Cloud with Kubernetes and Istio (Google I/O &#39;18) - YouTube</a><br><a href="https://www.infoq.com/presentations/istio-microservices" target="_blank" rel="noopener">Reducing Microservices Architecture Complexity with Istio and Kubernetes</a><br><a href="https://www.geekwire.com/2018/kubecon-week-istio-become-new-cloud-native-darling/" target="_blank" rel="noopener">Crashing KubeCon: Has Istio become the new cloud-native darling? – GeekWire</a></p>
-<p><a href="https://www.youtube.com/watch?v=E_IZ73EBNy4" target="_blank" rel="noopener">5 things you didn&#39;t know about Istio - YouTube</a></p>
-<p><a href="https://medium.com/avitotech/running-istio-on-kubernetes-in-production-part-i-a8bbf7fec18e" target="_blank" rel="noopener">Running Istio on Kubernetes in production. Part I. – AvitoTech – Medium</a><br><a href="https://medium.com/avitotech/istio-and-kubernetes-in-production-part-2-tracing-6304a5af82e9" target="_blank" rel="noopener">Istio and Kubernetes in production. Part 2. Tracing</a></p>
-<p><a href="https://www.infoworld.com/article/3273547/containers/the-rise-of-the-istio-service-mesh.html" target="_blank" rel="noopener">The rise of the Istio service mesh | InfoWorld</a><br><a href="https://www.weave.works/blog/why-you-need-istio-kubernetes-and-weave-cloud-for-distributed-applications" target="_blank" rel="noopener">Why you need Istio, Kubernetes, and Weave Cloud for Distributed Applications</a><br><a href="https://www.weave.works/blog/gitops-for-istio-manage-istio-config-like-code" target="_blank" rel="noopener">GitOps for Istio - Manage Istio Config like Code</a></p>
-<p><a href="https://github.com/redhat-developer-demos/istio-tutorial" target="_blank" rel="noopener">redhat-developer-demos/istio-tutorial: Istio Tutorial for Java Microservices</a></p>
-<h2 id="StdLib"><a href="#StdLib" class="headerlink" title="StdLib"></a>StdLib</h2><p><a href="https://stdlib.com/" target="_blank" rel="noopener">StdLib — API development made simple</a> A Standard Library for Microservices<br><a href="https://docs.stdlib.com/main/#/introduction" target="_blank" rel="noopener">StdLib – Docs</a></p>
-<p><a href="https://code.xyz/" target="_blank" rel="noopener">Code.xyz — Code Editor for APIs</a><br><a href="https://codeburst.io/scrape-websites-for-information-easily-using-code-xyz-and-node-js-8be3e2f938ab" target="_blank" rel="noopener">Scrape Websites for Information Easily using Code.xyz and Node.js</a></p>
-<h2 id="Ballerina"><a href="#Ballerina" class="headerlink" title="Ballerina"></a>Ballerina</h2><p><a href="https://ballerina.io/" target="_blank" rel="noopener">Home - Ballerina.io</a><br>Language to implement middleware microservices to integrate enterprise services<br>Replaces ESB<br><a href="https://ballerina.io/learn/" target="_blank" rel="noopener">Learn</a></p>
-<p><a href="https://thenewstack.io/ballerina-a-programming-language-for-cloud-native-computing/" target="_blank" rel="noopener">Ballerina: A Programming Language for Cloud Native Computing - The New Stack</a><br><a href="https://medium.com/ballerinalang/ballerina-why-it-is-different-from-other-programming-languages-cbdf5f248390" target="_blank" rel="noopener">How Ballerina is different from other programming languages</a></p>
-<p><a href="https://www.youtube.com/watch?v=49xyON9hrBQ" target="_blank" rel="noopener">Intro to Ballerina: A Cloud Native Programming Language - YouTube</a></p>
-<p><a href="https://softwareengineeringdaily.com/2018/07/12/ballerina-language-with-tyler-jewell/" target="_blank" rel="noopener">Ballerina Language with Tyler Jewell - Software Engineering Daily</a></p>
-<h2 id="Tower-Rust"><a href="#Tower-Rust" class="headerlink" title="Tower (Rust)"></a>Tower (Rust)</h2><p><a href="https://github.com/tower-rs" target="_blank" rel="noopener">tower-rs</a> GitHub org<br><a href="ttps://github.com/tower-rs/tower" target="_blank" rel="noopener">tower-rs/tower: fn(Request) -&gt; Future<response></response></a></p>
-<h2 id="Micronaut"><a href="#Micronaut" class="headerlink" title="Micronaut"></a>Micronaut</h2><p><a href="http://micronaut.io/" target="_blank" rel="noopener">Micronaut Framework</a><br><a href="https://www.infoworld.com/article/3275787/application-development/micronaut-framework-promises-low-overhead-microservices.html" target="_blank" rel="noopener">Micronaut framework promises low-overhead microservices | InfoWorld</a></p>
-<h2 id="Micro"><a href="#Micro" class="headerlink" title="Micro"></a>Micro</h2><p>Go framework</p>
-<p><a href="https://micro.mu/" target="_blank" rel="noopener">Micro - The simplest path to microservices</a><br><a href="https://micro.mu/docs/go-micro.html" target="_blank" rel="noopener">Go Micro | Micro</a></p>
-<p><a href="https://blog.micro.mu/2016/03/20/micro.html" target="_blank" rel="noopener">The Micro Blog - Simplifying building and managing microservices</a></p>
-<p><a href="https://github.com/micro" target="_blank" rel="noopener">Micro</a> GitHub org<br><a href="https://github.com/micro/micro" target="_blank" rel="noopener">micro/micro: A microservice toolkit</a><br>An ecosystem which simplifies building and managing microservices</p>
-<h2 id="Micro-from-ZEIT"><a href="#Micro-from-ZEIT" class="headerlink" title="Micro from ZEIT"></a>Micro from ZEIT</h2><p>Node.js framework</p>
-<p><a href="https://zeit.co/blog/micro-8" target="_blank" rel="noopener">ZEIT – Micro 8</a><br><a href="https://github.com/zeit/micro" target="_blank" rel="noopener">zeit/micro: Asynchronous HTTP microservices</a></p>
-<h2 id="Zato"><a href="#Zato" class="headerlink" title="Zato"></a>Zato</h2><p><a href="https://zato.io/" target="_blank" rel="noopener">Zato - Home</a><br><a href="https://zato.io/docs/?learn" target="_blank" rel="noopener">Open-source ESB, SOA, REST, APIs, SSO and Cloud Integrations in Python — Zato 3.0.0 documentation</a></p>
-<h2 id="Kong"><a href="#Kong" class="headerlink" title="Kong"></a>Kong</h2><p><a href="https://konghq.com/kong-community-edition/" target="_blank" rel="noopener">Kong Community Edition | Open Source API Gateway</a> API gateway<br><a href="https://docs.konghq.com/hub/" target="_blank" rel="noopener">Kong Hub | Plugins and Integrations | Kong - Open-Source API Management and Microservice Management</a></p>
-<p><a href="https://github.com/Kong/kubernetes-ingress-controller" target="_blank" rel="noopener">Kong/kubernetes-ingress-controller: Use Kong for Kubernetes Ingress</a><br><a href="https://dev.to/_mertsimsek/kong-microservices-api-gateway-with-docker-12g5" target="_blank" rel="noopener">Kong Microservices Api Gateway with Docker - DEV Community 👩‍💻👨‍💻</a></p>
-<h2 id="Lever-OS"><a href="#Lever-OS" class="headerlink" title="Lever OS"></a>Lever OS</h2><p><a href="https://blog.leveros.com/introducing-lever-os-d10a857f210e#.y5if82x12" target="_blank" rel="noopener">Introducing Lever OS — Lever OS blog</a></p>
-<h2 id="Seneca"><a href="#Seneca" class="headerlink" title="Seneca"></a>Seneca</h2><p><a href="http://senecajs.org/" target="_blank" rel="noopener">Seneca, a microservices toolkit for Node.js</a><br><a href="http://www.nearform.com/nodecrunch/seneca-1-0-node-js-microservices/" target="_blank" rel="noopener">Seneca 1.0 for Node.js and microservices is out - nearForm</a><br><a href="http://www.nearform.com/nodecrunch/object-oriented-technology-was-great-now-enter-microservices-with-node-js/" target="_blank" rel="noopener">Object oriented technology was great - now enter microservices with Node.js</a> <a href="http://mcollina.github.io/we-are-not-object-oriented-anymore/" target="_blank" rel="noopener">slides</a> <a href="https://github.com/mcollina/we-are-not-object-oriented-anymore-demo" target="_blank" rel="noopener">demo</a><br><a href="https://github.com/mcollina/bloomrun" target="_blank" rel="noopener">mcollina/bloomrun: A js pattern matcher based on bloom filters</a> map string -&gt; anything, faster than <a href="https://github.com/rjrodger/patrun" target="_blank" rel="noopener">patrun</a><br><a href="https://www.compose.com/articles/building-javascript-microservices-with-senecajs-and-compose/" target="_blank" rel="noopener">Building JavaScript Microservices with SenecaJS and Compose</a></p>
-<p><a href="https://github.com/senecajs" target="_blank" rel="noopener">Seneca Microservices Framework</a><br><a href="https://github.com/senecajs/seneca-auth" target="_blank" rel="noopener">senecajs/seneca-auth: A Seneca user authentication plugin for Hapi and Express</a><br><a href="https://github.com/senecajs/seneca-web" target="_blank" rel="noopener">senecajs/seneca-web: A plugin that provides HTTP functionality for the Seneca framework</a></p>
-<blockquote>
-<p>see <code>container-ecosystem.md#nearform</code></p>
-</blockquote>
-<h2 id="Studio"><a href="#Studio" class="headerlink" title="Studio"></a>Studio</h2><p><a href="https://github.com/ericholiveira/studio" target="_blank" rel="noopener">ericholiveira/studio: A nodejs framework to create decoupled and scalable applications</a></p>
-<h2 id="GraftJS"><a href="#GraftJS" class="headerlink" title="GraftJS"></a>GraftJS</h2><p><a href="http://graft.io/" target="_blank" rel="noopener">Graft.io - coming soon | Daemon.co.za</a><br><a href="http://mcollina.github.io/nodeconfeu-2014-full-stack-through-microservices/" target="_blank" rel="noopener">Full-Stack Through Microservices</a><br><a href="https://github.com/GraftJS/graft" target="_blank" rel="noopener">GraftJS/graft: full-stack javascript through microservices</a><br><a href="https://github.com/GraftJS/jschan" target="_blank" rel="noopener">GraftJS/jschan: JavaScript port of libchan based around streams</a></p>
-<h2 id="Nameko"><a href="#Nameko" class="headerlink" title="Nameko"></a>Nameko</h2><p><a href="https://www.nameko.io/" target="_blank" rel="noopener">Nameko</a></p>
-<p><a href="https://itnext.io/grpc-apis-with-nameko-11bbd9492225" target="_blank" rel="noopener">gRPC APIs with Nameko – ITNEXT</a><br><a href="https://github.com/nameko/nameko-grpc" target="_blank" rel="noopener">nameko/nameko-grpc: GRPC Extensions for Nameko</a><br><a href="https://github.com/nameko/nameko-examples-grpc" target="_blank" rel="noopener">nameko/nameko-examples-grpc: Examples of Nameko gRPC Extensions</a></p>
-<h2 id="Helidon"><a href="#Helidon" class="headerlink" title="Helidon"></a>Helidon</h2><p><a href="https://helidon.io/#/" target="_blank" rel="noopener">Helidon</a><br><a href="https://github.com/oracle/helidon" target="_blank" rel="noopener">oracle/helidon: Java libraries for writing microservices</a></p>
-<p><a href="https://medium.com/oracledevs/helidon-takes-flight-fb7e9e390e9c" target="_blank" rel="noopener">Helidon Takes Flight – Oracle Developers – Medium</a><br><a href="https://jaxenter.com/meet-helidon-java-framework-149190.html" target="_blank" rel="noopener">Meet Helidon,  a new open source Java microservices framework - JAXenter</a></p>
-<h2 id="Hydra"><a href="#Hydra" class="headerlink" title="Hydra"></a>Hydra</h2><p><a href="https://github.com/flywheelsports/hydra" target="_blank" rel="noopener">flywheelsports/hydra: A light-weight library for building distributed applications such as microservices</a></p>
-<p><a href="https://www.hydramicroservice.com/" target="_blank" rel="noopener">Introduction · Hydra</a><br><a href="https://www.hydramicroservice.com/docs/quick-start/" target="_blank" rel="noopener">Quick tutorial · Hydra</a><br><a href="https://www.hydramicroservice.com/resources/#resources" target="_blank" rel="noopener">Resources · Hydra</a></p>
-<p><a href="https://community.risingstack.com/building-a-microservices-example-game-with-distributed-messaging/" target="_blank" rel="noopener">Building a Microservices Example Game with Distributed Messaging | @RisingStack</a></p>
-<h2 id="Netflix"><a href="#Netflix" class="headerlink" title="Netflix"></a>Netflix</h2><p><a href="https://github.com/Netflix/Hystrix" target="_blank" rel="noopener">Netflix/Hystrix: Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.</a><br><a href="https://hackernoon.com/building-fault-tolerant-microservices-using-netflixs-hystrix-c36083ca9af5" target="_blank" rel="noopener">Building Fault-Tolerant MicroServices using Netflix’s Hystrix</a></p>
-<h2 id="Go-micro"><a href="#Go-micro" class="headerlink" title="Go micro"></a>Go micro</h2><p><a href="https://github.com/micro/go-micro" target="_blank" rel="noopener">micro/go-micro: A microservice framework</a><br><a href="https://jaxenter.com/go-micro-microservice-framework-154603.html" target="_blank" rel="noopener">Meet Go micro, a zero-dependency microservice framework - JAXenter</a></p>
-<p><a href="https://micro.mu/blog/2019/04/01/micro-version-1-and-beyond.html" target="_blank" rel="noopener">Micro Blog - THE SIMPLEST WAY TO BUILD MICROSERVICES</a><br><a href="https://github.com/micro/micro" target="_blank" rel="noopener">micro/micro: A microservice toolkit</a></p>
-<h2 id="go-kit"><a href="#go-kit" class="headerlink" title="go-kit"></a>go-kit</h2><p><a href="https://github.com/go-kit/kit" target="_blank" rel="noopener">go-kit/kit: A standard library for microservices.</a><br><a href="https://godoc.org/github.com/go-kit/kit" target="_blank" rel="noopener">kit - GoDoc</a></p>
-<p><a href="http://peter.bourgon.org/go-kit/" target="_blank" rel="noopener">Go kit: Go in the modern enterprise</a><br><a href="https://blog.heroku.com/archives/2016/2/19/microservices_in_go_using_go_kit" target="_blank" rel="noopener">Microservices in Go using Go-kit | Heroku</a><br><a href="https://dev.to/napolux/how-to-write-a-microservice-in-go-with-go-kit-a66" target="_blank" rel="noopener">How to write a microservice in Go with Go kit - DEV Community 👩‍💻👨‍💻</a></p>
-<h2 id="Hippo"><a href="#Hippo" class="headerlink" title="Hippo"></a>Hippo</h2><p><a href="http://clivern.com/introducing-hippo-a-golang-microservices-toolkit/" target="_blank" rel="noopener">Introducing Hippo: A Golang Microservices Toolkit | Clivern</a><br><a href="https://github.com/Clivern/Hippo" target="_blank" rel="noopener">Clivern/Hippo: 💨A well crafted go packages that help you build robust, reliable, maintainable microservices.</a></p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/microservice/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -1388,41 +1212,51 @@
 		
 			<li><a href="/categories/android/">android<span>4</span></a></li>
 		
-			<li><a href="/categories/anime/">anime<span>2</span></a></li>
+			<li><a href="/categories/anime/">anime<span>12</span></a></li>
+		
+			<li><a href="/categories/anthropology/">anthropology<span>1</span></a></li>
 		
 			<li><a href="/categories/app/">app<span>50</span></a></li>
 		
+			<li><a href="/categories/automobile/">automobile<span>2</span></a></li>
+		
+			<li><a href="/categories/autromobile/">autromobile<span>1</span></a></li>
+		
 			<li><a href="/categories/big-data/">big-data<span>2</span></a></li>
 		
-			<li><a href="/categories/business/">business<span>1</span></a></li>
+			<li><a href="/categories/business/">business<span>5</span></a></li>
 		
-			<li><a href="/categories/comp/">comp<span>10</span></a></li>
+			<li><a href="/categories/comp/">comp<span>11</span></a></li>
 		
-			<li><a href="/categories/comp-hardware/">comp.hardware<span>24</span></a></li>
+			<li><a href="/categories/comp-hardware/">comp.hardware<span>20</span></a></li>
 		
 			<li><a href="/categories/comp-hw/">comp.hw<span>1</span></a></li>
 		
-			<li><a href="/categories/comp-lang/">comp.lang<span>48</span></a></li>
-		
-			<li><a href="/categories/compd/">compd<span>1</span></a></li>
+			<li><a href="/categories/comp-lang/">comp.lang<span>47</span></a></li>
 		
 			<li><a href="/categories/container/">container<span>11</span></a></li>
 		
-			<li><a href="/categories/trivia/transmission/drivetrain/">drivetrain<span>1</span></a></li>
+			<li><a href="/categories/crypto/">crypto<span>2</span></a></li>
 		
 			<li><a href="/categories/ebook/">ebook<span>2</span></a></li>
 		
-			<li><a href="/categories/games/">games<span>15</span></a></li>
+			<li><a href="/categories/economics/">economics<span>14</span></a></li>
 		
-			<li><a href="/categories/history/">history<span>12</span></a></li>
+			<li><a href="/categories/finance/">finance<span>3</span></a></li>
 		
-			<li><a href="/categories/home-improvement/">home-improvement<span>1</span></a></li>
+			<li><a href="/categories/games/">games<span>16</span></a></li>
 		
-			<li><a href="/categories/law/">law<span>4</span></a></li>
+			<li><a href="/categories/history/">history<span>17</span></a></li>
+		
+			<li><a href="/categories/language/">language<span>2</span></a></li>
+		
+			<li><a href="/categories/law/">law<span>6</span></a></li>
 		
 			<li><a href="/categories/learning/">learning<span>1</span></a></li>
 		
-			<li><a href="/categories/linux/">linux<span>26</span></a></li>
+			<li><a href="/categories/linux/">linux<span>27</span></a></li>
+		
+			<li><a href="/categories/maker/">maker<span>11</span></a></li>
 		
 			<li><a href="/categories/math/">math<span>4</span></a></li>
 		
@@ -1430,19 +1264,27 @@
 		
 			<li><a href="/categories/philosophy/">philosophy<span>7</span></a></li>
 		
+			<li><a href="/categories/politics/">politics<span>2</span></a></li>
+		
 			<li><a href="/categories/law/politics/">politics<span>1</span></a></li>
 		
-			<li><a href="/categories/standard/">standard<span>1</span></a></li>
+			<li><a href="/categories/comp/science/">science<span>1</span></a></li>
 		
-			<li><a href="/categories/toys/">toys<span>2</span></a></li>
+			<li><a href="/categories/philosophy/science/">science<span>1</span></a></li>
 		
-			<li><a href="/categories/trivia/transmission/">transmission<span>1</span></a></li>
+			<li><a href="/categories/science/">science<span>23</span></a></li>
 		
-			<li><a href="/categories/trivia/">trivia<span>112</span></a></li>
+			<li><a href="/categories/history/science/">science<span>2</span></a></li>
 		
-			<li><a href="/categories/uncategorized/">uncategorized<span>7</span></a></li>
+			<li><a href="/categories/standard/">standard<span>2</span></a></li>
 		
-			<li><a href="/categories/web/">web<span>89</span></a></li>
+			<li><a href="/categories/toys/">toys<span>3</span></a></li>
+		
+			<li><a href="/categories/trivia/">trivia<span>39</span></a></li>
+		
+			<li><a href="/categories/weapons/">weapons<span>2</span></a></li>
+		
+			<li><a href="/categories/web/">web<span>88</span></a></li>
 		
 		</ul>
 	</div>
@@ -1453,48 +1295,48 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/ssh/">ssh<span>1</span></a></li>
+			<li><a href="/tags/pepakura/">pepakura<span>1</span></a></li>
 		
-			<li><a href="/tags/cache/">cache<span>1</span></a></li>
+			<li><a href="/tags/one-piece/">one-piece<span>1</span></a></li>
 		
-			<li><a href="/tags/linux/">linux<span>2</span></a></li>
+			<li><a href="/tags/percentile/">percentile<span>1</span></a></li>
 		
-			<li><a href="/tags/creationism/">creationism<span>1</span></a></li>
+			<li><a href="/tags/latex/">latex<span>1</span></a></li>
 		
-			<li><a href="/tags/browser-war/">browser-war<span>1</span></a></li>
+			<li><a href="/tags/wget/">wget<span>1</span></a></li>
 		
-			<li><a href="/tags/netflix/">netflix<span>1</span></a></li>
+			<li><a href="/tags/macos/">macos<span>1</span></a></li>
 		
-			<li><a href="/tags/digital-ocean/">digital-ocean<span>1</span></a></li>
-		
-			<li><a href="/tags/rpc/">rpc<span>1</span></a></li>
+			<li><a href="/tags/awk/">awk<span>1</span></a></li>
 		
 			<li><a href="/tags/nginx/">nginx<span>1</span></a></li>
 		
-			<li><a href="/tags/osx/">osx<span>2</span></a></li>
+			<li><a href="/tags/usermod/">usermod<span>1</span></a></li>
 		
-			<li><a href="/tags/rpi/">rpi<span>1</span></a></li>
+			<li><a href="/tags/desktop/">desktop<span>18</span></a></li>
 		
-			<li><a href="/tags/kodi/">kodi<span>1</span></a></li>
+			<li><a href="/tags/node-webit/">node-webit<span>1</span></a></li>
 		
-			<li><a href="/tags/regex/">regex<span>1</span></a></li>
+			<li><a href="/tags/podcast/">podcast<span>1</span></a></li>
 		
-			<li><a href="/tags/laptop/">laptop<span>2</span></a></li>
+			<li><a href="/tags/netcat/">netcat<span>1</span></a></li>
 		
-			<li><a href="/tags/dark-ages/">dark-ages<span>1</span></a></li>
+			<li><a href="/tags/gn/">gn<span>1</span></a></li>
 		
-			<li><a href="/tags/ux/">ux<span>1</span></a></li>
+			<li><a href="/tags/cache/">cache<span>1</span></a></li>
 		
-			<li><a href="/tags/rxjs/">rxjs<span>1</span></a></li>
+			<li><a href="/tags/storage/">storage<span>4</span></a></li>
 		
-			<li><a href="/tags/buck/">buck<span>1</span></a></li>
+			<li><a href="/tags/ember-js/">ember-js<span>1</span></a></li>
 		
-			<li><a href="/tags/zsh/">zsh<span>1</span></a></li>
+			<li><a href="/tags/ssd/">ssd<span>1</span></a></li>
 		
-			<li><a href="/tags/container/">container<span>1</span></a></li>
+			<li><a href="/tags/comics/">comics<span>1</span></a></li>
+		
+			<li><a href="/tags/protestant/">protestant<span>1</span></a></li>
 		
 		
-		   <li><a href="/tags">...<span>412</span></a></li>
+		   <li><a href="/tags">...<span>427</span></a></li>
 		 
 		</ul>
 	</div>
