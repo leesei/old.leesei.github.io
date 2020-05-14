@@ -21,6 +21,8 @@ date: 2016-04-08 14:17:10
 
 [Chartist - Simple responsive charts](https://gionkunz.github.io/chartist-js/)
 
+[Blazing fast Image Chart API](https://image-charts.com/)
+
 [Open Source Image Charts Replacement | QuickChart](https://quickchart.io/)
 
 ## Polychart
