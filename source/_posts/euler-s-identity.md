@@ -3,7 +3,7 @@ title: "Euler's identity"
 categories:
   - math
 tags:
-  - 
+  -
 toc: true
 date: 2016-05-26 16:38:06
 ---

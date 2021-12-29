@@ -18,6 +18,7 @@ date: 2019-03-04 23:19:13
 
 [Cross-window communication](https://javascript.info/cross-window-communication)
 [HTML5 window.postMessage](https://davidwalsh.name/window-postmessage)
+[Is postMessage slow? — surma.dev](https://surma.dev/things/is-postmessage-slow/)
 
 ## Channel Messaging
 

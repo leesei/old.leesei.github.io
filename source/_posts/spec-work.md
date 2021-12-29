@@ -3,7 +3,7 @@ title: Speculative Work
 categories:
   - economics
 tags:
-  - 
+  -
 toc: true
 date: 2016-09-22 01:11:17
 ---
@@ -18,4 +18,4 @@ low barrier of entry, no need for qualifications
 Large supply, few professionals
 Gain publicity and build resume
 Comparative advantage for armature
-Superstar economy, the price of an enjoyable job 
+Superstar economy, the price of an enjoyable job

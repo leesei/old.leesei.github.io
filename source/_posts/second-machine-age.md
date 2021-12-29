@@ -5,11 +5,11 @@ categories:
 toc: true
 date: 2015-09-08 11:23:26
 tags:
-- economics
+  - economics
 ---
 
-Physical labour was replaced by machines with better strength in the *First Machine Age*. This displacement did created other job opportunities, hence the concept of [creative destruction](https://www.wikiwand.com/en/Creative_destruction).
-In the *Second Machine Age*, white collar labour will be replaced by cognitive computers. This time not much new job opportunities are created. Only creative works and personalized yet low paying works remains for human. The destructiveness outgrows the creation.
+Physical labour was replaced by machines with better strength in the _First Machine Age_. This displacement did created other job opportunities, hence the concept of [creative destruction](https://www.wikiwand.com/en/Creative_destruction).
+In the _Second Machine Age_, white collar labour will be replaced by cognitive computers. This time not much new job opportunities are created. Only creative works and personalized yet low paying works remains for human. The destructiveness outgrows the creation.
 
 [Humans Need Not Apply - YouTube](https://www.youtube.com/watch?v=7Pq-S557XQU)
 [The Rise of the Machines – Why Automation is Different this Time - YouTube](https://www.youtube.com/watch?v=WSKi8HfcxEk)

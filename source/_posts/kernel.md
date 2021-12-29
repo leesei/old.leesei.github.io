@@ -26,20 +26,44 @@ date: 2016-03-27 22:38:28
 
 [Optimizing for Workloads: Linux Spinlocks vs. Mutexes | Nathan Petersen](https://nathanpetersen.com/2019/02/17/optimizing-for-workloads-linux-spinlocks-vs-mutexes/)
 
+[What Does It Take to Make a Kernel? | Linux Journal](https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0)
+
+[Is It Time to Rewrite the Operating System in Rust? - YouTube](https://www.youtube.com/watch?v=HgtRAbE1nBM) history of OS
+
 ## Linux Kernel
 
 [Linux kernel - Wikiwand](https://www.wikiwand.com/en/Linux_kernel)
+[The Linux Documentation Project: Guides](http://www.tldp.org/guides.html)
+[The Linux Kernel](http://www.tldp.org/LDP/tlk/tlk.html)
+[The Linux Programmer's Guide](http://www.tldp.org/LDP/lpg/)
 [Anatomy of the Linux kernel](https://www.ibm.com/developerworks/library/l-linux-kernel/)
 [25 Years Later: Interview with Linus Torvalds | Linux Journal](https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds)
 [10 moments that shaped Linux history | Opensource.com](https://opensource.com/article/19/4/top-moments-linux-history?utm_campaign=intrel)
+[FOSDEM 2019 - 2019 - Fifty years of Unix and Linux advances](https://fosdem.org/2019/schedule/event/keynote_fifty_years_unix/)
 
 [Welcome to LWN.net [LWN.net]](https://lwn.net/)
 [Linux Kernel Newbies - Linux Kernel Newbies](https://kernelnewbies.org/)
 [Exploring the Linux kernel: The secrets of Kconfig/kbuild | Opensource.com](https://opensource.com/article/18/10/kbuild-and-kconfig)
+[people.kernel.org Reader](https://people.kernel.org/read)
 
 [What are good ways to understand the Linux kernel? - Quora](https://www.quora.com/What-are-good-ways-to-understand-the-Linux-kernel)
 [What is a Linux 'oops'? | Network World](https://www.networkworld.com/article/3254778/linux/what-is-a-linux-oops.html)
 [Difference Between the macOS and Linux Kernels [Explained] | It's FOSS](https://itsfoss.com/mac-linux-difference/)
+
+[Yocto Project | Open Source embedded Linux build system, package metadata and SDK generator](https://www.yoctoproject.org/)
+[How to compile a Linux kernel in the 21st century | Opensource.com](https://opensource.com/article/19/8/linux-kernel-21st-century)
+[DIY: Build a Custom Minimal Linux Distribution from Source | Linux Journal](https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source)
+[Build a Custom Minimal Linux Distribution from Source, Part II | Linux Journal](https://www.linuxjournal.com/content/build-custom-minimal-linux-distribution-source-part-ii)
+
+[What every programmer should know about memory, Part 1 [LWN.net]](http://lwn.net/Articles/250967/)
+[Memory part 2: CPU caches [LWN.net]](http://lwn.net/Articles/252125/)
+[Memory part 3: Virtual Memory [LWN.net]](http://lwn.net/Articles/253361/)
+[What Is Swappiness on Linux? (and How to Change It)](https://www.howtogeek.com/449691/what-is-swapiness-on-linux-and-how-to-change-it/amp/)
+
+[Zero Copy I: User-Mode Perspective | Linux Journal](http://www.linuxjournal.com/article/6345)
+
+[Beej's Guide to Unix IPC](http://beej.us/guide/bgipc/output/html/multipage/index.html)
+[How is a message queue implemented in the Linux kernel? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/6930/how-is-a-message-queue-implemented-in-the-linux-kernel)
 
 ### Books
 
@@ -69,6 +93,15 @@ As used by mkinitramfs:
 [Writing a Linux Loadable Kernel Module (LKM) - Interfacing to GPIOs | derekmolloy.ie](http://derekmolloy.ie/kernel-gpio-programming-buttons-and-leds/)
 [exploringBB/extras/kernel at master · derekmolloy/exploringBB](https://github.com/derekmolloy/exploringBB/tree/master/extras/kernel/)
 
+### Kernel modules
+
+`/etc/modules-load.d/`
+`/usr/lib/modules-load.d/`
+
+```sh
+systemctl status systemd-modules-load.service
+```
+
 ### DKMS
 
 [Dynamic Kernel Module Support - Wikiwand](https://www.wikiwand.com/en/Dynamic_Kernel_Module_Support)
@@ -91,6 +124,16 @@ Recompiles drivers against kernel header on host on every driver update OR kerne
 [A Tutorial on the Device Tree (Zynq) -- Part III | xillybus.com](http://xillybus.com/tutorials/device-tree-zynq-3)
 [A Tutorial on the Device Tree (Zynq) -- Part IV | xillybus.com](http://xillybus.com/tutorials/device-tree-zynq-4)
 [A Tutorial on the Device Tree (Zynq) -- Part V | xillybus.com](http://xillybus.com/tutorials/device-tree-zynq-5)
+
+### USB subsystem
+
+[Ubuntu Buzz !: Reset USB 2.0 (ehci) & USB 3.0 (xhci) Without Reboot in Linux Kernel](http://www.ubuntubuzz.com/2016/06/reset-usb-20-ehci-usb-30-xhci-without-reboot-linux.html?m=1)
+[Linux USB FAQ](http://www.linux-usb.org/FAQ.html)
+
+### sysctl
+
+[sysctl - read/write system parameters - System Calls](https://www.mankier.com/2/sysctl)
+[Sysctl Explorer](https://sysctl-explorer.net/)
 
 ### GPIO/sysfs
 
@@ -198,12 +241,17 @@ sudo lsof +f -- /dev/mapper/cachedev1
 ### procfs
 
 [/proc Talk » Linux Magazine](http://www.linuxpromagazine.com/Issues/2018/217/Exploring-proc/)
+[Troubleshoot using the proc filesystem on Linux | Opensource.com](https://opensource.com/article/20/4/proc-filesystem)
 
 ### RPi
 
 [Department of Computer Science and Technology – Raspberry Pi: Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
 [Tutorial | Building an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
 [dwelch67/raspberrypi: Raspberry Pi ARM based bare metal examples](https://github.com/dwelch67/raspberrypi)
+
+### Embedded System
+
+[Mastering Embedded Linux • &> /dev/null](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
 
 ## Unikernel
 

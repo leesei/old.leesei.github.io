@@ -43,6 +43,8 @@ gradle properties
 
 [CircleCI cache key over many files – Chris Banes – Medium](https://medium.com/@chrisbanes/circleci-cache-key-over-many-files-c9e07f4d471a)
 
+[The one Gradle trick that supersedes all the others](https://blog.kotlin-academy.com/use-the-gradle-build-scan-875b384554d1) generate scans for debugging and support
+
 ## DSL
 
 [Gradle DSL Version](https://docs.gradle.org/current/dsl/index.html)
@@ -56,9 +58,9 @@ gradle properties
 [Kotlin Meets Gradle](https://blog.gradle.org/kotlin-meets-gradle)
 [gradle/kotlin-dsl: Kotlin language support for Gradle build scripts](https://github.com/gradle/kotlin-dsl)
 
-[The Power of Gradle Kotlin DSL - Kotlin Expertise Blog](https://kotlinexpertise.com/gradlekotlindsl/)
 [Migrating build logic from Groovy to Kotlin](https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/)
 [Migrating Android build scripts from Groovy to Kotlin DSL](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
+[The New Way of Writing Build Gradle with Kotlin DSL](https://proandroiddev.com/the-new-way-of-writing-build-gradle-with-kotlin-dsl-script-8523710c9670)
 
 ### Anti-pattern
 

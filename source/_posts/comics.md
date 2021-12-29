@@ -23,14 +23,27 @@ More focus on the mental beings of the heroes and villains.
 [siufublog](https://siufublog.wordpress.com/)
 [The History Of The Marvel Vs DC Rivalry - YouTube](https://www.youtube.com/watch?v=sXmyW7rCVR0)
 
+[Variant Comics - YouTube](https://www.youtube.com/channel/UC4kjDjhexSVuC8JWk4ZanFw)
+[NerdSync - YouTube](https://www.youtube.com/channel/UCURz5rKDgt7YibUSageNhEw)
+[Comicstorian - YouTube](https://www.youtube.com/channel/UCmA-0j6DRVQWo4skl8Otkiw)
+
+[History Of... - YouTube](https://www.youtube.com/playlist?list=PL92anhRfLV9IlgS10t4BhlBR6e2s7ZoWL) comics characters
+[One Shots! - YouTube](https://www.youtube.com/playlist?list=PL92anhRfLV9Lyqxv3wCONNfSB25D3loVN)
+
+[Comics Explained - YouTube](https://www.youtube.com/c/comicsexplained)
+[Marvel Major Event Chronology | Comics Explained - YouTube](https://www.youtube.com/playlist?list=PL9sO35KZL50yZh5dXW-7l93VZp7Ct4vYA)
+[New To The X-Men? Start Here! - YouTube](https://www.youtube.com/playlist?list=PL9sO35KZL50y6mF4N-NCUXeAtj9P78_Cp)
+[Too Powerful For Marvel Movies | Comics Explained - YouTube](https://www.youtube.com/playlist?list=PL9sO35KZL50w5_ObILpwuVvbsZCPFAIak)
+
 # Marvel
 
-[Multiverse (Marvel Comics) - Wikiwand](https://www.wikiwand.com/en/Multiverse_%28Marvel_Comics%29)
+[Multiverse (Marvel Comics) - Wikiwand](<https://www.wikiwand.com/en/Multiverse_(Marvel_Comics)>)
 
 [Marvel Universe Wiki](http://marvel.com/universe/Main_Page) (Official)
-[Marvel Comics Database](http://marvel.wikia.com/Main_Page)
+[Marvel Database | FANDOM powered by Wikia](https://marvel.fandom.com/wiki/Marvel_Database)
+[X-Men Wiki | FANDOM powered by Wikia](https://x-men.fandom.com/wiki/X-Men_Wiki)
 [MarvelDirectory.com](http://www.marveldirectory.com/index.htm)
-[Marvel Animated Universe Wiki](http://marvelanimated.wikia.com/wiki/Marvel_Animated_Universe_Wiki)
+[Marvel Animated Universe Wiki | FANDOM powered by Wikia](https://marvelanimated.fandom.com/wiki/Marvel_Animated_Universe_Wiki)
 
 [Marvel Developer Portal](http://developer.marvel.com/)
 [Marvel Developer Portal - Interactive Documentation](https://developer.marvel.com/docs)
@@ -41,10 +54,13 @@ More focus on the mental beings of the heroes and villains.
 [Avengers: The Origin of Marvel's Infinity Stones Explained](https://screenrant.com/marvel-infinity-stones-origin-comics-explained/)
 
 [Captain Marvel: The Kree-Skrull War Explained | ScreenRant](https://screenrant.com/captain-marvel-kree-skull-war-comics/)
-[Captain Marvel: Her Powers & Why the Avengers Need Her | FANDOM](http://fandom.wikia.com/articles/captain-marvel-her-powers-why-the-avengers-need-her)
+[Captain Marvel: What Are Her Powers and Why Do the Avengers Need Her? | FANDOM](https://www.fandom.com/articles/captain-marvel-powers)
 
 [Jack Kirby's Marvels](https://www.imaginaryworldspodcast.org/jack-kirby-s-marvels.html)
 
+[Marvel’s Infinity Gauntlet: Full Story - YouTube](https://www.youtube.com/watch?v=vxw00NkUugo)
+
+[Comics Explained - YouTube](https://www.youtube.com/channel/UCKxQmKgrkUv4S7P5w0pLayw)
 [美漫懶人包(US comics easy pack) - YouTube](https://www.youtube.com/playlist?list=PLSYYuRn7FAnX5FQjaTH51siG6bPP7JslH)
 [努力的 Lorre 油管频道 - YouTube](https://www.youtube.com/channel/UCKMZ34aa78_8tsPpIeuIMmA)
 
@@ -55,7 +71,7 @@ More focus on the mental beings of the heroes and villains.
 
 DC adopts the parallel universe concept, first in Flash, in order to crossover heroes of different origins.
 
-[DC Comics Database](http://dc.wikia.com/wiki/Main_Page)
+[DC Database | FANDOM powered by Wikia](https://dc.fandom.com/wiki/DC_Comics_Database)
 
 # Captain Marvel vs Captain Marvel
 
@@ -71,6 +87,7 @@ DC adopts the parallel universe concept, first in Flash, in order to crossover h
 
 [Shazam's Origin Story & Powers Explained | ScreenRant](https://screenrant.com/shazam-movie-origin-powers-wizard-explained/)
 [Shazam Family Explained: Who Plays The Adults & What Are Their Powers?](https://screenrant.com/shazam-family-dc-movie-team-explained/)
+[《正義聯盟》4 小時導剪版始末超萬字解析！這完全是不一樣的兩部電影！ #正义联盟 #正義聯盟 - YouTube](https://www.youtube.com/watch?v=qvI_ts7rF4U)
 
 ## MCU
 
@@ -81,14 +98,15 @@ DC adopts the parallel universe concept, first in Flash, in order to crossover h
 [漫威终局之战系列 - YouTube](https://www.youtube.com/playlist?list=PLzQ6y52QTNAyLpK8GnnwVa1oLOrqggde3)
 
 [十年，无悔入漫威 - YouTube](https://www.youtube.com/watch?v=PzG0kAY4N_M)
-[《复联4》前必看！一口气看完21部漫威电影，完整的时间线剧情讲解！ - YouTube](https://www.youtube.com/watch?v=bahjLnG0OwE)
+[《复联 4》前必看！一口气看完 21 部漫威电影，完整的时间线剧情讲解！ - YouTube](https://www.youtube.com/watch?v=bahjLnG0OwE)
+[Timelines in Endgame, Explained - Oren Bell](https://orenbell.com/?p=272#endgame-container)
 
 [The Secret History Of Marvel's Movies Before Iron Man: Part 1](http://io9.com/the-secret-history-of-marvels-pre-cinematic-universe-mo-1690834919)
 [The Complete History Of Marvel Superhero Movies: 1990-2008](http://io9.com/the-complete-history-of-marvel-superhero-movies-1990-2-1691891718)
 
 [A Chronological History of The Marvel Cinematic Universe](https://screenrant.com/marvel-cinematic-universe-timeline/)
 [Marvel Cinematic Universe: Complete Timeline & Viewing Order](https://screenrant.com/marvel-movies-tv-viewing-guide-chronology-phase-1-3/)
-[Marvel Movie Timeline: A Complete History Of The MCU | ScreenRant](https://screenrant.com/marvel-mcu-complete-timeline/)
+[Marvel Movie Timeline: A Complete History Of The MCU](https://screenrant.com/marvel-mcu-complete-timeline/)
 [7 Story Arcs Marvel Should Use for MCU | HYPEBEAST](https://hypebeast.com/2018/6/marvel-cinematic-universe-phase-4-crossover-storylines-plot)
 [The Marvel Cinematic Universe Timeline in Chronological Order - YouTube](https://www.youtube.com/watch?v=peOWYBGuUFs)
 [Timeline of Marvel Cinematic Universe Events (Phase 1-Phase 3) - YouTube](https://www.youtube.com/watch?v=40Ksv25H4PM&app=desktop)
@@ -99,6 +117,12 @@ DC adopts the parallel universe concept, first in Flash, in order to crossover h
 [6 Superheroes That Marvel Does Not Own the Rights to Anymore](http://www.cheatsheet.com/entertainment/how-6-marvel-superheroes-came-to-be-owned-by-other-studios.html/)
 [Marvel mistakes - The biggest MCU continuity errors and contradictions](http://www.digitalspy.com/movies/the-avengers/feature/a859332/marvel-cinematic-universe-errors-mistakes-continuity-mcu/)
 [Marvel Cinematic Universe plot holes](http://www.digitalspy.com/movies/feature/a838573/marvel-mcu-plot-holes/)
+
+[漫威终局之战系列 - YouTube](https://www.youtube.com/playlist?list=PLzQ6y52QTNAyLpK8GnnwVa1oLOrqggde3)
+[汪達與幻視 - YouTube](https://www.youtube.com/c/%E5%A4%A7%E8%81%AA%E7%9C%8B%E7%94%B5%E5%BD%B1/search?query=%E6%B1%AA%E9%81%94%E8%88%87%E5%B9%BB%E8%A6%96) 大聪看电影
+[汪達與幻視 - YouTube](https://www.youtube.com/c/TEEPR%E8%B6%A3%E5%91%B3%E5%BD%B1%E7%89%87/search?query=%E6%B1%AA%E9%81%94%E8%88%87%E5%B9%BB%E8%A6%96) TEEPR 叭啦叭啦研究室
+[汪達與幻視 - YouTube](https://www.youtube.com/playlist?list=PLNsYSXaDLA88-3c-3laTSJlyPcue3ukdH) 超粒方
+[WandaVision - YouTube](https://www.youtube.com/playlist?list=PLDVUo0d8uHheIisoX18XjcIlHqY52yMo4)
 
 # Critics
 

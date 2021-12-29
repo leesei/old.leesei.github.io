@@ -32,9 +32,16 @@ It is based on [Mer](http://merproject.org/), a fork of the abandoned [MeeGo](ht
 ## Google Fuchsia
 
 [Google Fuchsia - Wikiwand](https://www.wikiwand.com/en/Google_Fuchsia)
-[Fuchsia](https://github.com/fuchsia-mirror)
-[fuchsia-mirror/docs](https://github.com/fuchsia-mirror/docs)
-[the-book - docs - Git at Google](https://fuchsia.googlesource.com/docs/+/master/the-book/)
+[fuchsia Git repositories - Git at Google](https://fuchsia.googlesource.com/?format=HTML)
+[docs - fuchsia - Git at Google](https://fuchsia.googlesource.com/fuchsia/+/master/docs)
+[the-book - docs - Git at Google](https://fuchsia.googlesource.com/docs/+/26d5429c0d0b3f6b642911cc61b524adfcb82a39/the-book/)
+
+Topaz (apps)
+Peridot (infrastructure)
+Garnet (system service)
+Zircon (microkernel)
+
+[Google Fuchsia OS PROGRESS!!! - YouTube](https://www.youtube.com/watch?v=83SDXL65W9k) 2018-12
 
 [Fuchsia Friday | 9to5Google](https://9to5google.com/guides/fuchsia-friday/)
 [Fuchsia Friday: ‘Machina’ brings support for running Linux on top of Fuchsia | 9to5Google](https://9to5google.com/2018/06/15/fuchsia-friday-machina-brings-support-for-running-linux-on-top-of-fuchsia/)

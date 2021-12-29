@@ -10,9 +10,14 @@ date: 2018-1-21 16:04:21
 
 [Caselaw Access Project](https://case.law/)
 
+[Law of the Game - Video Game and Gambling Legal Discussion](http://lawofthegame.com/)
+
 [» 英国法下的“一事不再理”](http://huizhonglaw.com/cn/%e6%b1%87%e4%bb%b2%e5%be%8b%e5%b8%88-%e4%b8%93%e4%b8%9a%e8%af%84%e8%ae%ba/%e8%8b%b1%e5%9b%bd%e6%b3%95%e4%b8%8b%e7%9a%84%e4%b8%80%e4%ba%8b%e4%b8%8d%e5%86%8d%e7%90%86/)
 
 [刑事程序中的「自辯」 | 法夢 | 香港獨立媒體網](https://www.inmediahk.net/node/1061022)
+
+[The rule of law: Hong Kong vs China](https://multimedia.scmp.com/infographics/news/world/article/3023351/rule-of-law/)
+[China Game Law Primer – Niko](http://nikopartners.com/2017-china-game-law-primer/)
 
 ## 洞穴奇案
 
@@ -42,3 +47,11 @@ Hong Kong Laws are generally composed of the Basic Law, Common Law, Rules of Equ
 
 [After Roe — Mary Ziegler | Harvard University Press](http://www.hup.harvard.edu/catalog.php?isbn=9780674736771)
 [Here’s Why The Anti-Abortion Movement Is Escalating | FiveThirtyEight](https://fivethirtyeight.com/features/we-categorized-hundreds-of-abortion-restrictions-heres-why-the-anti-abortion-movement-is-escalating/amp/)
+
+## GDPR
+
+[Cookies, the GDPR, and the ePrivacy Directive - GDPR.eu](https://gdpr.eu/cookies/)
+[Cookies and the GDPR: What’s Really Required?](https://www.iubenda.com/en/help/5525-cookies-gdpr-requirements)
+
+[How to achieve cookie compliance | GDPR Checklists |](https://www.cookiebot.com/en/cookie-compliance/)
+[GDPR and cookie consent | Compliant cookie use](https://www.cookiebot.com/en/gdpr-cookies/)

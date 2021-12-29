@@ -19,8 +19,11 @@ Firefly are Rockchip dev boards
 [Firefly-RK3288](http://www.t-firefly.com/product/rk3288.html)
 [Firefly-RK3288 Wiki](http://en.t-firefly.com/doc/product/index/id/4.html)
 
+電源 5V 3A 内正外负
+
 [Firefly-RK3288 中文](http://www.t-firefly.com/product/rk3288.html)
 [Firefly Wiki 中文](http://wiki.t-firefly.com/zh_CN/Firefly-RK3288/start_guide.html)
+[从零开始学习 ARM 嵌入式视频教程——Firefly-RK3288 开发板入门教程（更新到第 12 期） - Firefly-RK3288 - Firefly 开源社区从零开始学习 ARM 嵌入式视频教程——Firefly-RK3288 开发板入门教程（更新到第 12 期）](http://dev.t-firefly.com/thread-236-1-2.html)
 
 [Firefly-RK3288 - Firefly Open Source Community](http://bbs.t-firefly.com/forum-126-1.html)
 [Firefly-RK3288 - Firefly 开源社区](http://dev.t-firefly.com/forum-284-1.html)
@@ -68,14 +71,21 @@ sudo apt install firefox=45.0.2+build1-0ubuntu1  // 安装旧版本
 ## Flashing
 
 [Firefly | Flashing Image](http://en.t-firefly.com/doc/product/info/id/231.html)
+[Firefly | MaskRom mode](http://en.t-firefly.com/doc/product/info/401.html)
+
+[Flashing Notes — Firefly Wiki](http://wiki.t-firefly.com/en/Firefly-RK3399/flashing-notes.html)
 [升级固件 — Firefly Wiki](http://wiki.t-firefly.com/zh_CN/Firefly-RK3288/download_firmware.html)
 [Linux 升级固件 — Firefly Wiki](http://wiki.t-firefly.com/zh_CN/Firefly-RK3288/upgrade_firmware-linux.html)
+
+> use `upgrade_tool` v1.24 for pre-GPT firmware
+> [烧写须知(重要) — Firefly Wiki](http://wiki.t-firefly.com/zh_CN/AIO-3399J/upgrade_table.html)
 
 `rkflash.sh`
 
 ```sh
 # single image
-sudo upgrade_tool uf <update.img>
+sudo ./upgrade_tool ef firmware
+sudo ./upgrade_tool uf <update.img>
 
 # separate partitions
 sudo upgrade_tool ul rk3399_loader_v1.09.112.bin
@@ -103,11 +113,6 @@ sudo upgrade_tool rd
 
 [How to Update Any Rockchip Android Box Full Tutorial 2017 Using the NT N8 - YouTube](https://www.youtube.com/watch?v=6A_-ataMLus)
 [Video: How to easily flash firmware on Rikomagic V5 RK3288 Android TV Stick ~ China Gadgets Reviews](http://chinagadgetsreviews.blogspot.com/2015/01/video-how-to-easily-flash-firmware-on.html)
-
-```sh
-# 解决存储空间不足问题
-sudo /sbin/resize2fs /dev/mmcblk2p3
-```
 
 ## Compiling Kernel
 

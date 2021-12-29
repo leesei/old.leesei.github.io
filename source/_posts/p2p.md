@@ -25,3 +25,14 @@ Dat is the package manager for data. Share files with version control, back up d
 
 ## Bit-torrent
 
+[qBittorrent Official Website](https://www.qbittorrent.org/)
+
+[MagnetW-最強 BT 種子搜索神器！ – 零度解說](https://www.freedidi.com/1825.html)
+[2021 年可用、好用、值得推荐的磁力搜索引擎【更新版】-出家如初,成佛有余](https://www.yeeach.com/post/1367)
+
+## LBRY
+
+[odysee.com](https://odysee.com/) better features
+[lbry.tv](https://lbry.tv/)
+
+[我要「慢慢」離開 YouTube 了，你也應該跟我一起走～（認真，不是騙點閱！） - YouTube](https://www.youtube.com/watch?v=62zoHP6p1Lc&t=0s)

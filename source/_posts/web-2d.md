@@ -27,9 +27,8 @@ Renderer agnostic library enabling the same API to draw in multiple contexts: sv
 
 ## Canvas
 
-> see `canvas.md`
+> see `web-canvas.md`
 
 ## SVG
 
 > see `svg.md`
-

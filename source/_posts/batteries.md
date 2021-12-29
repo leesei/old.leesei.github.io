@@ -8,20 +8,27 @@ toc: true
 date: 2016-07-31 00:21:36
 ---
 
-[Battery (electricity) - Wikiwand](https://www.wikiwand.com/en/Battery_%28electricity%29)
+[Battery (electricity) - Wikiwand](<https://www.wikiwand.com/en/Battery_(electricity)>)
 [Leclanché cell - Wikiwand](https://www.wikiwand.com/en/Leclanché_cell)
 
 [Overview | All About Batteries | Adafruit Learning System](https://learn.adafruit.com/all-about-batteries?view=all)
+[Battery Technology » Electronics Notes](https://www.electronics-notes.com/articles/electronic_components/battery-technology/primer-basics.php)
 
 [Battery nomenclature - Wikiwand](https://www.wikiwand.com/en/Battery_nomenclature)
 [List of battery types - Wikiwand](https://www.wikiwand.com/en/List_of_battery_types)
 [List of battery sizes - Wikiwand](https://www.wikiwand.com/en/List_of_battery_sizes)
 [電池上面的編號到底要怎麼看? 代表著什麼意思? | 一探啾竟 第 60 集 | 啾啾鞋 - YouTube](https://www.youtube.com/watch?v=dTaDqdR7xk4)
 
+[How Batteries Work | HowStuffWorks](https://electronics.howstuffworks.com/everyday-tech/battery.htm/printable)
+[How Lithium-ion Batteries Work | HowStuffWorks](https://electronics.howstuffworks.com/everyday-tech/lithium-ion-battery.htm/printable)
+
 [Battery Information Table of Contents, Basic to Advanced](http://batteryuniversity.com/learn/)
 [Battery Guide -- Battery types, pros & cons, comparisons, tips & tricks](http://michaelbluejay.com/batteries/)
 
-## Gallium Nitride (GaN)
+[6 truths about your phone's battery life: All about overcharging, overheating, fast charging - CNET](https://www.cnet.com/how-to/6-truths-about-your-phones-battery-life-all-about-overcharging-overheating-fast-charging/)
+[Why does my battery suck? - CNET](https://www.cnet.com/news/why-batteries-arent-getting-better/#ftag=CAD-00-10aag7d)
+
+## Gallium Nitride (GaN) chargers
 
 GaN charger allows chargers to be miniaturized once more
 
@@ -31,6 +38,10 @@ GaN charger allows chargers to be miniaturized once more
 [USB-C Chargers Just Got Amazing: Meet GaNFast Charging](https://www.makeuseof.com/tag/usb-c-chargers-ganfast-charging/)
 [Scientists Invent a Laser That Fires Electrical Charge, Not Light](https://gizmodo.com/scientists-invent-a-laser-that-fires-electrical-charge-1586783382#_ga=2.94965082.712285101.1545684108-1186727409.1544905071)
 [White Paper - Gallium nitride technology in adapter and charger applications](https://www.infineon.com/dgdl/Infineon-4_WhitePaper_Gallium_nitride_technology_in_adapter_and_charger_applications-WP-v01_00-EN.pdf?fileId=5546d46265f064ff0166678ac8aa3af9)
+[【5G 半導體超新星】氮化鎵 GaN 是什麼？未來通訊、充電器核心關鍵](https://blog.witsper.com/tips/gan/)
+[2020 年 4 款氮化鎵 GaN 快充充電器 嚴格實測推薦！iPhone 12 可能不附充電器後的最佳解? 倍思 vs 小米 vs Anker vs AUKEY 丨 TechTeller 科技說 - YouTube](https://www.youtube.com/watch?v=u4Yvy5qwdYc)
+[Will gallium nitride electronics change the world? | Upscaled - YouTube](https://www.youtube.com/watch?v=sfTXZP2DB20)
+[Are BULKY Chargers Going Away? - YouTube](https://www.youtube.com/watch?v=jMRNYwhDkOU)
 
 [New and Upcoming GaN (Gallium Nitride) USB Chargers | ChargerLAB](http://www.chargerlab.com/archives/1882.html)
 [Anker PowerPort Atom PD 1 and RavPower PD Pioneer 45W reviews](https://www.cultofmac.com/612040/gallium-nitride-review-charger-anker-ravpower/)
@@ -42,13 +53,17 @@ GaN charger allows chargers to be miniaturized once more
 [Alkaline battery - Wikiwand](https://www.wikiwand.com/en/Alkaline_battery)
 [Zinc–carbon battery - Wikiwand](https://www.wikiwand.com/en/Zinc–carbon_battery) "Heavy Duty", "General Purpose"
 
+[How Batteries Work - Battery electricity working principle - YouTube](https://www.youtube.com/watch?v=PXNKkcB0pI4)
 [Choices of Primary Batteries - Battery University](http://batteryuniversity.com/learn/article/choices_of_primary_batteries)
 [Disposable Batteries compared -- Alkaline, Lithium, Carbon Zinc, Oxyride](http://michaelbluejay.com/batteries/disposable.html)
+Alkalines leak more frequently.
 
 [5 秒判断电池电量的极简技巧，你再也不用找遥控器来试了 - 知乎](https://zhuanlan.zhihu.com/p/51452847) 谁弹得高，谁的电量就少
 [alkaline_appman.pdf](http://data.energizer.com/pdfs/alkaline_appman.pdf)
 
-Alkalines leak more frequently.
+1.35+ Good, 1.2V-1.3V Ok (but almost out), 1V-1.2V Discard.
+
+9V battery typical capacity 400/565 mAh
 
 [实测金霸王，松下，双鹿等电池的放电性能，没想到这个品牌落败了！ - 知乎](https://zhuanlan.zhihu.com/p/48156544) TL;DR: 双鹿绿能量
 [买了半辈子电池，才发现这样买得值：市售 5 号电池大横评 - 知乎](https://zhuanlan.zhihu.com/p/52565927) 白象, 長虹, 松下
@@ -56,11 +71,15 @@ Alkalines leak more frequently.
 
 [揭开“双鹿电池”辉煌的秘密*宁波频道*凤凰网](http://nb.ifeng.com/nbmq/detail_2012_01/04/137912_0.shtml)
 
-9V battery typical capacity 400/565 mAh
+双鹿碱性绿能量 ¥30 24 節
+GP 超霸 9v ¥15 5 粒
+ZMI 彩虹电池 ¥23.9 24 節
 
 ---
 
 # Rechargeable
+
+[5 New Battery Technologies That Could CHANGE EVERYTHING - YouTube](https://www.youtube.com/watch?v=DOBBwx3Cbbk)
 
 [HP Notebook PCs - Understanding Lithium-Ion and Smart Battery Technology](http://h20564.www2.hp.com/hpsc/doc/public/display?docId=c00596784)
 [Smartphone Futurology: The science behind your next phone's battery | Android Central](https://www.androidcentral.com/smartphone-futurology-1-battery)
@@ -75,9 +94,22 @@ Alkalines leak more frequently.
 
 Charging at high voltage (QC, PD) means the device have to do voltage conversion, thus generating heat. Most mobile device will remain at normal mode (5V) when being used while charging.
 
+## Lead acid
+
+[How Do Lead Acid Batteries Work: Lead Acid Technology » Electronics Notes](https://www.electronics-notes.com/articles/electronic_components/battery-technology/how-do-lead-acid-batteries-work-technology.php)
+
+[How A Car Battery Works - basic working principle - YouTube](https://www.youtube.com/watch?v=VnPRX5zQWLw)
+[TC Projects: Lead-Acid Battery Backup - YouTube](https://www.youtube.com/watch?v=1q4dUt1yK0g)
+
+Deep Cycle
+SLI (Starting Lighting Ignition)
+
 ## Lithium rechargeable
 
-Li-Ion cells usually produce 3.7V, 4.2V, so in series can produce 7.4V/11.2V, 8.4V/12.6V.
+[Li-ion Lithium Ion Battery » Electronics Notes](https://www.electronics-notes.com/articles/electronic_components/battery-technology/li-ion-lithium-ion-technology.php)
+
+Li-Ion cells usually produce 3.7V or 4.2V, so in series can produce 7.4V/11.2V or 8.4V/12.6V.
+Cells below 2.8V is considered dead.
 
 18650: 18mm x 65mm, circular
 10440: AAA 900-1200mAH
@@ -89,17 +121,30 @@ Produces 3.2V 磷酸铁锂电池, stub can be added to be use with one li-ion to
 
 [9v 锂电池 usb 充电\_淘宝搜索](https://s.taobao.com/search?q=9v锂电池usb充电&s_from=newHeader&ssid=s5-e&search_type=item&sourceId=tb.item)
 
+[ZMI 紫米锂可充电池套装 5 号 4 节可充电锂电池 1.5V 恒压快充 AA 五号充-淘宝网](https://item.taobao.com/item.htm?id=636773435261) 2900mWh ¥89 2020-12
+[德力普充电电池锂电 5 号 7 号 1.5v 可充电套装恒压快充 3400mwh-tmall.com 天猫](https://detail.tmall.com/item.htm?id=595237586684) 3200mWh ¥86.3 2020-07
+
 [Arduino 的電池 ( STEM project ) | Mister Ngan](http://www.misterngan.com/2280/arduino-external-battery-case/)
 
 [Introduction to Battery Chargers (Part 1 of 2)](https://predictabledesigns.com/battery-chargers-introduction-part1/)
+[Tesla's Quest for Better Batteries - YouTube](https://www.youtube.com/watch?v=DE_PZQ13YTY)
 
-## Cables
+[【享拆】手机充电器更快充电，更小体积的演变史，背后工艺揭秘 -XYZONE - YouTube](https://www.youtube.com/watch?v=CUdFD3D9S0g)
 
-[Fastest charging cables - which one is best for you?](https://www.androidauthority.com/fastest-charging-cables-793649/)
-[Google engineer challenges USB-C cables for sale at Amazon - ExtremeTech](https://www.extremetech.com/computing/217556-google-engineer-challenges-usb-c-cables-for-sale-at-amazon)
-[Total Nightmare: USB-C and Thunderbolt 3 - Stephen Foskett, Pack Rat](http://blog.fosketts.net/2016/10/29/total-nightmare-usb-c-thunderbolt-3/)
+## Sodium rechargeable
 
-[Dangers of Counterfeit USB-C and Type-C Cables](http://www.belkin.com/us/Resource-Center/USB-C/USB-C-counterfeits/)
+[电动车缺陷已被解决？划时代钠电池即将发布，比锂更轻更便宜！【我啥也博士】 - YouTube](https://www.youtube.com/watch?v=kRDHQkUqJh8)
+
+## NiCd
+
+> not popular anymore
+
+[NiCd Charging: Nickel Cadmium Recharging » Electronics Notes](https://www.electronics-notes.com/articles/electronic_components/battery-technology/nicad-nicd-nickel-cadmium-recharging.php)
+
+## NiMH
+
+[NiMH Nickel Metal Hydride Battery Technology » Electronics Notes](https://www.electronics-notes.com/articles/electronic_components/battery-technology/nimh-nickel-metal-hydride-technology.php)
+[Are AA NiMH Batteries obsolete? Here is everything you need to know about them! - YouTube](https://www.youtube.com/watch?v=5B1sX7p5xXI)
 
 ## Battery Report
 
@@ -116,6 +161,7 @@ upower -i /org/freedesktop/UPower/devices/battery_BAT0
 
 ### Windows
 
+[6 Ways to Improve Battery Life on Windows Laptops](https://www.howtogeek.com/444819/6-ways-to-improve-battery-life-on-windows-laptops/amp/)
 [How to generate a Battery Report in Windows 10 | Windows Central](http://www.windowscentral.com/generate-battery-report-windows-10)
 
 ```sh
@@ -125,7 +171,7 @@ powercfg /batteryreport /output "C:\battery_report.html"
 
 ---
 
-# Protocols
+# Charging Protocols
 
 USB 1.0, 2.0 cable has 4 pins: +5V, D+, D-, GND
 Fast charging protocols used the data pins (D+, D-) to negotiate charging protocol and then using D+ D- for higher voltage/current.
@@ -137,6 +183,8 @@ Samsung: 2.4V at D+ D-
 QC2 and QC3 uses the data lines (D+/D-) for the INOV (Intelligent Negotiation for Optimum Voltage) that changes the voltage on VBUS, which does not conform to the USB Type C spec, so devices supporting QC2/QC3 are not compatible with USB PD.
 
 [Quick, Rapid, Fast, and Power Delivery charging explained: What you need to know about charging your smartphone (2019 edition)](https://www.androidpolice.com/2019/04/12/quick-rapid-turbo-and-fast-charging-explained-what-you-need-to-know-about-charging-your-smartphone/) !important, history of fast charging technologies
+
+[How fast charging really works — everything you need to know](https://www.androidauthority.com/fast-charging-explained-889780/)
 
 ## Qualcomm Quick Charge
 
@@ -150,6 +198,10 @@ QC2: 5V/2A, 9V/2A, 12V/1.67A (18W Max)
 QC3: 3.6V-20V, 200mV increments (24W Max?)
 QC4 is USB PD compliant (5V/3A, 9V/3A)
 [Google engineer warns USB-C, Qualcomm Quick Charge are incompatible - ExtremeTech](https://www.extremetech.com/mobile/227188-google-engineer-warns-usb-type-c-qualcomm-quick-charge-are-fundamentally-incompatible)
+
+### QC5
+
+[Qualcomm Quick Charge 5 Can Fully Charge Your Phone in 15 Minutes](https://wccftech.com/qualcomm-quick-charge-5-reaches-over-100w-can-charge-your-phone-from-0-to-50-in-5-minutes/)
 
 ### QC4
 
@@ -169,16 +221,23 @@ Quick Charge 4+ supports USB Power Delivery (USB PD).
 
 ## USB Power Delivery
 
-PD3.0: 3.6V-6V/3A, 6.2V-9V/2.7A, 9.2V-12V/2.3A
+|           | 電壓@電流 輸出              | 功率 |
+| --------- | --------------------------- | ---- |
+| Profile 1 | 5V@2A                       | 10W  |
+| Profile 2 | 5V@2A<br/>12V@1.5A          | 18W  |
+| Profile 3 | 5V@2A<br/>12V@3A            | 36W  |
+| Profile 4 | 5V@2A<br/>12V@3A<br/>20V@3A | 60W  |
+| Profile 5 | 5V@2A<br/>12V@3A<br/>20V@5A | 100W |
 
 USB Type C spec mandates charging current of 3A. Only Type C-Type C cable support PD. Type A-Type C cable current only goes up to 2A.
 USB PD compatible device has a maximum charging power of 100W (20V, 5A).
 
-[USB (Physical) - Wikiwand](https://www.wikiwand.com/en/USB_(Physical%29#/POWER)
+[USB (Physical) - Wikiwand](<https://www.wikiwand.com/en/USB_(Physical)#/POWER>)
 [USB.org - USB Power Delivery](http://www.usb.org/developers/powerdelivery/)
 [USB Type-C and Power Delivery | Getting Started | USB | TI.com](http://www.ti.com/interface/usb/type-c-and-power-delivery/getting-started.html)
 [A primer on USB Type-C and power delivery applications and requirements](http://www.ti.com/lit/wp/slyy109/slyy109.pdf)
 [Getting Nerdy: USB Power Delivery, Type-C Cables, & Third Party Adapters - Playing With Power: A Look At Nintendo Switch Power Consumption](https://www.anandtech.com/show/11181/a-look-at-nintendo-switch-power-consumption/3)
+[A primer on USB Type-C and Power Delivery applications and requirements](https://www.ti.com/lit/wp/slyy109/slyy109.pdf)
 
 [USB Power Delivery explained](https://www.androidauthority.com/usb-power-delivery-806266/)
 [Introduction to USB Power Delivery](http://www.electronicdesign.com/interconnects/introduction-usb-power-delivery)
@@ -198,6 +257,15 @@ USB 1.0, 2.0 cable has 4 pins: +5V, D+, D-, GND
 USB 3.0 added 5 more pins
 There are three kinds of USB ports: standard downstream port, a charging downstream port, and a dedicated charging port. The first two can be found on PC, the third is "dumb" wall chargers.
 
+## E-mark chip
+
+- PD over 3A (>60W) requires E-mark chip
+- USB 3.1 Gen1 (5Gbps) requires E-mark chip
+
+[What is an E-mark chip ?](https://www.shinecable.com/newsds/30.html)
+[聊聊 Type c 數據線裏面的 E-mark 是個啥玩意！ - 每日頭條](https://kknews.cc/digital/ln5gn92.html)
+[How to identify the USB-C cables with or without E-maker?](https://www.elinfor.com/market/how-to-identify-the-usb-c-cables-with-or-without-e-maker-m-27)
+
 ## Dash Charge/VOOC
 
 VOOC: 5V/5A
@@ -207,6 +275,9 @@ The wall charger is responsible to amp up the current, the battery cells are spl
 [VOOC - Wikiwand](https://www.wikiwand.com/en/VOOC)
 [VOOC fast charging - everything you need to know](https://www.androidauthority.com/vooc-fast-charging-686000/)
 [VOOC fast charging - everything you need to know - YouTube](https://www.youtube.com/watch?v=qkYw25s4pN8)
+
+[The world's FASTEST phone charger (SuperVOOC explained) - YouTube](https://www.youtube.com/watch?v=ODeImrQs3ME)
+[超级闪充超有趣｜且看 OPPO 工程师如何实现这项超能力](https://mp.weixin.qq.com/s/WEgJ5i8aQiiPFgxMy54ZNA)
 
 [Dash Charge Review: OnePlus 3 Dash Charge vs Quick Charge 3.0 charging test](https://recombu.com/mobile/article/dash-charge-review-oneplus-3-battery-review-vs-quick-charge-3-0-test)
 [Differences in Dash Charging and Quick Charge 3.0 Explained](http://www.guidingtech.com/61180/dash-charging-quick-charge-differences/)
@@ -242,6 +313,8 @@ Apple devices supports PD via C-to-Lightening cable.
 
 ## Charger
 
+[充电头网 – 我们只谈充电](http://www.chongdiantou.com/wp/)
+
 Now that most laptop supports PD charging, we can use PD charger as laptop adapters.
 
 Xpower X4WT Travelling $278
@@ -253,26 +326,86 @@ Universal Laptop Adapter:
 Maxtron 15-24V 90W $298
 Cooler Master 19V 90W $218
 
-[【ZMIHA832】ZMI 紫米 65W 支持 QC3.0 PD2.0 快充双口 MAX 3.6A 充电头/适配器充电器支持笔记本平板充电适用于安卓苹果手机套装【行情 报价 价格 评测】-京东](https://item.jd.com/100000766285.html) 150g ¥149
-USB-Ax2, 5V/3A 9V/2.2A 12V/1.7A, QC3 20W
-USB-C, 5V/3A 9V/3A 12V/3A 15V/3A 20V/3.25A, PD 45W
+[Anker | PowerPort Atom III Slim (Four Ports)](https://www.anker.com/products/variant/powerport-atom-iii-slim-four-ports/A2045111) 146g 90x86.5x20mm ¥186
+[3A1C 多口充，ANKER PowerPort Atom 3 Slim 4 口氮化镓桌面充电器评测（A2045） – 充电头网](http://www.chongdiantou.com/wp/archives/43222.html)
+USB-Ax3, 5V/2.4A, 20W
+USB-C, 5V/2.4A 9V/3A 15V/3A 20V/2.25A, PD 45W
+
+[Huwder 120W 充电器 pd 快充头 65w 充电头 macbook pro 笔记本电脑桌面 100W 适配器多口适用于三星 45w 苹果 11 华为小米-tmall.com 天猫](https://detail.tmall.com/item.htm?id=613579821014) ¥228(雙 11)
+[拆解报告：HUWDER 鸿达顺 120W 2A2C 四口快充充电器 A1903 – 充电头网](http://www.chongdiantou.com/wp/archives/59010.html)
+USB-Ax2, 4.5V/5A 5V/4.5A 3.6-6V/3A 6V-9V/2A 9V-12V/1.5A, QC3 18W
+USB-Cx2, 5V/3A 9V/3A 12V/3A 15V/3A 20V/2.25A, PD single 100W dual 60W@
+
+[zmi 紫米三口 65W 桌面充电器 PD 快充 45W 苹果 macbook 小米 pro 笔记本 NS-淘宝网](https://item.taobao.com/item.htm?id=603502587524) HA932 156g 95x66.5x23mm taobao ¥149(雙 11) taobao ¥170 jingdong ¥199
+USB-Ax2, 5V/3A 9V/2A 12V/1.5A, QC3 18W
+USB-C, 5V/3A 9V/3A 12V/3A 15V/3A 20V/2.25A, PD 45W
 [anidees AI CHARGER 65PD+雙輸出充電器開箱 @ 港都狼窩 WolfLSI's Den :: 痞客邦 ::](http://wolflsi.pixnet.net/blog/post/67692972)
 USB-A, 3.6V-6V/3A、6V-9V/2A、9V-12V/1.5A，QC3 18W
 USB-C, 5V/3A、9V/3A、12V/3A、15V/3A、18V/2.5A、20V/2.25A，PD 45W
-[聯想 thinkplus 65W 迷你 USB-C 充電器 PA65 開箱測試 @ 港都狼窩 WolfLSI's Den :: 痞客邦 ::](http://wolflsi.pixnet.net/blog/post/67886745) 121g ¥160
 USB-C, 5V/3A 9V/3A 12V/3A 15V/3A 20V/3.25A, PD 65W QC3 18W
 [【ANKER 充电器】Anker 安克 USB-C Power Delivery PD 60W 5 口 USB 充电器/多口充电器/充电头 支持苹果 MacBook 安卓手机平板 黑【行情 报价 价格 评测】-京东](https://item.jd.com/5164903.html) QC3 18W, PD 30W ¥298
 
-[【ANKERA1623】Anker 安克 10000 毫安 超极充充电器充电宝二合一升级版 3A 快充 移动电源/充电宝 手机平板 黑色【行情 报价 价格 评测】-京东](https://item.jd.com/100003889306.html) +power bank 5V/3A PD 15W
+[聯想 thinkplus 65W 迷你 USB-C 充電器 PA65 開箱測試 @ 港都狼窩 WolfLSI's Den :: 痞客邦 ::](http://wolflsi.pixnet.net/blog/post/67886745)
+[联想 thinkplus 口红电源 65W 充电器 type-c 手机平板笔记本电源适配器-tmall.com 天猫](https://detail.tmall.com/item.htm?id=606020328330&skuId=4251644929535) 121g 65W 雙腳 ¥154 (¥199)
+[联想 ThinkPad thinkplus 口红电源 Type-C 65W 便携旅行快充 X1 X390-淘宝网](https://item.taobao.com/item.htm?id=602187948409) ¥155
+[联想 ThinkPad USB-C 65W thinkplus 口红电源 快充便携智能充电器-淘宝网](https://item.taobao.com/item.htm?id=583997248631) ¥155
+
+[EGO 72W Mighty Charger](https://www.egoshop.co/products/ego-72w-mighty-charger) 170g 8 字腳 觀廣 \$298
+USB-Ax1, 3.6V-6V/3A, 6V-9V/2A, 9V-12V/1.5A QC3 18W
+USB-Ax3, 5V/2.8A 14W
+USB-C, 5V~20V/3.6A PD 72W
+
+[雙 PD + 雙 QC 設計．充電快夾妥 ProMini Qs105 震撼登場](http://www.magic-pro.com/index.php?route=pavblog/blog&id=458) ProMini Qs105 238g 觀廣 \$448
+USB-Ax2, 3.6-6.5V/3A, 6.5V/3A, 9V-12V/1.5A QC3 20W
+USB-C 1, 5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3A PD 60W
+USB-C 2, 5V/3A, 9V/3A, 12V/2.5A, 15V/2A, 20V/1.5A 30W
+
+[XPower DCPD2 75W 2 x PD 3.0 Charger | XPower - Be Your Power](http://www.xpower.com.hk/xpower-dcpd2-75w-2-x-pd-30-charger) XPower 觀廣 \$388
+USB-Ax2, 5V/2.4A 12W
+USB-C 1, 5V/3A, 9V/3A, 12V/3A, 15V/2A PD 30W
+USB-C 2, 3.6V-6V/3A, 6V-9V/2A, 9V-12V/1.5A PD 18W
+
+[2 Ports Travel Charger - Accessories](https://www.verbatim.com.hk/accessories/2-ports-travel-charger.html) 76x69x34 mm 171g \$238
+USB-C, 5V/3A, 9V/3A, 12V/3A, 20V/3A PD 60W
+USB-A, 3.6V-6.5V/3A, 6.5V-9V/2A, 9V-12V/1.5A QC 18W
+
+[5 Ports QC & PD Multi Charger - Accessories](https://www.verbatim.com.hk/accessories/5-ports-qc-pd-multi-charger.html)
+[Verbatim 5 Ports QC & PD 家用多功能充電器 黑色 65828 香港行貨 - Charger - Mobile & Accessories - Consumer Electronics - YOHO](https://www.yohohongkong.com/en_us/product/19772-Verbatim-5-Ports-QC-and-PD-%E5%AE%B6%E7%94%A8%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%85%85%E9%9B%BB%E5%99%A8-%E9%BB%91%E8%89%B2-65828-%E9%A6%99%E6%B8%AF%E8%A1%8C%E8%B2%A8) $148
+Verbatim 5 Ports QC & PD Multi Charger 283g 8 字腳 觀廣 $198
+USB-Ax1, 3.6V-6V/3A, 6V-9V/2A, 9V-12V/1.5A QC3 18W
+USB-Ax3, 5V/2.4A 12W
+USB-C, 5V/3A, 9V/3A, 12V/3A, 15V/2A PD 30W
+
+[4 Ports 75W Hub Charger - Accessories](https://www.verbatim.com.hk/accessories/4-ports-75w-hub-charger.html)
+
+Verbatim 觀廣 \$288
+USB-C, ?, PD 60W
+
+[雜碎開箱：你想點叉佢都得！XPower 充電三寶！ - 科技雜碎](https://www.hktechusers.hk/2018/02/xpower.html)
+[XPower DC4PD Type-C PD 充電器 XP-DC4PD | XPower - Be Your Power](https://www.xpower.com.hk/xpower-dc4pd-type-c-pd%E5%85%85%E9%9B%BB%E5%99%A8) 220g 8 字腳 觀廣 \$298
+USB-Ax1, 3.6V-6V/3A, 6V-9V/2A, 9V-12V/1.5A QC3 18W
+USB-Ax2, 5V/2.4A 12W
+USB-C, 5V\*20V/3A PD 60W
+
+[PD3.0 45W 快充 手机旅行充电器 PD 快充 45W 笔记本电脑手机充电头-淘宝网](https://item.taobao.com/item.htm?id=594925482710) 120g ¥46
+USB-C, 5V/3A, 9V/3A, 12V/3A, 15V/3A, 18V/2.5A, 20V/2.2A PD 45W
 
 ## Power Banks
 
 Requirements: 45W PD (that charges laptop)
 
+[The best mobile powerbanks/external batteries for your laptop (2020)](https://www.ultrabookreview.com/33610-mobile-laptop-powerbanks/)
+
 [Best USB PD Power Banks for Charging your Laptop or Console - Tech Advisor](https://www.techadvisor.co.uk/test-centre/gadget/usb-pd-power-banks-3684760/)
 [小米移动电源 3 高配版和紫米 10 号哪个好？小米 PLM07ZM 和紫米 QB820 区别 – 充电头网](http://www.chongdiantou.com/wp/archives/31920.html) chipsets
 
 [High-wattage USB-C batteries can keep your laptop charged on the go - The Verge](https://www.theverge.com/platform/amp/2019/5/1/18410552/laptop-portable-batteries-high-wattage-usb-c-charger)
+
+[SuperCharger 2.0: USB-C Hub & PD 45W & Power Bank | Indiegogo](https://www.indiegogo.com/projects/supercharger-2-0-usb-c-hub-pd-45w-power-bank#/)
+
+[HUAWEI 12000 40W SuperCharge Power Bank, SuperCharge power bank for phones, laptops and tablets| HUAWEI Global](https://consumer.huawei.com/en/accessories/supercharge-powerbank-40w/)
+
+[充电宝 20000 毫安大容量自带线适用于小米 typeC 苹果华为 11Pro Max 手机自带插头 45wPD 快充笔记本电脑移动电源-tmall.com 天猫](https://detail.tmall.com/item.htm?id=594005625552) plus wall charger
 
 ### 小米移动电源 3
 
@@ -300,7 +433,7 @@ Out:
 
 [【ZMIQB815】ZMI 紫米 15000 毫安双向快充 10 号移动电源/充电宝支持 switch 笔记本 PD 2.0 协议/QC3.0 设备/3 口输出入 45W 锖色【行情 报价 价格 评测】-京东](https://item.jd.com/6008845.html)
 [紫米 10 號 QB820 PD2.0+QC3.0 行動電源簡介及測試 @ 港都狼窩 WolfLSI's Den :: 痞客邦 ::](http://wolflsi.pixnet.net/blog/post/66048942-%E7%B4%AB%E7%B1%B310%E8%99%9Fqb820-pd2.0%2Bqc3.0%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90%E7%B0%A1%E4%BB%8B%E5%8F%8A%E6%B8%AC%E8%A9%A6)
-USB-C Hub, 45W, 72Wh 20000mAh ￥ 299
+USB-C Hub, 45W, 72Wh 20000mAh ¥299
 
 - USB-C Hub
 - round corners
@@ -337,7 +470,7 @@ Out:
 - 額定容量 (12600mAh 5V/4.5A)
 - 149.3 x 70 x 25mm
 - 460h
-- 20000mAh ￥ 269
+- 20000mAh ¥269
 
 In:
 

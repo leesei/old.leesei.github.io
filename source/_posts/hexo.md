@@ -2,11 +2,11 @@
 title: "Hexo"
 date: 2014-12-09 17:18:32
 categories:
-- app
+  - app
 tags:
-- hexo
-- notes
-- static-site
+  - hexo
+  - notes
+  - static-site
 toc: true
 ---
 
@@ -19,11 +19,11 @@ toc: true
 [hexojs/awesome-hexo: A curated list of awesome things related to Hexo](https://github.com/hexojs/awesome-hexo)
 
 [Hexo.io - Static Site Generator & Blog Platform | jr0cket](http://jr0cket.co.uk/hexo/) (maybe outdated)
-[史上最详细的Hexo博客搭建图文教程 // Xuanwo's Blog](https://xuanwo.org/2015/03/26/hexo-intor/)
-[Hexo常见问题解决方案 // Xuanwo's Blog](https://xuanwo.org/2014/08/14/hexo-usual-problem/)
+[史上最详细的 Hexo 博客搭建图文教程 // Xuanwo's Blog](https://xuanwo.org/2015/03/26/hexo-intor/)
+[Hexo 常见问题解决方案 // Xuanwo's Blog](https://xuanwo.org/2014/08/14/hexo-usual-problem/)
 [Category: Hexo - 进击的程序媛，Laker's blog](http://laker.me/blog/categories/Hexo/)
 [Category: Hexo - Laker's blog](http://laker.me/blog/categories/Hexo/)
-[blog搭建指南 | ShawnMo's blog](http://maoxiangyu.com/2016/02/16/blog搭建指南/)
+[blog 搭建指南 | ShawnMo's blog](http://maoxiangyu.com/2016/02/16/blog搭建指南/)
 [Hello World | leesei's hexo testground](http://leesei.github.io/hexo-testground/2014/12/01/hello-world/#Customization)
 [Project Documentation with Hexo Static Site Generator](https://www.sitepoint.com/project-documentation-hexo/)
 
@@ -56,6 +56,7 @@ Validate YAML with [Online YAML Parser](http://yaml-online-parser.appspot.com/).
 [alexbruno/hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content)
 [bubkoo/hexo-filter-fenced-code](https://github.com/bubkoo/hexo-filter-fenced-code)
 
+[TitiAlone/hexo-renderer-unified: Markdown renderer plugin for Hexo - based on Unified](https://github.com/TitiAlone/hexo-renderer-unified)
 [celsomiranda/hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it)
 
 ### tag plugins
@@ -83,7 +84,8 @@ https://github.com/FlashSoft/hexo-console-optimize
 
 ## Themes
 
-I need: 
+I need:
+
 - archive page (title only; link to months, see [jacman](http://wuchong.me/jacman/archives/))
 - categories page
 - tags page
@@ -109,8 +111,8 @@ http://wuchong.me/jacman/
 https://github.com/zhanglun/hexo-theme/tree/master/Tinny
 http://www.hahack.com/codes/hexo-theme-wixo/ Wiki style theme
 https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme/
-[luuman/hexo-theme-spfk: Hexo双栏博客主题仓库 Another simple and elegant theme for Hexo.](https://github.com/luuman/hexo-theme-spfk)
-[yscoder/hexo-theme-indigo: 一个Material Design风格的Hexo主题。预览 http://www.imys.net/](https://github.com/yscoder/hexo-theme-indigo)
+[luuman/hexo-theme-spfk: Hexo 双栏博客主题仓库 Another simple and elegant theme for Hexo.](https://github.com/luuman/hexo-theme-spfk)
+[yscoder/hexo-theme-indigo: 一个 Material Design 风格的 Hexo 主题。预览 http://www.imys.net/](https://github.com/yscoder/hexo-theme-indigo)
 
 [kywk/hexo-theme-spp](https://github.com/kywk/hexo-theme-spp) Good for CV
 https://github.com/seasonedbits/hexo-theme-spp updated sort order, disabled pagination
@@ -125,12 +127,13 @@ https://github.com/seasonedbits/hexo-theme-spp updated sort order, disabled pagi
 Custom index page:
 https://github.com/xing5/blog
 http://jslite.io/tags/
-https://github.com/timnew/timnew.github.com/tree/hexo 
+https://github.com/timnew/timnew.github.com/tree/hexo
 https://github.com/timnew/landscape/tree/master
 
 ### Writing themes
 
 Customization section of [hexo doc](https://hexo.io/docs/).
+
 - [Themes | Hexo](https://hexo.io/docs/themes.html)
 - [Helpers | Hexo](https://hexo.io/docs/helpers.html)
 

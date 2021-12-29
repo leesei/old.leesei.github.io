@@ -2,10 +2,10 @@
 title: "Call center"
 date: 2018-07-17 11:53:12
 categories:
-- trivia
+  - trivia
 tags:
-- bank
-- hotline
+  - bank
+  - hotline
 toc: true
 ---
 

@@ -164,7 +164,6 @@ kiel (how)
 - kio -n
 - kiu -j, -n
 
-
 #### ği (it)
 
 Answer from salivanto:

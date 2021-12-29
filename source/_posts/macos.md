@@ -44,5 +44,8 @@ If you don't have Windows install USB:
 ## Productivity
 
 [Turn Your Keyboard into a Text-Editing Rocket – Owen Caulfield – Medium](https://medium.com/@caulfieldOwen/turn-your-keyboard-into-a-text-editing-rocket-1514d8474d2d)
-[Hammerspoon](https://www.hammerspoon.org/)
+
+[AppleScript: The Language of Automation](https://macosxautomation.com/applescript/index.html)
+[Hammerspoon](https://www.hammerspoon.org/) better than AppleScript
+
 [Karabiner - Software for macOS](https://pqrs.org/osx/karabiner/)

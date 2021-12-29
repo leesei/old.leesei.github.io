@@ -2,9 +2,9 @@
 title: "GRUB"
 date: 2014-12-17 13:38:19
 categories:
-- linux
+  - linux
 tags:
-- grub
+  - grub
 toc: true
 ---
 
@@ -17,6 +17,7 @@ It loads `/boot/grub/grub.cfg` and present the menu.
 [GRUB - ArchWiki](https://wiki.archlinux.org/index.php/GRUB)
 [GRUB/Tips and tricks - ArchWiki](https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks)
 [GNU GRUB Manual](http://www.gnu.org/software/grub/manual/html_node/)
+[Grub2 - Community Help Wiki](https://help.ubuntu.com/community/Grub2/)
 
 [Commands in the Grub Command-line | Linux.org](http://www.linux.org/threads/commands-in-the-grub-command-line.7536/)
 [Understanding the Various Grub Modules | Linux.org](http://www.linux.org/threads/understanding-the-various-grub-modules.7535/)
@@ -55,6 +56,10 @@ sudo grub-mkconfig
 
 [Restore the GRUB Bootloader - Manjaro Linux](https://wiki.manjaro.org/index.php/Restore_the_GRUB_Bootloader)
 
+[Boot-Repair - Community Help Wiki](https://help.ubuntu.com/community/Boot-Repair)
+[Ubuntu Boot Repair Tutorial – Linux Hint](https://linuxhint.com/ubuntu_boot_repair_tutorial/)
+[Windows ＋ Linux 雙系統救回 grub 選單的步驟 | 簡睿隨筆 | 學習過程的紀錄與備忘](http://jdev.tw/blog/3776/grub-menu-rescue)
+
 ## Restore Windows after GRUB install
 
 ```sh
@@ -67,15 +72,20 @@ bootrec.exe /RebuildBcd
 
 ## Edit GRUB entries
 
-`grub-mkconfig` uses the template `/etc/default/grub` and rules in `/etc/grub.d` to generate `grub.cfg`. `update-grub` in Debian system is just a wrapper to `grub-mkconfig`.
+`grub-mkconfig` uses the config in `/etc/default/grub` and rules in `/etc/grub.d` to generate `grub.cfg`.
+`update-grub` in Debian system is just a wrapper to `grub-mkconfig`.
 
 ```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # diff first
-sudo grub-mkconfig -o grub.cfg
-sudo diff grub.cfg /boot/grub/grub.cfg
-sudo mv grub.cfg /boot/grub/grub.cfg
+sudo su
+grub-mkconfig -o grub.cfg
+diff grub.cfg /boot/grub/grub.cfg
+# fish single line
+sudo diff (sudo grub-mkconfig | psub)  /boot/grub/grub.cfg
+# commit
+mv grub.cfg /boot/grub/grub.cfg
 ```
 
 [How to Configure the Linux Grub2 Boot Menu the Easy Way](https://www.howtogeek.com/howto/43471/how-to-configure-the-linux-grub2-boot-menu-the-easy-way/)
@@ -100,7 +110,6 @@ GRUB_SAVEDEFAULT=true
 ## References
 
 [kernel-parameters.txt](https://www.kernel.org/doc/Documentation/kernel-parameters.txt)
-http://jdev.tw/blog/3776/grub-menu-rescue
-https://sites.google.com/site/easylinuxtipsproject/grub
-http://linuxnorth.wordpress.com/category/grub/
 [GRUB | LinuxNorth](https://linuxnorth.wordpress.com/category/grub/)
+
+[OS Prober no longer ran by default as of today's update of grub - General system - EndeavourOS](https://forum.endeavouros.com/t/os-prober-no-longer-ran-by-default-as-of-todays-update-of-grub/15187/38)

@@ -17,6 +17,7 @@ toc: true
 [felixge/node-style-guide](https://github.com/felixge/node-style-guide)
 
 [Modern Modules – Mikeal – Medium](https://medium.com/@mikeal/modern-modules-d99b6867b8f1)
+[goldbergyoni/nodebestpractices: The Node.js best practices list (September 2020)](https://github.com/goldbergyoni/nodebestpractices)
 [Node.js Best Practices - How to become a better Node.js developer in 2018](https://nemethgergely.com/nodejs-best-practices-how-to-become-a-better-developer-in-2018/)
 [The Node Way](http://thenodeway.io/)
 [Node Labs](http://www.nodelabs.org/)
@@ -26,9 +27,18 @@ toc: true
 
 [Node Hero - Getting Started With Node.js | @RisingStack](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/) !important
 [A Node.JS Holiday Season Articles ★ Mozilla Hacks – the Web developer blog](https://hacks.mozilla.org/category/a-node-js-holiday-season/) (2012)
+[JavaScript 中的同步與非同步（上）：先成為 callback 大師吧！ | TechBridge 技術共筆部落格](https://blog.techbridge.cc/2019/10/05/javascript-async-sync-and-callback/)
 [Heroku | 10 Habits of a Happy Node Hacker (2016)](http://blog.heroku.com/archives/2015/11/10/node-habits-2016)
+[Node.js and Express.js - Full Course - YouTube](https://www.youtube.com/watch?v=Oe421EPjeBE)
+[Beginner's Series to: Node.js - YouTube](https://www.youtube.com/playlist?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg#begnodejs) Microsoft
 
 [How to get A+ on the SSL Labs test in node.js](https://certsimple.com/blog/a-plus-node-js-ssl)
+
+[Introduction to the Node.js reference architecture, Part 1: Overview | Red Hat Developer](https://developers.redhat.com/blog/2021/03/08/introduction-to-the-node-js-reference-architecture-part-1-overview)
+[IBM and Red Hat’s recommendations for logging in Node.js applications – IBM Developer](https://developer.ibm.com/blogs/nodejs-reference-architectire-pino-for-logging/)
+[Introduction to the Node.js reference architecture, Part 3: Code consistency | Red Hat Developer](https://developers.redhat.com/articles/2021/05/17/introduction-nodejs-reference-architecture-part-3-code-consistency)
+[Introduction to the Node.js reference architecture, Part 4: GraphQL in Node.js | Red Hat Developer](https://developers.redhat.com/articles/2021/06/22/introduction-nodejs-reference-architecture-part-4-graphql-nodejs)
+[Introduction to the Node.js reference architecture, Part 5: Building good containers | Red Hat Developer](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers)
 
 ## ES6
 
@@ -81,14 +91,24 @@ Obsoleted:
 [Debugging node.js in Docker using Node Inspector](https://keylocation.sg/our-tech/debugging-nodejs-in-docker-using-node-inspector)
 [s-a/iron-node: Debug Node.js code with Chrome Developer Tools.](https://github.com/s-a/iron-node) debugger on Electron
 
-## Threading
+## Worker Threads
+
+[Worker Threads | Node.js Documentation](https://nodejs.org/api/worker_threads.html)
 
 [A complete guide to threads in Node.js – LogRocket](https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f)
-[Using worker_threads in Node.js – Rich Trott – Medium](https://medium.com/@Trott/using-worker-threads-in-node-js-80494136dbb6)
+[Node.js multithreading: What are Worker threads, and why do they matter? - LogRocket Blog](https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10/)
+[Use cases for Node workers - LogRocket Blog](https://blog.logrocket.com/use-cases-for-node-workers/)
+[How to work with worker threads in NodeJS](https://livecodestream.dev/post/how-to-work-with-worker-threads-in-nodejs/)
+[Understanding Worker Threads in Node.js - NodeSource](https://nodesource.com/blog/worker-threads-nodejs/)
+
 [node.js - Nodejs worker threads shared object/store - Stack Overflow](https://stackoverflow.com/questions/51053222/nodejs-worker-threads-shared-object-store)
 [Limiting concurrent operations in JavaScript – freeCodeCamp.org](https://medium.freecodecamp.org/how-to-limit-concurrent-operations-in-javascript-b57d7b80d573)
 
-[laverdet/node-fibers: Fiber/coroutine support for v8 and node.](https://github.com/laverdet/node-fibers)
+[SUCHMOKUO/node-worker-threads-pool: Simple worker threads pool using node's worker_threads module.](https://github.com/SUCHMOKUO/node-worker-threads-pool)
+
+[piscinajs/piscina: A fast, efficient Node.js Worker Thread Pool implementation](https://github.com/piscinajs/piscina)
+
+[only half of the cores can be made busy on MacOS, ever · Issue #38629 · nodejs/node](https://github.com/nodejs/node/issues/38629)
 
 ## async_hook
 
@@ -125,6 +145,7 @@ Obsoleted:
 [amwmedia-plop](https://github.com/amwmedia/plop) file template generator, lighter then yeoman
 
 [zeit/pkg: Package your Node.js project into an executable](https://github.com/zeit/pkg)
+[zeit/ncc: Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.](https://github.com/zeit/ncc)
 
 ### Accept pipe
 
@@ -144,15 +165,26 @@ See [leesei/openslide-prop2json](https://github.com/leesei/openslide-prop2json).
 
 I need an option parser that auto generates the help page.
 
+[lukeed/sade: Smooth (CLI) Operator 🎶](https://github.com/lukeed/sade)
+
+[sindresorhus/meow: CLI app helper](https://github.com/sindresorhus/meow) (under evaluation)
+[hapijs/bossy: Command line options parser](https://github.com/hapijs/bossy) (under evaluation)
+[lukeed/mri: Quickly scan for CLI flags and arguments](https://github.com/lukeed/mri)
+[leo/args: Minimal toolkit for building CLIs](https://github.com/leo/args) built on mri
+
+[tj/commander.js](https://github.com/tj/commander.js) is quirky:
+
+- [Can't use default together with coercion (example from front-page broken) · Issue #400 · tj/commander.js](https://github.com/tj/commander.js/issues/400)
+- [Global Options · Issue #476 · tj/commander.js](https://github.com/tj/commander.js/issues/476)
+
 [yargs/yargs: yargs the modern, pirate-themed successor to optimist.](https://github.com/yargs/yargs) [Docs](http://yargs.js.org/docs/index.html) [Yargs cheatsheet](http://ricostacruz.com/cheatsheets/yargs.html)
 [Yargs 4.0 Is Here - Commands 2.0](http://yargs.js.org/2016/02/13/yargs-4.html#commands-20)
+I found yargs option are too complicated
 
-[hapijs/bossy: Command line options parser](https://github.com/hapijs/bossy)
-[scottcorgan/nash](https://github.com/scottcorgan/nash) (under evaluation)
-[sindresorhus/meow](https://github.com/sindresorhus/meow) (under evaluation)
-[leo/args: Minimal toolkit for building CLIs](https://github.com/leo/args) built on minimist
-[tj/commander.js](https://github.com/tj/commander.js) is [quirky](https://github.com/tj/commander.js/issues/400) when using coercion and default value together
+[vadimdemedes/ink: 🌈 React for interactive command-line apps](https://github.com/vadimdemedes/ink)
+[Add interactivity to your CLIs with React - LogRocket Blog](https://blog.logrocket.com/add-interactivity-to-your-clis-with-react/)
 
+[scottcorgan/nash: Craft command-line masterpieces in Node.js](https://github.com/scottcorgan/nash) (inactive)
 [substack-minimist](https://github.com/substack/minimist) (naive, no help page)
 [harthur-nomnom](https://github.com/harthur/nomnom) (DEPRECATED)
 [substack-node-optimist](https://github.com/substack/node-optimist) (DEPRECATED, succeeded by yargs)
@@ -161,12 +193,14 @@ I need an option parser that auto generates the help page.
 
 [sindresorhus/dargs: Reverse minimist. Convert an object of options into an array of command-line arguments](https://github.com/sindresorhus/dargs)
 [ShellJS](http://documentup.com/shelljs/shelljs)
-[sindresorhus/execa: A better `child_process`](https://github.com/sindresorhus/execa#readme)
+[sindresorhus/execa: A better `child_process`](https://github.com/sindresorhus/execa)
+[steelbrain/node-ssh: SSH2 with Promises](https://github.com/steelbrain/node-ssh)
 
 #### config files/env
 
 [davidtheclark/cosmiconfig: Find and load configuration from a package.json property, rc file, or CommonJS module](https://github.com/davidtheclark/cosmiconfig)
 [AdrieanKhisbe/configue: Configue All the Things.js](https://github.com/AdrieanKhisbe/configue)
+[lorenwest/node-config: Node.js Application Configuration](https://github.com/lorenwest/node-config)
 [indexzero-nconf](https://github.com/indexzero/nconf) load and merge config files
 [bevry/envfile](https://github.com/bevry/envfile)
 [defunctzombie/localenv](https://github.com/defunctzombie/localenv)
@@ -222,6 +256,8 @@ blessed derivative with markup support:
 [madbence-node-drawille](https://github.com/madbence/node-drawille) draw unicode braille characters
 [sindresorhus/sparkly](https://github.com/sindresorhus/sparkly)
 
+[sindresorhus/ora: Elegant terminal spinner](https://github.com/sindresorhus/ora)
+
 [node-js-libs/cli: Rapidly build command line apps](https://github.com/node-js-libs/cli)
 
 [vadimdemedes/pastel: 🎨 Framework for effortlessly building Ink apps](https://github.com/vadimdemedes/pastel)
@@ -261,6 +297,7 @@ Requirements:
 - search (optional)
 
 [NodeJS logging made right – ITNEXT](https://itnext.io/nodejs-logging-made-right-117a19e8b4ce)
+[Comparing Node.js logging tools - LogRocket Blog](https://blog.logrocket.com/comparing-node-js-logging-tools/)
 
 [visionmedia-debug](https://github.com/visionmedia/debug) support DEBUG in env to toggle log
 
@@ -291,9 +328,11 @@ Requirements:
 
 ## file system watcher
 
-[remy/nodemon](https://github.com/remy/nodemon/)
+[lukeed/watchlist: Recursively watch a list of directories & run a command on any file system changes](https://github.com/lukeed/watchlist)
 [kimmobrunfeldt/chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli)
+[Conduitry/cheap-watch: If it works, why use something else? // Mirror of https://git.chor.date/Conduitry/cheap-watch](https://github.com/Conduitry/cheap-watch)
 [Qard/onchange](https://github.com/Qard/onchange)
+[remy/nodemon](https://github.com/remy/nodemon/)
 
 ```sh
 nodemon diagram.plantuml -x \"plantuml\"
@@ -313,7 +352,7 @@ nodemon diagram.png -x \"xdg-open\"
 (function patchEmitter(emitter) {
   var oldEmit = emitter.emit;
 
-  emitter.emit = function() {
+  emitter.emit = function () {
     var args = arguments;
     console.log(args[0], [].slice.call(args, 1));
     oldEmit.apply(emitter, args);
@@ -348,6 +387,7 @@ Streams3 (combined streams) was added to iojs and Node v0.11+.
 [thlorenz.com The Power of NodeJS Streams and the event-stream Module](http://thlorenz.com/blog/the-power-of-nodejs-streams-and-the-event-stream-module/)
 [Thorsten Lorenz - LXJS 2013 - Node.js streams for the utterly confused - YouTube](https://www.youtube.com/watch?v=9llfAByho98)
 [Streams2](http://brycebaril.github.io/streams2-presentation/) actually on Streams3
+[Creating Duplex streams in Node.js - LogRocket Blog](https://blog.logrocket.com/creating-duplex-streams-nodejs/)
 
 [[r.va.gg] Why I don't use Node's core 'stream' module](https://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html)
 [dominictarr/stream-spec: executable specification for Stream (make testing streams easy)](https://github.com/dominictarr/stream-spec)
@@ -363,6 +403,8 @@ Streams3 (combined streams) was added to iojs and Node v0.11+.
 [brycebaril/node-terminus: An abstraction for making stream.Writable streams without all the boilerplate.](https://github.com/brycebaril/node-terminus)
 [dominictarr/event-stream: EventStream is like functional programming meets IO](https://github.com/dominictarr/event-stream)
 [maxogden/mississippi](https://github.com/maxogden/mississippi)
+
+[Video Stream With Node.js and HTML5 - Better Programming - Medium](https://medium.com/better-programming/video-stream-with-node-js-and-html5-320b3191a6b6)
 
 > see `javascript-notes.md` Bacon.js and Highland.js
 
@@ -383,10 +425,10 @@ Combining stream to a single output [ref](http://stackoverflow.com/a/14269536/66
 
 ```js
 var bufs = [];
-stream.on("data", function(d) {
+stream.on("data", function (d) {
   bufs.push(d);
 });
-stream.on("end", function() {
+stream.on("end", function () {
   var buf = Buffer.concat(bufs);
 });
 ```
@@ -399,7 +441,17 @@ stream.on("end", function() {
 
 ## ES Modules
 
+[Modules: ECMAScript modules | Node.js Documentation](https://nodejs.org/api/esm.html)
+[Pure ESM package](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
+
+[ES2015 module detection in Node.js (June 2016)](http://es2015-node.js.org/) archived
+[defense-of-dot-js/proposal.md at master · dherman/defense-of-dot-js](https://github.com/dherman/defense-of-dot-js/blob/master/proposal.md)
+[ES Modules and Node.js: Hard Choices — Medium](https://medium.com/@nodesource/es-modules-and-node-js-hard-choices-2b6995e4d491#.21d07v52h)
+[Understanding the hard choice. — Medium](https://medium.com/@bradleymeck/understanding-the-hard-choice-1ea3008fc9d0#.pycqhm609)
+
 [Announcing a new — experimental-modules – Node.js Foundation – Medium](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
+
+[wessberg/cjstoesm: A tool that can transform CommonJS to ESM](https://github.com/wessberg/cjstoesm)
 
 ## Native Module
 
@@ -468,6 +520,9 @@ stream.on("end", function() {
 
 [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014 - YouTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ) !important
 [latentflip.com/loupe/](http://latentflip.com/loupe/)
+[Morning Keynote- Everything You Need to Know About Node.js Event Loop - Bert Belder, IBM - YouTube](https://www.youtube.com/watch?v=PNa9OMajw9w) 2016
+
+[Five Misconceptions on How NodeJS Works - Deepal’s Blog](https://blog.insiderattack.net/five-misconceptions-on-how-nodejs-works-edfb56f7b3a6)
 
 [Understanding the Node.js Event Loop](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)
 [The JavaScript Event Loop: Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
@@ -477,6 +532,10 @@ stream.on("end", function() {
 [Making the Switch from Node.js to Golang | via @codeship](https://blog.codeship.com/making-the-switch-from-node-js-to-golang/)
 [HTML Standard Event loops](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops)
 [The Main Event… Loop – Codezillas – Medium](https://medium.com/codezillas/the-main-event-loop-3928adcd2413)
+
+[Be the Master of the Event Loop in JavaScript (Part 1)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-1-6804cdf6608f)
+[Be the Master of the Event Loop in JavaScript (Part 2)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-2-54637d49889f)
+[Be the Master of the Event Loop in JavaScript (Part 3)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-3-df51ab655c94)
 
 [Event Loop and the Big Picture — NodeJS Event Loop Part 1](https://jsblog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810)
 [Timers, Immediates and Process.nextTick— NodeJS Event Loop Part 2](https://jsblog.insiderattack.net/timers-immediates-and-process-nexttick-nodejs-event-loop-part-2-2c53fd511bb3)
@@ -488,6 +547,9 @@ stream.on("end", function() {
 [How JavaScript works – SessionStack Blog](https://blog.sessionstack.com/tagged/tutorial)
 [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
+
+[The story of a V8 performance cliff in React · V8](https://v8.dev/blog/react-cliff) boxing of number
+[Mathias B, Benedikt M - JS Engine fundamentals [AgentConf] - YouTube](https://www.youtube.com/watch?v=0I0d8LkDqyc)
 
 [mö.js - explaining js vm in js - YouTube](https://www.youtube.com/watch?v=y8hVeKMD_oM)
 [StrongLoop | What’s New in Node.js v0.12 – Running Multiple Instances in a Single Process](https://strongloop.com/strongblog/whats-new-node-js-v0-12-multiple-context-execution/)
@@ -501,6 +563,9 @@ stream.on("end", function() {
 [JavaScript essentials: why you should know how the engine works](https://medium.freecodecamp.org/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553) hidden class/object shapes, inline caching
 [JavaScript Engines Hidden Classes (and Why You Should Keep Them in Mind) | concise notes](https://draft.li/blog/2016/12/22/javascript-engines-hidden-classes/)
 [JavaScript engine fundamentals: Shapes and Inline Caches · Mathias Bynens](https://mathiasbynens.be/notes/shapes-ics)
+
+[A tour of V8: Garbage Collection](http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+[Forcing Garbage Collection in node.js and JavaScript • Open Source is Everything](https://www.xarg.org/2016/06/forcing-garbage-collection-in-node-js-and-javascript/)
 
 [Crossing the JS/C++ Boundary — Advanced NodeJS Internals — Part 1](https://jsblog.insiderattack.net/crossing-the-js-c-boundary-advanced-nodejs-internals-part-1-cb52957758d8)
 
@@ -530,6 +595,21 @@ stream.on("end", function() {
 [Joyent | Error Handling](https://www.joyent.com/node-js/production/design/errors)
 [Joyent | Debug](https://www.joyent.com/node-js/production/debug#postmortem)
 
+### Absolute import
+
+[No More ../../../ Import in React - DEV Community](https://dev.to/nilanth/no-more-import-in-react-2mbo)
+
+`jsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
 ## #perfmatters
 
 [Benchmark.js](http://benchmarkjs.com/)
@@ -541,12 +621,19 @@ stream.on("end", function() {
 [mcollina/loopbench: Benchmark your event loop](https://github.com/mcollina/loopbench)
 [bench vs benchmark | Wyatt](http://jsgeek.com/posts/bench-benchmark.html)
 [davidmarkclements/0x: 🔥 single-command flamegraph profiling 🔥](https://github.com/davidmarkclements/0x)
+[ValYouW/njsTrace: A Node.js tracing and instrumentation utility](https://github.com/ValYouW/njsTrace)
 
 [Understanding Garbage Collection and hunting Memory Leaks in Node.js | Dynatrace blog](https://www.dynatrace.com/blog/understanding-garbage-collection-and-hunting-memory-leaks-in-node-js/)
 [How to Self Detect a Memory Leak in Node - nearForm](http://www.nearform.com/nodecrunch/self-detect-memory-leak-node/)
+[Avoiding Memory Leaks in Node.js: Best Practices for Performance | AppSignal Blog](https://blog.appsignal.com/2020/05/06/avoiding-memory-leaks-in-nodejs-best-practices-for-performance.html)
+[A surprising JavaScript memory leak found at Meteor](http://point.davidglasser.net/2013/06/27/surprising-javascript-memory-leak.html) accidental capturing of lexical environment
+
 [Understanding Garbage Collection and Memory in Node.js | via @codeship](https://blog.codeship.com/understanding-garbage-collection-in-node-js/)
 [V8 JavaScript Engine: Concurrent marking in V8](https://v8project.blogspot.com/2018/06/concurrent-marking.html)
 [How to track down CPU issues in Node.js - about:performance](http://apmblog.dynatrace.com/2016/01/14/how-to-track-down-cpu-issues-in-node-js/)
+
+[Clinic.js - An Open Source Node.js performance profiling suite by NearForm](https://clinicjs.org/)
+[Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
 
 [jsPerf: JavaScript performance playground](http://jsperf.com/)
 
@@ -560,12 +647,13 @@ stream.on("end", function() {
 [npm Documentation](https://docs.npmjs.com/)
 [A Beginner's Guide to npm — the Node Package Manager](http://www.sitepoint.com/beginners-guide-node-package-manager/)
 [9 Quick Tips About npm](https://ponyfoo.com/articles/9-quick-tips-about-npm)
+[10 Tips and Tricks That Will Make You an npm Ninja — SitePoint](https://www.sitepoint.com/10-npm-tips-and-tricks/)
 [The npm Blog — npm and front-end packaging](http://blog.npmjs.org/post/101775448305/npm-and-front-end-packaging)
 [Tour of npm](http://tobyho.com/2012/02/09/tour-of-npm/)
 [npm forum](https://npm.community/)
 
 [unpkg](https://unpkg.com/#/) get file from package
-[Pika | Pika | Search modern module esm packages on npm](https://www.pikapkg.com/)
+[10 Node Frameworks to Use in 2019 ― Scotch](https://scotch.io/bar-talk/10-node-frameworks-to-use-in-2019/amp)
 
 ```sh
 # return the current `node_modules` folder
@@ -581,14 +669,13 @@ npm dedupe && npm prune
 
 [npm](https://www.npmjs.com/)
 [npms](https://npms.io/)
+[Openbase: choose the right package every time](https://openbase.com/)
+[npm - Libraries](https://libraries.io/npm)
 [npmsearch - node.js Package Search Utility](https://npmsearch.com/)
 [Scout JS](http://scoutjs.com/)
 [JS.coach](https://js.coach/)
-[NodeZoo - A search engine for reliable node.js modules.](http://nodezoo.com/) with NodeRank
 [Better search for Node.js modules](http://node-modules.com/)
 [Nipster! npm search tool for Node.js](http://nipstr.com/)
-[Browsenpm.org | Nodejitsu Inc.](http://browsenpm.org/)
-[npm - Libraries](https://libraries.io/npm)
 
 ### Private registry
 
@@ -629,11 +716,6 @@ GitHub repo can be simplified as `user/repo`:
 }
 ```
 
-### Yarn
-
-[Yarn](https://yarnpkg.com/)
-[Compare Yarn Performance | Yarn](https://yarnpkg.com/en/compare)
-
 ## System service
 
 [NicolaOrritos/probiotic: The simplified multi-workers daemon](https://github.com/NicolaOrritos/probiotic)
@@ -644,14 +726,19 @@ GitHub repo can be simplified as `user/repo`:
 [npm module maintainer must-haves](https://hannah.wf/npm-maintenance/)
 [mattdesl/module-best-practices: some best practices for JS modules](https://github.com/mattdesl/module-best-practices)
 [Choosing and making quality npm modules | Yannick Croissant](https://yannick.cr/posts/choosing-and-making-quality-npm-modules/post)
+[Checklist for your new Open Source JavaScript Project](https://ericdouglas.github.io/2015/09/27/checklist-for-your-new-open-source-javascript-project/)
 
 [maxogden/maintenance-modules: a list of modules that are useful for maintaining or developing modules](https://github.com/maxogden/maintenance-modules)
 [HenrikJoreteg/fixpack: A package.json file scrubber for the truly insane.](https://github.com/henrikjoreteg/fixpack) `standard` for `package.json`
 [feross/standard: JavaScript Standard Style](https://github.com/feross/standard)
 
+[Semantic Versioning: Why You Should Be Using it — SitePoint](https://www.sitepoint.com/semantic-versioning-why-you-should-using/)
 [Design and Build Your Own JavaScript Library: Tips & Tricks](https://www.sitepoint.com/design-and-build-your-own-javascript-library/)
 [Advanced Node.js Project Structure Tutorial - via @codeship | via @codeship](https://blog.codeship.com/advanced-node-js-project-structure-tutorial/)
 [Fractal — Nodejs app structure – codeburst](https://codeburst.io/fractal-a-nodejs-app-structure-for-infinite-scale-d74dda57ee11)
+
+[sindresorhus/node-module-boilerplate: Boilerplate to kickstart creating a Node.js module](https://github.com/sindresorhus/node-module-boilerplate)
+[sindresorhus/node-cli-boilerplate: Boilerplate to kickstart creating a Node.js command-line tool](https://github.com/sindresorhus/node-cli-boilerplate)
 
 [Modern Modules – Mikeal – Medium](https://medium.com/@mikeal/modern-modules-d99b6867b8f1?imm_mid=0f6b9c&cmp=em-web-na-na-newsltr_20170927)
 [semantic-release/semantic-release: fully automated package publishing](https://github.com/semantic-release/semantic-release)
@@ -660,12 +747,14 @@ GitHub repo can be simplified as `user/repo`:
 
 [developers | npm Documentation](https://docs.npmjs.com/misc/developers)
 [These 6 essential tools will release, version, and maintain your NPM modules for you](https://hackernoon.com/these-6-essential-tools-will-maintain-your-npm-modules-for-you-4cbbee88e0cb)
+[How to Upgrade Dependencies in Your package.json - Better Programming - Medium](https://medium.com/better-programming/how-to-upgrade-dependencies-in-package-json-e5546804187f)
 
 dep bots:  
-[Greenkeeper | Automate your npm dependency management](https://greenkeeper.io/) bot to check if dependency update breaks your module
+[Greenkeeper | Automate your npm dependency management](https://greenkeeper.io/) bot to check if dependency update breaks your module
 [Dependabot](https://dependabot.com/)
 [Depfu: Continuous automated dependency updates for Ruby and JavaScript](https://depfu.com/) bot that creates PR for updated dependency
 [dylang/npm-check: Check for outdated, incorrect, and unused dependencies.](https://github.com/dylang/npm-check)
+[tjunnone/npm-check-updates: Find newer versions of package dependencies than what your package.json or bower.json allows](https://github.com/tjunnone/npm-check-updates)
 [Rever: Releaser of Versions!](https://regro.github.io/rever-docs/)
 
 [FOSSA - Open Source Management for Modern Development](https://fossa.com/) multi-lingual, free-tier
@@ -680,13 +769,53 @@ dep bots:
 
 [nexe by jaredallard](https://jaredallard.me/nexe/)
 
+### Package Size
+
+[Package Phobia](https://packagephobia.com/)
+[styfle/packagephobia: ⚖️ Find the cost of adding a new dependency to your project](https://github.com/styfle/packagephobia)
+
+[Import Cost - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+
 ### Publishing
 
 [sindresorhus/np: A better `npm publish`](https://github.com/sindresorhus/np)
+[fastify/releasify: A tool to release in a simpler way your module](https://github.com/fastify/releasify)
 
 [How to Build and Publish ES6 Modules Today, with Babel and Rollup — Medium](https://medium.com/@tarkus/how-to-build-and-publish-es6-modules-today-with-babel-and-rollup-4426d9c7ca71)
 [inikulin/publish-please: Safe and highly functional replacement for `npm publish`.](https://github.com/inikulin/publish-please)
 [What is npm’s prepublish, and why is it so confusing? — Greenkeeper Blog](https://blog.greenkeeper.io/what-is-npm-s-prepublish-and-why-is-it-so-confusing-a948373e6be1#.ec58iaknh)
+[Testing npm packages before publishing - Carl Vitullo - Medium](https://medium.com/@vcarl/problems-with-npm-link-and-an-alternative-4dbdd3e66811)
+[Publishing flat npm packages for easier import paths & smaller consumer bundle sizes - David Wells](https://davidwells.io/blog/publishing-flat-npm-packages-for-easier-import-paths-smaller-consumer-bundle-sizes) publish `lib/` or `dist/`
+[Publishing Node modules with TypeScript and ES modules - LogRocket Blog](https://blog.logrocket.com/publishing-node-modules-typescript-es-modules/)
+
+```sh
+# updates `package.json` and creates an commit
+npm version patch
+npm version premajor --preid alpha
+
+# pack locally to verify what will be published
+npm pack
+
+# creates a tagged release
+npm publish --tag next
+
+# scoped package have private access (paid feature)
+npm publish --access public
+# or set .nvmrc
+npm config set access public
+```
+
+[prezto/zshrc at master · feross/prezto](https://github.com/feross/prezto/blob/master/runcoms/zshrc#L54-L59)
+
+```sh
+alias patch='preversion && npm version patch && postversion'
+alias minor='preversion && npm version minor && postversion'
+alias major='preversion && npm version major && postversion'
+alias preversion='git pull && git diff --exit-code && git diff --staged --exit-code && npm pack --dry-run --ignore-scripts && rm -rf node_modules/ && npm install && npm test'
+alias postversion='git diff --exit-code && git diff --staged --exit-code && npm run --if-present update-authors && (git diff --exit-code || git commit -am "update authors") && npm run --if-present build && (git diff --exit-code || git commit -am "build") && git push --follow-tags && npm publish'
+```
+
+[mikeal/merge-release: Automatically release all merges to master on npm.](https://github.com/mikeal/merge-release)
 
 ### `package.json`
 
@@ -694,6 +823,11 @@ dep bots:
 [package.json: an interactive guide - browsenpm.org](http://browsenpm.org/package.json)
 
 Use `^` to lock to major version, `~` to lock to minor version. (`npm help update`)
+
+[You, me and package.json - DEV Community 👩‍💻👨‍💻](https://dev.to/xabadu/you-me-and-package-json-1dc2)
+
+[An In-Depth Explanation of package.json’s Dependencies](https://medium.com/better-programming/package-jsons-dependencies-in-depth-a1f0637a3129)
+[package.json 中 你还不清楚的 browser，module，main 字段优先级 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000019438150)
 
 ### Files in package
 
@@ -715,44 +849,31 @@ You can specify `files` in `package.json` to define your own file list, this wil
 
 ### Local Dev Dependency
 
-[Mono-repo or multi-repo? Why choose one, when you can have both?](https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668) `meta`
-[Repo style wars: mono vs multi](http://www.gigamonkeys.com/mono-vs-multi/)
-
-[Advantages of monorepos](https://danluu.com/monorepo/)
-[babel/monorepo.md at master · babel/babel](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
-[Monorepos: Please don’t! – Matt Klein – Medium](https://medium.com/@mattklein123/monorepos-please-dont-e9a279be011b)
-
 [Lerna · A tool for managing JavaScript projects with multiple packages.](https://lernajs.io/)
 [Dombo/node-lerna-monorepo](https://github.com/Dombo/node-lerna-monorepo)
 [Quramy/lerna-yarn-workspaces-example: How to build TypeScript mono-repo project with yarn and lerna](https://github.com/Quramy/lerna-yarn-workspaces-example)
 [Solve code sharing and setup project with Lerna and monorepo - Michal Zalecki](https://michalzalecki.com/solve-code-sharing-and-setup-project-with-lerna-and-monorepo/)
-[Sharing UI Components with Lerna and Yarn Workspaces](https://medium.com/naresh-bhatia/sharing-ui-components-with-lerna-and-yarn-workspaces-be1ebca06efe)
+[Moving from multiple repositories to a lerna-js mono-repo | by Rohan Prabhu | Mitter.io Blog | Medium](https://medium.com/mitterio/multirepo-to-lerna-js-monorepo-80f6657cb443)
 
 [Bit - Share and build with code components](https://bitsrc.io/)
-[Monorepos Made Easier with Bit and NPM – Bits and Pieces](https://blog.bitsrc.io/monorepo-architecture-simplified-with-bit-and-npm-b1354be62870)
+[Monorepos Made Simpler with Bit - Bits and Pieces](https://blog.bitsrc.io/monorepo-architecture-simplified-with-bit-and-npm-b1354be62870)
 
+[Yarn Workspaces: Organize Your Project’s Codebase Like A Pro — Smashing Magazine](https://www.smashingmagazine.com/2019/07/yarn-workspaces-organize-project-codebase-pro/)
+[Workspaces in Yarn | Yarn Blog](https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
 [Workspaces | Yarn](https://yarnpkg.com/lang/en/docs/workspaces/)
 [guigrpa/oao: A Yarn-based, opinionated monorepo management tool](https://github.com/guigrpa/oao)
 
+[wclr/yalc: Work with yarn/npm packages locally like a boss.](https://github.com/wclr/yalc)
+
 [jfhbrook/npmlinxxx: a kinder, gentler alternative to npm link](https://github.com/jfhbrook/npmlinxxx)
+[boltpkg/bolt: ⚡️ Super-powered JavaScript project management](https://github.com/boltpkg/bolt)
 
 [feross/zelda: Automatically `npm link` all your packages together!](https://github.com/feross/zelda) cannot get it work
 
-### Linter
-
-[![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
-
-```
-[![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
-```
-
-[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
-
-```
-[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
-```
+### Linters
 
 [Enforcing Code Quality for Node.js – Hacker Noon](https://hackernoon.com/enforcing-code-quality-for-node-js-c3b837d7ae17)
+[Compare the Top 3 Style Guides and Set Them Up With ESLint](https://medium.com/better-programming/comparing-the-top-three-style-guides-and-setting-them-up-with-eslint-98ea0d2fc5b7)
 
 ### CI and Testing
 
@@ -769,6 +890,8 @@ Most Continuous Integration service provide badges.
 
 [pahen/madge - JavaScript](https://github.com/pahen/madge)
 [auchenberg/dependo](https://github.com/auchenberg/dependo)
+
+[CryogenicPlanet/depp: ⚡ Check your npm modules for unused and duplicate dependencies fast](https://github.com/CryogenicPlanet/depp)
 
 ## Node REPL
 

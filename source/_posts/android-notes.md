@@ -18,14 +18,23 @@ Notes on Android system and console tools available.
 [Android (and Friends) Reading Guide | Linux.org](http://www.linux.org/threads/android-and-friends-reading-guide.6146/)
 [hellogv 的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/hellogv)
 [Android Device - eLinux.org](http://elinux.org/Android_Device)
+[Android Trends in 2020 - AndroidPub](https://android.jlelse.eu/android-trends-in-2020-d6a2930596a)
 
 [Android versions: A living history from 1.0 to today | Computerworld](https://www.computerworld.com/article/3235946/android/android-versions-a-living-history-from-1-0-to-today.html)
-[Android Oreo: 18 advanced tips and tricks | Computerworld](https://www.computerworld.com/article/3250625/android/android-oreo-18-advanced-tips-and-tricks.html)
 [Stock Android vs Android One vs Android Go: the differences explained](https://www.androidauthority.com/stock-android-vs-android-one-vs-android-go-860020/)
+[Android Oreo: 18 advanced tips and tricks | Computerworld](https://www.computerworld.com/article/3250625/android/android-oreo-18-advanced-tips-and-tricks.html)
+[10 hidden tricks for making the most of Android 10's gestures | Computerworld](https://www.computerworld.com/article/3439060/android-10-gestures.html)
+[How to take full advantage of Android 10's privacy-reclaiming powers | Computerworld](https://www.computerworld.com/article/3437337/android-10-privacy.html)
 
 [Secret settings hidden in your Android phone will make it feel twice as fast – BGR](https://bgr.com/2018/06/26/android-vs-iphone-secret-settings-increase-android-speed/amp/)
 
 [How A/B Partitions and Seamless Updates Affect Custom Development on XDA](https://www.xda-developers.com/how-a-b-partitions-and-seamless-updates-affect-custom-development-on-xda/)
+
+## Android is not Open
+
+[Here we go again: Android is, apparently, not open – OSnews](https://www.osnews.com/story/27565/here-we-go-again-android-is-apparently-not-open/)
+[Neither Microsoft, Nokia, nor anyone else should fork Android. It’s unforkable. – Ars Technica](https://arstechnica.com/information-technology/2014/02/neither-microsoft-nokia-nor-anyone-else-should-fork-android-its-unforkable/?amp=1)
+[New Android OEM licensing terms leak; “Open” comes with a lot of restrictions – Ars Technica](https://arstechnica.com/gadgets/2014/02/new-android-oem-licensing-terms-leak-open-comes-with-restrictions/?amp=1)
 
 ## Android Apps
 
@@ -36,6 +45,12 @@ Notes on Android system and console tools available.
 [Save time with efficiency-boosting Android apps | Computerworld](https://www.computerworld.com/article/3208108/android/android-apps-efficiency-timesaving.html)
 
 [Termux](https://termux.com/) Android terminal emulator and Linux environment app
+
+### Play Store Alternatives
+
+[使用 APKPure APK 下載器在線極速下載原版應用 - APKPure 官網](https://apkpure.com/tw/)
+[QooApp Game Store](https://apps.qoo-app.com/en)
+[F-Droid - Free and Open Source Android App Repository](https://f-droid.org/en/)
 
 ## UserLAnd
 
@@ -50,6 +65,14 @@ Notes on Android system and console tools available.
 Kotlin was supported officially as a language for Android dev at Google I/O 2017.
 [A Complete Guide To Learn Kotlin For Android Development](https://blog.mindorks.com/a-complete-guide-to-learn-kotlin-for-android-development-b1e5d23cc2d8)
 [A Developer's Intro to Android](https://blog.scottlogic.com/2018/12/05/a-developers-intro-to-android.html)
+[Your First Kotlin Android App | raywenderlich.com](https://www.raywenderlich.com/4936497-your-first-kotlin-android-app)
+
+[Developing Android Apps with Kotlin | Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
+[Advanced Android with Kotlin | Udacity](https://www.udacity.com/course/advanced-android-with-kotlin--ud940)
+
+[Google Codelabs](https://codelabs.developers.google.com/?cat=Android)
+[Android Kotlin Fundamentals Course](https://codelabs.developers.google.com/android-kotlin-fundamentals/)
+[Advanced Android in Kotlin Course](https://codelabs.developers.google.com/advanced-android-kotlin-training/)
 
 [Android CPU, Compilers, D8 & R8 – ProAndroidDev](https://proandroiddev.com/android-cpu-compilers-d8-r8-a3aa2bfbc109)
 
@@ -58,11 +81,11 @@ Kotlin was supported officially as a language for Android dev at Google I/O 2017
 [AndroidDev – AndroidPub](https://android.jlelse.eu/tagged/androiddev)
 [AndroidXRef](http://androidxref.com/)
 
-[Developing Android Apps | Udacity](https://www.udacity.com/course/new-android-fundamentals--ud851)
-
-[[GUIDE] Understanding the Android Source Cod… | Android Development and Hacking](https://forum.xda-developers.com/showthread.php?t=2620389)
-[[GUIDE] Learning about the Android Build Pro… | Android Development and Hacking](https://forum.xda-developers.com/showthread.php?t=2751407)
+[[GUIDE] Understanding the Android Source Code | XDA Forums](https://forum.xda-developers.com/t/guide-understanding-the-android-source-code.2620389/)
+[[GUIDE] Learning about the Android Build Process | XDA Forums](https://forum.xda-developers.com/t/guide-learning-about-the-android-build-process.2751407/)
 [Android Source Diving: A Video Tutorial](https://possiblemobile.com/2013/12/android-source-diving-video-tutorial/)
+
+[Data Binding in Android: A tutorial with examples - LogRocket Blog](https://blog.logrocket.com/data-binding-android-tutorial-with-examples/)
 
 [Modern Android development with Kotlin, Part 1 – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-september-2017-part-1-f976483f7bd6)
 [Modern Android development with Kotlin (Part 2) – ProAndroidDev](https://proandroiddev.com/modern-android-development-with-kotlin-september-2017-part-2-17444fcdbe86)
@@ -91,32 +114,41 @@ Kotlin was supported officially as a language for Android dev at Google I/O 2017
 
 ### Jetpack
 
-[Android Jetpack  |  Android Developers](https://developer.android.com/jetpack/) !important, new standard library compatible with Kotlin
-[Guide to app architecture  |  Android Developers](https://developer.android.com/jetpack/docs/guide)
-[Android Architecture Components  |  Android Developers](https://developer.android.com/jetpack/arch/)
+[Android Jetpack | Android Developers](https://developer.android.com/jetpack/) !important, new standard library compatible with Kotlin
+[Guide to app architecture | Android Developers](https://developer.android.com/jetpack/docs/guide)
+[Android Architecture Components | Android Developers](https://developer.android.com/jetpack/arch/)
+[Jetpack Compose | Android Developers](https://developer.android.com/jetpack/compose) UI toolkit with Kotlin DSL
 
 [Android Developers Blog: Hello World, AndroidX](https://android-developers.googleblog.com/2018/05/hello-world-androidx.html)
 [Android Jetpack Brings WorkManager, Navigation and More](https://www.infoq.com/news/2018/05/android-jetpack-released)
 [Android Jetpack — Foundation — Android KTX — Part 1 Chapter 2](https://android.jlelse.eu/android-jetpack-foundation-android-ktx-part-1-chapter-2-539960007341)
 
+[Compose From First Principles | Intelligible Babble](http://intelligiblebabble.com/compose-from-first-principles/)
+[Store grand re-opening: loading Android data with coroutines - Dropbox](https://dropbox.tech/mobile/store-grand-re-opening-loading-android-data-with-coroutines)
+
 ### Room ORM
 
-[Room Persistence Library  |  Android Developers](https://developer.android.com/topic/libraries/architecture/room)
+[Room Persistence Library | Android Developers](https://developer.android.com/topic/libraries/architecture/room)
 [7 Steps To Room – Google Developers – Medium](https://medium.com/google-developers/7-steps-to-room-27a5fe5f99b2)
 
 [MatrixDev/Roomigrant: Automated Android Room ORM migrations generator with compile-time code generation](https://github.com/MatrixDev/Roomigrant)
 
-## Samsung Note 3
+### Transition
 
-Latest official Note 3 supports Android Lollipop only.
-
-[Android 8.1 Oreo + Root for Galaxy Note 3! [Lineage OS 15.1 ROM] - YouTube](https://www.youtube.com/watch?v=1arE3oyZX6o)
+[Animate layout changes using a transition | Android Developers](https://developer.android.com/training/transitions)
+[Android Transition Framework: Getting Started | raywenderlich.com](https://www.raywenderlich.com/1376936-android-transition-framework-getting-started)
 
 ## Android for PC
 
 [What’s Remix OS for PC?\_Remix OS for PC is built on the Android-x86 - Jide Technology](http://www.jide.com/en/remixos-for-pc)
 [Remix OS](http://www.jide.com/en/remixos)
 [Android-x86 - Porting Android to x86](http://www.android-x86.org/)
+
+## Bluestacks
+
+[BlueStacks –電腦和 Mac 上最快的安卓模擬器| 100％安全免費](https://www.bluestacks.com/tw/index.html)
+
+[How can I install APK file on Bluestacks app player? - Android Enthusiasts Stack Exchange](https://android.stackexchange.com/questions/42983/how-can-i-install-apk-file-on-bluestacks-app-player)
 
 ## Android sysadmin
 
@@ -166,15 +198,32 @@ cat /proc/bus/input/devices
 [APK Downloader [Latest] Download Directly | Chrome Extension v3 (Evozi Official)](http://apps.evozi.com/apk-downloader/)
 [QooApp - 日韓遊戲專家！ACG Android Game Platform](http://apk.qoo-app.com/)
 
-## adb
+## Python on Android
 
-[Android Debug Bridge (adb)  |  Android Developers](https://developer.android.com/studio/command-line/adb)
+[Chaquopy – Python SDK for Android](https://chaquo.com/chaquopy/)
+
+## Remote mouse
+
+[悟空遥控器](https://play.google.com/store/apps/details?id=com.wukongtv.wkremote.client) is an Android app that is able to allow mobile to control Android STB remotely. The server app does not require rooting and system integration. It draws the cursor on an overlay layer and issue commands to `Input` framework.
+
+[Programmatically Injecting Events on Android - Part 1 - PocketMagic](http://www.pocketmagic.net/injecting-events-programatically-on-android/)
+[Programmatically Injecting Events on Android - Part 2 - PocketMagic](http://www.pocketmagic.net/programmatically-injecting-events-on-android-part-2/)
+[Android Overlay Mouse Cursor - PocketMagic](http://www.pocketmagic.net/android-overlay-cursor/)
+
+## Debugging
+
+[bytedance/btrace: 🔥🔥 btrace(AKA RheaTrace) is a high performance Android trace tool which is based on Systrace, it support to define custom events automatically during building apk and using bhook to provider more native events like IO.](https://github.com/bytedance/btrace)
+
+### adb
+
+[Android Debug Bridge (adb) | Android Developers](https://developer.android.com/studio/command-line/adb)
+[ashishb/adb-enhanced: 🔪Swiss-army knife for Android testing and development 🔪 ⛺](https://github.com/ashishb/adb-enhanced)
 
 `adb` comes with the Android SDK.
 
 [How to Install ADB on Windows, macOS, and Linux](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
-### Enable adb via TCP
+#### Enable adb via TCP
 
 On PC:
 
@@ -195,32 +244,24 @@ start adbd
 adb connect <DEVICE_IP_ADDRESS>:5555
 ```
 
-## Remote mouse
+### logcat
 
-[悟空遥控器](https://play.google.com/store/apps/details?id=com.wukongtv.wkremote.client) is an Android app that is able to allow mobile to control Android STB remotely. The server app does not require rooting and system integration. It draws the cursor on an overlay layer and issue commands to `Input` framework.
-
-[Programmatically Injecting Events on Android - Part 1 - PocketMagic](http://www.pocketmagic.net/injecting-events-programatically-on-android/)
-[Programmatically Injecting Events on Android - Part 2 - PocketMagic](http://www.pocketmagic.net/programmatically-injecting-events-on-android-part-2/)
-[Android Overlay Mouse Cursor - PocketMagic](http://www.pocketmagic.net/android-overlay-cursor/)
-
-## logcat
-
-### logcat filtering (Eclipse and Android Studio)
+#### logcat filtering (Eclipse and Android Studio)
 
 pid:
 text:
 app: package name (`com.example.android.bluetoothlegatt`)
 tag: `^(?!.*(DeskClock|dalvik|wpa)).*$`, `^(?!(BluetoothAdapter|AbsListView))`
 
-### android-log-viewer
+#### android-log-viewer
 
 https://bitbucket.org/mlopatkin/android-log-viewer
 
-### logcat (node)
+#### logcat (node)
 
 https://www.npmjs.com/package/logcat
 
-### pidcat (python)
+#### pidcat (python)
 
 https://github.com/JakeWharton/pidcat
 

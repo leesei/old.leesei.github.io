@@ -20,9 +20,13 @@ tags:
 [NVIDIA/nvidia-container-runtime: NVIDIA container runtime](https://github.com/nvidia/nvidia-container-runtime#installation) a modified runC that will invoke `nvidia-container-cli` from project `libnvidia-container` when container starts.  
 [NVIDIA/libnvidia-container: NVIDIA container runtime library](https://github.com/NVIDIA/libnvidia-container)
 
+[NVIDIA GPU Operator: Simplifying GPU Management in Kubernetes | NVIDIA Developer Blog](https://devblogs.nvidia.com/nvidia-gpu-operator-simplifying-gpu-management-in-kubernetes/)
+
 # Installation
 
-[Installation (version 2.0) · NVIDIA/nvidia-docker Wiki](https://github.com/NVIDIA/nvidia-docker/wiki/Installation-%28version-2.0%29)
+[Migration from nvidia-docker 1.0 — NVIDIA Cloud Native Technologies documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/migrating-from-1.0.html#migration-1-0)
+[Installation Guide — NVIDIA Cloud Native Technologies documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+[Installation (version 2.0) · NVIDIA/nvidia-docker Wiki](<https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)>)
 
 ## Docker
 
@@ -33,7 +37,7 @@ tags:
 ```sh
 sudo apt install libltdl7
 sudo dpkg -i docker-ce_17.06.2-ce-0-ubuntu_amd64.deb
-sudo systemctl enable docker && sudo systemctl start docker
+sudo systemctl enable --now docker
 sudo usermod -a -G docker ${USER}
 ```
 
@@ -60,7 +64,7 @@ nvcc --version
 [解决 Driver/library version mismatch | Comzyh 的博客](https://comzyh.com/blog/archives/967/)  
 Also fixed by a reboot
 [Proprietary GPU Drivers : “Graphics Drivers” team](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa)
-https://blog.csdn.net/xianglao1935/article/details/80512345
+[ImportError: /usr/local/cuda-8.0/lib64/libcudnn.so.5: file too short - xianglao1935 的博客 - CSDN 博客](https://blog.csdn.net/xianglao1935/article/details/80512345)
 
 ## `nvidia-docker2`
 

@@ -1,7 +1,7 @@
 ---
 title: Image Formats
 categories:
-- standard
+  - standard
 toc: true
 date: 2016-08-04 16:12:51
 ---

@@ -2,10 +2,10 @@
 title: "UML"
 date: 2015-04-14 01:00:12
 categories:
-- app
+  - app
 tags:
-- uml
-- yed
+  - uml
+  - yed
 toc: true
 ---
 
@@ -39,27 +39,28 @@ Flash-based [GraphMLViewer](https://www.yworks.com/products/graphmlviewer)
 
 [Properties of Graph Elements | yEd](http://yed.yworks.com/support/manual/properties.html#custom_properties)
 
-They are saved in the file and *local* to the file.
+They are saved in the file and _local_ to the file.
 Use `template.graphml` to inherit these. You can also copy and paste the nodes.
 
 ## Properties Mapper
 
 [Mapping Custom Properties to Visual Properties | yEd](http://yed.yworks.com/support/manual/properties_mapper.html)
 
-*Properties Mapper* is a tool to change visual properties according to a given attribute. It allowed flexibility and consistency to style the content of the graph. This is a yEd app feature that can be applied to all graphs. The map can be exported.
+_Properties Mapper_ is a tool to change visual properties according to a given attribute. It allowed flexibility and consistency to style the content of the graph. This is a yEd app feature that can be applied to all graphs. The map can be exported.
 
 "Tooltip" in property mapper is actually "Description" of the node.
 
-*Properties Mapper* can change most of the properties: fill color, label text and styles, position, border.
+_Properties Mapper_ can change most of the properties: fill color, label text and styles, position, border.
 
 The node type is mapped by (multiple) template mapping. However the label is reset upon applying such change. This is [by design](http://yed.yworks.com/support/qa/8462/label-cleared-after-applying-template-property).
 We can use another custom property and apply as label in property mapper but:
+
 - we don't get the immediate feedback of the label
 - makes the editing process more troublesome (label should be read-only)
 
 ## Tips
 
-- edge (which may not be visible) can be selected in the *Neighborhood Window* of a node
-- use *Orthogonal Edges* by default; move/delete the turning points to control how it routes (disable *Orthogonal Edges* temporarily if it creates over complicated results)
+- edge (which may not be visible) can be selected in the _Neighborhood Window_ of a node
+- use _Orthogonal Edges_ by default; move/delete the turning points to control how it routes (disable _Orthogonal Edges_ temporarily if it creates over complicated results)
 - edge by default originates from and targets to center of node, it can be moved after selecting the edge (needed when a node has multiple edges)
 - distribute group of nodes vertically (`Ctrl+Shift+v`)/horizontally (`Ctrl+Shift+h`)

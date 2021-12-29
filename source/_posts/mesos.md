@@ -10,7 +10,7 @@ date: 2016-03-21 18:48:23
 
 # Mesos
 
-[Apache Mesos](http://mesos.apache.org/) [Github](https://github.com/mesos)
+[Apache Mesos](http://mesos.apache.org/) [GitHub](https://github.com/mesos)
 [Apache Mesos - Wikiwand](http://www.wikiwand.com/en/Apache_Mesos)
 
 Apache Mesos is inspired by the Google's paper of their Borg system. It abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively. Twitter have been using it since 2007.
@@ -43,13 +43,15 @@ Mesos is best run on bare metal or on VM.
 
 ## Mesosphere
 
-[Introducing The Mesosphere Datacenter Operating System](https://mesosphere.com/) [Github](https://github.com/mesosphere)
+[Introducing The Mesosphere Datacenter Operating System](https://mesosphere.com/) [GitHub](https://github.com/mesosphere)
 [Blog - Mesosphere](https://mesosphere.com/blog/)
 
 [Mesosphere OS manages entire data centers with one click | InfoWorld](http://www.infoworld.com/article/2933324/data-center/mesosphere-os-manages-entire-data-centers-with-one-click.html)
 [Taking Mesos to the next level with DC/OS](https://mesosphere.com/blog/2016/04/19/hindman-mesos-dcos/)
 
 ## Marathon
+
+[Mesosphere Becomes D2IQ, Moves Into Kubernetes, Big Data | Data Center Knowledge](https://www.datacenterknowledge.com/startups/mesosphere-becomes-d2iq-moves-kubernetes-big-data)
 
 [Marathon: A cluster-wide init and control system for services in cgroups or Docker containers](https://mesosphere.github.io/marathon/)
 [mesosphere/marathon: Deploy and manage containers (including Docker) on top of Apache Mesos at scale.](https://github.com/mesosphere/marathon)
@@ -65,9 +67,8 @@ Chronos is used to execute services at particular time, like cron, for batch pro
 
 ## Aurora
 
-[Apache Aurora](http://aurora.apache.org/) [Github](https://github.com/apache/aurora)
+[Apache Aurora](http://aurora.apache.org/) [GitHub](https://github.com/apache/aurora)
 Aurora is a Mesos framework for long-running services and batch jobs. It is build by Twitter and the creator Bill Farner joined Docker Inc.
 
 [Introduction to Apache Aurora - YouTube](https://www.youtube.com/watch?v=asd_h6VzaJc)
 [mesos - Marathon vs Aurora and their purposes - Stack Overflow](http://stackoverflow.com/questions/28651922/marathon-vs-aurora-and-their-purposes)
-

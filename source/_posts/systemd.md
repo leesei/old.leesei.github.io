@@ -1,9 +1,9 @@
 ---
 title: systemd
 categories:
-- linux
+  - linux
 tags:
-- desktop
+  - desktop
 toc: true
 date: 2017-01-05 11:18:07
 ---
@@ -13,42 +13,61 @@ date: 2017-01-05 11:18:07
 [systemd - ArchWiki](https://wiki.archlinux.org/index.php/systemd)
 [systemd - Debian Wiki](https://wiki.debian.org/systemd)
 [TipsAndTricks](http://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/)
+[systemd.index](https://www.freedesktop.org/software/systemd/man/index.html)
 
 [Rethinking PID 1](http://0pointer.de/blog/projects/systemd.html)
 [The Biggest Myths](http://0pointer.de/blog/projects/the-biggest-myths.html) by author of `systemd`
+[EWONTFIX - Broken by design: systemd](http://ewontfix.com/14/)
 
 [Meet systemd, the controversial project taking over a Linux distro near you | PCWorld](http://www.pcworld.com/article/2841873/meet-systemd-the-controversial-project-taking-over-a-linux-distro-near-you.html)
 [How To Use Systemctl to Manage Systemd Services and Units | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 [Systemd Essentials: Working with Services, Units, and the Journal | DigitalOcean](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 [media.ccc.de - systemd in 2018](https://media.ccc.de/v/ASG2018-230-systemd_in_2018/oembed)
 
-System services are written in `.service` files, located in:
-`/usr/lib/systemd/system` (enabled) and `/usr/lib/systemd/system/` (available).
+[Archlinux, systemd-free](http://systemd-free.org/)
+
+## Unit files
+
+Unit files are compiled to C code for faster bootup time.
+`man 5 systemd.unit`, `systemctl cat <unit>`
+`systemctl list-unit-files` - List all services in system
+
+System services are written in unit files, located in:
+
+- `/lib/systemd/system` (system, installed by package manager, read only)
+- `/usr/lib/systemd/system/` (system, installed by package manager, read only)
+- `/etc/systemd/system/` (custom, overrides `/usr`)
+- `/run/systemd/system/` (temporary)
+
+Drop-in unit file:
+`/etc/systemd/system/httpd.service.d/myconf.conf`
+`systemctl edit --full <service.unit>`
 
 This is what `systemctl enable teamviewerd` does:
 
 ```sh
-ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/graphical.target.wants/teamviewerd.service'
+ln -s '/usr/lib/systemd/system/teamviewerd.service' '/etc/systemd/system/multi-user.target.wants/teamviewerd.service'
 ```
 
-`/etc/systemd/system/display-manager.service` symlinks to the DM (or `plymouth` wrapper).
-
-[Archlinux, systemd-free](http://systemd-free.org/)
-
-`systemd-ui`
-
-[systemctl command man page - systemd | ManKier](https://www.mankier.com/1/systemctl)
-[systemd-analyze command man page - systemd | ManKier](https://www.mankier.com/1/systemd-analyze)
-
-```
-systemd-analyze blame | head -5
-```
+### Service units
 
 [Running Node.js on Linux with systemd - via @codeship | via @codeship](https://blog.codeship.com/running-node-js-linux-systemd/)
+[How to Run a Linux Program at Startup with systemd](https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/amp/)
+
+!! Remember to `systemctl enable <service>` after adding service file. !!
+
+[therootcompany/serviceman: Cross-platform service management for Mac, Linux, and Windows.](https://github.com/therootcompany/serviceman)
+[Serviceman | webinstall.dev](https://webinstall.dev/serviceman/)
+
+```sh
+sudo env PATH="$PATH" \
+    serviceman add --system --username $(whoami) --name caddy -- \
+        caddy run --config ./Caddyfile
+```
 
 Docker service example:
 
-```
+```ini
 [Unit]
 Description=Redis container
 Requires=docker.service
@@ -63,15 +82,77 @@ ExecStop=/usr/bin/docker stop -t 2 redis_server
 WantedBy=local.target
 ```
 
+```ini
+# /etc/systemd/system/docker-compose-gogs.service
+
+[Unit]
+Description=Gogs Service (Docker Compose)
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/git/gogs
+ExecStart=/usr/local/bin/docker-compose up -d
+ExecStop=/usr/local/bin/docker-compose down
+TimeoutStartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Timer units
+
+`man 5 systemd.timer`
+`man 7 systemd.time`
+`systemctl list-timers` list all timers in system
+`systemd-run --on-active=1m <cmd>` one shot timer
+
+```ini
+# timer.timer
+[Unit]
+Description=Timer to kick off timer service
+
+[Timer]
+# monotonic, every N seconds
+OnBootSec=
+OnUnitActiveSrc=
+
+# realtime, akin to cron
+OnCalendar=
+Persistent=true # run on boot if last timer is missed
+
+Unit= # unit name
+
+[Install]
+WantedBy=timer.target # run service of the same name by default
+```
+
+## systemd container
+
+`systemd-nspawn`
+
+1. place OS tree in /var/lib/machines/<container name>
+
+```sh
+machinectl pull-raw --verify=checksum <URL>
+# set container root password
+systemd-nspawn -D /var/lib/machines/<container name>
+```
+
+2. `systemd-nspawn -M <container name>`
+3. `machinectl enable <container name>` or `systemctl enable systemd-nspawn@<container name>`
+
 ## systemctl
+
+[systemctl command man page - systemd | ManKier](https://www.mankier.com/1/systemctl)
 
 `systemctl` - List active services in system
 
-`systemctl list-unit-files` - List all services in system
-
 `systemctl --all` - List all services in system
 
-`systemctl start SERVICE.service` - Use it to start a service. Does not persist after reboot   
+`systemctl start SERVICE.service` - Use it to start a service. Does not persist after reboot
 
 `systemctl stop SERVICE.service` - Use it to stop a service. Does not persist after reboot
 
@@ -90,6 +171,28 @@ WantedBy=local.target
 `systemctl is-active SERVICE.service` - Check if a service is currently active.
 
 `systemctl show SERVICE.service` - Show all the information about the service.
+
+`systemctl daemon-reload`: rewrite and reload all dependencies.
+
+## tools
+
+[systemd-cgls](https://www.freedesktop.org/software/systemd/man/systemd-cgls.html)
+
+`systemd-ui`
+
+[systemd-analyze command man page - systemd | ManKier](https://www.mankier.com/1/systemd-analyze) analyse boot time
+
+```
+systemd-analyze blame | head -5
+```
+
+systemd specific locale and timezone:
+`localectl`
+`timedatectl`
+
+`hostnamectl`: `set-location`
+
+`systemd-inhibit`: run command with suspending
 
 ## Lennart Poettering
 
@@ -133,14 +236,29 @@ sudo journalctl --vacuum-size=500M
 ```sh
 # jump to end
 journalctl -e
+# show only this boot
+journalctl -b
 # reverse logs
 journalctl -r
 # follow journal
 journalctl -f
+# time filtering `--since` and `--until`
+journalctl --since "2019-09-25 15:00"
 # filter to `docker` service
-journalctl -u
+journalctl -u docker.service
+# add entry to journal
+echo "here" | systemd-cat
+
+# kernel logs (akin to dmesg)
+journalctl -k
+
+# formatting output
+# man 7 system.journal-fields
+journalctl -o verbose
+journalctl -o json-pretty
 ```
 
 ## Binding
 
+[python-systemd package — python-systemd documentation](https://www.freedesktop.org/software/systemd/python-systemd/)
 [torfsen/python-systemd-tutorial: A tutorial for writing a systemd service in Python](https://github.com/torfsen/python-systemd-tutorial)

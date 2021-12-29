@@ -14,6 +14,12 @@ toc: true
 [cyber-pro](http://www.cyber-system-pro.com.hk/)
 [Compare Laptops - Latest laptop Comparison by Price, Specification, Features, Performance & Reviews | Gadgets Now](https://www.gadgetsnow.com/compare-laptops)
 
+![Panels](./computer-laptops/ABCD panel.png)
+A: LCD Back Cover
+B: Front bezel
+C: Palmrest
+D: Bottom Case
+
 [2019 年 10 款轻薄笔记本推荐：这些真的不错，值得等待 - 知乎](https://zhuanlan.zhihu.com/p/54727484)
 
 [Mobile Internet device - Wikiwand](https://www.wikiwand.com/en/Mobile_Internet_device)
@@ -22,14 +28,25 @@ toc: true
 
 ## Lenovo
 
+[ThinkWiki](https://www.thinkwiki.org/wiki/ThinkWiki)
+
 Lookup spec by product ID
 [partslookup - HK](https://support.lenovo.com/hk/en/partslookup)
+[Home - Global Support - US](https://support.lenovo.com/us/en/)
 [Product Specifications Reference(PSREF)](http://psref.lenovo.com/)
+
+[[ROM][ICS]Ideapad K1 Official Release - Lenovo Community](https://forums.lenovo.com/t5/Lenovo-Android-based-Tablets-and/ROM-ICS-Ideapad-K1-Official-Release/td-p/810399)
 
 [THINK: A brief history of ThinkPads, from IBM to Lenovo - NotebookCheck.net News](https://www.notebookcheck.net/THINK-A-brief-history-of-ThinkPads-from-IBM-to-Lenovo.418728.0.html)
 [ThinkPad 综合站 - 知乎](https://zhuanlan.zhihu.com/thinkpad)
 [2019 年 ThinkPad X390、T490、T490s 新機速報！ - 知乎](https://zhuanlan.zhihu.com/p/58196612)
 [Lenovo ThinkPad T480s vs. Lenovo ThinkPad X1 Carbon | Digital Trends](https://www.digitaltrends.com/computing/lenovo-thinkpad-t480s-vs-lenovo-thinkpad-x1-carbon/)
+
+[How to upgrade the SSD in Lenovo's ThinkPad X1 Carbon | Windows Central](https://www.windowscentral.com/how-upgrade-ssd-lenovo-thinkpad-x1-carbon?amp)
+
+[Lenovo Thinkpad X1 Carbon - Battery Replacement - YouTube](https://www.youtube.com/watch?v=ic6nqacxd9o)
+[ThinkPad: X Series Laptops-Lenovo Community](https://forums.lenovo.com/t5/ThinkPad-X-Series-Laptops/Battery-Not-Detected-2019-Thinkpad-X1-Carbon-7th-Gen-20QD/m-p/5010935)
+[power management - Lenovo X1 Thinkpad battery not charging in 17.04 - Ask Ubuntu](https://askubuntu.com/questions/980490/lenovo-x1-thinkpad-battery-not-charging-in-17-04)
 
 ## 13.3"
 
@@ -63,7 +80,7 @@ hidden webcam, fanless, upward speaker, 450 nits display
 [Lenovo ThinkPad X390 (i5-8265U, FHD) Laptop Review - NotebookCheck.net Reviews](https://www.notebookcheck.net/Lenovo-ThinkPad-X390-i5-8265U-FHD-Laptop-Review.419740.0.html)
 Intel i5-8265U, 8GB RAM, 13" 1920x1080 IPS, 256GB NVMe SSD, Intel 620, 48Wh, 1.22 kg \$9850
 Intel i5-8265U, 8GB RAM, 13" 1920x1080 IPS, 512GB NVMe SSD, Intel 620, 48Wh, 1.22 kg \$10550
-Touch +$850
+Touch +\$850
 
 [NP910S3L-M01HK](http://www.samsung.com/hk_en/consumer/computer-peripherals/personal-computers/notebook/NP910S3L-M01HK?subsubtype=notebook-9)
 [Samsung NP910S3L-M01HK 價格、規格及用家意見 - 香港格價網 Price.com.hk](http://www.price.com.hk/product.php?p=232912)
@@ -161,7 +178,25 @@ Core i5-7200U 8GB 14" 1920x1080 Touch IPS 256GB 48Wh 1.8kg \$4490
 [ASUSPRO P5430UA-FA0132E-Dark Grey >ASUS U](http://store.asus.com/uprogramhk/item/201607AM280001548)
 Core i5-6200U 8GB 14" 1920x1080 512GB+1TB 46Wh 1.76kg \$4500 (U program)
 
+## Framework
+
+[A COMPLETELY Upgradeable Laptop? - YouTube](https://www.youtube.com/watch?v=0rkTgPt3M4k)
+[This Is How All Laptops Should Be Made!! - Framework Laptop Teardown - YouTube](https://www.youtube.com/watch?v=QmyAUIo79EU)
+[The Framework Laptop is a Risky Gamble... But I Love It. - YouTube](https://www.youtube.com/watch?v=jmgBwMHpP1w)
+
 ## Chromebook
 
+[Chrome Unboxed | Chromebooks | Chromecast | Assistant | News](https://chromeunboxed.com/)
+[2019 Chromebook Comparison Chart](https://www.chromebookchart.com/)
+[Chromebook Comparison and 2021 Buyer's Guide](https://www.starryhope.com/chromebooks/chromebook-comparison-chart/)
+[Best Chromebook in 2021 | ZDNet](https://www.zdnet.com/article/best-chromebook-2021/)
+[TOP 5: Best Chromebook 2019 - YouTube](https://www.youtube.com/watch?v=8p3yqI-0520)
+[2021 年 Chromebook 選購活用：Chrome OS 操作介面又進化、跨裝置接軌使用 Android 裝置 | T 客邦](https://www.techbang.com/posts/89854-what-to-know-before-purchasing-a-chromebook-a-pen-option-other)
+The best Chromebook you can buy (2016): Acer Chromebook R11
+
+[From Netbooks To Desktop Replacements - The History Of Chrome OS | Android Headlines](https://www.androidheadlines.com/amp/2019/05/google-chrome-os-entire-history.html)
+
 [Lenovo ThinkPad 13 Chromebook 價格、規格及用家意見 - 香港格價網 Price.com.hk](http://www.price.com.hk/product.php?p=242934) $2698
-[Acer Chromebook R 11價格、規格及用家意見 - 香港格價網 Price.com.hk](http://www.price.com.hk/product.php?p=230709) $2698
+[Acer Chromebook R 11 價格、規格及用家意見 - 香港格價網 Price.com.hk](http://www.price.com.hk/product.php?p=230709) $2698
+
+[\$2,200 有找硬撼 iPad 聯想 IdeaPad Duet Chromebook 上市 - ePrice.HK 流動版](https://m.eprice.com.hk/nb/talk/1078/27156/1/) \$2200

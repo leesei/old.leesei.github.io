@@ -5,15 +5,18 @@ categories:
 toc: true
 date: 2015-08-28 11:45:23
 tags:
-- node-webit
-- nw-js
+  - node-webit
+  - nw-js
 ---
 
-[NW.js](http://nwjs.io/) ([Github](https://github.com/nwjs/nw.js)), previously node-webkit, is a platform that bundles Chromium and Node.js runtime for developers to write cross-platform desktop applications with JavaScript and HTML.
+[NW.js](http://nwjs.io/) ([GitHub](https://github.com/nwjs/nw.js))
+previously node-webkit, is a platform that bundles Chromium and Node.js runtime for developers to write cross-platform desktop applications with JavaScript and HTML.
 
 [NW.js Documentation](http://docs.nwjs.io/en/latest/)
 
 It is very similar to the [Electron](http://nwjs.io/) project but the differences are explained [here](http://electron.atom.io/docs/latest/development/atom-shell-vs-node-webkit/).
+
+[Creating cross-platform apps with NW.js - LogRocket Blog](https://blog.logrocket.com/creating-cross-platform-apps-nw-js/)
 
 It merged Chromium's `MessagePump*` with Node's `libuv` event loop.
 

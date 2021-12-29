@@ -13,21 +13,38 @@ toc: true
 [How Game Engines Work! - YouTube](https://www.youtube.com/watch?v=DKrdLKetBZE)
 [你瞭解「遊戲引擎」麼？【就知道玩遊戲 43】 - YouTube](https://www.youtube.com/watch?v=M0Q7iNKI5uc)
 [你瞭解遊戲引擎麼(二)：引擎進化的腳步【就知道玩遊戲 51】 - YouTube](https://www.youtube.com/watch?v=lyqdhw-ws6w)
-[【极客周刊】玩游戏为何要 60 帧才流畅，电影却只需 24 帧？ - YouTube](https://www.youtube.com/watch?v=--OKrYxOb6Y)
+[借虚幻 5 发布，我们来聊聊以前的那些游戏图像引擎【Gadio Pro】丨机核 - YouTube](https://www.youtube.com/watch?v=DwbmaIHxZj4)
+[How do games render their scenes? | Bitwise - YouTube](https://www.youtube.com/watch?v=Oct4Oi-KfVQ)
+
+[quill18creates - YouTube](https://www.youtube.com/user/quill18creates)
 
 [List of game engines - Wikiwand](http://www.wikiwand.com/en/List_of_game_engines)
 [First-person shooter engine - Wikiwand](http://www.wikiwand.com/en/First-person_shooter_engine)
 [List of first-person shooter engines - Wikiwand](http://www.wikiwand.com/en/List_of_first-person_shooter_engines)
 
-[Game timers: Issues and solutions of variable framerate](http://fabiensanglard.net/timer_and_framerate/index.php)
-[Game Programming Patterns](http://gameprogrammingpatterns.com/)
-[OpenGameArt.org](https://opengameart.org/)
+[Learn .NET Game Development | Free tutorials, courses, videos, and more](https://dotnet.microsoft.com/learn/games)
+
+## MonoGame
+
+[MonoGame Archives | .NET Blog](https://devblogs.microsoft.com/dotnet/tag/monogame/)
+[[Guest Post] Creating a game art asset pipeline in .NET | .NET Blog](https://devblogs.microsoft.com/dotnet/creating-a-game-art-asset-pipeline-in-net/)
+
+## Assets
 
 [ellisonleao/magictools: A list of Game Development resources to make magic happen.](https://github.com/ellisonleao/magictools)
-[Game Development Tutorials](http://www.lessmilk.com/)
-[The 2018 Game Developer Roadmap – codeburst](https://codeburst.io/the-2018-game-developer-roadmap-e07e45b3c423)
 
-### Comparisons
+[Pixeland · Manipulating pre-made game assets](https://pixeland.io/blog/manipulating-pre-made-game-assets)
+
+[Kenney · Assets](https://kenney.nl/assets)
+
+[OpenGameArt.org](https://opengameart.org/)
+[Free Icons](https://icons8.com/icons)
+[Game Art 2D - Royalty Free 2D Game Assets](https://www.gameart2d.com/)
+
+[ccMixter - Welcome to ccMixter](http://ccmixter.org/)
+[Freesound - Freesound](https://freesound.org/)
+
+## Comparisons
 
 [Should I start game development with Unity or Unreal? I know Java and Python. Which engine should I choose as a beginner? - Quora](https://www.quora.com/Should-I-start-game-development-with-Unity-or-Unreal-I-know-Java-and-Python-Which-engine-should-I-choose-as-a-beginner)
 [Why do many AAA studios choose Unreal over Unity? - Quora](https://www.quora.com/Why-do-many-AAA-studios-choose-Unreal-over-Unity)
@@ -44,6 +61,8 @@ toc: true
 [libGDX with Mario Zechner – Talking Kotlin](http://talkingkotlin.com/libgdx-with-mario-zechner/)
 
 ## Tiles
+
+[Tiled Map Editor | A flexible level editor](https://www.mapeditor.org/)
 
 [substack/tilemap: render isometric tile maps in the browser](https://github.com/substack/tilemap)
 
@@ -72,6 +91,7 @@ toc: true
 [Collection: JavaScript Game Engines](https://github.com/collections/javascript-game-engines)
 [Starter for the new HTML5 game developers](http://html5devstarter.enclavegames.com/)
 [Modules · hughsk/game-modules Wiki](https://github.com/hughsk/game-modules/wiki/Modules)
+[9 Top JS Gaming Engines and Libraries for 2020 | by Fernando Doglio | Bits and Pieces](https://blog.bitsrc.io/9-top-js-gaming-engines-and-libraries-for-2020-81707d9f095)
 
 [Game development | MDN](https://developer.mozilla.org/en/docs/Games)
 [Forums - HTML5 Game Devs Forum](http://www.html5gamedevs.com/)
@@ -85,7 +105,20 @@ toc: true
 [React Game Kit](http://reactnext.surge.sh/)
 [FormidableLabs/react-game-kit: Component library for making games with React & React Native](https://github.com/formidablelabs/react-game-kit)
 
+[Poimandres](https://github.com/pmndrs?type=source)
+[@react-three/cannon](https://cannon.pmnd.rs/#/)
+[pmndrs/use-cannon: 👋💣 physics based hooks for @react-three/fiber](https://github.com/pmndrs/use-cannon)
 [Matter.js - a 2D rigid body JavaScript physics engine](http://brm.io/matter-js/)
+[kripken/ammo.js: Direct port of the Bullet physics engine to JavaScript using Emscripten](https://github.com/kripken/ammo.js/)
+
+[rezoner/playground: Playground.js is a framework for your javascript based games. It gives you out-of-box access to essentials like mouse, keyboard, sound and well designed architecture that you can expand to your needs.](https://github.com/rezoner/playground)
+
+[Kontra.js – What is Kontra.js?](https://straker.github.io/kontra/)
+[straker/kontra: A lightweight JavaScript gaming micro-library, optimized for js13kGames.](https://github.com/straker/kontra)
+[Build a tiny game for JS13K with Kontra.js - DEV Community](https://dev.to/github/build-a-tiny-game-for-js13k-with-kontra-js-8pb)
+
+[cannon-es](https://pmndrs.github.io/cannon-es/)
+[Cloud9c/taro: A lightweight 3D game engine for the web.](https://github.com/Cloud9c/taro)
 
 [goldfire/howler.js: Javascript audio library for the modern web.](https://github.com/goldfire/howler.js/)
 [React Music](http://reactmusic.surge.sh/)
@@ -101,9 +134,29 @@ toc: true
 [mafintosh/tetris: Play tetris in your terminal - in color](https://github.com/mafintosh/tetris)
 [Ace Attorney Online](http://aceattorney.sparklin.org/index.php)
 
+### GDevelop
+
+[GDevelop - Create games without programming - Open source HTML5 and native game creator](https://gdevelop-app.com/)
+[Features of GDevelop - create any kind of games without coding](https://gdevelop-app.com/features/)
+[4ian/GDevelop: GDevelop is an open-source, cross-platform game engine designed to be used by everyone.](https://github.com/4ian/GDevelop)
+
+[GDevelop 5 [GDevelop wiki]](http://wiki.compilgames.net/doku.php/gdevelop5/start)
+
+[Showcase of the games created with GDevelop](https://gdevelop-app.com/games-showcase/)
+[Examples of GDevelop - make platformer, shooter, rpg, action games...](https://gdevelop-app.com/game-examples-starters/)
+
+[Creating a Memory Match Game in GDevelop [GDevelop wiki]](http://wiki.compilgames.net/doku.php/gdevelop/tutorials/memorymatchgame)
+[How To Make a Simple Playing Card Game with Multiplayer and Bluetooth, Part 1 | raywenderlich.com](https://www.raywenderlich.com/2900-how-to-make-a-simple-playing-card-game-with-multiplayer-and-bluetooth-part-1)
+
+[ReactiveConf 2019 - Florian Rival: Native Web Apps: React and WebAssembly to Rewrite Native Apps - YouTube](https://www.youtube.com/watch?v=sMfNWIbWUb0)
+[Porting a Desktop Game Editor to the Browser with WebAssembly](https://www.infoq.com/articles/wasm-game-editor-port/)
+
 ### Phaser
 
 [Phaser - A fast, fun and free open source HTML5 game framework](https://phaser.io/)
+[Phaser 101 - Joseph Gao - Medium](https://medium.com/@jocake/phaser-101-611365d67c69)
+[COMPLETE COURSE - Phaser 101 in 1 HOUR - YouTube](https://www.youtube.com/watch?v=hI_LS8bdkM4)
+
 [12 Games in 12 Weeks | Lessmilk](http://www.lessmilk.com/12games)
 
 ### Pixi
@@ -111,6 +164,10 @@ toc: true
 [pixijs/pixi.js: Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback](https://github.com/pixijs/pixi.js)
 [RoganMurley/hitagi.js: JavaScript HTML5 game development framework](https://github.com/RoganMurley/hitagi.js)
 [Goose Ninja - The Goose Temple](http://goose.ninja/)
+
+### Kiwi.js
+
+[Open Source HTML5 and Javascript game engine](https://www.kiwijs.org/)
 
 ## Lua
 
@@ -136,25 +193,50 @@ toc: true
 
 ## Python
 
-[Making Games with Python & Pygame](http://inventwithpython.com/pygame/)
-
-[Pygame](https://www.pygame.org/news)
-[PyGame with Python 3 Game Development - YouTube](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdLkP8MrOXLe_rKuf6r80KO)
-[Recreate the sprite-following Options from Gradius using Python | Wireframe issue 16 - Raspberry Pi](https://www.raspberrypi.org/blog/recreate-the-sprite-following-options-from-gradius-using-python-wireframe-issue-16/)
-
-[Welcome to Pygame Zero — Pygame Zero documentation](https://pygame-zero.readthedocs.io/en/stable/index.html)
-[Games with PyGame Zero](https://codewith.mu/en/tutorials/1.0/pgzero)
-
-[pyglet / pyglet / wiki / Home — Bitbucket](https://bitbucket.org/pyglet/pyglet/wiki/Home)
-[pyglet Documentation](http://pyglet.readthedocs.io/en/latest/)
-[Steve Johnson - Pyglet Tutorial](http://steveasleep.com/pyglettutorial.html)
+> see `pygame.md`
 
 [pymunk](http://pymunk.org/) physics engine
 [FIFE](http://www.fifengine.net/index.html)
+[adventurelib - easy text adventures — adventurelib documentation](https://adventurelib.readthedocs.io/en/stable/)
+
+[Pygame physics simulation](http://www.petercollingridge.co.uk/tutorials/pygame-physics-simulation/)
+
+[Episode #2: Learn Python Skills While Creating Games – The Real Python Podcast](https://realpython.com/podcasts/rpp/2/)
+
+### Arcade
+
+[The Python Arcade Library — Arcade documentation](http://arcade.academy/) uses pyglet
+[Program Arcade Games With Python And Pygame](http://programarcadegames.com/)
+[Arcade: A Primer on the Python Game Framework – Real Python](https://realpython.com/arcade-python-game-framework/)
+[How to create a 2D game with Python and the Arcade library | Opensource.com](https://opensource.com/article/18/4/easy-2d-game-creation-python-and-arcade)
+
+### cocos2d
+
+[cocos2d](http://python.cocos2d.org/index.html) uses pyglet
+[cocos2d Programming Guide — cocos documentation](http://python.cocos2d.org/doc/programming_guide/index.html)
+[cocos package — cocos documentation](http://python.cocos2d.org/doc/api/cocos.html)
+
+### pyglet
+
+[Home — pyglet](http://pyglet.org/)
+[pyglet/pyglet: pyglet is a cross-platform windowing and multimedia library for Python, for developing games and other visually rich applications.](https://github.com/pyglet/pyglet)
+[pyglet Documentation](https://pyglet.readthedocs.io/en/latest/)
+
+[Steve Johnson - Pyglet Tutorial](http://steveasleep.com/pyglettutorial.html)
 
 [Minecraft in 500 lines of Python with Pyglet](https://www.slideshare.net/rdonkin/pyglet-and-minecraft-v1-1)
 [fogleman/Minecraft: Simple Minecraft-inspired program using Python and Pyglet](https://github.com/fogleman/Minecraft)
 [boskee/Minecraft: Simple Minecraft-inspired program using Python and Pyglet](https://github.com/boskee/Minecraft) 1000 commits later
+
+## C Sharp
+
+[MonoGame](https://www.monogame.net/)
+[MonoGame/MonoGame: One framework for creating powerful cross-platform games.](https://github.com/MonoGame/MonoGame)
+
+Fully compatible with XNA
+[XNA Game Studio 4.0 Refresh | Microsoft Docs](<https://docs.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41)>)
+
+[PaulBlythe/Monogame-tools: Free tools for Monogame development](https://github.com/PaulBlythe/Monogame-tools)
 
 ## Rust
 
@@ -162,9 +244,31 @@ toc: true
 [Piston - a modular open source game engine written in Rust](http://www.piston.rs/)
 [Amethyst - The open source, data-driven game engine](https://www.amethyst.rs/)
 
+[mrDIMAS/rusty-shooter: 3d shooter written in Rust using rg3d](https://github.com/mrDIMAS/rusty-shooter)
+
+## Flutter
+
+[Flame Engine](https://flame-engine.org/)
+[Flutter 2.8 introduces 2D game engine and faster app performance](https://www.xda-developers.com/flutter-2-8/)
+
+## Qt
+
+[Bacon2D](http://bacon2d.github.io/docs/)
+[Bacon2D/Bacon2D: Bacon2D is a framework to ease 2D game development, providing ready-to-use QML elements representing basic game entities needed by most of games.](https://github.com/Bacon2D/Bacon2D)
+
+[Felgo Games Examples and Demos | Felgo Documentation](https://felgo.com/doc/felgo-examples/#getting-started-demos)
+
+[Larpon/DeadAscend: A 2D point'n'click-like adventure game written in Qt/QML and Javascript](https://github.com/Larpon/DeadAscend)
+
+## Card Game
+
+[Generic Collectible Card Game](http://gccg.sourceforge.net/)
+
 ## SFML
 
 [SFML](https://www.sfml-dev.org/)
+[Sonkun/python-sfml: Official binding of SFML for Python](https://github.com/Sonkun/python-sfml)
+[jeremyletang/rust-sfml: SFML bindings for Rust](https://github.com/jeremyletang/rust-sfml)
 
 ## Panda3D
 
@@ -173,10 +277,68 @@ toc: true
 ## Godot
 
 [Godot Engine - Free and open source 2D and 3D game engine](https://godotengine.org/)
+[Godot: The open source game engine](https://www.reddit.com/r/godot/)
+[Godot With C++ – GameFromScratch.com](https://gamefromscratch.com/godot-with-c/)
+
+[CardEngine | Braindead.bzh](https://www.braindead.bzh/page/cardengine-home)
+[Braindead.bzh | Game Dev Hobbyist](https://www.braindead.bzh)
+[Tutorial – Gaming with Godot » Linux Magazine](https://www.linux-magazine.com/Issues/2021/244/Gaming-for-Godot)
+
+[Godot Vs Unity: The Ultimate Game Engine Showdown - YouTube](https://www.youtube.com/watch?v=MV_TaVM8Huc)
+
+Zenva
+[Godot Game Development Mini-Degree - YouTube](https://www.youtube.com/playlist?list=PLnEt5PBXuAmsMmS2w-mwnT1bk0JN2YyYM)
+[COMPLETE COURSE - Learn the GODOT Game Engine in 50 MINUTES - YouTube](https://www.youtube.com/watch?v=QftpPI5iYrY)
+
+[KidsCanCode - YouTube](https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/playlists?view=1&sort=dd&shelf_id=5)
+[Godot 101: Beginner Lessons for Godot 3.1 - YouTube](https://www.youtube.com/playlist?list=PLsk-HSGFjnaFwmOFrfD4gQQqvgvEUielY)
+[kidscancode/godot_recipes: Lessons, tutorials, and guides for game development using the Godot game engine.](https://github.com/kidscancode/godot_recipes)
+
+[GDQuest - YouTube](https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ)
+[Godot 3 tutorials - YouTube](https://www.youtube.com/playlist?list=PLhqJJNjsQ7KF0o0ke_CA2QlqK8BxQNSFS)
+
+[HeartBeast - YouTube](https://www.youtube.com/channel/UCrHQNOyU1q6BFEfkNq2CYMA)
+
+## AppGameKit
+
+[AppGameKit - AppGameKit is great for everyone](https://www.appgamekit.com/users) free for Education and on RPi
+
+## openBOR
+
+[Chrono Crash - Index](http://www.chronocrash.com/forum/)
+[DCurrent/openbor: OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!](https://github.com/DCurrent/openbor)
+
+[openBOR Games You Need to Play - YouTube](https://www.youtube.com/watch?v=pzKH_JtM6oU)
+[OpenBOR Games List - Hyperspin - YouTube](https://www.youtube.com/watch?v=SbgMd_CXaR0)
+
+## neoGFX
+
+[neoGFX C++ Application/Game Engine and Development Platform](https://neogfx.org/)
+[i42output/neoGFX: Cross-platform GPU-oriented C++ application/game framework](https://github.com/i42output/neoGFX)
+
+[Leigh Johnston - YouTube](https://www.youtube.com/channel/UC7jyS93YRVSSjrJjmiw1xjA)
+
+---
+
+# Web Games
+
+[Flatris](https://flatris.space/) open source
+[3D Cards - PixiJS Examples](https://pixijs.io/examples/#/plugin-projection/cards.js)
+
+[leereilly/games: A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.](https://github.com/leereilly/games#user-content-boardgame)
+[51 Best Open Source HTML5 and JavaScript Games 2019 - Edopedia](https://www.edopedia.com/blog/open-source-html5-and-javascript-games/)
+[OpenHTML5Games.com - Free mobile HTML5 web games with open source code](https://openhtml5games.com/)
+[15 Open Source HTML5 games - Super Dev Resources](https://superdevresources.com/open-source-html5-games/)
 
 ---
 
 # AAA Title Engines
+
+## GPUOpen
+
+[GPUOpen - GPUOpen](https://gpuopen.com/)
+
+an AMD initiative designed to enable developers to create ground-breaking PC games, computer generated imagery and GPU computing applications for great performance and lifelike experiences using no cost and open development tools and software.
 
 ## CryEngine
 
@@ -185,10 +347,11 @@ Titles:
 
 - FarCry
 - Crysis
-  License: Free for development / Pay What You Want
+  License: ~~Free for development / Pay What You Want~~ 5% royalty after 5.0 (2018)
 
 [CryEngine - Wikiwand](http://www.wikiwand.com/en/CryEngine)
 [CryENGINE | Crytek](http://www.crytek.com/cryengine)
+[CRYENGINE | The complete solution for next generation game development by Crytek](https://www.cryengine.com/)
 [CRYTEK-CRYENGINE/CRYENGINE: CRYENGINE source code.](https://github.com/CRYTEK-CRYENGINE/CRYENGINE)
 
 [Amazon Lumberyard - Free AAA Game Engine](https://aws.amazon.com/lumberyard/) Amazon's fork, with integration with its AWS and Twitch business
@@ -220,10 +383,15 @@ Titles:
 - Star Wars Battlefront
 - Army of Two
 - Need for Speed
+- Madden NFL
+- FIFA
+- Mass Effect: Andromeda
   License: Proprietary
 
-[Frostbite (game engine) - Wikiwand](https://www.wikiwand.com/en/Frostbite_(game_engine%29)
+[Frostbite (game engine) - Wikiwand](<https://www.wikiwand.com/en/Frostbite_(game_engine)>)
 [Frostbite - Game Engine](http://www.frostbite.com/)
+
+DICE has pushed the Frostbite engine to all games in EA since its bought out in 2006.
 
 ## Source
 
@@ -242,12 +410,28 @@ better 2.5D on mobile and web, larger community/store
 
 [Unity (game engine) - Wikiwand](http://www.wikiwand.com/en/Unity_%28game_engine%29)
 [Unity - Game engine, tools and multiplatform](http://unity3d.com/unity)
-[Unity - Tuts+ Code Category](http://code.tutsplus.com/categories/unity)
 
+[Unity - Manual: Unity User Manual 2020.3 (LTS)](https://docs.unity3d.com/Manual/index.html)
+[Unity - Scripting API:](https://docs.unity3d.com/ScriptReference/index.html)
+
+[Unity - Tuts+ Code Category](http://code.tutsplus.com/categories/unity)
 [Introduction to Mobile Augmented Reality Development in Unity | Programming Historian](http://programminghistorian.org/lessons/intro-to-augmented-reality-with-unity)
 [Starting with Unity: Tutorial for Beginners – LiveEdu.tv](https://blog.liveedu.tv/unity-tutorial/)
+[Unity Tutorial | 3D Spinning Cube in 10 minutes | .NET](https://dotnet.microsoft.com/learn/games/unity-tutorial/intro)
+[LEARN UNITY - The Most BASIC TUTORIAL I'll Ever Make - YouTube](https://www.youtube.com/watch?v=pwZpJzpE2lQ) 2020
+
+[Unity DOTS vs Handbuilt: Sample Project - YouTube](https://www.youtube.com/watch?v=tInaI3pU19Y) 2020
 
 [NGUI: Next-Gen UI kit – Tasharen Entertainment](http://www.tasharen.com/?page_id=140)
+
+Zenva
+[COMPLETE COURSE - Learn Unity's AR Foundation - YouTube](https://www.youtube.com/watch?v=FGh7f-PaGQc)
+[COMPLETE COURSE - Create a Unity FRUIT SLICER Game in 2 HOURS - YouTube](https://www.youtube.com/watch?v=H57XHbKhXwA)
+[COMPLETE COURSE - Create a Unity RPG in 4 HOURS - YouTube](https://www.youtube.com/watch?v=e4i0mtbvJn4)
+[Master Unity Game Development - The Ultimate Beginners Course - YouTube](https://www.youtube.com/playlist?list=PLnEt5PBXuAmvoILHyBUkGdWsUow4dCy8c)
+[Multiplayer Game Development with Unity - YouTube](https://www.youtube.com/playlist?list=PLnEt5PBXuAmv7I43U66zxqt3vf7k27LJ8)
+[Unity 2D Game Development - YouTube](https://www.youtube.com/playlist?list=PLnEt5PBXuAmuFEU2x0pWIpXV-dScHMd8Z)
+[Unity RPG Tutorial - YouTube](https://www.youtube.com/playlist?list=PLnEt5PBXuAmtymGfIHHmsAhMdptKbTNlJ)
 
 ## Unreal Engine
 
@@ -261,13 +445,31 @@ Titles:
 - Bioshock
 - Kingdom Hearts 3
 - Batman Arkham series
-  License:
+
+License: free for first \$1 million in game revenue
 
 Program in Blueprint (visual scripts), not code
 Focus on realism and lighting
+Cross platform (PC and consoles)
+[Epic Online Services featuring Epic Account and Game Services - Unreal Engine](https://www.unrealengine.com/en-US/blog/epic-online-services-featuring-epic-account-and-game-services)
 
 [Unreal Engine - Wikiwand](http://www.wikiwand.com/en/Unreal_Engine)
-[About Unreal Engine 4](https://www.unrealengine.com/unreal-engine-4)
+[The most powerful real-time 3D creation platform - Unreal Engine](https://www.unrealengine.com/en-US/)
+[Online Learning - Unreal Engine](https://www.unrealengine.com/en-US/onlinelearning-courses)
+
+[A first look at Unreal Engine 5 - Unreal Engine](https://www.unrealengine.com/en-US/blog/a-first-look-at-unreal-engine-5)
+[Tech Analysis: Unreal Engine 5 on PS5 - Epic's Next-Gen Leap Examined In-Depth - YouTube](https://www.youtube.com/watch?v=iIDzZJpDlpA)
+[從入門到真香！全面預探虛幻 Unreal 5 新技術！【就知道玩遊戲 102】 - YouTube](https://www.youtube.com/watch?v=rcTd_outcew)
+[【亦】虚幻 5，国产单机游戏的机会来了？ - YouTube](https://www.youtube.com/watch?v=I1NbidggLKI)
+[Welcome to Unreal Engine 5 Early Access - YouTube](https://www.youtube.com/watch?v=d1ZnM7CH-v4)
+[Unreal Engine 5 is AMAZING! - YouTube](https://www.youtube.com/watch?v=xbfJD6f-4F8)
+[《黑客帝國》虛幻 5 技術解析：最强游戏画面？做 3A 有手就行？｜大狸子切切裡 - YouTube](https://www.youtube.com/watch?v=T1vOoRTo0Hg)
+[黑科技 Unreal Engine 5 (UE5)｜初探 Nanite 模型導入與 Lumen 設定 - YouTube](https://www.youtube.com/watch?v=z33w72tqTSA)
+Nanite: "deep zoom" level of details for 3D objects (low res at distance), seamless zoom
+Lumen: non-ray-traced global illumination
+[Unreal Engine 5 Beginner Tutorial - UE5 Starter Course! - YouTube](https://www.youtube.com/watch?v=gQmiqmxJMtA)
+[Lumen in UE5: Let there be light! | Unreal Engine - YouTube](https://www.youtube.com/watch?app=desktop&v=Dc1PPYl2uxA)
+
 [Unreal Engine 4 will bring us beautiful games faster than ever | Ars Technica](http://arstechnica.com/gaming/2012/05/unreal-engine-4-will-bring-us-beautiful-games-faster-than-ever/)
 [Gorgeous Unreal Engine 4 brings direct programming, indirect lighting | Ars Technica](http://arstechnica.com/gaming/2012/06/gorgeous-unreal-engine-4-brings-direct-programming-indirect-lighting/)
 [Unreal C++ with Visual Studio Code – Jolly Monster Studio](http://jollymonsterstudio.com/2018/11/02/unreal-c-with-visual-studio-code/)
@@ -283,3 +485,8 @@ Focus on realism and lighting
 
 [Quark](http://quarkup.io/)
 [Quark Docs](http://read.quarkup.io/content/)
+
+## GameWorks
+
+[NVIDIA GameWorks | NVIDIA Developer](https://developer.nvidia.com/what-is-gameworks)
+[Nvidia Fires Back: The Truth About GameWorks, AMD Optimization, and 'Watch Dogs'](https://www.forbes.com/sites/jasonevangelho/2014/05/28/nvidia-fires-back-the-truth-about-gameworks-amd-optimization-and-watch-dogs/#452aa70a2fd5)

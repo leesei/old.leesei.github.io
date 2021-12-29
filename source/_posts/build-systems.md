@@ -26,6 +26,7 @@ tags:
 [GNU make](https://www.gnu.org/software/make/manual/make.html)
 [跟我一起写 Makefile](https://seisman.github.io/how-to-write-makefile/) [source](https://github.com/seisman/how-to-write-makefile)
 [Makefile Tutorial by Example](http://makefiletutorial.com/)
+[Linux Fu: The Great Power Of Make | Hackaday](https://hackaday.com/2018/06/22/linux-fu-the-great-power-of-make/)
 
 [The joy of make at jsconfeu](http://codeofrob.com/entries/the-joy-of-make-at-jsconfeu.html)
 [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/)
@@ -37,6 +38,8 @@ tags:
 
 [Creating configuration scripts and Makefiles using autoconf & automake](http://www.ifnamemain.com/posts/2014/Mar/13/autoconf_automake/)
 
+[Jobserver Implementation | GNU make](http://make.mad-scientist.net/papers/jobserver-implementation/)
+
 [GNU make: Automatic Variables](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html)
 
 ```sh
@@ -46,6 +49,11 @@ make -pn
 # shows how make works
 make --debug=v
 ```
+
+### mmake
+
+[Modernizing Make - TJ Holowaychuk - Medium](https://medium.com/@tjholowaychuk/modern-make-b55d53cf80d9)
+[tj/mmake: Modern Make](https://github.com/tj/mmake)
 
 ### non-recursive make
 
@@ -78,9 +86,52 @@ Examples:
 ### CMake
 
 [CMake](http://www.cmake.org/)
+[CMake Tutorial — CMake Documentation](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+[CMake Reference Documentation — CMake Documentation](https://cmake.org/cmake/help/latest/)
+[FAQ · Wiki · CMake / Community · GitLab](https://gitlab.kitware.com/cmake/community/-/wikis/FAQ)
+[Home · Wiki · CMake / Community · GitLab](https://gitlab.kitware.com/cmake/community/-/wikis/home)
+
+[Webinars | CMake](https://cmake.org/webinars/)
+[Introduction to CMake on Vimeo](https://vimeo.com/32212195)
+[How to CMake Good - Recommended Order - YouTube](https://www.youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+[Akagi201/learning-cmake: learning cmake](https://github.com/Akagi201/learning-cmake)
+
+`ccmake` and the Windows CMake GUI will prompt for config
+
+```sh
+make VERBOSE=1
+```
+
+[Cross-Platform Software Development Using CMake | Linux Journal](https://www.linuxjournal.com/article/6700)
 [unbornchikken-cmake-js · GitHub](https://github.com/unbornchikken/cmake-js)
 [Learning CMake: A beginner's guide · GitBook](https://www.gitbook.com/book/tuannguyen68/learning-cmake-a-beginner-s-guide/details)
 [The Architecture of Open Source Applications: CMake](http://aosabook.org/en/cmake.html)
+[An Introduction to CMake](https://www.slideshare.net/ICSinc/an-introduction-to-cmake)
+[CMake and FIND PACKAGE - Wiki for iCub and Friends](http://wiki.icub.org/wiki/CMake_and_FIND_PACKAGE)
+
+[c++ - Debug vs Release in CMake - Stack Overflow](https://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake)
+
+```sh
+mkdir Release
+cd Release
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+
+mkdir Debug
+cd Debug
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
+```
+
+### `CMakeLists.txt`
+
+[Examples | CMake](https://cmake.org/examples)
+[VariablesListsStrings · Wiki · CMake / Community · GitLab](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/VariablesListsStrings)
+
+[cmake-variables(7) — CMake Documentation](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
+[cmake-properties(7) — CMake Documentation](https://cmake.org/cmake/help/latest/manual/cmake-properties.7.html)
+
+`project(HELLO)` => `${HELLO_SOURCE_DIR}` and `${HELLO_BINARY_DIR}` available
 
 ## Buck
 
@@ -130,7 +181,8 @@ But Chromium has since moved to GN.
 
 [Ninja, a small build system with a focus on speed](https://ninja-build.org/)
 [Using GN build - Google Slides](https://docs.google.com/presentation/d/15Zwb53JcncHfEwHpnG_PoIbbzQ3GQi_cpujYwbpcbZo/edit#slide=id.g119d702868_0_12)
-[The Performance of Open Source Software | Ninja](http://aosabook.org/en/posa/ninja.html)
+[The Performance of Open Source Software | Ninja](https://aosabook.org/en/posa/ninja.html)
+[Building Like (a) Ninja [Pt1]](https://vector-of-bool.github.io/2018/12/20/build-like-ninja-1.html)
 
 [docs - gn - Git at Google](https://gn.googlesource.com/gn/+/master/docs/) GN is a meta-build system that generates build files for Ninja.
 
@@ -143,9 +195,18 @@ Pants is a build system written by Twitter to build Python and Java codes.
 
 [Getting Started with the Pants Build System - YouTube](https://www.youtube.com/playlist?list=PLDVc2EaAVPg8ACDeLfN2KWkPZi0Th5d04)
 
+## Mule
+
+[algorand/mule: General automation framework](https://github.com/algorand/mule/tree/develop)
+[Automating with the Mule framework | by Brice Rising | Algorand | Medium](https://medium.com/algorand/automating-with-the-mule-framework-f9b34789920a)
+
 ## tup
 
 [tup | Home](http://gittup.org/tup/)
+
+## Buildout
+
+[Buildout, an automation tool written in and extended with Python — Buildout documentation](http://docs.buildout.org/en/latest/)
 
 ## Waf
 

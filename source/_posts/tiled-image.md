@@ -11,6 +11,7 @@ date: 2016-04-08 10:40:45
 [Mipmap - Wikiwand](https://www.wikiwand.com/en/Mipmap)
 
 When viewing extremely large image (maps, medical and astrological images), it's more efficient to:
+
 - build a pyramid of images of different zoom level
 - cut the image at a particular zoom level as tiles
 
@@ -50,7 +51,7 @@ Deep Zoom is a standard by Microsoft. It allows users to pan around and zoom in 
 
 [Inside Deep Zoom – Part I: Multiscale Imaging – RTFM / Daniel Gasienica](http://web.archive.org/web/20150429205932/http://www.gasi.ch/blog/inside-deep-zoom-1/)
 [Inside Deep Zoom – Part II: Mathematical Analysis – RTFM / Daniel Gasienica](http://web.archive.org/web/20150429205956/http://www.gasi.ch/blog/inside-deep-zoom-2)
-[Inside Deep Zoom – Part III: Deep Zoom in Flash – RTFM / Daniel Gasienica](http://web.archive.org/web/20150404123937/http://www.gasi.ch/blog/inside-deep-zoom-3/) 
+[Inside Deep Zoom – Part III: Deep Zoom in Flash – RTFM / Daniel Gasienica](http://web.archive.org/web/20150404123937/http://www.gasi.ch/blog/inside-deep-zoom-3/)
 
 [OpenSlide Python](http://openslide.org/api/python/) have built-in deep zoom support. See [RunningDeepZoomServerOnApache · openslide/openslide Wiki](https://github.com/openslide/openslide/wiki/RunningDeepZoomServerOnApache) for setting up an sample server.
 
@@ -107,19 +108,19 @@ WMS also have API for [FeatureInfo ](http://openlayers.org/en/master/examples/ge
 
 Generators in Python usually requires [Python Imaging Library (PIL)](http://www.pythonware.com/products/pil/).  
 [openzoom/deepzoom.py](https://github.com/openzoom/deepzoom.py)  
-[openslide-python/deepzoom_tile.py at master](https://github.com/openslide/openslide-python/blob/master/examples/deepzoom/deepzoom_tile.py)  
+[openslide-python/deepzoom_tile.py at master](https://github.com/openslide/openslide-python/blob/master/examples/deepzoom/deepzoom_tile.py)
 
 Each folder is a layer, which contains tiles of side length (max of width, height) <= 2^N
 
-Layer | Tile Resolution (Max)
----   | ---
-1     | 2*2
-2     | 4*4
-8     | 256*256
-10    | 1024*1024 (1M pixels)
-14    | 16384*16384
-15    | 32768*32768 (1G pixels)
-16    | 65536*65536
+| Layer | Tile Resolution (Max)    |
+| ----- | ------------------------ |
+| 1     | 2\*2                     |
+| 2     | 4\*4                     |
+| 8     | 256\*256                 |
+| 10    | 1024\*1024 (1M pixels)   |
+| 14    | 16384\*16384             |
+| 15    | 32768\*32768 (1G pixels) |
+| 16    | 65536\*65536             |
 
 Within a layer, files are named in `{col}_{row}.{format}` fashion:
 
@@ -157,17 +158,18 @@ http://tools.wmflabs.org/zoomable-images/zoomify-source.php
 `vips` memory use scales with image width, not number of pixels, so it can process very large images without using much memory.  
 It supports various input format, including OpenSlide (requires `libopenslide` at build). It can perform many operation on the image. The `dzsave` operation supports deep zoom ([requires `libgsf`](https://github.com/jcupitt/libvips/issues/141) at build),zoomify and google layout.  
 [pyvips – Image processing with libvips — pyvips documentation](https://jcupitt.github.io/pyvips/) official Python binging  
-[sharp](http://sharp.dimens.io/en/stable/) is VIPS's Node binding.  
+[sharp](http://sharp.dimens.io/en/stable/) is VIPS's Node binding.
 
 [VipsWiki](http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS)  
-[VIPS from the command-line: VIPS Reference Manual](http://www.vips.ecs.soton.ac.uk/supported/current/doc/html/libvips/using-cli.html)  
+[VIPS from the command-line: VIPS Reference Manual](http://www.vips.ecs.soton.ac.uk/supported/current/doc/html/libvips/using-cli.html)
 
 [libvips and nip2](http://libvips.blogspot.hk/)
 [Tips and tricks for vipsthumbnail](http://libvips.blogspot.hk/2013/11/tips-and-tricks-for-vipsthumbnail.html)
 [Profiling libvips](http://libvips.blogspot.hk/2013/11/profiling-libvips.html)
-[Making DeepZoom, Zoomify and Google Maps image pyramids with vips](http://libvips.blogspot.co.uk/2013/03/making-deepzoom-zoomify-and-google-maps.html)  
+[Making DeepZoom, Zoomify and Google Maps image pyramids with vips](http://libvips.blogspot.co.uk/2013/03/making-deepzoom-zoomify-and-google-maps.html)
 
 VIPS can infer pipeline with extension, you can also pass options to the transform with:
+
 ```sh
 # using dzsave as action
 vips huge.svs mydz --layout google
@@ -227,13 +229,16 @@ Another image processing library.
 [Leaflet JS Bin](http://playground-leaflet.rhcloud.com/?html,output)
 
 [Using Leaflet.js with non-geographic imagery - Oliver Marriott](http://omarriott.com/aux/leaflet-js-non-geographical-imagery/)
-[Deep Zoom Image with multiple views – Leaflet.js](https://gist.github.com/egardner/755fe6ab7ae7459fece6)
+[Deep Zoom Image with multiple views – Leaflet.js](https://gist.github.com/egardner/755fe6ab7ae7459fece6)
+
+[React-Leaflet · ⚛️ React components for 🍃 Leaflet maps](https://react-leaflet.js.org/)
+[How to use React-Leaflet - LogRocket Blog](https://blog.logrocket.com/how-to-use-react-leaflet/)
 
 [thematic mapping blog: Creating a synchronized view of two maps or images with Leaflet](http://blog.thematicmapping.org/2013/06/creating-synchronized-view-of-two-maps.html) [source](https://github.com/turban/Leaflet.Sync)
 
 [thematic mapping blog: Showing Zoomify images with Leaflet](http://blog.thematicmapping.org/2013/06/showing-zoomify-images-with-leaflet.html) [source](https://github.com/turban/Leaflet.Zoomify)
 
-### Overlap handling 
+### Overlap handling
 
 [Custom Tile Rendering in Leaflet - Google Groups](https://groups.google.com/forum/#!topic/leaflet-js/e-2BIf2bB3g)
 
@@ -257,7 +262,7 @@ Another image processing library.
 ## IIPMooViewer
 
 [IIPImage » IIPMooViewer](http://iipimage.sourceforge.net/documentation/iipmooviewer/)
-[ruven/iipmooviewer: IIPMooViewer is an advanced javascript HTML5 image viewer for streaming high resolution scientific images](https://github.com/ruven/iipmooviewer)  supports rectangular annotation, synced view, image blending
+[ruven/iipmooviewer: IIPMooViewer is an advanced javascript HTML5 image viewer for streaming high resolution scientific images](https://github.com/ruven/iipmooviewer) supports rectangular annotation, synced view, image blending
 
 [jcupitt/iipmooviewer](https://github.com/jcupitt/iipmooviewer) fork that support experimental WebGL rendering (from author of VIPS)
 

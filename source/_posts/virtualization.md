@@ -2,9 +2,9 @@
 title: "Virtualization"
 date: 2015-05-10 17:03:12
 categories:
-- linux
+  - linux
 tags:
-- virtualbox
+  - virtualbox
 toc: true
 ---
 
@@ -18,7 +18,7 @@ toc: true
 
 # Hypervisor
 
-A Hypervisor is also called as a Virtual Machine Monitor(VMM).
+A Hypervisor is also called as a Virtual Machine Monitor (VMM).
 
 [Hypervisor 101: Understanding the Virtualization Market](http://www.datacenterknowledge.com/archives/2012/08/01/hypervisor-101-a-look-hypervisor-market/)
 
@@ -40,6 +40,13 @@ Intel's VTx technology improved the performance of visualization (rendering bina
 [Protected mode - Wikiwand](https://www.wikiwand.com/en/Protected_mode)
 [x86 virtualization - Wikiwand](https://www.wikiwand.com/en/X86_virtualization)
 
+## KVM
+
+[Documents - KVM](https://www.linux-kvm.org/page/Documents)
+[How to Install Kvm on Ubuntu 20.04 | Linuxize](https://linuxize.com/post/how-to-install-kvm-on-ubuntu-20-04/)
+
+[How to Use Virtualbox VMs on KVM In Linux](https://www.tecmint.com/migrate-virtualbox-vms-into-kvm-vms/amp/)
+
 ## Xen
 
 [The Xen Project, the powerful open source industry standard for virtualization.](http://www.xenproject.org/)
@@ -60,10 +67,35 @@ Xen only check handle three things: memory, CPU and interrupts
 [Enable Hyper-V on Windows 10 | Microsoft Docs](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 [Run virtual machines on Windows 8.1 with Client Hyper‑V: A quick how-to | ZDNet](http://www.zdnet.com/pictures/run-virtual-machines-on-windows-8-1-with-client-hyper-v-a-quick-how-to/)
 
+## QEMU
+
+[QEMU - ArchWiki](https://wiki.archlinux.org/title/QEMU)
+
+[QEMU](https://www.qemu.org/)
+[wimpysworld/quickemu: Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.](https://github.com/wimpysworld/quickemu)
+
+[GPU Passthrough with QEMU on Arch Linux | DominicM](http://dominicm.com/gpu-passthrough-qemu-arch-linux/)
+
 ## VirtualBox
 
+[VirtualBox - ArchWiki](https://wiki.archlinux.org/index.php/VirtualBox)
+
 [Downloads – Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+[Oracle® VM VirtualBox®](https://www.virtualbox.org/manual/)
+
 Also download the extension packs (PUEL, non-commercial only).
+
+### Shared Folder
+
+Requires Guest Additions
+
+[Chapter 4. Guest Additions](https://www.virtualbox.org/manual/ch04.html#sharedfolders)
+[Mounting VirtualBox shared folders on Ubuntu Server 16.04 LTS](https://gist.github.com/estorgio/1d679f962e8209f8a9232f7593683265)
+[What does "auto-mount" do in VirtualBox shared folder setup? - Super User](https://superuser.com/questions/252257/what-does-auto-mount-do-in-virtualbox-shared-folder-setup)
+
+```sh
+sudo usermod -aG vboxsf
+```
 
 ### Enable 64-bit support
 
@@ -84,6 +116,7 @@ To enable 64bit guests, run through the following checklist:
 {% asset_img virtualbox-win7.png %}
 
 Tips for the Guest Windows 7:
+
 - Install Guest Additions
 - Switching off Hibernation
 - Switching off System Restore ("System protection")
@@ -162,4 +195,3 @@ Borrow concepts from Kubernetes
 
 [CoreOS is Linux for Massive Server Deployments](https://coreos.com/)
 [Running Kubernetes on CoreOS](https://coreos.com/kubernetes/docs/latest/)
-

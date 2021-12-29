@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-06-05 10:17:15
 tags:
-- unicode
+  - unicode
 ---
 
 [Unicode - Wikiwand](https://www.wikiwand.com/en/Unicode)
@@ -13,6 +13,16 @@ tags:
 [Code point - Wikiwand](http://www.wikiwand.com/en/Code_point)
 [BMP](http://www.wikiwand.com/en/Plane_%28Unicode%29#/Basic_Multilingual_Plane)
 [SMP](http://www.wikiwand.com/en/Plane_%28Unicode%29#/Supplementary_Multilingual_Plane)
+[Astral Planes](http://www.opoudjis.net/unicode/unicode_astral.html)
+
+[𝚚𝚠𝚎𝚛𝚝𝚢.𝚍𝚎𝚟](https://qwerty.dev/)
+
+[Characters, Symbols and the Unicode Miracle - Computerphile - YouTube](https://www.youtube.com/watch?v=MijmeoH9LT4)
+[These Keys Shouldn't Exist | Nostalgia Nerd - YouTube](https://www.youtube.com/watch?v=BktIY7VbrUs) ASCII and broken pipe character, lingering as non-ASCII (Code page 437) for IBM PCs
+
+<kbd>Alt<kbd/> + `Code point` to input unicode character
+
+[Special Characters Ø, ©, ±, °… [PC] | Tim Bird](https://timbobtastic.com/hints-and-tips/special-characters-o-%C2%B1-pc/)
 
 [Legacy Character Models and an Introduction to Unicode - Slide list](http://www.cip.ifi.lmu.de/~bolzer/unicode_intro/slides/Overview-5.html)
 
@@ -50,9 +60,14 @@ A Python type representing a sequence of code points with "string semantics" (e.
 
 [Programming with Unicode — Programming with Unicode](http://unicodebook.readthedocs.io/index.html)
 [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) - Joel on Software](http://www.joelonsoftware.com/articles/Unicode.html) !important
-[What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
+[What every JavaScript developer should know about Unicode](https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/)
+
+[Combining character - Wikiwand](https://www.wikiwand.com/en/Combining_character)
 
 [Unify – Unicode support on browsers and devices](http://unicode.johnholtripley.co.uk/)
+
+[表意文字小組 - Wikiwand](https://www.wikiwand.com/zh-hk/%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97%E5%B0%8F%E7%B5%84)
+[中日韓統一表意文字 - Wikiwand](https://www.wikiwand.com/zh-hk/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
 
 ## Normalization
 
@@ -69,19 +84,34 @@ NFD — Normalization Form Canonical Decomposition.
 NFKC — Normalization Form Compatibility Composition.
 NFKD — Normalization Form Compatibility Decomposition.
 
+[Unicode 相容字元 - Wikiwand](https://www.wikiwand.com/zh-hk/Unicode%E7%9B%B8%E5%AE%B9%E5%AD%97%E7%AC%A6)
+[Unicode compatibility characters - Wikiwand](https://www.wikiwand.com/en/Unicode_compatibility_characters)
+
+Allows multiple glyphs for one code point
+[異體字選擇器 - Wikiwand](https://www.wikiwand.com/zh-hk/%E7%95%B0%E9%AB%94%E5%AD%97%E9%81%B8%E6%93%87%E5%99%A8)
+[Variant form (Unicode) - Wikiwand](<https://www.wikiwand.com/en/Variant_form_(Unicode)>)
+
 ## Encoding
 
 [UTF-8 - Wikiwand](http://www.wikiwand.com/en/UTF-8)
 [UTF-16 - Wikiwand](http://www.wikiwand.com/en/UTF-16)
 [Surrogates](http://www.wikiwand.com/en/Universal_Character_Set_characters#/Surrogates)
-[Punycode - Wikiwand](https://www.wikiwand.com/en/Punycode)
 
-[RFC 3492 - Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)](https://tools.ietf.org/html/rfc3492)
 [RFC 3629 - UTF-8, a transformation format of ISO 10646](http://tools.ietf.org/html/rfc3629)
 
 [Byte order mark - Wikiwand](https://www.wikiwand.com/en/Byte_order_mark)
 [FAQ - UTF-8, UTF-16, UTF-32 & BOM](http://www.unicode.org/faq/utf_bom.html#BOM)
 [UTR#17: Unicode Character Encoding Model](https://www.unicode.org/reports/tr17/)
+
+[research!rsc: UTF-8: Bits, Bytes, and Benefits](https://research.swtch.com/utf8)
+[Hello World or Καλημέρα κόσμε or こんにちは 世界](https://9p.io/sys/doc/utf.html)
+
+### Punycode
+
+[Punycode - Wikiwand](https://www.wikiwand.com/en/Punycode)
+
+[RFC 3492 - Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)](https://tools.ietf.org/html/rfc3492)
+[Punycode converter (IDN converter), Punycode to Unicode 🔧](https://www.punycoder.com/)
 
 ## Emoji
 
@@ -103,6 +133,10 @@ NFKD — Normalization Form Compatibility Decomposition.
 [Emoji cheat sheet for GitHub, Basecamp and other services](http://www.emoji-cheat-sheet.com/)
 
 [Twitter Emoji (Twemoji)](http://twitter.github.io/twemoji/)
+
+[NeelShah18/emot: Open source Emoticons and Emoji detection library: emot](https://github.com/NeelShah18/emot)
+
+[Intro to Emoji URLs - DEV Community](https://dev.to/ra101/intro-to-emoji-urls-10c9)
 
 ### Font
 

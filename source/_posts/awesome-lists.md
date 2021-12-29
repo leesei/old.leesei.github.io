@@ -13,6 +13,7 @@ Awesome list is a project start
 
 ## Awesome lists of Awesome lists
 
+[Home | getAwesomeness()](https://getawesomeness.herokuapp.com/)
 [Topic: awesome](https://github.com/topics/awesome)
 
 [Awesome Awesomeness by Alexander Bayandin | ZEEF](https://awesome-awesomeness.zeef.com/alexander.bayandin), also [bayandin/awesome-awesomeness: A curated list of awesome awesomeness](https://github.com/bayandin/awesome-awesomeness)
@@ -29,7 +30,7 @@ Awesome list is a project start
 [n1trux/awesome-sysadmin: A curated list of amazingly awesome open source sysadmin resources.](https://github.com/n1trux/awesome-sysadmin)
 [Awesome SysAdmin](https://sysadmin.libhunt.com/)
 [veggiemonk/awesome-docker: A curated list of Docker resources and projects](https://github.com/veggiemonk/awesome-docker)
-[GitHub - binhnguyennus/awesome-scalability: High Scalability, High Availability, High Stability, High Performance, and High Intelligence Back-End Design Patterns](https://github.com/binhnguyennus/awesome-scalability)
+[binhnguyennus/awesome-scalability: High Scalability, High Availability, High Stability, High Performance, and High Intelligence Back-End Design Patterns](https://github.com/binhnguyennus/awesome-scalability)
 
 [burningtree/awesome-json: A curated list of awesome JSON libraries and resources.](https://github.com/burningtree/awesome-json)
 [sindresorhus/awesome-electron: Useful resources for creating apps with Electron](https://github.com/sindresorhus/awesome-electron)
@@ -42,7 +43,6 @@ Awesome list is a project start
 [elburz/awesome-space: A curated list of awesome resources related to Outer Space](https://github.com/elburz/awesome-space)
 [guipdutra/awesome-geek-podcasts](https://github.com/guipdutra/awesome-geek-podcasts)
 [rShetty/awesome-podcasts: Collection of awesome podcasts](https://github.com/rShetty/awesome-podcasts)
-
 
 ## Web
 
@@ -66,7 +66,6 @@ Awesome list is a project start
 [xyNNN/awesome-chrome: A curated list of amazingly awesome Chrome extensions.](https://github.com/xyNNN/awesome-chrome)
 [ChromeDevTools/awesome-chrome-devtools: Awesome tooling and resources in the Chrome DevTools & DevTools Protocol ecosystem](https://github.com/ChromeDevTools/awesome-chrome-devtools)
 [Hunter-Github/evil-and-not-wholly-awesome-firefox: [deprecated since Mozilla turned evil] A list of resources for and about Mozilla Firefox](https://github.com/Hunter-Github/evil-and-not-wholly-awesome-firefox)
-
 
 ## comp.lang
 

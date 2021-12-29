@@ -129,12 +129,11 @@ Examples:
 
 Search with `tags:_grokparsefailure` to look for filed logs.
 
-
 ## Docker
 
 ```sh
 docker run -it --rm logstash logstash -e 'input { stdin { } }
-filter { 
+filter {
   grok { match => {
     "message" => "%{IP:client} %{WORD:method} %{URIPATHPARAM:request} %{NUMBER:bytes} %{NUMBER:duration}"
   } }

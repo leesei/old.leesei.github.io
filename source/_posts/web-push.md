@@ -23,6 +23,7 @@ A persistent connection between the client and the server and both parties can s
 [websocket.org - Powered by Kaazing](https://www.websocket.org/)
 [HTML5 WebSocket - A Quantum Leap in Scalability for the Web](http://websocket.org/quantum.html)
 [About HTML5 WebSocket - Powered by Kaazing](https://www.websocket.org/aboutwebsocket.html)
+[HTML5 WebSocket - A Quantum Leap in Scalability for the Web](https://websocket.org/quantum.html)
 
 [RFC 6455 - The WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 [WebSockets - A Conceptual Deep-Dive | Ably Realtime](https://www.ably.io/concepts/websockets)
@@ -34,9 +35,16 @@ A persistent connection between the client and the server and both parties can s
 [Introducing WebSockets: Bringing Sockets to the Web - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/websockets/basics/)
 [An Introduction to WebSockets - Treehouse Blog](https://blog.teamtreehouse.com/an-introduction-to-websockets)
 [Developing Real-Time Web Applications with Server-Sent EventsButton - CloseLearn More](https://auth0.com/blog/developing-real-time-web-applications-with-server-sent-events/)
+[WebSockets for fun and profit - Stack Overflow Blog](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
 
+> see `node-js-settings.md#feathersjs`
+> see `go-notes.md#iris`
+
+[primus/primus: Primus, the creator god of the transformers & an abstraction layer for real-time to prevent module lock-in.](https://github.com/primus/primus)
 [Implementing a WebSocket Server with Node.js – Hacker Noon](https://hackernoon.com/implementing-a-websocket-server-with-node-js-d9b78ec5ffa8) from scratch
 [Node.js & WebSocket — Simple chat tutorial – Martin Sikora – Medium](https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61)
+
+[Using WebSockets in React - DEV Community 👩‍💻👨‍💻](https://dev.to/finallynero/using-websockets-in-react-4fkp)
 
 [NodeUp: fortytwo - a scaling websockets show](http://nodeup.com/fortytwo)
 
@@ -88,6 +96,10 @@ const app = require("http").createServer(handler);
 [Understanding Socket.IO - NodeSource](https://nodesource.com/blog/understanding-socketio)
 [StrongLoop - Real-time Engines in Node.js](https://strongloop.com/strongblog/real-time-engines-in-node-js/)
 [Adding Socket.io to multi-threaded Node.js – freeCodeCamp.org](https://medium.freecodecamp.org/how-to-add-socket-io-to-multi-threaded-node-js-df404b424276)
+[Understanding the basics of Socket.io - DEV Community 👩‍💻👨‍💻](https://dev.to/uf4no/understanding-the-basics-of-socket-io-3a0e)
+
+[WebSockets in 100 Seconds & Beyond with Socket.io - YouTube](https://www.youtube.com/watch?v=1BfCnjr_Vjg)
+[Realtime Chat With Users & Rooms - Socket.io, Node & Express - YouTube](https://www.youtube.com/watch?v=jD7FnbI76Hg)
 
 ### On the contrary
 
@@ -131,12 +143,29 @@ const app = require("http").createServer(handler);
 
 ---
 
-# Long Polling
+# Pre-Web socket
+
+## Polling
+
+Poll at fixed interval
+Excessive updates
+High latency
+
+## Long Polling
+
+Server awaits event before sending respond
+More responsive but worst than polling on high volume events
+Turns into an unthrottled, continuous loop of immediate polls.
 
 [What is HTTP Long Polling? | PubNub](https://www.pubnub.com/blog/2014-12-01-http-long-polling/)
 [Long Polling - Concepts and Considerations | Ably Realtime](https://www.ably.io/concepts/long-polling)
 
 [rousan/comet: A http long polling comet implementation for nodejs and browser](https://github.com/rousan/comet)
+
+## Streaming
+
+Server not completing response
+Intermediatries may buffer response leading to high latency
 
 ---
 
@@ -149,12 +178,27 @@ const app = require("http").createServer(handler);
 [Stream Updates with Server-Sent Events - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/eventsource/basics/)
 [A Look at Server-Sent Events – Conectric Networks – Medium](https://medium.com/conectric-networks/a-look-at-server-sent-events-54a77f8d6ff7)
 [Using SSE Instead Of WebSockets For Unidirectional Data Flow Over HTTP/2 — Smashing Magazine](https://www.smashingmagazine.com/2018/02/sse-websockets-data-flow-http2/)
+[Using Server-Sent Events in Node.js to Build a Realtime App ← Alligator.io](https://alligator.io/nodejs/server-sent-events-build-realtime-app/)
 
 [Server-Sent Events explained with usecases](https://streamdata.io/blog/server-sent-events/)
 [Push: SSE vs Websockets - Streamdata.io](https://streamdata.io/blog/push-sse-vs-websockets/)
 [Polling vs SSE vs WebSocket— How to choose the right one](https://codeburst.io/polling-vs-sse-vs-websocket-how-to-choose-the-right-one-1859e4e13bd9)
 
 ---
+
+# Push API
+
+[Push API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
+[How Push Works | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/push-notifications/how-push-works)
+
+[🚀🔔 Beginners guide to Web Push Notifications using Service Workers | Blog](https://blog.atulr.com/web-notifications/)
+
+## Notifire
+
+[Notifire - Notification management simplified.](https://www.notifire.co/)
+[notifirehq/notifire: 🚀 Open-source notification infrastructure for products](https://github.com/notifirehq/notifire)
+
+[Building the first open-source notification infrastructure - DEV Community](https://dev.to/scopsy/building-the-first-open-source-notification-infrastructure-5h9k)
 
 ## Webhooks
 

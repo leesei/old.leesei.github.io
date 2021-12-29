@@ -2,11 +2,11 @@
 title: "sed notes"
 date: 2015-01-13 12:55:35
 categories:
-- app
+  - app
 tags:
-- shell-tool
-- sed
-- notes
+  - shell-tool
+  - sed
+  - notes
 toc: true
 ---
 
@@ -28,6 +28,8 @@ sed -f <PROGRAM.sed> file
 [Famous Sed One-Liners Explained, Part I: File Spacing, Numbering and Text Conversion and Substitution - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-one/)
 [Famous Sed One-Liners Explained, Part II: Selective Printing of Certain Lines - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-two/)
 [Famous Sed One-Liners Explained, Part III: Selective Deletion of Certain Lines and Special Applications - good coders code, great reuse](http://www.catonmat.net/blog/sed-one-liners-explained-part-three/)
+[Cover - GNU SED](https://learnbyexample.github.io/learn_gnused/)
+[sed one-liners](http://www.unixguide.net/unix/sedoneliner.shtml)
 [Sed one-liners](http://sed.sourceforge.net/sed1line.txt)
 
 [Sed - UNIX Stream Editor - Cheat Sheet - good coders code, great reuse](http://www.catonmat.net/blog/sed-stream-editor-cheat-sheet/)

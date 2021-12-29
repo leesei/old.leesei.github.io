@@ -2,14 +2,14 @@
 title: "vim notes"
 date: 2015-01-14 12:48:30
 categories:
-- app
+  - app
 tags:
-- shell-tool
-- vim
-- notes
+  - shell-tool
+  - vim
+  - notes
 ---
 
-[vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) is a screen-oriented text editor originally created for the Unix operating system
+[vim](<http://en.wikipedia.org/wiki/Vim_(text_editor)>) is a screen-oriented text editor originally created for the Unix operating system
 
 [Vim documentation: help](http://vimdoc.sourceforge.net/htmldoc/help.html)
 
@@ -26,12 +26,14 @@ tags:
 [Vim Workflow (Part Deux)](http://www.integralist.co.uk/posts/vim-3.html)
 [Vim workflows](http://mrmrs.io/writing/2013/12/21/vim-workflows/)
 [简明 Vim 练级攻略 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/5426.html)
-[无插件Vim编程技巧 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/11312.html)
+[无插件 Vim 编程技巧 | 酷 壳 - CoolShell.cn](http://coolshell.cn/articles/11312.html)
 [Interactive Vim tutorial](http://www.openvim.com/tutorial.html)
 [How to Learn Vim](http://mrmrs.io/writing/2013/12/19/how-to-learn-vim/)
 [VimGolf - real Vim ninjas count every keystroke!](http://www.vimgolf.com/)
 [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+[Learn Vim For the Last Time: A Tutorial and Primer - Daniel Miessler](https://danielmiessler.com/study/vim/)
 [How To Learn Vim: A Four Week Plan – Actualize – Medium](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
+[vimtutor(1): Vim tutor - Linux man page](https://linux.die.net/man/1/vimtutor)
 
 [aharris88/learn-vimscript: My solutions to the exercises in Learn Vimscript the Hard Way](https://github.com/aharris88/learn-vimscript)
 [Vim Cheat Sheet - English](https://vim.rtorr.com/)
@@ -67,7 +69,7 @@ zc          - close folded text
 [coderwall.com : establishing geek cred since 1305712800](https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode)
 
 enter paste mode: `:set paste`
-exit paste mode:  `:set nopaste`
+exit paste mode: `:set nopaste`
 
 You can toggle paste mode with key by adding this to your `.vimrc`:
 

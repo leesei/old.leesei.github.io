@@ -2,29 +2,24 @@
 title: "Cinnamon setup"
 date: 2015-05-04 13:23:07
 categories:
-- linux
+  - linux
 tags:
-- desktop
-- cinnamon
+  - desktop
+  - cinnamon
 toc: true
 ---
 
 ## Settings
 
-### "Backgrounds"
+### "Font Selection"
 
-"Advanced Options"
-No picture, No gradient, use black
-
-### "Fonts"
-
-Default Font: Noto Sans CJK JP Regular 9
-Document Font: Noto Sans CJK JP Regular 11
-Mono Font: Noto Sans Mono CJK JP Regular 11
-Window Title Font: Noto Sans CJK JP Black 10
+Default Font: Noto Sans CJK HK Regular 10
+Document Font: Noto Sans Regular 10
+Document Font: Noto Sans Regular 11
+Mono Font: Fira Code Regular 11
+Window Title Font: Noto Sans CJK HK Black 10
 
 Text scaling factor: 1.2
-Antialiasing: Rgba
 Hinting: Full
 
 ## "Themes"
@@ -33,11 +28,11 @@ Hinting: Full
 
 `~/.themes/`
 
-Windows borders: Numix-Frost
-Icons: Numix-Square
-Controls: Adwaita
+Windows borders: Arc-Dark
+Icons: Arc-X-D
+Controls: Arc-Dark
 Mouse Pointer: Adwaita
-Desktop: Numix-Frost
+Desktop: Arc-Dark
 
 Also: Zukitwo for Mac-like feeling
 
@@ -51,12 +46,12 @@ Uncheck "Show icons on buttons"
 `~/.local/share/cinnamon/applets/`
 
 Upper panel (left-to-right):
+
 - Menu
 - Panel launchers
-    - Chrome
-    - Firefox
-    - Browser
-    - Terminal
+  - Chrome
+  - Firefox
+  - Terminal
 - Spacer
 - Multi-Core System Monitor
 - Keyboard
@@ -69,9 +64,9 @@ Upper panel (left-to-right):
 - Calendar
 
 Lower panel (left-to-right):
+
 - Scale
 - Expo
-- Show Desktop
 - Window List
 - Force Quit/Force Quit II
 - Workspace switcher
@@ -80,13 +75,6 @@ Lower panel (left-to-right):
 [Force Quit](http://cinnamon-spices.linuxmint.com/applets/view/4) (red)
 [Multi-Core System Monitor](http://cinnamon-spices.linuxmint.com/applets/view/79)
 [ScreenShot+Record Desktop](https://cinnamon-spices.linuxmint.com/applets/view/41)
-
-### ~~[Desktop Capture](http://cinnamon-spices.linuxmint.com/applets/view/96)~~
-
-Use ImageMagik
-Disable all key bindings
-Don't copy to clipboard
-Enable all in notification, but not on click action
 
 ### [Sound With Apps Volume](http://cinnamon-spices.linuxmint.com/applets/view/150)
 
@@ -112,6 +100,7 @@ Uncheck "Show empty tray"
 
 "Use 24h Clock": on
 "Display the date": on
+"Display Seconds": off
 "First day of week": Monday
 
 ## "Desklets"
@@ -124,16 +113,16 @@ Uncheck "Show empty tray"
 
 ```json
 {
-    "description": "A fork desklet that displays the time and date", 
-    "dateSize": "20pt", 
-    "dangerous": false, 
-    "dateFormat": "%A, %e %B", 
-    "name": "Time and Date Desklet", 
-    "timeSize": "50pt", 
-    "last-edited": "1371648230", 
-    "timeFormat": "%H:%M", 
-    "prevent-decorations": true, 
-    "uuid": "TimeAndDate@nightflame"
+  "description": "A fork desklet that displays the time and date",
+  "dateSize": "20pt",
+  "dangerous": false,
+  "dateFormat": "%A, %e %B",
+  "name": "Time and Date Desklet",
+  "timeSize": "50pt",
+  "last-edited": "1371648230",
+  "timeFormat": "%H:%M",
+  "prevent-decorations": true,
+  "uuid": "TimeAndDate@nightflame"
 }
 ```
 
@@ -161,12 +150,7 @@ uncheck "Animation"
 ## "Preferred Applications"
 
 Google Chrome
-SMPlayer
 Text Editor
-
-## "Screen Saver"
-
-Screen Locker
 
 ### Settings
 
@@ -174,29 +158,27 @@ Lock when put to sleep
 Lock when screen turn off
 Don't ask for custom message
 
-### Date 
+### Date
 
 Use custom date and time format
 
 ## "Startup Applications"
 
 Disable:
-- Caribou
-- Ctrl Alt Backspace
+
+- EndeavourOS Update Notifier
 - Desktop Sharing
-- mintUpdate
-- mintUpload
-- mintWelcome
-- Update Notifier
+- User folder update
 - Zeitgeist Datahub
 
 Add:
+
 - Guake
-- Teamviewer
+- overGrive
 
 ## "Windows"
 
-###  Titlebar
+### Titlebar
 
 Action on titlebar middle click: None
 
@@ -209,6 +191,7 @@ delay 50ms
 ## "Keyboard" > "Keyboard Shortcuts"
 
 Generally delete unused shortcuts.
+Disable NumLock to use keypad keys.
 
 ```sh
 gsettings list-schema org.cinnamon.desktop.keybindings.wm
@@ -216,38 +199,70 @@ dconf dump /org/cinnamon/desktop/keybindings/wm/
 ```
 
 "General":
-- "Toggle Scale": <kbd>Super</kbd>+<kbd>q</kbd>
-- "Toggle Expo": <kbd>Super</kbd>+<kbd>w</kbd>
-- "Cycle Windows Backwards": <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd>
-- "Cycle Same App": <kbd>Alt</kbd>+<kbd>`</kbd>
+
+- "Show the window selection screen" (Scale): <kbd>Super</kbd>+<kbd>Q</kbd>
+- "Show the workspace selection screen" (Expo): none
+- "Show Desktop": <kbd>Super</kbd>+<kbd>D</kbd>
+- "Cycle Windows Backwards": <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Tab</kbd>
+- "Cycle Same App": <kbd>Alt</kbd>+<kbd>\`</kbd>
 - "Run": <kbd>Super</kbd>+<kbd>r</kbd>
 - "Looking Glass": <kbd>Super</kbd>+<kbd>F12</kbd>
 
 "Windows":
+
 - "Minimize window": <kbd>Super</kbd>+<kbd>KP_1</kbd>
-- "Show Desktop": <kbd>Super</kbd>+<kbd>d</kbd>
 - "Toggle maximization state": <kbd>Super</kbd>+<kbd>KP_9</kbd>
 
 "Window > Tiling and Snapping":
+
 - "Push tile left": <kbd>Super</kbd>+<kbd>Left</kbd>
 - "Push tile right": <kbd>Super</kbd>+<kbd>Right</kbd>
 - "Push tile up": <kbd>Super</kbd>+<kbd>Up</kbd>
 - "Push tile down": <kbd>Super</kbd>+<kbd>Down</kbd>
+- "Push snap left": <kbd>Ctrl</kbd>+<kbd>Super</kbd>+<kbd>Left</kbd>
+- "Push snap right": <kbd>Ctrl</kbd>+<kbd>Super</kbd>+<kbd>Right</kbd>
+- "Push snap up": <kbd>Ctrl</kbd>+<kbd>Super</kbd>+<kbd>Up</kbd>
+- "Push snap down": <kbd>Ctrl</kbd>+<kbd>Super</kbd>+<kbd>Down</kbd>
 
 "Window > Inter-workspace":
+
 - "Move window to left workspace": <kbd>Super</kbd>+<kbd>,</kbd>
 - "Move window to right workspace": <kbd>Super</kbd>+<kbd>.</kbd>
 
+"Window > Inter-workspace":
+
+- "Move window to left monitor": <kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>Left</kbd>
+- "Move window to right monitor": <kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>Right</kbd>
+- "Move window to up monitor": <kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>Up</kbd>
+- "Move window to down monitor": <kbd>Shift</kbd>+<kbd>Super</kbd>+<kbd>Down</kbd>
+
 "Workspace > Direct Navigation":
+
 - "Switch to workspace 1": <kbd>Super</kbd>+<kbd>1</kbd>
 - "Switch to workspace 2": <kbd>Super</kbd>+<kbd>2</kbd>
 
 "System":
-- "Lock screen": <kbd>Super</kbd>+<kbd>l</kbd>
+
+- "Lock screen": <kbd>Super</kbd>+<kbd>L</kbd>
+
+"System > Hardware":
+
+- "Re-detect display devices": None
+
+"System > Screenshots and Recordings":
+
+- "Take a screenshot of an area": <kbd>Shift</kbd>+<kbd>Print</kbd>
+- "Copy a screenshot of an area to clipblard": <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Print</kbd>
+- "Take a screenshot": <kbd>Print</kbd>
+- "Copy a screenshot to clipblard": <kbd>Ctrl</kbd>+<kbd>Print</kbd>
+- "Take a screenshot of a window": <kbd>Alt</kbd>+<kbd>Print</kbd>
+- "Copy a screenshot of a window to clipblard": <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Print</kbd>
 
 "Launchers":
-- "Home folder": <kbd>Super</kbd>+<kbd>e</kbd>
-- "Launch terminal": <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>t</kbd>
+
+- "Launch terminal": <kbd>Super</kbd>+<<kbd>T</kbd>
+- "WWW browser": <kbd>Homepage</kbd> (<kbd>Fn</kbd>+<kbd>F1</kbd>)
+- "Home folder": <kbd>Super</kbd>+<kbd>E</kbd>
 
 ## Nemo
 

@@ -36,6 +36,8 @@ date: 2016-01-26 11:58:54
 
 ## CDN
 
+[What is a CDN and how to Implement a CDN in Joomla - The Joomla Community Magazine](https://magazine.joomla.org/all-issues/january-2021/what-is-a-cdn-and-how-to-implement-a-cdn-in-joomla)
+
 With time-expiring token:
 [Creating a Signed URL Using a Custom Policy - Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-creating-signed-url-custom-policy.html?tag=vig-20#private-content-custom-policy-statement-example-all-objects)
 [Secure Token - KeyCDN Support](https://www.keycdn.com/support/secure-token/)
@@ -47,7 +49,7 @@ With `Referer`:
 
 [jsDelivr - A free, fast, and reliable Open Source CDN for npm & GitHub](https://www.jsdelivr.com/) good for Asia
 [UNPKG](https://unpkg.com/#/)
-[Hosted Libraries  |  Hosted Libraries  |  Google Developers](https://developers.google.com/speed/libraries/)
+[Hosted Libraries | Hosted Libraries | Google Developers](https://developers.google.com/speed/libraries/)
 [cdnjs.com - The free and open source CDN for web related libraries to speed up your website!](https://cdnjs.com/) (CloudFlare)
 [Microsoft Ajax Content Delivery Network | The ASP.NET Site](http://www.asp.net/ajax/cdn)
 [BootstrapCDN by MaxCDN](https://www.bootstrapcdn.com/)

@@ -5,10 +5,6 @@ categories:
   - linux
 tags:
   - arch-linux
-  - manjaro
-  - antergos
-  - archbang
-  - bridge-linux
   - desktop
   - package-manager
   - notes
@@ -17,13 +13,14 @@ toc: true
 
 [Arch Linux - Wikiwand](http://www.wikiwand.com/en/Arch_Linux)
 [Arch Linux Wiki](https://www.archlinux.org/)
-[Manjaro Linux](https://wiki.manjaro.org/index.php?title=Main_Page)
 [Community Wiki | Antergos](http://antergos.com/wiki/)
 [Arch Linux ARM](https://archlinuxarm.org/)
 
 [Arch Linux - ArchWiki](https://wiki.archlinux.org/index.php/Arch_Linux#Principles) The Arch Way
 [The Arch Way | The Arch Action Show! - YouTube](https://www.youtube.com/watch?v=iyiaiF_-A2M)
 [greg-js/arch-wiki-man: Search a local, updated copy of the entire Arch Wiki and open the article in `man`](https://github.com/greg-js/arch-wiki-man)
+
+[ALFA: https://haavard.me/files/alfa.pdf](https://gist.github.com/haavard/56b8d522893e3c4bb9645c48444a5f5c) Arch Linux Fuck-up Assessment Form
 
 [Beginners' guide - ArchWiki](https://wiki.archlinux.org/index.php/Beginners%27_guide)
 [System maintenance - ArchWiki](https://wiki.archlinux.org/index.php/System_maintenance)
@@ -45,25 +42,53 @@ toc: true
 ## Arch Distros
 
 [DistroWatch.com: based on Arch ](http://distrowatch.com/search.php?ostype=Linux&category=All&origin=All&basedon=Arch&notbasedon=None&desktop=All&architecture=All&status=Active)
+[Top 9 User-friendly Arch-Based Linux Distributions [2020]](https://itsfoss.com/arch-based-linux-distros/)
 
-[ArcoLinux.info | Linux Made Easy and Beautiful](https://arcolinux.info/)
-DE: Xfce, Openbox, i3 (ArcoLinux); varies (ArcoLinuxD/ArcoLinuxB)
-[Antergos Linux](http://antergos.com/) discontinued
-[Manjaro Linux](https://manjaro.github.io/) [iso](http://sourceforge.net/projects/manjarolinux/files/) [torrent](http://sourceforge.net/projects/manjarotorrents/files/) uses own repo, quirky
-DE (official): Xfce, KDE, CLI
-DE (community): GNOME, LXQT, LXDE, Openbox, Cinnamon, MATE, Enlightenment
-DE: GNOME 3, KDE, Cinnamon, Xfce, Openbox, LXQT, MATE, CLI
+[EndeavourOS – A terminal-centric distro with a dynamic and friendly community in its core](https://endeavouros.com/) any DE, close to Arch, less UI apps, focus on community, successor of Antergos
+DE: Xfce, LXQt, MATE, i3-wm, GNOME 3, Plasma, Cinnamon, Budgie, Deepin
+[Garuda Linux | Home](https://garudalinux.org/)
+Eagle themed distro focuses on performance, BTRFS by default
+DE: GNOME, Xfce, Cinnamon, MATE, LXQt-kwin, Deepin, Wayfire, BSPWM and i3wm.
+[Reborn OS – Made for You – Made by You](https://rebornos.org/) any DE, supports RPi
+DE: KDE, GNOME, Cinnamon, Mate, Deepin, Apricity, Budgie, OpenBox, i3, Xfce, Enlightenment, Openbox or LXQT
+[Manjaro Linux](https://manjaro.github.io/) [iso](https://osdn.net/projects/manjaro/storage/) [torrent](http://sourceforge.net/projects/manjarotorrents/files/) uses own repo, quirky
+DE (official): Xfce, GNOME, KDE, CLI
+DE (community): LXQt, LXDE, Openbox, Cinnamon, MATE, Enlightenment, Budgie, Deepin
 [ArchBang](http://www.archbang.org/) [iso](http://sourceforge.net/projects/archbang/files/)
 DE: Openbox
+[SwagArch GNU/Linux | A simple and beautiful Everyday Arch Desktop](https://swagarch.github.io/)
+DE: Xfce
+[Archman GNU / Linux – Support Platform for Arch Linux-based distributions – Manjaro, Antergos, Apricity …](https://archman.org/en/)
+DE: i3-wm
+DE (community): gnome, mate, lxqt
+[Namib GNU/Linux](https://www.namiblinux.org/features/) Arch + any DE, fork of Manjaro?
+DE: Budgie, Cinnamon, GNOME, KDE, MATE, Xfce
+
+[ArcoLinux.info | Linux Made Easy and Beautiful](https://arcolinux.info/)
+[Arcolinux.com | Linux Made Easy and Beautiful](https://arcolinux.com/) focus more on teaching you how to install Arch
+DE: Xfce, Openbox, i3 (ArcoLinux); varies (ArcoLinuxD/ArcoLinuxB)
+
+[ParabolaWiki](https://wiki.parabola.nu/Main_Page) GNU only
+
+[Liri](https://liri.io/) Arch + Qt + Wayland + [Hawaii](http://hawaiios.org/) + [Papyros](http://papyros.io/)
+not active
+[Antergos Linux](http://antergos.com/) discontinued
+DE: GNOME 3, KDE, Cinnamon, Xfce, Openbox, LXQt, MATE, CLI
+remove `antergos` block form `/etc/pacman.conf`
 
 ### ArcoLinux
 
 [arcolinux](https://github.com/arcolinux)
 [arcolinuxd](https://github.com/arcolinuxd)
 
+[ArcoLinux in a nutshell | ArcoLinux.info](https://arcolinux.info/arcolinux-in-a-nutshell/)
+
+[Erik Dubois - YouTube](https://www.youtube.com/user/maclover696)
 [ArcoLinuxD - YouTube](https://www.youtube.com/playlist?list=PLlloYVGq5pS7Cf0dqiYbs_no7P6sRtqQH)
 [ArcoLinux : 523 ArcoLinux the what, who, where, want, why, when, way and how - YouTube](https://www.youtube.com/watch?v=QWqfXmtXD2E)
 [ArcoLinux : 431 what is ArcoLinux and what is Arch Linux - difference - YouTube](https://www.youtube.com/watch?v=zR5XlpWPbXg)
+
+[1 – Installation of ArcoLinuxD Cinnamon | Arcolinuxd.com](https://arcolinuxd.com/1-installation-of-arcolinuxd-cinnamon/)
 
 ### Manjaro NET-Edition
 
@@ -72,7 +97,6 @@ Install graphic driver and DE yourself.
 
 [Installation Guide for the NET Edition 0.8.10 - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Installation_Guide_for_the_NET_Edition_0.8.10)
 [Installation Guide for Experienced Users 0.8.2 - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Installation_Guide_for_Experienced_Users_0.8.2)
-[Installation to SSD (quick guide) - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Installation_to_SSD_(quick_guide%29)
 [UEFI - Install Guide - Manjaro Linux](https://wiki.manjaro.org/index.php?title=UEFI_-_Install_Guide)
 
 ```sh
@@ -104,14 +128,25 @@ ArchBang kick-start you with OpenBox WM.
 ## Installation
 
 [Installation guide - ArchWiki](https://wiki.archlinux.org/index.php/Installation_guide)
-[Installation to SSD (quick guide) - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Installation_to_SSD_%28quick_guide%29)
 
 [Installing Arch Linux (Standard Procedure) - YouTube](https://www.youtube.com/watch?v=lizdpoZj_vU) 2015-10
 [Full Arch Linux Install (SAVAGE Edition!) - YouTube](https://www.youtube.com/watch?v=4PBqpX0_UOc) 2018-03
 
 [picodotdev/alis: Arch Linux Install Script (alis) installs unattended, automated and customized Arch Linux system.](https://github.com/picodotdev/alis)
 [slayerizer/arch_installer: script to install arch linux very quickly](https://github.com/slayerizer/arch_installer)
+[MatMoul/archfi: Arch Linux Fast Installer : tutorial installer](https://github.com/MatMoul/archfi)
+[helmuthdu/aui: Archlinux Ultimate Install](https://github.com/helmuthdu/aui)
+[ChrisTitusTech/ArchTitus: Automated Arch Linux Install](https://github.com/ChrisTitusTech/ArchTitus)
+
+[Anarchy Installer](https://anarchyinstaller.gitlab.io/)
+[ArchLabs Linux – Inspired by BunsenLabs. Powered by Arch Linux.](https://archlabslinux.com/)
+[ArchLabs Review: A Quick Look At The Rising Arch Based Linux Distribution - It's FOSS](https://itsfoss.com/archlabs-review/)
+
 [Zen Installer download | SourceForge.net](https://sourceforge.net/projects/revenge-installer/)
+[spookykidmm/zen_installer: Graphical installer for Arch Linux](https://github.com/spookykidmm/zen_installer)
+
+[Architect Installer for Arch Linux](https://landoflinux.com/linux_install_architect_linux.html)
+[Installation with Manjaro Architect - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Installation_with_Manjaro_Architect)
 
 [Arch Linux Challenge: Tips & Tricks](https://docs.google.com/document/d/1kWQRBDL_N0CImPV5t0W2xj7bsAFcZOLmRsf-kX-eR9M/mobilebasic)
 [Arch Linux OS Challenge: Install Arch 'The Easy Way' With These 2 Alternative Methods](https://www.forbes.com/sites/jasonevangelho/2019/06/10/arch-linux-os-challenge-2-alternatives-install-gui-script-easy/amp/)
@@ -125,223 +160,6 @@ ArchBang kick-start you with OpenBox WM.
 [Build a Killer Customized Arch Linux Installation (and Learn All About Linux in the Process)](http://lifehacker.com/5680453/build-a-killer-customized-arch-linux-installation-and-learn-all-about-linux-in-the-process)
 [Installing GUI (Cinnamon Desktop) and Basic Softwares in Arch Linux](http://www.tecmint.com/install-cinnamon-desktop-in-arch-linux/)
 [Setting up my Arch-Linux-based production environment: II](http://cs.iupui.edu/~pengw/writing/arch-setup-2.html)
-
-```sh
-sudo su
-curl https://www.archlinux.org/mirrorlist/all/https/ |\
-sed 's/^#//g' > /etc/pacman.d/mirrorlist
-# https://www.archlinux.org/mirrorlist/
-
-# Antergos specific
-pacman -Syy && pacman -S cnchi
-cnchi -indv --disable-rank-mirrors --disable-update
-```
-
-`/etc/pacman.d/mirrorlist`:
-
-```ini
-## Hong Kong
-# Hong Kong
-Server = https://arch-mirror.wtako.net/$repo/os/$arch
-Server = http://arch-mirror.wtako.net/$repo/os/$arch
-
-# United States
-Server = https://mirror.rackspace.com/archlinux/$repo/os/$arch
-Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
-#Server = https://kwk.pw/arch/$repo/os/$arch
-#Server = https://arch.localmsp.org/arch/$repo/os/$arch
-#Server = https://mirror.lty.me/archlinux/$repo/os/$arch
-#Server = https://lug.mtu.edu/archlinux/$repo/os/$arch
-#Server = https://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch
-
-# China
-#Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
-```
-
-## Post-install
-
-### pacman repo
-
-[Multilib - ArchWiki](https://wiki.archlinux.org/index.php/Multilib)
-
-```sh
-sudo vi /etc/pacman.conf
-# Uncomment `[multilib]` section
-
-# update mirrorlist
-sudo su
-sudo pacman-mirrors -i # or -g
-
-sudo pacman -Syy
-sudo pacman-optimize && sync
-
-# update
-pacman -Syyu
-```
-
-### increase inotify limit
-
-For Dropbox, and possibly more.
-When Dropbox seems to fail to sync files, start Dropbox in CLI, see if it reports "Unable to monitor entire Dropbox folder hierarchy."
-
-Permanently:
-
-```sh
-su
-vi /etc/sysctl.d/30-dropbox.conf
-# change max_user_watches to 300000
-sysctl --system
-```
-
-Temporarily:
-
-```sh
-cat /proc/sys/fs/inotify/max_user_watches
-sudo echo 150000 > /proc/sys/fs/inotify/max_user_watches
-```
-
-> see `caravan/home/rfs.common/etc/`
-
-### install priority packages
-
-```sh
-yaourt -S dropbox guake pacmatic zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# copy Dropbox backup to ~/Dropbox to save download time
-yaourt -S --needed google-chrome gvim sublime-text-dev-imfix2
-```
-
-### SSH Server
-
-[OpenSSH Server on Arch Linux | DominicMDominicM](http://dominicm.com/openssh-server-arch-linux/)
-
-### Samba
-
-[Configure Home Server Samba Shares | DominicMDominicM](http://dominicm.com/configure-home-server-samba-shares/)
-
-```sh
-sudo pdbedit -L -v
-```
-
-### setup mail
-
-> this is mostly for `pacmatic`'s update
-
-[msmtp - ArchWiki](https://wiki.archlinux.org/index.php/Msmtp#Using_the_mail_command)
-
-```sh
-cron-pacmatic <email>
-```
-
-### display driver
-
-Proprietary (non-free) drivers is a source of problem. You will have to rebuild the driver every time the kernel is updated. Otherwise X will fail to start.
-If performance is not an issue it is [recommended](https://wiki.archlinux.org/index.php/Enhance_system_stability#Choose_open-source_drivers) to use the free drivers.
-
-[Install Video Drivers on Arch Linux | DominicM](http://dominicm.com/install-video-drivers-on-arch-linux/)
-
-[Vulkan - Industry Forged](https://www.khronos.org/vulkan/)
-[Vulkan (API) - Wikiwand](https://www.wikiwand.com/en/Vulkan_%28API%29)
-
-#### AMD
-
-[AMD: Download Drivers](http://support.amd.com/en-us/download)
-[Installing AMD Catalyst drivers on Arch Linux](http://www.neuraladvance.com/installing-amd-catalyst-drivers-on-arch-linux.html)
-
-#### nVidia
-
-[NVIDIA - ArchWiki](https://wiki.archlinux.org/index.php/NVIDIA)
-[NVIDIA/Tips and tricks - ArchWiki](https://wiki.archlinux.org/index.php/NVIDIA/Tips_and_tricks#Fixing_terminal_resolution)
-
-```sh
-# drivers
-nvidia nvidia-lts nvidia-utils nvidia-libgl lib32-nvidia-utils lib32-nvidia-libgl
-
-## reinstall this upon uninstall
-mesa-libgl
-
-# legacy (for Quadro FX 570)
-nvidia-340xx nvidia-340xx-lts nvidia-340xx-utils nvidia-340xx-libgl lib32-nvidia-340xx-utils lib32-nvidia-340xx-libgl
-```
-
-#### Intel
-
-[Intel graphics - ArchWiki](https://wiki.archlinux.org/index.php/intel_graphics)
-`man intel`
-
-`xf86-video-intel` now used DRI3 by default, modify `/etc/X11/xorg.conf.d/20-intel.conf` to change to DRI2:
-
-```
-Section "Device"
-  Identifier  "Intel Graphics"
-  Driver      "intel"
-  Option      "DRI" "2"             # DRI3 is now default
-  #Option      "AccelMethod"  "sna" # default
-  #Option      "AccelMethod"  "uxa" # fallback
-EndSection
-```
-
-#### Hardware acceleration
-
-[Hardware video acceleration - ArchWiki](https://wiki.archlinux.org/index.php/Hardware_video_acceleration)
-There are two APIs for hardware video acceleration: VA-API and VDPAU. It's better to install both.
-
-```sh
-# tools
-# libva-* or driver for graphic card
-libvdpau-va-gl      # VDPAU backend for VA-API
-libva-vdpau-driver  # VA-API backend for VDPAU
-libva-utils vdpauinfo
-```
-
-### Remove indexer (Antergos only?)
-
-```sh
-pacman -Rs tracker bijiben gnome-music gnome-online-miners gnome-photos totem zeitgeist
-pacman -Rs transmission-cli transmission-gtk
-```
-
-### Network
-
-[systemd-networkd - ArchWiki](https://wiki.archlinux.org/index.php/Systemd-networkd)
-
-#### DNS resolver
-
-`~/caravan/home/rfs/etc/resolv.conf`
-
-[Get Started  |  Public DNS  |  Google Developers](https://developers.google.com/speed/public-dns/docs/using#linux)
-
-#### Static IP
-
-Edit `/etc/systemd/network/wired.network`:
-
-```ini
-[Match]
-Name=enp63s0
-
-[Network]
-Address=10.6.64.48/24
-Gateway=10.6.64.1
-```
-
-Revert to DHCP:
-
-```ini
-[Match]
-Name=enp63s0
-
-[Network]
-DHCP=ipv4
-```
-
-```sh
-sudo systemctl enable systemd-networkd
-sudo systemctl restart systemd-networkd
-```
-
-You can lookup interface name with `ifconfig`/`ls /sys/class/net`.
-[Network configuration - ArchWiki](https://wiki.archlinux.org/index.php/Network_configuration)
-[systemd-networkd - ArchWiki](https://wiki.archlinux.org/index.php/Systemd-networkd#Basic_DHCP_network)
 
 ## Troubleshooting
 
@@ -444,16 +262,80 @@ ls /dev/disk/by-{id,label,uuid}
 
 ## Package manager
 
-### gpg
+[Powerpill - ArchWiki](https://wiki.archlinux.org/index.php/Powerpill)
+[bauerbill](https://xyne.archlinux.ca/projects/bauerbill/)
+
+[Jguer/yay: Yet another Yogurt - An AUR Helper written in Go](https://github.com/Jguer/yay)
+[trizen/trizen: Lightweight AUR Package Manager](https://github.com/trizen/trizen)
+
+### pacman
+
+[Pacman Home Page](https://www.archlinux.org/pacman/)
+[pacman - ArchWiki](https://wiki.archlinux.org/index.php/pacman)
+[pacman/Tips and tricks - ArchWiki](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks)
+[Pacman Overview - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Pacman_Tips)
+[Pacman basic commands – Endeavour OS](https://endeavouros.com/docs/pacman/pacman-basic-commands/)
+[Getting started with Pacman - OSTechNix](https://www.ostechnix.com/getting-started-pacman/)
+[Improve pacman performance - ArchWiki](https://wiki.archlinux.org/index.php/Improve_pacman_performance)
+[Pacman troubleshooting - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting)
+
+`/etc/pacman.conf`
+
+[Arch Linux - pacman-contrib 1.3.0-1 (x86_64)](https://www.archlinux.org/packages/community/x86_64/pacman-contrib/)
+
+### Koans
+
+#### repo source
+
+`pacman` only installs from [official repositories](https://wiki.archlinux.org/index.php/Official_repositories): core, extra, community. But the gem of Arch Linux in the [Arch User Repository (AUR)](https://wiki.archlinux.org/index.php/Arch_User_Repository). You can find literally any linux apps there. If it is not there, you can create a PKGBUILD and submit to it.
+
+[Arch Linux - Package Search](https://www.archlinux.org/packages/)
+[AUR (en) - Packages](https://aur.archlinux.org/packages/)
+
+[Arch Linux - Mirror Overview](https://www.archlinux.org/mirrors/)
+[Arch Linux - Pacman Mirrorlist Generator](https://www.archlinux.org/mirrorlist/)
+http://repo.manjaro.org
+
+```sh
+sudo pacman-mirrors -i # or -g
+
+# mirror list is located at
+sudo vi /etc/pacman.d/mirrorlist
+```
+
+#### Arch Linux News
+
+[Arch Linux - News](https://www.archlinux.org/news/)
+
+[AUR (en) - informant](https://aur.archlinux.org/packages/informant/)
+
+[Arch Linux - pacmatic 20150126-2 (any)](https://www.archlinux.org/packages/community/any/pacmatic/)
+[Pacmatic: Get emails about pending system updates with cron-pacmatic](http://kmkeen.com/pacmatic/)
+
+- alert you the updates of **your installed applications**
+- forces you to resolve [pacman conflicts](https://wiki.archlinux.org/index.php/Pacnew_and_Pacsave_files)
+
+Just use `pacmatic` instead of `pacman`.
+
+#### Installing old version of package
+
+[Arch Linux Archive - ArchWiki](https://wiki.archlinux.org/index.php/Arch_Linux_Archive)
+[Index of /packages/](https://archive.archlinux.org/packages/)
+[Arch Linux Historical Archive : Free Software : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/archlinuxarchive)
+
+`pacman -U oldpackage.pkg.tar.zst`
+
+Then add the package to `IgnorePkg` line in `/etc/pacman.conf`
+
+#### key management
 
 ```sh
 # this init `~/.gpg`
 gpg --list-keys
 # add key
 gpg --recv-keys 1D1F0DC78F173680
+gpg --keyserver pool.sks-keyservers.net --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 ```
-
-### pacman-key
 
 `pacman-key` is a wrapper around gpg
 
@@ -477,48 +359,6 @@ or add key automatically:
 keyserver-options auto-key-retrieve
 ```
 
-### pacman
-
-https://wiki.archlinux.org/index.php/Pacman
-https://wiki.archlinux.org/index.php/Pacman_Tips
-https://wiki.manjaro.org/index.php?title=Pacman_Tips
-http://www.hahack.com/wiki/arch-pacman.html
-[Improve pacman performance - ArchWiki](https://wiki.archlinux.org/index.php/Improve_pacman_performance)
-[Pacman troubleshooting - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Pacman_troubleshooting)
-
-`/etc/pacman.conf`
-
-[Powerpill - ArchWiki](https://wiki.archlinux.org/index.php/Powerpill)
-[bauerbill](https://xyne.archlinux.ca/projects/bauerbill/)
-
-#### repo source
-
-`pacman` only installs from [official repositories](https://wiki.archlinux.org/index.php/Official_repositories): core, extra, community. But the gem of Arch Linux in the [Arch User Repository (AUR)](https://wiki.archlinux.org/index.php/Arch_User_Repository). You can find literally any linux apps there. If it is not there, you can create a PKGBUILD and submit to it.
-
-[Arch Linux - Package Search](https://www.archlinux.org/packages/)
-[AUR (en) - Packages](https://aur.archlinux.org/packages/)
-
-[Arch Linux - Mirror Overview](https://www.archlinux.org/mirrors/)
-[Arch Linux - Pacman Mirrorlist Generator](https://www.archlinux.org/mirrorlist/)
-http://repo.manjaro.org
-
-```sh
-sudo pacman-mirrors -i # or -g
-
-# mirror list is located at
-sudo vi /etc/pacman.d/mirrorlist
-```
-
-#### using AUR
-
-[AUR helpers - ArchWiki](https://wiki.archlinux.org/index.php/AUR_helpers)
-[[SOLVED] Should I install programs using pacman or packer? (Page 1) / Pacman/Packages / ArchBang Forums](http://bbs.archbang.org/viewtopic.php?id=2474)
-[How To Use Yaourt to Easily Download Arch Linux Community Packages | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-yaourt-to-easily-download-arch-linux-community-packages)
-
-[Don't Install Yaourt! Use These Alternatives for AUR in Arch Linux](https://itsfoss.com/best-aur-helpers/)
-
-`yay -S --aur package_name` force install from AUR
-
 #### sync database (-S -y|--refresh)
 
 ```sh
@@ -537,22 +377,28 @@ pacman-optimize && sync
 # check packages that can be updated
 checkupdates
 
-# chech arch news
+# check arch news
 pacmatic
 # update packages
 pacman -Su
-# sync and udpate
+# sync and update
 pacman -Syu
+
+# overwrite files
+pacman -Syu --overwrite <files>
 ```
 
 #### installing (-S|--sync)
 
 ```sh
 pacman -S package_name
+# fix broken package
+pacman -Syu package_name
 pacman -S testing/package_name
 pacman -S group_name
 # local package
 pacman -U /package_path/package_name.pkg.tar.xz
+pacman -U /package_path/package_name.pkg.tar.zst
 ```
 
 #### search (-S -s|--search)
@@ -573,8 +419,6 @@ pacman -Sg group_name
 ```sh
 sudo pacman -Scc
 # pacman only keeps install version so it is not possible to rollback
-# use `pkgcacheclean` from AUR
-sudo pkgcacheclean
 ```
 
 #### remove (-R|--remove)
@@ -594,14 +438,16 @@ pacman -Rsn $(pacman -Qdtq)
 pacman -Q
 # backup installed packages
 pacman -Q > arch-installed
-# use `yaourt -Ss` to show package info
-pacman -Qq | xargs -I@ yaourt -Ss ^@$
+# use `yay -Ss` to show package info
+pacman -Qq | xargs -I@ yay -Ss ^@$
 # query manual installs, use `pac-info` to show package info
 pacman -Qeq | xargs -n1 pac-info
 # search installed packages
 pacman -Qs <query>
 # query files in packages
 pacman -Ql package_name
+# query broken packages
+pacman -Qkk [package_name]
 # query package that installed the file
 pacman -Qo <file path>
 # query orphaned packages
@@ -627,22 +473,58 @@ pactree -cru package_name
 whoneeds package_name
 ```
 
-### pacmatic
+### using AUR
 
-[Pacmatic: Get emails about pending system updates with cron-pacmatic](http://kmkeen.com/pacmatic/)
+[Arch User Repository - ArchWiki](https://wiki.archlinux.org/index.php/Arch_User_Repository)
+[AUR helpers - ArchWiki](https://wiki.archlinux.org/index.php/AUR_helpers)
+[[SOLVED] Should I install programs using pacman or packer? (Page 1) / Pacman/Packages / ArchBang Forums](http://bbs.archbang.org/viewtopic.php?id=2474)
+[Speed Up Compilation Process When Installing Packages From AUR](https://www.ostechnix.com/speed-compilation-process-installing-packages-aur/)
 
-Pacmatic:
+[Don't Install Yaourt! Use These Alternatives for AUR in Arch Linux](https://itsfoss.com/best-aur-helpers/)
+[ericm/yup: Arch Linux AUR Helper with ncurses functionality and better searching and sorting](https://github.com/ericm/yup)
 
-- alert you the updates of **your installed applications**
-- forces you to resolve [pacman conflicts](https://wiki.archlinux.org/index.php/Pacnew_and_Pacsave_files)
+#### yay
 
-Just use `pacmatic` instead of `pacman`.
+[Jguer/yay: Yet another Yogurt - An AUR Helper written in Go](https://github.com/Jguer/yay) `yay-bin` in AUR
+[Yay - Yet Another Reliable AUR Helper Written In GO - OSTechNix](https://www.ostechnix.com/yay-found-yet-another-reliable-aur-helper/)
 
-### yaourt
+```sh
+cd /tmp && git clone 'https://aur.archlinux.org/yay.git' && cd /tmp/yay && makepkg -si && cd ~ && rm -rf /tmp/yay/
+```
+
+Make sure you have the `Color` option in your `/etc/pacman.conf`
+
+```sh
+# system update
+yay
+
+# force install from AUR
+yay -S --aur package_name
+```
+
+```sh
+# `-G` download the package and allows you to edit `PKGBUILD`
+yay -G yay
+sudo pacman -R yay
+sudo pacman -Syu
+cd yay && makepkg -si
+yay
+```
+
+#### pacaur
+
+[E5ten/pacaur: An AUR helper that minimizes user interaction](https://github.com/E5ten/pacaur)
+[How to Install and Use Pacaur on Arch Linux](https://linoxide.com/linux-how-to/install-use-pacaur-arch-linux/)
+[How To Install Pacaur In Arch Linux - OSTechNix](https://www.ostechnix.com/install-pacaur-arch-linux/)
+
+#### yaourt
+
+> obsolete
 
 [Yaourt - ArchWiki](https://wiki.archlinux.org/index.php/yaourt)
 [yaourt: a pacman frontend « Archlinux.fr](https://archlinux.fr/yaourt-en)
 [AUR (en) - yaourt](https://aur.archlinux.org/packages/yaourt/)
+[How To Use Yaourt to Easily Download Arch Linux Community Packages | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-yaourt-to-easily-download-arch-linux-community-packages)
 
 Yaourt uses AUR automatically.
 
@@ -667,35 +549,14 @@ PACMAN="pacmatic"
 DIFFEDITCMD="meld"
 ```
 
-### packer
+#### packer
 
-[keenerd/packer](https://github.com/keenerd/packer)
-[AUR (en) - packer](https://aur.archlinux.org/packages/packer/)
+> obsolete
 
 [Install Packer on Arch Linux | DominicMDominicM](http://dominicm.com/install-packer-on-arch-linux/)
-
-```sh
-sudo pacman -S --needed wget git expac jshon
-mkdir packer
-cd packer
-sudo wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=packer
-mv PKGBUILD?h=packer PKGBUILD
-makepkg
-sudo pacman -U packer-*.pkg.tar.xz
-```
-
-Or just get `packer` script from
-https://raw.githubusercontent.com/keenerd/packer/master/packer
-
 [Packer and the Arch User Repository | Rory Garand](http://rorygarand.com/blog/2013/02/12/packer-and-the-arch-user-repository)
 
 Same command as `pacman`, but also checks AUR.
-
-### cower
-
-[AUR Helpers - jasonwryan.com](http://jasonwryan.com/blog/2013/04/09/helpers/)
-[falconindy/cower](https://github.com/falconindy/cower)
-[e36freak/meat](https://github.com/e36freak/meat)
 
 ### creating package
 
@@ -704,3 +565,13 @@ Same command as `pacman`, but also checks AUR.
 [Arch packaging standards - ArchWiki](https://wiki.archlinux.org/index.php/Arch_packaging_standards)
 [PKGBUILD - ArchWiki](https://wiki.archlinux.org/index.php/PKGBUILD)
 [makepkg - ArchWiki](https://wiki.archlinux.org/index.php/Makepkg)
+
+[How To Convert DEB Packages Into Arch Linux Packages - OSTechNix](https://www.ostechnix.com/convert-deb-packages-arch-linux-packages/)
+[AUR (en) - sunloginclient](https://aur.archlinux.org/packages/sunloginclient/)
+
+```sh
+makepkg  # loads `PKGBUILD`
+sudo pacman -U package.pkg.tar
+
+makepkg -si # install dependencies and install after packaging
+```

@@ -2,10 +2,10 @@
 title: "Container Orchestration"
 date: 2014-12-11 17:37:50
 categories:
-- container
+  - container
 tags:
-- devops
-- web-deploy
+  - devops
+  - web-deploy
 ---
 
 # Container Orchestration
@@ -29,7 +29,7 @@ See projects under [Cloud Native Computing Foundation](https://www.cncf.io/proje
 [Kubernetes, Mesos, and Swarm: Comparing the Rancher Orchestration Engine Options | Rancher Labs](http://rancher.com/comparing-rancher-orchestration-engine-options/) 2016-10 !important  
 [Docker Orchestrations Compared: Kubernetes vs Amazon ECS vs Docker Cloud / Swarm / EE / Cloud (PART I)](https://sematext.com/blog/2017/04/24/docker-orchestration-poll-kubernetes-swarm-amazon-ecs/) 2017-04  
 [Choosing the Right Containerization and Cluster Management Tool](https://blog.kublr.com/choosing-the-right-containerization-and-cluster-management-tool-fdfcec5700df) 2017-02  
-[Container Orchestration Wars - YouTube](https://www.youtube.com/watch?v=C_u4_l84ED8) 2016-07  
+[Container Orchestration Wars - YouTube](https://www.youtube.com/watch?v=C_u4_l84ED8) 2016-07
 
 [Containers, Configuration Management, and The Right Tool for the Right Job | the agile admin](http://theagileadmin.com/2015/11/10/containers-configuration-management-and-the-right-tool-for-the-right-job/) 2015-11  
 [Docker and the Future of Configuration Management – Coming In November! | the agile admin](http://theagileadmin.com/2015/10/29/docker-and-the-future-of-configuration-management-coming-in-november/) 2015-10  
@@ -38,10 +38,10 @@ See projects under [Cloud Native Computing Foundation](https://www.cncf.io/proje
 [cluster computing - Docker-Swarm, Kubernetes, Mesos & Core-OS Fleet - Stack Overflow](http://stackoverflow.com/questions/27640633/docker-swarm-kubernetes-mesos-core-os-fleet)  
 [5 Next-Gen Cloud Technologies You Should Know | Linux.com | The source for Linux information](https://www.linux.com/news/5-next-gen-cloud-technologies-you-should-know)  
 [8 Container Orchestration Tools to Know | Linux.com | The source for Linux information](https://www.linux.com/news/8-open-source-container-orchestration-tools-know)  
-[Docker Swarm与Apache Mesos的区别](http://www.infoq.com/cn/articles/difference-between-swarm-docker-and-mesos-apache)  
+[Docker Swarm 与 Apache Mesos 的区别](http://www.infoq.com/cn/articles/difference-between-swarm-docker-and-mesos-apache)  
 [Mesos, Kubernetes, and Infrastructure of the Future with Dharmesh Kakadia | Software Engineering Daily](https://softwareengineeringdaily.com/2016/12/14/mesos-kubernetes-and-infrastructure-of-the-future-with-dharmesh-kakadia/)  
 [Docker Clustering Tools Compared: Kubernetes vs Docker Swarm | Technology Conversations](https://technologyconversations.com/2015/11/04/docker-clustering-tools-compared-kubernetes-vs-docker-swarm/) 2015-11  
-[A Brief Comparison of Mesos and Kubernetes - The New Stack](http://thenewstack.io/a-brief-comparison-of-mesos-and-kubernetes/)  
+[A Brief Comparison of Mesos and Kubernetes - The New Stack](http://thenewstack.io/a-brief-comparison-of-mesos-and-kubernetes/)
 
 [Kubernetes vs Rancher vs Docker Swarm (Pros & Cons) | StackShare](https://stackshare.io/stackups/kubernetes-vs-rancher-vs-docker-swarm)
 
@@ -71,6 +71,10 @@ APCFS: NFSv4 compatible file system for persistent storage
 
 [Docker for AWS Public Beta - Docker Blog](https://blog.docker.com/2016/11/docker-aws-public-beta/)
 [Docker for AWS: Who's it really for? | InfoWorld](http://www.infoworld.com/article/3145696/application-development/docker-for-aws-whos-it-really-for.html)
+
+## Slurm
+
+[Slurm Workload Manager - Overview](https://slurm.schedmd.com/overview.html)
 
 ## Vagrant
 
@@ -117,6 +121,10 @@ Docker image for Helios
 [Swarmpit](https://swarmpit.io/)
 [swarmpit/swarmpit: Lightweight Docker Swarm management UI](https://github.com/swarmpit/swarmpit)
 
+[ContainerPilot | Joyent](https://www.joyent.com/containerpilot)
+[joyent/containerpilot: A service for autodiscovery and configuration of applications running in containers](https://github.com/joyent/containerpilot)
+[Implementing the autopilot pattern | Joyent](https://www.joyent.com/blog/applications-on-autopilot)
+
 [The Imixs-Cloud | imixs-cloud](https://imixs.github.io/imixs-cloud/) uses Portainer, Swarmpit
 
 [Kitematic](https://kitematic.com/)
@@ -127,11 +135,10 @@ Docker image for Helios
 
 Rancher > Portainer > shipyard
 
-[Cockpit Project](http://cockpit-project.org/) administer your GNU/Linux servers via a web browser
-[How to Install Cockpit on Ubuntu 18.04 - Alibaba Cloud Community](https://www.alibabacloud.com/blog/how-to-install-cockpit-on-ubuntu-18-04_594039?spm=a2c65.11461433.0.0.4ee35355t8NTC4)
-
 [Mercateo/dwatch: Manage your docker containers, images and networks in a nice and clean way.](https://github.com/Mercateo/dwatch)
 [lirantal/dockly: Immersive terminal interface for managing docker containers and services](https://github.com/lirantal/dockly)
 
 [dockersamples/docker-swarm-visualizer: A visualizer for Docker Swarm Mode using the Docker Remote API, Node.JS, and D3](https://github.com/dockersamples/docker-swarm-visualizer)
 [justone/dockviz: Visualizing docker data](https://github.com/justone/dockviz)
+
+[jesseduffield/lazydocker: The lazier way to manage everything docker](https://github.com/jesseduffield/lazydocker)

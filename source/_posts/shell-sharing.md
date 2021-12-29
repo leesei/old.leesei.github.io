@@ -2,12 +2,12 @@
 title: "Shell Sharing"
 date: 2015-01-14 12:48:30
 categories:
-- app
+  - app
 tags:
-- shell-tool
-- asciinema
-- termrecord
-- gotty
+  - shell-tool
+  - asciinema
+  - termrecord
+  - gotty
 ---
 
 [asciinema - Record and share your terminal sessions, the right way](https://asciinema.org/) [repo](https://github.com/asciinema/asciinema)

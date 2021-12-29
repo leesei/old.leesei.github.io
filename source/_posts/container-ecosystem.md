@@ -20,6 +20,7 @@ tags:
 [The Beginner’s Guide to the CNCF Landscape - Cloud Native Computing Foundation](https://www.cncf.io/blog/2018/11/05/34097/)
 [What is cloud-native? The modern way to develop applications | InfoWorld](https://www.infoworld.com/article/3281046/what-is-cloud-native-the-modern-way-to-develop-software.html)
 [Towards a Kubernetes native Future – CloudARK – Medium](https://medium.com/@cloudark/towards-a-kubernetes-native-future-3e75d7eb9d42)
+[The ABC of DevOps Implementation With Containerization and Docker - DZone DevOps](https://dzone.com/articles/the-abc-of-devops-implementation-with-containeriza)
 
 [Inside the Linux Container Ecosystem - Online Edition](https://www.sdxcentral.com/reports/linux-container-ecosystem/)
 [The Docker Ecosystem | DigitalOcean](https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem) !important, 2015-01
@@ -31,7 +32,7 @@ tags:
 [eBooks Series: The Docker and Container Ecosystem - The New Stack](http://thenewstack.io/ebookseries/)
 [Basics - Docker, Containers, Hypervisors, CoreOS - EtherealMind](http://etherealmind.com/basics-docker-containers-hypervisors-coreos/)
 [Codeship Webinar Video: An Introduction to Web Apps with Docker](http://resources.codeship.com/webinars/thank-you-video-an-introduction-to-web-apps-with-docker)
-[解读 2017 之容器篇：后 Kubernetes 时代](https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247488689&idx=1&sn=00fe79c0156d62f7db6d8ef2447457b2&=41#wechat_redirect)
+[解读 2017 之容器篇：后 Kubernetes 时代](https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247488689&idx=1&sn=00fe79c0156d62f7db6d8ef2447457b2&=41) history
 [The Docker Ecosystem: An Introduction to Common Components | DigitalOcean](https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components) 2015-02
 
 [Fundamentals of Containers, Kubernetes, and Red Hat OpenShift | edX](https://www.edx.org/course/fundamentals-containers-kubernetes-red-hat-do081x)
@@ -41,16 +42,24 @@ tags:
 
 ## Containers
 
+[Top Docker alternatives for 2022 - LogRocket Blog](https://blog.logrocket.com/top-docker-alternatives-2022/)
+
+[A journey from containerization to orchestration and beyond](https://iximiuz.com/en/posts/journey-from-containerization-to-orchestration-and-beyond/) !important, history and development of tools
+[Bryan Cantrill on Jails and Solaris Zones - YouTube](https://www.youtube.com/watch?v=hgN8pCMLI2U)
+[The Container Revolution: Reflections After the First Decade - YouTube](https://www.youtube.com/watch?v=xXWaECk9XqM)
+
 [Linux Containers](https://linuxcontainers.org/) [Linux Container (LXC) Introduction - YouTube](https://www.youtube.com/watch?v=_KnmRdK69qM)
 [Linux Containers - LXC - Getting started](https://linuxcontainers.org/lxc/getting-started/)
 [Linux Containers - LXD - Introduction](https://linuxcontainers.org/lxd/introduction/) This is the Docker Engine equivalent
 [LXC 1.0: Blog post series [0/10] | Stéphane Graber's website](https://www.stgraber.org/2013/12/20/lxc-1-0-blog-post-series/)
 [LXC - Wikiwand](http://www.wikiwand.com/en/LXC)
 [LXC vs Docker comparison criteria deep dive - Robin Systems](https://robinsystems.com/blog/containers-deep-dive-lxc-vs-docker-comparison/)
+[Docker vs Singularity vs Shifter vs UGE Container Edition](https://tin6150.github.io/psg/blogger_container_hpc.html)
 
 [How to easily run graphics-accelerated GUI apps in LXD containers on your Ubuntu desktop – Mi blog lah!](https://blog.simos.info/how-to-easily-run-graphics-accelerated-gui-apps-in-lxd-containers-on-your-ubuntu-desktop/)
 
 [A Brief History of Containers: From 1970s chroot to Docker 2016](http://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
+[A history of low-level Linux container runtimes | Opensource.com](https://opensource.com/article/18/1/history-low-level-container-runtimes)
 [What is Docker? Linux containers explained | InfoWorld](http://www.infoworld.com/article/3204171/linux/what-is-docker-linux-containers-explained.html)
 [From dotCloud to Docker](http://jpetazzo.github.io/2017/02/24/from-dotcloud-to-docker/)
 [5 Years at Docker · KenCochrane.net](https://www.kencochrane.net/2017/03/24/5-years-at-docker/)
@@ -62,6 +71,7 @@ Houses vs apartments
 [Virtual Machines vs Docker Containers - Dive Into Docker - YouTube](https://www.youtube.com/watch?v=TvnZTi_gaNc)
 [Containers and VMs - A Practical Comparison - YouTube](https://www.youtube.com/watch?v=L1ie8negCjc)
 [Lightboard VMs vs. Containers: Advanced Deep Dive - YouTube](https://www.youtube.com/watch?v=PoiXuVnSxfE)
+[VMs vs. Containers for Microservices - By Spruha Pandya](https://hackernoon.com/vms-vs-containers-for-microservices-a6f559970704)
 
 [[Podcast] PodCTL #3 - Making Sense of Container Standards – OpenShift Blog](https://blog.openshift.com/podcast-podctl-3-making-sense-of-container-standards/)
 [A Comparison of Linux Container Images - Crunch Tools](http://crunchtools.com/comparison-linux-container-images/)
@@ -123,9 +133,7 @@ root         6  0.0  0.0  17504  1984 ?        R+   00:30   0:00 ps aux
 [OpenVZ Virtuozzo Containers Wiki](http://openvz.org/Main_Page)
 
 > see `docker.md`
-> see `rocket.md`
-
-[Bryan Cantrill on FreeBSD Jails and Solaris Zones - YouTube](https://www.youtube.com/watch?v=hgN8pCMLI2U)
+> see `rkt.md`
 
 [Welcome to Vagga’s documentation! — Vagga documentation](http://vagga.readthedocs.org/en/latest/)
 
@@ -137,21 +145,106 @@ root         6  0.0  0.0  17504  1984 ?        R+   00:30   0:00 ps aux
 
 ### OCI
 
+> vs `kubernetes.md#CRI`
+
 [Open Container Initiative](https://www.opencontainers.org/) [GitHub](https://github.com/opencontainers)
 [App Container](https://github.com/appc)
 
-[Making Sense of Container Standards and Foundations: OCI, CNCF, appc and rkt](https://coreos.com/blog/making-sense-of-standards/)
+[Making Sense of Container Standards and Foundations: OCI, CNCF, appc and p](https://coreos.com/blog/making-sense-of-standards/)
+[Container runtimes: clarity - cri-o - Medium](https://medium.com/cri-o/container-runtimes-clarity-342b62172dc3) CRI-O is for k8s only
 
 [OCIv2 | Cyphar](https://www.cyphar.com/blog/tag/ociv2-images/)
+
+[Red Hat Universal Base Image: How it works in 3 minutes or less - Red Hat Developer Blog](https://developers.redhat.com/blog/2019/07/29/red-hat-universal-base-image-how-it-works-in-3-minutes-or-less/)
+
+### Podman
+
+[Why Red Hat is investing in CRI-O and Podman](https://www.redhat.com/en/blog/why-red-hat-investing-cri-o-and-podman)
+[Buildah, Podman, and Skopeo – the BIT that matters](http://saharsh.org/2019/01/18/buildah_podman_skopeo/)
+[Container pipelines for sys admins—and anyone, really—with Buildah and Podman](https://www.redhat.com/en/events/webinar/container-pipelines-sys-admins-and-anyone-really-buildah-and-podman)
+[Goodbye Docker: Purging is Such Sweet Sorrow – zwischenzugs](https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/amp/)
+[Podman and Buildah for Docker users | Red Hat Developer](https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users)
+
+[Podman | podman.io](https://podman.io/) exports k8s YAML, 3.0 supports Docker Compose
+[containers/podman: Podman: A tool for managing OCI containers and pods.](https://github.com/containers/podman)
+[containers/podman-py: Python bindings for Podman's RESTful API](https://github.com/containers/podman-py)
+
+[Replacing Docker with Podman — Power of Podman — Cloudnweb](https://medium.com/@ganeshmani009/replacing-docker-with-podman-power-of-podman-cloudnweb-23cfb7541538)
+[Podman » ADMIN Magazine](http://www.admin-magazine.com/Articles/OCI-containers-with-Podman)
+[Podman can now ease the transition to Kubernetes and CRI-O | Red Hat Developer](https://developers.redhat.com/blog/2019/01/29/podman-kubernetes-yaml)
+
+[Podman Basics Cheat Sheet | Red Hat Developer](https://developers.redhat.com/cheat-sheets/podman-basics/)
+[Podman and user namespaces: A marriage made in heaven | Opensource.com](https://opensource.com/article/18/12/podman-and-user-namespaces)
+[How does rootless Podman work? | Opensource.com](https://opensource.com/article/19/2/how-does-rootless-podman-work)
+[Should you use the --user flag in rootless containers? | Enable Sysadmin](https://www.redhat.com/sysadmin/user-flag-rootless-containers)
+
+```sh
+sudo su
+# NOTE: this should be id of original user, not root
+echo $(id -un):100000:65536 >> /etc/subuid
+echo $(id -un):100000:65536 >> /etc/subgid
+```
+
+[containers/podman-compose: a script to run docker-compose.yml using podman](https://github.com/containers/podman-compose)
+[Manage containers with Podman Compose - Fedora Magazine](https://fedoramagazine.org/manage-containers-with-podman-compose/) `podman-compose`
+[Moving from docker-compose to Podman pods | Enable Sysadmin](https://www.redhat.com/sysadmin/compose-podman-pods) `podman-compose`
+[Using Podman and Docker Compose | Enable Sysadmin](https://www.redhat.com/sysadmin/podman-docker-compose) Podman 3.0 supports Docker Compose
+
+[containers/skopeo: Work with remote images registries - retrieving information, images, signing content](https://github.com/containers/skopeo)
+
+### PouchContainer
+
+[PouchContainer](https://pouchcontainer.io/#/) by Alibaba
+[PouchContainer Documentation](https://pouchcontainer.io/#/pouch/docs/README.md)
+
+[PouchContainer 技术分享体会 | 李乾坤的博客](https://qiankunli.github.io/2018/09/10/pouch_review.html)
+
+### Singularity
+
+[Home | Singularity](https://singularity.hpcng.org/)
+[hpcng/singularity: Singularity: Application containers for Linux](https://github.com/hpcng/singularity)
+
+[Singularity](https://hpc.nih.gov/apps/singularity.html)
+[A Container for HPC » ADMIN Magazine](https://www.admin-magazine.com/HPC/Articles/Singularity-A-Container-for-HPC)
+
+[Introduction to Linux Containers with Singularity Part 1 (2020-03-10) - YouTube](https://www.youtube.com/watch?v=3Yg7XI39H4U)[Introduction to Linux Containers with Singularity Part 2 (2020-03-11) - YouTube](https://www.youtube.com/watch?v=yi82PC--F2U)
+[NIH-HPC/Singularity-Tutorial at 2020-03-10](https://github.com/NIH-HPC/Singularity-Tutorial/tree/2020-03-10)
+
+[Documentation & Examples | Sylabs.io](https://sylabs.io/docs/)
+[sylabs/singularity: SingularityCE is the Community Edition of Singularity, an open source container platform designed to be simple, fast, and secure.](https://github.com/sylabs/singularity)
+[sylabs/examples: files and instructions for creating and using example containers from the sylabs.io blog](https://github.com/sylabs/examples)
+[Singularity Basics - YouTube](https://www.youtube.com/playlist?list=PL052H4iYGzysewYEelldGPOgKRJkxd5zp)
+
+### HPCCM
+
+[NVIDIA/hpc-container-maker: HPC Container Maker](https://github.com/NVIDIA/hpc-container-maker)  
+[Building Containers with HPC Container Maker » ADMIN Magazine](http://www.admin-magazine.com/HPC/Articles/HPC-Container-Maker)
+
+### Tools
+
+> see `docker.md#rootless-docker`
+> see `nix.md`
+
+[Introducing kaniko: Build container images in Kubernetes and Google Container Builder without privileges | Google Cloud Blog](https://cloud.google.com/blog/products/gcp/introducing-kaniko-build-container-images-in-kubernetes-and-google-container-builder-even-without-root-access)
+[GoogleContainerTools/kaniko: Build Container Images In Kubernetes](https://github.com/GoogleContainerTools/kaniko)
+
+[ThomasKluiters/fetchy: Minuscule images made trivial](https://github.com/ThomasKluiters/fetchy)
+[The Minuscule Docker Images That Could - Better Programming - Medium](https://medium.com/better-programming/the-minuscule-docker-images-that-could-22bac9ed950b)
+[fetchy's Profile - Docker Hub](https://hub.docker.com/u/fetchy)
+[ThomasKluiters/fetchy-images: A repository for the fetchy images](https://github.com/ThomasKluiters/fetchy-images)
+
+[Dockerless, part 1: Which tools to replace Docker with and why | articles about programming on mkdev](https://mkdev.me/en/posts/dockerless-part-1-which-tools-to-replace-docker-with-and-why)
+[Dockerless, part 2: How to build container image for Rails application without Docker and Dockerfile | articles about programming on mkdev](https://mkdev.me/en/posts/dockerless-part-2-how-to-build-container-image-for-rails-application-without-docker-and-dockerfile)
+[Dockerless, part 3: Moving development environment to containers with Podman | articles about programming on mkdev](https://mkdev.me/en/posts/dockerless-part-3-moving-development-environment-to-containers-with-podman)
 
 #### runC
 
 Evolution:
-[lmctfy - Let Me Contain That For You](http://lmctfy.io/) ([PDF](http://www.linuxplumbersconf.org/2013/ocw//system/presentations/1239/original/lmctfy%20%281%29.pdf)) (merged to libcontainer)
-[docker/libcontainer](https://github.com/docker/libcontainer)(donated to OCI as part of runC)
+[google/lmctfy: lmctfy is the open source version of Google’s container stack, which provides Linux application containers.](https://github.com/google/lmctfy) (merged to libcontainer)
+[docker/libcontainer](https://github.com/docker-archive/libcontainer)(donated to OCI as part of runC)
 
-[Open Container Project](http://runc.io/)
-[opencontainers/runc](https://github.com/opencontainers/runc)
+[Open Container Initiative - Open Container Initiative](https://opencontainers.org/)
+[opencontainers/runc: CLI tool for spawning and running containers according to the OCI specification](https://github.com/opencontainers/runc)
 [Introducing runC: a lightweight universal container runtime | Docker Blog](https://blog.docker.com/2015/06/runc/)
 [4 reasons why Docker's libcontainer is a big deal | InfoWorld](http://www.infoworld.com/article/2607966/application-virtualization/4-reasons-why-docker-s-libcontainer-is-a-big-deal.html)
 [Jessie Frazelle's Blog: Runc Containers on the Desktop](https://blog.jessfraz.com/post/runc-containers-on-the-desktop/) from Docker to RunC
@@ -205,7 +298,12 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 
 [Bitnami Engineering Portal: Why non-root containers are important for security](https://engineering.bitnami.com/articles/why-non-root-containers-are-important-for-security.html)
 
+[Top 20 Docker Security Tips - Towards Data Science](https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57)
+[Container Security Best Practices Taking Shape - Container Journal](https://containerjournal.com/topics/container-security/container-security-best-practices-taking-shape/)
+[Beginner's Guide To Container Security](https://www.forbes.com/sites/davidbalaban/2021/03/10/beginners-guide-to-container-security/?sh=412db1f21060)
 [A House of Cards: An Exploration of Security When Building Docker Containers | Heroku](https://blog.heroku.com/exploration-of-security-when-building-docker-containers)
+[Container security: How to get the most out of best practices - TechRepublic](https://www.techrepublic.com/article/container-security-how-to-get-the-most-out-of-best-practices/)
+[Container Defense in Depth – The New Stack](https://thenewstack.io/container-defense-depth/)
 
 [New Docker Security Features and What They Mean: Seccomp Profiles](http://blog.aquasec.com/new-docker-security-features-and-what-they-mean-seccomp-profiles)
 [Docker 1.10 Security Features, part 2: Authorization Plug-In](http://blog.aquasec.com/docker-1.10-security-features-part-2-authorization-plug-in)
@@ -250,6 +348,9 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 
 [Containing an Attack with Linux Containers and AppArmor/SELinux : Jay Beale : Free Download & Streaming : Internet Archive](https://archive.org/details/Containing_An_Attack_With_Linux_Containers)
 
+[Can not stop Docker Container: permission denied Error - General Discussions / General - Docker Forums](https://forums.docker.com/t/can-not-stop-docker-container-permission-denied-error/41142/5) AppArmor conflicts with `dockerd`
+[ruby on rails - Docker Containers can not be stopped or removed - permission denied Error - Stack Overflow](https://stackoverflow.com/questions/47223280/docker-containers-can-not-be-stopped-or-removed-permission-denied-error)
+
 [docker/docker-bench-security: The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production. https://dockerbench.com](https://github.com/docker/docker-bench-security)
 
 [coreos/clair: Container Vulnerability Analysis Service](https://github.com/coreos/clair)
@@ -258,25 +359,19 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 [CONTAINERS AND SECURITY](https://www.socallinuxexpo.org/sites/default/files/presentations/cameron_containers_and_security_scale14x.pdf) (PDF)
 [User Namespaces - ContainerCon 2015](https://events.linuxfoundation.org/sites/events/files/slides/User Namespaces - ContainerCon 2015 - 16-9-final_0.pdf) (PDF)
 
-## Service Discovery
-
-> see `coreos.md`
-
-### Consul
-
-> see `hashicorp.md#consul`
-
 ## PaaS
 
 [gliderlabs/herokuish: Utility for emulating Heroku build and runtime tasks in containers](https://github.com/gliderlabs/herokuish)
-[progrium/cedarish: Heroku Cedar-ish Base Image for Docker](https://github.com/progrium/cedarish)
 
-### Deis
+[heroku/heroku - Docker Hub](https://hub.docker.com/r/heroku/heroku/)
+[heroku/stack-images: Heroku stack images](https://github.com/heroku/stack-images)
 
-[Deis | The Kubernetes Company](https://deis.com/)
+### Workflow
 
-[Deis Workflow | Open Source Kubernetes PaaS](https://deis.com/workflow/) v2 PaaS
-[deis/workflow: The open source PaaS for Kubernetes.](https://github.com/deis/workflow)
+> Deis bought by Microsoft and now part of Azure
+
+[teamhephy/workflow: Hephy Workflow - An open source fork of Deis Workflow - The open source PaaS for Kubernetes.](https://github.com/teamhephy/workflow)
+[deis/workflow: The open source PaaS for Kubernetes.](https://github.com/deis/workflow) v2 PaaS
 
 [deis/deis: Your PaaS. Your Rules.](https://github.com/deis/deis/) v1 PaaS
 
@@ -306,14 +401,38 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 
 [How to keep container secrets secret | InfoWorld](http://www.infoworld.com/article/3211285/containers/how-to-keep-container-secrets-secret.html)
 
-## Cloud Native Application Bundles (CNAB)
+## Application Bundles
+
+### Cloud Native Application Bundles (CNAB)
 
 [CNAB: Cloud Native Application Bundles](https://cnab.io/)
+[deislabs/cnab-spec: Cloud Native Application Bundle Specification](https://github.com/deislabs/cnab-spec)
+[Introducing Cloud Native Application Bundle (CNAB), standard for defining distributed applications - YouTube](https://www.youtube.com/watch?v=26e5-UK4YRA)
 
 [Docker App and CNAB - Docker Blog](https://blog.docker.com/2018/12/docker-app-and-cnab/)
-[docker/app: Make your Docker Compose applications reusable, and share them on Docker Hub](https://github.com/docker/app)
+[Powering Docker App: Next Steps for Cloud Native Application Bundles (CNAB) - Docker Blog](https://blog.docker.com/2019/09/powering-docker-app-next-steps-for-cnab/)
+[Introducing CNAB: a cloud-agnostic format for packaging and running distributed applications](https://cloudblogs.microsoft.com/opensource/2018/12/04/announcing-cnab-cloud-agnostic-format-packaging-running-distributed-applications/)
 
+[Kubernetes Podcast from Google - #61 Cloud Native Application Bundles, with Jeremy Rickard and Ralph Squillace](https://kubernetespodcast.com/episode/061-cnab/)
+
+[Intro to CNAB: Packaging Cloud Native Applications with Multiple Toolchains - Chris Crone, Docker - YouTube](https://www.youtube.com/watch?v=r6aqKhvdsRs&feature=youtu.be)
+[KubeCon + CloudNativeCon Europe 2019: Intro to CNAB: Packaging Cloud Native Ap...](https://kccnceu19.sched.com/event/MPX8/intro-to-cnab-packaging-cloud-native-applications-with-multiple-toolchains-chris-crone-docker)
+
+[docker/app: Make your Docker Compose applications reusable, and share them on Docker Hub](https://github.com/docker/app)
+[Duffle: Install and Manage Distributed Apps](https://duffle.sh/)
+[deislabs/duffle: CNAB installer](https://github.com/deislabs/duffle)
+[deislabs/example-bundles: CNAB bundles](https://github.com/deislabs/example-bundles)
+
+### Bitnami Kubernetes Production Runtime (BKPR)
+
+[Bitnami Kubernetes Production Runtime](https://kubeprod.io/)
 [Bitnami Engineering Portal: Production Ready Packaging with CNAB and Bitnami Kubernetes Production Runtime (BKPR)](https://engineering.bitnami.com/articles/production-ready-packaging-with-cnab-and-bitnami-kubernetes-production-runtime-bkpr.html)
+
+### Kubernetes app (kapp)
+
+[Create Kubernetes app (kapp) | kapp](https://peterj.github.io/kapp/)
+[peterj/kapp: Create Go app running in Kubernetes with minimal configuration](https://github.com/peterj/kapp)
+[1 min\* to run a service in Kubernetes — kapp tool - By](https://hackernoon.com/1-min-to-run-a-service-in-kubernetes-kapp-tool-907fcec9f01a)
 
 ## Cloud Native Buildpacks (CNB)
 
@@ -323,12 +442,26 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 [Cloud Native Buildpacks](https://github.com/buildpack)
 [buildpack/samples: Samples for buildpack creators](https://github.com/buildpack/samples)
 
+## OAM
+
+[OAM | Open Application Model Specification](https://openappmodel.io/)
+[oam-dev/spec: The Open Application Model specification](https://github.com/oam-dev/spec/)
+
+[KubeVela - Make shipping applications more enjoyable.](https://kubevela.io/#/)
+[oam-dev/kubevela: A Highly Extensible Platform Engine based on Kubernetes and Open Application Model.](https://github.com/oam-dev/kubevela)
+
+[Announcing the Open Application Model (OAM), an open standard for developing and operating applications on Kubernetes and other platforms - Open Source Blog](https://cloudblogs.microsoft.com/opensource/2019/10/16/announcing-open-application-model/)
+
+[oam-dev/rudr: A Kubernetes implementation of the Open Application Model specification](https://github.com/oam-dev/rudr/) deprecated
+[Tutorial: Deploy Microservices on Kubernetes Through Rudr – The New Stack](https://thenewstack.io/tutorial-deploy-microservices-on-kubernetes-through-rudr/)
+
 ## Monitoring
 
 > see `devops.md#Prometheus`
 
 [Building A Central Logging Service In-House — Smashing Magazine](https://www.smashingmagazine.com/2018/05/building-central-logging-service/)
 [4 Common Kubernetes-Monitoring Traps to Avoid - The New Stack](https://thenewstack.io/4-common-kubernetes-monitoring-traps-to-avoid/)
+[Top Six Open Source Tools for Monitoring Kubernetes and Docker - DevOps.com](https://devops.com/top-six-open-source-tools-for-monitoring-kubernetes-and-docker/)
 
 [Dockers Monitoring Tools -](https://www.level-up.one/dockers-monitoring-tools/)
 [Deep Dive into Docker Logging - Level UpLevel Up](https://www.level-up.one/deep-dive-into-docker-logging/)
@@ -364,6 +497,11 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 [google/cadvisor: Analyzes resource usage and performance characteristics of running containers.](https://github.com/google/cadvisor)
 [Sysdig | Wiki | Getting Started](http://www.sysdig.org/wiki/getting-started/)
 
+### Zabbix
+
+[Zabbix :: The Enterprise-Class Open Source Network Monitoring Solution](https://www.zabbix.com/)
+[Zabbix API Explained – Zabbix Blog](https://blog.zabbix.com/zabbix-api-explained/9155/)
+
 ### sematext
 
 [Reference Architecture: Monitoring and Logging for Docker Datacenter](https://sematext.com/docker-datacenter-monitoring-and-logging/)
@@ -375,6 +513,10 @@ Compared to the Docker Engine, containerd exposes essentially a CRUD interface a
 [gliderlabs/logspout: Log routing for Docker container logs](https://github.com/gliderlabs/logspout)
 [looplab/logspout-logstash: A minimalistic adapter for github.com/gliderlabs/logspout to write to Logstash UDP](https://github.com/looplab/logspout-logstash)
 [rtoma/logspout-redis-logstash: Logspout adapter for writing Docker container logs to Redis in Logstash jsonevent layout](https://github.com/rtoma/logspout-redis-logstash)
+
+### ELK
+
+[Send Your Data - Logz.io](https://app.logz.io/#/dashboard/send-your-data/log-sources/docker?type=docker-collector-logs-config)
 
 ## Docker Flow
 
@@ -447,10 +589,21 @@ Distributed system for data science
 
 ## CloudFoundary
 
-[bosh](https://bosh.io/) BOSH is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.
+[Cloud Foundry Docs](https://docs.cloudfoundry.org/)
+[Tutorials by Cloud Foundry](https://tutorials.cloudfoundry.org/)
+[Kubernetes and Cloud Foundry Technology | Cloud Foundry](https://www.cloudfoundry.org/technology/)
+[When to Choose Cloud Foundry over Kubernetes – The New Stack](https://thenewstack.io/when-to-choose-cloud-foundry-over-kubernetes/)
 
-[cloudfoundry-incubator/diego-release: BOSH Release for Diego](https://github.com/cloudfoundry-incubator/diego-release)
+[cf-for-k8s – cf push for Kubernetes | Cloud Foundry](https://www.cloudfoundry.org/technology/cf-for-k8s/)
+[Cloud Foundry for Kubernetes · Cloud Foundry for Kubernetes](https://cf-for-k8s.io/)
+[Installing cf-for-k8s on DigitalOcean](https://tutorials.cloudfoundry.org/cf4k8s-do/)
+
+[KubeCF – Packaged for Kubernetes | Cloud Foundry](https://www.cloudfoundry.org/technology/kubecf/)
+[KubeCF](https://kubecf.io/)
+
+[bosh](https://bosh.io/) BOSH is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.
 [Diego Architecture | Cloud Foundry Docs](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html#architecture)
+[cloudfoundry/diego-release: BOSH Release for Diego](https://github.com/cloudfoundry/diego-release)
 
 [Cloud Foundry stages a comeback | InfoWorld](http://www.infoworld.com/article/3082062/paas/cloud-foundry-stages-a-comeback.html)
 [Are Diego and Docker Really Good Friends? - Blog on All Things Cloud Foundry](http://blog.altoros.com/are-diego-and-docker-really-good-friends.html)
@@ -465,6 +618,9 @@ Distributed system for data science
 [Serverless - The Serverless Application Framework powered by AWS Lambda, API Gateway, and more](https://serverless.com/)
 [The Leading Open Source Serverless Solutions for Kubernetes](https://gravitational.com/blog/serverless-on-kubernetes/)
 [CNCF Cloud Native Interactive Landscape serverless](https://landscape.cncf.io/format=serverless)
+[Serverless](https://serverless.css-tricks.com/)
+
+[Rethinking Serverless Architectures With Eventbridge - DZone Cloud](https://dzone.com/articles/rethinking-serverless-architectures-with-eventbrid)
 
 [Open source serverless computing: Fission, Fn, Kubeless, and OpenWhisk | InfoWorld](https://www.infoworld.com/article/3279781/application-development/open-source-serverless-fission-fn-kubeless-and-openwhisk.html)
 [Demystifying Serverless & OpenFaas – Collabnix](http://collabnix.com/demystifying-openfaas-simplifying-serverless-computing/)
@@ -486,14 +642,21 @@ Distributed system for data science
 
 [A crash course on Serverless APIs with Express and MongoDB](https://hackernoon.com/a-crash-course-on-serverless-apis-with-express-and-mongodb-77774f7730fe)
 
+### Cloudflare
+
+[Cloudflare Workers®](https://workers.cloudflare.com/)
+[cloudflare/miniflare: 🔥 Fully-local simulator for Cloudflare Workers](https://github.com/cloudflare/miniflare)
+
 ### Knative
 
 > Knative is a project to create a standard set of building blocks for Kubernetes to enable serverless development patterns. It’s not a complete serverless framework.
 
-[Knative  |  Google Cloud](https://cloud.google.com/knative/)
+[Knative | Google Cloud](https://cloud.google.com/knative/)
 [docs/README.md at master · knative/docs](https://github.com/knative/docs/blob/master/README.md)
 [Knative: bringing serverless to Kubernetes everywhere | Google Cloud Blog](https://cloud.google.com/blog/products/containers-kubernetes/knative-bringing-serverless-to-kubernetes-everywhere)
 [How Knative Can Unite Kubernetes and Serverless - The New Stack](https://thenewstack.io/how-knative-can-unite-kubernetes-and-serverless/)
+[Knative Brings Event-Driven and Serverless Computing to Kubernetes - The New Stack](https://thenewstack.io/knative-brings-event-driven-and-serverless-computing-to-kubernetes/)
+[Build and deploy a serverless service to Knative | Red Hat Developer](https://developers.redhat.com/coderland/serverless/)
 
 [knative/build: A Kubernetes-native Build resource.](https://github.com/knative/build)
 [First look at knative build for OpenFaaS functions](https://blog.alexellis.io/first-look-at-knative-build-for-openfaas-functions/)
@@ -510,9 +673,11 @@ Distributed system for data science
 [Part 3: Deploying a Serverless Service to Knative | Red Hat Developer](https://developers.redhat.com/coderland/serverless/deploying-serverless-knative/)
 
 [Knative 系列（一）：基本概念和原理解读](https://www.infoq.cn/article/PEOIcPk4lZRg-fAwry8H)
-[Knative系列（二）：兵马未动粮草先行之Build篇](https://www.infoq.cn/article/D489mKhQ96dGwfj*w05E)
-[Knative 系列（三）：Serving篇](https://www.infoq.cn/article/PYGUCS*yWxhLM5Rok9vF)
-[Knative系列（四）：Eventing 篇](https://www.infoq.cn/article/FkKfwsvpVdC_60DfxMMg)
+[Knative 系列（二）：兵马未动粮草先行之 Build 篇](https://www.infoq.cn/article/D489mKhQ96dGwfj*w05E)
+[Knative 系列（三）：Serving 篇](https://www.infoq.cn/article/PYGUCS*yWxhLM5Rok9vF)
+[Knative 系列（四）：Eventing 篇](https://www.infoq.cn/article/FkKfwsvpVdC_60DfxMMg)
+
+[Knative: Serverless Workloads with Ville Aikas - Software Engineering Daily](https://softwareengineeringdaily.com/2019/02/08/knative-serverless-workloads-with-ville-aikas/)
 
 ### OpenWhisk
 
@@ -522,7 +687,21 @@ Distributed system for data science
 ### OpenFaaS
 
 [OpenFaaS - Serverless Functions Made Simple](https://www.openfaas.com/)
+[openfaas/faas: OpenFaaS - Serverless Functions Made Simple](https://github.com/openfaas/faas)
 [Morning coffee with the OpenFaaS CLI](https://blog.alexellis.io/quickstart-openfaas-cli/)
+[Martin Heinz - Going Serverless with OpenFaaS and Golang - The Ultimate Setup and Workflow](https://martinheinz.dev/blog/10)
+
+[openfaas/faasd: A lightweight & portable faas engine](https://github.com/openfaas/faasd) OpenFaaS reimagined, but without the cost and complexity of Kubernetes
+[Exploring Serverless use-cases with David McKay (Rawkode) and Alex Ellis - YouTube](https://www.youtube.com/watch?v=mzuXVuccaqI)
+[Meet faasd. Look Ma’ No Kubernetes! - Alex Ellis, OpenFaaS Ltd - YouTube](https://www.youtube.com/watch?v=ZnZJXI377ak)
+
+[OpenFaaS - Run Containerized Functions On Your Own Terms - Ivan Velichko](https://iximiuz.com/en/posts/openfaas-case-study/)
+
+### Kabanero
+
+Kabanero integrates popular runtimes and frameworks with a Kubernetes-native DevOps toolchain. It will incorporate Appsody stacks and templates into its overarching framework.
+
+[Kabanero](https://kabanero.io/)
 
 ### KEDA
 
@@ -588,6 +767,9 @@ Linux kernel hands of to `system-docker` (running as PID1), all processes it spa
 ## VM to run containers
 
 [It doesn't work with Docker, K8s right now, but everyone's going nuts anyway for AWS's Firecracker microVMs • The Register](https://www.theregister.co.uk/AMP/2018/11/27/aws_sets_firecracker/)
+[Firecracker](https://firecracker-microvm.github.io/)
+
+[Building the virtualization stack of the future with rust-vmm | Opensource.com](https://opensource.com/article/19/3/rust-virtual-machine)
 
 ### LinuxKit
 

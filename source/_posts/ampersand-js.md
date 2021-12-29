@@ -5,9 +5,9 @@ categories:
 toc: true
 date: 2015-08-12 17:51:25
 tags:
-- ampersand
-- backbone
-- web-dev
+  - ampersand
+  - backbone
+  - web-dev
 ---
 
 [Ampersand.js - Home](http://ampersandjs.com/)

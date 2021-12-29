@@ -17,6 +17,7 @@ The Docker Engines provides the [Docker Remote API](https://docs.docker.com/engi
 [dotScale 2013 - Solomon Hykes - Why we built Docker - YouTube](https://www.youtube.com/watch?v=3N3n9FzebAA)
 
 On the contrary, [boycott docker](http://www.boycottdocker.org/).
+[Martin Heinz - It's Time to Forget About Docker](https://martinheinz.dev/blog/35)
 
 [Docker - Build, Ship, and Run Any App, Anywhere](http://www.docker.com/)
 [Docker overview | Docker Documentation](https://docs.docker.com/engine/docker-overview/)
@@ -40,6 +41,7 @@ On the contrary, [boycott docker](http://www.boycottdocker.org/).
 [Docker 101 session - YouTube](https://www.youtube.com/watch?v=iYwPyjPhXXE)
 [Docker 101: Dockerizing Your Infrastructure - YouTube](https://www.youtube.com/watch?v=4W2YY-qBla0)
 [Docker fundamentals: basics, storage, networking - Introduction to Docker - YouTube](https://www.youtube.com/watch?v=UV3cw4QLJLs)
+[Docker Tutorial for Beginners [FULL COURSE in 3 Hours] - YouTube](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [Docker - YouTube](https://www.youtube.com/playlist?list=PLot-YkcC7wZ91Qf-ErxdR03fxu076VUhe) Level Up
 
 Gist of Docker:
@@ -59,7 +61,11 @@ Docker overlay2 metacopy issue on Linux 4.19
 [Engineering Archives - Docker Blog](https://blog.docker.com/category/engineering/)
 [A beginner’s guide to Docker — how to create your first Docker application](https://medium.freecodecamp.org/a-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f)
 [Docker Jumpstart](http://odewahn.github.io/docker-jumpstart/)
+[Docker Architecture](https://www.aquasec.com/wiki/plugins/servlet/mobile)
 [wsargent/docker-cheat-sheet: Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
+[Docker 101 - how to get from creation to deployment](https://www.freecodecamp.org/news/docker-101-creation-to-deployment/amp/)
+[The Complete Docker Collection [Tutorials] - DZone Cloud](https://dzone.com/articles/the-complete-docker-collection-tutorials)
+[Docker Explained – An Introductory Guide To Docker - DZone Cloud](https://dzone.com/articles/docker-explained-an-introductory-guide-to-docker)
 [Demystifying Containers 101: A Deep Dive Into Container Technology for Beginners](https://medium.freecodecamp.org/demystifying-containers-101-a-deep-dive-into-container-technology-for-beginners-d7b60d8511c1)
 [5 part Docker series, beginner to master - DEV Community 👩‍💻👨‍💻](https://dev.to/softchris/5-part-docker-series-beginner-to-master-3m1b) !important
 [Docker Tutorial for Beginners - Hashnode](https://hashnode.com/post/docker-tutorial-for-beginners-cjrj2hg5001s2ufs1nker9he2)
@@ -72,6 +78,7 @@ Docker overlay2 metacopy issue on Linux 4.19
 [Learn Enough Docker to be Useful – Towards Data Science](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b0b44222eef5) Part 3
 [Slimming Down Your Docker Images – Towards Data Science](https://towardsdatascience.com/slimming-down-your-docker-images-275f0ca9337e) Part 4
 
+[A Docker Tutorial for Beginners](https://docker-curriculum.com/)
 [Learn Docker by Building a Microservice](http://www.dwmkerr.com/learn-docker-by-building-a-microservice/)
 [Docker Tutorial: Containers, VMs, and Docker for Beginners - Level UpLevel Up](https://www.level-up.one/docker-tutorial-containers-vms/)
 [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
@@ -115,7 +122,7 @@ Docker overlay2 metacopy issue on Linux 4.19
 
 ## Play-with-docker
 
-[Docker Playground](http://play-with-docker.com)
+[Play with Docker](https://labs.play-with-docker.com/)
 [play-with-docker/play-with-docker: You know it, you use it, now it's time to improve it. PWD!.](https://github.com/play-with-docker/play-with-docker)
 [play-with-docker/training](https://github.com/play-with-docker/training)
 [play-with-docker/play-with-docker.github.io: Play with docker class-room repo](https://github.com/play-with-docker/play-with-docker.github.io)
@@ -134,6 +141,7 @@ Docker overlay2 metacopy issue on Linux 4.19
 
 [Docker Learning Series - YouTube](https://www.youtube.com/playlist?list=PLfXWzKEc7gHzFoaBOExlpakMOyPE57_7t)
 [Docker for the Absolute Beginners - YouTube](https://www.youtube.com/playlist?list=PL2We04F3Y_40PSZyTcOUuH4flMxbxkhDe)
+[Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers - YouTube](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 Production
 [The Containerizers - YouTube](https://www.youtube.com/channel/UCFkOoM5xXS6hRs1lpw_8ydQ)
@@ -152,6 +160,11 @@ Docker started out using LXC, then [docker/libcontainer](https://github.com/dock
 [Docker drops LXC as default execution environment](http://www.infoq.com/news/2014/03/docker_0_9)
 [Docker and Broad Industry Coalition Unite to Create Open Container Project | Docker Blog](http://blog.docker.com/2015/06/open-container-project-foundation/)
 [Containerd: a daemon to control runC | Docker Blog](http://blog.docker.com/2015/12/containerd-daemon-to-control-runc/)
+
+## Internals
+
+[Docker components explained](http://alexander.holbreich.org/docker-components-explained/)
+[Docker, Containerd & Standalone Runtimes — Here’s What You Should Know | by Aymen Eon Amri | FAUN](https://faun.pub/docker-containerd-standalone-runtimes-heres-what-you-should-know-b834ef155426)
 
 ## #perfmatters
 
@@ -264,6 +277,7 @@ Docker used libnetwork and [Container Network Model (CNM)](https://blog.docker.c
 
 [Understanding Docker – Network Namespaces – zwischenzugs](https://zwischenzugs.com/2015/11/21/understanding-docker-network-namespaces/)
 [Introduction to Linux Network Namespaces - YouTube](https://www.youtube.com/watch?v=_WgUwUf1d34)
+[记一次 Kubernetes/Docker 网络排障 | 酷 壳 - CoolShell](https://coolshell.cn/articles/18654.html)
 
 [Docker tutorial: Get started with Docker networking | InfoWorld](https://www.infoworld.com/article/3276604/containers/docker-tutorial-get-started-with-docker-networking.html)
 
@@ -280,7 +294,8 @@ Docker used libnetwork and [Container Network Model (CNM)](https://blog.docker.c
 
 ### Cilium
 
-[Cilium](https://www.cilium.io/)
+[Cilium - Linux Native, API-Aware Networking and Security for Containers](https://cilium.io/) eBPF based
+[cilium/cilium: eBPF-based Networking, Security, and Observability](https://github.com/cilium/cilium)
 [Introduction to Cilium — Cilium documentation](http://docs.cilium.io/en/stable/intro/)
 
 [Linux kernel holds key for advanced container networking | InfoWorld](http://www.infoworld.com/article/3185419/networking/cilium-leverages-linux-kernel-for-advanced-container-networking.html)
@@ -295,6 +310,7 @@ Docker used libnetwork and [Container Network Model (CNM)](https://blog.docker.c
 
 [projectcalico/canal: Policy based networking for cloud native applications](https://github.com/projectcalico/canal) Calico + flannel, deprecated
 [Installing Calico for policy and flannel for networking](https://docs.projectcalico.org/v3.8/getting-started/kubernetes/installation/flannel)
+[Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)
 
 ### Weave
 
@@ -313,6 +329,11 @@ Docker used libnetwork and [Container Network Model (CNM)](https://blog.docker.c
 [Rancher Labs Launches Submariner Networking Project for Kubernetes - Container Journal](https://containerjournal.com/2019/03/12/rancher-labs-launches-submariner-networking-project-for-kubernetes/amp/)
 
 [Introducing Submariner: Multi-Cluster Network Connectivity](https://info.rancher.com/meetup-introducing-submariner-multicluster-networking)
+
+### Nebula
+
+[Introducing Nebula, the open source global overlay network from Slack](https://slack.engineering/introducing-nebula-the-open-source-global-overlay-network-from-slack-884110a5579)
+[slackhq/nebula: A scalable overlay networking tool with a focus on performance, simplicity and security](https://github.com/slackhq/nebula)
 
 ## Volumes
 
@@ -342,6 +363,8 @@ Docker used libnetwork and [Container Network Model (CNM)](https://blog.docker.c
 [Part 3: Persistent Storage, Data and Docker - docker](https://docker.wistia.com/medias/6m689744b4)
 [Use Docker Engine Volume plugins | Docker Documentation](https://docs.docker.com/engine/extend/legacy_plugins/#volume-plugins)
 
+[Martin Heinz - Deep Dive into Docker Internals - Union Filesystem](https://martinheinz.dev/blog/44)
+
 [templated volume name syntax not supported in compose v3 format? · Issue #30770 · moby/moby](https://github.com/moby/moby/issues/30770#issuecomment-310283484) using templated volume name in swarm mode
 
 ```sh
@@ -357,6 +380,17 @@ docker run --rm --volumes-from data-mysql -v HOST_BACKUP:/backup -it busybox sh
 
 [gdiepen/docker-convenience-scripts](https://github.com/gdiepen/docker-convenience-scripts) `docker_clone_volume.sh`
 [Nfs4 Docker Stacks - flavio.aiello.ch](http://flavio.aiello.ch/nfs4-docker-stacks/)
+
+### SELinuz
+
+On SELinux (Fedora/Centos), add `:Z` to mount option
+[Permission denied on accessing host directory in Docker - Stack Overflow](https://stackoverflow.com/questions/24288616/permission-denied-on-accessing-host-directory-in-docker)
+[`Permission denied` when trying to access volume while selinux-enabled=true · Issue #33389 · moby/moby](https://github.com/moby/moby/issues/33389)
+[D4M 17.04.0-ce-rc2-mac6 (16165): Volume labels no longer accepted in stack file · Issue #32579 · moby/moby](https://github.com/moby/moby/issues/32579) however this fix is not available for service
+
+[SELinux blocks bind mount with Docker Compose · Issue #10779 · containers/podman](https://github.com/containers/podman/issues/10779) `:Z,U` or `chcon -Rt container_file_t PATHTOHOSTDIR`/`chcon -Rt svirt_sandbox_file_t PATHTOHOSTDIR` on host
+
+[Set the selinux status to `Permissive`, still can not run docker - Stack Overflow](https://stackoverflow.com/a/51098488/665507) change option in `/etc/sysconfig/docker` to `--selinux-enabled=false`
 
 ### Storage
 
@@ -396,7 +430,7 @@ Communicate to Docker Engine with HTTP API via `unix:///var/run/docker.sock`
 [Docker Engine API Reference](https://docs.docker.com/engine/api/latest/)
 
 [moby/client - GoDoc](https://godoc.org/github.com/moby/moby/client)
-[Docker SDK for Python — Docker SDK for Python 2.0 documentation](https://docker-py.readthedocs.io/en/stable/)
+[Docker SDK for Python — Docker SDK for Python documentation](https://docker-py.readthedocs.io/en/stable/)
 
 [apocas/dockerode: Docker Remote API Node.js Client module](https://github.com/apocas/dockerode)
 [fsouza/go-dockerclient: Go client for the Docker remote API.](https://github.com/fsouza/go-dockerclient)
@@ -408,6 +442,7 @@ The Docker Hub is the official hosted registry service by Docker for building an
 [Docker Hub](https://hub.docker.com/explore/)
 [Introducing Docker Hub](https://docs.docker.com/docker-hub/overview/)
 [Integrating Docker Hub In Your Application Build Process | Linux.com | The source for Linux information](https://www.linux.com/learn/integrating-docker-hub-your-application-build-process)
+[Introducing the Docker Index: Insight from the World’s Most Popular Container Registry - Docker Blog](https://www.docker.com/blog/introducing-the-docker-index/)
 
 [An Overview of Docker Registries - via @codeship | via @codeship](https://blog.codeship.com/overview-of-docker-registries/)
 [Rancher Labs | Comparing Four Hosted Docker Registries | Rancher Labs](http://rancher.com/comparing-four-hosted-docker-registries/)
@@ -444,6 +479,7 @@ You have to add your self-signed cert to Docker daemon AND restart it to be able
 [docker/distribution: The Docker toolset to pack, ship, store, and deliver content](https://github.com/docker/distribution) Distribution = Registry v2, the new implementation
 [library/registry - Docker Hub](https://hub.docker.com/_/registry/)
 [BlackGlory/caddy-proxy: Automated caddy proxy for Docker containers using docker-gen](https://github.com/BlackGlory/caddy-proxy)
+[tumblr/docker-registry-pruner: Tool to apply retention logic to docker images in a Docker Registry](https://github.com/tumblr/docker-registry-pruner)
 
 ```sh
 docker run -d -p 5000:5000 \
@@ -488,6 +524,8 @@ Harbor Registry is VMware's answer for hosting Docker images. This registry is b
 - [gitlab/gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce/)
 - [mariadb](https://hub.docker.com/_/mariadb/)
 
+[Introducing Deep Learning Containers: Consistent and portable environments | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/introducing-deep-learning-containers-consistent-and-portable-environments)
+
 [cusspvz/node.docker: Super small Node.js container (~15MB) based on Alpine Linux OS](https://github.com/cusspvz/node.docker)
 [BretFisher/node-docker-good-defaults: sample node app for Docker examples](https://github.com/BretFisher/node-docker-good-defaults)
 
@@ -499,6 +537,10 @@ Harbor Registry is VMware's answer for hosting Docker images. This registry is b
 
 [nicolaka/netshoot: a Docker + Kubernetes network trouble-shooting swiss-army container](https://github.com/nicolaka/netshoot)
 [jgamblin/tcpdump/](https://hub.docker.com/r/jgamblin/tcpdump/) [post](http://jerrygamblin.com/2016/05/28/a-docker-container-to-capture-all-traffic-from-host/)
+
+[ironPeak services](https://github.com/ironPeakServices?type=source)
+[ironPeakServices/iron-redis: Secure base image for running Redis.](https://github.com/ironPeakServices/iron-redis)
+[ironPeakServices/scratch-go: Secure base image for running Go applications.](https://github.com/ironPeakServices/scratch-go)
 
 [u/sameersbn/](https://hub.docker.com/u/sameersbn/) many useful CaaS and great instructions
 [u/dperson/](https://hub.docker.com/u/dperson/) many useful CaaS and great configuration script
@@ -544,7 +586,7 @@ App packaged as container is great for portability, but replication, scalability
 # > I now recommend install from package!!
 # !! need su !!
 curl -fsSL https://get.docker.com/ | sh
-systemctl enable docker && systemctl start docker
+systemctl enable --now docker
 usermod -aG docker $(id -un)
 docker -v  # should >= 17.05
 
@@ -617,7 +659,8 @@ Config and aliases can be stored in `~/.docker/config.json`
 
 ### Image
 
-[Tag & push your image](https://docs.docker.com/engine/getstarted/step_six/#tag-push-and-pull-your-image)
+[Get Started, Part 2: Containers | Docker Documentation](https://docs.docker.com/get-started/part2/#share-your-image)
+[Today I Learned: Pull Docker Image from GCR (Google Container Registry) in any non-GCP Kubernetes… - By Iman Tumorang](https://hackernoon.com/today-i-learned-pull-docker-image-from-gcr-google-container-registry-in-any-non-gcp-kubernetes-5f8298f28969)
 
 Full image tag: `[REGISTRYHOST/][USERNAME/]NAME[:TAG]`
 Image can be thought of as a static snapshot of a container.
@@ -661,11 +704,13 @@ TL;DR: save/load preserves layers and tags, export/import don't
 
 [Dockerfile](https://docs.docker.com/engine/reference/builder/)
 [Best practices for writing Dockerfiles | Docker Documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+[Intro Guide to Dockerfile Best Practices - Docker Blog](https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/)
+[Dockerfile : Best practices for building an image | by Maxime Lafond | The Startup | Medium](https://medium.com/swlh/dockerfile-best-practices-for-building-an-image-6120e512b1fa)
+[Container Best Practices: What They Are and Why You Should Care – The New Stack](https://thenewstack.io/container-best-practices-what-they-are-and-why-you-should-care/)
+[hexops/dockerfile: Dockerfile best-practices for writing production-worthy Docker images.](https://github.com/hexops/dockerfile)
 
 [Build secrets and SSH forwarding in Docker 18.09 – Tõnis Tiigi – Medium](https://medium.com/@tonistiigi/build-secrets-and-ssh-forwarding-in-docker-18-09-ae8161d066)
 [Docker build secrets, the sneaky way](https://pythonspeed.com/articles/docker-build-secrets/)
-
-[Buildah: Build containers fast and easy without Docker - JAXenter](https://jaxenter.com/build-containers-quickly-buildah-155839.html)
 
 Builder log (annotated):
 
@@ -700,7 +745,6 @@ This actually sets breakpoint in your Dockerfile for debugging.
 
 [Dockerfile Best Practices](http://crosbymichael.com/dockerfile-best-practices.html)
 [Dockerfile Best Practices - take 2](http://crosbymichael.com/dockerfile-best-practices-take-2.html)
-[Intro Guide to Dockerfile Best Practices - Docker Blog](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
 [Understanding and Creating Effective Docker Images - DZone Cloud](https://dzone.com/articles/understanding-amp-creating-effective-docker-images)
 [Common Dockerfile Mistakes - Atlassian Developers](https://developer.atlassian.com/blog/2016/06/common-dockerfile-mistakes/)
 [9 Common Dockerfile Mistakes - Runnablog](https://runnable.com/blog/9-common-dockerfile-mistakes)
@@ -716,14 +760,55 @@ This actually sets breakpoint in your Dockerfile for debugging.
 [How to Maximize Your Docker Image Caching Techniques - CenturyLink Cloud Developer Center](https://www.ctl.io/developers/blog/post/more-docker-image-cache-tips/)
 [Dockerfile: ADD vs COPY - CenturyLink Cloud Developer Center](https://www.ctl.io/developers/blog/post/dockerfile-add-vs-copy/)
 
+### Modern ways
+
+[The hunt for a better Dockerfile](https://matduggan.com/the-hunt-for-a-better-dockerfile/)
+[Are Dockerfiles good enough?](https://matduggan.com/are-dockerfiles-good-enough/)
+[Building containers without Docker](https://blog.alexellis.io/building-containers-without-docker/)
+
+### Buildkit (new builder)
+
+[moby/buildkit: concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit](https://github.com/moby/buildkit)
+[buildkit/buildkit.go at master · moby/buildkit](https://github.com/moby/buildkit/blob/master/examples/buildkit1/buildkit.go) build script in Go
+
+[Build images with BuildKit | Docker Documentation](https://docs.docker.com/develop/develop-images/build_enhancements/)
+[buildkit/syntax.md at master · moby/buildkit](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/syntax.md) new syntax in Dockerfile
+[docker/dockerfile - Docker Image | Docker Hub](https://hub.docker.com/r/docker/dockerfile/)
+
+[Martin Heinz - Building Docker Images The Proper Way](https://martinheinz.dev/blog/42) 2021, BuildKit (experimental)
+
+[Introduction to heredocs in Dockerfiles - Docker Blog](https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/)
+
+[docker/buildx: Docker CLI plugin for extended build capabilities with BuildKit](https://github.com/docker/buildx) `dokcer buildx` invokes Buildkit
+[Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://releasehub.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes)
+
+### Buildah
+
+[Buildah | buildah.io](https://buildah.io/)
+[containers/buildah: A tool that facilitates building OCI images](https://github.com/containers/buildah)
+[buildah/demos at main · containers/buildah](https://github.com/containers/buildah/tree/main/demos)
+[Getting started with Buildah | Red Hat Developer](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah)
+
+[Buildah: Build containers fast and easy without Docker - JAXenter](https://jaxenter.com/build-containers-quickly-buildah-155839.html)
+[Unprivileged Docker Builds – A Proof of Concept – zwischenzugs](https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/)
+[Build containers in GitLab CI with buildah :: major.io](https://major.io/2019/05/24/build-containers-in-gitlab-ci-with-buildah/)
+[buildah error: vfs driver does not support overlay.mountopt options :: major.io](https://major.io/2019/08/13/buildah-error-vfs-driver-does-not-support-overlay-mountopt-options/)
+
+[ansible-community/ansible-bender: ansible-playbook + buildah = a sweet container image](https://github.com/ansible-community/ansible-bender)
+[Build and run Buildah inside a Podman container - Red Hat Developer Blog](https://developers.redhat.com/blog/2019/04/04/build-and-run-buildah-inside-a-podman-container/)
+
 ### ARG and ENV
 
 [Docker ARG, ENV and .env - a Complete Guide · vsupalov](https://vsupalov.com/docker-arg-env-variable-guide/)
 [Arguments and variables in Docker – manifoldco](https://blog.manifold.co/arguments-and-variables-in-docker-94746642f64b)
 
+[Docker Environment Configs, Variables, and Entrypoints | DevOps and Docker Talk](https://ddt.transistor.fm/episodes/docker-environment-configs-variables-and-entrypoints)
+
 ### Multi-stage builds
 
-[Use multi-stage builds | Docker Documentation](https://docs.docker.com/engine/userguide/eng-image/multistage-build/)
+[Use multi-stage builds | Docker Documentation](https://docs.docker.com/develop/develop-images/multistage-build/)
+[Advanced Dockerfiles: Faster Builds and Smaller Images Using BuildKit and Multistage Builds - Docker Blog](https://www.docker.com/blog/advanced-dockerfiles-faster-builds-and-smaller-images-using-buildkit-and-multistage-builds/)
+
 [Builder pattern vs. Multi-stage builds in Docker](https://blog.alexellis.io/mutli-stage-docker-builds/)
 [Docker build patterns — Matthias Noback - Blog](https://matthiasnoback.nl/2017/04/docker-build-patterns/)
 [Straightforward multi-stage build with a single Dockerfile (and a Makefile)](https://medium.com/@xcoulon/straightforward-multi-stage-build-with-a-single-dockerfile-and-a-makefile-dd558fd9acff)
@@ -771,14 +856,15 @@ docker history --no-trunc IMAGE
 [Simplify the Smallest Possible Docker Image – Adriaan de Jonge – Medium](https://medium.com/@adriaandejonge/simplify-the-smallest-possible-docker-image-62c0e0d342ef)
 [Building Docker Images for Static Go Binaries — Medium](https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07)
 [Slim application containers (using Docker) | fosiki](http://fosiki.com/blog/2015/04/28/slim-application-containers-using-docker/)
+[How to build an optimal Docker image for your application? - Event-Driven.io](https://event-driven.io/en/how_to_buid_an_optimal_docker_image_for_your_application/)
 [Reducing Your Docker Image Size - via @codeship | via @codeship](https://blog.codeship.com/reduce-docker-image-size/)
 [Optimizing Docker Images - CenturyLink Cloud Developer Center](https://www.ctl.io/developers/blog/post/optimizing-docker-images/)
 [William-Yeh/docker-mini: Quest for minimal Docker images: slides and lab materials.](https://github.com/William-Yeh/docker-mini)
 [Alpine Linux: Lightweight Docker Java Images | Takipi Blog](http://blog.takipi.com/lean-mean-java-virtual-machine-making-your-docker-7x-lighter-with-alpine-linux/)
 [Refactoring a Dockerfile for image size](https://blog.replicated.com/refactoring-a-dockerfile-for-image-size/)
 [3 simple tricks for smaller Docker images ♦︎ Learnk8s](https://learnk8s.io/blog/smaller-docker-images/)
-[GoogleContainerTools/distroless: 🥑 Language focused docker images, minus the operating system.](https://github.com/GoogleContainerTools/distroless)
 
+[DockerSlim - Optimize Your Containerized App Dev Experience. Better, Smaller, Faster, and More Secure Containers Doing Less! Minify Docker Images by up to 30x.](https://dockersl.im/)
 [Squashing Docker Images ·](http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/)
 [jwilder/docker-squash: Squash docker images to make them smaller](https://github.com/jwilder/docker-squash)
 `docker commit; docker save image | docker-squash -t newtag | docker load`
@@ -794,8 +880,19 @@ docker history --no-trunc IMAGE
 [Introducing gockerize | AeroFS](https://www.aerofs.com/introducing-gockerize-md/)
 [redbooth/gockerize: Package golang service into minimal docker containers.](https://github.com/redbooth/gockerize)
 
+[Don't Put Fat Jars in Docker Images](https://phauer.com/2019/no-fat-jar-in-docker-image/)
+[GoogleContainerTools/jib: 🏗 Build container images for your Java applications.](https://github.com/GoogleContainerTools/jib)
+
 On the contrary:
 [Docker Containers: Smaller is not always better » Ramblings](http://matthewkwilliams.com/index.php/2015/04/19/docker-containers-smaller-is-not-always-better/)
+
+### distroless
+
+[GoogleContainerTools/distroless: 🥑 Language focused docker images, minus the operating system.](https://github.com/GoogleContainerTools/distroless)
+[distroless/README.md at master · GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless/blob/master/base/README.md)
+[2017 swampUP Sessions | Distroless Docker: Containerizing Apps, not VMs - Matthew Moore - YouTube](https://www.youtube.com/watch?v=lviLZFciDv4)
+
+[Stories of My Experiments with "Distroless" Containers](https://www.abhaybhargav.com/stories-of-my-experiments-with-distroless-containers/)
 
 ### Containerizing Build environment
 
@@ -820,6 +917,8 @@ On the contrary:
 
 [Improve your Docker workflow with this VS Code extension - DEV Community 👩‍💻👨‍💻](https://dev.to/azure/improve-your-docker-workflow-with-this-vs-code-extension-j60)
 
+[mikesir87's blog](https://blog.mikesir87.io/)
+
 [15 Docker Tips in 15 Minutes - YouTube](https://www.youtube.com/watch?v=BJT9bA64Hcc)
 [8 great tools that make Docker better | InfoWorld](https://www.infoworld.com/article/2966158/docker/8-great-tools-that-make-docker-better.html)
 
@@ -843,7 +942,9 @@ On the contrary:
 [Npm (or Yarn) Install within a Docker Container, the Right Way](https://marmelab.com/blog/2017/02/08/yarn-npm-install-within-docker-container.html) tips are actually not Node.js specific
 [An Exhaustive Guide to Writing Dockerfiles for Node.js Web Apps](https://blog.hasura.io/an-exhaustive-guide-to-writing-dockerfiles-for-node-js-web-apps-bbee6bd2f3c4)
 [Trick: How to significantly reduce NPM download time for NodeJS Web application on Docker image](https://kobkrit.com/trick-how-to-reduce-npm-download-time-for-nodejs-web-application-on-docker-image-significantly-87d71f287ab7)
+[Top 4 Tactics To Keep Node.js Rockin’ in Docker - Docker Blog](https://blog.docker.com/2019/07/keep-nodejs-rockin-in-docker/)
 
+[Production-ready Docker images](https://pythonspeed.com/docker/)
 [Cache for python pip downloads and wheels in Docker](https://medium.com/@scythargon/cache-for-python-pip-downloads-and-wheels-in-docker-67f24e7cd84e)
 [Dockerizing a Python 3 Flask App Line-by-Line – BitCraft – Medium](https://medium.com/bitcraft/dockerizing-a-python-3-flask-app-line-by-line-400aef1ded3a)
 
@@ -853,6 +954,17 @@ Check Docker logs:
 sudo journalctl -u docker
 docker events
 ```
+
+### Rootless Docker
+
+[Experimenting with Rootless Docker - Tõnis Tiigi - Medium](https://medium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6)
+[Docker 19.03 introduces an experimental rootless Docker mode | Packt Hub](https://hub.packtpub.com/docker-19-03-introduces-an-experimental-rootless-docker-mode-that-helps-mitigate-vulnerabilities-by-hardening-the-docker-daemon/amp/)
+[[DockerCon 2019] Hardening Docker daemon with Rootless mode](https://www.slideshare.net/AkihiroSuda/dockercon-2019-hardening-docker-daemon-with-rootless-mode)
+[Docker containers with root privileges – Neoteric – Software House](https://neoteric.eu/blog/docker-containers-with-root-privileges/)
+[Docker Without Root Privileges - DZone Cloud](https://dzone.com/articles/docker-without-root-privileges)
+[Run Docker nginx as Non-Root-User - DEV Community 👩‍💻👨‍💻](https://dev.to/sophiabrandt/run-docker-nginx-as-non-root-user-2b6b)
+
+[Understanding Docker container escapes | Trail of Bits Blog](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/)
 
 ### Environment variable from files
 
@@ -974,6 +1086,12 @@ docker run -it --rm \
   -u $(id -u):$(id -g) \
   -v $(pwd):/tmp \
   busybox sh
+
+docker run -it --rm \
+  -u $(id -u):$(id -g) \
+  -v $(pwd):/build -w /build \
+  -v "$HOME/.m2":/.m2 \
+  maven:3-jdk-8-openj9 bash
 ```
 
 [Understanding how uid and gid work in Docker containers](https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf)
@@ -987,13 +1105,19 @@ Use user namespaces introduced in 1.10:
 
 > see `container-ecosystem.md#security`
 
-### init system
+### Init system
 
 [krallin/tini: A tiny but valid `init` for containers](https://github.com/krallin/tini) built-in since 1.13+ and CE
 [Yelp/dumb-init: A minimal init system for Linux containers](https://github.com/Yelp/dumb-init/)
 
 [Docker and the PID 1 zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
 [What is advantage of Tini? · Issue #8 · krallin/tini](https://github.com/krallin/tini/issues/8#issuecomment-146135930)
+
+### Wait for service
+
+[vishnubob/wait-for-it: Pure bash script to test and wait on the availability of a TCP host and port](https://github.com/vishnubob/wait-for-it)
+
+[eficode/wait-for: ./wait-for is a script to wait for another service to become available.](https://github.com/Eficode/wait-for) bash/alpine compatible
 
 ### Supervisor connection refused
 
@@ -1076,9 +1200,38 @@ Batch remove images:
 
 ```sh
 # this may not work if there is multiple tag pointing to the same image hash
-docker images --filter=reference="dpms/*:2.4.*" -q | xargs -r docker rmi
+docker images --filter=reference="dpms/*:3.3.*" -q | xargs -r docker rmi
 # remove by label, requires `jq`
-docker images -f reference="dpms/*:2.4.*" --format "{{json .}}" | jq '.Repository + ":" + .Tag' | xargs -r docker rmi
+docker images -f reference="dpms/*:2.2.*" --format "{{json .}}" | jq '.Repository + ":" + .Tag' | xargs -L1 -r docker rmi
+docker images -f reference="astri/worker*" | awk 'NR>1 {print $1":"$2}' | xargs -L1 -r docker rmi
+```
+
+### Find Dependent Child Images
+
+[linux - How to get the list of dependent child images in Docker? - Stack Overflow](https://stackoverflow.com/questions/36584122/how-to-get-the-list-of-dependent-child-images-in-docker)
+[Python3 script to find descendants of one or more docker images](https://gist.github.com/altaurog/21ea7afe578a523e3dfe8d8a746f1e7d)
+
+```sh
+ID=f50f9524513f
+for i in $(docker images -q)
+do
+    docker history $i | grep -q ${ID} && echo $i
+done | sort -u
+```
+
+### Moving Container between Hosts
+
+[Docker Over SSH - ITNEXT](https://itnext.io/docker-over-ssh-51ab25a79f2e)
+[docker-push-ssh · PyPI](https://pypi.org/project/docker-push-ssh/)
+
+```sh
+# standard save, copy and load
+docker save mycontainerimage | gzip > mycontainerimage.tar.gz
+gunzip -c mycontainerimage.tar.gz | docker load
+
+# ssh piping, docker load handles bzip automatically
+docker save mycontainerimage | bzip2 | \
+  ssh root@server 'docker load'
 ```
 
 ### Restart Policy
@@ -1088,7 +1241,7 @@ docker images -f reference="dpms/*:2.4.*" --format "{{json .}}" | jq '.Repositor
 ### dexec
 
 [ahmetalpbalkan/go-dexec: It's like Go os/exec package but for Docker](https://github.com/ahmetalpbalkan/go-dexec/)
-[Introducing dexec](https://ahmetalpbalkan.com/blog/dexec)
+[Introducing dexec](https://ahmetalpbalkan.com/blog/dexec)
 
 ### Docker in Docker
 
@@ -1130,7 +1283,7 @@ But the container can mess with the host docker daemon.
 [Docker inside the CI runner? · Issue #9 · sameersbn/docker-gitlab-ci-runner](https://github.com/sameersbn/docker-gitlab-ci-runner/issues/9#issuecomment-67925817)
 [justone/dockviz](https://github.com/justone/dockviz)
 
-### update docker images
+### batch update docker images
 
 ```sh
 docker images | grep -v '<none>' | awk 'NR>1 {print $1":"$2}' | xargs -L1 -r docker pull
@@ -1148,6 +1301,8 @@ docker ps -a --no-trunc | grep 'Exit' | awk '{print $1}' | xargs -L1 -r docker r
 
 # clean all containers
 docker rm -f $(docker ps -aq)
+
+docker system prune -f
 ```
 
 [spotify/docker-gc: Docker garbage collection of containers and images](https://github.com/spotify/docker-gc)
@@ -1213,11 +1368,6 @@ ExecStartPost=-/usr/bin/docker rm pg
 WantedBy=multi-user.target
 ```
 
-### Containerize App
-
-[Singularity | Singularity](http://singularity.lbl.gov/)  
-[Building Containers with HPC Container Maker » ADMIN Magazine](http://www.admin-magazine.com/HPC/Articles/HPC-Container-Maker)
-
 ### running GUI app in container
 
 1. install `xvfb`
@@ -1233,3 +1383,7 @@ WantedBy=multi-user.target
 [BWC: GUI apps in Docker on OSX](http://blog.bennycornelissen.nl/bwc-gui-apps-in-docker-on-osx/?)
 
 [Howto get hardware accelerated OpenGL support in Docker - Gernot on developing Software](http://gernotklingler.com/blog/howto-get-hardware-accelerated-opengl-support-docker/)
+
+[Meet Webtops A Linux Desktop Environment In Your Browser | LinuxServer.io](https://www.linuxserver.io/blog/2021-05-05-meet-webtops-a-linux-desktop-environment-in-your-browser)
+[linuxserver/webtop - LinuxServer.io](https://docs.linuxserver.io/images/docker-webtop)
+[linuxserver/webtop - Docker Image | Docker Hub](https://hub.docker.com/r/linuxserver/webtop)

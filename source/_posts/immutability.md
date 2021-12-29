@@ -3,11 +3,11 @@ title: Immutability
 toc: true
 date: 2015-12-04 12:13:25
 categories:
-- web
+  - web
 tags:
-- immutability
-- javascript
-- web-dev
+  - immutability
+  - javascript
+  - web-dev
 ---
 
 > Most of the study gears towards JavaScript/web development

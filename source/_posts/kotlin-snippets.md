@@ -36,14 +36,16 @@ Property = hidden field + default/custom accessor
 Computed property without backing field can also be (declare it without initialization)
 [android - What's Kotlin Backing Field For? - Stack Overflow](https://stackoverflow.com/questions/43220140/whats-kotlin-backing-field-for)
 
-```kt
+```kotlin
 val isNewborn
     get() = age == 0
 ```
 
 ### Reflection
 
-```kt
+https://khan.github.io/kotlin-for-python-developers/#member-references-and-reflection
+
+```kotlin
 // getting class of object
 // since 1.1
 // https://kotlinlang.org/docs/reference/reflection.html#class-references
@@ -59,13 +61,13 @@ instance.javaclass.kotlin
 
 ### Smartcast
 
-```kt
+```kotlin
 if (obj is String) {  // obj: Any
   print(obj.toUpperCase())     // obj is now known to be a String
 }
 ```
 
-```kt
+```kotlin
 // extension not using contract, no smartcast
 fun String?.isNotNull(): Boolean = this != null
 
@@ -81,7 +83,7 @@ fun foo(s: String?) {
 
 ### Delegates
 
-```kt
+```kotlin
 interface View {
   fun click()
   fun toggle()
@@ -118,7 +120,7 @@ fun main() {
 `continue`, `break`, `this`, `return` in bound to the closest context. Use label (`name@`) to specify the context.
 Function and class name are automatically generated labels.
 
-```kt
+```kotlin
 outer@ for (n in 2..100) {
     for (d in 2 until n) {
         if (n % d == 0) continue@outer
@@ -127,7 +129,7 @@ outer@ for (n in 2..100) {
 }
 ```
 
-```kt
+```kotlin
 fun printUntilStopExplicit() {
   val list = listOf("a", "b", "stop", "c")
   list.forEach stop@ {
@@ -145,7 +147,7 @@ fun printUntilStopImplicit() {
 }
 ```
 
-```kt
+```kotlin
 class A {
   private val somefield: Int = 1
   inner class B {
@@ -161,7 +163,7 @@ class A {
 
 ## Range
 
-```kt
+```kotlin
 class DateRange(val start: MyDate, val endInclusive: MyDate) {
     operator fun contains(item: MyDate): Boolean =
       start <= item && item <= endInclusive
@@ -176,7 +178,7 @@ Spread (`*list`) and destructuring (`(k, v) = "key" to "value"`) works as in Pyt
 
 Map (dict) spreading is more tricky. The parameters have to be of the same type `vararg kwargs: Pair<String, X>` or in the worst cast `vararg kwargs: Pair<String, Any>` and it's for the function to typecast them to the correct type.
 
-```kt
+```kotlin
 val numbers = listOf(1, 2, 3)
 sum(*numbers.toIntArray())
 
@@ -189,7 +191,7 @@ foo("bar" to 42, "test" to "hello")
 
 https://khan.github.io/kotlin-for-python-developers/#receivers
 
-```kt
+```kotlin
 fun buildString(action: StringBuilder.() -> Unit) : String {
   val sb = StringBuilder()
   sb.action()  // invoke the lambda as StringBuilder's extension function
@@ -206,7 +208,7 @@ val s = buildString {
 
 ### Single Abstract Method (SAM)
 
-```kt
+```kotlin
 //https://play.kotlinlang.org/koans/Introduction/SAM%20conversions/Task.kt
 
 import java.util.*
@@ -222,7 +224,7 @@ fun getList(): List<Int> {
 }
 ```
 
-```kt
+```kotlin
 https://play.kotlinlang.org/koans/Introduction/Extensions%20on%20collections/Task.kt
 
 fun getList(): List<Int> {
@@ -244,7 +246,7 @@ fun getList(): List<Int> {
 
 Syntax:
 
-```kt
+```kotlin
 fun {Class}.{name}({param}): {type} {
 
 }
@@ -255,7 +257,7 @@ https://khan.github.io/kotlin-for-python-developers/#extension-functionsproperti
 https://khan.github.io/kotlin-for-python-developers/#receivers
 [[Kotlin pearls 6] Extensions: The Good, The Bad and The Ugly](https://proandroiddev.com/kotlin-pearls-6-extensions-the-good-the-bad-and-the-ugly-23c88fcab235)
 
-```kt
+```kotlin
 // extension function
 fun Byte.toUnsigned(): Int {
     return if (this < 0) this + 256 else this.toInt()
@@ -270,7 +272,7 @@ val Byte.unsigned: Int
 
 Personally I prefer not using receiver (not using `this`).
 
-```kt
+```kotlin
 maybeNull?.run { /* receiver, use `this` */ }
 maybeNull?.let { /* parameter, use `it` */ }
 with(expression) { /* receiver, use `this` */ }
@@ -290,7 +292,7 @@ maybeNull?.also {
 
 ### Tree DSL
 
-```kt
+```kotlin
 class TreeNode(val name: String) {
     val children = mutableListOf<TreeNode>()
 

@@ -9,10 +9,13 @@ tags:
   - unit-test
 ---
 
+[What is Software Testing? The 10 Most Common Types of Tests Developers Use in Projects](https://www.freecodecamp.org/news/types-of-software-testing/)
+
 [Unit testing - Wikiwand](http://www.wikiwand.com/en/Unit_testing)
 [Test automation - Wikiwand](http://www.wikiwand.com/en/Test_automation)
 [List of unit testing frameworks - Wikiwand](http://www.wikiwand.com/en/List_of_unit_testing_frameworks)
 [Unit Testing Succinctly - Envato Tuts+ Code Tutorials](http://code.tutsplus.com/series/unit-testing-succinctly--cms-675)
+[Ponicode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ponicode.ponicode)
 
 Unit test (a single function)
 Integration tests (multiple classes/units)
@@ -35,6 +38,8 @@ Unit Test: given input _x_, is the output _y_?
 [TDD, RDD and DDD](http://eigenhombre.com/tdd-rdd-and-ddd.html) Test-driven development, REPL-driven development, Documentation-driven development
 [Tests as documentation | Technology Conversations](http://technologyconversations.com/2014/04/08/tests-as-documentation/)
 [Giving Up on TDD - Clean Coder Blog](http://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html)
+[Code Cop: Y U NO TDD](http://blog.code-cop.org/2019/08/y-u-no-tdd.html)
+[RIP Test Driven Development - Better Programming - Medium](https://medium.com/better-programming/rip-tdd-or-are-we-just-thinking-about-it-wrong-32ef36b9c5)
 
 [Test-driven development - Wikiwand](https://www.wikiwand.com/en/Test-driven_development)
 [Test-Driven Development (TDD) | Technology Conversations](http://technologyconversations.com/2014/09/30/test-driven-development-tdd/)
@@ -51,6 +56,11 @@ Unit Test: given input _x_, is the output _y_?
 [From BDD to TDD, the pros and cons of various agile techniques | InfoWorld](https://www.infoworld.com/article/3269039/agile-development/from-bdd-to-tdd-the-pros-and-cons-of-various-agile-techniques.html)
 [The Truth about BDD - Clean Coder](https://sites.google.com/site/unclebobconsultingllc/the-truth-about-bdd)
 
+[The path to production: how and where to segregate test environments - CircleCI](https://circleci.com/blog/path-to-production-how-and-where-to-segregate-test-environments/)
+[How to test software, part I: mocking, stubbing, and contract testing - CircleCI](https://circleci.com/blog/how-to-test-software-part-i-mocking-stubbing-and-contract-testing/)
+[How to test software, part II: TDD and BDD - CircleCI](https://circleci.com/blog/how-to-test-software-part-ii-tdd-and-bdd/)
+
+[TDD Changed My Life. It’s 7:15 am and customer support is… | by Eric Elliott | JavaScript Scene | Medium](https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80)
 [Common Myths and Misconceptions of Test Driven Development - DEV Community 👩‍💻👨‍💻](https://dev.to/mrlarson2007/common-myths-and-misconceptions-of-test-driven-development-jcn)
 [Six Ways of Improving Behaviour-Driven Development](http://www.infoq.com/news/2015/07/six-bdd-improvements)
 [The WHY behind TDD/BDD and the HOW with RSpec](http://www.slideshare.net/bmabey/the-why-behind-tddbdd-and-the-how-with-rspec)
@@ -184,11 +194,19 @@ Some test runners take the features and generate test scripts in various languag
 
 [SE-Radio-Episode-325: Tammy Butow on Chaos Engineering : Software Engineering Radio](http://www.se-radio.net/2018/05/se-radio-episode-325-tammy-butow-on-chaos-engineering/)
 
+[A Powerful Chaos Engineering Platform for Kubernetes | Chaos Mesh®](https://chaos-mesh.org/)
+
 [marmelab/gremlins.js: Monkey testing library for web apps and Node.js](https://github.com/marmelab/gremlins.js)
 
 [Gremlin: Chaos Engineering Tools to Break Things on Purpose](https://www.gremlin.com/)
 [Overview - Gremlin Help](https://help.gremlin.com/)
 [How Gremlin is making chaos engineering accessible [Interview] | Packt Hub](https://hub.packtpub.com/how-gremlin-is-making-chaos-engineering-accessible-interview/)
+
+## Fuzzing
+
+[A new chapter for OSS-Fuzz | Google Open Source Blog](https://opensource.googleblog.com/2019/01/a-new-chapter-for-oss-fuzz.html)
+[Announcing the Atheris Python Fuzzer | Google Open Source Blog](https://opensource.googleblog.com/2020/12/announcing-atheris-python-fuzzer.html?m=1)
+[google/atheris](https://github.com/google/atheris/)
 
 ## Android
 
@@ -205,6 +223,42 @@ Some test runners take the features and generate test scripts in various languag
 
 [Sikuli Script - Home](http://www.sikuli.org/)
 [AutoIt](https://www.autoitscript.com/)
+
+### AutoIt
+
+[AutoIt Docs](https://www.autoitscript.com/autoit3/docs/)
+[AutoIt FAQ](https://www.autoitscript.com/autoit3/docs/faq.htm)
+
+[AutoIt Wiki](https://www.autoitscript.com/wiki/)
+[FAQ - AutoIt Wiki](https://www.autoitscript.com/wiki/FAQ)
+
+[AutoIt Script Editor Downloads - AutoIt](https://www.autoitscript.com/site/autoit-script-editor/downloads/) Includes more utilities
+
+We can use Visual Studio Code to develop script with this plugin:  
+[AutoIt - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Damien.autoit) This is supposed to work with the AutoIt Script Editor install
+
+[Instant AutoIt Scripting - Packt](https://subscription.packtpub.com/book/application_development/9781782165781)
+
+[The GuiBuilder Return - AutoIt Example Scripts - AutoIt Forums](https://www.autoitscript.com/forum/topic/184053-the-guibuilder-return/)
+
+#### Issues
+
+AutoIt has problem tracking UI controls in .Net application.  
+We can using mouse position to trigger to simplify the script.
+
+[Get Text from ATL-SysListView32 - AutoIt GUI Help and Support - AutoIt Forums](https://www.autoitscript.com/forum/topic/187793-get-text-from-atlsyslistview32/?tab=comments#comment-1349061)  
+[Identify .NET controls by their Name - AutoIt Example Scripts - AutoIt Forums](https://www.autoitscript.com/forum/topic/79449-identify-net-controls-by-their-name/)  
+[IUIAutomation MS framework automate chrome, FF, IE, .... - AutoIt Example Scripts - AutoIt Forums](https://www.autoitscript.com/forum/topic/153520-iuiautomation-ms-framework-automate-chrome-ff-ie/)
+
+#### Mouse position
+
+- Open AutoIt Window Info
+- Options -> Uncheck "Freeze"
+- View current mouse position in "Mouse" tab (you may need to scroll tab bar to the right to reveal it)
+
+### Microsoft Power Automate Desktop
+
+[🤖 How to use Microsoft Power Automate Desktop - Full tutorial - YouTube](https://www.youtube.com/watch?v=IQ_KpBC8fwo)
 
 ### PyAutoGUI
 
@@ -223,6 +277,13 @@ Some test runners take the features and generate test scripts in various languag
 [apiaryio/dredd: Language-agnostic HTTP API Testing Framework](https://github.com/apiaryio/dredd#readme)
 [Command-line Interface - Dredd](https://dredd.readthedocs.io/en/latest/usage-cli/)
 
+[Getting started with HTTPie for API testing | Opensource.com](https://opensource.com/article/19/8/getting-started-httpie)
+
+### Mock Server
+
+[Reqres - A hosted REST-API ready to respond to your AJAX requests](https://reqres.in/)
+[Placeholder.com: Placeholder Images Made For You [JPG, GIF & PNG]](https://placeholder.com/)
+
 ### JavaScript
 
 [visionmedia/supertest](https://github.com/visionmedia/supertest) testing server API with extended [superagent](https://github.com/visionmedia/superagent)
@@ -230,21 +291,45 @@ Some test runners take the features and generate test scripts in various languag
 
 ## Python
 
+[Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/)
+[4 Techniques for Testing Python Command-Line (CLI) Apps – Real Python](https://realpython.com/python-cli-testing/)
+[How I'm testing in 2020](https://www.b-list.org/weblog/2020/feb/03/how-im-testing-2020/)
+
 [pytest: helps you write better programs — pytest documentation](https://docs.pytest.org/en/latest/)
+[Effective Python Testing With Pytest – Real Python](https://realpython.com/pytest-python-testing/)
 [Testing Your Code with Python's pytest | Linux Journal](https://www.linuxjournal.com/content/testing-your-code-pythons-pytest)
 [hackebrot/pytest-emoji: pytest + emoji ==](https://github.com/hackebrot/pytest-emoji)
 [hackebrot/pytest-tricks: Tips and Tricks for the Python Testing Tool](https://github.com/hackebrot/pytest-tricks)
+[PyTest Tutorial: What is, Install, Fixture, Assertions](https://www.guru99.com/pytest-tutorial.html)
+[Martin Heinz - Pytest Features, That You Need in Your (Testing) Life](https://martinheinz.dev/blog/7)
+[schireson/pytest-mock-resources: Pytest Fixtures that let you actually test against external resource (Postgres, Mongo, Redshift...) dependent code.](https://github.com/schireson/pytest-mock-resources/)
+[mwilliamson/python-precisely: Matcher library for Python](https://github.com/mwilliamson/python-precisely)
 
-[Note to Users — nose documentation](https://nose.readthedocs.io/en/latest/) nose extends unittest to make testing easier.
-[unittest — Unit testing framework — Python documentation](https://docs.python.org/3/library/unittest.html#module-unittest)
+[Justin Crown - "WHAT IS THIS MESS?" - Writing tests for pre-existing code bases - PyCon 2018 - YouTube](https://www.youtube.com/watch?v=LDdUuoI_lIg) [slide](https://speakerdeck.com/pycon2018/justin-crown-what-is-this-mess-writing-tests-for-pre-existing-code-bases)
 
-[26.3. doctest — Test interactive Python examples — Python 3 documentation](https://docs.python.org/3/library/doctest.html)
+[doctest — Test interactive Python examples — Python documentation](https://docs.python.org/3/library/doctest.html)
 [doctest - Wikiwand](https://www.wikiwand.com/en/Doctest)
 [doctest — Testing Through Documentation — PyMOTW 3](https://pymotw.com/3/doctest/)
 
-[Getting Started With Testing in Python – Real Python](https://realpython.com/python-testing/)
+[unittest — Unit testing framework — Python documentation](https://docs.python.org/3/library/unittest.html)
+[Python Tutorial: Unit Testing Your Code with the unittest Module - YouTube](https://www.youtube.com/watch?v=6tNS--WetLI)
+[Python Unit Testing – Structuring Your Project – Patrick's Software Blog](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
+[python - Running unittest with typical test directory structure - Stack Overflow](https://stackoverflow.com/questions/1896918/running-unittest-with-typical-test-directory-structure)
+
+[Note to Users — nose documentation](https://nose.readthedocs.io/en/latest/) nose extends unittest to make testing easier.
+
+[Welcome to Hypothesis! — Hypothesis documentation](https://hypothesis.readthedocs.io/en/latest/)
 
 [Welcome to the tox automation project — tox documentation](https://tox.readthedocs.io/en/latest/)
+[Welcome to Nox — Nox documentation](https://nox.thea.codes/en/stable/) easier to break the abstraction
+[Thea Flowers - Break the Cycle: Three excellent Python tools to automate repetitive tasks - YouTube](https://www.youtube.com/watch?v=-BHverY7IwU)
+
+#### Mock/Stub
+
+[Welcome to Faker’s documentation! — Faker documentation](https://faker.readthedocs.io/en/master/)
+[joke2k/faker: Faker is a Python package that generates fake data for you.](https://github.com/joke2k/faker)
+
+[chris1610/barnum-proj: Python application for generating pseudo-random data](https://github.com/chris1610/barnum-proj)
 
 ## JavaScript
 
@@ -268,12 +353,22 @@ Some test runners take the features and generate test scripts in various languag
 
 [SpeckJS - Comment Driven Development](http://speckjs.github.io/)
 
+[Jest · 🃏 Delightful JavaScript Testing](https://jestjs.io/)
+[Delightful JavaScript Testing with Jest - YouTube](https://www.youtube.com/watch?v=cAKYQpTC7MA)
+[ReactiveConf 2017 - Rogelio Guzman: Jest as a Platform - YouTube](https://www.youtube.com/watch?v=NtjyeojAOBs)
+
+[Testing Library | Testing Library](https://testing-library.com/)
+
 [Intern: Software testing for humans](https://theintern.github.io/) [video](https://www.youtube.com/watch?v=_KFjuEKLqDA)
 
-[avajs/ava: Futuristic JavaScript test runner](https://github.com/avajs/ava)
+[testdouble/teenytest: A very simple, zero-config test runner for Node.js](https://github.com/testdouble/teenytest) built-in assert or assertion library
+
+[Wallaby - Immediate JavaScript test feedback in your IDE as-you-type](https://wallabyjs.com/)
+
+[avajs/ava: Futuristic JavaScript test runner](https://github.com/avajs/ava) run tests in parallel, test ends in "\*.test.js"
 [AVA, low-config testing for JavaScript](https://dev.to/hugo__df/ava-low-config-testing-for-javascript)
 
-[mochajs/mocha: ☕️ simple, flexible, fun javascript test framework for node.js & the browser](https://github.com/mochajs/mocha) pollutes global namespace, need assertion library, say [chai](http://chaijs.com/)
+[mochajs/mocha: ☕️ simple, flexible, fun javascript test framework for node.js & the browser](https://github.com/mochajs/mocha) pollutes global namespace, need assertion library
 
 [bevry/joe: Joe is an accurate and powerful testing framework that can run on node and in the browser](https://github.com/bevry/joe)
 [Welcome! Buster.JS is...](http://docs.busterjs.org/en/latest/)
@@ -287,6 +382,7 @@ Some test runners take the features and generate test scripts in various languag
 [thegrtman/javascript-test-framework-comparison](https://github.com/thegrtman/javascript-test-framework-comparison)
 [coderwall.com : establishing geek cred since 1305712800](https://coderwall.com/p/ntbixw/javascript-test-framework-comparison)
 [JavaScript unit test tools for TDD - Stack Overflow](http://stackoverflow.com/questions/300855/javascript-unit-test-tools-for-tdd)
+[I tested a React app with Jest, Enzyme, Testing Library and Cypress. Here are the differences. | by Sunil Sandhu | JavaScript in Plain English](https://javascript.plainenglish.io/i-tested-a-react-app-with-jest-testing-library-and-cypress-here-are-the-differences-3192eae03850)
 
 #### lab
 
@@ -348,12 +444,7 @@ experiment("getting started with hapi testing,", () => {
 
 #### React
 
-[Jest | Painless JavaScript Unit Testing](https://facebook.github.io/jest/) by Facebook on top of [Jasmine](http://jasmine.github.io/edge/introduction.html)
-[Testing your apps like a boss with React.js and Jest - DEV Community 👩‍💻👨‍💻](https://dev.to/softchris/testing-your-apps-like-a-boss-with-react-js-and-jest-1hkh) !important
-[Rogelio Guzman - Jest Snapshots and Beyond - React Conf 2017 - YouTube](https://www.youtube.com/watch?v=HAuXJVI_bUs) comparing snapshots of rendered UI
-
-[airbnb/enzyme: JavaScript Testing utilities for React](https://github.com/airbnb/enzyme)
-[jquense/teaspoon: A jQuery like API for testing React elements and rendered components.](https://github.com/jquense/teaspoon)
+> see `react.md#testing`
 
 #### TAP
 
@@ -386,12 +477,20 @@ Reporters:
 [scottcorgan/tap-spec](https://github.com/scottcorgan/tap-spec)
 [substack/faucet](https://github.com/substack/faucet)
 [namuol/tap-difflet](https://github.com/namuol/tap-difflet)
+[tap-nyan - npm](https://www.npmjs.com/package/tap-nyan)
 
 ### Browser
+
+[⚙️ Explain Selenium & Webdrivers automation (Like I'm Five) - DEV Community 👩‍💻👨‍💻](https://dev.to/uilicious/explain-selenium-webdrivers-like-i-m-five-16ng)
+[Google Open Source Blog: Introducing WebDriver](http://google-opensource.blogspot.hk/2009/05/introducing-webdriver.html)
+[WebdriverIO · Next-gen WebDriver test framework for Node.js](https://webdriver.io/)
 
 task runner for browser tests:
 [testem/testem: Test'em 'Scripts! A test runner that makes Javascript unit testing fun.](https://github.com/testem/testem)
 [substack/testling: unit tests in all the browsers](https://github.com/substack/testling)
+
+[UI-licious | End-to-end user journey testing for the modern web](https://uilicious.com/#page-top)
+[[Success] Test: Untitled Test](https://snippet.uilicious.com/test/public/8t9HK5ACWLGSJKhBzREKz2)
 
 [assaf/zombie: Insanely fast, full-stack, headless browser testing using node.js](https://github.com/assaf/zombie)
 
@@ -401,14 +500,22 @@ task runner for browser tests:
 [Jasmine](http://jasmine.github.io/edge/introduction.html)
 [uxebu/kommando: A functional / acceptance test runner (using Webdriver)](https://github.com/uxebu/kommando)
 
-[CodeceptJS](http://codecept.io/) CucumberJS + Web driver
-
 [Selenium - Web Browser Automation](http://www.seleniumhq.org/)
 [Selenium, Travis-CI and WebRTC == <&](https://blog.andyet.com/2015/07/28/selenium-travis-webrtc/)
-[Google Open Source Blog: Introducing WebDriver](http://google-opensource.blogspot.hk/2009/05/introducing-webdriver.html)
+[Using Python with Selenium to Automate Mouse Clicks and Filling Forms](https://towardsdatascience.com/using-python-and-selenium-to-automate-filling-forms-and-mouse-clicks-f87c74ed5c0f)
+[Advanced Automation Tips with Python | Selenium - DEV Community 👩‍💻👨‍💻](https://dev.to/coderasha/advanced-automation-tips-with-python-selenium-17j0)
+[How I DIY’d my Budget Using Python for Selenium and Beautiful Soup | by Jennifer Kim | Towards Data Science](https://towardsdatascience.com/how-i-diyd-my-budget-using-python-for-selenium-and-beautiful-soup-4d2edc5c519)
 [Learn How to Automate Browser Testing With Selenium WebDriver — Part 1 - DZone DevOps](https://dzone.com/articles/learn-how-to-automate-browser-with-selenium-webdri)
 
+[Sahi (software) - Wikiwand](<https://www.wikiwand.com/en/Sahi_(software)>)
+[Sahi - Web Automation and Test Tool download | SourceForge.net](https://sourceforge.net/projects/sahi/)
+
 [5 Best Python Frameworks for WebView Testing | Codementor](https://www.codementor.io/saifsadiq1995/5-best-python-frameworks-for-webview-testing-rp182gqxa)
+
+[Robot Framework](https://robotframework.org/)
+[Robot Framework documentation](http://robotframework.org/robotframework/#user-guide)
+[Robot Framework Introduction](https://www.slideshare.net/pekkaklarck/robot-framework-introduction)
+[QuickStartGuide/QuickStart.rst at master · robotframework/QuickStartGuide](https://github.com/robotframework/QuickStartGuide/blob/master/QuickStart.rst)
 
 ### Assertion
 
@@ -417,6 +524,7 @@ task runner for browser tests:
 [Chai HTTP - Chai](http://chaijs.com/plugins/chai-http)
 [Automattic/expect.js](https://github.com/Automattic/expect.js)
 [shouldjs/should.js](https://github.com/shouldjs/should.js)
+[sindresorhus/core-assert: Node.js `assert` as a standalone module](https://github.com/sindresorhus/core-assert)
 
 ### Runner
 
@@ -425,8 +533,8 @@ task runner for browser tests:
 
 ### End-to-end
 
-[JavaScript End to End Testing Framework | Cypress.io](https://www.cypress.io/)
-[Testing Angular with Cypress and Docker - TestDriven.io](https://testdriven.io/testing-angular-with-cypress-and-docker)
+[Google Testing Blog: Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+[End-to-End Testing Web Apps: The Painless Way - mtlynch.io](https://mtlynch.io/painless-web-app-testing/)
 
 [Late to the Party; End-to-End Testing: Part 1 – codeburst](https://codeburst.io/late-to-the-party-end-to-end-testing-part-1-ea15ff8e4f7a)
 [Late to the Party; End-to-End Testing: Part 2 – codeburst](https://codeburst.io/late-to-the-party-end-to-end-testing-part-2-3246c69248ca)
@@ -437,10 +545,55 @@ task runner for browser tests:
 [ksunair-introtokarma](https://github.com/ksunair/introtokarma)
 [douglasduteil/isparta: A code coverage tool for ES6 (babel/6to5)](https://github.com/douglasduteil/isparta)
 
-[CodeceptJS](http://codecept.io/)
+[How to automate REST API end-to-end tests in a CI environment with Postman and Newman](https://www.freecodecamp.org/news/how-to-automate-rest-api-end-to-end-tests/amp/)
 
 [Getting started with Mocha and Chai - Rob Dodson talks internets](http://robdodson.me/blog/2012/05/27/testing-backbone-boilerplate-with-mocha-and-chai/)
 [ludovicofischer-mocha-chai-browser-demo · GitHub](https://github.com/ludovicofischer/mocha-chai-browser-demo)
+
+#### Cypress
+
+[JavaScript End to End Testing Framework | Cypress.io](https://www.cypress.io/)
+[Guides | Cypress Documentation](https://docs.cypress.io/guides/)
+[Table of Contents | Cypress Documentation](https://docs.cypress.io/api/table-of-contents)
+[cypress-io/testing-workshop-cypress: End-to-end testing workshop with Cypress](https://github.com/cypress-io/testing-workshop-cypress)
+[cypress-io/cypress-example-kitchensink: This is an example app used to showcase Cypress.io testing.](https://github.com/cypress-io/cypress-example-kitchensink)
+[cypress-io/cypress-example-recipes: Various recipes for testing common scenarios with Cypress](https://github.com/cypress-io/cypress-example-recipes)
+
+[Plugins | Cypress Documentation](https://docs.cypress.io/guides/tooling/plugins-guide#Preprocessors)
+[bjowes/cypress-ntlm-auth: Windows authentication plugin for Cypress](https://github.com/bjowes/cypress-ntlm-auth/)
+[NoriSte/cypress-wait-until: Add the Cypress waiting power to virtually everything 🎉](https://github.com/NoriSte/cypress-wait-until)
+
+[Sleeping better at night with cypress.io - Tomasz Łakomy - YouTube](https://www.youtube.com/watch?v=-tE0SQ0cR4c)
+[Testing Angular with Cypress and Docker - TestDriven.io](https://testdriven.io/testing-angular-with-cypress-and-docker)
+[UI Testing a React App Using Cypress - Level Up Coding](https://levelup.gitconnected.com/ui-testing-a-react-app-using-cypress-247c3bc4cd94)
+[Cypress.io — Scaling E2E testing with custom commands | by Nicholas Boll | Medium](https://medium.com/@NicholasBoll/cypress-io-scaling-e2e-testing-with-custom-commands-6b72b902aab)
+
+#### Tips and Tricks
+
+[8 Tricks I Learned From Cypress](https://blog.servmask.com/8-tricks-i-learned-from-cypress/)
+
+[Do Not Get Too Detached](https://www.cypress.io/blog/2020/07/22/do-not-get-too-detached/) page reload
+race condition
+[When Can The Test Start?](https://www.cypress.io/blog/2018/02/05/when-can-the-test-start/)
+[When Can the Test Click?](https://www.cypress.io/blog/2019/01/22/when-can-the-test-click/)
+[After upgrade to version 3.6.1 tests start failing with " CypressError: Timed out retrying: cy.click() failed because this element is detached from the DOM" · Issue #5743 · cypress-io/cypress](https://github.com/cypress-io/cypress/issues/5743)
+[Re-query elements that are found 'detached' from the DOM · Issue #7306 · cypress-io/cypress](https://github.com/cypress-io/cypress/issues/7306)
+[Cypress cy.intercept Problems | Better world by better software](https://glebbahmutov.com/blog/cypress-intercept-problems/#cywait-uses-the-intercept)
+
+Remember that cypress commands are not promises and you can't use async/await in Cypress tests.
+[Introduction to Cypress | Cypress Documentation](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Commands-Are-Promises)
+[Do not support async/await function in es6 style · Issue #158 · NoriSte/cypress-wait-until](https://github.com/NoriSte/cypress-wait-until/issues/158)
+[Misleading documentation for `then` method · Issue #3446 · cypress-io/cypress-documentation](https://github.com/cypress-io/cypress-documentation/issues/3446)
+[Await-ing Cypress Chains · Issue #1417 · cypress-io/cypress](https://github.com/cypress-io/cypress/issues/1417)
+[Cypress.io — Using async and await | by Nicholas Boll | Medium](https://medium.com/@NicholasBoll/cypress-io-using-async-and-await-4034e9bab207)
+[NicholasBoll/cypress-promise: Allow a Cypress chain to resolve to a promise](https://github.com/NicholasBoll/cypress-promise)
+
+```js
+// use this wrapper
+return new Promise((resolve, reject) => {
+  cy.Chainable().then(() => resolve());
+});
+```
 
 ### Coverage
 
@@ -470,171 +623,4 @@ task runner for browser tests:
 
 ## Continuous Integration
 
-> TODO: move to `ci-cd.md`
-
-[Continuous integration - Wikiwand](https://www.wikiwand.com/en/Continuous_integration)
-[Continuous Integration Essentials | Codeship](https://codeship.com/continuous-integration-essentials)
-[What is CI/CD? Continuous integration and continuous delivery explained | InfoWorld](https://www.infoworld.com/article/3271126/application-development/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
-[What is continuous testing? How to align test automation with agile and devops | InfoWorld](https://www.infoworld.com/article/3289104/application-testing/how-to-align-test-automation-with-agile-and-devops.html)
-
-[cytopia/awesome-ci: Awesome Continuous Integration - Lot's of tools for git, file and static source code analysis.](https://github.com/cytopia/awesome-ci)
-[ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
-
-[How to set up an efficient development workflow with Git and CI/CD](https://proandroiddev.com/how-to-set-up-an-efficient-development-workflow-with-git-and-ci-cd-5e8916f6bece)
-[GitHub Flow](https://githubflow.github.io/)
-[GitLab Flow | GitLab](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-
-[Continuous Delivery Software | Continuous Integration | Go CD](https://www.go.cd/)
-[A beginner's guide to building DevOps pipelines with open source tools | Opensource.com](https://opensource.com/article/19/4/devops-pipeline)
-[How secure is your CICD pipeline?](https://www.weave.works/blog/how-secure-is-your-cicd-pipeline)
-
-[Danger JS](https://danger.systems/js/) code review
-
-[Continuous Integration, Delivery and Deployment | Technology Conversations](http://technologyconversations.com/category/continuous-integration-delivery-and-deployment/) the series
-[The Short History of CI/CD Tools | Technology Conversations](http://technologyconversations.com/2016/01/14/the-short-history-of-cicd-tools/) !important
-[Build Automation Panel | Technology Conversations](http://technologyconversations.com/2015/05/17/build-automation-panel/#more-2294)
-[Continuous Delivery: Unit Tests | Technology Conversations](http://technologyconversations.com/2014/06/10/continuous-delivery-unit-tests/) compares services
-
-[screwdriver.cd](http://screwdriver.cd/)
-[Open Source Continuous Delivery and Release Automation Server | GoCD](https://www.gocd.org/)
-[Concourse CI](https://concourse-ci.org/)
-
-[Scripts to Rule Them All - GitHub Engineering](http://githubengineering.com/scripts-to-rule-them-all/) project structure that is CI friendly
-[github/scripts-to-rule-them-all: Scripts to Rule Them All](https://github.com/github/scripts-to-rule-them-all)
-
-[Photon](http://photon.ci/)
-[Photon-CI/Photon: An open-source .NET task platform designed for pipeline-as-code automation.](https://github.com/Photon-CI/Photon)
-
-[Kubernetes Pipelines: Hello, New World - Container Journal](https://containerjournal.com/2019/03/12/kubernetes-pipelines-hello-new-world/amp/)
-[CI/CD with Less Fluff & More Awesome – Donna Legal – Medium](https://medium.com/donna-legal/ci-cd-with-less-fluff-more-awesome-28af61288a03)
-
-### CI with Docker
-
-[Strider-CD/strider: Strider: Open Source Continuous Integration & Deployment Server.](https://github.com/Strider-CD/strider)
-[rvagg/dnt: Docker Node Tester](https://github.com/rvagg/dnt)
-[retrohacker/dante: Build tests against Docker images by harnessing the power of layers](https://github.com/retrohacker/dante)
-
-[Docker and Travis-CI](http://www.gizra.com/content/docker-travis-ci/) Docker inside Travis
-
-[Continuous Blog Delivery Part 1](https://niels.nu/blog/2017/continuous-blog-delivery-p1.html)
-[Continuous Blog Delivery Part 2](https://niels.nu/blog/2017/continuous-blog-delivery-p2.html)
-
-[Efficient development with Docker and docker-compose](https://medium.com/@Empanado/efficient-development-with-docker-and-docker-compose-e354b4d24831) GitLab CI example
-
-[Dockerize your integration tests - DEV Community 👩‍💻👨‍💻](https://dev.to/vga/dockerize-your-integration-tests--4edm)
-[Introduction · Testcontainers](https://www.testcontainers.org/)
-
-[Follow these steps to build production-grade workflow with Docker and React](https://medium.freecodecamp.org/follow-these-steps-to-build-production-grade-workflow-with-docker-and-react-a860f695cf14) Travis CI and AWS Elastic BeanStalk
-
-[fabric8: open source Integrated Development Platform for Kubernetes](http://fabric8.io/)
-
-#### Drone
-
-[drone/drone: Drone is a Continuous Delivery platform built on Docker, written in Go](https://github.com/drone/drone)
-[drone/drone: Drone is a Continuous Delivery platform built on Docker, written in Go](https://github.com/drone/drone)
-[Drone CI/CD Goes Kubernetes-Native](https://blog.drone.io/drone-goes-kubernetes-native/)
-
-[How to set up a Private Continuous Deployment Server with Drone](http://paislee.io/how-to-run-a-private-continuous-integration-server-with-drone/)
-[How to Build and Deploy Docker Images with Drone](http://paislee.io/how-to-build-and-deploy-docker-images-with-drone/)
-[How to Automate Docker Deployments](http://paislee.io/how-to-automate-docker-deployments/)
-
-#### Codeship
-
-[How Docker Makes Testing More Efficient - via @codeship](http://blog.codeship.com/testing-with-docker/)
-[Running Tests with Docker - Codeship Webinar on Vimeo](https://vimeo.com/160775195)
-[Codeship Webinar Video: An Introduction to CI/CD With Docker Best Practices - Request Webinar Video](https://resources.codeship.com/webinars/intro-to-ci-cd-with-docker-best-practices)
-
-[Codeship Webinar Video: Running Your Tests with Docker](http://resources.codeship.com/webinars/thank-you-video-running-your-tests-with-docker)
-[Codeship Webinar Video: Continuous Delivery with Containers](http://resources.codeship.com/webinars/thank-you-video-getting-started-with-continuous-delivery-using-docker)
-[Codeship Webinar Video: An Introduction to CI/CD With Docker Best Practices - Request Webinar Video](https://resources.codeship.com/webinars/intro-to-ci-cd-with-docker-best-practices)
-
-#### Jenkins
-
-[Jenkins X is a CI / CD platform for Kubernetes | Jenkins X](https://jenkins-x.io/)
-
-[Testing Strategies for Docker Containers · Terra Nullius](http://blog.terranillius.com/post/docker_testing/)
-[Building With Jenkins Inside an Ephemeral Docker Container | Riot Games Engineering](https://engineering.riotgames.com/news/building-jenkins-inside-ephemeral-docker-container)
-[Get started with brand new Jenkins 2.0 with Docker - SHASHIKANT JAGTAP](http://shashikantjagtap.net/get-started-with-brand-new-jenkins-2-0-with-docker/)
-[What is Jenkins? The CI server explained | InfoWorld](https://www.infoworld.com/article/3239666/devops/what-is-jenkins-the-ci-server-explained.html)
-[Jenkins tutorial | Jenkins tutorial for beginners | Jenkins - YouTube](https://www.youtube.com/watch?v=-wZeZSMlvhM)
-
-[Continuous Integration, Delivery or Deployment with Jenkins, Docker and Ansible | Technology Conversations](http://technologyconversations.com/2015/02/11/continuous-integration-delivery-or-deployment-with-jenkins-docker-and-ansible/) [code](https://github.com/vfarcic/jenkins-docker-ansible)
-[Continuous Deployment: Implementation with Ansible and Docker | Technology Conversations](http://technologyconversations.com/2014/12/29/continuous-deployment-implementation-with-ansible-and-docker/) [code](https://github.com/vfarcic/provisioning/tree/master/ansible)
-
-[Overview of Jenkins - YouTube](https://www.youtube.com/playlist?list=PLfXWzKEc7gHxnW_IF46mrXm51uv81eN6H)
-
-#### Docker Flow
-
-[Docker Flow – Walkthrough | Technology Conversations](https://technologyconversations.com/2016/04/18/docker-flow/)
-[vfarcic/docker-flow: Docker Flow: Walkthrough](https://github.com/vfarcic/docker-flow)
-
-#### Kubernetes
-
-[CI/CD for Kubernetes](https://www.weave.works/technologies/ci-cd-for-kubernetes/)
-[Continuous Delivery to Kubernetes for Machine Learning with Michelle Casbon (Qordoba)](https://www.weave.works/blog/continuous-delivery-to-kubernetes-for-machine-learning)
-
-[Tekton  |  Google Cloud](https://cloud.google.com/tekton/)
-[New Google project offers Kubernetes building blocks for CI/CD | InfoWorld](https://www.infoworld.com/article/3373650/new-google-project-offers-kubernetes-building-blocks-for-cicd.amp.html)
-
-### Hygieia
-
-[Tech - Hygieia | Capital One](https://www.capitalone.com/tech/solutions/hygieia)
-
-### Hosted
-
-> usually have self-hosted enterprise option
-
-[Continuous Delivery with Codeship: Fast, secure and fully customizable.](https://codeship.com/)
-[Continuous Integration and Deployment - CircleCI](https://circleci.com/)
-[Semaphore - Continuous Integration & Deployment](https://semaphoreci.com/)
-[Continuous Integration and Deployment service for Windows developers - Appveyor](https://www.appveyor.com/)
-
-[Wercker - From code to containers](http://wercker.com/)
-
-### Travis
-
-> Travis is hosted service, with self-hosted enterprise option
-
-[Travis CI - Wikiwand](https://www.wikiwand.com/en/Travis_CI)
-[Travis CI - Test and Deploy Your Code with Confidence](https://travis-ci.org/)
-[DamonOehlman/travis-multirunner: A simple configuration for running (limited) multibrowser tests on travis ci](https://github.com/damonoehlman/travis-multirunner)
-[GUI and Headless Browser Testing - Travis CI](https://dosc.travis-ci.com/user/gui-and-headless-browsers/)
-
-### Buildbot
-
-[Buildbot](http://buildbot.net/)
-[Buildbot in 5 minutes - a user-contributed tutorial — Buildbot 0.8.12 documentation](http://docs.buildbot.net/current/tutorial/fiveminutes.html)
-
-### Jenkins
-
-[Welcome to Jenkins CI! | Jenkins CI](https://jenkins-ci.org/)
-[Introduction to Jenkins: An Open Source Continuous Integration Server - Tuts+ Code Tutorial](http://code.tutsplus.com/tutorials/introduction-to-jenkins-an-open-source-continuous-integration-server--cms-23879)
-[Production Ready Jenkins 2.0 in Two Steps with Docker | FlowLog-Stats.com](https://blog.flowlog-stats.com/2016/05/05/production-ready-jenkins-2-0-in-two-steps-with-docker/)
-[Docker inside docker and overview about Jenkins 2](http://gianarb.it/blog/docker-inside-docker-and-jenkins-2)
-
-[What is Jenkins? The CI server explained | InfoWorld](https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html)
-[Jenkins CI/CD is in trouble, so its founder wants to split it up | InfoWorld](https://www.infoworld.com/article/3304282/jenkins-cicd-is-in-trouble-so-its-founder-wants-to-split-it-up.html)
-[Jenkins tries to reinvent itself as cloud-native for Kubernetes | InfoWorld](https://www.infoworld.com/article/3366428/jenkins-tries-to-reinvent-itself-as-cloud-native-for-kubernetes.html)
-
-### OVH CDS
-
-[ovh/cds: Enterprise-Grade Continuous Delivery & DevOps Automation Open Source Platform](https://github.com/ovh/cds)
-[Comparison Matrix](https://github.com/ovh/cds#comparison-matrix)
-
-### Kitchen
-
-[Welcome to Test Kitchen - KitchenCI](http://kitchen.ci/)
-[Setting your environment in test-kitchen - The Doctor What](https://docwhat.org/setting-environment-test-kitchen/)
-
-### Build your own
-
-[Ansibot by hiddentao](http://hiddentao.github.io/ansijet/)
-[Shippable + Ansible + Docker + Loggly for awesome deployments](http://www.hiddentao.com/archives/2014/06/03/shippable-ansible-docker-loggly-for-awesome-deployments/)
-[Ansijet – Ansible playbook automation server](http://www.hiddentao.com/archives/2014/06/20/ansijet-ansible-playbook-automation-server/)
-
-### Static Analysis/Coverage
-
-[Codecov - Code Coverage](https://codecov.io/)
-[Coveralls - Test Coverage History & Statistics](https://coveralls.io/)
-[Code Climate. Hosted static analysis for Ruby, PHP and JavaScript source code.](https://codeclimate.com/)
-[Dependency management + Code analytics for Node.js projects](https://www.bithound.io/)
+> see `ci-cd.md`

@@ -3,18 +3,18 @@ title: Flux
 toc: true
 date: 2015-12-04 12:12:11
 categories:
-- web
+  - web
 tags:
-- react-js
-- flux
-- javascript
-- web-dev
+  - react-js
+  - flux
+  - javascript
+  - web-dev
 ---
 
-Flux is a pattern for web applications architecture, *rather than a library*. Though there are some example implementations.  
+Flux is a pattern for web applications architecture, _rather than a library_. Though there are some example implementations.
 
-Flux promotes unidirectional  data flow:
-  DISPATCHER -> STORES -> COMPONENTS
+Flux promotes unidirectional data flow:
+DISPATCHER -> STORES -> COMPONENTS
 Dispatcher and stores are global.
 Components take immutable `prop` as input and can maintain internal mutable `state`. Changes to state via `setState()` will trigger a re-rendering.
 Components can also fire "intent" (also called "action") or listen to the dispatcher/stores.

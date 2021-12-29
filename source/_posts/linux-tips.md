@@ -10,7 +10,6 @@ date: 2016-03-11 14:48:23
 
 These tips and tricks shall be promoted to its own post when the topic has accumulated enough contents.
 
-[Introduction to Linux | edX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)
 [Linux Kernel Newbies - Linux Kernel Newbies](https://kernelnewbies.org/)
 [Embedded Linux, kernel and real-time presentations - Bootlin](https://bootlin.com/docs/) Formerly Free Electrons
 
@@ -19,17 +18,12 @@ These tips and tricks shall be promoted to its own post when the topic has accum
 [Home | Linux Journey](https://linuxjourney.com/)
 [9 Free Linux Training Courses For Everyone | It's FOSS](https://itsfoss.com/free-linux-training-courses/)
 
-## Online manpages
-
-http://www.die.net/search/?q=%s Better format for sending to Kindle
-https://www.mankier.com/?q=%s Better coloring and TOC, with tldr
-http://man.cx/%s Better coloring and TOC
-
 <!-- more -->
 
 ## Check system install time
 
 [How do I find how long ago a Linux system was installed? - Unix & Linux Stack Exchange](http://unix.stackexchange.com/questions/9971/how-do-i-find-how-long-ago-a-linux-system-was-installed)
+[How To Find Exact Installation Date And Time Of Your Linux OS](https://www.ostechnix.com/find-exact-installation-date-time-linux-os/)
 
 We need several tools:
 

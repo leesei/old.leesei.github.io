@@ -20,6 +20,21 @@ toc: true
 [Troubleshooting Nintendo Switch: The Ultimate Guide | iMore](https://www.imore.com/troubleshooting-nintendo-switch-ultimate-guide)  
 [How to Troubleshoot Common Nintendo Switch Problems](https://www.lifewire.com/nintendo-switch-troubleshooting-4135394)
 
+[NS / Nintendo Switch 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/B.php?bsn=31587)
+
+[任天堂 Switch 秘技：15 分鐘自改 Joy-con 圖標顏色｜香港 01 ｜科技玩物｜](https://www.hk01.com/科技玩物/110801/任天堂Switch秘技-15-分鐘自改Joy-con圖標顏色)
+
+## Mii
+
+[Nintendo Account](https://studio.mii.nintendo.com/?client_id=d9a620d8bb417787)
+[Online Mii Maker on Scratch on Scratch](https://scratch.mit.edu/projects/188864341/)
+[Mii Library](https://sites.google.com/view/miilibrary/home)
+
+[Nintendo Account](https://studio.mii.nintendo.com/)
+[leesei](https://cdn-mii.accounts.nintendo.com/2.0.0/mii_images/96f5377e54da7bad/8eb325fe9b38e1b4d971c96a8222dc91d4938dbf.png?type=face&width=512)
+[zoie](https://cdn-mii.accounts.nintendo.com/2.0.0/mii_images/725a30b7bfc80a04/a3c015564a89a735ed57f84b6f4281e1721cb42b.png?type=face&width=512)
+[parker](https://cdn-mii.accounts.nintendo.com/2.0.0/mii_images/33d62fde08bd0c6e/19c6a57fe476fe7d2df5cb1ef2d32e248c6f9fdf.png?type=face&width=512)
+
 ## Enable Browser
 
 [SwitchBru](https://switchbru.com/dns/)
@@ -35,17 +50,22 @@ Video playback is blocked since 3.0.0
 
 ## Games
 
-[Switch Game Search – Switcher](https://switcher.co/games/)
-[Games - Save Coins](https://savecoins.app/games)
+[Switch Game Search – Switcher](https://switcher.co/games/)
 
 [Nintendo Switch ソフト | My Nintendo Store（マイニンテンドーストア）](https://store.nintendo.co.jp/category/SWITCH_SOFT/)  
 [Switch Games - Nintendo Game Store](https://www.nintendo.com/games/switch)
 [Switch 遊戲 分類及價格 - 香港格價網 Price.com.hk](https://www.price.com.hk/category.php?c=100277&filter=104958)  
 [Nintendo Switch™ Games](https://www.play-asia.com/games/nintendo_switch/games/14/712fj#fc=s:4)
 [directbuyhk SWITCH Games](https://www.directbuyhk.com/categories/switch-games)
-[直銷網 directbuyhk.com - 香港格價網 Price.com.hk](https://www.price.com.hk/starshop.php?s=939&c=100277)
+[2000Fun 商城 香港人既遊戲店](https://www.openshop.com.hk/)
+[Nintendo Switch 遊戲 - 2000Fun 商城 香港人既遊戲店](https://www.openshop.com.hk/category_459.html)
+[Switch PS5 PS4 XBox 電玩主機, 配件, 遊戲全球購 - 買 GAME2](https://buygame2.com/zh-hk/product-list?search_input_product_type=290&search_input_product_name=)
+[SWITCH 游戲 - directbuyhk](https://www.directbuyhk.com/categories/switch-games)
 [HKQ Gamers - Home](https://www.facebook.com/hkqgamers)
-[Game_Box - 香港格價網 Price.com.hk](https://www.price.com.hk/starshop.php?s=5766&c=100277)
+[Game_Box - 香港格價網 Price.com.hk](https://www.price.com.hk/page/5766/) 屯門青山坊 cheap and mail delivery
+[Dreamstore - 香港格價網 Price.com.hk](https://www.price.com.hk/page/6367) 灣仔東方 188
+[SweetyMagic](https://www.sweetymagic.com/) 觀塘駱駝漆 2 期 3 樓 Mon-Sun 12-8pm
+[More-Mall-Game - Home](https://www.facebook.com/Moremallgame/)
 
 [Nintendo Switch Pro Controller 價錢、規格及用家意見 - 香港格價網 Price.com.hk](https://www.price.com.hk/product.php?p=250138&page=1) ssp \$410
 
@@ -65,12 +85,14 @@ Video playback is blocked since 3.0.0
 [Nintendo's official website for South Africa](https://www.nintendo.co.za/) eShop South Africa (ZAR -> HKD)
 (MXN -> HKD)
 
-[Games on sale - Save Coins](https://savecoins.me/games?onSale=true)
+[限時優惠，自選兩款指定遊戲，「任天堂遊戲兌換券」期間限定發售 | 任天堂(香港)有限公司網站](https://www.nintendo.com.hk/topics/article/a_210513_01.html)
+[以優惠價格下載 2 款遊戲「任天堂遊戲兌換券」｜任天堂](https://ec.nintendo.com/HK/zh/pretickets/70020000000121) valid till 2022 年 7 月 3 日 19 點 11 分
+
 [Games on sale – Nintendo Switch eShop – Hong Kong Dollar](https://eshop-prices.com/games/on-sale?currency=HKD)
+[Deku Deals - Nintendo Switch price tracking and wishlist notifications](https://www.dekudeals.com/)
 [Sales](https://www.nintendo.com/games/game-guide?pv=true#filter/switch|-|-|-|-|-|-|-|-|true|-|-|-|-|featured|des|-|-) eShop US
 [キャンペーン・セール情報｜ Nintendo](https://www.nintendo.co.jp/software/campaign/index.html#switch) eShop JP sales
 
-[Save Coins](https://savecoins.me/)
 [All prices – Nintendo Switch eShop – Hong Kong Dollar](https://eshop-prices.com/prices?currency=HKD)
 [eShop Checker](http://eshop-checker.xyz/beta/#/)
 
@@ -83,9 +105,10 @@ Video playback is blocked since 3.0.0
 - 97116, Forest Grove, Oregon
 - 97080, Portland, Oregon \*
 
-[swish.swish.switch's items for sale on Carousell](https://carousell.com/swish.swish.switch/) @$135-$145, eShop 充值?  
-[hkgametube's items for sale on Carousell](https://carousell.com/hkgametube/?page=4) $150-$170  
-[sell_switch_games's items for sale on Carousell](https://carousell.com/sell_switch_games/) `sell_switch_games` $135-$190
+[主要遊戲列表 Switch Game List❤️CCGames 會員制服務 ❤️, Video Gaming, Video Games, Nintendo on Carousell](https://www.carousell.com.hk/p/%E4%B8%BB%E8%A6%81%E9%81%8A%E6%88%B2%E5%88%97%E8%A1%A8-switch-game-list%E2%9D%A4%EF%B8%8Fccgames%E6%9C%83%E5%93%A1%E5%88%B6%E6%9C%8D%E5%8B%99%E2%9D%A4%EF%B8%8F-1104580962/) $650 membership
+
+[官方得獎認證商店 良心小店最高評價's items for sale on Carousell](https://www.carousell.com.hk/u/ckgamestore/) ~$40
+[Game Corner 鑽石商店 Kanice's items for sale on Carousell](https://www.carousell.com.hk/u/gamecorner) ~$50
 
 [网购超值 Nintendo Wii U/3DS eShop Prepaid Card (JP)｜ SEA Gamer Mall](https://www.seagm.com/zh-tw/nintendo-wii-3ds-eshop-prepaid-card-japan)  
 [日服任天堂預付卡\_HOGAME 遊戲幣專賣店 ( 網站域名：WWW.HOGAME.HK ) 賣金幣.賣點卡.遊戲代練.遊戲產品包.港台金幣.港台點卡遊戲交易網](http://www.hogame.hk/yxdk/20141020/639.html)
@@ -100,48 +123,75 @@ Video playback is blocked since 3.0.0
 
 ### Games (wishlist)
 
-[Square Enix Octopath Traveler 八方旅人 日文版 價錢、規格及用家意見 - 香港格價網 Price.com.hk](https://www.price.com.hk/product.php?p=338108&page=1) kt 358 eshop 240/425
-
-[CAPCOM Belt Action Collection 主目錄中文版 價錢、規格及用家意見 - 香港格價網 Price.com.hk](https://www.price.com.hk/product.php?p=376891&page=1) ssp 188 eshop 120/156 steam /158
-[Switch Game capcom Belt Action Collection, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/switch-game-capcom-belt-action-collection-207906413/) 150
-
-[CAPCOM 大神 絶景版 日文版 價錢、規格及用家意見 - 香港格價網 Price.com.hk](https://www.price.com.hk/product.php?p=343862&page=1) lt 198 kt 188 ssp 180 eshop 110/156 steam 95/158
-
-Phoenix Wright: Ace Attorney Trilogy
-fanatical 188
-
-[Activition Crash Bandicoot N. Sane Trilogy 袋狼大進擊 瘋狂三部曲 價錢、規格及用家意見 - 香港格價網 Price.com.hk](https://www.price.com.hk/product.php?p=335020&page=1) ssp 188 lt 198 kt 188 eshop 183/293 steam 174/269
-[Switch 古惑狼, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/switch-%E5%8F%A4%E6%83%91%E7%8B%BC-209093274/) 180
-[Crash Bandicoot N.Sane Trilogy Nintendo Switch, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/crash-bandicoot-n-sane-trilogy-nintendo-switch-208991574/) gamesgallery 190
-
-[SteamWorld Dig 2 - Save Coins](https://savecoins.app/game/steamworld-dig-2) eshop 72/145 steam 59.5/119
-[SteamWorld Heist: Ultimate Edition - Save Coins](https://savecoins.app/game/steamworld-heist-ultimate-edition) eshop 68/145 steam 29.7/99+55DLC
-
-[Spelunker Party! - Save Coins](https://savecoins.app/game/spelunker-party) eshop 72/145
-
-[Switch Yoshi's Crafted World 耀西的手工世界 (日版), Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/switch-yoshi-s-crafted-world-%E8%80%80%E8%A5%BF%E7%9A%84%E6%89%8B%E5%B7%A5%E4%B8%96%E7%95%8C-%E6%97%A5%E7%89%88-222664767/) 320 lt 365
-[Switch 耀西的手工世界, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/switch-%E8%80%80%E8%A5%BF%E7%9A%84%E6%89%8B%E5%B7%A5%E4%B8%96%E7%95%8C-222518810/) 320
-[全新 NS 耀西的手工世界 yoshi's crafted world 亞洲版, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/%E5%85%A8%E6%96%B0-ns-%E8%80%80%E8%A5%BF%E7%9A%84%E6%89%8B%E5%B7%A5%E4%B8%96%E7%95%8C-yoshi-s-crafted-world-%E4%BA%9E%E6%B4%B2%E7%89%88-222128315/) new 335
-
-[Switch Marvel Super Heroes 2 125, Video Gaming, Video Games on Carousell](https://hk.carousell.com/p/switch-marvel-super-heroes-2-125-209059284/) 125 eshop 189/406 steam 107/429
-
-Rayman Definitive Edition
-lt 168
-
-DQ Heroes I+II
-lt 298
+[Switch Games (wishlist) - HackMD](https://hackmd.io/@leesei/r11qPzT9S)
 
 ## Guides
+
+[【天穗之咲稻姬】最强种田指南，手把手教你轻松种出全 9999 完美稻米 - YouTube](https://www.youtube.com/watch?v=X-z6XpIt_x8)
 
 ### Bloodstained: Ritual of the Night
 
 [Bloodstained: Ritual of the Night beginner’s guide - Polygon](https://www-polygon-com.cdn.ampproject.org/v/s/www.polygon.com/platform/amp/guides/2019/6/25/18715772/bloodstained-ritual-of-the-night-beginners-guide)
 
+### New Pokemon Snap
+
+[New Pokemon Snap Gameplay - YouTube](https://www.youtube.com/playlist?list=PLdtfOMa5CM3WXQnnorXLSuRN14HRm9kg_)
+[5 Secret Photo Interactions You NEED To Get! New Pokemon Snap Request Guide - YouTube](https://www.youtube.com/watch?v=6nUiXfqtoDc&list=PLdtfOMa5CM3WXQnnorXLSuRN14HRm9kg_&index=8)
+[How To Get Hidden Pokemon Interactions In New Pokemon Snap - YouTube](https://www.youtube.com/watch?v=W0bSXcfdgQg)
+[Every SECRET Shot & Interaction In Florio Nature Park Night! New Pokemon Snap Requests Guide - YouTube](https://www.youtube.com/watch?v=wy3dq9M1AE8)
+[Best 4 STAR Photos and SECRETS in New Pokémon Snap DLC! - YouTube](https://www.youtube.com/watch?v=set52jV_89E)
+
+[New Pokemon Snap Wiki Guide - IGN](https://www.ign.com/wikis/new-pokemon-snap)
+
 ### Dragon Quest
 
 [ドラゴンクエスト Encyclopedia](http://dqe.jp/index.html)
-[DRAGON QUEST XI 攻略：勇者鬥惡龍 11 陳年復活咒文　強勁主角開局｜香港 01 ｜科技玩物｜](https://www.hk01.com/科技玩物/108333/DRAGON-QUEST-XI攻略-勇者鬥惡龍11陳年復活咒文-強勁主角開局)
+[Dragon Quest Wiki | FANDOM powered by Wikia](https://dragonquest.fandom.com/wiki/Dragon_Quest_Wiki)
+[Dragon Quest Series Retrospective - YouTube](https://www.youtube.com/watch?v=mspnURxwYVQ)
+
+#### Dragon Quest XI
+
+[Dragon Quest XI - Wikiwand](https://www.wikiwand.com/en/Dragon_Quest_XI)
+[Dragon Quest XI - FrontierNav](https://frontiernav.net/explore/dragon-quest-xi)
+
+[Dragon Quest XI: The Kotaku Review - YouTube](https://www.youtube.com/watch?v=4iTbUGItU0s&t=4s)
+[Dragon Quest XI S: Definitive Edition: The Kotaku Review (S) - YouTube](https://www.youtube.com/watch?v=nw5HTmM_YyU)
+[Is Dragon Quest XI S "DEFINITIVELY" Perfect for Nintendo Switch? - YouTube](https://www.youtube.com/watch?v=1NG9bspIsMc)
 [你真的懂 DQ 么？《勇者斗恶龙 11》到底怎么能卖那么多？【GAMKER 鉴赏】 - YouTube](https://www.youtube.com/watch?v=N5-MhY3zOyY)
+
+[DRAGON QUEST XI 攻略：勇者鬥惡龍 11 陳年復活咒文　強勁主角開局｜香港 01 ｜科技玩物｜](https://www.hk01.com/科技玩物/108333/DRAGON-QUEST-XI攻略-勇者鬥惡龍11陳年復活咒文-強勁主角開局)
+[【攻略】勇者鬥惡龍 XI 追尋逝去的時光 攻略彙集 | 蝦米攻略網](https://pcucgame.com/%e5%8b%87%e8%80%85%e9%ac%a5%e6%83%a1%e9%be%8dxi-%e8%bf%bd%e5%b0%8b%e9%80%9d%e5%8e%bb%e7%9a%84%e6%99%82%e5%85%89-%e6%94%bb%e7%95%a5%e4%b8%bb%e7%9b%ae%e9%8c%84/)
+[11 Tips For Dragon Quest XI - YouTube](https://www.youtube.com/watch?v=3QBvgHTqYoE)
+[11 things I wish I'd known before starting Dragon Quest 11 | PC Gamer](https://www.pcgamer.com/11-things-i-wish-id-known-before-starting-dragon-quest-11/)
+
+[Dragon Quest XI: Echoes of an Elusive Age Wiki | Ethereal Games](https://wiki.etherealgames.com/dq11/)
+
+[Dragon Quest XI Wiki Guide - IGN](https://www.ign.com/wikis/dragon-quest-xi/)
+[Magic Key Doors - Dragon Quest XI Wiki Guide - IGN](https://www.ign.com/wikis/dragon-quest-xi/Magic_Key_Doors)
+[Recipe Books - Dragon Quest XI Wiki Guide - IGN](https://www.ign.com/wikis/dragon-quest-xi/Recipe_Books)
+
+[Dragon Quest XI: Echoes of an Elusive Age Walkthrough and Guide - Neoseeker](https://www.neoseeker.com/dragon-quest-xi/walkthrough)
+[Go Out and See the Open Sea - Dragon Quest XI: Echoes of an Elusive Age Walkthrough - Neoseeker](https://www.neoseeker.com/dragon-quest-xi/The_Wild_Blue_Yonder) islands map
+
+Tickington
+[Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition - Tickington Guide - Nintendo Switch - By DarkAncient2 - GameFAQs](https://gamefaqs.gamespot.com/switch/189709-dragon-quest-xi-s-echoes-of-an-elusive-age-definitive/faqs/78060)
+[Tickington - Dragon Quest XI: Echoes of an Elusive Age Walkthrough - Neoseeker](https://www.neoseeker.com/dragon-quest-xi/Tickington)
+
+#### Dragon Quest Builders
+
+[Dragon Quest Builders 2: Dragon Ball Animal Crossing?! - YouTube](https://www.youtube.com/watch?v=XTMhU8-nph4)
+
+[DQB2 - Every known Room Recipe - YouTube](https://www.youtube.com/watch?v=7Px8S-q1Ll0)
+[Dragon Quest Builders 2 - ALL Room Combinations | Tips & Tricks for Rooms - YouTube](https://www.youtube.com/watch?v=8fNcvKImvNA)
+[DQB 2 - How to make the most efficient Crop Fields - YouTube](https://www.youtube.com/watch?v=bJW97rpkKpY)
+[DQB2 Building Techniques - Shelf Block - YouTube](https://www.youtube.com/watch?v=y7MlofohGdE)
+[Dragon Quest Builders 2 - 12 more helpful Tips & Tricks - YouTube](https://www.youtube.com/watch?v=F1a56Pywsd4)
+[DRAGON QUEST BUILDERS 2 | FARMING GUIDE - YouTube](https://www.youtube.com/watch?v=cb7qX7S8etQ)
+
+### Octopath Traveller
+
+[Octopath Traveler: The Battle System - YouTube](https://www.youtube.com/watch?v=5OG4nNJYZeE)
+[Octopath Traveler Q&A - 45 of YOUR Questions Answered! - YouTube](https://www.youtube.com/watch?v=1LE4BLT5o9Q)
 
 ### Mario Kart 8 Deluxe
 
@@ -201,11 +251,93 @@ Vertical Jump
 [Hint Art Locations and Solutions - Super Mario Odyssey Wiki Guide - IGN](https://www.ign.com/wikis/super-mario-odyssey/Hint_Art_Locations_and_Solutions)
 [Hint Art - Super Mario Wiki, the Mario encyclopedia](https://www.mariowiki.com/Hint_Art)
 
-### Final Fantasy 7
+### 精靈寶可夢 Let's Go
 
-[Let's Mosey: A Slow Translation Of Final Fantasy VII - YouTube](https://www.youtube.com/playlist?list=PLsiJPoHlPqEEA07AKMQ2Hm2oRLiGkR_uJ)
-[post](https://kotaku.com/i-played-through-final-fantasy-vii-sixteen-times-in-the-1834007521/amp)
-[Inside FINAL FANTASY VII (Closed Captions) - YouTube](https://www.youtube.com/watch?v=jNQfY3G35y0&app=desktop)
+[全新裝置「精靈球 Plus」|遊戲| The official Pokémon Website in Taiwan](https://tw.portal-pokemon.com/special/pika_vee/tc/howtoplay/)
+[How to use the Poké Ball Plus with Pokémon: Let’s Go! and Pokémon Go - Polygon](https://www.polygon.com/platform/amp/guides/2018/11/26/18106715/poke-ball-plus-pokemon-lets-go-iphone-android-connect-buttons-lights-bluetooth-troubleshoot)
+[How to Pair Poké Ball Plus With Nintendo Switch | Support | Nintendo](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Pair-Poke-Ball-Plus-With-Nintendo-Switch-1471337.html)
+[How to transfer from Pokémon Go to Pokémon Let’s Go - Polygon](https://www.polygon.com/guides/2018/11/19/18102685/transfer-pokemon-go-pokemon-lets-go)
+
+[Pokémon Let's Go walkthrough and guide to your quest through Kanto • Eurogamer.net](https://www.eurogamer.net/articles/2019-03-08-pokemon-lets-go-walkthrough-guide-5010)
+[Pokemon Let's Go Pikachu & Eevee Tips & Tricks | Austin John Plays - YouTube](https://www.youtube.com/playlist?list=PLwGyU0mZTYHVfhN9kB3qg5UsmzxI8XABF)
+[How to Catch Articuno, Zapdos, & Moltres in Pokemon Let's Go Pikachu & Eevee - YouTube](https://www.youtube.com/watch?v=hzpRkBoxLRs)
+[How to Easy EASY EXP in Pokemon Let's Go Pikachu & Eevee - YouTube](https://www.youtube.com/watch?v=0iWJw0B1R9U) Chansey, 2nd floor of Cerulean Cave (Mewtwo's cave)
+
+[《精靈寶可夢 Lets Go！皮卡丘》 - YouTube](https://www.youtube.com/playlist?list=PLPwqd2Xvknjrd9I-wcPePDShyJVwtqgnn) 密瓜君
+
+[Shiny Pokémon - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Shiny_Pok%C3%A9mon)
+[How to get EASY SHINY POKEMON in Lets Go Pikachu & Eevee - EASY Shiny Hunting Guide - YouTube](https://www.youtube.com/watch?v=TyCRTR8IjRs)
+[Updated Shiny Combo Odds in Pokemon Let's Go Pikachu & Eevee - YouTube](https://www.youtube.com/watch?v=og7PWG6IREw)
+
+Conditions for breaking catch combo:
+
+- catching another species of Pokemon (you fleeing is okay)
+- turning game off
+- the species of Pokemon in combo chain flee (you fleeing is okay)
+
+1-10 combo: standard, 1/4096 shiny
+11-20 combos: 2 Max IVs, 1/1024 shiny
+21-30 combos: 3 Max IVs, 1/512 shiny
+31+ combos: 4 Max IVs, 1/341.3 s hiny
+
+### 寶可夢傳說 阿爾宙斯
+
+[Pokémon Legends: Arceus | Official Website | Pokémon](https://legends.pokemon.com/en-us/)
+
+[首頁 | 《寶可夢傳說 阿爾宙斯》官方網站](https://www.pokemon.co.jp/ex/legends_arceus/tc/)
+[Pokemon Legends Arceus | Austin John Plays - YouTube](https://www.youtube.com/playlist?list=PLwGyU0mZTYHW3eLd9CLFBJaZnBpvhYHzl)
+
+### Luigi Mansion 3
+
+[Luigi's Mansion 3 - IGN](https://www.ign.com/games/luigis-mansion-3)
+
+[Tips and tricks for Luigi's Mansion 3 | iMore](https://www.imore.com/tips-and-tricks-luigis-mansion-3)
+[Luigi's Mansion 3 Tips and Tricks - IGN](https://www.ign.com/articles/2019/10/28/luigis-mansion-3-tips-and-tricks)
+[Luigi's Mansion 3 - 20 Easter Eggs & Secrets! - YouTube](https://www.youtube.com/watch?v=3Io5lgcotYo&t=4s)
+
+Walkthrough
+[【LUIGI'S MANSION 3】路易吉洋樓 3 攻略：免卡關主線流程（上）](https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/393534/luigi-s-mansion-3-%E8%B7%AF%E6%98%93%E5%90%89%E6%B4%8B%E6%A8%933%E6%94%BB%E7%95%A5-%E5%85%8D%E5%8D%A1%E9%97%9C%E4%B8%BB%E7%B7%9A%E6%B5%81%E7%A8%8B-%E4%B8%8A)
+[【LUIGI'S MANSION 3】路易吉洋樓 3 攻略　免卡關主線流程(下)](https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/393774/luigi-s-mansion-3-%E8%B7%AF%E6%98%93%E5%90%89%E6%B4%8B%E6%A8%93-3-%E6%94%BB%E7%95%A5-%E5%85%8D%E5%8D%A1%E9%97%9C%E4%B8%BB%E7%B7%9A%E6%B5%81%E7%A8%8B-%E4%B8%8B)
+[Luigi's Mansion 3 Guide and Walkthrough - IGN](https://www.ign.com/articles/2019/10/28/luigis-mansion-3-guide-and-walkthrough)
+[Luigi's Mansion 3 - Boss Walkthroughs And Strategies - Guide - Nintendo Life](http://www.nintendolife.com/news/2019/10/guide_luigis_mansion_3_-_boss_walkthroughs_and_strategies)
+[Luigi's Mansion 3 - All Bosses + Secret Boss (2 Player Co-Op) - YouTube](https://www.youtube.com/watch?v=ewZEMTJpbwY)
+[Luigi's Mansion 3 - All Bosses (No Damage) - YouTube](https://www.youtube.com/watch?v=2yzRGxP4HYg)
+[Here's how to beat every boss in Luigi's Mansion 3 | iMore](https://www.imore.com/heres-how-beat-every-boss-luigis-mansion-3#egyptian)
+
+Gems
+[Luigi's Mansion 3 guide - Polygon](https://www.polygon.com/luigis-mansion-3-guide/)
+[Luigi's Mansion 3 - Gem Locations And Gem Maps For Every Floor - Guide - Nintendo Life](http://www.nintendolife.com/news/2019/10/guide_luigis_mansion_3_-_gem_lations_and_gem_maps_for_every_floor)
+[Luigi's Mansion 3 Guide: Gem Locations for Every Floor - IGN](https://www.ign.com/articles/2019/10/28/luigis-mansion-3-gem-locations)
+
+Boos
+[【LUIGI'S MANSION 3】路易吉洋樓 3 攻略　害羞幽靈攻略法](https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/394944/luigi-s-mansion-3-%E8%B7%AF%E6%98%93%E5%90%89%E6%B4%8B%E6%A8%93-3-%E6%94%BB%E7%95%A5-%E5%AE%B3%E7%BE%9E%E5%B9%BD%E9%9D%88%E6%94%BB%E7%95%A5%E6%B3%95)
+[Luigi's Mansion 3 - How To Catch Boos And Where To Find Them - Guide - Nintendo Life](http://www.nintendolife.com/news/2019/10/guide_luigis_mansion_3_-_how_to_catch_boos_and_where_to_find_them)
+[Luigi's Mansion 3 how to catch and beat Boo - YouTube](https://www.youtube.com/watch?v=j2RbndEQT6w)
+[Luigi's Mansion 3 - All Boo Locations + Reward - YouTube](https://www.youtube.com/watch?v=VIl7bp98GA4)
+
+### Mario + Rabbids Kingdom Battle
+
+TheJWittz
+[Mario + Rabbids Kingdom Battle Character Guide - YouTube](https://www.youtube.com/watch?v=aeRlCCcQJuA&t=2s)
+[Mario + Rabbids Kingdom Battle Boss Guide - YouTube](https://www.youtube.com/watch?v=axMgHGliS58)
+
+[Mario + Rabbids Kingdom Battle - YouTube](https://www.youtube.com/playlist?list=PL-7t9DoIELCS1XnOa_ImBOx1VWOv-2DTY) ZaclScottGames, commentary
+[Mario + Rabbids Kingdom Battle 100% Walkthrough - YouTube](https://www.youtube.com/playlist?list=PLYpDU5ElRBflaXlrDwIdUj2VoUzPlCa6Q) packattack04082
+[Mario + Rabbids Kingdom Battle - Donkey Kong Adventure DLC - YouTube](https://www.youtube.com/playlist?list=PLYpDU5ElRBfk4HSq7IUxfBm5bUj2qxrUX) packattack04082
+[Mario+Rabbids Kingdom Battle (+ Donkey Kong Adventure) 100% Walkthrough - YouTube](https://www.youtube.com/playlist?list=PLwIAyDbIZXVzWDH8SmORtlfV_oFQhjiN4) Cappy Games
+
+### 逆転裁判
+
+[CAPCOM：逆転裁判シリーズ 公式サイト](http://www.capcom.co.jp/game/gyakutensaiban/)
+[逆轉裁判系列 - Wikiwand](https://www.wikiwand.com/zh-hk/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97)
+[逆轉裁判 - Komica wiki](https://wiki.komica.org/%E9%80%86%E8%BD%89%E8%A3%81%E5%88%A4)
+
+[Phoenix Wright: Ace Attorney — StrategyWiki, the video game walkthrough and strategy guide wiki](https://strategywiki.org/wiki/Phoenix_Wright:_Ace_Attorney)
+[Phoenix Wright: Ace Attorney - Justice For All — StrategyWiki, the video game walkthrough and strategy guide wiki](https://strategywiki.org/wiki/Phoenix_Wright:_Ace_Attorney_-_Justice_For_All)
+[Phoenix Wright: Ace Attorney - Trials and Tribulations — StrategyWiki, the video game walkthrough and strategy guide wiki](https://strategywiki.org/wiki/Phoenix_Wright:_Ace_Attorney_-_Trials_and_Tribulations)
+
+[逆轉裁判登場人物一覽 - Komica wiki](https://wiki.komica.org/%E9%80%86%E8%BD%89%E8%A3%81%E5%88%A4%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9%E4%B8%80%E8%A6%BD)
+[逆轉裁判系列角色列表 - Wikiwand](https://www.wikiwand.com/zh-hk/%E9%80%86%E8%BD%89%E8%A3%81%E5%88%A4%E7%B3%BB%E5%88%97%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8)
 
 ## My Nintendo
 
@@ -234,12 +366,20 @@ Gold and silver points can be used to redeem games discounts and in game items.
 [Nintendo Switch Teardown - iFixit](https://www.ifixit.com/Teardown/Nintendo+Switch+Teardown/78263)
 [Mobility DisplayPort (MyDP) - definition - GSMArena.com](https://www.gsmarena.com/glossary.php3?term=mydp)
 [Nintendo Switch’s dumb dock gets beaten by hyper-portable Nyko option - Ars Technica OpenForum](https://arstechnica.com/civis/viewtopic.php?f=2&t=1389387&start=80)
+[Switch 'Boost Mode' Analysis: Is Nintendo Overclocking Switch Hardware? - YouTube](https://www.youtube.com/watch?v=gNqLJE4Z1MI) different profiles for portable mode
 
 [Choosing Your Switch Charger: Challenging Misinformation About Charging Nintendo’s Latest Console](https://medium.com/@clumsycontraria/how-to-choose-your-nintendo-switch-charger-d0ebd84afdf9)
 
-Tegra X1 (4x ARM Cortex-A57 @1GHz)
+First gen Switch:
+Tegra X1 T210 (4x ARM Cortex-A57 @1GHz)
 Maxwell GPU @384/768MHz
 4GB RAM
+
+[Switch's next Tegra X1 looks set to deliver more performance and longer battery life • Eurogamer.net](https://www.eurogamer.net/articles/digitalfoundry-2019-switch-new-tegra-x1-silicon-comes-into-focus)
+[Old vs New Switch: What Nintendo didn't tell you - YouTube](https://www.youtube.com/watch?v=dwHZ7Sz1-wY)
+Tegra X1? T214/T210N01
+
+[The Nintendo Switch’s Joy-Con drift problem, explained - The Verge](https://www.theverge.com/2019/7/22/20706144/nintendo-switch-joy-con-drift-problem-explained)
 
 ### Wifi
 
@@ -248,19 +388,31 @@ Maxwell GPU @384/768MHz
 
 ### Hacking Switch
 
+[The Ultimate Noob Guide for Hacking your Nintendo Switch — Homebrew Guide documentation](https://switch.homebrew.guide/)
+[What Can You Do With a Jailbroken Nintendo Switch in 2019? - YouTube](https://www.youtube.com/watch?v=xhq4UQgB8Sc)
+
+[media.ccc.de - Console Security - Switch](https://media.ccc.de/v/34c3-8941-console_security_-_switch)
 [fail0verflow :: ShofEL2, a Tegra X1 and Nintendo Switch exploit](https://fail0verflow.com/blog/2018/shofel2/)
 
+[【科技杂谈 40】英伟达超神助攻！SWITCH 破解界的诸神之战（上） - YouTube](https://www.youtube.com/watch?v=lZW8PEy2i8k)
+[【科技杂谈 41】黑客组织惊现无间道？SWITCH 破解界的诸神之战（下） - YouTube](https://www.youtube.com/watch?v=-3TdkGuWHrk)
+
 [Hackers seem close to publicly unlocking the Nintendo Switch | Ars Technica](https://arstechnica.com/gaming/2018/01/hackers-seem-close-to-publicly-unlocking-the-nintendo-switch/)
+[Turning the Nintendo Switch into Android’s best gaming hardware – Ars Technica](https://arstechnica.com/gadgets/2019/08/android-on-the-nintendo-switch-a-hardware-hacking-extravaganza/?amp=1)
 
 ### portable dock
 
-[包邮 JYS 正品 任天堂 switch 自制底座 NS DOCK 散热底座 改装 便携-淘宝网](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1a7dda12Fwf8l2&id=555382283160&_u=k5s0gl1865a)  
+[包邮 JYS 正品 任天堂 switch 自制底座 NS DOCK 散热底座 改装 便携-淘宝网](https://item.taobao.com/item.htm?id=555382283160&_u=k5s0gl1865a)  
 [Portable Replacement Dock Case for Nintendo Switch (only the case) - YouTube](https://www.youtube.com/watch?v=JRzlgfrupTw)  
 [Portable Replacement Dock Case for Nintendo SwitchOnly the case 2 - YouTube](https://www.youtube.com/watch?v=0Irp3d-U91g)
 
 3rd party PCB  
+[【三代升級】取代 Switch 底座! GAME'NIR 轉接充電頭 DOCK CHARGER](https://www.gamenir.com.tw/dock3)
+[GENKI Dock - 把 Switch TV 模式輕鬆放進你的口袋裡 (少量現貨) – UNWIRE STORE](https://store.unwire.hk/products/genki-dock)
+[Multifunctional Dock for Switch 一體化出電視+充電轉換器。香港插頭 ￼ 內置火牛](https://www.directbuyhk.com/products/multifunctional-dock-for-switch-%E4%B8%80%E9%AB%94%E5%8C%96%E5%87%BA%E9%9B%BB%E8%A6%96%E5%85%85%E9%9B%BB%E8%BD%89%E6%8F%9B%E5%99%A8%E3%80%82%E9%A6%99%E6%B8%AF%E6%8F%92%E9%A0%AD%EF%BF%BC-%E5%85%A7%E7%BD%AE%E7%81%AB%E7%89%9B)
+
 [酷威 COOV SH500 - 产品 - 酷威](http://www.mycoov.com/zh/Product/77.html)  
-[酷威 SH350 任天堂 Switch TV 电视底座 SH500 HDMI TYPE-C 转换器-淘宝网](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1a7dda12Fwf8l2&id=561953635459&_u=k5s0gl1f2bb)  
+[酷威 SH350 任天堂 Switch TV 电视底座 SH500 HDMI TYPE-C 转换器-淘宝网](https://item.taobao.com/item.htm?id=561953635459&_u=k5s0gl1f2bb)  
 [酷威 COOV SH500 Switch 底座 簡評 - 電玩 - Post76 影音玩樂網](https://post76.hk/thread-266261-1-1.html)
 [COOV SH500 操作視頻 - YouTube](https://www.youtube.com/watch?v=VMguMBFUZ48)
 
@@ -274,12 +426,17 @@ To use as USB adapter and charging stand:
 2. power on dock
 3. insert Switch to dock
 
+### Joycon drift
+
+[How To Fix Your Joycon Drift Permanently! - YouTube](https://www.youtube.com/watch?v=Vid8lIXmZwE)
+[Nintendo Switch: How to Fix Joy-Con Drift - YouTube](https://www.youtube.com/watch?v=zG4JQ6BPmFU)
+
 ### Amiibo
 
 NTAG215 tags  
 write once only  
 the tag lasts 10000 read  
-write with Android with NFC/3DS
+write with Android with NFC or 3DS
 
 1. Get Card UID
 2. Get Amiibo dump
@@ -288,10 +445,11 @@ write with Android with NFC/3DS
 Files:
 
 - TagMo app
-- Unfixed-info.bin
-- Locked-secret.bin
+- `unfixed-info.bin`
+- `locked-secret.bin`
 
-[Amiibo bin](https://nfc-bank.com/bins.php?categoryid=2&tabid=39)
+[Amiibo Bins - Google Drive](https://drive.google.com/drive/u/0/folders/1TCEmF5alHGCbg5gSk4qRLmJYHIzgYUJH)
+
 [amiibo life - The Unofficial amiibo Database](https://amiibo.life/) no longer provides dump
 [Character Lineup - amiibo by Nintendo](https://www.nintendo.com/amiibo/line-up)
 [AmiiboAPI - A RESTful API for Amiibo](http://www.amiiboapi.com/)
@@ -304,6 +462,8 @@ Files:
 [DIY amiibo cards | GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/diy-amiibo-cards.406978/)
 [Making Amiibo NTAG215s | GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/making-amiibo-ntag215s.413050/)
 [[HOWTO] The easy guide to making your own Amiibo clones using NTAG215 NFC stickers and an Android phone w/NFC : Amiibomb](https://www.reddit.com/r/Amiibomb/comments/5ywlol/howto_the_easy_guide_to_making_your_own_amiibo/)
+[【軟體教學】教你自製動物森友會 amiibo 卡片 | 任天堂 Nintendo amiibo 備份教學 - 嚴選好咪呀](https://goodgoods.shopping/amiibo-diy/)
+[The Beginner’s Guide to Tagmo and Powersaves for Amiibo – The Amiibo Doctor](https://amiibodoctor.com/competing-with-amiibo-the-starters-guide-to-tagmo-and-powersaves/)
 
 [FAST, CHEAP, and EASY - How to make Amiibos! - YouTube](https://www.youtube.com/watch?v=Yy34n45mzBo)
 [How To Get Free Amiibos On Nintendo Switch - YouTube](https://www.youtube.com/watch?v=OZ57VO5FIow)
@@ -338,3 +498,6 @@ locked-secret.bin (tag key)
 
 [良值游戏配件](https://mp.weixin.qq.com/s/U6SiAck0ZVVBCFNgk8vskw?ptag=17048.1.5&loginFlag=1)
 [良值产品升级文件](https://www.jiandaoyun.com/r/5a913ae2c5856f0d97b6fdd8)
+
+谷粒 Kingkong Controller
+Gamesir T4

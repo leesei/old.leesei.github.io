@@ -8,6 +8,7 @@ toc: true
 date: 2016-02-21 21:38:10
 ---
 
+[SVG Explained in 100 Seconds - YouTube](https://www.youtube.com/watch?v=emFMHH2Bfvo)
 [The ultimate guide to SVG | Webdesigner Depot](http://www.webdesignerdepot.com/2015/01/the-ultimate-guide-to-svg/)
 
 [Learn SVG](http://learnsvg.com/)
@@ -16,18 +17,29 @@ date: 2016-02-21 21:38:10
 [Scalable Vector Graphics (SVG) 1.1 (Second Edition)](https://www.w3.org/TR/SVG/Overview.html)
 [An SVG primer — Scott Murray — alignedleft](http://alignedleft.com/tutorials/d3/an-svg-primer)
 
+[SVG can do that?! (Sarah Drasner) - YouTube](https://www.youtube.com/watch?v=ADXX4fmWHbo)
+[SVG Path Builder](https://codepen.io/anthonydugois/pen/mewdyZ)
+
+[How to use SVGs ipn React - LogRocket Blog](https://blog.logrocket.com/how-to-use-svgs-in-react/)
+[SVGR - Transform SVG into React components](https://react-svgr.com/)
+[Transform an SVG into a React Component with SVGR - Bits and Pieces](https://blog.bitsrc.io/transform-an-svg-into-a-react-component-with-svgr-8d2ba10f424c)
+
 CSS Tricks:
 [A Compendium of SVG Information | CSS-Tricks](https://css-tricks.com/mega-list-svg-information/)
 [Using SVG | CSS-Tricks](https://css-tricks.com/using-svg/)
 [How to Scale SVG | CSS-Tricks](https://css-tricks.com/scale-svg/)
 [Transforms on SVG Elements | CSS-Tricks](https://css-tricks.com/transforms-on-svg-elements/)
 [5 Gotchas You're Gonna Face Getting Inline SVG Into Production | CSS-Tricks](https://css-tricks.com/gotchas-on-getting-svg-into-production/)
+[Masking vs. Clipping: When to Use Each | CSS-Tricks](https://css-tricks.com/masking-vs-clipping-use/)
+[A Trick That Makes Drawing SVG Lines Way Easier | CSS-Tricks](https://css-tricks.com/a-trick-that-makes-drawing-svg-lines-way-easier/)
 
 [SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG)
 [SVG Tutorial - SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 [SVG Attribute reference - SVG | MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)
 
 [Test Scaling Of SVG Images In Fluid Layouts](http://codepen.io/tomByrer/pen/qEBbzw?editors=110) test browser behaviour
+
+[Embedding SVG code into React - Level Up Coding](https://levelup.gitconnected.com/embedding-svg-code-into-react-2bcca190987a)
 
 [SVG Authoring Guidelines](https://jwatt.org/svg/authoring/)
 [SVG Tutorial](http://tutorials.jenkov.com/svg/index.html)
@@ -78,6 +90,7 @@ Sara Soueidan:
 [Use SVG for icons | Web Fundamentals - Google Developers](https://developers.google.com/web/fundamentals/design-and-ui/media/images/use-icons?hl=en)
 [Inline SVG with the 'use' element - JH](http://wearejh.com/design/inline-svg-use-element/)
 [SVG Icons FTW](http://tympanus.net/codrops/2013/11/27/svg-icons-ftw/)
+[Which SVG technique performs best for way too many icons? - Cloud Four](https://cloudfour.com/thinks/svg-icon-stress-test/)
 
 [The SVG Font Machine | Glyphter](https://glyphter.com/)
 [edenspiekermann/sprite.sh: A Bash script to build a SVG sprite from a folder of SVG files (typically icons).](https://github.com/edenspiekermann/sprite.sh)
@@ -166,7 +179,7 @@ svg.js is very small (< 20kB)
 
 [Drawing SVG](http://www.drawsvg.org/) The free online drawing application for designers and developers fully standard compliant SVG
 
-## Animation
+## Animations
 
 [Shape Morphing Talk at BrookylnJS by chriscoyier](http://slides.com/chriscoyier/gettin-weird-with-shape-morphing-5#/)
 

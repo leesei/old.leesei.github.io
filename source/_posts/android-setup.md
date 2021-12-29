@@ -2,11 +2,11 @@
 title: "Android setup"
 date: 2015-01-13 13:09:32
 categories:
-- android
+  - android
 tags:
-- linux
-- adb
-- settings
+  - linux
+  - adb
+  - settings
 toc: true
 ---
 
@@ -71,6 +71,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="18d1",ATTR{idProduct}=="0003",SYMLINK+="andro
 SUBSYSTEM=="usb", ATTR{idVendor}=="2207", MODE="0666", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}=="2207",ATTR{idProduct}=="0010",SYMLINK+="android_adb"
 ```
+
 > make sure your user is in group `plugdev`
 
 ```sh
@@ -88,8 +89,7 @@ http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-p
 
 ## MTP
 
-> http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html
-> http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access
+> http://open-rotorman.blogspot.com/2013/07/samsung-galaxy-s2-usb.html > http://www.omgubuntu.co.uk/2011/12/how-to-connect-your-android-ice-cream-sandwich-phone-to-ubuntu-for-file-access
 > see `/etc/udev/rules.d/` and `/lib/udev/rules.d/`
 
 Add `51-android-mtp.rule` to `/etc/udev/rules.d`: (not working)

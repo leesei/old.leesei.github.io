@@ -5,8 +5,8 @@ categories:
 toc: true
 date: 2015-07-26 15:53:25
 tags:
-- vps
-- digital-ocean
+  - vps
+  - digital-ocean
 ---
 
 > see `aws.md#ec2`

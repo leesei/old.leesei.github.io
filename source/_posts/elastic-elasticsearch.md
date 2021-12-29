@@ -34,6 +34,7 @@ tags:
 [Elasticsearch by Example: Part 5 – codeburst](https://codeburst.io/elasticsearch-by-example-part-5-6495f69f3797)
 
 [Get data from Elasticsearch by id using http from @wfbutton on @eggheadio](https://egghead.io/courses/get-started-with-elasticsearch)
+[Using Elasticsearch as the Primary Data Store](https://vlkan.com/blog/post/2018/11/14/elasticsearch-primary-data-store/)
 [rekibnikufesin/elasticsearch-intro](https://github.com/rekibnikufesin/elasticsearch-intro)
 [dwyl/learn-elasticsearch: Learn how to use ElasticSearch to power a great search experience for your project/product/website.](https://github.com/dwyl/learn-elasticsearch)
 
@@ -158,6 +159,7 @@ Elasticsearch creates 5 shards per index by default.
 
 [index template](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html) to control how the daily index is generated
 Mapping will be generated dynamically but it:
+
 - may detect field types incorrectly
 - produce duplicate fields ([`_source`](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-source-field.html) and [`_all`](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-all-field.html)
 - always use [standard analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html) which tokenizes strings
@@ -197,7 +199,7 @@ Elastic search gained the power to ingest logs in 5.0. Consider it a little cous
 [All About Analyzers, Part One | Elastic](https://www.elastic.co/blog/found-text-analysis-part-1)
 [All About Analyzers, Part Two | Elastic](https://www.elastic.co/blog/found-text-analysis-part-2)
 
-*Match query* also went through [standard analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html) and *term query* looks for exact match.
+_Match query_ also went through [standard analyzer](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-standard-analyzer.html) and _term query_ looks for exact match.
 
 ### Query
 
@@ -218,6 +220,7 @@ Elasticsearch is powered by Apache Lucene query language.
 [Monitoring the Search Queries | Elastic](https://www.elastic.co/blog/monitoring-the-search-queries) monitoring production Elasticsearch with Packetbeats
 
 [Elasticsearch.pm - Part 4: Querying and Search Options](https://www.compose.com/articles/elasticsearch-pm-part-4-querying-and-search-options/)
+
 > set `explain` to `true` on search object
 
 #### SQL

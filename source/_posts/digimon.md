@@ -10,6 +10,11 @@ date: 2016-03-19 16:34:00
 
 I only follow Digimon Adventure, Digimon Adventure 02, Digimon Data Squad (05), Digimon Adventure tri.
 
+[【SHINN 聊數碼】 - YouTube](https://www.youtube.com/playlist?list=PLSJJe1V0GHK5LM320dS3jdJl7jDmUhZ_G)
+[【SHINN 聊數碼】數碼寶貝動畫全系列看點整理！一起來探討每部的主題吧 - YouTube](https://www.youtube.com/watch?v=rWxZGxbe6zk)
+[【SHINN 聊數碼】數碼寶貝界最強組織 皇家騎士 全成員介紹及冷知識 網路偵探 - YouTube](https://www.youtube.com/watch?v=rI0Dk1x57OY)
+[【SHINN 聊數碼】數碼寶貝世界之惡 七大魔王 全成員介紹及冷知識 網路偵探 - YouTube](https://www.youtube.com/watch?v=BYAz1sAuUWA)
+
 [デジモンアドベンチャー tri.](http://digimon-adventure.net/)
 [Digimon Videos | Billiam - YouTube](https://www.youtube.com/playlist?list=PLRSA-iHL6JaL55Heyr-lGzZWlqxgRpjDu)
 
@@ -18,7 +23,7 @@ I only follow Digimon Adventure, Digimon Adventure 02, Digimon Data Squad (05), 
 [Digimon - Wikiwand](http://www.wikiwand.com/en/Digimon)
 [List of Digimon episodes and movies - Wikiwand](http://www.wikiwand.com/en/List_of_Digimon_episodes_and_movies)
 
-[Wikimon](http://wikimon.net/Main_Page)
+[Wikimon - The #1 Digimon Wiki](https://wikimon.net/Main_Page)
 [THE DIGIMON ENCYCLOPEDIA](http://digipedia.db-destiny.net/)
 
 [Digimon: The Movie - Wikiwand](http://www.wikiwand.com/en/Digimon:_The_Movie)
@@ -26,19 +31,21 @@ I only follow Digimon Adventure, Digimon Adventure 02, Digimon Data Squad (05), 
 [Digimon Adventure 02 - Wikiwand](http://www.wikiwand.com/en/Digimon_Adventure_02)
 [Digimon Data Squad - Wikiwand](http://www.wikiwand.com/en/Digimon_Data_Squad)
 [Digimon Adventure tri. - Wikiwand](http://www.wikiwand.com/en/Digimon_Adventure_tri.)
+[Digimon Adventure (2020 TV series) - Wikiwand](<https://www.wikiwand.com/en/Digimon_Adventure_(2020_TV_series)>) reboot of the first series
 
-[Digimon Wiki - Wikia](http://digimon.wikia.com/wiki/Digimon_Wiki)
-[Digimon Adventure - DigimonWiki - Wikia](http://digimon.wikia.com/wiki/Digimon_Adventure)
-[Digimon Adventure 02 - DigimonWiki - Wikia](http://digimon.wikia.com/wiki/Digimon_Adventure_02)
-[Digimon Data Squad - DigimonWiki - Wikia](http://digimon.wikia.com/wiki/Digimon_Data_Squad)
-[Digimon Adventure tri. - DigimonWiki - Wikia](http://digimon.wikia.com/wiki/Digimon_Adventure_tri.)
+[Digimon Wiki - Wikia](http://digimon.fandom.com/wiki/Digimon_Wiki)
+[Digimon Adventure | DigimonWiki | Fandom](http://digimon.fandom.com/wiki/Digimon_Adventure)
+[Digimon Adventure 02 | DigimonWiki | Fandom](http://digimon.fandom.com/wiki/Digimon_Adventure_02)
+[Digimon Data Squad | DigimonWiki | Fandom](http://digimon.fandom.com/wiki/Digimon_Data_Squad)
+[Digimon Adventure tri. | DigimonWiki | Fandom](https://digimon.fandom.com/wiki/Digimon_Adventure_tri.)
+[Digimon Adventure: | DigimonWiki | Fandom](https://digimon.fandom.com/wiki/Digimon_Adventure:)
 
-[List of characters in Digimon Adventure - DigimonWiki - Wikia](http://digimon.wikia.com/wiki/Andromon_%28Adventure%29)
+[List of characters in Digimon Adventure | DigimonWiki | FANDOM powered by Wikia](https://digimon.fandom.com/wiki/List_of_characters_in_Digimon_Adventure)
 [数码宝贝大冒险角色列表 - Wikiwand](http://www.wikiwand.com/zh/数码宝贝大冒险角色列表)
 
 ## Digivolution
 
-[Digivolution - Digimon Wiki: Go on an adventure to tame the frontier and save the fused world! - Wikia](http://digimon.wikia.com/wiki/Digivolution)
+[Digivolution | DigimonWiki | FANDOM powered by Wikia](https://digimon.fandom.com/wiki/Digivolution)
 
 Main Digivolutionary Stages (English adaptation terms with Japanese terms in brackets):
 
@@ -56,37 +63,37 @@ Wrap Evolution: where a Digimon can reach a higher level directly bypassing any 
 Mode change: when a Digimon becomes a different version of its current species, usually with increased power
 Biomerge Digivolution: Digimon merges with its human Tamer and Wrap evolve to the Mega level (only in Digimon Tamers)
 
-***Adventure Digimons***
+**_Adventure Digimons_**
 
-| Baby II | Child | Adult | Perfect | Ultimate |
-|:---:|:---:|:---:|:---:|:---:|
-| Koromon | [Agumon][Agumon] | Greymon | SkullGreymon/MetalGreymon | WarGreymon/Omnimon |
-| Tsunomon | [Gabumon][Gabumon] | Garurumon | WereGarurumon | MetalGarurumon/Omnimon |
-| Yokomon | [Piyomon][Biyomon] | Birdramon | Garudamon | Hououmon |
-| Motimon | [Tentomon][Tentomon] | Kabuterimon | UltraKabuterimon | HerculesKabuterimon |
-| Tanemon | [Palmon][Palmon] | Togemon | Lillymon | Rosemon |
-| Bukamon | [Gomamon][Gomamon] | Ikkakumon | Zudomon | Plesiomon/Vikemon |
-| Tokomon | [Patamon][Patamon] | Angemon | MagnaAngemon (HolyAngemon) | Seraphymon |
-| Nyaromon | [Salamon][Salamon] (Tailmon) | Gatomon | Angewomon | Magnadramon/Ophanimon |
+| Baby II  |            Child             |    Adult    |          Perfect           |        Ultimate        |
+| :------: | :--------------------------: | :---------: | :------------------------: | :--------------------: |
+| Koromon  |       [Agumon][agumon]       |   Greymon   | SkullGreymon/MetalGreymon  |   WarGreymon/Omnimon   |
+| Tsunomon |      [Gabumon][gabumon]      |  Garurumon  |       WereGarurumon        | MetalGarurumon/Omnimon |
+| Yokomon  |      [Piyomon][biyomon]      |  Birdramon  |         Garudamon          |        Hououmon        |
+| Motimon  |     [Tentomon][tentomon]     | Kabuterimon |      UltraKabuterimon      |  HerculesKabuterimon   |
+| Tanemon  |       [Palmon][palmon]       |   Togemon   |          Lillymon          |        Rosemon         |
+| Bukamon  |      [Gomamon][gomamon]      |  Ikkakumon  |          Zudomon           |   Plesiomon/Vikemon    |
+| Tokomon  |      [Patamon][patamon]      |   Angemon   | MagnaAngemon (HolyAngemon) |       Seraphymon       |
+| Nyaromon | [Salamon][salamon] (Tailmon) |   Gatomon   |         Angewomon          | Magnadramon/Ophanimon  |
 
-[Agumon]: http://digimon.wikia.com/wiki/Agumon_(Adventure)
-[Gabumon]: http://digimon.wikia.com/wiki/Gabumon_(Adventure)
-[Biyomon]: http://digimon.wikia.com/wiki/Biyomon_(Adventure)
-[Tentomon]: http://digimon.wikia.com/wiki/Tentomon_(Adventure)
-[Palmon]: http://digimon.wikia.com/wiki/Palmon_(Adventure)
-[Gomamon]: http://digimon.wikia.com/wiki/Gomamon_(Adventure)
-[Patamon]: http://digimon.wikia.com/wiki/Patamon_(Adventure)
-[Salamon]: http://digimon.wikia.com/wiki/Salamon_(Adventure)
+[agumon]: http://digimon.fandom.com/wiki/Agumon_(Adventure)
+[gabumon]: http://digimon.fandom.com/wiki/Gabumon_(Adventure)
+[biyomon]: http://digimon.fandom.com/wiki/Biyomon_(Adventure)
+[tentomon]: http://digimon.fandom.com/wiki/Tentomon_(Adventure)
+[palmon]: http://digimon.fandom.com/wiki/Palmon_(Adventure)
+[gomamon]: http://digimon.fandom.com/wiki/Gomamon_(Adventure)
+[patamon]: http://digimon.fandom.com/wiki/Patamon_(Adventure)
+[salamon]: http://digimon.fandom.com/wiki/Salamon_(Adventure)
 
-***Adventure 02 Digimons***
+**_Adventure 02 Digimons_**
 
-| In-Training | Rookie | Champion | Ultimate | Mega |
-|:---:|:---:|:---:|:---:|:---:|
-| DemiVeemon | [Veemon][Veemon] | ExVeemon | Paildramon (Jogres) | Imperialdramon (Jogres) |
-| Minomon | [Wormmon][Wormmon] | Stingmon | Dinobeemon/Paildramon (Jogres) | GranKuwagamon/Imperialdramon (Jogres) |
+| In-Training |       Rookie       | Champion |            Ultimate            |                 Mega                  |
+| :---------: | :----------------: | :------: | :----------------------------: | :-----------------------------------: |
+| DemiVeemon  |  [Veemon][veemon]  | ExVeemon |      Paildramon (Jogres)       |        Imperialdramon (Jogres)        |
+|   Minomon   | [Wormmon][wormmon] | Stingmon | Dinobeemon/Paildramon (Jogres) | GranKuwagamon/Imperialdramon (Jogres) |
 
-[Veemon]: http://digimon.wikia.com/wiki/Veemon_(Adventure)
-[Wormmon]: http://digimon.wikia.com/wiki/Wormmon_(Adventure)
+[veemon]: http://digimon.fandom.com/wiki/Veemon_(Adventure)
+[wormmon]: http://digimon.fandom.com/wiki/Wormmon_(Adventure)
 
 ## Reference
 
@@ -94,15 +101,15 @@ Biomerge Digivolution: Digimon merges with its human Tamer and Wrap evolve to th
 [数码兽中文数据库 - 数码兽图鉴](http://digimons.net/digimon/index.html)
 [デジモン図鑑（五十音順）｜デジモンオフィシャルポータルサイト デジモンウェブ](http://digimon.net/reference/)
 [デジモン図鑑（進化表順）｜デジモンオフィシャルポータルサイト デジモンウェブ](http://digimon.net/reference/evolution.php#reference_child2)
-[【 數碼暴龍圖鑑 】希望可以幫助到大家 ^^ p.s. K-one萬歲 ! - 數碼暴龍 - 2000FUN論壇](http://www.2000fun.com/thread-5501616-1-1.html)
+[【 數碼暴龍圖鑑 】希望可以幫助到大家 ^^ p.s. K-one 萬歲 ! - 數碼暴龍 - 2000FUN 論壇](http://www.2000fun.com/thread-5501616-1-1.html)
 
-[【帥狗Der日系作品】 - YouTube](https://www.youtube.com/playlist?list=PLSYYuRn7FAnVrTgczBBUmPXoUTNgkBpqf)
+[【帥狗 Der 日系作品】 - YouTube](https://www.youtube.com/playlist?list=PLSYYuRn7FAnVrTgczBBUmPXoUTNgkBpqf)
 
-## TV 
+## TV
 
 [デジモンアドベンチャー - YouTube](https://www.youtube.com/playlist?list=PLlxr5GQ4O2arXWWA2QG1a9zp1HxCO55hw)
 [デジモンアドベンチャー０２ - YouTube](https://www.youtube.com/playlist?list=PLlxr5GQ4O2aq-1K0-G0oATY1dsNmSgxCz)
-[デジモンアドベンチャー０5 Digimon Adventure Season 5 Full HD - YouTube](https://www.youtube.com/playlist?list=PL63_uY8YsnBR64qR85D8QMmZ5kvtSPu3i)
+[デジモンアドベンチャー０ 5 Digimon Adventure Season 5 Full HD - YouTube](https://www.youtube.com/playlist?list=PL63_uY8YsnBR64qR85D8QMmZ5kvtSPu3i)
 
 [Digimon Adventure tri. Opening ~ Butter-Fly [Full Version][Kōji Wada] - YouTube](https://www.youtube.com/watch?v=Ge6ky3w-eLM)
 [Brave Heart~ tri.Version~ OFICIAL FULL VERSION (Digimon Adventure Tri) - YouTube](https://www.youtube.com/watch?v=23LpAs1Wfeg)
@@ -124,25 +131,35 @@ youtube-dl.py -f 43 https://www.youtube.com/playlist?list=PL63_uY8YsnBR64qR85D8Q
 
 [Digimon Movies - YouTube](https://www.youtube.com/playlist?list=PLtsnHpgxIWFmHz4BC1XDPaZ4I-HWAhO65)
 
-["デジモンアドベンチャ"ー ["Digimon Adventure: The Movie" (1999) HD] Bluray - 1080p Eng/Esp Subs - YouTube](https://www.youtube.com/watch?v=D5ewqknP3Co) *
+["デジモンアドベンチャ"ー ["Digimon Adventure: The Movie" (1999) HD] Bluray - 1080p Eng/Esp Subs - YouTube](https://www.youtube.com/watch?v=D5ewqknP3Co) \*
 
-[Digimon Movie 2 Our War Game (English Subbed) - YouTube](https://www.youtube.com/watch?v=yzjtK_Owx-M) 360p *
+[Digimon Movie 2 Our War Game (English Subbed) - YouTube](https://www.youtube.com/watch?v=yzjtK_Owx-M) 360p \*
 [數碼寶貝電影版 我們的戰爭遊戲(日語發音 中文字幕) - YouTube](https://www.youtube.com/watch?v=I43H-NxNgeo) 240p
 
-[Digimon Movie 3: Hurricane Touchdown! - Eng Sub - YouTube](https://www.youtube.com/watch?v=CBCZu27gLKw) * 360p
+[Digimon Movie 3: Hurricane Touchdown! - Eng Sub - YouTube](https://www.youtube.com/watch?v=CBCZu27gLKw) \* 360p
 [DIGIMON ADVENTURE 02 OVA 1 Hurricane Touchdown! Supreme Evolution! The Golden Digimentals - YouTube](https://www.youtube.com/watch?v=QEx1d2DjlcY) Spanish sub
 [Digimon Movie 03 - Hurricane Touchdown!! Supreme Evolution!! The Golden Digimentals (Blu-ray 1080p) - YouTube](https://www.youtube.com/watch?v=zxsAyGYMTjM) eng dub
 
-[デジモンアドベンチャー02 ディアボロモンの逆襲 - YouTube](https://www.youtube.com/watch?v=JQpt4q3EYug) 240p *
-[數碼暴龍02大電影 超惡魔獸的反擊(粵語) - YouTube](https://www.youtube.com/watch?v=unNxaYQVPLU) 240p
+[デジモンアドベンチャー 02 ディアボロモンの逆襲 - YouTube](https://www.youtube.com/watch?v=JQpt4q3EYug) 240p \*
+[數碼暴龍 02 大電影 超惡魔獸的反擊(粵語) - YouTube](https://www.youtube.com/watch?v=unNxaYQVPLU) 240p
 [Digimon Movie 2 - Revenge of Diaboromon HD Remastered - YouTube](https://www.youtube.com/watch?v=7j3Q5be4Kjo) eng dub
 
-[Digimon X-Evolution - YouTube](https://www.youtube.com/watch?v=AYliu3-WoyE) *
-[Digimon Movie 8 Digimon X Evolution - YouTube](https://www.youtube.com/watch?v=gxKChcTsnfI) eng sub, 240p 
+[Digimon X-Evolution - YouTube](https://www.youtube.com/watch?v=AYliu3-WoyE) \*
+[Digimon Movie 8 Digimon X Evolution - YouTube](https://www.youtube.com/watch?v=gxKChcTsnfI) eng sub, 240p
 [數碼暴龍大電影-第十三位皇家騎士 - YouTube](https://www.youtube.com/watch?v=-dDM-G08310) X-Evolution, chi sub
 
-["デジモンセイバーズ: 映画!!" - ["Digimon Savers: UP! BMI!! (Film)" (2006) HD 1080p] Bluray - 1080p Eng/Esp Subs - YouTube](https://www.youtube.com/watch?v=uKjkm17PmXk) *
+["デジモンセイバーズ: 映画!!" - ["Digimon Savers: UP! BMI!! (Film)" (2006) HD 1080p] Bluray - 1080p Eng/Esp Subs - YouTube](https://www.youtube.com/watch?v=uKjkm17PmXk) \*
 
-## Songs
+[數碼寶貝 LAST EVOLUTION 絆 觀後感 童年完美句點 說神作都還太保守【SHINN 聊數碼】 - YouTube](https://www.youtube.com/watch?v=JZ5JxNg0cJM)
+
+## Theme Songs
 
 [Digimon Adventure Tri. OST - YouTube](https://www.youtube.com/playlist?list=PLXuCHW01HeL7GmdDVDi9ctK1DwAuJaafl)
+
+[OPENING DIGIMON ALL CAST VERSION「Butterfly」Full - YouTube](https://www.youtube.com/watch?v=tSLDC75BEpQ)
+[Main Theme Digimon Adventure: Last Evolution Kizuna 「 Butterfly Last Ver 」 by Koji Wada - YouTube](https://www.youtube.com/watch?v=xp2BFVP4e9Q)
+
+[Brave Heart - Digimon Digitation Song [Piano] - YouTube](https://www.youtube.com/watch?v=YsTGTwqNfsQ)
+[Butterfly - Digimon OP [Piano] - YouTube](https://www.youtube.com/watch?v=woktSuBWR3U)
+[《Butterfly》Digimon 01 OP 數碼暴龍 01 主題曲 Cover ｜麗英 LaiYing - YouTube](https://www.youtube.com/watch?v=PajZWuEoup0)
+[Digimon Adventure OP「Butter-Fly」Lyrical Version | Ru's Piano Cover - YouTube](https://www.youtube.com/watch?v=aeN4VtW8szw)

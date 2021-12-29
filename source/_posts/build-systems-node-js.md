@@ -12,8 +12,7 @@ date: 2015-06-11 15:54:08
 
 > see `javascript-pipeline.md`, `css-pipeline.md`
 
-> TODO: add `~/web/nodejs/build`
-[Jake: JavaScript build tool task runner for NodeJS](http://jakejs.com/)
+> TODO: add `~/web/nodejs/build` > [Jake: JavaScript build tool task runner for NodeJS](http://jakejs.com/)
 
 ## Source map
 
@@ -78,7 +77,7 @@ Metalsmith was advertised as a static site generator, but the pipeline and plugi
 
 [Grunt: The JavaScript Task Runner](http://gruntjs.com/)
 [Plugins - Grunt: The JavaScript Task Runner](http://gruntjs.com/plugins)
-[Grunt Tips and Tricks](https://ponyfoo.com/articles/grunt-tips-and-tricks) 
+[Grunt Tips and Tricks](https://ponyfoo.com/articles/grunt-tips-and-tricks)
 
 [bahmutov/grunty](https://github.com/bahmutov/grunty) Run any grunt plugin as NPM script without Gruntfile.js
 

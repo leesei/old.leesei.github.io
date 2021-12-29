@@ -2,11 +2,11 @@
 title: "Android content command"
 date: 2015-01-13 13:02:49
 categories:
-- android
+  - android
 tags:
-- shell-tool
-- content
-- settings
+  - shell-tool
+  - content
+  - settings
 toc: true
 ---
 

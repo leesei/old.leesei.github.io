@@ -50,6 +50,17 @@ no* , off , 0 , false
 * recommended
 ```
 
+Using Python 3:
+
+```
+[webserver]
+SERVER_IP
+SERVER2_IP
+
+[webserver:vars]
+ansible_python_interpreter=/usr/bin/python3
+```
+
 ## Blog
 
 [Ansible | Best practices, tips and more](https://ansiblemaster.wordpress.com/)
@@ -68,6 +79,10 @@ no* , off , 0 , false
 [Ansible 101 — Medium](https://medium.com/@denot/ansible-101-d6dc9f86df0a#.1ojrwyk0w)
 [Ansible 101 | zaiste.net](http://zaiste.net/2014/05/ansible_101/)
 [Configuration Management 101: Writing Ansible Playbooks | DigitalOcean](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
+
+Jeff Geerling
+[Ansible 101 - YouTube](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
+[Ansible - YouTube](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG)
 
 [Ansible 2.0 & Beyond - YouTube](https://www.youtube.com/watch?v=sy8i4VXIVEE)
 [V2 and beyond](http://www.slideshare.net/jimi-c/v2-and-beyond)
@@ -141,7 +156,6 @@ Accelerated: temporary daemon will be created that only allows connections only 
 [List of Builtin Filters](http://jinja.pocoo.org/docs/dev/templates/#builtin-filters)
 [Simplifying JSON Response Mocks With Jinja - sasheldon.com](http://sasheldon.com/blog/2013/12/14/simplifying-json-response-mocks-with-jinja/)
 
-[Jinja2 for better Ansible playbooks and templates - codecentric Blog : codecentric Blog](https://blog.codecentric.de/en/2014/08/jinja2-better-ansible-playbooks-templates/)
 [[Howto] Introduction to Ansible variables – /home/liquidat](https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/)
 
 ## Fact
@@ -151,7 +165,7 @@ Accelerated: temporary daemon will be created that only allows connections only 
 You can use `set_fact` to dynamically create variables:
 
 ```yml
-- set_fact: 
+- set_fact:
     myvar: "{{ result.stdout | from_json }}"
 ```
 
@@ -187,10 +201,6 @@ Handlers are tasks that can be run once after tasks.
 [Jinja2: lstrip_blocks to manage indentation | Ansible](https://ansiblemaster.wordpress.com/2016/07/29/jinja2-lstrip_blocks-to-manage-indentation/)
 [Jinja2 for better Ansible playbooks and templates - codecentric Blog : codecentric Blog](https://blog.codecentric.de/en/2014/08/jinja2-better-ansible-playbooks-templates/)
 
-## Docker
-
-[Managing Docker Containers with Ansible - Linux Academy](https://linuxacademy.com/cp/socialize/index/type/community_post/id/13750)
-
 ## Alternatives
 
 [pstadler/flightplan: Run sequences of shell commands against local and remote hosts.](https://github.com/pstadler/flightplan)
@@ -217,10 +227,10 @@ parallel-ssh -h pssh-hosts -A -P -I < pssh-command
 ## unsorted notes
 
 Play
-  target
-  vars
-  handlers
-  tasks
+target
+vars
+handlers
+tasks
 
 Variable hierarchy
 inventory
@@ -230,7 +240,7 @@ module facts
 
 directive
 vars, vars_files, vars_prompt
-module 
+module
 local_action
 script
 
@@ -249,6 +259,7 @@ Point of entry: `meta/main.yml`
 Can declare dependency for other roles here.
 
 The easiest way to create a role is with `ansible-galaxy`:
+
 ```sh
 ansible-galaxy init <role>
 ```
@@ -290,7 +301,8 @@ ansible-galaxy init <role>
 
 [Container Management with Ansible](https://www.ansible.com/containers)
 [5 Reasons We Started the Ansible Container Project](https://www.ansible.com/blog/ansible-container-project)
-[Announcing Ansible Container 0.9](https://www.ansible.com/blog/ansible-container-0-9) 
+[Announcing Ansible Container 0.9](https://www.ansible.com/blog/ansible-container-0-9)
+
 > 0.9 revamped the commands and internal
 
 [Ansible Container - Container Automation with Ansible](https://www.ansible.com/ansible-container)
@@ -358,7 +370,7 @@ pipelining = True
 [Testing Ansible Roles with Docker](https://www.ansible.com/blog/testing-ansible-roles-with-docker)
 [Six Ways Ansible Makes Docker-Compose Better](https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better)
 [How Ansible and Docker Fit: Using Ansible to Bootstrap and Coordinate Docker Containers - DZone DevOps](https://dzone.com/articles/how-ansible-and-docker-fit)
-[Managing Docker Containers with Ansible](https://linuxacademy.com/howtoguides/posts/show/topic/13750-managing-docker-containers-with-ansible)
+[Managing Docker containers using Ansible | Axelerant](https://www.axelerant.com/blog/managing-docker-containers-using-ansible)
 
 ['ansible docker' on SlideShare](http://www.slideshare.net/search/slideshow?searchfrom=header&q=ansible+docker)
 
@@ -379,8 +391,7 @@ Ansible + Nagios/Monit + Collectd = EPIC WIN
 [Make Your Life Easier by Creating Utilities and Delegating Playbooks](https://www.ansible.com/blog/make-your-life-easier-by-creating-utilities-and-delegating-playbooks)
 
 [Outage Recovery With Ansible](http://devnull.guru/outage-recovery-ansible/)
-[A Shiny New Way to Manage VMware Guests](https://www.ansible.com/blog/managing
--vmware-guests)
+[A Shiny New Way to Manage VMware Guests](https://www.ansible.com/blog/managing-vmware-guests)
 
 [Graduating Past Playbooks](https://nylas.com/blog/graduating-past-playbooks)
 [reinteractive | Blog | Ansible (Real Life) Good Practices](https://reinteractive.com/posts/167-ansible-real-life-good-practices)
@@ -426,7 +437,7 @@ ansible-playbook PLAYBOOK -i HOSTS --user root --ask-pass
 ```
 
 ```yaml
-- hosts: all    
+- hosts: all
    user: root   # server user
    sudo: yes    # is it super user
 - name: With module and args as keys
@@ -440,8 +451,8 @@ ansible-playbook PLAYBOOK -i HOSTS --user root --ask-pass
     - vim
 - name: With action YAML multiline
   action: apt >
-    pkg={{ item }} 
-    state=installed 
+    pkg={{ item }}
+    state=installed
     update-cache=yes
   with_items:
     - python-dev
@@ -465,7 +476,7 @@ ansible-playbook PLAYBOOK -i HOSTS --user root --ask-pass
 
 Pretask
 Ad hoc command
-Apt cache valid time 
+Apt cache valid time
 --force-handlers
 Mywiki.Wooldridge.org/dotfiles
 Magic variable
@@ -498,5 +509,5 @@ www.sudo.ws
 
 267 vagrant
 Vagrant commands except init expects a vagrantfile in the current folder
-Up, halt, suspend, ssh, sshconfig 
+Up, halt, suspend, ssh, sshconfig
 current folder is mapped to /vagrant

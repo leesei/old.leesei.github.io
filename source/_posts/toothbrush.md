@@ -24,7 +24,7 @@ date: 2019-04-24 13:06:02
 [How to Brush Your Teeth Properly Step by Step - Dentistry Blogger](https://www.dentistryblogger.com/how-to-brush-your-teeth-properly/)
 
 Bass method works better for the rotational head of Oral-B.
-[你真的會刷牙嗎？BASS刷牙法 - 每日頭條](https://kknews.cc/zh-hk/health/zlq95p.html)
+[你真的會刷牙嗎？BASS 刷牙法 - 每日頭條](https://kknews.cc/zh-hk/health/zlq95p.html)
 [巴氏刷牙法 字幕加长版 - YouTube](https://www.youtube.com/watch?v=UKbBToTLNSA)
 [貝氏刷牙法動畫(幼兒版) - YouTube](https://www.youtube.com/watch?v=Hm8PpwYaT5U)
 

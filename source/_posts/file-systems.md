@@ -12,7 +12,7 @@ toc: true
 [File system - Wikiwand](http://www.wikiwand.com/en/File_system)
 [List of file systems - Wikiwand](https://www.wikiwand.com/en/List_of_file_systems)
 
-[Part I. File Systems](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/part-file-systems.html)
+[Part I. File Systems](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/part-file-systems.html)
 [Virtual filesystems: Why we need them and how they work | Opensource.com](https://opensource.com/article/19/3/virtual-filesystems-linux)
 
 > see `distributed-file-systems.md`
@@ -34,13 +34,11 @@ toc: true
 [marook/tagfs](https://github.com/marook/tagfs)
 [NHFS - Nonhierarchical File System - 0815 Blog](https://rffr.de/nhfs-nonhierarchical-file-system/)
 
-[The Smorgasbord of Linux File Systems, Part One: The Extended Family | Learning Tree Blog](https://blog.learningtree.com/the-smorgasbord-of-linux-file-systems-part-one-the-extended-family/)
-[Linux File Systems Part Two: The XFS File System | Learning Tree Blog](https://blog.learningtree.com/linux-file-systems-part-two-the-xfs-file-system/)
-[Linux File Systems: Heading Toward Btrfs | Learning Tree Blog](https://blog.learningtree.com/linux-file-systems-heading-toward-btrfs/)
-
 [Why Do Removable Drives Still Use FAT32 Instead of NTFS?](https://www.howtogeek.com/177529/htg-explains-why-are-removable-drives-still-using-fat32-instead-of-ntfs/)
 
 ### Comparison
+
+[How to Choose Your Red Hat Enterprise Linux File System - Red Hat Customer Portal](https://access.redhat.com/articles/3129891)
 
 [Linux 4.0 Hard Drive Comparison With EXT4 / Btrfs / XFS / NTFS / NILFS2 / ReiserFS - Phoronix](http://www.phoronix.com/scan.php?page=article&item=linux-40-hdd&num=1)
 [Linux 4.4 To 4.7 - EXT4 vs. F2FS vs. Btrfs Benchmarks - Phoronix](http://www.phoronix.com/scan.php?page=article&item=linux-44-47-fs&num=1)
@@ -48,7 +46,14 @@ toc: true
 [Review EXT4 vs. Btrfs vs. XFS | Unixmen](http://www.unixmen.com/review-ext4-vs-btrfs-vs-xfs/)
 [XFS vs ZFS | [H]ard|Forum](https://hardforum.com/threads/xfs-vs-zfs.1593111/)
 [ZFS, BTRFS, XFS, EXT4 and LVM with KVM – a storage performance comparison](http://www.ilsistemista.net/index.php/virtualization/47-zfs-btrfs-xfs-ext4-and-lvm-with-kvm-a-storage-performance-comparison.html)
-[XFS vs EXT4 – Comparing MongoDB Performance on AWS EC2](https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/) XFS is useful on high end systems with high speed disks
+[XFS vs EXT4 – Comparing MongoDB Performance on AWS EC2](https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/) XFS is useful on high end systems with high bandwidth and concurrency
+[Ext4 vs XFS - Which one to choose? | ComputingForGeeks](https://computingforgeeks.com/ext4-vs-xfs-complete-comparison/)
+
+### ext
+
+[The Smorgasbord of Linux File Systems, Part One: The Extended Family | Learning Tree Blog](https://blog.learningtree.com/the-smorgasbord-of-linux-file-systems-part-one-the-extended-family/)
+
+[NYLUG Presents: Ted Ts'o on the ext4 Filesystem (Jan 10, 2013) (HD) - YouTube](https://www.youtube.com/watch?v=2mYDFr5T4tY)
 
 ### bcachefs
 
@@ -56,7 +61,9 @@ toc: true
 [bcache - Wikiwand](https://www.wikiwand.com/en/Bcache)
 [Bcachefs](https://bcache.evilpiepirate.org/Bcachefs/)
 
+[Linux File Systems: Heading Toward Btrfs | Learning Tree Blog](https://blog.learningtree.com/linux-file-systems-heading-toward-btrfs/)
 [Kent Overstreet is creating bcachefs - a next generation Linux filesystem | Patreon](https://www.patreon.com/bcachefs)
+[Getting started with btrfs for Linux | Opensource.com](https://opensource.com/article/20/11/btrfs-linux)
 
 ### Btrfs
 
@@ -70,6 +77,7 @@ Btrfs is not stable for use outside a test system.
 
 [XFS - Wikiwand](http://www.wikiwand.com/en/XFS)
 [XFS: There and back ... and there again? [LWN.net]](http://lwn.net/Articles/638546/)
+[Linux File Systems Part Two: The XFS File System | Learning Tree Blog](https://blog.learningtree.com/linux-file-systems-part-two-the-xfs-file-system/)
 
 ### ZFS
 
@@ -80,8 +88,10 @@ ZFS provides bitrot protection.
 
 [Create a ZFS volume on Ubuntu – JamesCoyle.net](http://www.jamescoyle.net/how-to/478-create-a-zfs-volume-on-ubuntu)
 
-[From BFS to ZFS: past, present, and future of file systems | Ars Technica](http://arstechnica.com/gadgets/2008/03/past-present-future-file-systems/)
-[Ars walkthrough: Using the ZFS next-gen filesystem on Linux | Ars Technica](http://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/2/)
+[From BFS to ZFS: past, present, and future of file systems – Ars Technica](https://arstechnica.com/gadgets/2008/03/past-present-future-file-systems/?amp=1)
+[Ars walkthrough: Using the ZFS next-gen filesystem on Linux – Ars Technica](https://arstechnica.com/information-technology/2014/02/ars-walkthrough-using-the-zfs-next-gen-filesystem-on-linux/?amp=1)
+[ZFS 101—Understanding ZFS storage and performance – Ars Technica](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/?amp=1)
+[Ubuntu 20.04’s zsys adds ZFS snapshots to package management [Updated] – Ars Technica](https://arstechnica.com/gadgets/2020/03/ubuntu-20-04s-zsys-adds-zfs-snapshots-to-package-management/?amp=1)
 
 [How ZFS continues to be better than btrfs — Rudd-O.com in English](https://rudd-o.com/linux-and-free-software/ways-in-which-zfs-is-better-than-btrfs)
 [The ZFS Story: Clearing Up the Confusion - Datamation](http://www.datamation.com/data-center/the-zfs-story-clearing-up-the-confusion-1.html)
@@ -111,8 +121,9 @@ Check inode usage: `df -i`
 
 [Ext4 Wiki](https://ext4.wiki.kernel.org/index.php/Main_Page)
 
-## Articles
+## Bit Rot
 
+[Bit Rot: How Hard Drives and SSDs Die Over Time](https://www.howtogeek.com/660727/bit-rot-how-hard-drives-and-ssds-die-over-time/amp/)
 [Bitrot and atomic COWs: Inside “next-gen” filesystems | Ars Technica](http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/)
 [Microsoft introduces new robust “Resilient File System” for Windows Server 8 | Ars Technica](http://arstechnica.com/information-technology/2012/01/microsoft-introduces-new-robust-resilient-file-system-for-windows-server-8/)
 
@@ -134,6 +145,54 @@ Check inode usage: `df -i`
 [Recovery of LVM partitions](http://www.softpanorama.org/Commercial_linuxes/LVM/recovery_of_lvm_partitions.shtml)
 
 [Restoring LVM volumes | Jethro Carr](https://www.jethrocarr.com/2013/11/23/restoring-lvm-volumes/)
+
+## FUSE
+
+[libfuse/libfuse: The reference implementation of the Linux FUSE (Filesystem in Userspace) interface](https://github.com/libfuse/libfuse)
+[Filesystems · libfuse/libfuse Wiki](https://github.com/libfuse/libfuse/wiki/Filesystems)
+
+[Writing a Simple Filesystem Using FUSE in C](http://www.maastaar.net/fuse/linux/filesystem/c/2016/05/21/writing-a-simple-filesystem-using-fuse/)
+[thawkins/fuse-examplefs: Automatically exported from code.google.com/p/fuse-examplefs](https://github.com/thawkins/fuse-examplefs)
+
+### Dokan (FUSE for Windows)
+
+[Dokan - User mode file system library for windows with FUSE Wrapper](https://dokan-dev.github.io/)
+[Are there a list of supported filesystems for Dokany? - Google Groups](https://groups.google.com/forum/#!topic/dokan/L0j8hOubT1Y)
+
+### Rust
+
+[Rust's Bindgen + Fuse in 2019 - DEV Community 👩‍💻👨‍💻](https://dev.to/kdrakon/rust-s-bindgen-fuse-in-2019-2e8l)
+
+### Python
+
+[Python + FUSE - YouTube](https://www.youtube.com/watch?v=DpvdOuTzOU0)
+[fusepy/fusepy: Simple ctypes bindings for FUSE](https://github.com/fusepy/fusepy)
+
+[Writing a FUSE filesystem in Python – The Python corner – Medium](https://medium.com/the-python-corner/writing-a-fuse-filesystem-in-python-5e0f2de3a813)
+[Writing a FUSE filesystem in Python - Stavros' Stuff](https://www.stavros.io/posts/python-fuse-filesystem/)
+[skorokithakis/python-fuse-sample: A sample FUSE filesystem in Python.](https://github.com/skorokithakis/python-fuse-sample)
+
+### sshfs
+
+[libfuse/sshfs: A network filesystem client to connect to SSH servers](https://github.com/libfuse/sshfs)
+
+[How to Mount a Remote Folder using SSH on Ubuntu](http://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/)
+[How to mount a remote directory over ssh on Linux - Xmodulo](http://xmodulo.com/how-to-mount-remote-directory-over-ssh-on-linux.html)
+[How to use SSHFS to Mount Remote Directories over SSH | Linuxize](https://linuxize.com/post/how-to-use-sshfs-to-mount-remote-directories-over-ssh/)
+[SSHFS for Shared Storage » ADMIN Magazine](https://www.admin-magazine.com/HPC/Articles/SSHFS-for-Shared-Storage)
+
+[How to Use Linux SFTP Command to Transfer Files | Linuxize](https://linuxize.com/post/how-to-use-linux-sftp-command-to-transfer-files/) uses by SSHFS under the hood
+
+```sh
+# install sshfs (once)
+sudo apt-get install sshfs
+
+# mount sshfs
+sshfs user@yourdomain.com:/path/to/remote local/path
+
+# unmount sshfs
+fusermount -u local_mountpoint
+```
 
 ## Mhddfs
 

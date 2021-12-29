@@ -3,7 +3,7 @@ title: Why businesses exist in clusters
 categories:
   - economics
 tags:
-  - 
+  -
 toc: true
 date: 2016-09-24 00:38:43
 ---

@@ -11,6 +11,7 @@ date: 2016-04-02 02:31:56
 [The Differences Between Cloud Backup, Cloud Storage, and Cloud Sync](https://www.backblaze.com/blog/sync-vs-backup-vs-storage/)
 [Object Storage vs. Block Storage Services | DigitalOcean](https://www.digitalocean.com/community/tutorials/object-storage-vs-block-storage-services)
 [Is Your Cloud Storage Slow as Shit? – Becoming odrive](https://medium.odrive.com/is-your-cloud-storage-slow-as-shit-f021f5ff5e11)
+[Best cloud backup of 2020: Online services to get your data backed up | TechRadar](https://www.techradar.com/best/best-cloud-backup)
 
 ## Comparisons
 
@@ -23,8 +24,15 @@ date: 2016-04-02 02:31:56
 [RcloneBrowser](https://mmozeiko.github.io/RcloneBrowser/)
 [Cyberduck | Libre FTP, SFTP, WebDAV, S3, Backblaze B2 & OpenStack Swift browser for Mac and Windows](https://cyberduck.io/)
 [Cyberduck Alternatives and Similar Software - AlternativeTo.net](http://alternativeto.net/software/cyberduck/)
-[Duplicacy](https://duplicacy.com/home.html)
+[Duplicacy](https://duplicacy.com/) A new generation cross-platform cloud backup tool
 [duplicity: Main](http://duplicity.nongnu.org/)
+[andrewgaul/s3proxy: Access other storage backends via the S3 API](https://github.com/andrewgaul/s3proxy)
+
+[Syncthing](https://syncthing.net/) sync between your machines
+[Sync files across multiple devices with Syncthing | Opensource.com](https://opensource.com/article/20/1/sync-files-syncthing)
+[Control your data with Syncthing: An open source synchronization tool | Opensource.com](https://opensource.com/article/18/9/take-control-your-data-syncthing)
+[Synchronize Files Between Multiple Systems With Syncthing - OSTechNix](https://ostechnix.com/synchronize-files-between-multiple-systems-with-syncthing/)
+[Linux Fu: Keep In Sync | Hackaday](https://hackaday.com/2020/07/23/linux-fu-keep-in-sync/)
 
 ## odrive
 
@@ -75,6 +83,7 @@ personal unlimited backup for Mac and Windows at $5/mo
 [B2 Cloud Storage: The Lowest Priced Online File Storage](https://www.backblaze.com/b2/cloud-storage.html)
 [Backblaze B2: The World’s Lowest Cost Cloud Storage](https://www.backblaze.com/blog/b2-cloud-storage-provider/)
 [Introducing Backblaze B2 Lifecycle Rules](https://www.backblaze.com/blog/backblaze-b2-lifecycle-rules/)
+[Backblaze B2 and the S3 Compatible API on Cloudflare](https://blog.cloudflare.com/backblaze-b2-and-the-s3-compatible-api-on-cloudflare/amp/)
 
 S3 alternative. The first 10 GB of storage and the first 1GB of download each day is free. 1TB is $5/mo
 
@@ -90,11 +99,6 @@ Since B2 provides HTTP RESTful API, we can easily write our own client.
 [B2 Python Pusher](https://www.backblaze.com/b2/docs/b2-python-pusher.html)
 [b2sync - like rsync but for B2](https://www.backblaze.com/b2/docs/b2sync.html)
 
-## Memstore
-
-[Memstore Cloud Storage - Memset Cloud Platform | Memset](http://www.memset.com/cloud/storage/)
-5GB Free Tier, 50GB at £1.95/mo
-
 ## Digital Ocean Spaces
 
 [An Introduction to DigitalOcean Spaces | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-digitalocean-spaces) S3 compatible object store
@@ -103,8 +107,34 @@ Since B2 provides HTTP RESTful API, we can easily write our own client.
 
 ## Dropbox
 
+[Install Dropbox](https://www.dropbox.com/install)
 [Developers - Dropbox](https://www.dropbox.com/developers)
 [Reference Guide - Developers - Dropbox](https://www.dropbox.com/developers/reference)
+
+[Re: Dropbox icon stuck on starting - Dropbox Community - 331778](https://www.dropboxforum.com/t5/Files-folders/Dropbox-icon-stuck-on-starting/m-p/331937/highlight/true#M49822)
+Beta: xx.3.xx
+Stable: xx.4.xx
+
+[Dropbox stuck on indexing / syncing in Windows 10 : dropbox](https://www.reddit.com/r/dropbox/comments/8rae7h/dropbox_stuck_on_indexing_syncing_in_windows_10/)
+[Troubleshoot Issues with Selective Sync & Indexing | Dropbox Help](https://help.dropbox.com/installs-integrations/sync-uploads/select-files-to-sync)
+[Dropbox Sync Issues | Dropbox Help](https://help.dropbox.com/installs-integrations/sync-uploads/files-not-syncing)
+
+## Google
+
+> add Google Drive
+
+[Here's how Google is overhauling its cloud storage offerings | InfoWorld](http://www.infoworld.com/article/3133344/cloud-computing/heres-how-google-is-overhauling-its-cloud-storage-offerings.html6)
+
+## Mega
+
+[MEGA](https://mega.nz/)
+[Megatools - command line client for Mega.nz](https://megatools.megous.com/)
+[Mega Cloud Sync in Command Line on Arch Linux | DominicMDominicM](http://dominicm.com/mega-cloud-sync-command-line-arch-linux/)
+
+## Memstore
+
+[Object Storage | Memset](https://www.memset.com/services/object-storage/)
+5GB Free Tier, 50GB at £2.01/mo
 
 ## CrashPlan
 
@@ -112,11 +142,15 @@ Since B2 provides HTTP RESTful API, we can easily write our own client.
 
 ## Carbonite
 
-## Google
+[Cloud backup solutions for home and business | Carbonite](https://www.carbonite.com/)
 
-> add Google Drive
+## SpiderOak
 
-[Here's how Google is overhauling its cloud storage offerings | InfoWorld](http://www.infoworld.com/article/3133344/cloud-computing/heres-how-google-is-overhauling-its-cloud-storage-offerings.html6)
+[SpiderOak Secure Software | SpiderOak](https://spideroak.com/)
+
+## FreeFileSync
+
+[#Quick Start - FreeFileSync](https://freefilesync.org/manual.php) also sync locally
 
 ---
 
@@ -128,17 +162,19 @@ Since B2 provides HTTP RESTful API, we can easily write our own client.
 [SparkleShare - Self hosted, instant, secure file sync](http://sparkleshare.org/)
 [Syncany - Secure file sync software for arbitrary storage backends](https://www.syncany.org/)
 
-[Home | NAS4Free - The Free Network Attached Storage Project](http://www.nas4free.org/)
+[Home | NAS4Free - The Free Network Attached Storage Project](http://www.nas4free.org/)
 [ZFSguru.com](http://zfsguru.com/)
 
 [The ZFS NAS Box Thread - Ars Technica OpenForum](http://arstechnica.com/civis/viewtopic.php?p=28752381)
+
+[FileRun - Selfhosted File Sync and Share](https://filerun.com/)
 
 ## ownCloud/Nextcloud
 
 [ownCloud.org](https://owncloud.org/)
 The founders of the project are dissatisfied with ownCloud.com's management, IP strategy and direction over the project. So they forked the project and created Nextcloud.
 
-[nextcloud.com](https://nextcloud.com/)
+[Nextcloud](https://nextcloud.com/)
 [Nextcloud](https://github.com/nextcloud) GitHub org
 
 [ownCloud Statement concerning nextcloud](https://owncloud.com/owncloud-statement-concerning-formation-nextcloud-frank-karlitschek/)
@@ -158,10 +194,3 @@ The founders of the project are dissatisfied with ownCloud.com's management, IP 
 [FreeNAS Storage Operating System | Open Source - FreeNAS - Open Source Storage Operating System](http://www.freenas.org/)
 [The Ars NAS distribution shootout: FreeNAS vs NAS4Free | Ars Technica](http://arstechnica.com/information-technology/2014/06/the-ars-nas-distribution-shootout-freenas-vs-nas4free/)
 [How-To: Set up a home file server using FreeNAS](http://www.engadget.com/2012/02/01/how-to-set-up-a-home-file-server-using-freenas/)
-
----
-
-# Apps
-
-[Duplicacy](https://duplicacy.com/) A new generation cross-platform cloud backup tool
-[andrewgaul/s3proxy: Access other storage backends via the S3 API](https://github.com/andrewgaul/s3proxy)

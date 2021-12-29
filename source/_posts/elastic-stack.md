@@ -14,6 +14,8 @@ tags:
 [Elastic Stack and Product Documentation | Elastic](https://www.elastic.co/guide/index.html)
 [Glossary of terms | Elasticsearch Reference | Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/glossary.html)
 
+[Pricing | Logz.io](https://logz.io/pricing/)
+
 [Elastic Stack 5](https://www.elastic.co/blog/elastic-stack-5-0-0-released) in October 2016 is a major update.
 [elastic/examples: Home for Elasticsearch examples available to everyone. It's a great way to get started.](https://github.com/elastic/examples)
 
@@ -27,6 +29,8 @@ tags:
 [Operational Analytics at Elastic{ON} | Elastic](https://www.elastic.co/blog/operational-analytics-with-elasticsearch-at-elasticon-2017-part-1)
 
 [dzharii/awesome-elasticsearch: A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!](https://github.com/dzharii/awesome-elasticsearch)
+
+[第 12 屆 iT 邦幫忙鐵人賽::用 30 天向世界宣告，這一年來鋼鐵般的歷練](https://ithelp.ithome.com.tw/2020-12th-ironman/articles/3148?sc=iThomeR)
 
 [The Complete Guide to the ELK Stack - Logz.io](https://logz.io/learn/complete-guide-elk-stack/)
 [NGINX Log Analysis with Elasticsearch, Logstash, and Kibana](http://logz.io/blog/nginx-log-analysis/)
@@ -57,6 +61,10 @@ tags:
 
 [Running an Elasticsearch cluster with Docker](https://stefanprodan.com/2016/elasticsearch-cluster-with-docker/) setup ES 2.x cluster, disable swapping
 [stefanprodan/dockes: Elasticsearch cluster with Docker](https://github.com/stefanprodan/dockes)
+
+[Send Your Data - Logz.io](https://app.logz.io/#/dashboard/send-your-data/log-sources/docker?type=docker-collector-logs-config)
+[logzio/docker-collector-logs](https://github.com/logzio/docker-collector-logs)
+[logzio/docker-logging-plugin: This is a docker logging driver plugin to forward docker logs to Logz.io](https://github.com/logzio/docker-logging-plugin)
 
 [Deploy ELK stack and aggregate container logs | Docker in Production | Katacoda](https://www.katacoda.com/courses/docker-production/launch-elk-aggregate-container-logs) embedded playground
 [Centralized System and Docker Logging with ELK Stack | Technology Conversations](http://technologyconversations.com/2015/05/18/centralized-system-and-docker-logging-with-elk-stack/)
@@ -103,6 +111,7 @@ cAdvisor only works for Elasticsearch 2.x
 [Subscriptions](https://www.elastic.co/subscriptions) based extension by Elastic.co.
 
 Includes the following features:
+
 - Security (formerly Shield)
 - Alerting (via Watcher)
 - Monitoring (formerly Marvel)

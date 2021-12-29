@@ -14,13 +14,19 @@ toc: true
 This post is about using GNU/Linux with [desktop environment](http://www.wikiwand.com/en/Desktop_environment) as a daily driver.
 
 [Home | Linux Journey](https://linuxjourney.com/)
+[LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo - Home](http://www.linuxandubuntu.com/home)
+
 [Getting Started with Linux: The Complete Guide](http://lifehacker.com/5778882/getting-started-with-linux-the-complete-guide)
 [Introduction to Linux](http://www.tldp.org/LDP/intro-linux/html/index.html)
 [The Linux System Administrator's Guide](http://www.tldp.org/LDP/sag/html/index.html)
 [The UNIX Hater's Handbook](http://web.mit.edu/~simsong/www/ugh.pdf) (PDF)
-[Introduction to Linux | edX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0)
+[Introduction to Linux | edX](https://www.edx.org/course/introduction-to-linux)
+[Introduction to Linux (LFS101) - Linux Foundation - Training](https://training.linuxfoundation.org/training/introduction-to-linux/)
 [Product Documentation for Red Hat Enterprise Linux - Red Hat Customer Portal](https://access.redhat.com/documentation/en/red-hat-enterprise-linux/?version=7/)
+[Microsoft Should be VERY Afraid - Noob's Guide to Linux Gaming - YouTube](https://www.youtube.com/watch?v=Co6FePZoNgE)
 
+[The Linux Documentation Project](http://www.tldp.org/)
+[The Linux Information Project (LINFO) Home Page](http://www.linfo.org/index.html)
 [\*nix - Things and Stuff Wiki](https://wiki.thingsandstuff.org/*nix)
 [aleksandar-todorovic/awesome-linux: A list of awesome projects and resources that make Linux even more awesome.](https://github.com/aleksandar-todorovic/awesome-linux)
 
@@ -32,6 +38,7 @@ This post is about using GNU/Linux with [desktop environment](http://www.wikiwan
 [Linux at 25: A pictorial history | InfoWorld](http://www.infoworld.com/article/3112766/linux/linux-at-25-a-pictorial-history.html)
 [LINUX's History by Linus Torvalds](https://www.cs.cmu.edu/~awb/linux.history.html)
 [Test drive Linux from 1993-2001: SLackware 1.01 through Fedora 1 | Opensource.com](https://opensource.com/article/16/12/yearbook-linux-test-driving-distros)
+[Why Hardly Anyone Calls Linux "GNU/Linux"](https://www.makeuseof.com/tag/hardly-anyone-calls-linux-gnulinux/)
 
 [Penguin Origins: The History of Linux [Geek History]](https://www.makeuseof.com/tag/penguin-origins-the-history-of-linux-geek-history/)
 [The History Of Linux [INFOGRAPHIC ]](https://www.makeuseof.com/tag/infographic-history-linux/)
@@ -43,7 +50,7 @@ This post is about using GNU/Linux with [desktop environment](http://www.wikiwan
 To distinguish GNU and Linux, and why it is not "correct" to say Linux system, read: [Linux and GNU](http://www.gnu.org/gnu/linux-and-gnu.html) and
 [GNU/Linux FAQ](http://www.gnu.org/gnu/gnu-linux-faq.html#why)
 
-[Linux Vs Unix: The Crucial Differences That Matter To Linux Professionals](https://www.makeuseof.com/tag/linux-vs-unix-crucial-differences-matter-linux-professionals/)
+[Unix vs. Linux: The Differences Between and Why It Matters](https://www.makeuseof.com/tag/linux-vs-unix-crucial-differences-matter-linux-professionals/)
 
 [GNU Userland | Linux.org](http://www.linux.org/threads/gnu-userland.7429/)
 [List of GNU packages - Wikiwand](http://www.wikiwand.com/en/List_of_GNU_packages)
@@ -71,6 +78,7 @@ To distinguish GNU and Linux, and why it is not "correct" to say Linux system, r
 Well, Android is also a [Linux distro](http://www.linux.org/threads/android-and-its-derivatives.6145/) with its own forks.
 [What Are The Components Of A Linux Distribution?](https://fosspost.org/education/what-are-the-components-of-a-linux-distribution)
 
+[LibreHunt: Home](https://librehunt.org/)
 [DistroWatch.com: Put the fun back into computing. Use Linux, BSD.](http://distrowatch.com/)
 [Linuxtracker .::. The Premier Linux Bittorrent Website](http://linuxtracker.org/index.php)
 [Linux AIO](http://linuxaio.net/)
@@ -95,8 +103,12 @@ The crucial factor is the _package manager_ and _default DE_.
 The default DE saves you the hassle of going through the setup and probably more stable. But we can change DE as long as the new DE is available in the package manager.
 
 [Distrochooser](https://distrochooser.de/en)
-[DistroTest.net - The first online operating system tester](https://distrotest.net/?module=systems&action=list&new=true)
+[DistroTest.net - The first online operating system tester](https://distrotest.net/)
+[How to Distro Hop With a Web Browser | Software | LinuxInsider](https://www.linuxinsider.com/story/86178.html) DistroTest
+[DistroTest - Test Linux And Unix Operating Systems Online For Free - OSTechNix](https://ostechnix.com/test-100-linux-and-unix-operating-systems-online-for-free/)
 [Choosing Linux: 2 Awesome Tools To Find Your Perfect Linux OS](https://www.forbes.com/sites/jasonevangelho/2018/11/27/choosing-linux-2-awesome-tools-to-find-your-perfect-linux-os/#4b9a100b3beb)
+
+[littlehorse pc - YouTube](https://www.youtube.com/channel/UCGjCNsYOlYjgkxN0HiJoRBQ/) first impressions
 
 [What Is A Linux Distribution? How Are All These Linux Distros Different?](https://fossbytes.com/what-is-a-linux-distribution-how-linux-distros-are-different/)
 [GitHub.io killed the distro star: Why are people so bored with the top Linux makers? • The Register](http://www.theregister.co.uk/2014/08/25/are_linux_distros_boring/)
@@ -108,21 +120,21 @@ The default DE saves you the hassle of going through the setup and probably more
 [The psychology of a distrohopper | Jim Lynch](http://jimlynch.com/linux-articles/the-psychology-of-a-distrohopper/)
 [The dark side of distrohopping | Jim Lynch](http://jimlynch.com/linux-articles/the-dark-side-of-distrohopping/)
 [Is distrohopping in Linux becoming a thing of the past? | InfoWorld](http://www.infoworld.com/article/2694084/is-distrohopping-in-linux-becoming-a-thing-of-the-past.html)
+[My Search For The Perfect Linux OS Just Ended — With An Unexpected Surprise](https://www.forbes.com/sites/jasonevangelho/2019/11/05/my-search-for-the-perfect-linux-os-just-ended--with-an-unexpected-surprise/#68194ced5cd6)
 
 ### Watched Distro
 
-[Antergos](https://antergos.com/) [DistroWatch.com](http://distrowatch.com/table.php?distribution=antergos) Arch + any DE + Numix theme
-[Reborn OS - Home](https://reborn-os.weebly.com/) Antergos + any DE, supports RPi
+[Newcomer EndeavourOS Offers a Friendlier Arch Linux Experience | Reviews | LinuxInsider](https://www.linuxinsider.com/story/86172.html)
 [Enter the void](https://voidlinux.org/) scratch + any DE, supports RPi
 [Solus Project](https://getsol.us/) [DistroWatch](http://distrowatch.com/table.php?distribution=solus) (formerly Evolve OS) scratch + Budgie
-[Liri](https://liri.io/) Arch + Qt + Wayland + [Hawaii](http://hawaiios.org/) + [Papyros](http://papyros.io/)
 [Ubuntu Budgie | Home](https://ubuntubudgie.org/) Ubuntu + Budgie
 [Ubuntu MATE | For a retrospective future](https://ubuntu-mate.org/) Ubuntu + MATE
-[Regolith Linux is the i3 Ubuntu Spin You've Been Waiting For - OMG! Ubuntu!](https://www.omgubuntu.co.uk/2019/06/install-regolith-linux-i3-gaps-ubuntu) Ubuntu + i3
 [Nitrux — A Linux for Everyone](https://nxos.org/) Ubuntu + Nomad (Plasma)
-[elementary OS](https://elementary.io/) [DistroWatch](http://distrowatch.com/table.php?distribution=elementary) Ubuntu + Pantheon
+[elementary OS](https://elementary.io/) [DistroWatch](http://distrowatch.com/table.php?distribution=elementary) Ubuntu + Pantheon, OSX-like
+[Regolith 1.6](https://regolith-linux.org/) Ubuntu + GNOME + i3
 
-[Manjaro Deepin at SourceForge.net](https://sourceforge.net/projects/manjarolinux/files/community/Deepin/) Arch + Deepin DE
+> see `arch-linux#arch-distros`
+
 [deepin OS](https://www.deepin.org/?language=en) [DistroWatch.com](http://distrowatch.com/table.php?distribution=deepin) Debian Unstable (sid) + Deepin DE (Chinese)
 [Korora Project](https://kororaproject.org/) [DistroWatch.com](http://distrowatch.com/table.php?distribution=korora) Fedora + multiple DE + Numix theme
 [wattOS Linux](http://planetwatt.com/new/) Ubuntu + LXDE
@@ -131,6 +143,9 @@ The default DE saves you the hassle of going through the setup and probably more
 [Clear Linux Project](https://clearlinux.org/)
 [Intel's Clear Linux Ups Their Desktop Offering, Rolling Out New Installer - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=Clear-Linux-Desktop-Live-Beta)
 [clearlinux/how-to-clear: Training documentation to teach users how to make a Clear Linux OS derivative distribution.](https://github.com/clearlinux/how-to-clear)
+[Clear Linux OS MeetUp: An Introduction and Beyond Source - YouTube](https://www.youtube.com/watch?v=ZF14_gzcHXg)
+[Clear Linux OS - Architecture Overview](https://www.slideshare.net/KariFredheim/clear-linux-os-architecture-overview)
+[LINUX Unplugged - Blog - Clear Linux OS 2019](https://linuxunplugged.com/articles/clear-linux-os-2019)
 [Trying To Make Ubuntu 18.10 Run As Fast As Intel's Clear Linux - Phoronix](https://www.phoronix.com/scan.php?page=article&item=ubuntu1810-fast-clear)
 [Intel rolls out Clear Linux Developer Edition | ZDNet](https://www.zdnet.com/google-amp/article/intel-rolls-out-clear-linux-developer-edition/)
 [It's Time To Pay Attention To Intel's Clear Linux OS Project](https://www-forbes-com.cdn.ampproject.org/v/s/www.forbes.com/sites/jasonevangelho/2019/05/13/its-time-to-pay-attention-to-intels-clear-linux-os-project/amp/)
@@ -175,14 +190,22 @@ cat /etc/lsb-release
 [Modern Package Formats » ADMIN Magazine](http://www.admin-magazine.com/Archive/2018/45/Flatpak-Snap-and-AppImage)
 [Linux Package Managers Compared - AppImage vs Snap vs Flatpak](https://www.ostechnix.com/linux-package-managers-compared-appimage-vs-snap-vs-flatpak/)
 
+[Flatpak vs Snaps vs Appimage vs Packages - Linux packaging formats compared - YouTube](https://www.youtube.com/watch?v=9HuExVD56Bo)
+[What are the differences between snaps, appimage, flatpak and others? - Ask Ubuntu](https://askubuntu.com/questions/866511/what-are-the-differences-between-snaps-appimage-flatpak-and-others)
+[A technical comparison between the snap and the Flatpak formats](https://readyspace.com.hk/a-technical-comparison-between-the-snap-and-the-flatpak-formats/)
+
 [Subuser - Portability, Security, Maintainability](http://subuser.org/) using Docker Container
 [Subuser uses Docker containers to deliver desktop apps for Linux | InfoWorld](http://www.infoworld.com/article/3088574/desktop-apps/subuser-uses-docker-containers-to-deliver-desktop-apps-for-linux.html)
 
 [Orbital Apps - A New generation of Linux Apps](https://www.orbital-apps.com/)
 [AppStream](https://www.freedesktop.org/wiki/Distributions/AppStream/)
-[GitHub - ximion/appstream: Tools and libraries to work with AppStream metadata](https://github.com/ximion/appstream)
+[ximion/appstream: Tools and libraries to work with AppStream metadata](https://github.com/ximion/appstream)
 
 [Repology: all metapackages](https://repology.org/)
+
+[vinifmor/bauh: Graphical user interface for managing your Linux applications. Supports AppImage, Arch (repositories/AUR), Flatpak, Snap and native Web applications.](https://github.com/vinifmor/bauh)
+[Manage AppImages, AUR, Flatpaks And Snaps With Bauh - OSTechNix](https://ostechnix.com/manage-appimages-aur-flatpaks-and-snaps-with-bauh/)
+[Bauh - Manage Snaps, Flatpaks and AppImages from One Interface - It's FOSS](https://itsfoss.com/bauh-package-manager/)
 
 There is a distro dependent package format, then there is the native manager, then there is a frontend for the manager.
 
@@ -197,9 +220,12 @@ dnf (Fedora 22+)
 
 ### Snap
 
-[snap: command reference - Snaps are universal Linux packages](https://snapcraft.io/docs/reference/snap-command)
+[snap: command reference - Snaps are universal Linux packages](https://snapcraft.io/docs/reference/snap-command) Shared runtimes between each applications.
 [snapcore/snapd: The snapd and snap tools enable systems to work with .snap files.](https://github.com/snapcore/snapd)
 [snapcore/snapcraft: Snapcraft is a delightful packaging tool](https://github.com/snapcore/snapcraft)
+[Snap - ArchWiki](https://wiki.archlinux.org/index.php/Snap)
+
+[FOSDEM 2019 - Good Will Snapping](https://fosdem.org/2019/schedule/event/behind_snapcraft/)
 
 [uApp Explorer](https://uappexplorer.com/apps?type=snappy)
 
@@ -214,12 +240,25 @@ dnf (Fedora 22+)
 
 ["cannot locate core snap" error - snapd - snapcraft.io](https://forum.snapcraft.io/t/cannot-locate-core-snap-error/)
 
+cannot mount squashfs image using “squashfs”:
+
+```sh
+mkdir /tmp/foo && echo bar > /tmp/foo/bar
+mksquashfs /tmp/foo /tmp/foo.img -all-root
+mkdir /tmp/foo-mount-point
+sudo mount -t squashfs /tmp/foo.img /tmp/foo-mount-point
+```
+
 ### Flatpak
 
 [Flatpak - the future of application distribution](http://flatpak.org/)
-Flatpak has been around the longest and the most mature. Uses OSTree. Uses [portals](https://github.com/flatpak/flatpak/wiki/Portals) for desktop integration.
+Flatpak has been around the longest and the most mature. Uses OSTree. No shared runtimes between each applications.
+Uses [portals](https://github.com/flatpak/flatpak/wiki/Portals) for desktop integration.
 [Flatpak - ArchWiki](https://wiki.archlinux.org/index.php/Flatpak)
 [Welcome to Flatpak’s documentation! — Flatpak documentation](http://docs.flatpak.org/en/latest/index.html)
+
+[Flatpak Is Not the Future](https://ludocode.com/blog/flatpak-is-not-the-future)
+[On Flatpak disk usage and deduplication – Will Thompson and the Blog of Atlantis](https://blogs.gnome.org/wjjt/2021/11/24/on-flatpak-disk-usage-and-deduplication/)
 
 [Flathub - An app store and build service for Linux](https://flathub.org/home)
 [Using Flatpak on Ubuntu and Other Linux [Complete Guide] | It's FOSS](https://itsfoss.com/flatpak-guide/)
@@ -244,6 +283,7 @@ flatpak update
 ```
 
 [Maintaining a flatpak repository – Alexander Larsson](https://blogs.gnome.org/alexl/2017/02/10/maintaining-a-flatpak-repository/)
+[Flatseal—Linux Apps on Flathub](https://flathub.org/apps/details/com.github.tchx84.Flatseal)
 
 [Hello World](http://flatpak.org/hello-world.html)
 [flatpak-bundler](https://www.npmjs.com/package/flatpak-bundler)
@@ -261,6 +301,8 @@ App as executable image without the need to install.
 [AppImages/recipes at master · AppImage/AppImages](https://github.com/AppImage/AppImages/tree/master/recipes)
 
 [probonopd/linuxdeployqt: Makes Linux applications self-contained by copying in the libraries and plugins that the application uses, and optionally generates an AppImage. Can be used for Qt and other applications](https://github.com/probonopd/linuxdeployqt)
+
+[PKGBUILD - aur.git - AUR Package Repositories](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=simplest-file-renamer-bin) extract app image
 
 ### OSTree
 
@@ -285,6 +327,7 @@ OSTree is git for bootable filesystem trees.
 [A Guide to Window Managers and Desktops for Unix and Linux](http://www.techopedia.com/2/28684/software/operating-systems/a-guide-to-window-managers-and-desktops-for-unix-and-linux)
 [How-to: Picking a desktop environment in Linux](http://www.engadget.com/2012/11/30/how-to-pick-a-desktop-environment-in-linux/)
 
+[Desktop environment - Wikiwand](https://www.wikiwand.com/en/Desktop_environment)
 [Desktop environment - ArchWiki](https://wiki.archlinux.org/index.php/Desktop_environment)
 [Category:Desktop environments - ArchWiki](https://wiki.archlinux.org/index.php/Category:Desktop_environments)
 [Display manager - ArchWiki](https://wiki.archlinux.org/index.php/Display_manager)
@@ -333,6 +376,7 @@ Minimal, modern desktop written in Qt and Go.
 [Original Apps | deepin provides a powerful driving force for computers all over the world!](https://www.deepin.org/soft.html)
 
 [deepin OS](https://www.deepin.org/) is the distro pushing Deepin DE
+[Deepin OS - First Distro To Bring Cloud Sync Option - LinuxAndUbuntu](http://www.linuxandubuntu.com/home/deepin-os-first-distro-to-bring-cloud-sync-option/amp)
 
 ### Pantheon
 
@@ -348,9 +392,13 @@ OS X like desktop that is [ported to OS X](http://blog.elementary.io/post/142076
 
 [Tutorial – Plasma » Linux Magazine](http://www.linux-magazine.com/Issues/2019/218/Tutorial-Plasma)
 
+### Pop!\_OS
+
+[Pop OS Review: Is This Beautiful Linux Distribution Worth Your Time?](https://itsfoss.com/pop-os-linux-review/)
+
 ### Zorin
 
-Zorin OS is based on Ubuntu LTS and the desktop is powered by Gnome Shell.
+Zorin OS is based on Ubuntu LTS and the desktop is powered by Gnome Shell. In making it OSX-like some features are not that friendly.
 [Zorin OS](https://zorinos.com/) is the distro pushing Zorin desktop
 
 ## Display Manager
@@ -365,6 +413,8 @@ The available sessions are in `/usr/share/xsessions/`.
 
 Some DM use `~/.xinitrc` instead of `/usr/share/xsessions/`.
 [XDM - ArchWiki](https://wiki.archlinux.org/index.php/XDM)
+
+[LightDM - ArchWiki](https://wiki.archlinux.org/index.php/LightDM)
 
 ## Display Server
 
@@ -386,6 +436,8 @@ Some DM use `~/.xinitrc` instead of `/usr/share/xsessions/`.
 [Mir - ArchWiki](https://wiki.archlinux.org/index.php/Mir) [Mir (software) - Wikiwand](https://www.wikiwand.com/en/Mir_%28software%29)
 SurfaceFlinger
 
+[Splitting up the Frame Clock – GNOME Shell & Mutter](https://blogs.gnome.org/shell-dev/2020/07/02/splitting-up-the-frame-clock/)
+
 [Graphical Civil War | LINUX Unplugged 33 | Jupiter Broadcasting](http://www.jupiterbroadcasting.com/54022/graphical-civil-war-lup-33/) @31:30
 [Bob's development blog: Why the display server doesn't matter](http://bobthegnome.blogspot.hk/2014/03/why-display-server-doesnt-matter.html)
 [Why the Display Server DOES matter – Martin's Blog](http://blog.martin-graesslin.com/blog/2014/03/why-the-display-server-does-matter/)
@@ -397,10 +449,15 @@ talks to KMS and GLES directly without X
 
 ### Wayland
 
-[Wayland - ArchWiki](https://wiki.archlinux.org/index.php/wayland) [Wayland (display server protocol) - Wikiwand](https://www.wikiwand.com/en/Wayland_%28display_server_protocol%29)
+[Wayland - ArchWiki](https://wiki.archlinux.org/index.php/wayland)
+[Wayland (display server protocol) - Wikiwand](https://www.wikiwand.com/en/Wayland_%28display_server_protocol%29)
+[Wayland misconceptions debunked | Drew DeVault’s Blog](https://drewdevault.com/2019/02/10/Wayland-misconceptions-debunked.html)
 [Wayland](https://wayland.freedesktop.org/)
+[Waypipe Is Successfully Working For This Network-Transparent Wayland Apps/Games Proxy - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=Waypipe-Successful-GSoC-2019)
 [The real story behind Wayland and X - YouTube](https://www.youtube.com/watch?v=GWQh_DmDLKQ)
+[Wayland in 2021](https://shibumi.dev/posts/wayland-in-2021/)
 
+[Sway](https://swaywm.org/) a tiling Wayland compositor and a drop-in replacement for the i3 window manage
 [swaywm/wlroots: A modular Wayland compositor library](https://github.com/swaywm/wlroots)
 [swaywm/wlr-protocols: Wayland protocols designed for use in wlroots (and other compositors)](https://github.com/swaywm/wlr-protocols)
 
@@ -411,6 +468,7 @@ talks to KMS and GLES directly without X
 
 [LVFS makes Linux firmware updates easier | Opensource.com](https://opensource.com/article/17/11/firmware-updates-and-lvfs)
 [System76 and the LVFS – Technical Blog of Richard Hughes](https://blogs.gnome.org/hughsie/2018/05/09/system76-and-the-lvfs/)
+[Google and fwupd sitting in a tree – Technical Blog of Richard Hughes](https://blogs.gnome.org/hughsie/2019/11/18/google-and-fwupd/)
 
 ## Graphic Toolkit
 
@@ -438,6 +496,8 @@ Qt
 
 [Microcode - ArchWiki](https://wiki.archlinux.org/index.php/Microcode)
 [Microcode - Wikiwand](https://www.wikiwand.com/en/Microcode)
+
+When uninstalling microcode, do a grub update to remove it from grub manual.
 
 ## `man` pages
 
@@ -477,6 +537,14 @@ X11 has not one, not two, but _three_ clipboards. They are called:
   is the one used when you copy text from an application such as a web browser,
   or a GUI text editor like **gedit**.
 
+[10 Best Clipboard Managers for Linux](https://www.tecmint.com/best-clipboard-managers-for-linux/)
+[CopyQ](https://hluk.github.io/CopyQ/)
+[CristianHenzel/ClipIt: ClipIt clipboard manager for GTK+](https://github.com/CristianHenzel/ClipIt) tried
+[scottwernervt/clipmanager: GUI clipboard manager](https://github.com/scottwernervt/clipmanager) depends on Qt4
+[Keruspe/GPaste: Clipboard management system](https://github.com/Keruspe/GPaste) tried
+[bugaevc/wl-clipboard: Command-line copy/paste utilities for Wayland](https://github.com/bugaevc/wl-clipboard)
+[rickyrockrat/parcellite](https://github.com/rickyrockrat/parcellite) obsoleted by Clipit
+
 ## "Standards"
 
 [freedesktop.org](http://www.freedesktop.org/wiki/)
@@ -495,6 +563,7 @@ s
 
 [Filesystem Hierarchy Standard - Wikiwand](https://www.wikiwand.com/en/Filesystem_Hierarchy_Standard)
 [Linux Filesystem Hierarchy](http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html)
+[Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
 [FilesystemHierarchyStandard - Debian Wiki](https://wiki.debian.org/FilesystemHierarchyStandard)
 [Filesystem Hierarchy Standard | Linux Journal](https://www.linuxjournal.com/content/filesystem-hierarchy-standard)
 
@@ -515,6 +584,8 @@ s
 
 #### `.desktop` folders
 
+[donadigo/appeditor: Edit application menu](https://github.com/donadigo/appeditor)
+
 ```
 /usr/share/applications
 /usr/local/share/applications
@@ -531,8 +602,28 @@ s
 [Guide to pkg-config](http://people.freedesktop.org/~dbn/pkg-config-guide.html)
 [pkg config - PKG_CONFIG_PATH environment variable - Ask Ubuntu](http://askubuntu.com/questions/210210/pkg-config-path-environment-variable)
 
-```
+```sh
 pkg-config --variable pc_path pkg-config
+pkg-config --libs libnanomsg
+```
+
+`.pc` files located in `/usr/lib/x86_64-linux-gnu/pkgconfig/`, e.g.:
+
+```
+# /usr/lib/x86_64-linux-gnu/pkgconfig/libnanomsg.pc
+prefix=/usr
+exec_prefix=
+includedir=/include
+libdir=/lib/x86_64-linux-gnu
+
+Name: libnanomsg
+Description: High-Performance Scalability Protocols
+URL: http://nanomsg.org/
+Version: 1.1.5
+Requires:
+Libs: -L -lnanomsg
+Libs.private: -lanl -lrt -lpthread -lnsl
+Cflags: -I
 ```
 
 ### Autostart
@@ -573,6 +664,16 @@ Add this to `[Added Associations]`
 ```
 inode/directory=sublime_text.desktop
 ```
+
+#### `freedesktop.org.xml`
+
+```sh
+vi /usr/share/mime/packages/freedesktop.org.xml
+# after modificatoin
+sudo update-mime-database /usr/share/mime
+```
+
+https://askubuntu.com/a/467892/165018
 
 ### Icon theme
 
@@ -622,6 +723,9 @@ dconf write /org/cinnamon/desktop/screensaver/lock-enabled false
 [Fixing Missing Characters and Font Issues | Linux.org](http://www.linux.org/threads/fixing-missing-characters-and-font-issues.7644/)
 [GNU Unifont Glyphs](http://unifoundry.com/unifont.html)
 [The Ultimate Oldschool PC Font Pack: Home](http://int10h.org/oldschool-pc-fonts/)
+[Better Looking fonts For fedora : Fedora](https://www.reddit.com/r/Fedora/comments/5nfenw/better_looking_fonts_for_fedora/)
+[The sad state of font rendering on Linux | Infosec scribbles](https://pandasauce.org/post/linux-fonts/)
+[The new v40 TrueType interpreter mode](https://www.freetype.org/freetype2/docs/subpixel-hinting.html)
 
 [Hanazono fonts](http://fonts.jp/hanazono/)
 [BabelStone Fonts : BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html)
@@ -632,7 +736,12 @@ dconf write /org/cinnamon/desktop/screensaver/lock-enabled false
 
 [Adding New Fonts to Your System - Linux Mint Community](https://community.linuxmint.com/tutorial/view/29)
 
-[I stared into the fontconfig, and the fontconfig stared back at me / fuzzy notepad](http://eev.ee/blog/2015/05/20/i-stared-into-the-fontconfig-and-the-fontconfig-stared-back-at-me/)
+[I stared into the fontconfig, and the fontconfig stared back at me / fuzzy notepad](http://eev.ee/blog/2015/05/20/i-stared-into-the-fontconfig-and-the-fontconfig-stared-back-at-me/)
+
+```sh
+fc-list "Noto Sans"
+fc-match "Noto Sans CJK TC"
+```
 
 ## `xinput`
 
@@ -643,14 +752,30 @@ xinput list-props <id>/<name>
 xinput set-prop <id>/<name> <prop id>/<prop name> <value>
 ```
 
-Settings are put in:
+Settings are put in `~/.xinitrc` or:
 
-- `/etc/X11/xorg.conf.d` (Arch)
-- `/usr/share/X11/xorg.conf.d` (Debian)
+- `/etc/X11/xorg.conf.d` (system)
+- `/usr/share/X11/xorg.conf.d` (user)
 
 Look up with `locate xorg.conf.d | grep d$`
 
 Use `xev` to open an window that dumps all input event to console.c
+
+[Mouse buttons - ArchWiki](https://wiki.archlinux.org/index.php/Mouse_buttons)
+[xmodmap - ArchWiki](https://wiki.archlinux.org/index.php/Xmodmap)
+[EVDEV(4) manual page](https://www.x.org/releases/X11R7.5/doc/man/man4/evdev.4.html)
+[xte - Generates fake input using the XTest extension](https://www.mankier.com/1/xte)
+
+### `xbindkeys`
+
+[Xbindkeys - ArchWiki](https://wiki.archlinux.org/index.php/Xbindkeys)
+[XBindKeys](https://www.nongnu.org/xbindkeys/)
+[[Howto] Remapping buttons with xbindkeys and xte – /home/liquidat](https://liquidat.wordpress.com/2013/08/21/howto-remapping-buttons-with-xbindkeys-and-xte/)
+[Mapping Your Mouse Buttons in Linux | thecrumb](https://www.thecrumb.com/2015/06/03/xbindkeys/index.html)
+Bing keys to program, with `xte` of `xautomation` it is another (better and more versatile) way of binding input keys than editing `xorg.conf.d/`.
+
+`xbindkeys_show` to show bindings in `~/.xbindkeysrc`
+`xbindkeys --poll-rc` after updating `~/.xbindkeysrc`
 
 ## Xorg stuffs
 
@@ -660,6 +785,7 @@ Use `xev` to open an window that dumps all input event to console.c
 [XCB - Wikiwand](https://www.wikiwand.com/en/XCB)
 
 [Extended Window Manager Hints](http://standards.freedesktop.org/wm-spec/wm-spec-latest.html)
+[Adding Glue To a Desktop Environment](https://venam.nixers.net/blog/unix/2019/01/07/win-automation.html)
 
 ### UI stack
 
@@ -690,6 +816,7 @@ Most DE includes UI for resolution and multihead settings
 
 [RandR - Wikiwand](https://www.wikiwand.com/en/RandR)
 [xrandr - ArchWiki](https://wiki.archlinux.org/index.php/Xrandr)
+[xrandr command man page - xorg-x11-server-utils | ManKier](https://www.mankier.com/1/xrandr)
 
 [ARandR: Another XRandR GUI](https://christian.amsuess.com/tools/arandr/)
 
@@ -737,6 +864,8 @@ Application Options:
 [Making Fancy GNOME Apps with NodeJS, MongoDB and WebKit! | woGue](http://worldofgnome.org/making-fancy-gnome-apps-with-nodejs-mongodb-and-webkit/)
 [Scaffolding a modern GNOME 3.10 Gtk Gjs-Python App! | woGue](http://worldofgnome.org/scaffolding-a-modern-gnome-3-10-gtkgjs-app/)
 
+[Apps/Tweaks - GNOME Wiki!](https://wiki.gnome.org/Apps/Tweaks)
+
 ### Gjs
 
 [Projects/Gjs - GNOME Wiki!](https://wiki.gnome.org/action/show/Projects/Gjs?action=show&redirect=Gjs)
@@ -761,6 +890,8 @@ Application Options:
 
 [winepak - Flatpak-ing Microsoft Windows applications with Wine](https://www.winepak.org/)
 [winepak](https://github.com/winepak)
+
+[scottyhardy/docker-wine: Docker image that includes Wine and Winetricks for running Windows applications on Linux and macOS](https://github.com/scottyhardy/docker-wine)
 
 ## #perfmatters
 

@@ -33,7 +33,7 @@ date: 2016-04-08 10:40:45
 [OpenSeadragon Plugins](http://openseadragon.github.io/#plugins)
 [Making OpenSeadragon Plugins · openseadragon/openseadragon Wiki](https://github.com/openseadragon/openseadragon/wiki/Making-OpenSeadragon-Plugins)
 
-Navigator (minimap) support is built-in  
+Navigator (minimap) support is built-in
 
 Sequence (previous/next) support is built-in  
 [MartinPluta/OpenSeadragonMultiRow](https://github.com/MartinPluta/OpenSeadragonMultiRow) for multiple view angle  
@@ -42,32 +42,36 @@ Sequence (previous/next) support is built-in
 
 ### Coordinate System
 
-[Viewport Coordinates | OpenSeadragon](https://openseadragon.github.io/examples/viewport-coordinates/)  !important
-[OpenSeadragon Class: Viewport](https://openseadragon.github.io/docs/OpenSeadragon.Viewport.html)  
+[Viewport Coordinates | OpenSeadragon](https://openseadragon.github.io/examples/viewport-coordinates/) !important
+[OpenSeadragon Class: Viewport](https://openseadragon.github.io/docs/OpenSeadragon.Viewport.html)
 
 When you get a click, it'll be in window pixel coordinates. You can then translate it into viewport coordinates (logical point, which goes from 0.0 on the left to 1.0 on the right). You can then translate those into pixel coordinates of the image. Here's how it would look all together:
 
 ```js
-// Assuming we have an OpenSeadragon Viewer called "viewer", we can catch the clicks 
+// Assuming we have an OpenSeadragon Viewer called "viewer", we can catch the clicks
 // with addHandler like so:
-viewer.addHandler('canvas-click', function(event) {
-    // The canvas-click event gives us a position in web coordinates.
-    var webPoint = event.position;
+viewer.addHandler("canvas-click", function (event) {
+  // The canvas-click event gives us a position in web coordinates.
+  var webPoint = event.position;
 
-    // Convert that to viewport coordinates, the lingua franca of OpenSeadragon coordinates.
-    var viewportPoint = viewer.viewport.pointFromPixel(webPoint);
+  // Convert that to viewport coordinates, the lingua franca of OpenSeadragon coordinates.
+  var viewportPoint = viewer.viewport.pointFromPixel(webPoint);
 
-    // Convert from viewport coordinates to image coordinates.
-    var imagePoint = viewer.viewport.viewportToImageCoordinates(viewportPoint);
+  // Convert from viewport coordinates to image coordinates.
+  var imagePoint = viewer.viewport.viewportToImageCoordinates(viewportPoint);
 
-    // Show the results.
-    console.log(webPoint.toString(), viewportPoint.toString(), imagePoint.toString());
+  // Show the results.
+  console.log(
+    webPoint.toString(),
+    viewportPoint.toString(),
+    imagePoint.toString()
+  );
 });
 ```
 
 [Openseadragon image cordinates - Developer Blogger (Improve Your Develop Skill)](http://www.developerblogger.com/168_18434175/)
 
-[msalsbery/OpenSeadragonViewerInputHook](https://github.com/msalsbery/OpenSeadragonViewerInputHook) overrides mouse tracking, see also [OpenSeadragon Class: MouseTracker](https://openseadragon.github.io/docs/OpenSeadragon.MouseTracker.html)  
+[msalsbery/OpenSeadragonViewerInputHook](https://github.com/msalsbery/OpenSeadragonViewerInputHook) overrides mouse tracking, see also [OpenSeadragon Class: MouseTracker](https://openseadragon.github.io/docs/OpenSeadragon.MouseTracker.html)
 
 ### Zoom
 
@@ -85,7 +89,7 @@ The demo also shows how to anchor an SVG annotation to the image
 Zoom level: the ratio of the image's native size to the displayed size
 Zoom factor / Pixel Zoom: the ratio of the displayed size to the image's native size
 
-Image zoom: ratio of the original image size to displayed image size. 1 means original image size, 0.5 half size... 
+Image zoom: ratio of the original image size to displayed image size. 1 means original image size, 0.5 half size...
 Viewport zoom: ratio of the displayed image's width to viewport's width. 1 means identical width, 2 means image's width is twice the viewport's width... Note: not accurate with multi-image.
 
 ```js
@@ -108,7 +112,7 @@ Disable overlay interaction with `$('.openseadragon-canvas').find('svg').css('po
 [openseadragon/svg-overlay](https://github.com/openseadragon/svg-overlay)  
 [Emigre/openseadragon-annotations](https://github.com/Emigre/openseadragon-annotations)
 [msalsbery/OpenSeadragonAnnoHost](https://github.com/msalsbery/OpenSeadragonAnnoHost) annotation, WIP  
-[picturae/openseadragonselection](https://github.com/picturae/openseadragonselection) make rectangular selection  
+[picturae/openseadragonselection](https://github.com/picturae/openseadragonselection) make rectangular selection
 
 [dgutman/OpenSeadragon-Plugins](https://github.com/dgutman/OpenSeadragon-Plugins) (WIP, evolved to svg-overlay)  
 [demo](http://dgutman.github.io/OpenSeadragon-Plugins/) [gh-pages](https://github.com/dgutman/OpenSeadragon-Plugins/tree/master/examples)
@@ -116,8 +120,9 @@ Port of [Raphael Vector Overlays for Seadragon AJAX | no.5 geekvault](http://no5
 
 ### Saving and Restoring FOV
 
-You should also be able to 
-- `var box = viewer.viewport.getBounds()` to get the current location 
+You should also be able to
+
+- `var box = viewer.viewport.getBounds()` to get the current location
 - `viewer.viewport.fitBounds(box)` to return to that location.
 
 [Get and restore zoom level and image position · Issue #418 · openseadragon/openseadragon](https://github.com/openseadragon/openseadragon/issues/418)
@@ -125,7 +130,7 @@ You should also be able to
 ### Icons
 
 [peterthomet/openseadragon-flat-toolbar-icons](https://github.com/peterthomet/openseadragon-flat-toolbar-icons)  
-[MartinPluta/OpenSeadragonCustomIcons](https://github.com/MartinPluta/OpenSeadragonCustomIcons)  
+[MartinPluta/OpenSeadragonCustomIcons](https://github.com/MartinPluta/OpenSeadragonCustomIcons)
 
 Of cause you can use custom toolbar and interact with OpenSeadragon via API.
 
@@ -134,11 +139,12 @@ Of cause you can use custom toolbar and interact with OpenSeadragon via API.
 [OSD in an iframe fails to end drag · Issue #579 · openseadragon/openseadragon](https://github.com/openseadragon/openseadragon/issues/579)
 
 [Dynamically toggle navigator? · Issue #907 · openseadragon/openseadragon](https://github.com/openseadragon/openseadragon/issues/907)
+
 ```js
 var navigatorShown = true;
 function toggleNavigator() {
-    navigatorShown = !navigatorShown;
-    viewer.navigator.element.style.display = navigatorShown ? 'block' : 'none';
+  navigatorShown = !navigatorShown;
+  viewer.navigator.element.style.display = navigatorShown ? "block" : "none";
 }
 ```
 

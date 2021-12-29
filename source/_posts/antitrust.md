@@ -2,9 +2,9 @@
 title: "Antitrust"
 date: 2015-04-04 00:43:35
 categories:
-- law
+  - law
 tags:
-- antitrust
+  - antitrust
 toc: true
 ---
 
@@ -19,18 +19,24 @@ Sherman Antitrust Act, Clayton Act, Federal Trade Commission Act
 2. Exit of producers who cannot make profit
 3. Monopoly prices
 
-*Wallace vs IBM* 467 F.3d 1104 (7th Circuit 2006)
+_Wallace vs IBM_ 467 F.3d 1104 (7th Circuit 2006)
+
+[美团被罚 34 亿！阿里被罚 182 亿！互联网垄断巨头是如何诞生的？ - YouTube](https://www.youtube.com/watch?v=lhgs5CUocgg)
+[为什么要反垄断？中美反垄断手段谁更强？ - YouTube](https://www.youtube.com/watch?v=UVpNYdkuzpI)
+
+[Social Network Theory and Metcalfe's Law - OnDigitalMarketing.com](https://ondigitalmarketing.com/learn/odm/foundations/social-network-theory-and-metcalfes-law/) value of social network is proportional to the square of number of users
 
 ## Price discrimination of complements
 
 proprietary vs open system competition
 the consumers who use relatively more of hte aftermarket products will pay more for use of the system as a whole
+
 > razor and blade example
 
 captures more consumer surplus and convert it to producer profit
 
-Douglas Phillips, *The Software License Unveiled*, (2009) Oxford University Press, 165-167
-Mark Glick & Duncan Cameron, *When Do Proprietary Aftermarkets Benefit Consumers?*, (1999) 67 Antutrust L.J. 357, 360-365
+Douglas Phillips, _The Software License Unveiled_, (2009) Oxford University Press, 165-167
+Mark Glick & Duncan Cameron, _When Do Proprietary Aftermarkets Benefit Consumers?_, (1999) 67 Antutrust L.J. 357, 360-365
 
 ## Tech Giants
 
@@ -38,3 +44,5 @@ Mark Glick & Duncan Cameron, *When Do Proprietary Aftermarkets Benefit Consumers
 
 [Opinion | It’s Time to Break Up Facebook - The New York Times](https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html) by Chris Hughes, Facebook founder
 [Opinion | Chris Hughes’s Call to Break Up Facebook: 5 Takeaways - The New York Times](https://www.nytimes.com/2019/05/09/opinion/chris-hughes-facebook.html)
+[Facebook cofounder Chris Hughes is now lobbying to break up the social media giant - The Washington Post](https://beta.washingtonpost.com/technology/2019/07/25/inside-chris-hughess-campaign-break-up-facebook-tech-monopoly-he-helped-create/?outputType=amp)
+[Chris Hughes And Facebook: What Are A Founder’s Responsibilities?](https://www.forbes.com/sites/enriquedans/2019/07/31/chris-hughes-and-facebook-what-are-a-founders-responsibilities/amp/)

@@ -10,11 +10,23 @@ date: 2015-06-17 11:32:04
 
 [Reverse proxy - Wikiwand](https://www.wikiwand.com/en/Reverse_proxy)
 [What is a Reverse Proxy Server? | NGINX](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
-[What is a Reverse Proxy vs. Load Balancer? - NGINX](https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/)
+
+[Proxy vs. Reverse Proxy (Explained by Example) - YouTube](https://www.youtube.com/watch?v=ozhe__GdWC8)
 [webserver - Difference between proxy server and reverse proxy server - Stack Overflow](https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+[Load balancing in Layer 4 vs Layer 7 with HAPROXY Examples - YouTube](https://www.youtube.com/watch?v=aKMLgFVxZYk)
+
+[Load Balancer vs Reverse Proxy (Explained by Example) - YouTube](https://www.youtube.com/watch?v=S8J2fkN2FeI)
+[What is a Reverse Proxy vs. Load Balancer? - NGINX](https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/)
+Load balancer is an application of reverse proxy
 
 [Load Balancing and B2 Cloud Storage](https://www.backblaze.com/blog/load-balancing-and-b2-cloud-storage/)
 [Load Balancer Administration - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/load_balancer_administration/)
+
+[The "subfolder problem", OR, "why can't I reverse proxy my app into a subfolder?" - Wiki - Caddy Community](https://caddy.community/t/the-subfolder-problem-or-why-cant-i-reverse-proxy-my-app-into-a-subfolder/8575)
+
+[10 Top Open Source Caching Tools for Linux in 2020](https://www.tecmint.com/open-source-caching-tools-for-linux/amp/)
+[PageSpeed Modules](https://www.modpagespeed.com/)
 
 ## Preserving client IP address
 
@@ -41,6 +53,8 @@ date: 2015-06-17 11:32:04
 [Armor - Uncomplicated, modern HTTP server](https://armor.labstack.com/)
 
 [Ultra Monkey:](http://www.ultramonkey.org/) uses IPVS
+
+[mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/)
 
 [micro/go-proxy: A proxy library for micro services](https://github.com/micro/go-proxy)
 
@@ -102,27 +116,108 @@ Used by Docker SwarmKit
 go get github.com/xyproto/algernon
 ```
 
+## LiteSpeed
+
+[LiteSpeed Web Server - Apache Alternative - LiteSpeed Technologies](https://www.litespeedtech.com/products/litespeed-web-server) compatible with Apache conf, supports HTTP/2, HTTP/3, event driven
+[LiteSpeed Technologies - YouTube](https://www.youtube.com/channel/UC2gbIbGhz3PR6N_U_MJLrzg)
+
+[Get OpenLiteSpeed!](https://openlitespeed.org/)
+[Easily Install OpenLiteSpeed in 1 Click! • OpenLiteSpeed](https://openlitespeed.org/kb/1-click-install/)
+
+## LiteSpeed Cache
+
+[What is LiteSpeed Cache? | LiteSpeed Documentation](https://docs.litespeedtech.com/lscache/)
+[Overview | LiteSpeed Cache Without a Plugin | LiteSpeed Documentation](https://docs.litespeedtech.com/lscache/noplugin/)
+
+[Overview | LSCache for WordPress | LiteSpeed Documentation](https://docs.litespeedtech.com/lscache/lscwp/)
+[LiteSpeed Cache for WordPress - LiteSpeed Technologies](https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration)
+
+[Overview | LiteSpeed Cache for Joomla! | LiteSpeed Documentation](https://docs.litespeedtech.com/lscache/lscjoomla/)
+[LiteSpeed Cache for Joomla - LiteSpeed Technologies](https://www.litespeedtech.com/products/cache-plugins/joomla-acceleration)
+[Configuration | LiteSpeed Cache for Joomla! | LiteSpeed Documentation](https://docs.litespeedtech.com/lscache/lscjoomla/settings/)
+
+### ESI
+
+[Edge Side Includes Caching for WordPress ⋆ LiteSpeed Blog](https://blog.litespeedtech.com/2017/09/06/wpw-esi-and-litespeed-cache/)
+[Guide to Using ESI in Joomla with LSCache ⋆ LiteSpeed Blog](https://blog.litespeedtech.com/2018/07/10/using-esi-in-joomla/)
+
 ## Caddy
 
-> sole developer of Caddy is making decisions against the community
-> this lead to the fork [WedgeServer/wedge](https://github.com/WedgeServer/wedge), but it's not actively developed
-> [Put A Fork In Caddy; It's Done](https://neflabs.com/blog/caddy-server/)
+> Caddy used to add Sponsor header and use different license for pre-built binaries
+> https://www.reddit.com/r/golang/comments/bgz0cd/announcing_caddy_10_caddy_2_and_caddy_enterprise/
+> Version 2.0 was released in May 2020, seems to have better community support
+
+> TODO: remove v1 docs (prior to May 2020)
 
 [Caddy - The HTTP/2 Web Server with Fully Managed SSL](https://caddyserver.com/)
-[mholt/caddy: Fast, cross-platform HTTP/2 web server with automatic HTTPS](https://github.com/mholt/caddy)
-[ZZROTDesign/alpine-caddy: Alpine Linux Docker Container running Caddyserver](https://github.com/ZZROTDesign/alpine-caddy)
+prebuild librabry from download page are [licensed differently](https://caddy.community/t/caddy-server-its-free-for-live-server/3371)
+[caddyserver/caddy: Fast, multi-platform web server with automatic HTTPS](https://github.com/caddyserver/caddy)
+[caddyserver/caddy-docker: Source for the official Caddy v2 Docker Image](https://github.com/caddyserver/caddy-docker)
+[caddyserver/dist: Resources for packaging and distributing Caddy](https://github.com/caddyserver/dist) systemd unit file
+
+```dockerfile
+FROM caddy:2-builder-alpine AS builder
+
+RUN xcaddy build \
+	--with github.com/greenpau/caddy-auth-jwt \
+	--with github.com/greenpau/caddy-auth-portal \
+	--with github.com/aksdb/caddy-cgi \
+	--with github.com/abiosoft/caddy-json-parse \
+	--with github.com/greenpau/caddy-trace \
+	--with github.com/RussellLuo/caddy-ext/ratelimit \
+	--with github.com/chukmunnlee/caddy-openapi \
+	--with github.com/lucaslorentz/caddy-docker-proxy/plugin \
+	--with github.com/casbin/caddy-authz \
+	--with github.com/mholt/caddy-l4 \
+	--with github.com/mholt/caddy-ratelimit
+
+FROM caddy:2-alpine
+
+# overwrites caddy with my custom build
+COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+```
+
+```
+https://caddyserver.com/download?\
+  package=github.com%2Fgreenpau%2Fcaddy-auth-jwt&\
+  package=github.com%2Fgreenpau%2Fcaddy-auth-portal&\
+  package=github.com%2Faksdb%2Fcaddy-cgi%2Fv2&\
+  package=github.com%2Fabiosoft%2Fcaddy-json-parse&\
+  package=github.com%2Fgreenpau%2Fcaddy-trace&\
+  package=github.com%2FRussellLuo%2Fcaddy-ext%2Fratelimit&\
+  package=github.com%2Fchukmunnlee%2Fcaddy-openapi&\
+  package=github.com%2Flucaslorentz%2Fcaddy-docker-proxy%2Fplugin%2Fv2&\
+  package=github.com%2Fcasbin%2Fcaddy-authz%2Fv2&\
+  package=github.com%2Fmholt%2Fcaddy-l4&\
+  package=github.com%2Fmholt%2Fcaddy-ratelimit
+```
+
+[Welcome — Caddy Documentation](https://caddyserver.com/docs/)
+[Getting Started — Caddy Documentation](https://caddyserver.com/docs/getting-started)
+[Upgrading to Caddy 2 — Caddy Documentation](https://caddyserver.com/docs/v2-upgrade)
+[Caddy Community](https://caddy.community/)
+[Top Wiki topics - Caddy Community](https://caddy.community/c/wiki/13)
+
+[Anyone else dislike v2? - Help - Caddy Community](https://caddy.community/t/anyone-else-dislike-v2/8191/10)
+[For Mastodon Caddy Setting file. (Based on official Nginx configuration example) [Last Update: May 16, 2020]](https://gist.github.com/ehlxr/37764950fcb4d68d3a00b5f0000823e7) v1 -> v2
+[Upgrading to Caddy 2 — Caddy Documentation](https://caddyserver.com/docs/v2-upgrade)
+
+[Caddy offers TLS, HTTPS, and more in one dependency-free Go Web server – Ars Technica](https://arstechnica.com/gadgets/2020/05/caddy-offers-tls-https-and-more-in-one-dependency-free-go-web-server/?amp=1)
+
+### v1
+
+[Command Line Interface - Caddy](https://caddyserver.com/docs/cli) v1
+[caddyserver/examples: Simple guided examples of how to use Caddy](https://github.com/caddyserver/examples) v1
+
+[abiosoft/caddy](https://hub.docker.com/r/abiosoft/caddy/tags)
+[zzrot/alpine-caddy](https://hub.docker.com/r/zzrot/alpine-caddy)
 
 [Simply Secure » Linux Magazine](http://www.linux-magazine.com/Issues/2018/213/Caddy)
 [Today I became a Go developer, with vim and Caddy](https://coolaj86.com/articles/today-i-became-a-golang-dev-with-vim-and-caddy/)
 [A Look Inside Caddy, a Web Server Written in Go](https://blog.gopheracademy.com/caddy-a-look-inside/)
 
-[Caddy User Guide](https://caddyserver.com/docs)
-[Command Line Interface - Caddy](https://caddyserver.com/docs/cli)
-[caddy/dist/init/linux-systemd at master · mholt/caddy](https://github.com/mholt/caddy/tree/master/dist/init/linux-systemd)
-[caddyserver/examples: Simple guided examples of how to use Caddy](https://github.com/caddyserver/examples)
-[Add WSGI directive for serving Python apps · Issue #176 · mholt/caddy](https://github.com/mholt/caddy/issues/176)
-
 ```sh
+# OBSOLETE v1 instructions
 curl https://getcaddy.com | bash -s personal http.cors,http.expires,http.filemanager,http.filter,http.forwardproxy,http.git,http.hugo,http.jwt,http.locale,http.login,http.minify
 
 mkdir caddy; cd caddy
@@ -132,16 +227,74 @@ tar xzf caddy_linux_amd64.tar.gz
 ./caddy browse -log ./log -port 80 -root <WWW_ROOT>
 ```
 
+### Config
+
+[Caddyfile Quick-start — Caddy Documentation](https://caddyserver.com/docs/quick-starts/caddyfile)
+[Caddyfile Tutorial — Caddy Documentation](https://caddyserver.com/docs/caddyfile-tutorial)
+[The Caddyfile — Caddy Documentation](https://caddyserver.com/docs/caddyfile)
+
+[API Quick-start — Caddy Documentation](https://caddyserver.com/docs/quick-starts/api)
+[API — Caddy Documentation](https://caddyserver.com/docs/api)
+
+[JSON Config Structure - Caddy Documentation](https://caddyserver.com/docs/json/)
+
+[Command Line — Caddy Documentation](https://caddyserver.com/docs/command-line)
+
+```sh
+caddy run --config /path/to/Caddyfile
+caddy start --config /path/to/Caddyfile  # in background
+caddy file-server browse
+```
+
+[Top Wiki topics - Caddy Community](https://caddy.community/c/wiki/13)
+[So You Want to Write a Caddyfile - Wiki - Caddy Community](https://caddy.community/t/so-you-want-to-write-a-caddyfile/8205)
+[Composing in the Caddyfile - Wiki - Caddy Community](https://caddy.community/t/composing-in-the-caddyfile/8291)
+
+#### CORS
+
+[Caddy v2.1 CORS whitelist](https://gist.github.com/ryanburnette/d13575c9ced201e73f8169d3a793c1a3) use `import` directive
+[Implementing CORS whitelist in Caddy v2 - Help - Caddy Community](https://caddy.community/t/implementing-cors-whitelist-in-caddy-v2/8590) including 2.0 solution
+
 ### Videos
 
 [Provo Linux User Group - 2/16/16 - Matt Holt - "Caddy" - YouTube](https://www.youtube.com/watch?v=ZyVA9tuif4s)
 [Caddy server Git add-on tutorial. - YouTube](https://www.youtube.com/watch?v=dmat1MUT0fc)
+
+### Module/Plugin
+
+[Extending Caddy — Caddy Documentation](https://caddyserver.com/docs/extending-caddy)
+
+[Modules - Caddy Documentation](https://caddyserver.com/docs/modules/) built-in modules
+[Download Caddy](https://caddyserver.com/download) select bundled modules
+[caddyserver/xcaddy: Build Caddy with plugins](https://github.com/caddyserver/xcaddy)
+
+[mholt/caddy-l4: Layer 4 (TCP/UDP) app for Caddy](https://github.com/mholt/caddy-l4)
+
+[abiosoft/caddy-git: git middleware for Caddy](https://github.com/abiosoft/caddy-git) for deployment
+
+[mholt/caddy-ratelimit: HTTP rate limiting module for Caddy 2](https://github.com/mholt/caddy-ratelimit)
+[caddy-ext/ratelimit at master · RussellLuo/caddy-ext](https://github.com/RussellLuo/caddy-ext/tree/master/ratelimit)
+[greenpau/caddy-auth-portal: Authentication Plugin for Caddy v2 implementing Form-Based, Basic, Local, LDAP, OpenID Connect, OAuth 2.0 (Github, Google, Facebook, Okta, etc.), SAML Authentication](https://github.com/greenpau/caddy-auth-portal)
+[greenpau/caddy-auth-jwt: JWT Authorization Plugin for Caddy v2](https://github.com/greenpau/caddy-auth-jwt)
+[lucaslorentz/caddy-docker-proxy: Caddy as a reverse proxy for Docker](https://github.com/lucaslorentz/caddy-docker-proxy)
+
+[casbin/caddy-authz: Caddy-authz is a middleware for Caddy that blocks or allows requests based on access control policies.](https://github.com/casbin/caddy-authz)
+[casbin/casbin: An authorization library that supports access control models like ACL, RBAC, ABAC in Golang](https://github.com/casbin/casbin)
+
+[How to use DNS provider modules in Caddy 2 - Wiki - Caddy Community](https://caddy.community/t/how-to-use-dns-provider-modules-in-caddy-2/8148)
+[caddy-dns](https://github.com/caddy-dns)
+[mholt/caddy-dynamicdns: Caddy app that keeps your DNS records (A/AAAA) pointed at itself.](https://github.com/mholt/caddy-dynamicdns)
+
+## lighttpd
+
+[lighttpd - ArchWiki](https://wiki.archlinux.org/title/Lighttpd)
 
 ## Phusion Passenger
 
 [Fast web server & app server, Ruby Python Node.js - Phusion Passenger](https://www.phusionpassenger.com/)
 [Passenger Library](https://www.phusionpassenger.com/library/)
 [Phusion Passenger Design and Architecture](https://www.phusionpassenger.com/documentation/Design and Architecture.html)
+[phusion/passenger: A fast and robust web server and application server for Ruby, Python and Node.js](https://github.com/phusion/passenger)
 
 [What's new in Passenger 5 part 1: performance and HTTP JSON API](https://blog.phusion.nl/2015/03/04/whats-new-in-passenger-5-part-1-performance-and-http-json-api/)
 [What's new in Passenger 5 part 2: better logging, better restarting, better WebSockets and more](https://blog.phusion.nl/2015/03/04/whats-new-in-passenger-5-part-2-better-logging-better-restarting-better-websockets-and-more/)
@@ -177,10 +330,11 @@ Auto load-balancing, supports multiple service registries (Docker, Kubernetes, M
 [Traefik - a Modern HTTP Reverse Proxy and Load Balancer for Microservices such as Docker](https://sysadmins.co.za/traefik-a-modern-http-reverse-proxy-and-load-balancer-for-microservices-such-as-docker/)
 [Quick & Easy HTTPS For Local Development - via @codeship | via @codeship](https://blog.codeship.com/quick-easy-https-for-local-development/)
 [Traefik a Reverse Proxy alternative to Nginx - YouTube](https://www.youtube.com/watch?v=GsBXAunkPWg)
+[Running Traefik on Worker Nodes More Securely – mikesir87's blog](https://blog.mikesir87.io/2019/08/running-traefik-on-worker-nodes-more-securely/)
 
 ## Keepalived
 
 [Keepalived for Linux](http://www.keepalived.org/)
 
-[Chapter 2. Keepalived Overview - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/load_balancer_administration/ch-keepalived-overview-vsa)
+[Chapter 2. Keepalived Overview - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/load_balancer_administration/ch-keepalived-overview-vsa)
 [How To Set Up Highly Available Web Servers with Keepalived and Floating IPs on Ubuntu 14.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-highly-available-web-servers-with-keepalived-and-floating-ips-on-ubuntu-14-04)

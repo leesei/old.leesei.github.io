@@ -17,6 +17,9 @@ date: 2018-09-12 21:14:21
 [JohnAudioTech - YouTube](https://www.youtube.com/user/JohnAudioTech/)
 [How To Mechatronics](https://howtomechatronics.com/)
 [How To Mechatronics - YouTube](https://www.youtube.com/channel/UCmkP178NasnhR3TWQyyP4Gw)
+[Engineers - The Engineering Mindset](https://theengineeringmindset.com/)
+[The Engineering Mindset - YouTube](https://www.youtube.com/channel/UCk0fGHsCEzGig-rSzkfCjMw)
+[工科男孙老师 - YouTube](https://www.youtube.com/channel/UCcGM3aVEJ6SrH5UtfZ80YHQ)
 [Components101 - Electronic Components Pinouts, Details & Datasheets](https://components101.com/)
 [Electronics Projects Circuits](https://www.electroschematics.com/)
 [Blog • AranaCorp](https://www.aranacorp.com/en/blog-2/)
@@ -25,6 +28,11 @@ date: 2018-09-12 21:14:21
 [20 Free Guides for Arduino Modules and Sensors | Random Nerd Tutorials](https://randomnerdtutorials.com/20-free-guides-for-arduino-modules-and-sensors/)
 
 [用 Raspberry Pi 學 GPIO - 自己做遊戲機](https://www.slideshare.net/raspberrypi-tw/gpio-gameconsolestarterkit) concepts and many components
+
+## Teardown sites
+
+[iFixit: The Free Repair Manual](https://www.ifixit.com/)
+[微机分 WekiHome - YouTube](https://www.youtube.com/channel/UCTJJX_LQcDED7MZbt9OSeQQ)
 
 ## Hardware stores
 
@@ -35,6 +43,7 @@ date: 2018-09-12 21:14:21
 [Libre Computer – Open Computing Realized](https://libre.computer/)
 [奇果派工坊 | 这里总在创造一些有趣的作品](http://www.7gp.cn/)
 [深圳市微雪电子有限公司](http://www.waveshare.net/index.htm)
+[立创商城*电子元器件采购网上商城*领先的现货元器件交易平台-嘉立创电子商城](https://www.szlcsc.com/)
 
 [首页-都会明武电子-淘宝网](https://shop111496966.taobao.com/) generally cheap
 [首页-单片机配件批发-淘宝网](https://aogerkj.world.taobao.com/) boards
@@ -158,30 +167,65 @@ Micro USB cable 1m ¥0.6
 
 #### Bluetooth
 
-[HC-06 带针带底板 从机蓝牙模块无线串口通讯 HC-06蓝牙模块-淘宝网](https://item.taobao.com/item.htm?id=556963467581) ¥15.5 (¥15)
-[JDY-31蓝牙模块 2.0/3.0 SPP协议 android 兼容HC-05/06 JDY-30-淘宝网](https://item.taobao.com/item.htm?id=583576696722) ¥7.9 (¥7.4)
+[HC-06 带针带底板 从机蓝牙模块无线串口通讯 HC-06 蓝牙模块-淘宝网](https://item.taobao.com/item.htm?id=556963467581) ¥15.5 (¥15)
+[JDY-31 蓝牙模块 2.0/3.0 SPP 协议 android 兼容 HC-05/06 JDY-30-淘宝网](https://item.taobao.com/item.htm?id=583576696722) ¥7.9 (¥7.4)
 [BC04-B 主从一体 蓝牙串口适配器 蓝牙串口模块 蓝牙转串口模块-淘宝网](https://item.taobao.com/item.htm?id=561117135926) ¥17 (¥16.5)
-[AT-09蓝牙4.0BLE 模块 串口引出 CC2541兼容HM-10模块 连接单片机-淘宝网](https://item.taobao.com/item.htm?id=560976890804) ¥10.9 (¥10.4)
-[DX-BT18-LE蓝牙模块BLE4.2单模无线串口透传替换HC06/HC05/CC2541-淘宝网](https://item.taobao.com/item.htm?id=573412486862) ¥10.5 (¥6.6)
+[AT-09 蓝牙 4.0BLE 模块 串口引出 CC2541 兼容 HM-10 模块 连接单片机-淘宝网](https://item.taobao.com/item.htm?id=560976890804) ¥10.9 (¥10.4)
+[DX-BT18-LE 蓝牙模块 BLE4.2 单模无线串口透传替换 HC06/HC05/CC2541-淘宝网](https://item.taobao.com/item.htm?id=573412486862) ¥10.5 (¥6.6)
 
 #### 2.4G
 
-[NRF24L01 无线模块迷你版 功率加强版 2.4G无线收发模块-淘宝网](https://item.taobao.com/item.htm?id=568875998822) ¥4.2 (¥2.98)
-[NRF24L01+ 无线模块 功率加强版 2.4G无线收发通信模块-淘宝网](https://item.taobao.com/item.htm?id=562770079236) ¥3.4 (¥2.69)
+[NRF24L01 无线模块迷你版 功率加强版 2.4G 无线收发模块-淘宝网](https://item.taobao.com/item.htm?id=568875998822) ¥4.2 (¥2.98)
+[NRF24L01+ 无线模块 功率加强版 2.4G 无线收发通信模块-淘宝网](https://item.taobao.com/item.htm?id=562770079236) ¥3.4 (¥2.69)
 
 #### 433M
 
-[433M 超再生模块 无线发射模块 防盗报警发射器 接收器 433频率-淘宝网](https://item.taobao.com/item.htm?id=24920456663) ¥3.5 (¥3)
+[433M 超再生模块 无线发射模块 防盗报警发射器 接收器 433 频率-淘宝网](https://item.taobao.com/item.htm?id=24920456663) ¥3.5 (¥3)
 
 ### Motors
 
 [智能小车减速电机的减速比 1：48 和 1：120 和 1：288 哪个速度大？🙏\_百度知道](https://zhidao.baidu.com/question/1576385783286323940.html)
-输出速度与减速比成反比,数比越大输出速度越小,1:48的速度最快
+输出速度与减速比成反比,数比越大输出速度越小,1:48 的速度最快
+減速越大, 減速箱越長
 
-3-6V DC motor ¥0.6
+3-6V DC motor (TT 马达) ¥0.6
+1：120 （电压：6V ）扭力：2KG 转速： 100
 
-[模型电机-金色传说-淘宝网](https://best10.world.taobao.com/p/PCwebmotor.htm?spm=2013.1.w5002-14621716560.6.b94d6424PIL4y8)
-[电机-金色传说-淘宝网](https://best10.world.taobao.com/category-1168126533.htm?spm=a312a.7700824.w4002-14621716600.68.60957084y9EvtL&_ksTS=1562665217014_500&callback=jsonp501&mid=w-14621716600-0&wid=14621716600&path=%2Fcategory-1168126533.htm&search=y&catName=%B5%E7%BB%FA&parentCatId=227343063&parentCatName=DIY%CA%D6%B9%A4&catId=1168126533&pageNo=8#bd)
+1：48
+| 额定电压 | 电流 | 转速 | 扭矩 |
+|:--------:|:------:|:------------:|:------------:|
+| 3V | ≤170mA | 115±10%转/分 | 0.7±10%kgf.cm |
+| 6V | ≤230mA | 255±10%转/分 | 1.2±10%kgf.cm |
+| 7.2V | ≤250mA | 320±10%转/分 | 1.5±10%kgf.cm |
+
+[370 固定座-淘宝网](https://item.taobao.com/item.htm?id=547097414673)
+
+[模型电机-金色传说-淘宝网](https://best10.world.taobao.com/p/PCwebmotor.htm)
+[电机-金色传说-淘宝网](https://best10.world.taobao.com/category-1168126533.htm)
+[减速电机-金牌数码经营部-淘宝网](https://shop137693321.taobao.com/category-1299248908.htm) clear spec
+
+[Tachometer (RPM Meter) || DIY or Buy || How a 3€ sensor outdoes a 29€ product! - YouTube](https://www.youtube.com/watch?v=6QZMt4yyylU)
+
+#### Specification
+
+[LEGO 9V Technic Motors compared characteristics](http://www.philohome.com/motors/motorcomp.htm) for reference
+
+755,795 M4, 29mm
+895 M4/M5, 32mm
+545,550 M3, 25mm
+370 M3, 17mm
+[25GA310](https://item.taobao.com/item.htm?id=595266368400) M3, 17mm
+[25GA370](https://item.taobao.com/item.htm?id=545810698626) [GA25-310](https://item.taobao.com/item.htm?id=580692934879)
+395 M3, 16mm
+380 M2.5, 15.8mm
+385,390 M2.5
+270 M2.5, 14mm
+365 M2.5, 16mm
+360 M2, 16mm
+150 M2, 12mm
+300 M1.6
+
+#### Tamiya GearBox
 
 [Dual Motor GearBox - ROB-00319 - SparkFun Electronics](https://www.sparkfun.com/products/319) RC300 motor; 12.7-114:1
 [TAMIYA 70203 三速可选齿轮箱-淘宝网](https://item.taobao.com/item.htm?id=549862473553)
@@ -189,8 +233,10 @@ Micro USB cable 1m ¥0.6
 [TAMIYA 70110 四速可选齿轮箱-淘宝网](https://item.taobao.com/item.htm?id=520519308322) 120 motor; 126,441:1; 1543,5402:1 (clutched)
 [TAMIYA 70188 八速可选齿轮箱-淘宝网](https://item.taobao.com/item.htm?id=549811444298) 4.6-661:1
 [TAMIYA 70190 十二速可选齿轮箱-淘宝网](https://item.taobao.com/item.htm?id=549862057900) 4.6-661:1
-[TAMIYA 70168 左右独立齿轮箱组 4速可变-淘宝网](https://item.taobao.com/item.htm?id=43874865018) 130 motir; 12.7-344:1
+[TAMIYA 70168 左右独立齿轮箱组 4 速可变-淘宝网](https://item.taobao.com/item.htm?id=43874865018) 130 motir; 12.7-344:1
 [TAMIYA 70108 坦克底盘-淘宝网](https://item.taobao.com/item.htm?id=44597598746)
+
+#### Servo
 
 [TowerPro Servos](https://servodatabase.com/servos/towerpro)
 [Servos & Parts | Product Categories | Tower Pro](http://www.towerpro.com.tw/product-category/servos-parts/)
@@ -206,10 +252,11 @@ SG: Plastic Gears, MG: Metal Gears
 [MG995](https://servodatabase.com/servo/towerpro/mg995) 9.40/11kg digital ¥9.20
 Servo platform ¥1.36
 
-Motor Control
+#### Motor Control
+
 TB6612 16pins 24.7\*21.5mm ¥3.8
 DRV8833 12pins 18.4x16mm ¥2-3
-https://item.taobao.com/item.htm?id=556104612770 ¥3.3 (¥1.28)
+[直流电机驱动板 2 路电机驱动模块 DRV8833 电机驱动模块 小体积-淘宝网](https://item.taobao.com/item.htm?id=556104612770) ¥3.3 (¥1.28)
 [Fundumoto](https://item.taobao.com/item.htm?id=526097040453) L298P Motor Shield ¥20.1 (¥13.9)
 [PCA9685](https://item.taobao.com/item.htm?id=556596835627) ¥10.4 (¥8.6)
 
@@ -259,10 +306,10 @@ HLK-5M12 5W 220V 转 12V
 
 ### Switch
 
-[拨动开关 迷你开关 diy电子制作套件 带孔 电子元件 电路制作-淘宝网](https://item.taobao.com/item.htm?id=8841223362) ¥0.28
-[拨动开关座 开关免焊座 玩具配件 科技积木零件 diy模型电路材料-淘宝网](https://item.taobao.com/item.htm?id=558006723937) case ¥0.2
-[黑色方形开关(自锁两脚) 开源单片机微型开关配件 电子DIY材料-淘宝网](https://item.taobao.com/item.htm?id=544060756592) ¥0.55
-[自锁圆扭开关 DIY电子制作材料 圆形开关 微型迷你开关 开源硬件-淘宝网](https://item.taobao.com/item.htm?id=525733009719) ¥0.72
+[拨动开关 迷你开关 diy 电子制作套件 带孔 电子元件 电路制作-淘宝网](https://item.taobao.com/item.htm?id=8841223362) ¥0.28
+[拨动开关座 开关免焊座 玩具配件 科技积木零件 diy 模型电路材料-淘宝网](https://item.taobao.com/item.htm?id=558006723937) case ¥0.2
+[黑色方形开关(自锁两脚) 开源单片机微型开关配件 电子 DIY 材料-淘宝网](https://item.taobao.com/item.htm?id=544060756592) ¥0.55
+[自锁圆扭开关 DIY 电子制作材料 圆形开关 微型迷你开关 开源硬件-淘宝网](https://item.taobao.com/item.htm?id=525733009719) ¥0.72
 
 ### Battery
 
@@ -289,7 +336,7 @@ AAA Battery box ¥2.8
 [18650 电池盒 2 节 7.4V](https://item.taobao.com/item.htm?id=15861846469) ¥0.8
 [18650 电池盒 2 节 3.7V](https://item.taobao.com/item.htm?id=563791050431) ¥1.2
 [18650 电池盒 2 节 7.4V DC 头](https://item.taobao.com/item.htm?id=562548800596) ¥1.8 (¥1.6)
-[带盖带开关 2节 18650电池盒 带红黑线 7.4v锂电池盒 18650串联-淘宝网](https://item.taobao.com/item.htm?id=562173002714) ¥2.5
+[带盖带开关 2 节 18650 电池盒 带红黑线 7.4v 锂电池盒 18650 串联-淘宝网](https://item.taobao.com/item.htm?id=562173002714) ¥2.5
 [18650 双槽充电器](https://item.taobao.com/item.htm?id=532137208899) ¥5.44 (¥5)
 
 ### Logic Level converter 电平转换
@@ -353,7 +400,7 @@ LCD Keypad Shield (D1 ROBOT, for Arduino) ¥9 (¥8.8)
 [M3 nuts M3 六角螺母](https://item.taobao.com/item.htm?id=542772804676) 100pcs ¥1
 [M3\*5mm screws](https://item.taobao.com/item.htm?id=542810719783) 100pcs 沉頭 ¥3
 [M3\*10mm screws](https://item.taobao.com/item.htm?id=39372990620) 100pcs 沉頭 ¥1.8
-[M3螺丝 M3*5/8/10/12/20mm 圆头 螺纹部分长5/8/10/11.5/19 100只-淘宝网](https://item.taobao.com/item.htm?id=23107324713) 100pcs ¥1-4
+[M3 螺丝 M3\*5/8/10/12/20mm 圆头 螺纹部分长 5/8/10/11.5/19 100 只-淘宝网](https://item.taobao.com/item.htm?id=23107324713) 100pcs ¥1-4
 [3MM 石棉垫 100pcs](https://item.taobao.com/item.htm?id=2740424887) ¥0.95
 [3MM 金屬垫 100pcs](https://item.taobao.com/item.htm?id=2740424887) ¥2
 [M3 6+6mm 铜柱 10pcs](https://item.taobao.com/item.htm?id=39365199455) ¥1
@@ -373,15 +420,9 @@ LCD Keypad Shield (D1 ROBOT, for Arduino) ¥9 (¥8.8)
 
 [M4 铜柱 单头六角铜柱 六角隔离柱 铜柱螺丝 主板机箱铜柱螺丝帽-tmall.com 天猫](https://detail.tmall.com/item.htm?id=521104400190&skuId=3105120099312)
 
-Screws for motors:
-755,795 M4, 29mm
-895 M4/M5, 32mm
-545 M3
-370 M3
-380,385,390 M2.5
-360 M2
-150 M2, 12mm
-300 M1.6
+[5 Confusing PC Building Facts - YouTube](https://www.youtube.com/watch?v=Yf2Anm6kpWg)
+Coarse: UTS 6-32
+Fine: M-3
 
 ### Audio
 
@@ -415,6 +456,7 @@ RX, TX without clock
 [Serial Terminal Basics - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/terminal-basics/all)
 
 [RS-232 vs. TTL Serial Communication - SparkFun Electronics](https://www.sparkfun.com/tutorials/215)
+[Selecting and Using RS-232, RS-422, and RS-485 Serial Data Standards - Tutorial - Maxim](https://www.maximintegrated.com/en/app-notes/index.mvp/id/723)
 
 ### I2C
 
@@ -468,11 +510,20 @@ Endian
 [Arduino - SPI](https://www.arduino.cc/en/Reference/SPI)
 
 [Electronic Basics #36: SPI and how to use it - YouTube](https://www.youtube.com/watch?v=fvOAbDMzoks)
+[SPI: The serial peripheral interface - YouTube](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
 
 ### I2S
 
 [I²S - Wikiwand](https://www.wikiwand.com/en/I²S) Inter-IC Sound
 [Arduino - I2S](https://www.arduino.cc/en/Reference/I2S)
+
+### JACDAC
+
+[JACDAC | A single wire protocol for the plug and play of sensors, actuators, and microcontrollers.](https://jacdac.org/)
+[JACDAC | Getting Started](https://jacdac.org/getting-started/)
+[JACDAC | Specification](https://jacdac.org/specification/)
+
+JACDAC over stereo audio cables and JACDAC over WebUSB
 
 ## AD/DA
 
@@ -505,14 +556,39 @@ CD74HC4067
 
 [Arduino DAC Guide](https://www.electroschematics.com/13858/arduino-dac-guide/)
 
+## Power
+
+[DIY LiPo Charge/Protect/5V Boost Circuit - YouTube](https://www.youtube.com/watch?v=Fj0XuYiE7HU)
+[#250 Universal Power Source (UPS) for only 2\$. Is this possible? (Raspberry Pi, Arduino, ESP32) - YouTube](https://www.youtube.com/watch?v=joAkJ9QA2bw)
+Charger: TP4056
+LDO: LM6206N3
+Boost: FP6298
+Protection: FS8205A
+
+[How to power ANYTHING using USB-C Power Delivery and the ZY12PDN PD Trigger Board - YouTube](https://www.youtube.com/watch?v=aIHj3qMRqqE)
+[USB-C PD2.0 3.0 转 DC 诱骗快充触发轮询检测器笔记本供电改 Type-C-淘宝网](https://item.taobao.com/item.htm?id=549572674183)
+[USB-C PD2.0 3.0 转 DC 诱骗快充触发轮询检测器笔记本供电改 Type-C-tmall.com 天猫](https://detail.tmall.com/item.htm?id=615597429441&skuId=4340430801267)
+
+[DIY - 12V Mini UPS - YouTube](https://www.youtube.com/watch?v=IlEnEn7ptmc)
+
+[AC-DC Power Conversion on a GaN Device Evaluation Board - Power Electronics News](https://www.powerelectronicsnews.com/ac-dc-power-conversion-on-a-gan-device-evaluation-board/)
+
 ## Voltage-Level Shifter
 
 [Logic Levels - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/logic-levels)
 [逻辑电平转换 - 应用笔记 - Maxim](https://www.maximintegrated.com/cn/app-notes/index.mvp/id/3007)
 
 [Power For Your Electronics Projects - Voltage Regulators and Converters - YouTube](https://www.youtube.com/watch?v=IT19dg73nKU)
+[电源芯片选型 | LDO 那么烫手，你确定不试试 DC-DC？ - YouTube](https://www.youtube.com/watch?v=u1O9B7vzA5g)
+[Buck converter vs. linear voltage regulator - practical comparison - YouTube](https://www.youtube.com/watch?v=giGRrODKJSE)
+[How to Design 12V to 5V Buck Converter 一起设计一款好用的 12V 转 5V 电源模块 - YouTube](https://www.youtube.com/playlist?list=PLBpCr1fi_kFbyh0TMSjQk9jeb3ThH9svX) 工科男孙老师
+
+[Is this the BEST Voltage Converter? Trying to build a Synchronous Converter! - YouTube](https://www.youtube.com/watch?v=W4i2FRZ8gXc)
+
+[2 毛钱得线性稳压器（LDO）你也敢用？1117 完整评测 - YouTube](https://www.youtube.com/watch?v=nPoCUlWztKc)
 
 Voltage regulators:
+These are like a dynamic resistor the produces quite a lot of heat
 78XX (7805, 7812), Out: 1.5A, less efficient
 LM317, Out: _Variable_ 1.5A, less efficient
 PSM-165 Module, In: 4.5-12V, Out: 800mA, used by Uno, more efficient
@@ -523,8 +599,6 @@ Buck converter, like voltage regulator, can be used to lower the voltage of inpu
 MP1584EN
 Mini-360, In: 4.75-23V, Out: 1-17V 1.8A 3A peak
 LM2678, In: 8-30V, Out: 5V 3A
-
-[Buck converter vs. linear voltage regulator - practical comparison - YouTube](https://www.youtube.com/watch?v=giGRrODKJSE)
 
 Boost converter, works in the same principle as buck converter, increase the input voltage, extremely efficient (~95%).
 PSM-205, In: 0.9-5V, Out: 5V 600mA
@@ -573,6 +647,7 @@ PAM8406 2-5.5V, 5W, stereo
 [(SKU:DFR0299)DFPlayer Mini 模块 - DFRobot Product Wiki](http://wiki.dfrobot.com.cn/index.php/(SKU:DFR0299%29DFPlayer_Mini模块)
 
 [Stonez56: Family, Life, Kids, Work, Arduino: Arduino - DFPlayer Mini MP3 Module](https://stonez56.blogspot.com/2015/03/arduino-dfplayer-mini-mp3-module.html) no common ground, RX not at 3.3V
+[ESP8266 MP3 Sound Machine - Self Hosted Home](https://selfhostedhome.com/esp8266-mp3-sound-machine/)
 
 ## 7 Segment Display
 
@@ -582,11 +657,17 @@ PAM8406 2-5.5V, 5W, stereo
 [Driving a 7 segment display with a 4511 BCD to 7 Segment Driver - Protostack](https://protostack.com.au/2009/09/driving-a-7-segment-display-with-a-4511-bcd-to-7-segment-driver/)
 [Arduino 7 Segment LED Display and Counter](https://www.electroschematics.com/9636/arduino-segment-display-counter/)
 
+[How to Use a 7-Segment Display with Raspberry Pi Pico | Tom's Hardware](https://www.tomshardware.com/amp/how-to/raspberry-pi-pico-7-segment-display)
+
 ## LCD
 
 [Arduino - LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal)
 [Arduino Playground - LiquidCrystal Library](https://playground.arduino.cc/Main/LiquidCrystal)
 [Overview | Character LCDs | Adafruit Learning System](https://learn.adafruit.com/character-lcds?view=all)
+
+[olikraus/u8g2: U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
+[Learn Arduino Tutorial Project Ep.2 - LCD and OLED Text - How to Draw - SPI & I2C - YouTube](https://www.youtube.com/watch?v=W_gwDvxt7zc)
+[Learn Arduino Tutorial Project Ep.3 - LCD and OLED Graphics - Lines and Shapes - SPI & I2C - YouTube](https://www.youtube.com/watch?v=qmurt7uGH1Y)
 
 If the LCD has 2 rows of 16 characters (1602) and 16 pins, its probably Hitachi HD44780 or compatible.
 [HD44780 Character LCD Displays - Part 1 - Protostack](https://protostack.com.au/2010/03/character-lcd-displays-part-1/)
@@ -597,6 +678,7 @@ If the LCD has 2 rows of 16 characters (1602) and 16 pins, its probably Hitachi 
 [How to connect and use a Character LCD using only 2 pins – Brainy-Bits](https://www.brainy-bits.com/connect-a-character-lcd-using-the-i2c-bus/)
 [Makeblcok 電子模組手冊----2.2 吋 TFT 彩屏 - 軟硬體開源區 - 圓創力科技.MakeBlock TW -](http://magiccar.let-do.com/forum.php?mod=viewthread&tid=519&extra=page%3D2) serial interface
 [ESP32 Drives Controllerless Display Using I2S Hack | Hackaday](https://hackaday.com/2019/03/07/esp32-drives-controllerless-display-using-i2s-hack/)
+[adafruit/Adafruit-ST7735-Library: This is a library for the Adafruit 1.8" SPI display http://www.adafruit.com/products/358 and http://www.adafruit.com/products/618](https://github.com/adafruit/Adafruit-ST7735-Library)
 
 [Bitmap converter for mono and color LCD displays](http://en.radzio.dxp.pl/bitmap_converter/)
 
@@ -624,6 +706,9 @@ TCA9548A demux multiple data streams on i2c and send them to component separatel
 [juj/fbcp-ili9341: A blazing fast display driver for SPI-based LCD displays for Raspberry Pi A, B, 2, 3 and Zero](https://github.com/juj/fbcp-ili9341)
 
 ## IR Remote
+
+[Send TV Remote signal using Arduino | HalfaGeek](https://importgeek.wordpress.com/2013/02/19/send-tv-remote-signal-using-arduino/)
+[Arduino IR Remote identification | HalfaGeek](https://importgeek.wordpress.com/2013/02/11/arduino-ir-remote-identification/)
 
 [Using an IR Remote and sensor with an Arduino – Brainy-Bits](https://www.brainy-bits.com/ir-remote-arduino/)
 [Using IR Remote Controls with the Arduino - YouTube](https://www.youtube.com/watch?v=8E3ltjnbV0c)
@@ -670,7 +755,14 @@ VIN is 5V input
 [Yahboom 4 路循迹模块](https://www.yahboom.com/study_module/XJ) `mj8t`
 [Tracking module](http://www.yahboom.net/study/XJ)
 
-## Ultrasound sensor
+## Distance Measurement
+
+### Time of Flight (TOF)
+
+[Tech Spotlight: Laser Distance Measurement | element14 | Tech Connection](https://www.element14.com/community/docs/DOC-92632/l/tech-spotlight-laser-distance-measurement) disable JavaScript
+[Arduino Blog » Arduino and industrial distance sensor communicate via RS-485](https://blog.arduino.cc/2019/08/05/arduino-and-industrial-distance-sensor-communicate-via-rs-485/)
+
+### Ultrasound sensor
 
 HC-SR04 5V
 HC-SR04P works with 3.3V
@@ -697,13 +789,21 @@ US-100 temperature compensation, 3.3-5V
 [Best LED Strip For Your Project | Random Nerd Tutorials](https://randomnerdtutorials.com/best-led-strip-for-your-project/)
 [How do RGB LEDs work? | Random Nerd Tutorials](https://randomnerdtutorials.com/electronics-basics-how-do-rgb-leds-work/)
 
+[LED Circuit Design - How to design LED circuits - YouTube](https://www.youtube.com/watch?v=7d4ymjU9NqM)
+[Multi-LED circuit design - LED Parallel Circuits - YouTube](https://www.youtube.com/watch?v=OsQObXu4TSA)
+
 [Basics: Picking Resistors for LEDs | Evil Mad Scientist Laboratories](https://www.evilmadscientist.com/2012/resistors-for-leds/)
 [Electronic Basics #8: Everything about LEDs and current limiting resistors - YouTube](https://www.youtube.com/watch?v=Qlayua3yjuE)
+[LED Circuit Design - How to design LED circuits - YouTube](https://www.youtube.com/watch?v=7d4ymjU9NqM)
 Standard red, orange, yellow and yellow-green LEDs have a forward voltage (Vf) of about 1.8V.
 Pure-green, blue, white, and UV LEDs have a Vf of about 3V.
 LED usually consumes 16-20mA.
 We need to consume the excess voltage by resistor R of resistance = `(V - Vf)/0.02` (assuming the current is 20mA)
 Every LED have slight difference in forward voltage, it's easier to keep the current constant.
+V_red = 3V
+V_blue = 3.4V
+V_green = 3V
+
 [Light-Emitting Diodes (LEDs) - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds)
 [Wallet-size LED Resistance Calculator | Evil Mad Scientist Laboratories](https://www.evilmadscientist.com/2009/wallet-size-led-resistance-calculator/) papercraft
 [8mm Power LED 0.5W White LED Specs, Data Sheet P804TW4D from lc-led.com](http://www.lc-led.com/products/lcled-p804tw4d.html)
@@ -730,7 +830,10 @@ So 1 white 5050 takes ~50mA
 [Can You Live Without the WS2812? | Hackaday](https://hackaday.com/2019/03/26/can-you-live-without-the-ws2812/)
 
 [adafruit/Adafruit_NeoPixel: Neo Pixels!](https://github.com/adafruit/Adafruit_NeoPixel)
+
 [FastLED LED animation library for Arduino (formerly FastSPI_LED)](http://fastled.io/)
+[Learn Arduino Tutorial Project Ep.4 - FastLED Introduction - WS2812B and Neopixels - YouTube](https://www.youtube.com/watch?v=aub9PecrbuM)
+[HOW TO USE WS2812B NEOPIXELS WITH FASTLED ON ARDUINO - YouTube](https://www.youtube.com/watch?v=YgII4UYW5hU)
 
 ### Dot Matrix/LED Array
 
@@ -750,6 +853,9 @@ So 1 white 5050 takes ~50mA
 
 ## Wireless
 
+[Overview of Crystal Oscillator Circuit Working with applications](https://www.elprocus.com/crystal-oscillator-circuit-and-working/)
+[RC Oscillator : Working using BJT and Operational Amplifier](https://www.elprocus.com/rc-oscillator-working-using-bjt-and-op-amp/)
+
 ### Bluetooth
 
 [HC-05 and HC-06 zs-040 Bluetooth modules. First Look | Martyn Currey](http://www.martyncurrey.com/hc-05-and-hc-06-zs-040-bluetooth-modules-first-look/)
@@ -760,6 +866,7 @@ RX pin of both need to level shift to 3.3V, do not connect directly to Arduino
 [HC-05 Bluetooth Module Pinout, Specifications, Default Settings, Replacements & Datasheet](https://components101.com/wireless/hc-05-bluetooth-module)
 [Arduino and Bluetooth module HC-05 • AranaCorp](https://www.aranacorp.com/en/arduino-and-bluetooth-module-hc-05/)
 [Arduino and HC-05 Bluetooth Module Tutorial - HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/)
+[Arduino with HC-05 (ZS-040) Bluetooth module – AT MODE | Martyn Currey](http://www.martyncurrey.com/arduino-with-hc-05-bluetooth-module-at-mode/)
 
 [HC 06 Bluetooth module pinout, features & datasheet](https://components101.com/wireless/hc-06-bluetooth-module-pinout-datasheet)
 [Arduino and Bluetooth module HC-06 • AranaCorp](https://www.aranacorp.com/en/arduino-and-bluetooth-module-hc-06/)
@@ -772,6 +879,7 @@ RX pin of both need to level shift to 3.3V, do not connect directly to Arduino
 [Introduction to NRF24L01 - The Engineering Projects](https://www.theengineeringprojects.com/2019/02/introduction-to-nrf24l01.html)
 [Arduino Wireless Communication - NRF24L01 Tutorial - HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
 [In-Depth: How nRF24L01 Wireless Module Works & Interface with Arduino](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)
+[DIY Arduino RC Transmitter - HowToMechatronics](https://howtomechatronics.com/projects/diy-arduino-rc-transmitter/)
 
 [NRF24L01 compatibility with NRF24L01+ - Nordic DevZone](https://devzone.nordicsemi.com/f/nordic-q-a/828/nrf24l01-compatibility-with-nrf24l01)
 NRF24L01 only supports 1Mbps and 2Mbps
@@ -808,6 +916,12 @@ HX711
 
 [Switch Basics - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/switch-basics/all)
 
+[Two Way Switching Explained - How to wire 2 way light switch - YouTube](https://www.youtube.com/watch?v=opoEswRp_jg)
+[3 Way Switches Explained - How to wire 3 way light switch - YouTube](https://www.youtube.com/watch?v=_u5ORnhqn8g)
+[Four Way Switching Explained - How to wire 4 way intermediate light switch - YouTube](https://www.youtube.com/watch?v=jYFVsUqY6zc)
+
+[Switches are Clicky; Here's Why - YouTube](https://www.youtube.com/watch?v=jrMiqEkSk48)
+
 ## Joystick
 
 [Arduino Joystick Experiment](https://www.electroschematics.com/10619/arduino-joystick-experiment/)
@@ -843,6 +957,9 @@ Funduino Joystick Shield
 [Which NFC Chip ? | NFC.Today](https://nfc.today/advice/which-nfc-chip)
 [NFC Guide - Shop NFC](https://www.shopnfc.com/en/content/11-nfc-guide)
 [Mifare classic 1k and NFC communication protocol - Stack Overflow](https://stackoverflow.com/questions/7633513/mifare-classic-1k-and-nfc-communication-protocol)
+
+[教你用智能手機製作 NFC 標籤 How to program NFC chips with your phone?【NFC 數碼轉型#10 | 教學 - 實試】 - YouTube](https://www.youtube.com/watch?v=1WeL8dOeDfk)
+[NFC 標籤/ 卡/ 貼紙分類介紹 Introduction to NFC chips, Tag, Card & Stickers 【 NFC 數碼轉型#11 | 教學 - 介紹】 - YouTube](https://www.youtube.com/watch?v=g0YNEitqcws)
 
 [RFID RC522 和 PN532 有什么区别？-控制器/处理器-与非网](https://www.eefocus.com/mcu-dsp/m/410453)
 RC522 supports ISO14443A/B and MIFARE
@@ -965,13 +1082,13 @@ GY-521 (MPU 6050) Thermometer+Gyroscope+Accelerometer
 
 ## Gyroscope/Accelerometer
 
+> see `robotics.md#imu`
+
 [MPU-6050 | TDK](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/)
 [How to Interface Arduino and the MPU 6050 Sensor | Arduino | Maker Pro](https://maker.pro/arduino/tutorial/how-to-interface-arduino-and-the-mpu-6050-sensor)
 [Arduino Playground - MPU-6050](https://playground.arduino.cc/Main/MPU-6050)
 
-[Accelerometer Basics - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/accelerometer-basics/all)
-[Accelerometer, Gyro and IMU Buying Guide - SparkFun Electronics](https://www.sparkfun.com/pages/accel_gyro_guide)
-[?GY-521 MPU6050 模块三维角度传感器 6DOF 三轴加速度计电子陀螺仪-tmall.com 天猫](https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-16538328900.32.6e1c3d6ckNlXbG&id=41337720621&rn=ed13268584dfdfc4a99f55bd720c5083&abbucket=19)
+[?GY-521 MPU6050 模块三维角度传感器 6DOF 三轴加速度计电子陀螺仪-tmall.com 天猫](https://detail.tmall.com/item.htm?id=41337720621&rn=ed13268584dfdfc4a99f55bd720c5083&abbucket=19)
 
 ## Magnetometer (compass)
 
@@ -1055,7 +1172,7 @@ An FTDI chip to provide a USB serial interface to allow you to program it from y
 [Arduino Playground - FTDI](https://playground.arduino.cc/Main/FTDI) FTDI is one manufacturer of USB-Serial chips
 [FTDI + Arduino Pro Mini - YouTube](https://www.youtube.com/watch?v=Jnf-7NToJSI)
 [FTDI SmartBasic Hookup Guide - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/ftdi-smartbasic-hookup-guide/all)
-[FT232RL: Real Or Fake? | Hackaday](https://hackaday.com/2014/02/19/ft232rl-real-or-fake/)
+[FT232RL: Real Or Fake? | Hackaday](https://hackaday.com/2014/02/19/ft232rl-real-or-fake/)
 
 [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
 PL2303/PL2303HX, no Linux, worse reputation

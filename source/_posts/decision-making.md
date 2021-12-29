@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-10-14 16:16:22
 tags:
-- economics
+  - economics
 ---
 
 [Freakonomics » Preventing Crime for Pennies on the Dollar: A New Freakonomics Radio Episode](http://freakonomics.com/2015/09/10/preventing-crime-for-pennies-on-the-dollar/)
@@ -23,6 +23,9 @@ People think expensive wine taste better because they know they are more expensi
 [Trolley problem - Wikiwand](http://www.wikiwand.com/en/Trolley_problem)
 [How the Trolley Problem Works - HowStuffWorks](http://people.howstuffworks.com/trolley-problem.htm)
 [How Trolley Problems Work | Stuff You Should Know: The Podcast](http://www.stuffyoushouldknow.com/podcasts/how-trolley-problems-work/)
+[Iyad Rahwan: What moral decisions should driverless cars make? | TED Talk](https://www.ted.com/talks/iyad_rahwan_what_moral_decisions_should_driverless_cars_make/transcript?language=en)
+
+[i taught an AI to solve the trolley problem - YouTube](https://www.youtube.com/watch?v=181Nj060xMQ)
 
 ## Matching Problem
 

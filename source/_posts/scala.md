@@ -1,5 +1,5 @@
 ---
-title: Java
+title: Scala
 categories:
   - comp.lang
 tags:

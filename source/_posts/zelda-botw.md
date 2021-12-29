@@ -13,9 +13,14 @@ toc: true
 
 [ゼルダの伝説ポータル | Nintendo](https://www.nintendo.co.jp/character/zelda/index.html)
 [The Making of The Legend of Zelda: Breath of the Wild Video – The Beginning - YouTube](https://www.youtube.com/watch?v=30jGWna4-Ns)
+[Breaking Conventions with The Legend of Zelda: Breath of the Wild - YouTube](https://www.youtube.com/watch?v=QyMsF31NdNc)
+[With Eyes Unclouded - How Studio Ghibli Inspired Breath of the Wild - YouTube](https://www.youtube.com/watch?v=2fPz7kGduT4)
+
+[Zelda Wiki](https://zelda.gamepedia.com/Main_Page)
 
 [THE LEGEND OF ZELDA: Breath Of The Wild FOR BEGINNERS - YouTube](https://www.youtube.com/watch?v=qCCpwFYibmU) funny
 [How to Update The Legend of Zelda: Breath of the Wild (Nintendo Switch) | Nintendo Support](https://en-americas-support.nintendo.com/app/answers/detail/a_id/25568/~/how-to-update-the-legend-of-zelda%3A-breath-of-the-wild-%28nintendo-switch%29)
+[A Big Fat Review of Breath of the Wild - YouTube](https://www.youtube.com/watch?v=DgIdymgu0yo) 3 hours, spoiler heavy
 
 [Breath of the Wild Interactive Map](https://www.zeldadungeon.net/breath-of-the-wild-interactive-map/)
 [Guide of the Wild - Map](https://www.guideofthewild.com/map) better mini-boss info
@@ -41,9 +46,12 @@ toc: true
 [Kleric - YouTube](https://www.youtube.com/channel/UC4BGutC_CNefeMLs24-XZFA/videos) Glitches
 
 [Breath of the Wild Theories - YouTube](https://www.youtube.com/playlist?list=PLZBqIJ9ldH72q7N_hRmHeax-XRKgohpbA) NintendoBlackCrisis
+[Stats of the Wild!! - YouTube](https://www.youtube.com/playlist?list=PLAjULYyNSE9aa7aQW31IupW685MO-ZBHc)
 
 [The Making of The Legend of Zelda: Breath of the Wild - YouTube](https://www.youtube.com/playlist?list=PL2JiZAV5BmDXKHMwfdlJbNAtXpUNuCPAd)
 [揭秘年度游戏成功的秘密——《荒野之息》审视自己【就知道玩游戏 11】 - YouTube](https://www.youtube.com/watch?v=T35UQSWSM94)
+
+[Rin's Complete BOTW Combat Glossary - Google Docs](https://docs.google.com/document/d/1qtYT06sxweRW3tRnovcCc-f4xIOGFNsD02pG1TzloHc/edit)
 
 ## Combat
 
@@ -57,7 +65,7 @@ toc: true
 [Zelda Breath of the Wild - 27 Obscure Combat Secrets and Tricks - YouTube](https://www.youtube.com/watch?v=AlH7wIhS0WU)
 [Zelda Breath of the Wild - 13 More Obscure Combat Secrets and Tricks - YouTube](https://www.youtube.com/watch?v=abycrWTEmcg)
 [【薩爾達傳說 : 曠野之息】超級偷襲技巧（二）學懂了便無敵 - YouTube](https://www.youtube.com/watch?v=3JuP-MsA_4k)
-[【薩爾達傳說−曠野之息】05 大師林克一定要會 - 延遲雷射的盾反（中文解說） - YouTube](https://www.youtube.com/watch?v=ZVtr2Lzy21E)
+[【薩爾達傳說 − 曠野之息】05 大師林克一定要會 - 延遲雷射的盾反（中文解說） - YouTube](https://www.youtube.com/watch?v=ZVtr2Lzy21E)
 
 [The Legend of Zelda: Breath of the Wild - How To Destroy Guardians EASY! - YouTube](https://www.youtube.com/watch?v=w-CKyhbDxTI)
 
@@ -66,6 +74,7 @@ toc: true
 ## Horse
 
 [All Rare Horses & Where to Find Them - Breath of the Wild - YouTube](https://www.youtube.com/watch?v=fvXvQpKBj7Y)
+[All HIDDEN Horse Stats in Breath of the Wild EXPLAINED!! - YouTube](https://www.youtube.com/watch?v=t3ZeHlwrGPQ)
 
 [How to get Ganon's Horse / Giant Horse in Breath of the Wild | Austin John Plays - YouTube](https://www.youtube.com/watch?v=p5sABIOxdI8)
 [[Zelda Breath of the Wild] How to get the Royal White Horse - YouTube](https://www.youtube.com/watch?v=zwvs2Omztv4)
@@ -93,9 +102,6 @@ toc: true
 [How To Get The Master Sword in Breath of the Wild | Austin John Plays - YouTube](https://www.youtube.com/watch?v=jG8o6XGyYm0)
 [The Legend of Zelda: Breath of the Wild - How To Get The Master Sword! - YouTube](https://www.youtube.com/watch?v=kXSsn8_Vhqg)
 [Zelda Breath of the Wild Master Sword - How to Find the Master Sword, Abilities, Upgrades | USgamer](https://www.usgamer.net/articles/18-12-2018-zelda-breath-of-the-wild-essential-guides/get-the-master-sword--location-of-great-deku-tree--and-solve-the-lost-woods)
-[塞尔达传说旷野之息【3血】大师难度剑之试炼(初位) - YouTube](https://www.youtube.com/watch?v=IjhduapFfA0)
-[塞尔达传说旷野之息【三颗心心】大师难度剑之试炼（高阶） - YouTube](https://www.youtube.com/watch?v=O4sn775U10A)
-[塞尔达传说旷野之息【三颗心心】大师难度剑之试炼（高阶） - YouTube](https://www.youtube.com/watch?v=O4sn775U10A)
 
 [Weapons in Breath of the Wild - Zelda Wiki](https://zelda.gamepedia.com/Weapons_in_Breath_of_the_Wild)
 [Bows in Breath of the Wild - Zelda Wiki](https://zelda.gamepedia.com/Bows_in_Breath_of_the_Wild)
@@ -149,7 +155,7 @@ toc: true
 [Breath of the Wild - How to get powerful weapons right after the plateau! - YouTube](https://www.youtube.com/watch?v=6eULejX4o5Y)
 
 [塞尔达传说旷野之息新手最实用的几处【武器分布地点】 - YouTube](https://www.youtube.com/watch?v=FVjVAhsjkts)
-[【薩爾達傳說−曠野之息】00(新) 搜刮「海拉魯城」流程（中文解說・遊玩時間350hr版） - YouTube](https://www.youtube.com/watch?v=TSPq1sj65d0)
+[【薩爾達傳說 − 曠野之息】00(新) 搜刮「海拉魯城」流程（中文解說・遊玩時間 350hr 版） - YouTube](https://www.youtube.com/watch?v=TSPq1sj65d0)
 
 [How To Get INFINITE ARROWS In The Legend of Zelda: Breath of the Wild! - YouTube](https://www.youtube.com/watch?v=ps4lfSVpnPM) Just below Prinnden Plains
 [【奶牛】什么！塞尔达传说爆炸箭可以无限刷？ - YouTube](https://www.youtube.com/watch?v=9Wp3r74VGWg) Northwest of skull island
@@ -186,6 +192,10 @@ toc: true
 ### Trial of the Sword (DLC1)
 
 [BEST STRATEGY for Trial of the Sword Guide - Breath of the Wild DLC Pack 1 | Austin John Plays - YouTube](https://www.youtube.com/watch?v=H5Cx2Z6NYlU)
+
+[塞尔达传说旷野之息【3 血】大师难度剑之试炼(初位) - YouTube](https://www.youtube.com/watch?v=IjhduapFfA0)
+[塞尔达传说旷野之息【三颗心心】大师难度剑之试炼（高阶） - YouTube](https://www.youtube.com/watch?v=O4sn775U10A)
+[塞尔达传说旷野之息【三颗心心】大师难度剑之试炼（高阶） - YouTube](https://www.youtube.com/watch?v=O4sn775U10A)
 
 ### Champions' Ballad (DLC2)
 
@@ -226,7 +236,10 @@ toc: true
 ## Easter Eggs
 
 [Zelda: Breath of the Wild - Easter Eggs & Secrets (Nintendo's Attention to Detail) - YouTube](https://www.youtube.com/watch?v=ivvlMzE6q8U)
-[Hyrule Then and Now - Zelda: Breath of the Wild (Comparison) - YouTube](https://www.youtube.com/watch?v=Jfcwr-94npE&t=60)
+[Hyrule Then and Now - Zelda: Breath of the Wild (Comparison) - YouTube](https://www.youtube.com/watch?v=Jfcwr-94npE)
+
+[50 INTERESTING FACTS of Breath of the Wild's "Masterworks" Book (Creating a Champion) - YouTube](https://www.youtube.com/watch?v=Q2LWRfGxxCA)
+[The NES Connection - All Breath of the Wild References and Easter Eggs - YouTube](https://www.youtube.com/watch?v=KuQ3nDlgvuo)
 
 ---
 
@@ -243,7 +256,7 @@ Commonwealth Realm
 [Zelda Theory - YouTube](https://www.youtube.com/playlist?list=PLq3whXZlAVlZ_z6wQObD9yi9TsUtx-Dkk)
 [Zelda: Breath of the Wild - Timeline Split Theory - YouTube](https://www.youtube.com/watch?v=cWi0RJVHcZ0)
 [Legend of Zelda Timeline (With Breath of the Wild) - YouTube](https://www.youtube.com/watch?v=FyBlMQwdnOo)
-[Zelda: Breath of the Wild - Timeline Split Theory - YouTube](https://www.youtube.com/watch?v=cWi0RJVHcZ0&t=0s&list=PLq3whXZlAVlZ_z6wQObD9yi9TsUtx-Dkk&index=7)
+[Zelda: Breath of the Wild - Timeline Split Theory - YouTube](https://www.youtube.com/watch?v=cWi0RJVHcZ0)
 [Zelda Theory: Zora Timeline and History - YouTube](https://www.youtube.com/watch?v=uf7fikPWiHw)
 [Zelda Theory: Goron Timeline and History - YouTube](https://www.youtube.com/watch?v=55kmWp2ywKk)
 [Zelda Theory: Sheikah Timeline - YouTube](https://www.youtube.com/watch?v=fAT2Nvisqzc)
@@ -255,8 +268,16 @@ NintendoBlackCrisis
 [Breath of the Wild: Why the TIMELINE Placement Makes SENSE (Part 1) - YouTube](https://www.youtube.com/watch?v=YE67dUi5Kfs)
 [Breath of the Wild: How Nintendo Will FIX The Zelda TIMELINE (Part 2) - YouTube](https://www.youtube.com/watch?v=iFm1T-TjWOA)
 
-[Game Theory: How Zelda Breath of the Wild SOLVES The Zelda Timeline! - YouTube](https://www.youtube.com/watch?v=Q0RVBTb6wTQ) MatPat
+[Game Theory: How Zelda Breath of the Wild SOLVES The Zelda Timeline! - YouTube](https://www.youtube.com/watch?v=Q0RVBTb6wTQ)
+[Game Theory: Dear Nintendo, I FIXED Your Timeline! (Zelda) - YouTube](https://www.youtube.com/watch?v=W2DMiZ1e574) Hyrule Warriors
 
 [The Complete Legend of Zelda Timeline | The Leaderboard - YouTube](https://www.youtube.com/watch?v=nFpD8x_-1lU)
 [The Legend of Zelda Timeline EXPLAINED (in 12 Minutes) - YouTube](https://www.youtube.com/watch?v=mXZl6zoN6wU)
 [Solving the Zelda Timeline in 15 Minutes | Unraveled - YouTube](https://www.youtube.com/watch?v=Q-25c8Rsobw)
+
+[【万字解析】一口气看完塞尔达全系列发展史，比起塞尔达我还是更喜欢米法多一些 The Legend of Zelda link - YouTube](https://www.youtube.com/watch?v=Me48uko71eU)
+[【遊戲閒聊#109】薩爾達傳說故事的起源！每個版本之間的時間軸！一切都來自於這兩本官方推出的薩爾達百科當中！《狐狸牧場》 - YouTube](https://www.youtube.com/watch?v=4eXv6Y14SGc)
+
+Leya 蕾雅
+[「薩爾達傳說 御天之劍」專題 - 最痛的手腕, 最初的起源, 最另類的薩爾達! 4K 畫質 The Legend of Zelda Skyward Sword - YouTube](https://www.youtube.com/watch?v=uc7Y6g8R4l0)
+[超好玩的小綠帽!「薩爾達(塞爾達)傳說專題」縮小帽 The Legend of Zelda The Minish Cap 2004 - YouTube](https://www.youtube.com/watch?v=1xeGxiQsPyk)

@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-07-20 18:09:20
 tags:
-- gamification
+  - gamification
 ---
 
 [Gamification - Wikiwand](https://www.wikiwand.com/en/Gamification)
@@ -14,4 +14,3 @@ tags:
 
 [Gaming the System](http://tpkelly.gitbooks.io/gaming-the-system/content/)
 [Gamification - University of Pennsylvania | Coursera](https://www.coursera.org/course/gamification)
-

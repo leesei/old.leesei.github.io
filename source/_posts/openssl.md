@@ -31,6 +31,7 @@ cert: with meta data
 
 ## cert generation
 
+[🔐 HTTPS certificate generation explained! Now setup HTTPS for local development environment (without sudo) | Blog](https://blog.atulr.com/localhost-https/)
 [How to create a .pfx/.p12 certificate file using OpenSSL – SSL Information and FAQ](https://info.ssl.com/how-to-create-a-pfx-p12-certificate-file-using-openssl/)
 [HOWTO: Generate a CSR for OpenSSL – (see tools.ssl.com) – SSL Information and FAQ](https://info.ssl.com/howto-generate-a-csr-for-openssl-see-tools-ssl-com/)
 [ssl - How to create a self-signed certificate with openssl? - Stack Overflow](http://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl)

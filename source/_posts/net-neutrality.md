@@ -2,9 +2,9 @@
 title: "Net Neutrality"
 date: 2015-02-27 14:43:40
 categories:
-- web
+  - web
 tags:
-- net-neutrality
+  - net-neutrality
 ---
 
 Net Neutrality rules by FCC was not applicable to ISPs, who content that they are not "common carriers" (aircraft, telecom, carrier services).
@@ -25,8 +25,11 @@ Some analogues the ISP market with the electricity market where providers should
 [Net neutrality - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Net_neutrality)
 [Save the Internet | Free Press](http://www.savetheinternet.com/sti-home)
 [Webmaker Training: Teach the Web | | Concepts](https://training.webmakerprototypes.org/en/net-neutrality/concepts/)
+[Effects of Net Neutrality- Continued | GRAYBOX](https://graybox.co/knowledge/blog/effects-of-net-neutrality-continued)
 
 [What is a Common Carrier? | TechStuff](https://shows.howstuffworks.com/techstuff/what-is-a-common-carrier.htm) 2015
 [Revisiting Net Neutrality | TechStuff](https://shows.howstuffworks.com/techstuff/revisiting-net-neutrality.htm) 2017
 [Why is There a Battle Over Net Neutrality? | Stuff You Should Know](https://www.stuffyoushouldknow.com/podcasts/why-battle-over-net-neutrality.htm) 2017
 [Common Carrier legal definition of Common Carrier](http://legal-dictionary.thefreedictionary.com/Common+Carrier)
+
+[How the ‘Net works: an introduction to peering and transit | Ars Technica](https://arstechnica.com/features/2008/09/peering-and-transit/)

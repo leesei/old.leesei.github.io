@@ -1,17 +1,19 @@
 ---
 title: Hugo
 categories:
-- app
+  - app
 tags:
-- hugo
-- notes
-- static-site
+  - hugo
+  - notes
+  - static-site
 toc: true
 date: 2017-05-09 13:16:30
 ---
 
 [Hugo :: A fast and modern static website engine](https://gohugo.io/)
 [Comparing Static Site Engines with Brian Rinaldi - YouTube](https://www.youtube.com/watch?v=R-fJWOO1bjE)
+
+[How to start a blog using Hugo](https://flaviocopes.com/start-blog-with-hugo/)
 
 [Hacking Management](http://spf13.com/) Author's blog
 
@@ -50,7 +52,6 @@ hugo server --theme=<theme> --buildDrafts
 [Hugo | Configure Hugo](https://gohugo.io/getting-started/configuration/)
 [Hugo | Archetypes](https://gohugo.io/content-management/archetypes/)
 
-
 ```yaml
 draft: false
 isCJKLanguage: true
@@ -70,7 +71,8 @@ isCJKLanguage: true
 
 [spf13/HugoBasicExample: Example site to use with Hugo & Hugo Themes](https://github.com/spf13/HugoBasicExample)
 
-I need: 
+I need:
+
 - archive page (title only; link to months, see [jacman](http://wuchong.me/jacman/archives/))
 - categories index page
 - tags index page
@@ -118,6 +120,10 @@ Docs themes:
 ## Tips and Tricks
 
 [Live Hugo Site search with Lunr.js - tips & tricks - Hugo Discussion](https://discuss.gohugo.io/t/live-hugo-site-search-with-lunr-js/2857/13)
+
+[Fast, instant client side search for Hugo static site generator](https://gist.github.com/cmod/5410eae147e4318164258742dd053993)
+
+[How to Make the Team Happy with Hugo and Headless | Kontent by Kentico.](https://kontent.ai/blog/hugo-and-headless-cms)
 
 ### Dump context
 

@@ -20,6 +20,7 @@ Most of the Linux tricks can be found there.
 
 [HiDPI - ArchWiki](https://wiki.archlinux.org/index.php/HiDPI)
 [Xorg#Display_size_and_DPI - ArchWiki](https://wiki.archlinux.org/index.php/Xorg#Display_size_and_DPI)
+[What is HiDPI - elementary - Medium](https://medium.com/elementaryos/what-is-hidpi-and-why-does-it-matter-b024eabea20d)
 
 [How to find and change the screen DPI? - Ask Ubuntu](http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi)
 [multiple monitors - Is it possible to have two different DPI configurations for two different screens? - Ask Ubuntu](http://askubuntu.com/questions/393400/is-it-possible-to-have-two-different-dpi-configurations-for-two-different-screen)
@@ -49,6 +50,7 @@ gnome-power-statistics
 cat /sys/class/power_supply/BAT0/*
 ```
 
+[PowerTOP | 01.org](https://01.org/powertop)
 [PowerTop - Monitors Total Power Usage and Improve Linux Laptop Battery Life](https://www.tecmint.com/powertop-monitors-linux-laptop-battery-usage/)
 
 [How to Monitor Laptop Battery Usage in Linux - Make Tech Easier](https://www.maketecheasier.com/monitor-laptop-battery-usage-linux/)
@@ -61,6 +63,13 @@ cat /sys/class/power_supply/BAT0/*
 [Top Linux Compatible USB Wireless Adapters | WirelesSHack](https://www.wirelesshack.org/top-linux-compatible-usb-wireless-adapters.html)
 
 [wpa_supplicant authentication timed out / Networking, Server, and Protection / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=231987)
+[How to Connect to WiFi from the Terminal in Ubuntu Linux](https://itsfoss.com/connect-wifi-terminal-ubuntu/)
+
+[WifiDocs/Driver/bcm43xx - Community Help Wiki](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx)
+
+[netctl - ArchWiki](https://wiki.archlinux.org/title/netctl) `wifi-menu`
+[Accessing and Using the WiFi Menu – Enplug Support Center](https://support.enplug.com/hc/en-us/articles/212689223-Accessing-and-Using-the-WiFi-Menu)
+[How To Setup A WiFi Network In Arch Linux Using Terminal﻿](https://www.linuxandubuntu.com/home/how-to-setup-a-wifi-in-arch-linux-using-terminal)
 
 ```sh
 iwconfig
@@ -103,12 +112,15 @@ sudo journalctl -fu NetworkManager # show logs
 
 ### TL-WN823N (dongle)
 
+[clnhub/rtl8192eu-linux: Realtek rtl8192eu official Linux driver v5.2.19.1](https://github.com/clnhub/rtl8192eu-linux) better than `Mange/rtl8192eu-linux-driver`?
+
 [TP-Link TL-WN823N on Arch Linux – mheap](https://michaelheap.com/tp-link-tl-wn823n-on-arch-linux/)
 [Mange/rtl8192eu-linux-driver: Drivers for the rtl8192eu chipset for wireless adapters (D-Link DWA-131 rev E1 included!)](https://github.com/Mange/rtl8192eu-linux-driver)
 [Ubuntu 16.04 解决 TL-WN826N 的驱动问题 - CSDN 博客](https://blog.csdn.net/sxbyyy/article/details/73865023)
+[How to compile Mange/rtl8192eu-linux-driver driver.. – Site Title](https://scdas141.wordpress.com/2017/01/28/how-to-compile-mangertl8192eu-linux-driver-driver/)
 
 ```sh
-git clone https://github.com/Mange/rtl8192eu-linux-driver
+git clone https://github.com/Mange/rtl8192eu-linux-driver /usr/src/rtl8192eu-linux-driver
 cd rtl8192eu-linux-driver
 sudo dkms add .
 sudo dkms install rtl8192eu/1.0
@@ -118,13 +130,13 @@ sudo dkms remove rtl8192eu/1.0 --all
 
 ln -s /var/lib/dkms/rtl8192eu/1.0/source /usr/src/rtl8192eu-1.0
 sudo dkms install rtl8192eu/1.0 -k 4.14.56-1-lts
-sudo dkms install rtl8192eu/1.0 -k 5.1.3-arch2-1-ARCH
+sudo dkms install rtl8192eu/1.0 -k 5.8.7-arch1-1
 
 rmmod rtl8xxxu
 ```
 
 [[SOLVED] rtl8192eu USB Wifi not working / Kernel & Hardware / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=219909)
-https://github.com/Mange/rtl8192eu-linux-driver/issues/46#issuecomment-323710229
+[I already installed the driver, but I can not connect to a wifi network · Issue #46 · Mange/rtl8192eu-linux-driver](https://github.com/Mange/rtl8192eu-linux-driver/issues/46#issuecomment-323710229)
 
 Disable kernel rtl8xxxu driver:
 

@@ -2,9 +2,9 @@
 title: "Hypnosis"
 date: 2018-01-15 13:47:22
 categories:
-- science
+  - science
 tags:
-- hypnosis
+  - hypnosis
 toc: true
 ---
 

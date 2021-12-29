@@ -1,12 +1,12 @@
 ---
 title: GitBook
 categories:
-- app
+  - app
 toc: true
 date: 2015-06-13 00:21:20
 tags:
-- node-js
-- gitbook
+  - node-js
+  - gitbook
 ---
 
 [GitBook · Write & Publish Books](https://www.gitbook.com/)
@@ -15,14 +15,13 @@ tags:
 [GitBook on GitHub](https://github.com/GitbookIO)
 [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 [Issues · GitbookIO/gitbook](https://github.com/GitbookIO/gitbook/issues)
-[GitBook Help Center](https://help.gitbook.com/)  [source](https://github.com/GitbookIO/help.gitbook.com)
+[GitBook Help Center](https://help.gitbook.com/) [source](https://github.com/GitbookIO/help.gitbook.com)
 
 [GitBook Editor · Simple writing from your desktop](https://www.gitbook.com/editor) built with [Slate](http://slatejs.org/#/rich-text)
 
 ## CLI
 
 [About this documentation · GitBook Toolchain Documentation](https://toolchain.gitbook.com/)
-
 
 ```sh
 npm install -g gitbook-cli
@@ -100,4 +99,3 @@ gitbook mobi
 [nicolastinkl/gitbook-plugin-tkcolor](https://github.com/nicolastinkl/gitbook-plugin-tkcolor)
 [mukiwu/gitbook-plugin-code_tomorrow_scheme](https://github.com/mukiwu/gitbook-plugin-code_tomorrow_scheme)
 [erixtekila/gitbook-plugin-toconsole](https://github.com/erixtekila/gitbook-plugin-toconsole)
-

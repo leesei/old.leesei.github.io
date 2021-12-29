@@ -17,6 +17,13 @@ Most of the following are compatible to `bash` and `zsh`.
 [Command Line Power User — A free video series for web developers on learning a modern command line workflow with ZSH, Z and related tools.](https://commandlinepoweruser.com/) !important, by Wes Bos
 [Coding like a Hacker in the terminal – Caleb Taylor – Medium](https://medium.com/@caleb89taylor/coding-like-a-hacker-in-the-terminal-79e22954968e)
 [You’re Missing Out on a Better Mac Terminal Experience](https://medium.com/@caulfieldOwen/youre-missing-out-on-a-better-mac-terminal-experience-d73647abf6d7)
+[The birth of the Bash shell | Opensource.com](https://opensource.com/19/9/command-line-heroes-bash)
+[Conquering the Command Line | Softcover.io](http://conqueringthecommandline.com/book/frontmatter)
+[Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
+
+[Bash Automation & Scripting Basics (Part 1) – CloudSavvy IT](https://www.cloudsavvyit.com/9676/bash-automation-scripting-basics-part-1/)
+[Bash Automation and Scripting Basics (Part 2) – CloudSavvy IT](https://www.cloudsavvyit.com/9760/bash-automation-and-scripting-basics-part-2/)
+[Bash Automation and Scripting Basics (Part 3) – CloudSavvy IT](https://www.cloudsavvyit.com/9768/bash-automation-and-scripting-basics-part-3/)
 
 <!-- more -->
 
@@ -34,6 +41,15 @@ However I found `fish` [design](http://fishshell.com/docs/current/design.html) q
 
 [Evolution of shells in Linux](https://www.ibm.com/developerworks/linux/library/l-linux-shells/index.html?ca=drs-)
 
+[Starship](https://starship.rs/) Successor of Fish shell's [Spacefish](https://spacefish.matchai.me/)
+[starship/starship: ☄🌌️ The cross-shell prompt for astronauts.](https://github.com/starship/starship)
+[Configuration | Starship](https://starship.rs/config/)
+
+[igor-petruk/scriptisto: A language-agnostic "shebang interpreter" that enables you to write scripts in compiled languages.](https://github.com/igor-petruk/scriptisto)
+[rust-script — command-line utility in Rust // Lib.rs](https://lib.rs/crates/rust-script)
+
+[rash-sh/rash: Declarative shell scripting container oriented](https://github.com/rash-sh/rash)
+
 ### login shell
 
 You can set a shell as your default shell with `chsh`.
@@ -47,6 +63,8 @@ http://fishshell.com/docs/2.1/faq.html#faq-default
 
 It is recommended to use source control to store your config files (_dotfiles_, as they usually begins with a `.`) and use symlinks (`ln -s`) to deploy them to the machine.
 
+[bash - Difference between .bashrc and .bash_profile - Super User](https://superuser.com/questions/183870/difference-between-bashrc-and-bash-profile/183980#183980)
+
 [GitHub does dotfiles - dotfiles.github.io](http://dotfiles.github.io/)
 [webpro/awesome-dotfiles: A curated list of dotfiles resources.](https://github.com/webpro/awesome-dotfiles)
 
@@ -55,20 +73,35 @@ Honorable mentions:
 - http://chneukirchen.org/dotfiles/
 - https://github.com/jukben/dotfiles (Tmux)
   > TODO: add my links in /caravan/github-watch/dotfiles
+- [SukkaW/dotfiles: 🔧 My development environment and config](https://github.com/SukkaW/dotfiles) install script to bootstrap
 
 [Steve's Blog: bash aliases](http://siannopollo.blogspot.hk/2007/11/bash-aliases.html)
 
 [jukben/gbck: 🗳 Intuitive lightweight tool for an easy and seamless backup of your files into Git repository](https://github.com/jukben/gbck)
 [gbck— an easy way how to back up your dotfiles – Jakub Beneš – Medium](https://medium.com/@jukben/gbck-an-easy-way-how-to-back-up-your-dotfiles-2a9bf44ab622)
 [Yet Another Dotfiles Manager - yadm](https://yadm.io/)
+[direnv – unclutter your .profile | direnv](https://direnv.net/)
+
+[AGWA/git-crypt: Transparent file encryption in git](https://github.com/AGWA/git-crypt)
+[.gitattributes · dots · GammaFn / dotfiles.cli · GitLab](https://gitlab.com/xPMo/dotfiles.cli/-/blob/dots/.gitattributes)
+
+[lra/mackup: Keep your application settings in sync (OS X/Linux)](https://github.com/lra/mackup)
+[tuning — command-line utility in Rust // Lib.rs](https://lib.rs/crates/tuning)
+[hm — command-line utility in Rust // Lib.rs](https://lib.rs/crates/hm)
+[quickcfg — command-line utility in Rust // Lib.rs](https://lib.rs/crates/quickcfg)
 
 [How to make your Dotfile management a painless affair](https://medium.freecodecamp.org/dive-into-dotfiles-part-2-6321b4a73608)
 [ajmalsiddiqui/autodot: A dotfile management system that makes sharing your dotfiles easy while keeping you in the loop.](https://github.com/ajmalsiddiqui/utodot)
 [RCM(7)](https://thoughtbot.github.io/rcm/)
 
+[Home | chezmoi.io](https://www.chezmoi.io/)
 [twpayne/chezmoi: Manage your dotfiles across multiple machines, securely.](https://github.com/twpayne/chezmoi)
+[Linux Fu: The Kitchen Sync | Hackaday](https://hackaday.com/2019/01/10/linux-fu-the-kitchen-sync/)
+
 [Brandon Invergo - Using GNU Stow to manage your dotfiles](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html)
 [Managing dotfiles using GNU Stow](https://www.bharatkalluri.in/post/manage-dotfiles-using-stow/)
+[Use Stow for configuration management of multiple machines | Opensource.com](https://opensource.com/article/20/1/configuration-management-stow)
+
 [svetlyak40wt/dotfiler: Shell agnostic git based dotfiles package manager, written in Python.](https://github.com/svetlyak40wt/dotfiler)
 [Using Dropbox as a Settings Repository](http://coda.caseykuhlman.com//entries/2014/dropbox-as-a-settings-repository.html)
 
@@ -93,7 +126,7 @@ if [[ -e ~/dotfiles/profile.$SHORT_HOSTNAME ]]; then
 fi
 ```
 
-## environment variable
+## Environment variable
 
 [Environment variable - Wikiwand](http://www.wikiwand.com/en/Environment_variable)
 [Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
@@ -102,6 +135,16 @@ fi
 
 [niieani/bash-oo-framework: Bash Infinity is a modern boilerplate for bash](https://github.com/niieani/bash-oo-framework)
 [jmmv/shtk: Application toolkit for programmers writing POSIX-compliant shell scripts](https://github.com/jmmv/shtk)
+
+## `exec`
+
+[The Uses of the Exec Command in Shell Script | Baeldung on Linux](https://www.baeldung.com/linux/exec-command-in-shell-script)
+[bash - What does an "exec" command do? - Ask Ubuntu](https://askubuntu.com/questions/525767/what-does-an-exec-command-do)
+
+## Subprocess
+
+[How to Use Multi-Threaded Processing in Bash Scripts – CloudSavvy IT](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts/)
+[Bash Process Termination Hacks – CloudSavvy IT](https://www.cloudsavvyit.com/9290/bash-process-termination-hacks/)
 
 ## Common tasks
 
@@ -241,6 +284,8 @@ diff <(grep -r -e foo src1/) <(grep -r -e foo src1/)
 
 [Command Substitution](http://www.gnu.org/software/bash/manual/bash.html#Command-Substitution)
 
+Takes output of process as text
+
 ```sh
 vim `which a.sh`
 vim $(which a.sh)
@@ -292,6 +337,12 @@ set -e  # exit on statement error, `set -o errexit`
 ### key bindings
 
 [Bash Shortcuts Quick Reference](http://www.ice2o.com/bash_quick_ref.html)
+
+### bracketed paste mode
+
+[bracketed paste mode](https://cirw.in/blog/bracketed-paste)
+
+[Make pasting literals easier · Issue #967 · fish-shell/fish-shell](https://github.com/fish-shell/fish-shell/issues/967)
 
 ### exit code
 
@@ -354,9 +405,13 @@ echo "$@" | bc -l
 > `bash` specific?
 
 [SignalTrap - Greg's Wiki](http://mywiki.wooledge.org/SignalTrap)
+[Bourne Shell Builtins (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Bourne-Shell-Builtins.html#index-trap)
 [How "Exit Traps" Can Make Your Bash Scripts Way More Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/)
 [Writing shell scripts - Lesson 15: Errors and Signals and Traps (Oh My!) - Part 1](http://linuxcommand.org/wss0150.php)
 [Writing shell scripts - Lesson 16: Errors and Signals and Traps (Oh, My!) - Part 2](http://linuxcommand.org/wss0160.php)
+
+[Linux Fu: It’s A Trap! | Hackaday](https://hackaday.com/2019/08/26/linux-fu-its-a-trap/)
+[wd5gnr/trappist: A Bash function for managing signal traps easily](https://github.com/wd5gnr/trappist)
 
 ```sh
 # clean up
@@ -495,6 +550,9 @@ FILES=("${@}")
 NUMFILES=${#FILES[@]}
 for (( i = 0; i < ${NUMFILES}; i++ )); do
     echo ${FILES[${i}]}
+done
+for i in ${!FILES[@]}; do
+    echo ${FILES[$i]}
 done
 # "${!array[*]}" "${array[*]}"?
 # keys: ${!array[@]}

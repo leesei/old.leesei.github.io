@@ -23,4 +23,3 @@ The core technology was forked as Butter Project. Sources will be implemented as
 Use TV endpoint `http://eztvapi.co.za/` for now.
 
 Time4Popcorn (popcorn-time.se) was the other fork but embeds adware.
-

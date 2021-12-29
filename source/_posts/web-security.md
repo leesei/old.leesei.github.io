@@ -26,7 +26,7 @@ toc: true
 [hak5](http://hak5.org/)
 [Official PCI Security Standards Council Site - Verify PCI Compliance, Download Data Security and Credit Card Security Standards](https://www.pcisecuritystandards.org/)
 
-[WhiteHat Security Blog |](https://blog.whitehatsec.com/)
+[WhiteHat Security Blog](https://blog.whitehatsec.com/)
 [Top 10 Web Hacking Techniques of 2015 | WhiteHat Security Blog](https://blog.whitehatsec.com/top-10-web-hacking-techniques-of-2015/)
 
 [10 Web Security Vulnerabilities: Misconfiguration and More | Toptal](http://www.toptal.com/security/10-most-common-web-security-vulnerabilities)
@@ -50,10 +50,20 @@ toc: true
 [Malwarebytes Unpacked](https://blog.malwarebytes.org/)
 
 [前端安全冷门知识杂谈 | Litten 的博客](http://litten.github.io/2014/05/27/safety-point-of-view-from-front-end/)
+[7 Steps to Secure JavaScript in 2021 | by Viduni Wickramarachchi | May, 2021 | Bits and Pieces](https://blog.bitsrc.io/8-steps-to-secure-javascript-in-2021-6d54d5415264)
+[JavaScript Security Issues and Best Practices | by Mahdhi Rezvi | Bits and Pieces](https://blog.bitsrc.io/javascript-security-issues-and-best-practices-37e78df4dce4)
 [The protocol-relative URL - Paul Irish](http://www.paulirish.com/2010/the-protocol-relative-url/)
 
 [19 open source GitHub projects for security pros | InfoWorld](http://www.infoworld.com/article/3051771/security/19-open-source-github-projects-for-security-pros.html)
 [Identity eats security: How identity management is driving security | CSO Online](https://www.csoonline.com/article/3289146/authentication/identity-eats-security-how-identity-management-is-driving-security.html) detect intrusion beyond authentication
+
+[10 Ways to Keep a Rogue RasPi From Wrecking Your ...](https://www.darkreading.com/iot/10-ways-to-keep-a-rogue-raspi-from-wrecking-your-network/d/d-id/1335146)
+
+[In Search for a Perfect Access Control System | Teleport](https://goteleport.com/blog/access-controls/)
+
+[Ethical Hacking Full Course - Learn Ethical Hacking in 10 Hours | Ethical Hacking Tutorial | Edureka - YouTube](https://www.youtube.com/watch?v=dz7Ntp7KQGA)
+
+[How to Secure Your React.js Application](https://www.freecodecamp.org/news/best-practices-for-security-of-your-react-js-application/)
 
 > see `ssl-tls.md`
 
@@ -79,7 +89,7 @@ toc: true
 [The Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) [OWASP_SCP_Quick_Reference_Guide_v2.pdf](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 [OWASP on GitHub](https://github.com/OWASP)
 
-[HTML5 Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
+[HTML5 Security · OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
 
 [OWASP Dependency Check - OWASP](https://www.owasp.org/index.php/OWASP_Dependency_Check)
 [Continuous Security Using OWASP - DZone Security](https://dzone.com/articles/continuous-security-using-owasp)
@@ -87,9 +97,41 @@ toc: true
 [OWASP Zed Attack Proxy Project - OWASP](https://www.owasp.org/index.php/ZAP)
 [zaproxy/zaproxy: The OWASP ZAP core project](https://github.com/zaproxy/zaproxy)
 
+## Zero Trust Network
+
+IP address, network id
+Workload id, service id
+
+[Zero Trust: Time to Get Rid of Your VPN – The New Stack](https://thenewstack.io/zero-trust-time-to-get-rid-of-your-vpn/)
+[Why zero-trust models should replace legacy VPNs](https://searchcloudsecurity.techtarget.com/post/Why-zero-trust-models-should-replace-legacy-VPNs)
+[Zero Trust Maturity Model | CISA](https://www.cisa.gov/publication/zero-trust-maturity-model)
+[The Death of the Corporate Network](https://auth0.com/blog/the-death-of-the-corporate-network/)
+
+[Guest Blog: k8s tunnels with Kudelski Security](https://blog.cloudflare.com/guest-blog-zero-trust-access-kubernetes/)
+
+### SPIFFE
+
+[SPIFFE – Secure Production Identity Framework for Everyone](https://spiffe.io/)
+[spiffe/spiffe: The SPIFFE Project](https://github.com/spiffe/spiffe)
+
+[SPIFFE in a Nutshell - Pushpalanka Jayawardhana - Medium](https://medium.com/@Pushpalanka/spiffe-in-a-nutshell-20b4ab150420)
+[Sunil James, CEO of Scytale, Explains SPIFFE - The New Stack](https://thenewstack.io/sunil-james-ceo-of-scytale-explains-spiffe/)
+
 ## Session Fixation
 
 [Session fixation - Wikiwand](http://www.wikiwand.com/en/Session_fixation)
+
+## SRI
+
+[Subresource Integrity - Web security | MDN](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
+hash for resources
+
+## CSP
+
+[Content-Security-Policy Header ⟶ CSP Reference & Examples](https://content-security-policy.com/)
+[Content Security Policy (CSP) - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+
+[Enhance JavaScript Security with Content Security Policies | by Ashan Fernando | Bits and Pieces](https://blog.bitsrc.io/enhance-javascript-security-with-content-security-policies-5847e5def227)
 
 ## CORS/SOP
 
@@ -102,10 +144,13 @@ Same Origin Policy
 
 [HTML5 Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet#Cross_Origin_Resource_Sharing)
 
+[Why you need "cross-origin isolated" for powerful features](https://web.dev/why-coop-coep/)
+
 ## XSRF/CSRF/CSURF
 
 [Cross-site request forgery - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Cross-site_request_forgery)
 [Bypassing CSRF Protections: A Double Defeat of the Double-Submit Cookie Pattern](https://www.owasp.org/images/3/32/David_Johansson-Double_Defeat_of_Double-Submit_Cookie.pdf)
+[Cross Site Request Forgery vs Server Side Request Forgery Explained - YouTube](https://www.youtube.com/watch?v=a7OMdTuYaGc)
 
 These are vulnerabilities that **exploits trust on user's browser**. Malicious scripts initiates attack from user's browser to the target site and reuse the cookie in the browser. The attack usually involves form submit or URL operation.
 
@@ -140,6 +185,9 @@ It usually involves running malicious in the target site and reusing the user se
 
 [Node.js application (in)security - Ilja van Sprundel - OWASP AppSec California 2015 - YouTube](https://www.youtube.com/watch?v=4J6-IFqyBjY)
 
+[Helmet](https://helmetjs.github.io/) for express app
+[NodeJS Security Headers: 101 | Hacker Noon](https://hackernoon.com/nodejs-security-headers-101-mf9k24zn)
+
 ### Vulnerable Dependencies
 
 [Retire.js](http://retirejs.github.io/retire.js/)
@@ -160,6 +208,7 @@ Use time difference in array comparison to brute force the digest byte by byte.
 [xkcd: Heartbleed Explanation](https://xkcd.com/1354/)
 [Heartbleed Report (2017-01) - Shodan](https://www.shodan.io/report/DCPO7BkV)
 
+[How I used Heartbleed to steal a site’s private crypto key – Ars Technica](https://arstechnica.com/information-technology/2014/04/how-i-used-heartbleed-to-steal-a-sites-private-crypto-key/?amp=1)
 [Critical crypto bug exposes Yahoo Mail, other passwords Russian roulette-style | Ars Technica](http://arstechnica.com/security/2014/04/critical-crypto-bug-exposes-yahoo-mail-passwords-russian-roulette-style/)
 [Coder in a World of Code: My Heart Bleeds for OpenSSL](http://coderinaworldofcode.blogspot.hk/2014/04/my-heart-bleeds-for-openssl.html)
 

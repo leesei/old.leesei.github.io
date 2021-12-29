@@ -2,19 +2,18 @@
 title: "Heroku"
 date: 2014-12-11 17:39:03
 categories:
-- web
+  - web
 tags:
-- shell-tool
-- heroku
+  - shell-tool
+  - heroku
 toc: true
 ---
 
-[Heroku CLI | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-cli)
+[The Heroku CLI | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-cli)
 [heroku/cli: Heroku CLI](https://github.com/heroku/cli)
 
 ```sh
-curl https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz | tar xvz
-./heroku/install
+npm install -g heroku
 ```
 
 [Buildpack API | Heroku Dev Center](https://devcenter.heroku.com/articles/buildpack-api)
@@ -23,11 +22,12 @@ curl https://cli-assets.heroku.com/branches/stable/heroku-linux-amd64.tar.gz | t
 [Process Types and the Procfile | Heroku Dev Center](https://devcenter.heroku.com/articles/procfile)
 
 [Heroku Node.js Support | Heroku Dev Center](https://devcenter.heroku.com/articles/nodejs-support)
+[Upgrading to the Latest Stack | Heroku Dev Center](https://devcenter.heroku.com/articles/upgrading-to-the-latest-stack)
 
 [Heroku Basics: Dynos and Costs - NaNLABS](https://www.nan-labs.com/blog/heroku-basics-dynos-and-costs/)
 [How to host lightweight apps for free – freeCodeCamp](https://medium.freecodecamp.com/how-to-host-lightweight-apps-for-free-a29773e5f39e)
 
-##  Heroku Button
+## Heroku Button
 
 [Creating a 'Deploy to Heroku' Button | Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-button)
 [Setting Up Apps Using the Platform API | Heroku Dev Center](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
@@ -68,12 +68,22 @@ Workflow that groups the codebase of an application in different stages of devel
 
 - deploy
 
-  `git push heroku master`  
-
-  To force an compile on Heroku,  
-  `git commit --allow-empty -m "Message"`
+  Commit changes to your tree  
+  `git push heroku master`
 
   Also see `heroku-repo` below
+
+- upgrade stack
+
+  [Upgrading to the Latest Stack | Heroku Dev Center](https://devcenter.heroku.com/articles/upgrading-to-the-latest-stack)
+
+  ```sh
+  heroku stack:set heroku-18 -a app_name
+  # checkout from Heroku
+  heroku git:clone -a app_name && cd app_name
+  # force commit to trigger redeploy
+  git add . && git commit --allow-empty -m "Upgrading to heroku-18"  && git push heroku master
+  ```
 
 - restart server
 
@@ -81,7 +91,8 @@ Workflow that groups the codebase of an application in different stages of devel
 
 - terminal
 
-  `heroku run bash`  
+  `heroku run bash`
+
   > All changes are lost when server is restarted
 
 - multiple buildpack
@@ -126,6 +137,7 @@ heroku-toolbelt/3.40.6 (x86_64-linux) ruby/2.0.0
 heroku-cli/4.20.11-62a7bb8 (amd64-linux) go1.4.2
 
 Installed Plugins:
+
 - heroku-git@2.4.0
 - heroku-vim
 
@@ -162,7 +174,7 @@ Additional topics:
   maintenance  #  manage maintenance mode for an app
   members      #  manage membership in organization accounts
   orgs         #  manage organization accounts
-  pg           # 
+  pg           #
   pgbackups    #  manage backups of heroku postgresql databases
   plugins      #  manage plugins to the heroku gem
   redis        #  list redis databases for an app
@@ -172,7 +184,7 @@ Additional topics:
   twofactor    #  manage two-factor authentication settings
   update       #  update the heroku client
   version      #  display version
-  vim          # 
+  vim          #
 
 ```
 

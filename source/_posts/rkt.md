@@ -1,12 +1,16 @@
 ---
 title: rkt
 categories:
-- container
+  - container
 tags:
   - rkt
 toc: true
 date: 2016-03-27 01:02:51
 ---
+
+The alternative container runtime by CoreOS in 2014.
+Integrating it to Kubernetes give rise to the OCI spec. It was archived in 2019-08.
+[CNCF Archives the rkt Project - Cloud Native Computing Foundation](https://www.cncf.io/blog/2019/08/16/cncf-archives-the-rkt-project/)
 
 [rkt, a security-minded, standards-based container engine](https://coreos.com/rkt/)
 [coreos/rkt: rkt is an App Container runtime for Linux](https://github.com/coreos/rkt)

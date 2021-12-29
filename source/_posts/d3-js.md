@@ -22,6 +22,8 @@ date: 2016-04-08 14:10:55
 [Data Visualization and D3.js Course - Udacity](https://www.udacity.com/course/ud507)
 [D3 Workshop](http://bost.ocks.org/mike/d3/workshop/)
 [The Hitchhiker’s Guide to d3.js – Ian Johnson – Medium](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
+[How I Created an Interactive, Scrolling Visualisation with D3.js, and how you can too](https://towardsdatascience.com/how-i-created-an-interactive-scrolling-visualisation-with-d3-js-and-how-you-can-too-e116372e2c73)
+[From .txt file to d3.js visualization - Towards Data Science](https://towardsdatascience.com/from-txt-file-to-d3-js-visualization-7070ef7af837)
 [Intro to D3](http://square.github.io/intro-to-d3)
 [D3 — Scott Murray — alignedleft](https://alignedleft.com/tutorials/d3)
 [D3.js Tutorials, Screencasts and a Newsletter | DashingD3js.com](https://www.dashingd3js.com/)
@@ -51,6 +53,7 @@ date: 2016-04-08 14:10:55
 [hshoff/vx: react + d3 = vx | visualization components](https://github.com/hshoff/vx)
 [nivo](http://nivo.rocks/#/) D3 + React
 [Vega: A Visualization Grammar](https://vega.github.io/vega/)
+[A High-Level Grammar of Interactive Graphics | Vega-Lite](https://vega.github.io/vega-lite/)
 [MetricsGraphics.js - D3-based JavaScript Charting Library](https://www.metricsgraphicsjs.org/)
 [C3.js | D3-based reusable chart library](http://c3js.org/)
 
@@ -61,6 +64,8 @@ Inactive:
 
 [Set up D3.js Inside React in 5 Minutes – Sicara's blog](https://blog.sicara.com/a-starting-point-on-using-d3-with-react-869fdf3dfaf)
 [How (and why) to use D3 with React – Hacker Noon](https://hackernoon.com/how-and-why-to-use-d3-with-react-d239eb1ea274)
+
+[Home | nivo](https://nivo.rocks/)
 
 [Victory | Home](https://formidable.com/open-source/victory/)
 [FormidableLabs/victory: A collection of composable React components for building interactive data visualizations](https://github.com/FormidableLabs/victory)

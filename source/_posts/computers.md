@@ -8,62 +8,176 @@ tags:
 toc: true
 ---
 
-# Home Desktop
+## Home Desktop
 
-- Intel Core i5-4590 Haswell
-- Asus B85-PRO GAMER
-- Kingston HyperX FURY Blue 2x8GB (KHX1600C10D3/8G) 1600MHz DDR3
-- GigaByte GeForce® GTX 1060 WINDFORCE OC 6G
-- Antec TruePower New TP-650
-- ADATA Premier Pro SP920SS 256GB
-- Crucial MX200 250GB
-- WD Blue WD10EZEX 1TB
-- WD AV-GP WD20EURS 2TB
-- Dell UltraSharp U2713Hb 27" 2560x1440 16:9 IPS
-- Philips 245C5-QHAB 24" 1920x1080 16:9 IPS w/speaker
+- AMD Ryzen 7 Zen2 3700X 8C16T @4400MHz 65W \$2399@2020-06
+- Noctua NH-U12S \$400@2020-06
+- Asus TUF Gaming B550-Plus \$1200@2020-06
+- Corsair Vengeance LPX CMK16GX4M2B3200C16R DDR4 3200MHz Red Heat Spreader (16-18-18-36 @1.35V) \$710@2020-06
+- Corsair Vengeance LPX CMK16GX4M2B3200C16 DDR4 3200MHz Black Heat Spreader (16-18-18-36 @1.35V) \$600@2021-10
+- GigaByte GeForce® GTX 1060 WINDFORCE OC 6G \$2299@2017-07
+- Antec HCG-650 \$690@2020-06
+- ADATA Premier Pro SP920SS 256GB \$735@2015-07
+- Samsung PM981a 512GB (96 layers 3DNAND TLC) \$485@2020-07
+- ADATA XPG SX8200 Pro 512GB (3DNAND TLC) @2020-09
+- WD Blue WD10EZEX 1TB \$565@2012-10
+- WD Red WD30EFRX 3TB @2020-06
+- Intel AX200
+- Perixx Periduo-505 ¥298 @2021-08
+- Elecom HUGE ¥374 @2017-09
+- LG UltraGear 27GP83B 27" 2560x1440 16:9 Nano IPS 4.2/6.3kg \$3080@2021-10
+- Philips 245C5-QHAB 24" 1920x1080 16:9 IPS w/speaker \$1900@2015-02
+- COOLER MASTER MasterBox NR600 \$495@2020-06
+  - Cooler Master 202001180-GP 1200 RPM 7 blades
+  - Cooler Master 200031171-GP 1200 RPM 9 blades
+- built in 2020, GPU from 2017
 
-# Work Desktop
+- [Samsung LA22C360E1M](https://www.samsung.com/hk/support/model/LA22C360E1MXZK/)
+- Wraith Prism with RGB LED
+- WD AV-GP WD20EURS 2TB \$739@2013-06
+
+## Lenovo ThinkPad X1 Carbon Gen 7
+
+[ThinkPad,ThinkPad X1 Carbon (7th Gen),Model:20R1001BHH](http://psref.lenovo.com/Detail/ThinkPad/ThinkPad_X1_Carbon_7th_Gen?M=20R1001BHH)
+[Removal and Replacement Videos - ThinkPad X1 Carbon Gen 7 (20QD, 20QE) - HK](https://support.lenovo.com/hk/en/solutions/ht508716)
+[How to Battery Replacement Lenovo ThinkPad X1 Carbon 7th Generation disassembly - YouTube](https://www.youtube.com/watch?v=3giljS-od8Y)
+[ThinkPad X1 Carbon (2nd and 3rd Gen) - Wireless LAN Card Replacement - YouTube](https://www.youtube.com/watch?v=JLpFcDEIPE8)
+
+- 2019-11
+- 1.09kg
+- Intel Core Comet Lake i7-10510U 4C8T
+- 16GB SK Hynix LPDDR3 2133MHz
+- Intel UHD 620
+- Intel® SSD Pro 7600p NVMe SSD 1TB (64 layers 3D2 TLC)
+- Intel AX200
+- 14" 1920x1080 Low Power IPS 400nits
+- Dolby®Atmos™ Speaker System
+- 51Whr 4 cell battery
+- Type C Charger: 20V/3.25A, 15V/3A, 9V/2A, 5V/2A
+- Replaced battery and display @2020-10
+- Replaced Intel Wireless-AC 9560 (160MHz) with Intel AX200 @2020-11
+
+[Lenovo ThinkPad X1 Carbon (7th Gen) review: A top-quality 14-inch business ultraportable, with excellent security features Review | ZDNet](https://www.zdnet.com/product/thinkpad-x1-carbon-7th-gen/)
+
+[Windows 10 2004 八月更新引發 ThinkPad 筆電 BSoD，可能波及其他品牌 | iThome](https://www.ithome.com.tw/news/139707)
+用戶可以從「BIOS 設定」>「安全性」>「虛擬化選單」> 關閉「進階 Windows 生物辨識安全」
+
+## HP 800G1 USDT
+
+- 2020-07
+- Case ¥268@2020-07
+- Intel Core i5-4590 Haswell \$1459@2015-07
+- 8GB SO-DIMM 1333MHz DDR3
+- Intel® HD Graphics 4600
+- Crucial MX200 250GB \$600@2016-04
+- TP-Link TL-WN826N Wifi Adapter
+
+- Connected to TV, 150DPI
+- Mini PCIe Slot for WiFi
+- Broadcom Corporation BCM4313 802.11bgn PCIe WiFi Adaptor
+
+## Work Desktop
 
 - Intel Core i5-7500 Kabylake 3.4GHz
 - ASUS PRIME B250M-A
-- Kingston Hyper-X Fury 2x8GB (KHX2400C15/8G) 2400MHz DDR4
+- Kingston Hyper-X Fury 4x8GB (KHX2400C15/8G) 2400MHz DDR4
 - GTR Micro ATX Case
 - Antec NeoEcoII 550W Micro ATX 80Plus Bronze
 - ADATA Premier Pro SP920SS 256GB
 - ADATA Premier Pro SP920SS 256GB
 - Samsung SSD 860 EVO 250GB
-- Philip 190CW7 19" 1440x900 16:10 TN
+- Microsoft Surface Ergonomic Keyboard 4000 ¥340 @2021-09
+- Elecom HUGE ¥374 @2017-09
 - Dell UltraSharp U3011 30" 2560x1600 16:10 IPS
 - Dell UltraSharp U2415 24.1" 1920x1200 16:10 IPS
 
-# Lenovo ThinkPad X270 (Work Laptop)
+## Lenovo ThinkPad X260 (Work Laptop)
+
+[ThinkPad X series - Wikiwand](https://www.wikiwand.com/en/ThinkPad_X_series)
+
+- 2020-11
+- 1.24kg (24Wh, 3 cells) + 150g (24Wh, 3 cells) = 1.39kg
+- Intel Core i5-6200U Skylake 2.3GHz
+- 8G 2133MHz DDR4
+- Samsung NVMe MZ7TY256HDHP 256GB
+- 12.5" 1366x768 IPS 300nit
+- Lenovo Charger: 20V/3.25A, 15V/3A, 9V/2A, 5V/2A
+
+## Lenovo IdeaPad U330p
+
+[LENOVO IDEAPAD U410-HOW TO REPAIR BROKEN HINGE - YouTube](https://www.youtube.com/watch?v=NHz3YIjvmSM)
+[New Lenovo IdeaPad U330 U330P U330T Touch LCD Hinges Bracket Left & Right | eBay](https://www.ebay.co.uk/itm/222817700057)
+
+---
+
+# Historical Record
+
+## Pre-history
+
+Intel 80386DX (1992)
+
+AMD K5 (1995) / K6 (1997–2001)
+Socket 7
+
+Athlon Thunderbird (2000) / Athlon XP (2001)
+Socket A
+
+Athlon 64 (2003-2009)
+Socket 939
+GeForce 4 MX440 ~ (2005, AGP 4X)
+Sapphire Radeon 9550 ()
+
+Athlon II
+GIGABYTE 880GA-UD3H
+Socket AM3
+Sapphire Radeon HD 5770 (2010+, AGP 8X)
+
+Philips 190S7FB 19" 1280x1024 5:4 TN \$1990@2006-04
+
+## Home Desktop (2019)
+
+- Intel Core i5-4590 Haswell \$1459@2015-07
+- Asus B85-PRO GAMER \$765@2015-07, repaired 2017-06
+- Kingston HyperX FURY Blue 2x8GB (KHX1600C10D3/8G) 1600MHz DDR3 \$620@2016
+- GigaByte GeForce® GTX 1060 WINDFORCE OC 6G \$2299@2017-07
+- Antec TruePower New TP-650 \$745@2011-05
+- ADATA Premier Pro SP920SS 256GB \$735@2015-07
+- Crucial MX200 250GB \$600@2016-04
+- WD Blue WD10EZEX 1TB \$565@2012-10
+- WD AV-GP WD20EURS 2TB \$739@2013-06
+- Dell UltraSharp U2713Hb 27" 2560x1440 16:9 IPS
+- Philips 245C5-QHAB 24" 1920x1080 16:9 IPS w/speaker \$1900@2015-02
+- GTR case
+- built in 2015, GPU added 2017
+
+## Lenovo ThinkPad X270 (Old Work Laptop)
 
 [ThinkPad X series - Wikiwand](https://www.wikiwand.com/en/ThinkPad_X_series)
 
 - 2018-06
-- 1.24kg (24Wh, 3 cells) + 150g (24Wh, 3 cells)
+- 1.24kg (24Wh, 3 cells) + 150g (24Wh, 3 cells) = 1.39kg
 - Intel Core i5-6200U Skylake 2.3GHz
 - SK Hynix 8G 2133MHz DDR4
 - Intel NVMe DC P3600 256GB
 - 12.5" 1920x1080 IPS
 - Type C Charger: 20V/3.25A, 15V/3A, 9V/2A, 5V/2A
 
-# Lenovo ThinkPad T440p (Old Work Laptop)
+## Lenovo ThinkPad T440p (Old Work Laptop)
 
 [ThinkPad T series - Wikiwand](https://www.wikiwand.com/en/ThinkPad_T_series)
 
 - 2014-03
 - 1736g + 306g (57Wh)
 - Intel Core i3-4000M 2.4GHz
-- Samsung 8G 1500MHz DDR3
+- Samsung 8G 1600MHz DDR3
 - Samsung M27TD256HAFV-000L9 238GB
 - 14" 1366 x 768 TN
-- Lenovo Charger:
+- Lenovo Charger
 
-# Toshiba Satellite C660
+## Toshiba Satellite C660
 
 - Intel Core i3 380M 2.53GHz
-- 8G 800MHz DDR3
+- 8G 1600MHz DDR3
 - Samsung EVO 850 250GB SSD
 - 15.6" 1366x768 16:9 TN
 - one light spot at (0.8, 0.2)
@@ -71,54 +185,71 @@ toc: true
 - 2200 of 4400mAh battery active
 - wifi sometime fails to connect, need reboot
 
-# Voyo VBook V3
+---
 
-- 2016
-- Intel Atom x5 Z8300
-- 4G 800MHz DDR3
-- 64G eMMC
-- 13.3" 1920x1080 IPS Touchscreen
-- Micro-HDMI port broken, display have intermittent issue
+# Laptops
 
-Got this at \$1860 on Taobao in 201609.
-[Voyo vBook V3 Review (Cherry Trail Version) - YouTube](https://www.youtube.com/watch?v=I7FcN3K-Sjw)
-[讓人詫異的千元手寫超極本 - VOYO VBook V3 上手體驗 - 壹讀](https://read01.com/5L4z.html)
+[LinLap.com [Linux Laptop Wiki]](http://www.linlap.com/)
+[Unlocking Hidden Potential In IvyBridge ThinkPads | Hackaday](https://hackaday.com/2020/02/03/unlocking-hidden-potential-in-ivybridge-thinkpads/)
 
-Charger: 12V/3A 3.5mm-, 1.35mm+ 内正外负
-[Voyo VBook V3 手寫版平板電腦超級本充電器電源適配器 12V3A-淘宝网全球站](https://world.taobao.com/item/532005898451.htm?fromSite=main&spm=a1z3o.7695460.0.0.nfq444) 35
-[12V3A WIN8 系統 7~10.1 寸平板電腦充電器小口電源適配線 DC3.5\*1.35-淘宝网全球站](https://world.taobao.com/item/520520487858.htm?spm=a312a.7728556.2015080705.15.H5FC0k&id=520520487858&scm=1007.12006.46753.i532005898451&pvid=1cf6894f-09a0-402d-a070-c9a63af82b1a) 33
-[12V3A WIN8 系統 7~10.1 寸平板電腦充電器電源適配線 DC3.5\*1.35 牆充-淘宝网全球站](https://world.taobao.com/item/520522662570.htm?spm=a312a.7728556.2015080705.19.H5FC0k&id=520522662570&scm=1007.12006.46753.i532005898451&pvid=1cf6894f-09a0-402d-a070-c9a63af82b1a) 28
-[歐美澳英規雙線 12V3A 電源適配器 3.5A 監控 LED 液晶路由器 3.5MM-淘宝网全球站](https://world.taobao.com/item/41383362233.htm?fromSite=main&spm=a312a.7700824.w4002-7918071727.11.dExPs9) 28
-[12V5A 電源適配器 液晶顯示器 監控 路由 LED 燈 12V4A3.5A12V3A2.5A-淘宝网全球站](https://world.taobao.com/item/524304190692.htm?spm=a312a.7700714.0.0.7H5UWb#detail) 13.8
-[批發進口原裝 12V3A 12V4A 12V5A 12V6A 12V7A 12V8.5A 電源適配器-淘宝网全球站](https://world.taobao.com/item/524606241388.htm?fromSite=main&ali_refid=a3_430618_1006:1102337839:N:5A12V电源适配器:0ee03dd4077048f230a86a13af0d9212&ali_trackid=1_0ee03dd4077048f230a86a13af0d9212&spm=a312a.7700714.0.0.5c69k5) 12.5
-
-# eDongCity EDCD NB1000
-
-- Atom N270 1.6GHz
-- 1G DDR
-- 11.6" 1024x600 16:9 TN
-
-add 'i8042.noloop=1' to boot param to get the touchpad working
+[LaptopRepairHelp - YouTube](https://www.youtube.com/channel/UCxjZ_nUJ4VOQcBsD3USRdrg)
+[Laptop Parts | Replacement Parts For Laptop Repair](http://www.laptopinventory.com/)
 
 ---
 
-[LinLap.com [Linux Laptop Wiki]](http://www.linlap.com/)
-[广州笔记本乐园官方网站 广州二手 IBM/Thinkpad 笔记本电脑 专卖二手 Thinkpad 笔记本 二手笔记本论坛 二手笔记本网站 Thinkpad 笔记本电脑 - Powered by Discuz!](http://www.lybook.com.cn/forum.php)
+# HTPC
 
-# Mi Notebook Air
+## LGA1150 (4th gen)
 
-[Xiaomi Mi Notebook Air 13.3 (2018 Global version) - ArchWiki](https://wiki.archlinux.org/index.php/Xiaomi_Mi_Notebook_Air_13.3_(2018_Global_version%29)
-[Xiaomi Mi Notebook Air 13.3 を Arch Linux で快適に使う – Atsuya Takagi – Medium](https://medium.com/@atsuya/xiaomi-mi-notebook-air-13-3%E3%82%92arch-linux%E3%81%A7%E5%BF%AB%E9%81%A9%E3%81%AB%E4%BD%BF%E3%81%86-c2b2d26deb96) 2016
+[Z87, H87, H81, Q87, Q85, B85 - What is the difference?](<https://www.pugetsystems.com/labs/articles/Z87-H87-H81-Q87-Q85-B85---What-is-the-difference-473/#ConsumerChipsets(Z87,H87,H81)>)
 
-[Golovin-Andrey/xiaomi-mi-13-ubuntu: Minimal Ubuntu Installation and power optimization steps](https://github.com/Golovin-Andrey/xiaomi-mi-13-ubuntu)
+ThinkCentre M93P, Q97 65W 184 mm x 182 mm x 65 mm
+ThinkCentre M73P, H81 65W 184 mm x 182 mm x 65 mm
+[联想 ThinkCentre M93P 迷你小主机 mini 低功耗电脑主机 i5/i7 准系统-淘宝网](https://item.taobao.com/item.htm?id=612243004335) i3 4130T 8G 240G Wifi ¥1230; bare Wifi ¥368+35
+[联想 ThinkCentre M73/M93P 迷你小主机 mini 低功耗电脑桌面准系统-淘宝网](https://item.taobao.com/item.htm?id=587646520606) i3 4130T 8G 128G Wifi ¥1061; bare Wifi ¥351
+[联想 M73 M83 H61 Q85 准系统 1150 针迷你 4K 电脑小主机 i3i5 家用办公-淘宝网](https://item.taobao.com/item.htm?id=588605730407)
+M73 4130T 4G 120G Wifi ¥1080; bare ¥350
+M83 4130T 4G 120G Wifi ¥1180; bare ¥450
+[联想 M73P 游戏 M93P 淘宝客服直播推流 i3i5 准系统高清软路由电脑主机-淘宝网](https://item.taobao.com/item.htm?id=581631687080)
+M73 4590 8G 240G Wifi ¥1120; bare ¥310 \*\*
 
-# Huawei Matebook
+HP 800G1 USDT Q87 90-135W 25.1 x 25.4 x 6.5 cm 4.2L
+[HP EliteDesk 800 G1 Ultra-slim Desktop Business PC Specifications | HP® Customer Support](https://support.hp.com/hk-en/document/c03836666)
 
-[ivzave/matebook-linux: Using Linux on Huawei Matebook](https://github.com/ivzave/matebook-linux)
+HP 800G1 DM Q87 65-90W 17.5 x 17.7 x 3.5 cm 1L
+[[HW: Review] - HP EliteDesk 800 G1 Mini pc - YouTube](https://www.youtube.com/watch?v=aVJ3sD_u2Vg)
+[HP EliteDesk 800 G1 Desktop Mini PC Product Specifications | HP® Customer Support](https://support.hp.com/us-en/document/c04266271)
 
-[Magic Book 折腾 Linux Mint（全） - 荣耀 MagicBook 分享交流 花粉俱乐部](https://club.huawei.com/thread-16399673-1-1.html)
-[MagicBook（R5）—花粉俱乐部](https://club.huawei.com/forum-3528-1.html)
+[HP/惠普二手电脑 800G1 USDT Q87 迷你电脑整机高清家用准系统主机-淘宝网](https://item.taobao.com/item.htm?id=614386610279)
+[惠普 800G1USDT 迷你客厅小电脑高清 i3/Ii5/i7 双屏小主机准系统整机-淘宝网](https://item.taobao.com/item.htm?id=584433692393)
+i3 4130T 8G 120G Wifi ¥850; bare ¥315
+[800G1 惠普 HP800G1 迷你电脑办公 i3.i5 双屏炒股客服小主机准系统-淘宝网](https://item.taobao.com/item.htm?id=578679766961)
+i3 4130 8G 120G Wifi ¥890; bare Wifi ¥285 + 30 \*\*
 
-# ENVY x360
+[惠普 HP880G1 800G1DM/ USDT/SFF 迷你手掌大台式电脑小主机 600G1-淘宝网](https://item.taobao.com/item.htm?id=609362530024)
+USDT i3 4130 2G 120G Wifi ¥850; i5 4590 4G 120G Wifi ¥1050; bare ¥275 \*\*
+DM i3 4130T 2G 120G Wifi ¥930; i5 4590T 4G 120G Wifi ¥1050; bare ¥365
 
-[HP Envy x360 13z-ag000 - ArchWiki](https://wiki.archlinux.org/index.php/HP_Envy_x360_13z-ag000)
+DELL 9020M, passive heat sink
+[迷你小主机 DELL 戴尔 9020 高速固态办公电脑微型 i5 台式整机高清家用-淘宝网](https://item.taobao.com/item.htm?id=613920532095)
+
+## LGA1151 (6-9th gen)
+
+HP 800G4 DM Q87 35-90W 25.1 x 25.4 x 6.5 cm 4.2L
+[HP EliteDesk 800 G4 Desktop Mini Business PC (35 W/65 W/95 W) Specifications | HP® Customer Support](https://support.hp.com/hk-en/document/c06045012)
+[HP EliteDesk 800 G4 Mini Guide and Review - YouTube](https://www.youtube.com/watch?v=QdEf-dXl-_Y)
+
+---
+
+# Lenovo K1 Tablet
+
+[Lenovo IdeaPad K1 - Full tablet specifications](https://www.gsmarena.com/lenovo_ideapad_k1-4443.php)
+[IdeaPad K1 - Which ROM do I choose? - Lenovo Community](https://forums.lenovo.com/t5/Other-Android-based-Tablets-and/IdeaPad-K1-Which-ROM-do-I-choose/ta-p/864217)
+
+- 2011-06
+- 750g
+- Nvidia Tegra 2 T20 Dual core Dual-core 1.0 GHz Cortex-A9
+- 1GB RAM
+- 16GB flash
+- 10.1" 1280x800 16:10
+- Type C Charger: 20V/3.25A, 15V/3A, 9V/2A, 5V/2A

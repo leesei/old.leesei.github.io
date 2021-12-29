@@ -32,7 +32,7 @@ Squad Section
 校/佐 flower/star
 上校, 團長, 大佐 colonel
 中校, 中佐, 二佐 lieutenant colonel, commander
-少校, 少佐 major 
+少校, 少佐 major
 
 尉 carat
 上尉, 大尉 captain

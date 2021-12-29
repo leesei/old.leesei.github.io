@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-10-09 10:39:16
 tags:
-- monetary-policy
+  - monetary-policy
 ---
 
 [Great Depression - Wikiwand](https://www.wikiwand.com/en/Great_Depression)
@@ -25,6 +25,7 @@ tags:
 [Excess reserves - Wikiwand](https://www.wikiwand.com/en/Excess_reserves)
 
 [Monetary Policy Definition | Investopedia](http://www.investopedia.com/terms/m/monetarypolicy.asp)
+[美國列人民幣為貨幣操縱國 人民幣破七真相〈蕭若元：蕭氏新聞台〉2019-08-06 - YouTube](https://www.youtube.com/watch?v=XNiXinL1Aqw)
 
 ### Money supply
 
@@ -32,6 +33,8 @@ tags:
 [M1 Definition | Investopedia](http://www.investopedia.com/terms/m/m1.asp)
 [M2 Definition | Investopedia](http://www.investopedia.com/terms/m/m2.asp)
 [M3 Definition | Investopedia](http://www.investopedia.com/terms/m/m3.asp)
+
+[More Money Less Problems | Radiolab | WNYC Studios](https://www.wnycstudios.org/podcasts/radiolab/articles/more-money-less-problems)
 
 ## Cryptocurrency
 

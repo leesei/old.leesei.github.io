@@ -57,8 +57,3 @@ The ecosystem is vast, these are what I came across.
 [Spark tutorial: Get started with Apache Spark | InfoWorld](https://www.infoworld.com/article/3237984/analytics/spark-tutorial-get-started-with-apache-spark.html)
 
 Spark
-
-### Kafka
-
-[Introduction to Event-Driven Architectures with Apache Kafka on Heroku - Salesforce Live](https://www.salesforce.com/video/1773568/?c=7013A000001yK6PQAU&)
-[HiveMQ Goes Open Source, Brings MQTT and Kafka Together](https://www.infoq.com/news/2019/04/hivemq-extension-kafka-mqtt/)

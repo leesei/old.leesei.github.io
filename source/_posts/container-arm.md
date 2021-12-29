@@ -31,6 +31,4 @@ tags:
 
 ## k3s
 
-[k3s - Lightweight Kubernetes | k3s](https://k3s.io/) supports ARM
-
 > see `rancher.md#k3s-k3os`

@@ -2,10 +2,10 @@
 title: "Tuned mass damper"
 date: 2018-07-05 16:13:39
 categories:
-- science
+  - science
 tags:
-- damper
-- physics
+  - damper
+  - physics
 toc: true
 ---
 

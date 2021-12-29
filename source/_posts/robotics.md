@@ -4,9 +4,11 @@ categories:
   - maker
 toc: true
 date: 2015-10-19 15:46:34
-tags:
-- 
+tags: 
+  -
 ---
+
+[9 Most Advanced AI Robots - Humanoid & Industrial Robots - YouTube](https://www.youtube.com/watch?v=Jky9I1ihAkg)
 
 [Documentation - ROS Wiki](http://wiki.ros.org/)
 
@@ -21,6 +23,8 @@ tags:
 [The Complete History And Future of Robots | WIRED](https://www.wired.com/story/wired-guide-to-robots/)
 [How I Became a Robot in London—From 5,000 Miles Away | WIRED](https://www.wired.com/story/how-i-became-a-robot-in-london/)
 
+[Mini Raspberry Pi Boston Dynamics–inspired robot - Raspberry Pi](https://www.raspberrypi.org/blog/mini-raspberry-pi-boston-dynamics-inspired-robot/)
+
 [How to Control a Servo Motor From a Webpage | Arduino | Maker Pro](https://maker.pro/arduino/tutorial/how-to-control-a-servo-motor-from-a-webpage)
 [Raspberry PI L298N Dual H Bridge DC Motor: 5 Steps](https://www.instructables.com/id/Raspberry-PI-L298N-Dual-H-Bridge-DC-Motor/)
 [Arduino Robot - Motor Control - DarkBlueBit.com](https://darkbluebit.com/arduino/robot-motor-control/)
@@ -32,7 +36,16 @@ tags:
 [ESP32 with DC Motor - Control Speed and Direction | Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-dc-motor-l298n-motor-driver-control-speed-direction/)
 [How to Control a Servo Motor From a Webpage With the ESP32 | Everything ESP | Maker Pro](https://maker.pro/everything-esp/tutorial/how-to-control-a-servo-motor-from-a-webpage-with-the-esp32)
 
-[Arduino and Servos: How to Make a Laser Turret with XOD - YouTube](https://www.youtube.com/watch?v=iH9_xtulyws)
+[Build a REAL Robot - YouTube](https://www.youtube.com/playlist?list=PLWNDWPAClRVqZITmi-J-7E9XSZd2aqqBh)
+[Arduino and Servos: How to Make a Laser Turret with XOD - YouTube](https://www.youtube.com/watch?v=iH9_xtulyws) DroneBot Workshop
+
+## Boston Dynamics
+
+[Boston Dynamics - YouTube](https://www.youtube.com/user/BostonDynamics/videos)
+[Evolution Of Boston Dynamics Since 2012 | HIGHLIGHTS - YouTube](https://www.youtube.com/watch?v=NR32ULxbjYc)
+[Do You Love Me? - YouTube](https://www.youtube.com/watch?v=fn3KWM1kuAw) 2020 show case
+
+[跑酷機器人開始反擊人類了？阿特拉斯和更多波士頓動力的黑科技！【老肉雜談】 - YouTube](https://www.youtube.com/watch?v=kNHqC9OlkzA)
 
 ## Robotic Hands/Arms
 
@@ -42,15 +55,82 @@ tags:
 
 [This One-Armed Robot Is Super Manipulative (in a Good Way) | WIRED](https://www.wired.com/story/this-one-armed-robot-is-super-manipulative-in-a-good-way/) deformable finger, soft robotics
 
+[DIY Arduino Robot Arm with Smartphone Control - HowToMechatronics](https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/)
+[DIY Arduino Gimbal | Self-Stabilizing Platform - HowToMechatronics](https://howtomechatronics.com/projects/diy-arduino-gimbal-self-stabilizing-platform/)
+
+[Spiderin, a four-legs spider robot | Open Electronics](https://www.open-electronics.org/spiderin-a-four-legs-spider-robot/) principles of moving legs with servo motor
+
 ## Bio-inspired Robots
 
 [This Supple, Squishy Robo-Jellyfish Can Explore Ocean Reefs | WIRED](https://www.wired.com/story/supple-squishy-robot-jellyfish-can-explore-ocean-reefs/) soft robotics
 
 [C-Turtle](https://sites.google.com/view/c-turtle/)
 
+### Biomimicry
+
+[The Biomimicry Institute – Inspiring Sustainable Innovation](https://biomimicry.org/)
+[The world is poorly designed. But copying nature helps. - YouTube](https://www.youtube.com/watch?v=iMtXqTmfta0)
+
 ## Soft robotics
 
 [Giada Gerboni: The incredible potential of flexible, soft robots | TED Talk](https://www.ted.com/talks/giada_gerboni_the_incredible_potential_of_flexible_soft_robots?language=en)
+
+[Why Robots That Bend Are Better - YouTube](https://www.youtube.com/watch?v=058hRtaCWC0)
+
+## Petoi
+
+[RongzhongLi（李荣仲） (@petoicamp) • Instagram photos and videos](https://www.instagram.com/petoicamp/)
+[Rongzhong Li - YouTube](https://www.youtube.com/channel/UC5c3a8-BYPm0nybfH5AjPrg)
+[🎙 "Bittle" the Robo-Dog, ft. Rongzhong Li // Now on KS - Hackster.io](https://www.hackster.io/videos/715)
+
+[Petoi Nybble - Hackster.io](https://www.hackster.io/RzLi/petoi-nybble-944867)
+[Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun by Petoi — Kickstarter](https://www.kickstarter.com/projects/petoi/bittle)
+
+[OpenCat - Hackster.io](https://www.hackster.io/petoi/opencat-845129)
+
+## Walker
+
+> see `lego.md#walker`
+
+[DIY Walkers - Home](https://www.diywalkers.com/)
+
+[Klann's Linkage Plans - DIY Walkers](https://www.diywalkers.com/klanns-linkage-plans.html)
+[Klann's Spider, EV3 Long Legs - DIY Walkers](https://www.diywalkers.com/klanns-spider-ev3-long-legs.html)
+[Klann High-Step Mod - DIY Walkers](https://www.diywalkers.com/klann-high-step-mod.html)
+
+[Strandbeest - DIY Walkers](https://www.diywalkers.com/strandbeest.html)
+
+[Strider Ver 3's Legs - DIY Walkers](https://www.diywalkers.com/strider-ver-3s-legs.html)
+[Mindstorms Strider Ver 3 Mod - DIY Walkers](https://www.diywalkers.com/mindstorms-strider-ver-3-mod.html)
+
+[Building 8-Legged Trotbots, From Tiny to Towering | Make:](https://makezine.com/2017/01/12/lego-trotbot/) too much torque, see below
+[Lego Trotbot: 8 Steps (with Pictures)](https://www.instructables.com/id/Lego-Trotbot/)
+[TrotBot Linkage Plans - DIY Walkers](https://www.diywalkers.com/trotbot-linkage-plans.html)
+[TrotBot's Legs Simplified - DIY Walkers](https://www.diywalkers.com/trotbots-legs-simplified.html)
+[Hexapod TrotBot - DIY Walkers](https://www.diywalkers.com/hexapod-trotbot.html)
+
+### Linkage Simulator
+
+[Linkage Simulation - DIY Walkers](https://www.diywalkers.com/linkage-simulation.html)
+[Customize - DIY Walkers](https://www.diywalkers.com/customize.html)
+
+[Python Linkage Simulator - DIY Walkers](https://www.diywalkers.com/python-linkage-simulator.html)
+
+[Scratch Linkage Simulator - DIY Walkers](https://www.diywalkers.com/scratch-linkage-simulator.html)
+[Scratch - Imagine, Program, Share](https://scratch.mit.edu/users/DIY_Walkers/projects/)
+
+## IMU
+
+[Inertial measurement unit - Wikiwand](https://www.wikiwand.com/en/Inertial_measurement_unit)
+[Accelerometer - Wikiwand](https://www.wikiwand.com/en/Accelerometer)
+
+[Accelerometer Basics - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/accelerometer-basics/all)
+[Accelerometer, Gyro and IMU Buying Guide - SparkFun Electronics](https://www.sparkfun.com/pages/accel_gyro_guide)
+
+### Self-balancing robot
+
+[Arduino Blog » This self-balancing mech is piloted by an insect](https://blog.arduino.cc/2019/06/14/this-self-balancing-mech-is-piloted-by-an-insect/)
+[Augmented Arthropod - Self-Balancing Mech: 11 Steps (with Pictures)](https://www.instructables.com/id/Augmented-Arthropod-Self-Balancing-Mech/)
 
 ## Motor
 
@@ -58,16 +138,23 @@ tags:
 [Types of Motors | Adafruit Motor Selection Guide | Adafruit Learning System](https://learn.adafruit.com/adafruit-motor-selection-guide)
 [Motors and Selecting the Right One - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/motors-and-selecting-the-right-one)
 [Which Motor Type is the Best Generator? || DC, BLDC or Stepper? (Experiment) - YouTube](https://www.youtube.com/watch?v=cJ_vDA7xsGs)
+[HACKED!: Turning an Induction Motor into a Generator?! - YouTube](https://www.youtube.com/watch?v=05qJM-zZ4ng)
+[How does an Electric Motor work? (DC Motor) - YouTube](https://www.youtube.com/watch?v=CWulQ1ZSE3c)
+[How-To: Motors: 10 Steps (with Pictures)](https://www.instructables.com/id/How-To-Motors/)
+[Toy Motors: 3 Steps](https://www.instructables.com/id/Toy-Motors/)
+[地表最強電機的秘密！解密特斯拉最新電機技術!超乎你的想象！永磁電機不如感應電機？What's inside the tesla motor？ - YouTube](https://www.youtube.com/watch?v=cUIJHyIQgnQ)
+
+[Beginners Guide to Using Electric Motors - YouTube](https://www.youtube.com/playlist?list=PL4njCTv7IRbyJbm1WOi6zeE8G-75Xz8JJ)
+[Understanding Motor and Gearbox Design: 10 Steps (with Pictures)](https://www.instructables.com/id/Understanding-Motor-and-Gearbox-Design/)
 
 [The Electric Motor - Edison Tech Center](http://www.edisontechcenter.org/electricmotors.html)
 [Induction Motors](http://www.edisontechcenter.org/inductionMotors.html)
 [Electric Motor: Model S, Tesla Motors - YouTube](https://www.youtube.com/watch?v=NaV7V07tEMQ)
 [Electric motor basics](https://www.st.com/content/ccc/resource/sales_and_marketing/presentation/application_presentation/group0/23/a1/94/a3/39/cf/4c/37/introduction_to_electric_motors_pres.pdf)
 [How to make the simplest electric motor | Evil Mad Scientist Laboratories](https://www.evilmadscientist.com/2006/how-to-make-the-simplest-electric-motor/)
+[How does an Induction Motor work how it works 3 phase motor ac motor - YouTube](https://www.youtube.com/watch?v=N7TZ4gm3aUg)
 
-[Arduino Blog » This self-balancing mech is piloted by an insect](https://blog.arduino.cc/2019/06/14/this-self-balancing-mech-is-piloted-by-an-insect/)
-[Augmented Arthropod - Self-Balancing Mech: 11 Steps (with Pictures)](https://www.instructables.com/id/Augmented-Arthropod-Self-Balancing-Mech/)
-
+[Motors - YouTube](https://www.youtube.com/playlist?list=PLWNDWPAClRVpz1kldq3PktejQH3D-xRaC) DroneBot Workshop
 [Electrical Machines - YouTube](https://www.youtube.com/playlist?list=PLuUdFsbOK_8qVROrfl2M2WSV2xAz-ABVU)
 
 ### Motor Control
@@ -79,7 +166,10 @@ When using PWM to drive DC motor, do a high pass (of say 8 out of 255 with 8 bit
 > Do use a suppression diode to cross the load to protect the transistor from voltage spike.
 > [How to protect circuits from reversed voltage polarity! - YouTube](https://www.youtube.com/watch?v=IrB-FPcv1Dc)
 
+[Overview of Industrial Motor Control Systems - Tutorial - Maxim](https://www.maximintegrated.com/en/app-notes/index.mvp/id/4697)
 [Motor Control Simulation - YouTube](https://www.youtube.com/playlist?list=PLn8PRpmsu08q6N0vjurZxdOaFdbsjuQq2)
+[Motor speed controller tutorial - PWM how to build - YouTube](https://www.youtube.com/watch?v=UPTU6nYSaMo)
+[Motor + LCD + Arduino: Motor Speed Controller With Speed Display: 5 Steps (with Pictures)](https://www.instructables.com/id/Motor-LCD-Arduino-Motor-Speed-Controller-With-Spee/)
 
 [Pololu - DRV8833 Dual Motor Driver Carrier](https://www.pololu.com/product/2130) 10V 1.5A, used by LEGO IR receiver v2
 [Pololu - DRV8835 Dual Motor Driver Carrier](https://www.pololu.com/product/2135)
@@ -115,7 +205,7 @@ When using PWM to drive DC motor, do a high pass (of say 8 out of 255 with 8 bit
 [Make your own ESC || BLDC Motor Driver (Part 1) - YouTube](https://www.youtube.com/watch?v=W9IHEqlGG1s)
 [Make your own ESC || BLDC Motor Driver (Part 2) - YouTube](https://www.youtube.com/watch?v=NXkLydhRvS0)
 
-### DC brushed/brushless motor
+### DC Brushed/Brushless Motors
 
 [摩打 - Wikiwand](https://www.wikiwand.com/zh-hk/电动机)
 [DC motor - Wikiwand](http://www.wikiwand.com/en/DC_motor)
@@ -125,13 +215,18 @@ Deceleration Motor
 [减速电机\_百度百科](https://baike.baidu.com/item/减速电机)
 
 [DC Motors in Drones](http://www.edisontechcenter.org/Drones.html)
+[Ultimate Beginners Guide to Using Electric Motors for Makers and DIY Projects; #068 - YouTube](https://www.youtube.com/watch?v=SrPHQh-M3pM)
 
 [Make your own ESC || BLDC Motor Driver (Part 1) - YouTube](https://www.youtube.com/watch?v=W9IHEqlGG1s)
 [Make your own ESC || BLDC Motor Driver (Part 2) - YouTube](https://www.youtube.com/watch?v=NXkLydhRvS0)
 
+[Brushed DC Motors and How to Drive Them - YouTube](https://www.youtube.com/watch?v=yO9xIVv8ryc)
 [Brushed DC Motors | AddOhms #20 - YouTube](https://www.youtube.com/watch?v=iKqruCYuc1Q)
 [Brushless DC Motors (BLDCs) Introduction | AO #21 - YouTube](https://www.youtube.com/watch?v=ZqEHXEuq2rc)
 [Electronic Basics #18: DC & Brushless DC Motor + ESC - YouTube](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
+
+Brushed motor will have spark, and is cheaper
+BLDC = Electronic control unit (ECU) + permanent magnet three phase AC motor; it don't have spark and is lighter and more efficient
 
 GPIO pin does not provide enough current to drive the motor, use transistor to draw current from main input.
 [DC Motor - Microbit - Google Docs](https://docs.google.com/document/d/1lPu3yNbNnEjcNbhkx-jtpx01nyoOD-lB66QQqUEqaMs/edit)
@@ -177,6 +272,17 @@ with box and gears, usually yellow or blue
 N20 减速电机
 small, usually naked
 
+### AC Motors
+
+[AC MOTORS - YouTube](https://www.youtube.com/watch?v=lV8iPKY-3ms)
+permanent magnet synchronous AC motor with an ECU is used to make BLDC
+
+[Tesla Model 3's motor - The Brilliant Engineering behind it - YouTube](https://www.youtube.com/watch?v=esUb7Zy5Oio)
+SynRM
+
+- high magnetic reluctancy
+- no back EMF issue
+
 ### Servo Motors
 
 [Servomotor - Wikiwand](https://www.wikiwand.com/en/Servomotor)
@@ -196,6 +302,13 @@ Duty cycle: 5-10% (1-2ms)
 
 [What is a Stepper Motor? | All About Stepper Motors | Adafruit Learning System](https://learn.adafruit.com/all-about-stepper-motors?view=all)
 [Arduino Stepper Motor Driver](https://www.electroschematics.com/12353/arduino-stepper-motor-driver/)
+[How Stepper Motors Work - Electric motor - YouTube](https://www.youtube.com/watch?v=09Mpkjcr0bo)
+[Stepper Motor Basics - 6 Wires Unipolar / Bipolar Motor](https://www.instructables.com/id/Stepper-Motor-Basics-6-Wires-Unipolar-Bipolar-Moto/)
+[BYJ48 Stepper Motor: 4 Steps](https://www.instructables.com/id/BYJ48-Stepper-Motor/)
+[Stepper Motor Magic](https://www.instructables.com/id/Stepper-Motor-magic/)
+[Stepper Motor for UART: 5 Steps](https://www.instructables.com/id/Stepper-motor-for-UART/)
+[Controlling Stepper Motor With L293D: 5 Steps (with Pictures)](https://www.instructables.com/id/Controlling-Stepper-Motor-With-L293D/)
+[Control a Stepper Motor With the DRV8825 : 4 Steps (with Pictures)](https://www.instructables.com/id/Controll-a-Stepper-Motor-With-the-DRV8825/)
 
 [Electronic Basics #24: Stepper Motors and how to use them - YouTube](https://www.youtube.com/watch?v=bkqoKWP4Oy4)
 [Stepper Motors with Arduino - Controlling Bipolar & Unipolar stepper motors - YouTube](https://www.youtube.com/watch?v=0qwrnUeSpYQ)
@@ -232,7 +345,7 @@ Proportional, Derivative, Integral
 
 [PID controller - Wikiwand](https://www.wikiwand.com/en/PID_controller)
 [Understanding PID Control - YouTube](https://www.youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
-[PID Tutorials for Line Following | RobotShop Community](https://www.robotshop.com/community/blog/show/pid-tutorials-for-line-following)
+[PID Tutorials for Line Following | RobotShop Community](https://www.robotshop.com/community/blog/show/pid-tutorials-for-line-following)
 
 [Arduino Playground - PIDLibrary](https://playground.arduino.cc/Code/PIDLibrary/)
 [Arduino Playground - PIDAutotuneLibrary](https://playground.arduino.cc/Code/PIDAutotuneLibrary/)

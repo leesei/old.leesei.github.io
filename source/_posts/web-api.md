@@ -40,7 +40,19 @@ tags:
 
 [Virtualization, Sandboxes, and Playgrounds for a Wholesome API | Nordic APIs |](https://nordicapis.com/virtualization-sandboxes-playgrounds-wholesome-api/)
 
-## Specification
+## API meshing
+
+[My Applets - IFTTT](https://ifttt.com/home)
+
+[Combine APIs into one GraphQL endpoint.](https://www.takeshape.io/)
+
+[NoCodeAPI — The easiest way to connect with APIs without code](https://nocodeapi.com/)
+
+[johnwmillr/list-of-python-api-wrappers: List of Python API Wrappers and Libraries](https://github.com/johnwmillr/list-of-python-api-wrappers)
+
+---
+
+# Specification
 
 [There Are Four API Design Editors To Choose From Now](https://apievangelist.com/2014/11/21/there-are-four-api-design-editors-to-choose-from-now/)
 [Choosing the right format | Apiary Help](https://help.apiary.io/api_101/choosing-format/)
@@ -61,7 +73,7 @@ Dredd is a language-agnostic command-line tool for validating API description do
 
 > see `hapi.md#docs`
 
-### Swagger/OpenAPI
+## Swagger/OpenAPI
 
 [Swagger | The World's Most Popular Framework for APIs.](http://swagger.io/)
 backed by Wordnik, then donated to [Open API Initiative](https://openapis.org/) in 2016.
@@ -75,6 +87,7 @@ backed by Wordnik, then donated to [Open API Initiative](https://openapis.org/) 
 [OAI/OpenAPI-Specification: The OpenAPI Specification Repository](https://github.com/OAI/OpenAPI-Specification)
 [The OpenAPI Spec, Based on Swagger, Reaches 3.0](https://www.infoq.com/news/2017/01/openapi-3)
 [Documenting APIs: A guide for technical writers and engineers | Documenting REST APIs](https://idratherbewriting.com/learnapidoc/)
+[octokit/routes: machine-readable, always up-to-date GitHub REST API route specifications](https://github.com/octokit/routes/)
 
 [OpenAPI 3.0, And What it Means for the Future of Swagger - YouTube](https://www.youtube.com/watch?v=wBDSR0x3GZo)
 [OpenAPI 3.0: How to Design and Document APIs with the Latest OpenAPI Specification 3.0 - YouTube](https://www.youtube.com/watch?v=6kwmW_p_Tig)
@@ -84,7 +97,7 @@ backed by Wordnik, then donated to [Open API Initiative](https://openapis.org/) 
 
 [Writing OpenAPI (Swagger) Specification Tutorial - Part 1 - Introduction | API Handyman](http://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/) Swagger 2.0, part 1-9
 
-#### Examples
+### Examples
 
 [Mermade/openapi_specifications: Open API Specifications](https://github.com/mermade/openapi_specifications)
 [Mermade/openapi3-examples: Passing and failing test cases for OpenAPI 3.0.x validators](https://github.com/mermade/openapi3-examples)
@@ -95,7 +108,7 @@ http://stackoverflow.com/questions/30895944/how-to-make-a-field-in-a-definition-
 
 [Ansible Semaphore](https://github.com/ansible-semaphore/semaphore/blob/master/api-docs.yml) [Generated UI](https://ansible-semaphore.github.io/semaphore/)
 
-#### Tools
+### Tools
 
 [The Swagger Core Tools](http://swagger.io/tools/)
 [Swagger Editor | Swagger Documentation | Swagger](https://swagger.io/docs/open-source-tools/swagger-editor/)
@@ -140,36 +153,36 @@ BigstickCarpet's
 
 [Mermade/openapi_optimise: Optimise OpenApi (Swagger) 2.0 API definitions](https://github.com/Mermade/openapi_optimise)
 
-### RAML
+## RAML
 
 [RAML - RESTful API modeling language](http://raml.org/) backed by Mulesoft
 [raml-spec-raml-10.md at master · raml-org-raml-spec · GitHub](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md/)
 
 [raml-org/raml-tutorial: This repository contains the content for the RAML tutorial on raml.org.](https://github.com/raml-org/raml-tutorial)
 
-#### Examples
+### Examples
 
 [RAML APIs](https://github.com/raml-apis)
 
-#### Tools
+### Tools
 
 [API Design Tooling From RAML](http://apievangelist.com/2014/03/01/api-design-tooling-from-raml/)
 
 [API Workbench](http://apiworkbench.com/)
 
-[GitHub - cybertk-abao: REST API automated testing tool based on RAML](https://github.com/cybertk/abao)
-[GitHub - farolfo-raml-server: run a mocked server JUST based on a RAML API's definition .. zero coding](https://github.com/farolfo/raml-server)
-[GitHub - gextech-raml-mockup: Express-based mocking service for RAML development](https://github.com/gextech/raml-mockup)
-[GitHub - Letsdeal-raml1-doc: Generate HTML doc for REST API using RAML](https://github.com/Letsdeal/raml1-doc)
-[GitHub - mulesoft-api-designer: A web editor for creating and sharing RAML API specifications](https://github.com/mulesoft/api-designer/)
-[GitHub - mulesoft-raml-client-generator: Template-driven generator of clients for APIs described by a RAML spec](https://github.com/mulesoft/raml-client-generator)
-[GitHub - PGSSoft-ramlo: Documentation generator for RAML 1.0](https://github.com/PGSSoft/ramlo)
+[cybertk-abao: REST API automated testing tool based on RAML](https://github.com/cybertk/abao)
+[farolfo-raml-server: run a mocked server JUST based on a RAML API's definition .. zero coding](https://github.com/farolfo/raml-server)
+[gextech-raml-mockup: Express-based mocking service for RAML development](https://github.com/gextech/raml-mockup)
+[Letsdeal-raml1-doc: Generate HTML doc for REST API using RAML](https://github.com/Letsdeal/raml1-doc)
+[mulesoft-api-designer: A web editor for creating and sharing RAML API specifications](https://github.com/mulesoft/api-designer/)
+[mulesoft-raml-client-generator: Template-driven generator of clients for APIs described by a RAML spec](https://github.com/mulesoft/raml-client-generator)
+[PGSSoft-ramlo: Documentation generator for RAML 1.0](https://github.com/PGSSoft/ramlo)
 [raml2html html documentation generator from raml file](http://raml2html.leanlabs.io/) [source](https://github.com/raml-leanlabsio/raml2html)
 [raml2html/raml2html: RAML to HTML documentation generator.](https://github.com/raml2html/raml2html)
 [raml-org/ramldt2jsonschema: This repository contains a node implementation that converts a RAML data type into JSON schema, and back.](https://github.com/raml-org/ramldt2jsonschema)
-[GitHub - repocho-raml-mocker: Node module to create random responses to requests based on RAML rest definition.](https://github.com/repocho/raml-mocker)
+[repocho-raml-mocker: Node module to create random responses to requests based on RAML rest definition.](https://github.com/repocho/raml-mocker)
 
-### API Blueprint
+## API Blueprint
 
 [API Blueprint - API Documentation with powerful tooling](https://apiblueprint.org/) backed by Apiary
 
@@ -180,18 +193,25 @@ BigstickCarpet's
 [API Blueprint Has Been Evolving In Two Critical Areas Where OpenAPI Spec (aka Swagger) Falls Significantly Short](http://apievangelist.com/2016/01/04/api-blueprint-has-been-evolving-in-two-critical-areas-where-openapi-spec-aka-swagger-falls-significantly-short/)
 [This Is Going to Be Awesome—Apiary Blog](http://blog.apiary.io/2015/12/17/API-Blueprint-Future/)
 
-#### Tools
+### Tools
 
 [API Blueprint Tools | API Blueprint](https://apiblueprint.org/tools.html)
 [Dredd — HTTP API Testing Framework](https://dredd.readthedocs.io/en/latest/) takes `.apib` and generate tests
 
-### APIs.json
+## APIs.json
 
 [APIs.json](http://apisjson.org/)
 
 [The APIs.json Discovery Format: Potential Engine in the API Economy](http://www.infoq.com/articles/apis-json-discovery-format)
 
-### Slate
+## JSON API
+
+[JSON API — A specification for building APIs in JSON](https://jsonapi.org/)
+[Introduction to the JSON API - Laravel News](https://laravel-news.com/json-api-introduction)
+
+[JSON API — Implementations](https://jsonapi.org/implementations/)
+
+## Slate
 
 [lord/slate: Beautiful static documentation for your API](https://github.com/lord/slate)
 Shows sidebar for invocation from shell or client SDK in various language.

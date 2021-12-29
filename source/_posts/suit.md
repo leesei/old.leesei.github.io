@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-11-04 11:37:35
 tags:
-- suit
+  - suit
 ---
 
 [Half vs. full canvas](https://www.oliverwicks.com/article/half-vs-full-canvas)

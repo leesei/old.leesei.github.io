@@ -5,8 +5,8 @@ categories:
 toc: true
 date: 2015-10-08 17:56:29
 tags:
-- syntax
-- web-dev
+  - syntax
+  - web-dev
 ---
 
 [Implementing a Syntax-Highlighting JavaScript Editor In JavaScript](http://codemirror.net/1/story.html)
@@ -42,7 +42,7 @@ http://ace.c9.io/#nav=higlighter
 [Prettify Themes Gallery](https://rawgit.com/google/code-prettify/master/styles/index.html)
 [Color themes for Google Code Prettify](http://jmblog.github.io/color-themes-for-google-code-prettify/)
 
-[Hexo优化之使用Google Prettify高亮代码 | 柳志超博客](https://liuzhichao.com/2016/hexo-use-prettify-to-highlight-code.html)
+[Hexo 优化之使用 Google Prettify 高亮代码 | 柳志超博客](https://liuzhichao.com/2016/hexo-use-prettify-to-highlight-code.html)
 
 ## Prism
 
@@ -54,4 +54,3 @@ http://ace.c9.io/#nav=higlighter
 ## Monarch
 
 [Monaco Editor Monarch](https://microsoft.github.io/monaco-editor/monarch.html)
-

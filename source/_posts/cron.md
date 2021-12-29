@@ -2,11 +2,11 @@
 title: "Cron"
 date: 2015-01-14 12:48:30
 categories:
-- app
+  - app
 tags:
-- shell-tool
-- cron
-- anacron
+  - shell-tool
+  - cron
+  - anacron
 toc: true
 ---
 
@@ -17,6 +17,7 @@ toc: true
 [Cron and Crontab usage and examples](https://www.pantz.org/software/cron/croninfo.html)
 [Cron format](http://www.nncron.ru/help/EN/working/cron-format.htm)
 [Crontab – Quick Reference](http://www.adminschoice.com/crontab-quick-reference)
+[50 Amazing Linux Crontab Commands For The SysAdmins](https://www.ubuntupit.com/amazing-linux-crontab-commands-for-the-sysadmins/)
 
 ### Editor
 
@@ -53,7 +54,7 @@ crontab file
 # Command to run (can have spaces)
 ```
 
-When you specify */5 in minute field means every 5 minutes.
+When you specify \*/5 in minute field means every 5 minutes.
 When you specify 0-10/2 in minute field mean every 2 minutes in the first 10 minute.
 Thus the above convention can be used for all the other 4 fields.
 
@@ -76,10 +77,24 @@ Logs for `cron` can usually be found in `/var/log/cron.log` or `/var/log/message
 
 [Cron Vs Anacron: How to Setup Anacron on Linux (With an Example)](http://www.thegeekstuff.com/2011/05/anacron-examples/)
 
-`anacron` is for PCs that are not running 24*7.
+`anacron` is for PCs that are not running 24\*7.
+
+## incron
+
+[Linux Fu: Troubleshooting Incron | Hackaday](https://hackaday.com/2020/10/28/linux-fu-troubleshooting-incron/)
 
 ## at
 
 For once-shot non-repeating task
 
 [Schedule One-Time Commands with the UNIX at Tool | Linux Journal](https://www.linuxjournal.com/content/schedule-one-time-commands-unix-tool)
+
+## Windows
+
+[Schtasks: Management Services | Microsoft Docs](<https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.10/cc772785(v=ws.10)>)
+[Setting up a cron job in Windows - Stack Overflow](https://stackoverflow.com/questions/7195503/setting-up-a-cron-job-in-windows)
+`Control Panel --> Administrative Tools --> Task Scheduler--> Create Task`
+
+```cmd
+schtasks /create /tn TASK_NAME /tr calc /sc weekly /d MON /st 06:05 /ru "System"
+```

@@ -18,6 +18,8 @@ date: 2016-09-13 15:08:22
 
 # Readers
 
+[9 款电纸书横评，哪个值得买？ - YouTube](https://www.youtube.com/watch?v=7JCJcCSKBdY)
+
 ## Amazon Kindle
 
 [Amazon.com Help - Which Kindle E-reader Do I Have?](https://www.amazon.com/gp/help/customer/display.html?nodeId=201263790)
@@ -49,6 +51,24 @@ date: 2016-09-13 15:08:22
 Paper:
 7.8"
 
+## mooInk
+
+[mooInk 系列繁體中文電子書閱讀器](https://readmoo.com/mooink-series)
+
+## 小米多看電紙書
+
+[【小米小米多看电纸书】小米 MI 小米多看电纸书 电子阅读器 深灰色 墨水屏 四核心 CPU 16GB 大内存 海量资源 云盘登陆下载【行情 报价 价格 评测】-京东](https://item.jd.com/100010633100.html)
+[[開箱]「小米多看電紙書」值得買嗎？|KK3C 狂想曲](https://kkplay3c.net/mi-book/)
+[開箱！小米多看電紙書～墨水屏真香！(02/10 新增小米多看電紙書灌第三方 app 的方法) - Mobile01](https://www.mobile01.com/topicdetail.php?f=634&t=5996645)
+
+- 6-inch, 1440×1080, 212 ppi E Ink
+- Allwinner 4 cores @1.8GHz
+- 1GB RAM, 16GB ROM
+- Android 8.1
+- LED backlight
+- 178g
+- 1800mAh
+
 # Tools
 
 [Ebooks Stack Exchange](https://ebooks.stackexchange.com/)
@@ -74,6 +94,10 @@ kindlegen [-c0|-c2] <input>
 [Kindle 漫画制作软件 ChainLP 简明教程 – Kindle 伴侣](http://kindlefere.com/post/266.html)
 [[超详细教程] MOBI 全屏漫画/图片书籍*kindle 吧*百度贴吧](http://tieba.baidu.com/p/2191868417)
 
+[Converting Markdown to Epub or Mobi - DEV Community](https://dev.to/sks147/converting-markdown-to-epub-or-mobi-32fj) pandoc + calibre
+
+[EpubPress - Read the web offline](https://epub.press/)
+
 [ciromattia/kcc: KCC (a.k.a. Kindle Comic Converter) is a comic and manga converter for ebook readers.](https://github.com/ciromattia/kcc)
 [FooSoft Productions - Mangle](https://foosoft.net/projects/mangle/)
 
@@ -97,10 +121,13 @@ kindlegen [-c0|-c2] <input>
 [Command Line Interface — calibre User Manual](https://manual.calibre-ebook.com/generated/en/cli-index.html)
 [ebook-convert — calibre User Manual](htstp://manual.calibre-ebook.com/cli/ebook-convert.html)
 
+[How to Remove the DRM on Any Ebook You Own](https://www.makeuseof.com/tag/remove-drm-every-ebook-own/)
+
 ## pandoc conversion
 
 [Pandoc - Pandoc User’s Guide](https://pandoc.org/MANUAL.html)
 [Pandoc - Creating an ebook with pandoc](https://pandoc.org/epub.html)
+[Turn your book into a website and an ePub using Pandoc | Opensource.com](https://opensource.com/article/18/10/book-to-website-epub-using-pandoc)
 
 ```sh
 pandoc -f FROM -t TO -o OUTPUT INPUT
@@ -251,19 +278,21 @@ cd zshguide_html; ebook-convert zshguide.html ../zshguide.azw3
 
 # Resources
 
-[O'Reilly Open Books Project](https://www.oreilly.com/openbook/)
-[Free O'Reilly Books, Ebooks, Webcasts, Conference Sessions, Tutorials, Videos - O'Reilly Media](https://www.oreilly.com/free/)
-[Open Book Project](http://openbookproject.net/index.php)
-[Welcome to Open Library | Open Library](https://openlibrary.org/)
+[5 Sites With Lots of Completely Free Ebooks That Don't Suck](https://www.makeuseof.com/tag/4-websites-with-lots-of-completely-free-ebooks-that-dont-suck-nb/)
+[侃侃而谈 篇六十：免费的 iPad 和 Kindle 电子书资源合集*电子书刊*什么值得买](https://post.m.smzdm.com/p/ad24rzok/?zdm_ss=Android__1cef542bedd74d2a594961112293e542&from=other)
 
 [广场 - 看云](http://www.kancloud.cn/explore) China's Gitbook
-[SoKindle - 免费电子书分享交流下载](http://sokindle.com/)
 [无忧书城 - 为您免费提供在线阅读服务](http://www.51shucheng.com/)
+[Jiumo Search 鸠摩搜索 - 文档搜索引擎](https://www.jiumodiary.com/) baidu search
+[苦瓜书盘](https://kgbook.com/)
 [中國哲學書電子化計劃](https://ctext.org/zh) 中國文獻, public domain
+[首頁 翰林院](http://inspier.com/index.php) 中國文獻, public domain
+[古詩大全,經典詩歌,詩詞名句,古文言文大全-詩詞古文大全網](https://www.iccie.tw/) 注釋
+[中華古詩文古書籍網*古詩文詞*詩詞佳句*詩文作者*古書古籍](https://www.arteducation.com.tw/) 注釋
 [明朝那些事儿-明朝那些事儿全集在线阅读](http://www.mingchaonaxieshier.com/)
-[看看豆(原看 Kindle)-免费电子书分享下载](http://kankandou.com/) 1 download per day
 [ScanLibs - Ebooks & Elearning For Programming](https://scanlibs.com/)
 [Share And Download IT Ebook](http://www.it-ebooks.com/)
+[Free Information Technology Research Library of White Papers, Magazines, Reports, and eBooks](https://ubuntugeek.tradepub.com/)
 [Fox eBook - eBooks Free Download Site](http://www.foxebook.net/)
 [Ebook-dl | Free Download Ebooks & Video Tutorials](http://ebook-dl.com/)
 [Download free eBooks at ebooks10.com](http://www.ebooks10.com/)
@@ -272,6 +301,7 @@ cd zshguide_html; ebook-convert zshguide.html ../zshguide.azw3
 [Free eBooks - Archives](http://proxymator.com/category/free-ebooks/)
 [Programmer's Heaven - Free Programming books](http://ebooks.programmersheaven.com/)
 [Free IT ebooks ownload , Free programming ebooks download](http://onlinevideolecture.com/ebooks/)
+[Free Information Technology Research Library of White Papers, Magazines, Reports, and eBooks](https://makeuseof.tradepub.com/)
 [Online Textbooks for Free | bookboon](http://bookboon.com/en/textbooks-ebooks)
 [The Linux Documentation Project](http://www.tldp.org/)
 [Free Programming Books](http://www.eduhub.io/b/free-programming-books)
@@ -281,12 +311,18 @@ cd zshguide_html; ebook-convert zshguide.html ../zshguide.azw3
 [Wikisource, the free library](https://en.wikisource.org/wiki/Main_Page)
 [Wikibooks](https://en.wikibooks.org/wiki/Main_Page)
 [Public Domain | Feedbooks](http://www.feedbooks.com/publicdomain)
-[eBooks and Texts : Internet Archive](https://archive.org/details/texts)
+[Free Books : Download & Streaming : eBooks and Texts : Internet Archive](https://archive.org/details/texts)
+[O'Reilly Open Books Project](https://www.oreilly.com/openbook/)
+[Free O'Reilly Books, Ebooks, Webcasts, Conference Sessions, Tutorials, Videos - O'Reilly Media](https://www.oreilly.com/free/)
+[Open Book Project](http://openbookproject.net/index.php)
+[Wiley Online Library | Scientific research articles, journals, books, and reference works](https://onlinelibrary.wiley.com/)
+[Welcome to Open Library | Open Library](https://openlibrary.org/)
+[书栈网 · BookStack\_程序员 IT 互联网开源编程书籍免费阅读与下载，取之于猿用之于猿！](https://www.bookstack.cn/)
 [Sharing Knowledge and Building Communities - OpenStax CNX](http://cnx.org/)
-[Welcome to Open Library (Open Library)](https://openlibrary.org/)
 [Free ebooks by Project Gutenberg - Gutenberg](https://www.gutenberg.org/)
 [GitBook · Writing made easy](https://www.gitbook.com/)
 [Leanpub: Publish Early, Publish Often](https://leanpub.com/) try adding `/read` to url
+[World Digital Library Home](https://www.wdl.org/en/)
 
 [smusali/Leanpub-Hack: I used some web scraping and web automation techniques within Python to legally download free books from www.leanpub.com](https://github.com/smusali/Leanpub-Hack)
 
@@ -327,3 +363,7 @@ cd zshguide_html; ebook-convert zshguide.html ../zshguide.azw3
 [多看阅读(duokan.com) - 海量畅销电子书免费试读，数百万读者阅读首选](http://www.duokan.com/)
 [首頁-銅板漫畫出版署-淘寶網](https://shop60225721.world.taobao.com/shop/view_shop.htm?shopId=60225721)
 [A Book Apart, Brief books for people who make websites.](https://abookapart.com/)
+[Readmoo 讀墨電子書 ─ 台灣最大繁體中文 EPUB 電子書服務](https://readmoo.com/)
+[HyRead ebook 電子書店](https://ebook.hyread.com.tw/) on HKPL
+
+[香港公共圖書館 - 電子書](https://www.hkpl.gov.hk/tc/e-resources/e-books/home)

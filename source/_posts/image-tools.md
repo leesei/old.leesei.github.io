@@ -3,36 +3,38 @@ title: Image Tools
 categories:
   - app
 tags:
-- shell-tool
-- ImageMagick
-- primitive
+  - shell-tool
+  - ImageMagick
+  - primitive
 toc: true
 date: 2016-08-04 16:12:51
 ---
 
 [fogleman/primitive: Reproducing images with geometric primitives.](https://github.com/fogleman/primitive)
+[Bigjpg - AI 人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片](https://bigjpg.com/)
+[分享 3 款图片处理神器，渣图还原大法好，老厉害了！ - 知乎](https://zhuanlan.zhihu.com/p/61399728)
 
 ## ImageMagick
 
-Tool        | Description
----         | ---
-`animate`   | animate an image sequence on any X server.
-`compare`   | mathematically and visually annotate the difference between an image and its reconstruction.
-`composite` | overlap one image over another.
-`conjure`   | interpret and execute scripts written in the Magick Scripting Language (MSL).
-`convert`   | convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
-`display`   | display an image or image sequence on any X server.
-`identify`  | describe the format and characteristics of one or more image files.
-`import`    | save any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen.
-`mogrify`   | resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. `mogrify` *overwrites* the original image file, whereas, `convert` writes to a different image file.
-`montage`   | create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more.
-`stream`    | a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats. It writes the pixel components as they are read from the input image a row at a time making stream desirable when working with large images or when you require raw pixel components.
+| Tool        | Description                                                                                                                                                                                                                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `animate`   | animate an image sequence on any X server.                                                                                                                                                                                                                                                                              |
+| `compare`   | mathematically and visually annotate the difference between an image and its reconstruction.                                                                                                                                                                                                                            |
+| `composite` | overlap one image over another.                                                                                                                                                                                                                                                                                         |
+| `conjure`   | interpret and execute scripts written in the Magick Scripting Language (MSL).                                                                                                                                                                                                                                           |
+| `convert`   | convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.                                                                                                                                                                                 |
+| `display`   | display an image or image sequence on any X server.                                                                                                                                                                                                                                                                     |
+| `identify`  | describe the format and characteristics of one or more image files.                                                                                                                                                                                                                                                     |
+| `import`    | save any visible window on an X server and outputs it as an image file. You can capture a single window, the entire screen, or any rectangular portion of the screen.                                                                                                                                                   |
+| `mogrify`   | resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. `mogrify` _overwrites_ the original image file, whereas, `convert` writes to a different image file.                                                                                                                     |
+| `montage`   | create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more.                                                                                                                                               |
+| `stream`    | a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats. It writes the pixel components as they are read from the input image a row at a time making stream desirable when working with large images or when you require raw pixel components. |
 
 [ImageMagick v6 Examples](http://www.imagemagick.org/Usage/)
 [Command-line Tools @ ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
 [ImageMagick: Convert, Edit, Or Compose Bitmap Images](http://www.imagemagick.org/script/index.php)
 
-[ImageMagick使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
+[ImageMagick 使用心得](http://www.charry.org/docs/linux/ImageMagick/ImageMagick.html)
 [Turn many pictures into a movie | daniel.haxx.se](https://daniel.haxx.se/blog/2016/03/11/turn-many-pictures-into-a-movie/)
 
 [The Definitive Guide to ImageMagick | Michael Still | Apress](http://www.apress.com/us/book/9781590595909) [author's site](http://www.stillhq.com/imagemagick/book/)
@@ -69,10 +71,11 @@ convert -resize x1080 {from_path} {to_path}  # fix height only
 convert -thumbnail {width} *.jpg
 ```
 
-
 [How can I scale all images in a folder to the same width? - Ask Ubuntu](https://askubuntu.com/questions/135477/how-can-i-scale-all-images-in-a-folder-to-the-same-width)
 
 [Command-line Processing Geometry @ ImageMagick](http://www.imagemagick.org/script/command-line-processing.php#geometry)
+
+[My favorite Linux commands for optimizing web images | Opensource.com](https://opensource.com/article/21/12/optimize-web-images-linux) with `mogrify`
 
 ### Image stitching
 
@@ -96,6 +99,7 @@ convert -size 100x100 canvas:khaki  canvas_khaki.gif
 convert -size 100x100 xc:wheat  canvas_wheat.gif
 
 # patterned image
+# use "tile" to take source from pipe and repeat
 convert -size 30x54 pattern:hexagons \
           -fill tomato     -opaque white \
           -fill dodgerblue -draw 'color 10,10 floodfill' \
@@ -114,36 +118,23 @@ convert -size 5000x5000 tile:- image.jpg
 identify -verbose file.jpg | grep Quality
 ```
 
-### Favicon
+#### with text
 
 ```sh
-# create a 36*36 favicon
-convert -resize 72x72 -extent 72x72 -gravity center -background white input.svg -resize 36x36 favicon.ico
+convert -size 1280x720 xc:grey \
+          -font roboto -pointsize 300 -draw "text 100,600 'userName' text 100,300 'userTitle'"  \
+          image.jpg
 
-# IE is still braindead so still use favicon.ico
+convert -size 1280x720 xc:grey \
+          \( -background none label:"A very much longer label" -trim -gravity center \) \
+          -composite image.jpg
 
-convert -resize x16 -gravity center -crop 16x16+0+0 -flatten -colors 256 input.png output-16x16.ico
-convert -resize x32 -gravity center -crop 32x32+0+0 -flatten -colors 256 input.png output-32x32.ico
-convert output-16x16.ico output-32x32.ico favicon.ico
-
-# Then, HTML needs to specify size="XxY" as largest size due to browser bugs
-
-<link rel="shortcut icon" href="/favicon.ico" sizes="32x32">
-
-# Create apple ones
-
-convert -resize x152 input.png apple-touch-icon-152x152.png
-convert -resize x120 input.png apple-touch-icon-120x120.png
-convert -resize x76  input.png apple-touch-icon-76x76.png
-convert -resize x60  input.png apple-touch-icon-60x60.png
-
-# HTML for apple
-
-<link rel="apple-touch-icon" sizes="152x152" href="<%= image_path 'apple-touch-icon-152x152.png' %>">
-<link rel="apple-touch-icon" sizes="120x120" href="<%= image_path 'apple-touch-icon-120x120.png' %>">
-<link rel="apple-touch-icon" sizes="76x76" href="<%= image_path 'apple-touch-icon-76x76png' %>">
-<link rel="apple-touch-icon" href="<%= image_path 'apple-touch-icon-60x60.png' %>">
+convert 0001.png \
+          \( -size 560x230 -background white -font roboto-mono label:"0001" -trim -gravity center -extent 560x230 \) \
+          -gravity northwest -geometry +1100+15 -composite 0001.png
 ```
+
+[dynamic - ImageMagick best fit text within rectangle? - Stack Overflow](https://stackoverflow.com/questions/39764846/imagemagick-best-fit-text-within-rectangle)
 
 ### Colorspace
 

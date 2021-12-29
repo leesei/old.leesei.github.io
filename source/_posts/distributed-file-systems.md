@@ -17,6 +17,8 @@ toc: true
 [List of Distributed file systems - Wikiwand](https://www.wikiwand.com/en/List_of_file_systems#/Distributed_file_systems)
 [Comparison of distributed file systems - Wikiwand](https://www.wikiwand.com/en/Comparison_of_distributed_file_systems)
 
+[File systems unfit as distributed storage backends: lessons from ten years of Ceph evolution – the morning paper](https://blog.acolyer.org/2019/11/06/ceph-evolution/amp/)
+
 [n1trux/awesome-sysadmin: Distributed Filesystems](https://github.com/n1trux/awesome-sysadmin#distributed-filesystems)
 
 [Distributed Storage: Picking The Right Tool For The Job | SolidFire | Blog](http://www.solidfire.com/blog/distributed-storage-picking-the-right-tool-for-the-job/)
@@ -37,11 +39,11 @@ toc: true
 [Performance comparison of Distributed File Systems on 1Gbit networks](http://www.slideshare.net/azilian/performance-comparison)
 
 [Global File System 2 - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/global_file_system_2/)
-[Hortonworks Data Platform - Hortonworks Data Platform](http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_installing_manually_book/content/index.html)
+[Hortonworks Data Platform -Hortonworks Data Platform](http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_installing_manually_book/content/index.html)
 
 ## Ceph
 
-[Ceph (software) - Wikiwand](https://www.wikiwand.com/en/Ceph_%28software%29)
+[Ceph (software) - Wikiwand](<https://www.wikiwand.com/en/Ceph_(software)>)
 [ceph.com](http://ceph.com/)
 Ceph is a flexible object storage system, with four access methods: Amazon S3 RESTful API, CephFS, Rados Block Device and iSCSI gateway.
 
@@ -70,9 +72,21 @@ Kubernetes Operator for Ceph (and many others)
 
 [Rook’s Framework for Cloud-Native Storage Orchestration](https://blog.rook.io/rooks-framework-for-cloud-native-storage-orchestration-c66278014df7)
 [Why you should master Rook for Ceph storage on Kubernetes - Superuser](https://superuser.openstack.org/articles/rook-ceph-kubernetes-quickstart/)
+[Simplify Storage for Kubernetes with Rook and Ceph - The New Stack](https://thenewstack.io/simplify-storage-for-kubernetes-with-rook-and-ceph/)
+
+[To Rook, or not to Rook, that’s Kubernetes - Flant - Medium](https://medium.com/flant-com/to-rook-in-kubernetes-df13465ff553)
+[Manual recovery of a Rook cluster in Kubernetes - Flant - Medium](https://medium.com/flant-com/rook-cluster-recovery-580efcd275db)
+
 [Ceph storage with Rook Running Ceph on Kubernetes - YouTube](https://www.youtube.com/watch?v=cfwIcHU604Y)
+[KubeCon Barcelona: Rook, Ceph, and ARM: A Caffeinated Tutorial | Sébastien Han](http://www.sebastien-han.fr/blog/2019/05/25/KubeCon-Barcelona-Rook-Ceph-and-ARM-A-Caffeinated-Tutorial/)
+[Storage 101 Rook and Ceph - YouTube](https://www.youtube.com/watch?v=mo-u9rxuM2Y)
 [YVR18-114:Auto-deployment of Ceph cluster with Rook on top of Kubernetes - YouTube](https://www.youtube.com/watch?v=SFG_MYFv6C4) Strong accent
 [Auto-Deployment of Ceph Cluster With Rook on Top of Kubernetes - Dennis Chen, Arm - YouTube](https://www.youtube.com/watch?v=gLA9PwclpCA) English interpretation
+
+## EdgeFS
+
+[EdgeFS](http://edgefs.io/)
+[Kubernetes Rook EdgeFS 1.1 Released - ITNEXT](https://itnext.io/kubernetes-rook-edgefs-1-1-released-2e4359057849)
 
 ## GlusterFS
 
@@ -122,10 +136,11 @@ iSCSI LUN: a portion of storage space that can be utilized by initiators by conn
 
 ### Minio
 
-[Minio: Private cloud storage](https://minio.io/) self-hosted S3-compatible object storage
+[MinIO | High Performance, Kubernetes Native Object Storage](https://min.io/) self-hosted S3-compatible object storage
 [Minio Docs](https://docs.minio.io/)
 
 [The complete guide to attach a Docker volume with Minio on your Docker Swarm Cluster](https://firepress.org/blog/the-complete-guide-to-attach-a-docker-volume-with-minio-on-your-docker-swarm-cluster/)
+[Kubernetes object storage best practices | InfoWorld](https://www.infoworld.com/article/3635148/kubernetes-object-storage-best-practices.html)
 
 ## OrangeFS
 
@@ -169,6 +184,13 @@ White papers:
 [#358]: https://github.com/xtreemfs/xtreemfs/issues/358
 [#359]: https://github.com/xtreemfs/xtreemfs/issues/359
 
+## IPFS
+
+[IPFS is the Distributed Web](https://ipfs.io/)
+[How To Get Started With IPFS and Node - Better Programming - Medium](https://medium.com/better-programming/how-to-get-started-with-ipfs-and-node-fa04baec6b3a)
+[Guide to IPFS garbage collection - LogRocket Blog](https://blog.logrocket.com/guide-ipfs-garbage-collection/)
+[The IPFS Protocol Explained with Examples - Welcome to the Decentralized Web - YouTube](https://www.youtube.com/watch?v=PlvMGpQnqOM)
+
 ## HDFS
 
 ## LizardFS
@@ -189,14 +211,19 @@ White papers:
 
 ## Longhorn
 
-[rancher/longhorn-manager: Millions and millions of volumes orchestrated](https://github.com/rancher/longhorn-manager)
-[rancher/longhorn: Distributed block storage for Kubernetes](https://github.com/rancher/longhorn)
+[Longhorn](https://longhorn.io/)
+[longhorn/longhorn: Cloud-Native distributed storage built on and for Kubernetes](https://github.com/longhorn/longhorn)
+[longhorn/longhorn-manager: Millions and millions of volumes orchestrated](https://github.com/longhorn/longhorn-manager)
+
+[Project Longhorn Now Available on Kubernetes](https://rancher.com/project-longhorn-now-available-kubernetes/)
+[Longhorn: Rancher's Journey from Zero to GA](https://rancher.com/blog/2020/longhorn-journey-to-ga)
+[Longhorn: A Cloud Native Approach to Distributed Storage - YouTube](https://www.youtube.com/watch?v=_s2Pnrz-CKM)
 
 ---
 
 ## Resumable HTTP Upload
 
-[Performing a Resumable Upload  |  Drive REST API  |  Google Developers](https://developers.google.com/drive/api/v3/resumable-upload)
+[Performing a Resumable Upload | Drive REST API | Google Developers](https://developers.google.com/drive/api/v3/resumable-upload)
 
 [Amazon S3: Multipart Upload | AWS News Blog](https://aws.amazon.com/blogs/aws/amazon-s3-multipart-upload/)
 [Amazon S3 Multipart Upload CLI](https://aws.amazon.com/premiumsupport/knowledge-center/s3-multipart-upload-cli/)

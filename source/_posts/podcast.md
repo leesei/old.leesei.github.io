@@ -79,6 +79,7 @@ I need an app that can:
 [The Changelog - Open source moves fast. Keep up.](https://changelog.com/)
 [The No Fluff Just Stuff Podcast with Michael Carducci - No Fluff Just Stuff](https://nofluffjuststuff.com/podcast)
 [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
+[Talk Python To Me Podcast](https://talkpython.fm/)
 
 [Clockwise - Relay FM](https://www.relay.fm/clockwise) Four people, four tech topics, 30 minutes
 [My Hard Drive Died | Podnutz](http://podnutz.com/category/my-hard-drive-died/)
@@ -119,9 +120,18 @@ I need an app that can:
 
 [Hello Internet](http://www.hellointernet.fm/) [/r/HelloInternet/](https://www.reddit.com/r/HelloInternet/)
 [Cortex - Relay FM](http://www.relay.fm/cortex/) [/u/MindOfMetalAndWheels](https://www.reddit.com/user/MindOfMetalAndWheels)
-[Question of the Day podcast on Earwolf](http://www.earwolf.com/show/question-of-the-day/)
+[The Unmade Podcast](https://www.unmade.fm/)
 
+[Question of the Day podcast on Earwolf](http://www.earwolf.com/show/question-of-the-day/)
 [Topics podcast on Earwolf](http://www.earwolf.com/show/topics/) (ended)
+
+### Science
+
+[The Scientific Odyssey](http://thescientificodyssey.typepad.com/) An examination of scientific inquiry through a discussion of the history and philosophy of the scientific endeavor
+[Science Rules! with Bill Nye | Listen via Stitcher for Podcasts](https://www.stitcher.com/podcast/stitcher/science-rules-with-bill-nye)
+[Invisibilia : NPR](http://www.npr.org/podcasts/510307/invisibilia) is about the invisible forces that control human behavior – ideas, beliefs, assumptions and emotions
+[Hidden Brain : NPR](https://www.npr.org/series/423302056/hidden-brain)
+[Curious Minds Podcast](http://www.cmpod.net/) A Podcast For Curious Minds
 
 ### Trivia
 
@@ -133,10 +143,6 @@ I need an app that can:
 [99% Invisible | A Tiny Radio Show About Design with Roman Mars](http://99percentinvisible.org/)
 [Imaginary Worlds Podcast](http://www.imaginaryworldspodcast.org/)
 [Note to Self](http://www.wnyc.org/shows/notetoself/) a tech show about being human
-[Curious Minds Podcast](http://www.cmpod.net/) A Podcast For Curious Minds.
-[The Scientific Odyssey](http://thescientificodyssey.typepad.com/) An examination of scientific inquiry through a discussion of the history and philosophy of the scientific endeavor.
-[Invisibilia : NPR](http://www.npr.org/podcasts/510307/invisibilia) is about the invisible forces that control human behavior – ideas, beliefs, assumptions and emotions
-
 [Benjamen Walker's Theory of Everything | Personally connecting the dots. All of them. Radiotopian.](https://toe.prx.org/) (unsubscripted)
 
 ### Social Science
@@ -177,7 +183,7 @@ The Stuff of Life
 
 [Radiolab Presents: More Perfect | WNYC](http://www.wnyc.org/shows/radiolabmoreperfect/)
 
-### YouTube
+### YouTube RSS
 
 [Use RSS with YouTube - YouTube Help](https://support.google.com/youtube/answer/6224202?hl=en)
 [Find out how to use YouTube RSS in the FeedWind free RSS widget | FeedWind Support](https://feed.mikle.com/support/youtube-RSS-with-feedwind/)

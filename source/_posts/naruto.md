@@ -12,7 +12,7 @@ toc: true
 [火影忍者疾風傳 - Wikiwand](https://www.wikiwand.com/zh-hk/火影忍者疾風傳)
 [BORUTO-火影新世代-NARUTO NEXT GENERATIONS- - Wikiwand](https://www.wikiwand.com/zh-hk/博人传-火影次世代-)
 
-[Narutopedia | FANDOM powered by Wikia](http://naruto.wikia.com/wiki/Narutopedia)
+[Narutopedia | FANDOM powered by Wikia](http://naruto.fandom.com/wiki/Narutopedia)
 [火影忍者（岸本齐史创作的少年漫画）\_百度百科](https://baike.baidu.com/item/火影忍者/8702)
 
 [Naruto: The Manga and Anime Series... And an ingredient in ramen.](https://www.reddit.com/r/Naruto/)
@@ -21,9 +21,16 @@ toc: true
 [四季萌芽 - YouTube](https://www.youtube.com/channel/UCUMzET2JdWLxZGhvTKCIK-A)
 [空大村村长 - YouTube](https://www.youtube.com/channel/UCaNaShnigYmWzJoGmE23VMA)
 [火影忍者 - YouTube](https://www.youtube.com/playlist?list=PLB0KPdEQn0A9zx0vlA8Ao6_PGkpeeSRYJ) 無臉
+[家里有小西瓜 - YouTube](https://www.youtube.com/channel/UCmj1xMOheEHvq3lkAxvjyPA)
+[雨忆动漫 - YouTube](https://www.youtube.com/channel/UCU3LonEE6aaEHdo3A2AZwJg)
 
 [Lex 带你看火影忍者的主线剧情\_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av3608924)
 [[LexBurner]Lex 帶你看火影忍者的主線劇情 - YouTube](https://www.youtube.com/watch?v=VSwvGYomsOA)
+[【可乐剧场】146 分钟看完《火影忍者》 史上最全最详细《火影忍者》第一部剧情讲解 剧情讲到 TV220 集 - YouTube](https://www.youtube.com/watch?v=Gtkofis77S4)
+[【可乐剧场】110 钟看完《火影忍者疾风传》（上） 史上最全最详细《火影忍者疾风传》剧情讲解 剧情讲到 TV359 集 - YouTube](https://www.youtube.com/watch?v=n9d_Hbl9Y1A)
+[【可乐剧场】103 分钟看完《火影忍者疾风传》（中） 史上最全最详细《火影忍者疾风传》剧情讲解 剧情讲到 TV350-TV480 集 - YouTube](https://www.youtube.com/watch?v=_jnoKUMGwUo)
+[【可乐剧场】火影忍者 200 分钟看完《火影忍者》 481-720 集完结 第四次忍界大战最详细讲解 - YouTube](https://www.youtube.com/watch?v=QaH_1mvUG44)
+[【LexBurner 官方頻道】笑瘋了！火影忍者變賽亞人！博人傳真正的劇情竟是如此炸裂！ - YouTube](https://www.youtube.com/watch?v=i8xYIfTDwTg)
 [【完结有槽点】浅谈火影 15 年\_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av1702937/?p=2)
 [听说你们都看了火影的大结局，那我们就一起来愉快的吐槽他吧\_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av1713798)
 [听说大家都在看火影忍者 the last，那就让我们一起吐槽它吧\_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av2658855)
@@ -36,6 +43,7 @@ toc: true
 [Every Naruto Akatsuki Member - Honest Anime Descriptions - YouTube](https://www.youtube.com/watch?v=Lzjy7OISbRg)
 
 [NARUTO IN 18 MINUTES - YouTube](https://www.youtube.com/watch?v=hWp61OEy4R4)
+[【可乐剧场】146 分钟看完《火影忍者》 史上最全最详细《火影忍者》第一部剧情讲解 剧情讲到 TV220 集 - YouTube](https://www.youtube.com/watch?v=Gtkofis77S4)
 [Naruto Explained - YouTube](https://www.youtube.com/channel/UCx9b4XdKgwPDCIk6IZ7k81g)
 
 ## 漫畫
@@ -63,10 +71,10 @@ toc: true
 [テレビ東京・あにてれ　ＮＡＲＵＴＯ－ナルト－ 疾風伝](http://www.tv-tokyo.co.jp/anime/naruto/episodes/episodes40/index.html)
 
 [《BORUTO-火影新世代-NARUTO NEXT GENERATIONS-》动画集数列表 - Wikiwand](https://www.wikiwand.com/zh-hk/博人传-火影次世代-动画集数列表)
-[BORUTO -火影新世代-（Studio Pierrot 改编的电视动画）_百度百科](https://baike.baidu.com/item/BORUTO -火影新世代-/20820233)
+[BORUTO -火影新世代-（Studio Pierrot 改编的电视动画）\_百度百科](https://baike.baidu.com/item/BORUTO%20-火影新世代-/20820233)
 
 [李洛克青春能量大爆發忍傳 - Wikiwand](https://www.wikiwand.com/zh-hk/李洛克的青春全力忍傳)
-[火影忍者 SD 李洛克的青春全力忍传_百度百科](https://baike.baidu.com/item/火影忍者SD 李洛克的青春全力忍传)
+[火影忍者 SD 李洛克的青春全力忍传\_百度百科](https://baike.baidu.com/item/火影忍者SD%20李洛克的青春全力忍传)
 [テレビ東京・あにてれ　 NARUTO-ナルト- SD ロック・リーの青春フルパワー忍伝 もういっちょ](http://www.tv-tokyo.co.jp/anime/lee/index2.html) S1
 [テレビ東京・あにてれ　 NARUTO-ナルト- SD ロック・リーの青春フルパワー忍伝](http://www.tv-tokyo.co.jp/anime/lee2012/episodes/episodes02/index.html) S2
 
@@ -74,6 +82,8 @@ toc: true
 
 [劇場版動畫 - Wikiwand](https://www.wikiwand.com/zh-hk/火影忍者#/劇場版動畫)
 [劇場版動畫\_百度百科](https://baike.baidu.com/item/火影忍者/8702#7_2)
+
+[雏田实在太霸道！为什么《忍者之路》是火影 20 年最佳剧场版？ - YouTube](https://www.youtube.com/watch?v=w6Ozw83Iph4)
 
 ## 遊戲
 
@@ -98,6 +108,7 @@ toc: true
 [影分身之术\_百度百科](https://baike.baidu.com/item/影分身之术/6377264)
 [通灵之术（日本漫画《火影忍者》中的忍术）\_百度百科](https://baike.baidu.com/item/通灵之术/1742334)
 [血繼限界 - Wikiwand](https://www.wikiwand.com/zh-hk/血继限界)
+[【火影忍者】血繼淘汰和血繼限界有什麼區別？ - YouTube](https://www.youtube.com/watch?v=Hr1_DRsP220)
 [秘传\_百度百科](https://baike.baidu.com/item/秘传)
 [秽土转生\_百度百科](https://baike.baidu.com/item/秽土转生/7534843)
 [阴阳遁\_百度百科](https://baike.baidu.com/item/阴阳遁)
@@ -149,6 +160,7 @@ toc: true
 
 [火影忍者角色列表 - Wikiwand](https://www.wikiwand.com/zh-hk/火影忍者角色列表)
 
+[All 12 Otsutsuki Clan Members and Their Powers Explained! (Naruto / Boruto Every Otsutsuki) - YouTube](https://www.youtube.com/watch?v=284ro7bpHVM)
 [大筒木辉夜\_百度百科](https://baike.baidu.com/item/大筒木辉夜/10269443)
 [六道仙人\_百度百科](https://baike.baidu.com/item/六道仙人) 大筒木羽衣
 [大筒木羽村\_百度百科](https://baike.baidu.com/item/大筒木羽村)

@@ -23,8 +23,10 @@ date: 2019-04-20 11:34:53
 
 [Series | Baeldung](https://www.baeldung.com/category/series/)
 [REST with Spring Tutorial | Baeldung](https://www.baeldung.com/rest-with-spring-series)
+[REST Query Language | Baeldung](https://www.baeldung.com/tag/rest-ql/)
 [Spring Persistence Tutorial | Baeldung](https://www.baeldung.com/persistence-with-spring-series)
 [Security with Spring | Baeldung](https://www.baeldung.com/security-spring)
+[Control the Session with Spring Security | Baeldung](https://www.baeldung.com/spring-security-session)
 
 ## Spring Framework
 
@@ -64,6 +66,7 @@ date: 2019-04-20 11:34:53
 [Building Microservices with Spring Cloud and Docker](http://www.kennybastani.com/2015/07/spring-cloud-docker-microservices.html)
 [Spring Cloud Samples](https://github.com/spring-cloud-samples)
 
+[Introducing Spring Boot - DZone Java](https://dzone.com/articles/introducing-spring-boot)
 [Spring Cloud Tutorial | Baeldung](https://www.baeldung.com/spring-cloud-tutorial)
 [Guide to Spring Cloud Kubernetes | Baeldung](https://www.baeldung.com/spring-cloud-kubernetes)
 
@@ -79,6 +82,9 @@ date: 2019-04-20 11:34:53
 [DevTools in Spring Boot 1.3](https://spring.io/blog/2015/06/17/devtools-in-spring-boot-1-3)
 
 [Building Scalable Java Microservices with Spring Boot and Spring Cloud | Coursera](https://www.coursera.org/learn/google-cloud-java-spring)
+[Write Less Code with Kotlin and Spring Boot](https://www.infoq.com/presentations/kotlin-spring-boot/)
+
+[Learning Spring Boot: First as a Student, Then as a Teacher](https://www.infoq.com/presentations/learn-spring-boot/)
 
 [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
 [Dockerizing a Spring Boot Application | Baeldung](https://www.baeldung.com/dockerizing-spring-boot-application)
@@ -91,6 +97,8 @@ date: 2019-04-20 11:34:53
 [From Zero to Hero with Spring Boot - Brian Clozel - YouTube](https://www.youtube.com/watch?v=aA4tfBGY6jY)
 [It's a Kind of Magic: Under the Covers of Spring Boot - Brian Clozel, Stéphane Nicoll - YouTube](https://www.youtube.com/watch?v=jDchAEHIht0)
 [Spring Boot Micro-services, Containers, and Kubernetes - How To - YouTube](https://www.youtube.com/watch?v=Bcs-inRnLDc)
+
+[Package Your React App with Spring Boot [A How-To Guide] | Hacker Noon](https://hackernoon.com/package-your-react-app-with-spring-boot-a-how-to-guide-cdfm329w)
 
 [Spring Boot Microservices , Docker and Kubernetes workshop – part1 | Java Code Geeks - 2018](https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes.html)
 [Spring Boot Microservices , Docker and Kubernetes workshop – part2 | Java Code Geeks - 2018](https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes-2.html)

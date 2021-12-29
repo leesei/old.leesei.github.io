@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-06-20 22:55:52
 tags:
-- bitnami
+  - bitnami
 ---
 
 [Bitnami](https://bitnami.com) has packaged many applications as standalone apps that will not interfere with the system libraries or apps.
@@ -26,4 +26,3 @@ If you are deploying more than one application, you may consider setting up the 
 [PHP - Bitnami documentation](https://wiki.bitnami.com/Components/PHP)
 [phpMyAdmin and phpPgAdmin - Bitnami documentation](https://wiki.bitnami.com/Components/phpMyAdmin_and_phpPgAdmin)
 [Varnish - Bitnami documentation](https://wiki.bitnami.com/Components/Varnish)
-

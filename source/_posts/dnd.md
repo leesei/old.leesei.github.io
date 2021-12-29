@@ -1,5 +1,5 @@
 ---
-title: 'Dungeons & Dragons'
+title: "Dungeons & Dragons"
 categories:
   - games
 toc: true
@@ -16,7 +16,7 @@ tags:
 
 [D&D Official Homepage | Dungeons & Dragons](https://dnd.wizards.com/)
 
-[D&D 5th Edition Wiki - Wikia](http://engl393-dnd5th.wikia.com/wiki/D%26D_5th_Edition_Wiki)
+[D&D 5th Edition Wikia | FANDOM powered by Wikia](https://dnd5e.fandom.com/wiki/D%26D_5th_Edition_Wikia)
 [5th Edition D&D](https://www.reddit.com/r/dndnext/)
 [8 Reasons D&D 5th Edition Is Better Than Pathfinder | The Robot's Voice](http://www.therobotsvoice.com/2014/08/8_reasons_dungeons_and_dragons_5th_edition_is_better_than_pathfinder.php)
 
@@ -32,6 +32,10 @@ tags:
 ## Character Alignment
 
 [Why They Fight](http://www.imaginaryworldspodcast.org/why-they-fight.html)
-[Alignment (role-playing games) - Wikiwand](http://www.wikiwand.com/en/Alignment_%28role-playing_games%29)
-[Alignment (Dungeons & Dragons) - Wikiwand](http://www.wikiwand.com/en/Alignment_%28Dungeons_%26_Dragons%29)
+[Alignment (role-playing games) - Wikiwand](<http://www.wikiwand.com/en/Alignment_(role-playing_games)>)
+[Alignment (Dungeons & Dragons) - Wikiwand](<http://www.wikiwand.com/en/Alignment_(Dungeons_%26_Dragons)>)
 [How to Choose and Correctly Role Play Your Alignment in Dungeons and Dragons V3.5](http://www.wikihow.com/Choose-and-Correctly-Role-Play-Your-Alignment-in-Dungeons-and-Dragons-V3.5)
+
+## Playthrough
+
+[Dungeons & Dragons [5e] - Grave of Man Campaign - YouTube](https://www.youtube.com/playlist?list=PLVmM0UVcquYJMuJDZeCdk6XfKRmbSNEtF)

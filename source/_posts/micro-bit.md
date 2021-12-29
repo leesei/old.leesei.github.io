@@ -15,7 +15,7 @@ date: 2018-09-12 21:11:59
 [carlosperate/awesome-microbit: A curated list of BBC micro:bit resources.](https://github.com/carlosperate/awesome-microbit)
 [Welcome to micro:mag - micro:mag](https://micromag.cc/)
 
-43x52mm, with builtin:
+v1.5, 43x52mm, with builtin:
 
 - 5x5 dot matrix
 - bluetooth
@@ -26,9 +26,10 @@ date: 2018-09-12 21:11:59
 - compass
 - 2 buttons
 - PH2.0 3-3.7V power
-  [bbcmicrobit/hardware: Hardware designs for the BBC micro:bit](https://github.com/bbcmicrobit/hardware)
-  [Micro:bit Hardware](https://tech.microbit.org/hardware/)
-  [micro:bit Power Consumption | REUK.co.uk](http://www.reuk.co.uk/wordpress/microbit-power-consumption/)
+
+[bbcmicrobit/hardware: Hardware designs for the BBC micro:bit](https://github.com/bbcmicrobit/hardware)
+[Micro:bit Hardware](https://tech.microbit.org/hardware/)
+[micro:bit Power Consumption | REUK.co.uk](http://www.reuk.co.uk/wordpress/microbit-power-consumption/)
 
 [Getting Started with micro:bit - YouTube](https://www.youtube.com/playlist?list=PLBcrWxTa5CS0mWJrytvii8aG5KUqMXvSk) by SparkFun
 [micro:bit Tutorial Series - YouTube](https://www.youtube.com/playlist?list=PL3bNyZYHcRSUl7Z5ruCPurJIx4fCtZ35D)
@@ -116,12 +117,13 @@ max current for pins: 90mA
 [.HEX file format](https://tech.microbit.org/software/hex-format/)
 Python source code is embedded at address `0x3E000`, source code in the above link.
 
+[Locking and unlocking Makecode Editor .hex files : Support](https://support.microbit.org/support/solutions/articles/19000053218-locking-and-unlocking-makecode-editor-hex-files)
 [pxt/source-embedding.md at 437f53ca6311335c7f3f75a062ec1079b4e7806a · Microsoft/pxt · GitHub](https://github.com/Microsoft/pxt/blob/437f53ca6311335c7f3f75a062ec1079b4e7806a/docs/source-embedding.md)
 JavaScript source is embedded as JSON at `0x20000000`.
 [Locking and unlocking Javascript Blocks Editor .hex files : Support](https://support.microbit.org/support/solutions/articles/19000053218-locking-and-unlocking-javascript-blocks-editor-hex-files)
 
 [Intel HEX file Viewer](http://www.dlwrr.com/electronics/tools/hexview/hexview.html)
-[GitHub - bialix/intelhex: Python IntelHex library](https://github.com/bialix/intelhex)
+[bialix/intelhex: Python IntelHex library](https://github.com/bialix/intelhex)
 [nrf-intel-hex | Yet another parser for “Intel HEX” files.](https://nordicsemiconductor.github.io/nrf-intel-hex/) JavaScript
 
 ### JavaScript
@@ -130,7 +132,6 @@ JavaScript source is embedded as JSON at `0x20000000`.
 [Reference - Microsoft MakeCode](https://makecode.microbit.org/reference)
 Valid JavaScript can also be converted to blocks
 
-[MakeCode (PXT) Documentation - Microsoft MakeCode](https://makecode.com/docs)
 [Device - Microsoft MakeCode](https://makecode.microbit.org/device)
 
 In JavaScript mode, the left panel have an "Explorer" tree in which you can see the source code of the modules (built-in and external) used in project. You can even delete Block mode in "Explorer".
@@ -174,37 +175,10 @@ The ID can be used to embed the simulator in web site.
 
 #### Extensions (libraries)
 
-> they used to be called "Packages"
+[Extensions](https://makecode.microbit.org/extensions)
+[MakeCode extensions](https://makecode.com/extensions)
 
-Use custom blocks for development
-[Custom blocks - Microsoft MakeCode](https://makecode.microbit.org/blocks/custom)
-[Defining blocks - Microsoft MakeCode](https://makecode.com/defining-blocks)
-[MakeCode Playground](https://makecode.com/playground)
-
-Then you can create Github repo and expose that as Extension
-[Extensions - Microsoft MakeCode](https://makecode.microbit.org/extensions)
-[Building your own extension - Microsoft MakeCode](https://makecode.com/extensions/getting-started)
-[GitHub package authoring - Microsoft MakeCode](https://makecode.com/blog/github-packages)
-
-Or install `pxt` locally
-
-```sh
-npm i -g pxt  # once
-# for each project
-mkdir microbit
-cd microbit
-pxt target microbit
-pxt serve
-```
-
-[Building your own extension - Microsoft MakeCode](https://makecode.com/extensions/getting-started/vscode)
-
-[吉哥的分享 - 如何製作 makecode 裡的 micro:bit 積木](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/如何製作makecode裡的microbit積木)
-[大榔頭的電腦隨筆: 自製 Makecode 拼塊(一)：製作拼塊檔案](http://hammer1007.blogspot.com/2018/02/makecode_89.html)
-[大榔頭的電腦隨筆: 自製 Makecode 拼塊(二)：上傳及使用拼塊](http://hammer1007.blogspot.com/2018/02/makecode_54.html)
-
-[pxt-microbit/libs/core at master · Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit/tree/master/libs/core)
-[microbit-makecode-packages](https://github.com/microbit-makecode-packages)
+[makecode-extensions](https://github.com/makecode-extensions/)
 [Tinkertanker](https://github.com/Tinkertanker)
 [shaoziyang/microbit-lib: all kinds of microbit python drives, libs, examples, etc.](https://github.com/shaoziyang/microbit-lib)
 [lioujj / Repositories](https://github.com/lioujj?tab=repositories&type=source)
@@ -219,31 +193,6 @@ pxt serve
 
 [microbit-lib/lcd/I2C_LCD1602 at master · shaoziyang/microbit-lib](https://github.com/shaoziyang/microbit-lib/tree/master/lcd/I2C_LCD1602)
 [KittenBot/pxt-powerbrick](https://github.com/KittenBot/pxt-powerbrick)
-
-Use code blocks
-
-```
-    "dependencies": {
-        "core": "*",
-        "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4"
-    },
-```
-
-Then you can use `pins` functions.
-
-[吉哥的分享 - microbit 連接 LCM1602](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/microbit連接lcm1602)
-[吉哥的分享 - microbit 共陰極 RGB 積木](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/microbit共陰極rgb積木)
-
-#### Threading
-
-[Serial not concurrency safe? · Issue #1157 · Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit/issues/1157)
-Actually its the fiber yielding to other threads when blocked by serial IO.
-
-`basic.forever()` vs `control.inBackground()`  
-They're both fibers. `inBackground()` have a `fiberDone` callback to clean up after function exited.
-
-https://github.com/Microsoft/pxt-microbit/blob/master/libs/core/basic.cpp#L117-L122
-https://github.com/Microsoft/pxt-microbit/blob/master/libs/core/pxt.cpp#L654-L659
 
 ### Espruino
 
@@ -265,11 +214,8 @@ Another JavaScript runtime, no block programming support
 > MicroPython API is synchronous and do not implement all of Python 3's feature
 
 [Micro:bit - Python editor](https://python.microbit.org/)
-[Code With Mu](https://codewith.mu/en/) offline MicroPython editor
 [Mu editor(Micropython)-Kittenbot](https://www.kittenbot.cn/newsinfo/969085.html)
 
-[MicroPython - Python for microcontrollers](http://micropython.org/)
-[Overview — MicroPython documentation](https://docs.micropython.org/en/latest/index.html)
 [BBC micro:bit MicroPython documentation](https://microbit-micropython.readthedocs.io/en/latest/index.html)
 [whaleygeek/microbit_python: Various micro:bit python code examples](https://github.com/whaleygeek/microbit_python)
 
@@ -310,13 +256,14 @@ Used by upper layers, you can also use it directly.
 [Programming using C/C++ (Offline IDE Setup) | BBC Microbit - Hackster.io](https://www.hackster.io/weargenius/programming-using-c-c-offline-ide-setup-bbc-microbit-90a6e5)
 
 [Home | Mbed](https://www.mbed.com/en/)
+[Free open source IoT OS and development tools from Arm | Mbed](https://os.mbed.com/)
 [yotta Documentation - yotta](http://docs.yottabuild.org/)
 
 [QEMU 4.0 adds micro:bit emulation support - QEMU](https://www.qemu.org/2019/05/22/microbit/)
 
 ### Rust
 
-[GitHub - therealprof/microbit: A Rust crate for BBC micro:bit development](https://github.com/therealprof/microbit)
+[therealprof/microbit: A Rust crate for BBC micro:bit development](https://github.com/therealprof/microbit)
 [Rust on BBC micro:bit using Windows • Flames of Code](https://flames-of-code.netlify.com/blog/rust-microbit-windows/)
 
 ### Arduino IDE
@@ -329,8 +276,8 @@ Used by upper layers, you can also use it directly.
 
 ## Updating Firmware
 
+[Firmware | micro:bit](https://microbit.org/guide/firmware/)
 [Troubleshooting downloads with WebUSB - Microsoft MakeCode](https://makecode.microbit.org/device/usb/webusb/troubleshoot)
-[Upgrading the micro:bit firmware : Support](https://support.microbit.org/support/solutions/articles/19000019131-how-to-upgrade-the-firmware-on-the-micro-bit)
 [DAPLink on micro:bit (KL26Z) | Mbed](https://www.mbed.com/en/platform/hardware/prototyping-production/daplink/daplink-on-kl26z/#Updating_your_DAPLink_firmware)
 
 ## Android test apps

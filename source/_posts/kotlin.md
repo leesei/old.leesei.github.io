@@ -9,17 +9,23 @@ date: 2019-04-04 10:02:53
 ---
 
 [Kotlin Programming Language](https://kotlinlang.org/)
-[Kotlin (programming language) - Wikiwand](https://www.wikiwand.com/en/Kotlin_(programming_language%29)
+[Kotlin (programming language) - Wikiwand](https://www.wikiwand.com/en/Kotlin_%28programming_language%29)
 Statically typed programming language for the JVM, Android, the browser and native
+
+[Kotlin 1.3.50 released | Kotlin Blog](https://blog.jetbrains.com/kotlin/2019/08/kotlin-1-3-50-released/)
 
 [Kotlin Clean Architecture – ProAndroidDev](https://proandroiddev.com/kotlin-clean-architecture-1ad42fcd97fa)
 [Kotlin, Android's new programming language - Things you need to know about it](https://www.readinbrief.com/kotlin/)
+[Kt. Academy](https://blog.kotlin-academy.com/)
+
 [Will everyone use Kotlin programming language instead of Java? - Quora](https://www.quora.com/Will-everyone-use-Kotlin-programming-language-instead-of-Java)
 [Toppling the Giant: Kotlin vs. Java](https://blog.scottlogic.com/2019/04/29/kotlin-vs-java.html)
 [Kotlin on the server at Khan Academy | Khan Academy Engineering](http://engineering.khanacademy.org/posts/kotlin-adoption.htm)
 [What is Kotlin? The Java alternative explained | InfoWorld](https://www.infoworld.com/article/3224868/java/what-is-kotlin-the-java-alternative-explained.html)
 [Kotlin tutorial: Get started with Kotlin | InfoWorld](https://www.infoworld.com/article/3281125/application-development/kotlin-tutorial-get-started-with-kotlin.html)
 [Beyond Java: Programming languages on the JVM | InfoWorld](https://www.infoworld.com/article/3268484/java/beyond-java-programming-languages-on-the-jvm.html)
+[8-Minute Crash Course on Kotlin Programming Language.](https://blog.kotlin-academy.com/8-minute-crash-course-on-kotlin-programming-language-e8a804ed3d8a)
+
 [Kotlin vs Java The Whole Story | TechYourChanceTechYourChance](https://www.techyourchance.com/kotlin-vs-java-whole-story/)
 [Kotlin - The Good, the Bad and the Ugly - DEV Community 👩‍💻👨‍💻](https://dev.to/martinhaeusler/kotlin---the-good-the-bad-and-the-ugly-3jfo)
 
@@ -33,13 +39,14 @@ Statically typed programming language for the JVM, Android, the browser and nati
 
 [Kotlin: A massive leap forward – ProAndroidDev](https://proandroiddev.com/kotlin-a-massive-leap-forward-78251531f616)
 [Kotlin avoids entire categories of Java defects – ProAndroidDev](https://proandroiddev.com/kotlin-avoids-entire-categories-of-java-defects-89f160ba4671)
+[Kotlin is not Android - Kt. Academy](https://blog.kotlin-academy.com/kotlin-is-not-android-c96984730c35)
 
 ## SDK
 
 [Working with the Command Line Compiler - Kotlin Programming Language](https://kotlinlang.org/docs/tutorials/command-line.html)
 `kotlinc` is also the REPL
 
-```kt
+```kotlin
 fun main(args: Array<String>) {
     println("Hello, World!")
 }
@@ -73,6 +80,12 @@ Kotlin can also be used to write script with `.kts` extension
 kotlinc -script script.kts arg1 arg2
 ```
 
+```kotlin
+// script.main.kts:
+@file:Import("common.main.kts")
+val bar = "bar with $foo"
+```
+
 [holgerbrandl/kscript: Scripting enhancements for Kotlin](https://github.com/holgerbrandl/kscript)
 
 Scratches can be created in IntelliJ IDEA to show result of each statement (and in near-realtime in Interactive mode)
@@ -91,6 +104,9 @@ Scratches can be created in IntelliJ IDEA to show result of each statement (and 
 
 [Reference - Kotlin Programming Language](https://kotlinlang.org/docs/reference/)
 [Learning Kotlin: Introduction | Robert MacLean](https://www.sadev.co.za/learning-kotlin-introduction)
+[Kotlin Bootcamp for Programmers | Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9011)
+[Google Codelabs](https://codelabs.developers.google.com/?cat=Kotlin)
+[Kotlin Bootcamp Course](https://codelabs.developers.google.com/kotlin-bootcamp/)
 
 [Blog - SuperKotlin](https://superkotlin.com/blog/)
 [Kotlin is Awesome!](https://kotlin.link/)
@@ -106,6 +122,9 @@ Scratches can be created in IntelliJ IDEA to show result of each statement (and 
 
 [Uberto Barbini – ProAndroidDev](https://proandroiddev.com/@ramtop)
 [uberto/kotlin-pearls](https://github.com/uberto/kotlin-pearls)
+
+[The problem with extension functions - Kt. Academy](https://blog.kotlin-academy.com/the-problem-with-extension-functions-dffd22eb5df9)
+[Learn Kotlin Through Unit Tests - Android Developers - Medium](https://medium.com/androiddevelopers/learn-kotlin-through-unit-tests-914106d2d8c5)
 
 ### Conversion Program
 
@@ -135,6 +154,8 @@ This is very useful for enabling Kotlin a DSL.
 [Best Practices using Java 8 Lambdas | Baeldung](https://www.baeldung.com/java-8-lambda-expressions-tips)
 [How Kotlin helps you avoid memory leaks – ProAndroidDev](https://proandroiddev.com/how-kotlin-helps-you-avoid-memory-leaks-e2680cf6e71e) non-instance-capturing lambdas are translated to private, static methods
 [Diving into Higher order functions and lambdas in Kotlin](https://sourcediving.com/diving-into-higher-order-functions-and-lambdas-in-kotlin-e07656cdffe1)
+[Lambda, Filter, and Map Function In Kotlin - AhsenSaeed](https://ahsensaeed.com/lambda-filter-map-function-kotlin/)
+[Function literals with receiver in Kotlin](https://blog.mindorks.com/function-literals-with-receiver-in-kotlin)
 
 [Funtion reference - Kotlin Programming Language](https://kotlinlang.org/docs/reference/reflection.html#function-references) passing named function as reference
 
@@ -164,9 +185,14 @@ Kotlin 1.3 `stdlib` used contract for smartcasting in functions
 [Writing DSLs in Kotlin (part 2) – ProAndroidDev](https://proandroiddev.com/writing-dsls-in-kotlin-part-2-cd9dcd0c4715)
 [Migrating Android build scripts from Groovy to Kotlin DSL](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
 
+[Mastering Kotlin DSL In Android - Step By Step Guide](https://blog.mindorks.com/mastering-kotlin-dsl-in-android-step-by-step-guide)
+
 [A Kotlin Time DSL for Java 8 Time - Jworks.io](https://www.jworks.io/kotlin-time-dsl-for-java-8-time/)
 
 ## Java Interop
+
+[Java-Friendly Kotlin](https://codelabs.developers.google.com/codelabs/java-friendly-kotlin/#0)
+[How to write Java-Friendly Kotlin Code - Android Developers - Medium](https://medium.com/androiddevelopers/how-to-write-java-friendly-kotlin-code-333f32ad0df3)
 
 [Calling Java from Kotlin - Kotlin Programming Language](https://kotlinlang.org/docs/reference/java-interop.html)
 
@@ -187,6 +213,8 @@ Module is defined by built tool and can consist of multiple packages. `internal`
 [afollestad/library-template: A Kotlin + Android library template (with a sample project).](https://github.com/afollestad/library-template)
 
 [Abstract class vs interface in Kotlin – Kt. Academy](https://blog.kotlin-academy.com/abstract-class-vs-interface-in-kotlin-5ab8697c3a14)
+[Kotlin: Sealed Classes - ITNEXT](https://itnext.io/kotlin-sealed-classes-70f83d6ab567)
+[Kotlin Generics Tutorial: Getting Started | raywenderlich.com](https://www.raywenderlich.com/3634394-kotlin-generics-tutorial-getting-started)
 
 [Increasing readability using operator conventions in Kotlin](https://proandroiddev.com/increasing-readability-using-operator-conventions-in-kotlin-d518541f4c0a)
 
@@ -216,6 +244,10 @@ improvements in 1.3, but not for prime time yet
 [Going Reactive with Spring, Coroutines and Kotlin Flow](https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow)
 
 [Ktor - asynchronous Web framework for Kotlin](https://ktor.io/)
+[Ktor for fast server prototyping. Ktor is framework for creating server… | by Jarosław Michalik | Kt. Academy](https://blog.kotlin-academy.com/ktor-for-fast-server-prototyping-6e7c6d2ec296?gi=5b6b1ced336e)
+
+[Javalin - A lightweight Java and Kotlin web framework](https://javalin.io/)
+[Introducing Javalin: a Lightweight Web Framework for Java and Kotlin](https://www.infoq.com/news/2019/07/javalin/)
 
 ## #perfmatters
 
@@ -225,8 +257,6 @@ improvements in 1.3, but not for prime time yet
 
 [kotlin-stdlib - Kotlin Programming Language](https://kotlinlang.org/api/latest/jvm/stdlib/index.html)
 [kotlin/libraries/stdlib/src/kotlin at master · JetBrains/kotlin](https://github.com/JetBrains/kotlin/tree/master/libraries/stdlib/src/kotlin) source
-
-[Arrow](https://arrow-kt.io/) Functional companion to Kotlin's Standard Library
 
 [Subtle differences between Kotlin's with(), apply(), let(), also(), and run()](https://ask.ericlin.info/post/2017/06/subtle-differences-between-kotlins-with-apply-let-also-and-run/)
 
@@ -240,6 +270,7 @@ improvements in 1.3, but not for prime time yet
 [Kotlin Collection Extensions Cheat Sheet by Xantier - Download free from Cheatography - Cheatography.com: Cheat Sheets For Every Occasion](https://www.cheatography.com/xantier/cheat-sheets/kotlin-collection-extensions/)
 
 [Exploring Kotlin: useful standard library functions](https://medium.freecodecamp.org/exploring-kotlin-useful-standard-library-functions-6de19342f35a)
+[Kotlin Sequences: An Illustrated Guide - Dave Leeds on Kotlin](https://typealias.com/guides/kotlin-sequences-illustrated-guide/)
 
 [Kotlin Array sort(), sortBy(), sortWith() - grokonez](https://grokonez.com/kotlin/kotlin-array-sort-sortby-sortwith)
 [Functional Android (II): Collection operations in Kotlin](https://antonioleiva.com/collection-operations-kotlin/)
@@ -247,6 +278,7 @@ improvements in 1.3, but not for prime time yet
 Conversion between collections:
 `toList()`, `toMutableList()`, `toSet()`, `toMutableSet()`
 
+[Collections vs Sequences: War of use-cases! - ProAndroidDev](https://proandroiddev.com/collections-vs-sequences-war-of-use-cases-1f2ca06a8ac4)
 `Sequence<T>` is a lazily evaluated list, like Python's generator. Use `Collection.asSequence()` to get a Sequence.
 
 `people.associateBy({it.ssn}, {it.name})` to generate a `ssn` to `name` Map. Omit the second lambda to generate a `ssn` to `people` Map ("key by" operation). Call `toMutableMap()` at the end to make the result mutable.
@@ -254,6 +286,9 @@ Conversion between collections:
 ### Concurrency
 
 [Coroutines Guide - Kotlin Programming Language](https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html)
+[Kotlin Coroutines Tutorial for Android : Advanced | raywenderlich.com](https://www.raywenderlich.com/2117501-kotlin-coroutines-tutorial-for-android-advanced)
+[A Bottom-Up View of Kotlin Coroutines](https://www.infoq.com/articles/kotlin-coroutines-bottom-up/)
+[Understanding Kotlin coroutines - LogRocket Blog](https://blog.logrocket.com/understanding-kotlin-coroutines/)
 
 [Migrating your Network calls to Coroutines and Moshi in Kotlin](https://itnext.io/migrating-your-network-calls-to-coroutines-and-moshi-in-kotlin-e92f1f311ef)
 [Caching with Kotlin Coroutines – ProAndroidDev](https://proandroiddev.com/caching-with-kotlin-coroutines-7d819276c820)
@@ -262,6 +297,7 @@ Conversion between collections:
 
 [Flow - kotlinx-coroutines-core](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/)
 [Simple design of Kotlin Flow – Roman Elizarov – Medium](https://medium.com/@elizarov/simple-design-of-kotlin-flow-4725e7398c4c)
+[Reactive Streams and Kotlin Flows - Roman Elizarov - Medium](https://medium.com/@elizarov/reactive-streams-and-kotlin-flows-bfd12772cda4)
 [Kotlin Flows and Coroutines – Roman Elizarov – Medium](https://medium.com/@elizarov/kotlin-flows-and-coroutines-256260fb3bdb)
 [Execution context of Kotlin Flows – Roman Elizarov – Medium](https://medium.com/@elizarov/execution-context-of-kotlin-flows-b8c151c9309b)
 [Blocking threads, suspending coroutines – Roman Elizarov – Medium](https://medium.com/@elizarov/blocking-threads-suspending-coroutines-d33e11bf4761)
@@ -270,11 +306,12 @@ Conversion between collections:
 ## Style Guide
 
 [Coding Conventions - Kotlin Programming Language](https://kotlinlang.org/docs/reference/coding-conventions.html)
-[Kotlin style guide  |  Android Developers](https://developer.android.com/kotlin/style-guide)
+[Kotlin style guide | Android Developers](https://developer.android.com/kotlin/style-guide)
 
 [Coding Conventions - Kotlin Programming Language](https://kotlinlang.org/docs/reference/code-style-migration-guide.html) "Kotlin Coding Conventions" vs "IntelliJ IDEA default code style"
 
 [pinterest/ktlint: An anti-bikeshedding Kotlin linter with built-in formatter](https://github.com/pinterest/ktlint)
+[Code Formatting in Kotlin using ktlint](https://blog.mindorks.com/code-formatting-in-kotlin-using-ktlint)
 
 ## Libraries
 
@@ -282,7 +319,7 @@ Conversion between collections:
 
 [Vert.x](http://vertx.io/) building reactive applications
 
-[An Extensive Kotlinx Serializer Library For Serialization | Android | Kotlin](https://ahsensaeed.com/kotlinx-serialization-library-android-kotlin/)
+[Compose Multiplatform Framework | JetBrains: Developer Tools for Professionals and Teams](https://www.jetbrains.com/lp/compose-mpp/) reactive Desktop and Web UI framework for Kotlin
 
 ### CLI
 

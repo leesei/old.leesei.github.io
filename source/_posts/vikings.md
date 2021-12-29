@@ -2,9 +2,9 @@
 title: "Vikings"
 date: 2015-04-02 18:05:23
 categories:
-- history
+  - history
 tags:
-- vikings
+  - vikings
 ---
 
 Vikings don't wear horned helmets.

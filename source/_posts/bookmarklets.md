@@ -2,10 +2,10 @@
 title: "Bookmarklets"
 date: 2014-12-08 14:19:53
 categories:
-- web
+  - web
 tags:
-- bookmarklet
-- browser
+  - bookmarklet
+  - browser
 toc: true
 ---
 
@@ -13,6 +13,7 @@ Bookmarklets are bookmark of JavaScript code as the link (with protocol `javascr
 They are simple ways to extend browser without resorting to browser extensions and plugins.
 You can access `document` and `window` of the current page in the bookmarklet.
 Useful properties includes:
+
 - title
 - URL
 - DOM
@@ -34,19 +35,22 @@ Useful properties includes:
 
 ### Creating bookmarklets
 
-* Create any bookmark, edit it to change the title and paste the `javascript:` link as the url.
-* Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the `javascript:` link is url-escaped).
-* You may organize bookmarklets in fully documented `.js`
+- Create any bookmark, edit it to change the title and paste the `javascript:` link as the url.
+- Some services allows you to drag and drop a link to your bookmark bar to create the bookmarklet (the `javascript:` link is url-escaped).
+- You may organize bookmarklets in fully documented `.js`
   - URL encode and minifiy it
   - use this to generate the link: (FIXME)
+
 ```sh
 echo -n "javascript:"; uglifyjs --no-copyright file.js ; echo
 ```
-  - put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
 
-[bookmarklet](https://atom.io/packages/bookmarklet) Atom package
+- put them in Gist and use a loader, see [here](https://gist.github.com/ttscoff/5834741)
+
 [Bookmarklets construction set - Create bookmarklets online](http://js.do/blog/bookmarklets/)
 [Bookmarklet Crunchinator](http://ted.mielczarek.org/code/mozilla/bookmarklet.html)
+[bookmarkleteer - Matt Gauger's bookmarklet maker](http://blog.mattgauger.com/bookmarkleteer/)
+
 ---
 
 ## Email Link
@@ -56,7 +60,15 @@ I use this frequently to share links.
 I registered Gmail to handle `mailto:` according to [this](http://webapps.stackexchange.com/a/33951).
 
 ```js Email Link
-javascript:void(window.open("mailto:?SUBJECT="+document.title+"&BODY="+escape(location.href), "_blank","width=628,left="+screen.width*.5+",height=600,top="+screen.height*.1+",resizable,scrollbars=no"))
+javascript: void window.open(
+  "mailto:?SUBJECT=" + document.title + "&BODY=" + escape(location.href),
+  "_blank",
+  "width=628,left=" +
+    screen.width * 0.5 +
+    ",height=600,top=" +
+    screen.height * 0.1 +
+    ",resizable,scrollbars=no"
+);
 ```
 
 ## Markdown Link
@@ -64,7 +76,10 @@ javascript:void(window.open("mailto:?SUBJECT="+document.title+"&BODY="+escape(lo
 Creates a Markdown link `[]()` for the current page. Copy and paste to Markdown documents.
 
 ```js Markdown Link
-javascript:prompt('Markdown link for this page:','['+document.title+']('+window.location.href+')');
+javascript: prompt(
+  "Markdown link for this page:",
+  "[" + document.title + "](" + window.location.href + ")"
+);
 ```
 
 ## Duplicate Tab
@@ -72,7 +87,7 @@ javascript:prompt('Markdown link for this page:','['+document.title+']('+window.
 Duplicates this tab, useful for when you wish to change the url manually.
 
 ```js Duplicate Tab
-javascript:void(window.open(location.href));
+javascript: void window.open(location.href);
 ```
 
 ## Up a Directory
@@ -80,7 +95,10 @@ javascript:void(window.open(location.href));
 I miss the "Up" button in file manager so I bring it to browser.
 
 ```js Up a Directory
-javascript:void(location.href=location.href.substring(0,location.href.substring(0,location.href.length-1).lastIndexOf('/')+1))
+javascript: void (location.href = location.href.substring(
+  0,
+  location.href.substring(0, location.href.length - 1).lastIndexOf("/") + 1
+));
 ```
 
 ## Proxy via GAE
@@ -89,7 +107,9 @@ Sometime, someone blocks my access to website.
 [mirrorrr](https://github.com/bslatkin/mirrorrr) to the rescue.
 
 ```js Proxy via GAE
-javascript:void(location.href='https://leesei-proxy.appspot.com/?url='+encodeURIComponent(window.location.href))
+javascript: void (location.href =
+  "https://leesei-proxy.appspot.com/?url=" +
+  encodeURIComponent(window.location.href));
 ```
 
 ## jQuerify
@@ -104,7 +124,7 @@ javascript:(function()%7B"use strict";function t()%7Bconsole.log("jQuery loaded!
 
 > Note: this is auto updateing as the bookmarklet loads the gist every time it is clicked.
 
-List all the links in Markdown contained in the hovered portion of the page. 
+List all the links in Markdown contained in the hovered portion of the page.
 [GrabLinks - BrettTerpstra.com](http://brettterpstra.com/projects/grablinks/), [gist](https://gist.github.com/ttscoff/5834741).
 
 Bookmarklet on website.
@@ -115,8 +135,13 @@ This is rudimentary, could have parsed it a little bit.
 But why need this if we have DevTool?
 
 ```js Read Cookie
-javascript:if(document.cookie.length<1){alert('No cookie for this site.')}else{alert('Cookie for this site:\n'+document.cookie)}
+javascript: if (document.cookie.length < 1) {
+  alert("No cookie for this site.");
+} else {
+  alert("Cookie for this site:\n" + document.cookie);
+}
 ```
+
 ## Pocket
 
 [Pocket: How to Save](https://getpocket.com/add)
@@ -136,7 +161,11 @@ HTML5 `<contenteditable>` is a makeshift cross platform Notepad replacement.
 A little styling makes it better.
 
 ```js BrowserPad
-javascript:void(window.open("data:text/html, <html style='height: 100%'> <head> <title>BrowserPad</title><head> <body contenteditable style='background-color:#333; color: #ddd; font-family: courier; font-weight: bold'> </body> </html>", "_blank", "width=800,height=600"));
+javascript: void window.open(
+  "data:text/html, <html style='height: 100%'> <head> <title>BrowserPad</title><head> <body contenteditable style='background-color:#333; color: #ddd; font-family: courier; font-weight: bold'> </body> </html>",
+  "_blank",
+  "width=800,height=600"
+);
 ```
 
 ## Transforming page
@@ -146,7 +175,9 @@ javascript:void(window.open("data:text/html, <html style='height: 100%'> <head> 
 This is an undocumented transformer by Google.
 
 ```js GWT
-javascript:void(window.open("http://www.google.com/gwt/x?u="+encodeURIComponent(window.location.href)));
+javascript: void window.open(
+  "http://www.google.com/gwt/x?u=" + encodeURIComponent(window.location.href)
+);
 ```
 
 ### Readability
@@ -201,31 +232,39 @@ Bookmarklet on website.
 [Embed videos and playlists - YouTube Help](https://support.google.com/youtube/answer/171780)
 
 ```js
-javascript:(function() {
-    var url = window.location;
-    if(url.origin.indexOf("www.youtube.com") == -1)
-    {
-        alert("Sorry, this is not a YouTube page! URL: " + url.href);
+javascript: (function () {
+  var url = window.location;
+  if (url.origin.indexOf("www.youtube.com") == -1) {
+    alert("Sorry, this is not a YouTube page! URL: " + url.href);
+  } else {
+    var width = "width=" + 600;
+    var height = "height=" + 480;
+    var left = "left=" + (screen.width - width) / 2;
+    var top = "top=" + (screen.height - height) / 2;
+
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split("=");
+      if (pair[0] == "v") {
+        var videoId = pair[1];
+      }
     }
-    else
-    {
-        var width  = "width=" + 600;
-        var height = "height=" + 480;
-        var left   = "left=" + (screen.width  - width)/2;
-        var top    = "top=" + (screen.height - height)/2;
-        
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i=0;i<vars.length;i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == "v") {
-                var videoId = pair[1];
-            }
-        } 
-        
-        window.open("http://www.youtube.com/embed/" + videoId, document.title, "location=no, directories=no, menubar=no, toolbar=no, scrollbars=no, status=no, resizable=yes, " + width + ", " + height + ", " + left + ", " + top );
-    }
-}());
+
+    window.open(
+      "http://www.youtube.com/embed/" + videoId,
+      document.title,
+      "location=no, directories=no, menubar=no, toolbar=no, scrollbars=no, status=no, resizable=yes, " +
+        width +
+        ", " +
+        height +
+        ", " +
+        left +
+        ", " +
+        top
+    );
+  }
+})();
 ```
 
 ### URL shortener

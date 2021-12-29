@@ -5,7 +5,7 @@ categories:
 toc: true
 date: 2015-10-09 11:31:58
 tags:
-- economics
+  - economics
 ---
 
 [Jonathan Haidt on the Righteous Mind | EconTalk | Library of Economics and Liberty](http://www.econtalk.org/archives/2014/01/jonathan_haidt.html)
@@ -21,7 +21,8 @@ group selection
 humans should not out source moral responsibility to machines
 
 Knowledge is built by weighting facts according to our 價值觀
-Search engine can give us unbiased facts, it is us to form our believe and knowledge of our world 
+Search engine can give us unbiased facts, it is us to form our believe and knowledge of our world
+
 - the algorithm, first of all, is implementation of the programmer's believe
 - secondly the company, controlled by humans, can apply their 價值觀 to manipulate the search results
 

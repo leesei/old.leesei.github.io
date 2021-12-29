@@ -10,23 +10,14 @@ date: 2018-01-11 12:31:23
 
 [MHXX - Kiranico - モンスターハンターダブルクロス](https://mhxx.kiranico.com/)
 [【MHXX】モンスターハンターダブルクロス攻略レシピ](http://wiki.mhxg.org/)
-[【MHXX】モンスターハンターダブルクロス攻略データベース](http://x.mh4info.com/)
+[【MHXX】モンスターハンターダブルクロス攻略データベース](https://x.mh4info.com/)
 [MHXX wiki -(MHXX)モンスターハンターダブルクロス攻略データ wiki](http://mhx-wiki.com/)
 [モンハンダブルクロス(MHXX)攻略 Wiki ｜ゲームエイト](https://game8.jp/mhxx)
-[Monster Hunter XX | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.wikia.com/wiki/Monster_Hunter_XX)
-[モンハン初心者講座ー MHXX（ダブルクロス）の攻略情報](http://bassy-mh.info/mhx-html)
-
-[艾森巴赫 - YouTube](https://www.youtube.com/channel/UCgRFK8We2Nlm6kA624ZTXMQ/featured)
-[Why people love Monster Hunter so damn much | PC Gamer](https://www.pcgamer.com/why-people-love-monster-hunter-so-damn-much/)
+[Monster Hunter XX | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.fandom.com/wiki/Monster_Hunter_XX)
+[モンハン初心者講座ー MHXX（ダブルクロス）の攻略情報](http://bassy-mh.info/mhx-html)[モンハンダブルクロス(MHXX)攻略 Wiki - ゲーム攻略 GAMY](https://gamy.jp/monsterhunter-x)
 
 [魔物獵人 XX 武器圖鑑 全系武器套裝圖鑑及效果 - 蝦米攻略網](https://pcucgame.com/魔物獵人xx-武器圖鑑-全系武器套裝圖鑑及效果/)
 [怪物猎人 XX 中文网*mhxx 攻略*汉化版 | 电玩巴士](http://mh.tgbus.com/mhxx/)
-
-All MH:
-[モンスターハンター大辞典 Wiki\*](http://wikiwiki.jp/nenaiko/)  
-[Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.wikia.com/wiki/Monster_Hunter_Wiki)  
-[モンハン攻略・初心者講座](http://bassy-mh.info/)  
-[gaijin hunter - YouTube](https://www.youtube.com/channel/UCT84SVapAfSSD_iMfpKbFbA)
 
 [Ping's MHXX Dex - Ping's Dex](https://sites.google.com/site/pingsdex/pingsmhxxdex/)
 
@@ -49,6 +40,8 @@ All MH:
 ## Weapon
 
 ### ライトボウガン
+
+[ライトボウガン最終強化 | 【MHXX】モンハンダブルクロス攻略レシピ](http://wiki.mhxg.org/data/2712.html)
 
 [【心得】MHXX 推薦輕弩（雜誌圖與磚頭書資料誤植？速射補正實驗與影片） @魔物獵人 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=5786&snA=133934) !important  
 [【心得】輕弩可一點都不輕鬆－寫給新米看的輕弩通論 @魔物獵人 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=05786&snA=130756) !important  
@@ -197,9 +190,9 @@ X 的那 12 只二名的 1-10 任務全清，在加上 XX 追加的 G1-G5 的 5 
 
 ## Monsters
 
-[Category:MHXX Database | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.wikia.com/wiki/Category:MHXX_Database)
-[MHXX: Monsters | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.wikia.com/wiki/MHXX:_Monsters)
-[Monster Types | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.wikia.com/wiki/Monster_Types)
+[Category:MHXX Database | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.fandom.com/wiki/Category:MHXX_Database)
+[MHXX: Monsters | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.fandom.com/wiki/MHXX:_Monsters)
+[Monster Types | Monster Hunter Wiki | FANDOM powered by Wikia](http://monsterhunter.fandom.com/wiki/Monster_Types)
 
 [大型モンスター一覧 | 【MHXX】モンハンダブルクロス攻略レシピ](http://wiki.mhxg.org/data/2501.html)
 [小型モンスター一覧 | 【MHXX】モンハンダブルクロス攻略レシピ](http://wiki.mhxg.org/data/2502.html)

@@ -3,7 +3,7 @@ title: Forecast
 categories:
   - economics
 tags:
-  - 
+  -
 toc: true
 date: 2016-04-24 16:14:56
 ---

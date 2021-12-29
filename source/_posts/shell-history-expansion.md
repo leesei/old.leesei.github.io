@@ -2,10 +2,10 @@
 title: "Shell history expansion"
 date: 2014-12-08 12:03:44
 categories:
-- linux
+  - linux
 tags:
-- shell
-- notes
+  - shell
+  - notes
 ---
 
 ## History Expansion
@@ -24,7 +24,7 @@ http://www.catonmat.net/blog/the-definitive-guide-to-bash-command-line-history/
 man history
 ```
 
-Each line of history is a *command*, consisting of more than one *words* (0-indexed).
+Each line of history is a _command_, consisting of more than one _words_ (0-indexed).
 
 ```sh
 cp myfile.txt my/directory/path
@@ -44,9 +44,9 @@ Event designators:
 `!!` expands to the last command
 `!42` expands to the 42nd command in the history list
 `!-3` 3 commands before (all arguments)
-`!string` most recent command stating with *string*
-`!?string?` most recent command stating with *string*
-`^foo^bar` last command with the first occurrence of *foo* replaced with *bar*
+`!string` most recent command stating with _string_
+`!?string?` most recent command stating with _string_
+`^foo^bar` last command with the first occurrence of _foo_ replaced with _bar_
 `!#` expands to current command typed so far
 
 Word Designators:
@@ -77,8 +77,8 @@ Modifiers follow word designators, separated by `:`
 `:Q` unquote words
 `:u` uppercase all words
 `:l` lowercase all words
-`:s/foo/bar/` replace *foo* with *bar*
-`:gs/foo/bar/` global replace *foo* with *bar*
+`:s/foo/bar/` replace _foo_ with _bar_
+`:gs/foo/bar/` global replace _foo_ with _bar_
 
 `!!:$:e` suffix of the last argument of the last command
 `!!:$:h` basepath of the last argument of the last command

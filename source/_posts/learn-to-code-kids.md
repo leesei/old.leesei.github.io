@@ -10,23 +10,34 @@ toc: true
 
 Learn how to code for kids
 
-[Code.org](http://studio.code.org/), where President Obama learned JavaScript programming
+[Learn today, build a brighter tomorrow. | Code.org](https://code.org/)
+[Code.org - Learn Computer Science](https://studio.code.org/courses), where President Obama learned JavaScript programming
 [CodeMonkey](https://www.playcodemonkey.com/)
 [Computer Science Unplugged](http://csunplugged.org/) Teach CS without computer
 [Kids Learning Skills and Being Awesome. - DIY](https://diy.org/)
 [Character Lab](https://characterlab.org/)
 [Kojo Home](http://www.kogics.net/sf:kojo) Logo, Music, Graph, Graphics with Scala
+[GitHub Classroom](https://classroom.github.com/)
+[Your Career in Web Development Starts Here | The Odin Project](https://www.theodinproject.com/)
 
-[Teach Computer Science & Coding to Kids - CS First](https://csfirst.withgoogle.com/s/en/home)
+[Mitch Resnick: Let's teach kids to code - YouTube](https://www.youtube.com/watch?v=Ok6LbV6bqaE)
+
+[Teach Computer Science & Coding to Kids - CS First](https://csfirst.withgoogle.com/s/en/home) with Scratch 3
 [Start with Code – Google](https://campaigns.google.com.au/startwithcode/index.html)
 [Three ways to get started with computer science and computational thinking](https://blog.google/outreach-initiatives/education/three-ways-get-started-computer-science-and-computational-thinking/)
 [Official Google Australia Blog: CS + X: What's your X?](https://australia.googleblog.com/2014/06/cs-x-whats-your-x.html)
 [Python in Education](https://www.oreilly.com/programming/free/python-in-education.csp)
 [Computer Science - YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) CrashCourse
+[Learn to Code for Free – Grasshopper](https://grasshopper.app/) JavaScript
+
+[mytechnotalent/Python-For-Kids: A comprehensive and FREE Online Python Development course FOR KIDS utilizing an official BBC micro:bit Development Board going step-by-step into the world of Python for microcontrollers.](https://github.com/mytechnotalent/Python-For-Kids)
+[Machine Learning for Kids](https://machinelearningforkids.co.uk/)
+[Scratch Machine Learning | Raspberry Pi Projects](https://projects.raspberrypi.org/en/pathways/scratch-machine-learning)
 
 [Hour of Code | Khan Academy](https://www.khanacademy.org/hourofcode)
 [Learning programming on Khan Academy (article) | Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/a/learning-programming-on-khan-academy)
 
+[Code Club | Raspberry Pi Projects](https://projects.raspberrypi.org/en/codeclub)
 [Raspberry Pi Tutorials - YouTube](https://www.youtube.com/playlist?list=PLME-KWdxI8dfGGNpoIDId6i6Lp1VqeB9B)
 [5 Exciting Activities for Kids to Learn Coding on a Raspberry Pi](https://www.makeuseof.com/tag/exciting-activities-kids-learn-coding-raspberry-pi/)
 
@@ -34,7 +45,6 @@ Learn how to code for kids
 [Linda Liukas: A delightful way to teach kids about computers | TED Talk | TED.com](https://www.ted.com/talks/linda_liukas_a_delightful_way_to_teach_kids_about_computers?language=en)
 
 [Tux4Kids](https://github.com/tux4kids)
-[GCompris Educational Software](https://gcompris.net/index-en.html)
 
 [The EduBlocks Project](https://edublocks.org/)
 [Learn Python programming the easy way with EduBlocks | Opensource.com](https://opensource.com/article/18/8/edublocks)
@@ -50,6 +60,8 @@ Learn how to code for kids
 [Coding for Kids-A Guide for Teachers and Parents | Udemy](https://www.udemy.com/coding-for-kids/)
 [Hour of Code | Khan Academy](https://www.khanacademy.org/hourofcode)
 
+[Think Like A Coder - YouTube](https://www.youtube.com/playlist?list=PLJicmE8fK0EgogMqDYMgcADT1j5b911or)
+
 ## Visualizing Code
 
 [Bogdan-Lyashenko/js-code-to-svg-flowchart: js2flowchart - a visualization library to convert any JavaScript code into beautiful SVG flowchart. Learn other’s code. Design your code. Refactor code. Document code. Explain code.](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart)
@@ -59,11 +71,17 @@ Learn how to code for kids
 
 [Flowgorithm - Flowchart Programming Language](http://www.flowgorithm.org/)
 
+[Math Inspector - A visual programming environment for scientific computing with numpy and scipy](https://mathinspector.com/)
+
 ## App Inventor
 
 [MIT App Inventor](http://ai2.appinventor.mit.edu/)
 
 [Setting Up App Inventor | Explore MIT App Inventor](http://appinventor.mit.edu/explore/ai2/setup)
+
+## Machine Learning
+
+[Teachable Machine](https://teachablemachine.withgoogle.com/) web-based tool that makes creating machine learning models fast, easy, and accessible to everyone
 
 ## Scratch
 
@@ -71,26 +89,28 @@ Learn how to code for kids
 [Scratch - Ideas](https://scratch.mit.edu/ideas)
 [Scratch Coding Cards](https://resources.scratch.mit.edu/www/cards/en/scratch-cards-all.pdf) PDF
 
+[Invent with Scratch](http://inventwithscratch.com/) !important, Scratch 2.0
 [Scratch - Tuts+ Code Category](http://code.tutsplus.com/categories/scratch)
 [Creative Computing](http://scratched.gse.harvard.edu/guide/)
 [Scratch Wiki](https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home)
 [Blocks - Scratch Wiki](https://en.scratch-wiki.info/wiki/Blocks)
 
 [Modules – Code Club](https://codeclubprojects.org/en-GB/scratch/)
-[Teach Computer Science & Coding to Kids - CS First](https://csfirst.withgoogle.com/en/home) updated to 3.0
 [What's new in Scratch 3.0, a programming language designed for kids](https://www.blog.google/outreach-initiatives/education/whats-new-scratch-30-programming-language-designed-kids/)
 [Computer Science Concepts in Scratch | Scratch](https://stwww1.weizmann.ac.il/scratch/scratch_en/)
 
 [ScratchJr - Home](https://www.scratchjr.org/)
 [Scratch Day for Younger Children – Scratch Foundation Blog – Medium](https://medium.com/scratchfoundation-blog/scratch-day-for-younger-children-4eba6d07cefc)
 
-[Invent with Scratch](https://inventwithscratch.com/)
+[Invent with Scratch](https://inventwithscratch.com/) book
+
+[Scratch Blocks in 60 Seconds - YouTube](https://www.youtube.com/playlist?list=PL0-84-yl1fUki_zQ1ouwGN8t3spCTLnpS)
+[Scratch Programming - YouTube](https://www.youtube.com/playlist?list=PL0-84-yl1fUkall6a14nqzXpG79-RgI1F)
 [Scratch Game Programming for Young Adults | Udemy](https://www.udemy.com/scratch-game-programming/?couponCode=INVENT_WITH_SCRATCH)
 [進學國小資訊組 - Scratch 線上版課程教案整理](https://class.tn.edu.tw/modules/tad_web/news.php?WebID=1384&NewsID=12353)
 
 [Scratch 2.0: all-new features for your Raspberry Pi - Raspberry Pi](https://www.raspberrypi.org/blog/scratch-2-raspberry-pi/)
 [Getting Started With Scratch on the Raspberry Pi](https://www.makeuseof.com/tag/raspberry-pi-scratch/)
-[Invent with Scratch](https://inventwithscratch.com/)
 
 [ScratchX](https://scratchx.org/) Experimental Extensions to Scratch
 micro:bit, Ardiono, ...
@@ -103,7 +123,7 @@ micro:bit, Ardiono, ...
 
 [Scratch Blocks UI - Developers](https://scratch.mit.edu/developers) which is actually a combination of Blockly and Scratch
 [LLK/scratch-blocks: Scratch Blocks is a library for building creative computing interfaces.](https://github.com/LLK/scratch-blocks)
-[Blockly  |  Google Developers](https://developers.google.com/blockly/)
+[Blockly | Google Developers](https://developers.google.com/blockly/)
 [Blockly Games](https://blockly-games.appspot.com/)
 
 [Snap! (Build Your Own Blocks)](https://snap.berkeley.edu/)
@@ -130,6 +150,11 @@ micro:bit, Ardiono, ...
 
 [Scratch Arduino Extension](http://khanning.github.io/scratch-arduino-extension/)
 
+[EduBlocks](https://edublocks.org/) for Python
+
+[Rete.js](https://rete.js.org/#/)
+[retejs/rete: JavaScript framework for visual programming and creating node editor](https://github.com/retejs/rete)
+
 [国内主流 Arduino 图形化编程软件专业评测 - 知乎](https://zhuanlan.zhihu.com/p/25122085)
 [Alternative Arduino Interfaces - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/alternative-arduino-interfaces/all) 2014
 [BlocklyDuino/BlocklyDuino: BlocklyDuino is a web-based visual programming editor for arduino.](https://github.com/BlocklyDuino/BlocklyDuino)
@@ -146,11 +171,17 @@ micro:bit, Ardiono, ...
 [Helloblock 亚博-下载专区](https://www.yahboom.com/download/Helloblock#)
 
 [raspberrypilearning/getting-started-with-scratch: Getting started with Scratch on Raspberry Pi](https://github.com/raspberrypilearning/getting-started-with-scratch)
+[Visual Embedded Rust Programming with Visual Studio Code](https://medium.com/@ly.lee/visual-embedded-rust-programming-with-visual-studio-code-1bc1262e398c)
 
 [Brown Dog Gadgets - Projects, DIY Kits & Solar-Powered Gadgets](https://www.browndoggadgets.com/)
 [Brown Dog Gadgets - YouTube](https://www.youtube.com/channel/UCOOrYoQ9AmXaNGafGewvfJg)
 
-### Makecode mBlock
+### Tinkergen
+
+[Codecraft](https://ide.tinkergen.com/)
+[Make2Learn - TinkerGen](https://make2learn.tinkergen.com/)
+
+### Makeblock mBlock
 
 [mBlock - Programming Software Designed for STEAM Education](http://www.mblock.cc/) Scratch based, Block + Python + Arduino IDE
 
@@ -167,7 +198,6 @@ mBlock 3, Scratch 2
 [Arduino 图形化学习 二：认识编程软件 - 知乎](https://zhuanlan.zhihu.com/p/51452480)
 [What is "Scratch Mode" in mBlock? Why would I use it? | Vernier](https://www.vernier.com/til/4141/)
 ![](https://www.vernier.com/til/images/4141-mbot-programming-modes.png)
-
 
 [Introduction - mBlock | A Powerful Coding Tool for STEAM Education](http://www.mblock.cc/example/introduction/)
 [An Overview of Using Makeblock in Arduino Programming](https://www.allaboutcircuits.com/technical-articles/an-overview-of-using-makeblock-in-arduino-programming/)
@@ -210,11 +240,113 @@ mBlock 3, Scratch 2
 ### Kittenblock
 
 [Kittenblock-Kittenbot](https://www.kittenbot.cn/newsinfo/969079.html)
-Scratch based, Block + Python + Arduino IDE
+Scratch 3 based, Block + Python + Arduino IDE
 [最新版软件下载\_Kittenblock 更新手记 - KittenBlock 软件 - Kittenbot 小喵科技——专注图形化编程教育 - Powered by Discuz!](https://bbs.kittenbot.cn/forum.php?mod=viewthread&tid=115)
+[KittenBot/Kittenblock](https://github.com/KittenBot/Kittenblock)
 
+[Welcome to Kittenbot Team’s Documents — kittenbot docs documentation](https://kittenbot-docs-en.readthedocs.io/en/latest/index.html)
 [Kittenblock 教程 — kittenbot docs 文档](https://kittenbot.readthedocs.io/zh_CN/latest/kittenblock/index.html)
 [kittenbot-docs/kittenblock at master · KittenBot/kittenbot-docs](https://github.com/KittenBot/kittenbot-docs/tree/master/kittenblock)
+
+### Microsoft Makecode (PXT)
+
+[Microsoft MakeCode](https://www.microsoft.com/en-hk/makecode?rtc=1)
+[About – Microsoft MakeCode](https://www.microsoft.com/en-hk/makecode/about?rtc=1)
+[Resources – Microsoft MakeCode](https://www.microsoft.com/en-hk/makecode/resources)
+
+[One chip to flash them all - Microsoft MakeCode](https://makecode.com/blog/one-chip-to-flash-them-all)
+[microsoft/uf2: UF2 file format specification](https://github.com/Microsoft/uf2)
+[microsoft/uf2-linux: UF2 flashing support for Linux (Raspberry Pi Zero)](https://github.com/Microsoft/uf2-linux)
+
+[microsoft/pxt: Microsoft MakeCode (PXT - Programming eXperience Toolkit)](https://github.com/Microsoft/pxt)
+[MakeCode (PXT) Documentation - Microsoft MakeCode](https://makecode.com/docs)
+[MakeCode Languages: Blocks, Static TypeScript and Static Python - Microsoft MakeCode](https://makecode.com/language)
+
+#### Platforms
+
+[We Code MakeCode | Using Microsoft MakeCode for Minecraft and MakeCode Arcade](https://wecodemakecode.com/)
+[MakeCode Arcade](https://arcade.makecode.com/#)
+[Arcade Documentation - Microsoft MakeCode](https://arcade.makecode.com/docs)
+[MakeCode Arcade: Retro Gaming, Modern Programming - Microsoft MakeCode](https://makecode.com/blog/arcade/01-18-2019)
+[What is MakeCode Arcade? | MakeCode Arcade with Raspberry Pi Zero | Adafruit Learning System](https://learn.adafruit.com/makecode-arcade-with-raspberry-pi-zero?view=all)
+
+[Microsoft MakeCode for micro:bit](https://makecode.microbit.org/)
+[micro:bit Editor updates : Support](https://support.microbit.org/support/solutions/articles/19000058445-makecode-editor-updates) June 2019 v2
+[makecode editor : Support](https://support.microbit.org/support/solutions/articles/19000092164-makecode-editor-version-1-) October 2018 v1
+
+[MakeCode Maker - Blocks / Javascript editor](https://maker.makecode.com/)
+[Project Alava: Programming Webs of Microcontrollers - Microsoft MakeCode](https://makecode.com/blog/alava/alava)
+[Add a new board - Microsoft MakeCode](https://maker.makecode.com/boards/add-a-new-board)
+
+#### Writing Tutorials
+
+[Tutorials - Microsoft MakeCode](https://makecode.com/writing-docs/tutorials)
+Just edit `README.md` in project's resource explorer.
+Then your project will have a help panel on the right.
+Use the special `/tutorial:${URL}` to load the project to view it step by step.
+
+e.g:  
+https://makecode.microbit.org/#tutorial:https://makecode.microbit.org/_FhVVTw4Cp8cL  
+https://arcade.makecode.com/#tutorial:https://github.com/cyrusn/flappy_duck_tutorial
+
+#### Extensions (libraries)
+
+> they used to be called "Packages"
+
+Use custom blocks for development
+[Custom blocks - Microsoft MakeCode](https://makecode.microbit.org/blocks/custom)
+[Defining blocks - Microsoft MakeCode](https://makecode.com/defining-blocks)
+[MakeCode Playground](https://makecode.com/playground)
+
+Then you can create GitHub repo and expose that as Extension
+[Extensions - Microsoft MakeCode](https://makecode.microbit.org/extensions)
+[Building your own extension - Microsoft MakeCode](https://makecode.com/extensions/getting-started)
+[GitHub extension authoring - Microsoft MakeCode](https://makecode.com/extensions/github-authoring)
+[GitHub Extensions authoring](https://makecode.com/blog/github-packages)
+
+Or install `pxt` locally
+
+```sh
+npm i -g pxt  # once
+# for each project
+mkdir microbit
+cd microbit
+pxt target microbit
+pxt serve
+```
+
+[Building your own extension - Microsoft MakeCode](https://makecode.com/extensions/getting-started/vscode)
+
+[吉哥的分享 - 如何製作 makecode 裡的 micro:bit 積木](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/如何製作makecode裡的microbit積木)
+[大榔頭的電腦隨筆: 自製 Makecode 拼塊(一)：製作拼塊檔案](http://hammer1007.blogspot.com/2018/02/makecode_89.html)
+[大榔頭的電腦隨筆: 自製 Makecode 拼塊(二)：上傳及使用拼塊](http://hammer1007.blogspot.com/2018/02/makecode_54.html)
+
+[pxt-microbit/libs/core at master · Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit/tree/master/libs/core)
+
+Add `core` as dependencies,
+
+```json
+"dependencies": {
+    "core": "*",
+    "ws2812b": "github:Microsoft/pxt-ws2812b#v0.0.4"
+},
+```
+
+Then you can use `pins` functions.
+
+[吉哥的分享 - microbit 連接 LCM1602](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/microbit連接lcm1602)
+[吉哥的分享 - microbit 共陰極 RGB 積木](https://sites.google.com/jes.mlc.edu.tw/ljj/microbit開發板/microbit共陰極rgb積木)
+
+#### Threading
+
+[Serial not concurrency safe? · Issue #1157 · Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit/issues/1157)
+Actually its the fiber yielding to other threads when blocked by serial IO.
+
+`basic.forever()` vs `control.inBackground()`  
+They're both fibers. `inBackground()` have a `fiberDone` callback to clean up after function exited.
+
+https://github.com/Microsoft/pxt-microbit/blob/master/libs/core/basic.cpp#L117-L122
+https://github.com/Microsoft/pxt-microbit/blob/master/libs/core/pxt.cpp#L654-L659
 
 ### Mixly
 
@@ -251,9 +383,11 @@ Scratch based, Block + Python + Arduino IDE
 [Inspiration for autumn activities - Bare Conductive](https://www.bareconductive.com/)
 [How to make a card that lights up - YouTube](https://www.youtube.com/watch?v=JgbrUPvR8VE)
 
-[趣味纸电路制作套件16案例 创客教育 STEAM 科学 手工 促销-淘宝网](https://item.taobao.com/item.htm?id=597709277684)
+[趣味纸电路制作套件 16 案例 创客教育 STEAM 科学 手工 促销-淘宝网](https://item.taobao.com/item.htm?id=597709277684)
 
 ### Capacitive Touch sensor
+
+[How do touchscreens work? - YouTube](https://www.youtube.com/watch?v=WdS4JU17HRs)
 
 [cap-touch with ubit](https://ukbaz.github.io/howto/microbit_touch.html)
 [How to create a touch sensor for the micro:bit with Electric Paint - Bare Conductive](https://www.bareconductive.com/make/create-a-touch-sensor-for-microbit-with-electric-paint/) [touch_sensor - Microsoft MakeCode](https://makecode.microbit.org/v0/29308-77808-89926-57028)
@@ -262,6 +396,8 @@ Scratch based, Block + Python + Arduino IDE
 [Capacitive Touch with Makey Makey - Tutorial Australia](https://core-electronics.com.au/tutorials/capacitive-touch-with-makey-makey.html) Arduino code
 
 [Capacitive Touch Interface - Processing for Pi](https://pi.processing.org/tutorial/capacitive-touch-interface/)
+
+[The touch lamp; a neat idea, and older than you'd think! - YouTube](https://www.youtube.com/watch?v=TbHBHhZOglw)
 
 ### Speaker
 
@@ -285,8 +421,8 @@ Scratch based, Block + Python + Arduino IDE
 [ubermix Home](http://www.ubermix.org/)
 [Sugar Labs](https://www.sugarlabs.org/)
 
-[兒童專用鍵盤-淘宝网全球站](https://world.taobao.com/item/538340063344.htm?spm=a312a.7700714.0.0.ACkQpf#detail)
-[兒童寶寶玩具卡通彩色兒童老人鍵盤-大按鍵設計-淘宝网全球站](https://world.taobao.com/item/525910959791.htm?spm=a312a.7700714.0.0.INXNpL#detail)
+[兒童專用鍵盤-淘宝网全球站](https://world.taobao.com/item/538340063344.htm)
+[兒童寶寶玩具卡通彩色兒童老人鍵盤-大按鍵設計-淘宝网全球站](https://world.taobao.com/item/525910959791.htm)
 Taobao "鍵盤 兒童"
 
 ## CS w/o computer
@@ -296,23 +432,43 @@ Taobao "鍵盤 兒童"
 [CS Unplugged](https://csunplugged.org/en/) primary school
 [Computer Science Field Guide](http://csfieldguide.org.nz/en/index.html) high school
 
+[How To Make Super Cool (And Easy) Cub Scout Robots | Cub Scout Ideas](https://cubscoutideas.com/7856/how-to-make-cub-scout-robots/)
+
 ## Learn by coding games
 
+> see `pygame.md`
+> see `game-engine.md#arcade`
+
+[Advent of Code: Solving Your Puzzles With Python – Real Python](https://realpython.com/python-advent-of-code/)
+
+[Microsoft MakeCode Arcade](https://arcade.makecode.com/)
+
 [CodeCombat - Learn how to code by playing a game](https://codecombat.com/) multiple languages
-[CodinGame - Programming is fun](https://www.codingame.com/) [multiple languages](https://www.codingame.com/faq)
+[Coding Games and Programming Challenges to Code Better](https://www.codingame.com/start) [multiple languages](https://www.codingame.com/faq)
+[W3Schools Code Game](https://www.w3schools.com/codegame/index.html)
 [Codewars](http://www.codewars.com/) [multiple languages](http://www.codewars.com/docs/programming-languages-and-environments)
+[Online Tutorial to Learn Java - CodeGym](https://codegym.cc/) Java
+[HackerRank](https://www.hackerrank.com/home)
+[About - Project Euler](https://projecteuler.net/)
 
 [Kodu | Home](https://www.kodugamelab.com/)
+[GDevelop - Create games without programming - Open source HTML5 and native game creator](https://gdevelop-app.com/)
 
-[olistic/warriorjs](https://github.com/olistic/warriorjs) - Game written in JavaScript for learning JavaScript and artificial intelligence.
+[olistic/warriorjs](https://github.com/olistic/warriorjs) Game written in JavaScript for learning JavaScript and artificial intelligence.
 [Robocode Home](http://robocode.sourceforge.net/)
 
 ### Minecraft
 
-[Official site | Minecraft](https://minecraft.net/en-us/)
 [Minecraft - Wikiwand](http://www.wikiwand.com/en/Minecraft)
+[Official site | Minecraft](https://minecraft.net/en-us/)
+[Official Minecraft Wiki – The Ultimate Resource for Minecraft](https://minecraft.gamepedia.com/Minecraft_Wiki)
+[Java Edition – Official Minecraft Wiki](https://minecraft.gamepedia.com/Java_Edition)
+[Bedrock Edition – Official Minecraft Wiki](https://minecraft.gamepedia.com/Bedrock_Edition)
+
+[Minecraft Bedrock Edition: Download guide for PC, system requirements and more](https://www.sportskeeda.com/amp/esports/minecraft-bedrock-edition-download-guide-pc-system-requirements)
 
 [The (Latecomer) Beginner's Guide To Minecraft](https://www.makeuseof.com/tag/latecomer-beginners-guide-minecraft/)
+[Minecraft Is A Perfectly Balanced Game With No Exploits - BOOKS = UNLIMITED DIAMONDS - YouTube](https://www.youtube.com/watch?v=7nQzLlTOY2g)
 
 Pros:
 Interactive world
@@ -327,12 +483,20 @@ Server administration is difficult
 
 [我的世界 Minecraft 中国版官方网站—原汁原味，免费下载](http://mc.163.com/)
 
+[Coding with Minecraft](https://turtleappstore.com/book/)
+
+[Minecraft PE Mods, Maps, Skins, Seeds, Texture Packs | MCPE DL](https://mcpedl.com/)
+
 #### Minecraft: Pi Edition
 
 [Pi Edition | Minecraft](https://minecraft.net/en-us/edition/pi/)
+[Getting Started with Minecraft Pi - Introduction | Raspberry Pi Projects](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)
+[<Stuff about="code" />: Minecraft API](https://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 
 [Hacking Minecraft - YouTube](https://www.youtube.com/playlist?list=PLME-KWdxI8dfQ1mKqnED8eAxZIb82ju6H)
 [Learn Python and Electronics with Minecraft Pi Edition](https://www.makeuseof.com/tag/learn-python-electronics-minecraft-pi-edition/)
+[How to Make a Raspberry Pi Minecraft Server @Raspberry_Pi #PiDay #RaspberryPi « Adafruit Industries – Makers, hackers, artists, designers and engineers!](https://blog.adafruit.com/2019/10/11/how-to-make-a-raspberry-pi-minecraft-server-raspberry_pi-piday-raspberrypi/)
+[How to Install Minecraft Server on Raspberry Pi | Linuxize](https://linuxize.com/post/how-to-install-minecraft-server-on-raspberry-pi/)
 
 #### Minecraft: Education Edition
 
@@ -342,8 +506,9 @@ Server administration is difficult
 [Minecraft: Education Edition - YouTube](https://www.youtube.com/channel/UC2XjBkW16jGLGSEF9vo4PDA)
 
 [Minecraft Education Edition - YouTube](https://www.youtube.com/playlist?list=PLokdYgqXzlzIcnHlWplSkKLFdxjVay8lf)
-
 Bulk adding of users to private server
+
+[How to download Minecraft Education Edition: Step-by-step guide for beginners](https://www.sportskeeda.com/amp/esports/how-download-minecraft-education-edition)
 
 #### Python
 

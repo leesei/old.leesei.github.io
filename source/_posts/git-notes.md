@@ -25,29 +25,45 @@ Git is a content addressable file system
 
 [10 Years of Git: An Interview with Git Creator Linus Torvalds - The Linux Foundation](https://www.linuxfoundation.org/blog/10-years-of-git-an-interview-with-git-creator-linus-torvalds/)
 [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)
+[The History Behind Git - DEV Community](https://dev.to/ahmedgouda/the-history-behind-git-53ag)
 [Tech Talk: Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8)
 [[Linux.conf.au 2013] - Git For Ages 4 And Up - YouTube](https://www.youtube.com/watch?v=1ffBJ4sVUb4)
 [The Biggest Misconception About Git – David Gohberg – Medium](https://medium.com/@gohberg/the-biggest-misconception-about-git-b2f87d97ed52)
 [History of Git | Hackaday](https://hackaday.com/2017/05/11/history-of-git/)
+[git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
+
+[Opinionated Git](http://opinionatedgit.com/)
 
 You can always check reflog to restore commit no matter how you messed with your tree.
 [Git back to the future | Phil Nash](https://philna.sh/blog/2017/01/04/git-back-to-the-future/)
 
-[git man page generator](https://git-man-page-generator.lokaltog.net/) fake git man page
+[Git Explained in 100 Seconds - YouTube](https://www.youtube.com/watch?v=hwP7WQkmECE)
+[13 Advanced (but useful) Git Techniques and Shortcuts - YouTube](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+
 [Highlights from Git 2.21 - The GitHub Blog](https://github.blog/2019-02-24-highlights-from-git-2-21/)
+[Highlights from Git 2.22 - The GitHub Blog](https://github.blog/2019-06-07-highlights-from-git-2-22/)
+
+[git man page generator](https://git-man-page-generator.lokaltog.net/) fake git man page
+[Lokaltog/git-man-page-generator: Git man page generator.](https://github.com/Lokaltog/git-man-page-generator)
+
+[evil git man page](http://git-scms.com/)
+[dellis23/evil-git-man-page-generator: An evil fork of this project, no warnings https://github.com/Lokaltog/baba-git-man-page-generator](https://github.com/dellis23/evil-git-man-page-generator)
 
 ## Tutorials
 
 [Learn Git Version Control using Interactive Browser-Based Labs | Katacoda](https://www.katacoda.com/courses/git)
 [Learn git concepts, not commands - DEV Community 👩‍💻👨‍💻](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+[Git: A Complete Guide. Covering the essential commands for a… | by Rahul Pathak | Towards Data Science](https://towardsdatascience.com/git-a-complete-guide-d49675d02a5d)
 
+[Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials) !important
+[Git Handbook · GitHub Guides](https://guides.github.com/introduction/git-handbook/)
 [git - the simple guide - no deep shit!](http://rogerdudler.github.io/git-guide/)
 [Git Tutorial - Try Git](https://try.github.io/)
 [On Demand Training](https://services.github.com/on-demand/) [source](https://github.com/github/training-kit)
 [git ready » learn git one commit at a time](http://gitready.com/)
 [Git Immersion - Brought to you by Neo](http://gitimmersion.com/) guided tour
+[Learn Version Control with Git for Free](https://www.git-tower.com/learn/)
 [Home // Think Like (a) Git](http://think-like-a-git.net/)
-[Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 [Git Succinctly - Tuts+ Code Tutorials](http://code.tutsplus.com/series/git-succinctly--net-33581)
 [A Beginner's Git and GitHub Tutorial | Udacity](http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
 [Understanding Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
@@ -67,7 +83,11 @@ You can always check reflog to restore commit no matter how you messed with your
 [Short and Sweet: Get Started with Git and GitHub Right Now | Udemy](https://www.udemy.com/short-and-sweet-get-started-with-git-and-github-right-now/)
 
 [Practical Git for Everyday Professional Use from @trevordmiller on @eggheadio](https://egghead.io/courses/practical-git-for-everyday-professional-use)
+[Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git - YouTube](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+[Git and GitHub for Beginners - Crash Course - YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk)
 [Understanding Git's Behaviour • Steve Smith - YouTube](https://www.youtube.com/watch?v=SiokK8Q1wo0)
+[Introduction to Git - Core Concepts - YouTube](https://www.youtube.com/watch?v=uR6G2v_WsRA)
+[Lecture 6: Version Control (git) (2020) - YouTube](https://www.youtube.com/watch?v=2sjqTHE0zok)
 
 ## Books
 
@@ -89,12 +109,6 @@ You can always check reflog to restore commit no matter how you messed with your
 [Git SCM Wiki](https://git.wiki.kernel.org/index.php/Main_Page)
 [Git Memo](http://git-memo.readthedocs.org/en/latest/introduction.html)
 
-## cheat-sheet
-
-[Git Cheatsheet • NDP Software](http://ndpsoftware.com/git-cheatsheet.html)
-[AOSP Git and Repo cheatsheet](https://source.android.com/source/developing.html#git-and-repo-cheatsheet)
-[Explain Git with D3](https://onlywei.github.io/explain-git-with-d3/)
-
 ## Git Protocols
 
 [Git - The Protocols](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols)
@@ -106,6 +120,9 @@ You can always check reflog to restore commit no matter how you messed with your
 [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 [Plastic SCM blog: Linus Torvalds on GIT and SCM](http://codicesoftware.blogspot.com/2007/05/linus-torvalds-on-git-and-scm.html)
 
+[Scaling git's merge and rename-detection machinery | Palantir Blog](https://medium.com/palantir/optimizing-gits-merge-machinery-1-127ceb0ef2a1)
+[Optimizing git’s merge machinery, #2 | by Palantir | Palantir Blog | Mar, 2021 | Medium](https://medium.com/palantir/optimizing-gits-merge-machinery-2-d81391b97878)
+
 [Reset Demystified – Scott Chacon](http://scottchacon.com/2011/07/11/reset.html)
 [Note to Self – Scott Chacon](http://scottchacon.com/2010/08/25/notes.html)
 [Git Loves the Environment – Scott Chacon](http://scottchacon.com/2010/04/11/environment.html)
@@ -115,9 +132,15 @@ You can always check reflog to restore commit no matter how you messed with your
 [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 [Unpacking Git packfiles](https://codewords.recurse.com/issues/three/unpacking-git-packfiles)
 
+[Git Pathspecs and How to Use Them | CSS-Tricks](https://css-tricks.com/git-pathspecs-and-how-to-use-them/)
+
+[Get up to speed with partial clone and shallow clone - The GitHub Blog](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
+
 [Git Source Code Review](http://fabiensanglard.net/git_code_review/index.php)
 [The Architecture of Open Source Applications (Volume 2): Git](http://aosabook.org/en/git.html)
 [pluralsight/git-internals-pdf](https://github.com/pluralsight/git-internals-pdf)
+
+[Remediating the May 2018 Git Security Vulnerability | Azure DevOps Blog](https://devblogs.microsoft.com/devops/announcing-the-may-2018-git-security-vulnerability/) `.git/` which contains user script was pushed to remote and allows remote code execution
 
 ## Repo size
 
@@ -145,6 +168,9 @@ You can always check reflog to restore commit no matter how you messed with your
 [Welcome | Legit (Git Workflow for Humans)](http://www.git-legit.org/)
 [Get Legit with Git (and GitHub): The Art of the Commit Message - The New Stack](https://thenewstack.io/getting-legit-with-git-and-github-the-art-of-the-commit-message/)
 
+[Introduction - complate wiki](https://replicadse.github.io/complate/)
+[complate — command-line utility in Rust // Lib.rs](https://lib.rs/crates/complate)
+
 [donnemartin/gitsome: A supercharged Git/GitHub command line interface (CLI).](https://github.com/donnemartin/gitsome)
 [qw3rtman/gg: Git Goodies: At-A-Glance, Efficient, and Aesthetically Pleasing Git Shortcuts](https://github.com/qw3rtman/gg)
 [golbin/git-commander: A git tool with an easy terminal interface.](https://github.com/golbin/git-commander)
@@ -164,7 +190,27 @@ You can name you custom script as `git-mycmd`, place it in you PATH and use `git
 [Extending Git functionality - Stack Overflow](http://stackoverflow.com/questions/10978257/extending-git-functionality/10978296#10978296)
 [Atlassian Blogs: Extending git](http://blogs.atlassian.com/2013/04/extending-git/)
 
-### Tig
+## GUI Clients
+
+[Git - GUI Clients](https://git-scm.com/downloads/guis)
+[Sublime Merge - Git Client, done Sublime](https://www.sublimemerge.com/) !important
+[GitLens: where have you been all my life! - DEV Community 👩‍💻👨‍💻](https://dev.to/glsolaria/gitlens-where-have-you-been-all-my-life-1c2d) !important, VSCode extension
+
+[Git GUI for Windows, Mac & Linux | GitKraken](https://www.gitkraken.com/)
+[GitEye | CollabNet](http://www.collab.net/products/giteye)
+[GitUp](http://gitup.co/) Mac only, innovative UX
+
+[Git Cola: The highly caffeinated Git GUI](https://git-cola.github.io/)
+[Make Git easy with Git Cola | Opensource.com](https://opensource.com/article/20/3/git-cola)
+
+[Supercharging the Git Commit Graph | Azure DevOps Blog](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/)
+[Supercharging the Git Commit Graph II: File Format | Azure DevOps Blog](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph-ii-file-format/)
+[Supercharging the Git Commit Graph III: Generations and Graph Algorithms | Azure DevOps Blog](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph-iii-generations/)
+[Supercharging the Git Commit Graph IV: Bloom Filters | Azure DevOps Blog](https://devblogs.microsoft.com/devops/super-charging-the-git-commit-graph-iv-bloom-filters/)
+
+### Terminal GUI
+
+[extrawurst/gitui: Blazing 💥 fast terminal-ui for git written in rust 🦀](https://github.com/Extrawurst/gitui)
 
 [Tig: text-mode interface for Git](http://jonas.nitro.dk/tig/)
 [The Tig Manual](http://jonas.nitro.dk/tig/manual.html)
@@ -174,21 +220,14 @@ You can name you custom script as `git-mycmd`, place it in you PATH and use `git
 [git ready » tig, the ncurses front-end to Git](http://gitready.com/advanced/2009/07/31/tig-the-ncurses-front-end-to-git.html)
 [git? tig! | Atlassian Blogs](http://blogs.atlassian.com/2013/05/git-tig/)
 
-## GUI Clients
-
-[Git - GUI Clients](https://git-scm.com/downloads/guis)
-[Sublime Merge - Git Client, done Sublime](https://www.sublimemerge.com/)
-[Git GUI for Windows, Mac & Linux | GitKraken](https://www.gitkraken.com/)
-[GitEye | CollabNet](http://www.collab.net/products/giteye)
-[GitUp](http://gitup.co/) Mac only, innovative UX
-
 ## `repo`
 
-[Repo command reference | Android Open Source Project](https://source.android.com/source/using-repo.html)
+[repo](https://gerrit.googlesource.com/git-repo/+/refs/heads/master/README.md)
+[Repo Command Reference | Android Open Source Project](https://source.android.com/setup/develop/repo)
 
 ```sh
 # requires python
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+curl https://storage.googleapis.com/git-repo-downloads/repo > repo
 chmod a+x ~/bin/repo
 ```
 
@@ -201,6 +240,7 @@ Integrates git repo with review system (Gerrit).
 
 [Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.](https://git-lfs.github.com/)
 [cloudmazing/lfs-server-go: LFS server with multiple file stores and backing stores](https://github.com/cloudmazing/lfs-server-go)
+[Large Media overview | Netlify Docs](https://docs.netlify.com/large-media/overview/)
 
 [VFS for Git: Git at Enterprise Scale](https://vfsforgit.org/) formerly GVFS
 [Microsoft/VFSForGit: Virtual File System for Git: Enable Git at Enterprise Scale](https://github.com/Microsoft/VFSForGit)
@@ -210,14 +250,14 @@ Integrates git repo with review system (Gerrit).
 ## Workflow
 
 [Git Branching Model](http://www.slideshare.net/lemiorhan/git-branching-model)
-[A successful Git branching model » nvie.com](http://nvie.com/posts/a-successful-git-branching-model/)
+[A successful Git branching model » nvie.com](https://nvie.com/posts/a-successful-git-branching-model/)
 [Understanding the GitHub Flow · GitHub Guides](https://guides.github.com/introduction/flow/)
-[Low Level Manager: using git-flow with github](http://www.lowlevelmanager.com/2011/03/using-git-flow-with-github.html)
 [a simple git branching model](https://gist.github.com/jbenet/ee6c9ac48068889b0912)
-[GitHub Workflow (used by Frameworks team at BBC News)](http://www.integralist.co.uk/posts/github-workflow.html)
+[GitHub Workflow ⋆ Mark McDonnell](https://www.integralist.co.uk/posts/github-workflow/)
 [GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html)
 [How to GitHub: Fork, Branch, Track, Squash and Pull Request - Gun.io](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/)
 [Git Branching Strategies for Maintainable Test Automation - DZone DevOps](https://dzone.com/articles/git-branching-strategies-for-maintainable-test-aut)
+[How to Use Git and Git Workflows – a Practical Guide](https://www.freecodecamp.org/news/practical-git-and-git-workflows/)
 
 [stevenharman/git-workflows](https://github.com/stevenharman/git-workflows)
 [reenhanced/gitreflow](https://github.com/reenhanced/gitreflow)
@@ -227,6 +267,18 @@ Integrates git repo with review system (Gerrit).
 [Commit Policies](http://blog.osteele.com/posts/2008/05/commit-policies/)
 
 [Git 常用命令备忘 – 尘埃落定](http://www.lovelucy.info/git-command-cheatsheet.html)
+
+Git Flow:
+
+- `master`: release candidate, release, and hotfix
+- `develop`: gatekeeper branch, parent of feature branches, CI/CD
+- merge hotfix on `master` to `develop`
+
+Truck:
+
+- `master`: parent of feature branches, CI/CD
+
+Commits to `master` kicks off CI/CD
 
 ### Rebase
 
@@ -249,7 +301,8 @@ Integrates git repo with review system (Gerrit).
 [Tech Talk: Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8)
 [GitHub Training & Guides - YouTube](https://www.youtube.com/user/GitHubGuides)
 
-[Deep Dive into Git • Edward Thomson - YouTube](https://www.youtube.com/watch?v=dBSHLb1B8sw)
+[GOTO 2015 • Deep Dive into Git • Edward Thomson - YouTube](https://www.youtube.com/watch?v=dBSHLb1B8sw)
+[TechDays 2017 - Edward Thomson - Inside Git - YouTube](https://www.youtube.com/watch?v=yupKgmYdy40)
 [Introduction to Git with Scott Chacon of GitHub - YouTube](https://www.youtube.com/watch?v=ZDR433b0HJY)
 [Advanced Git: Graphs, Hashes, and Compression, Oh My! - YouTube](https://www.youtube.com/watch?v=ig5E8CcdM9g)
 
@@ -262,6 +315,7 @@ May need [puppetlabs/showoff](https://github.com/puppetlabs/showoff)
 ## Tips and Tricks
 
 [First Aid git](http://firstaidgit.io/#/)
+[First Aid Kit for Git | Learn Version Control with Git](https://www.git-tower.com/learn/git/first-aid-kit/)
 [git-tips/tips: Most commonly used git tips and tricks.](https://github.com/git-tips/tips)
 [nirajpandkar/git-tip: CLI that gives a random git-tip.](https://github.com/nirajpandkar/git-tip)
 [A few git tips you didn't know about](http://mislav.uniqpath.com/2010/07/git-tips/)
@@ -269,27 +323,52 @@ May need [puppetlabs/showoff](https://github.com/puppetlabs/showoff)
 [Git tips and tricks](http://blog.mixu.net/2012/04/06/git-tips-and-tricks/)
 [GIT Conventions — Medium](https://medium.com/@tjholowaychuk/git-conventions-a940ee20862d)
 [10 Git Commands You Should Know – Towards Data Science](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c)
+[10 insanely useful Git commands you wish existed - and their alternatives - datree](https://datree.io/git-commands/)
+[Dangit, git!](https://dangitgit.com/)
 [git Archives - Everything CLI](https://www.everythingcli.org/tag/git/)
 
 [Five Key Git Concepts Explained the Hard Way – zwischenzugs](https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/)
 [Create Your Own Git Diagrams – zwischenzugs](https://zwischenzugs.com/2018/03/08/create-your-own-git-diagrams/)
+[Martin Heinz - Advanced Git Features You Didn’t Know You Needed](https://martinheinz.dev/blog/43)
+
+[A Guide To Undoing Mistakes With Git (Part 1) — Smashing Magazine](https://www.smashingmagazine.com/2021/05/undoing-mistakes-git-part1/)
+[A Guide To Undoing Mistakes With Git (Part 2) — Smashing Magazine](https://www.smashingmagazine.com/2021/05/undoing-mistakes-git-part2/)
 
 [Advanced Git Commands: Rewriting History - DZone Open Source](https://dzone.com/articles/advanced-git-commands-rewriting-history)
+
+[tryexceptpass - Episode 6 - Underused Git Commands that Simplify Your Life](https://tryexceptpass.org/podcast/ep6-underused-git-commands/)
 
 [How (and why!) to keep your Git commit history clean | GitLab](https://about.gitlab.com/2018/06/07/keeping-git-commit-history-clean/)
 [Git tips: 合并 commit 保持分支干净整洁 – 尘埃落定](http://www.lovelucy.info/git-tips-combine-commits-keep-your-branch-clean.html)
 [The Elements of Commit Style](http://mcandre.gitbooks.io/elements-of-commit-style/content/index.html)
+[6 best practices for teams using Git | Opensource.com](https://opensource.com/article/20/7/git-best-practices)
 
 ## Githooks
 
 [Git Hooks | Learn how to use pre-commit hooks, post-commit hooks, post-receive hooks, and more. | Matthew Hudson](http://githooks.com/)
+[How I Learned to Stop Worrying and Love Git Hooks | CSS-Tricks](https://css-tricks.com/how-i-learned-to-stop-worrying-and-love-git-hooks/)
+[How to write custom Git hooks and publishing your code to a website | Opensource.com](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6)
+
+[okonet/lint-staged: 🚫💩 — Run linters on git staged files](https://github.com/okonet/lint-staged)
 [typicode/husky: Git hooks made easy](https://github.com/typicode/husky)
+
+[Using lint-staged, husky, and pre-commit hooks to fail fast and early](https://codeburst.io/continuous-integration-lint-staged-husky-pre-commit-hook-test-setup-47f8172924fc)
 
 <!-- more -->
 
 ---
 
 # Koan
+
+[Git Cheatsheet • NDP Software](http://ndpsoftware.com/git-cheatsheet.html)
+[AOSP Git and Repo cheatsheet](https://source.android.com/source/developing.html#git-and-repo-cheatsheet)
+[Explain Git with D3](https://onlywei.github.io/explain-git-with-d3/)
+[Oh Shit, Git!?!](https://ohshitgit.com/)
+
+## Conditional config
+
+[Edward Thomson: Git Conditional Includes](https://edwardthomson.com/blog/git_conditional_includes.html)
+Use folder prefix to include different gitconfig
 
 ## Specify SSH key to use
 
@@ -317,14 +396,24 @@ Adds `git su` subcommand to set user from `~/.gitsu`.
 git commit --amend --author "New Author <new@email>"
 ```
 
+[How can I change the author (name / email) of a commit? | Learn Version Control with Git](https://www.git-tower.com/learn/git/faq/change-author-name-email/)
+
+```sh
+# amend several commits, useful for not yet pushed commits
+git rebase -i HEAD^5 # or commitish
+# pick commits to change author to `edit`
+# for each commit
+git commit --amend --author "New Author <new@email>" --no-edit
+git rebase --continue
+```
+
 ```sh
 #!/bin/sh
 
-git filter-branch --env-filter '
-
-OLD_EMAIL="your-old-email@example.com"
-CORRECT_NAME="Your Correct Name"
-CORRECT_EMAIL="your-correct-email@example.com"
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --env-filter '
+OLD_EMAIL="leesei@gmail.com"
+CORRECT_NAME="Seasoned Bits Solutions"
+CORRECT_EMAIL="seasoned.bits@gmail.com"
 
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
@@ -389,6 +478,14 @@ git describe --abbrev=0 --tags
 git log `git describe --tags --abbrev=0`..HEAD --oneline
 ```
 
+## force pull
+
+```sh
+git fetch origin master
+git reset --hard FETCH_HEAD
+git clean -df
+```
+
 ## updating master
 
 ```sh
@@ -439,7 +536,27 @@ git add --patch <file>
 git add -p <file>
 ```
 
-http://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git
+[Commit only part of a file in Git - Stack Overflow](https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git)
+[Git - git-add Documentation](https://git-scm.com/docs/git-add#Documentation/git-add.txt-patch)
+
+`Stage this hunk [y,n,q,a,d,/,j,J,g,s,e,?]?`
+
+Here is a description of each option:
+
+- <kbd>y</kbd> stage this hunk for the next commit
+- <kbd>n</kbd> do not stage this hunk for the next commit
+- <kbd>q</kbd> quit; do not stage this hunk or any of the remaining hunks
+- <kbd>a</kbd> stage this hunk and all later hunks in the file
+- <kbd>d</kbd> do not stage this hunk or any of the later hunks in the file
+- <kbd>g</kbd> select a hunk to go to
+- <kbd>/</kbd> search for a hunk matching the given regex
+- <kbd>j</kbd> leave this hunk undecided, see next undecided hunk
+- <kbd>J</kbd> leave this hunk undecided, see next hunk
+- <kbd>k</kbd> leave this hunk undecided, see previous undecided hunk
+- <kbd>K</kbd> leave this hunk undecided, see previous hunk
+- <kbd>s</kbd> split the current hunk into smaller hunks
+- <kbd>e</kbd> manually edit the current hunk
+- <kbd>?</kbd> print hunk help
 
 ## drop changes
 
@@ -519,31 +636,91 @@ git archive master -o <repo>.<tag>.zip
 git archive --format=tar origin/master | gzip -9c | ssh user@yourserver.com "tar --directory=/var/www -xvzf -"
 ```
 
-Tagging and pushing tag to Github will aldo allow you to download the zipped code.
+Tagging and pushing tag to GitHub will aldo allow you to download the zipped code.
 
 ## reduce repo size
 
 [How to Shrink a Git Repository](http://stevelorek.com/how-to-shrink-a-git-repository.html)
+[What is git gc and how does it work? | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/git-gc)
 [Reduce git repository size - Stack Overflow](http://stackoverflow.com/questions/2116778/reduce-git-repository-size)
 [Git pull error: unable to create temporary sha1 filename - Stack Overflow](http://stackoverflow.com/questions/685319/git-pull-error-unable-to-create-temporary-sha1-filename/)
+[Optimize your repository using Git GC | by Ameet Prajapati | codeburst](https://codeburst.io/optimize-your-repository-using-git-gc-c4675ed8b7b2)
 
 ```sh
+git fsck # show dangling (orphaned) commit
 git gc --aggressive --prune=now
+git reflog expire --expire-unreachable=now --all git gc --prune=now
 ```
 
-## better `diff`
+## worktree
 
-[A better Vimdiff Git mergetool - Vim Tips Wiki](http://vim.wikia.com/wiki/A_better_Vimdiff_Git_mergetool)
+[Git - git-worktree Documentation](https://git-scm.com/docs/git-worktree)
+[Using multiple working trees in Git - DEV Community 👩‍💻👨‍💻](https://dev.to/oliverjumpertz/using-multiple-working-trees-in-git-122d)
+[Experiment on your code freely with Git worktree | Opensource.com](https://opensource.com/article/21/4/git-worktree)
+
+## Get current branch
+
+```sh
+git branch --show-current  # Git 2.22+
+git rev-parse --abbrev-ref HEAD
+```
+
+## Rebase feature branch
+
+```sh
+git reset --soft master
+```
+
+## Commits count
+
+This can be used as build number
+
+```sh
+git rev-list --count <branch>
+```
+
+## difftool/mergetool
+
+Using `diff-so-fancy` as PAGER
+
+[Git - git-difftool Documentation](https://www.git-scm.com/docs/git-difftool)
+[Git - git-mergetool Documentation](https://www.git-scm.com/docs/git-mergetool)
+
+[Setting up and using Meld as your git difftool and mergetool - Stack Overflow](https://stackoverflow.com/questions/34119866/setting-up-and-using-meld-as-your-git-difftool-and-mergetool)
+[git merge - How to set Meld as git mergetool - Stack Overflow](https://stackoverflow.com/questions/12956509/how-to-set-meld-as-git-mergetool)
+[Git Tutorial: Diff and Merge Tools - YouTube](https://www.youtube.com/watch?v=iCGrKFH2oeo)
+
+### vimdiff
+
+[A better Vimdiff Git mergetool | Vim Tips Wiki | FANDOM powered by Wikia](https://vim.fandom.com/wiki/A_better_Vimdiff_Git_mergetool)
 
 [Use vimdiff as git mergetool - Ruslan Osipov](http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/)
 
-## Get current branch in shell
+## Monorepos
 
-```sh
-parse_git_branch(){
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/';
-}
-```
+> many of these discussions are on Node.js/Frontend dev
+> see `node-js-notes.md#local-dev-dependency`
+
+[Rush](https://rushjs.io/)
+
+[Mono-repo or multi-repo? Why choose one, when you can have both?](https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668) `meta`
+[Repo style wars: mono vs multi](http://www.gigamonkeys.com/mono-vs-multi/)
+
+[Advantages of monorepos](https://danluu.com/monorepo/)
+[Pros and Cons of Using Monorepos - FOSSA](https://fossa.com/blog/pros-cons-using-monorepos/)
+[babel/monorepo.md at master · babel/babel](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)
+[Monorepos: Please don’t!. Here we are at the beginning of 2019… | by Matt Klein | Medium](https://medium.com/@mattklein123/monorepos-please-dont-e9a279be011b)
+[Monorepo: please do!. You should choose a monorepo because… | by Adam Jacob | Medium](https://medium.com/@adamhjk/monorepo-please-do-3657e08a4b70)
+
+[Nx: Smart, Extensible Build Framework](https://nx.dev/)
+[Nx Quickstart - How to Scale a JavaScript Project - YouTube](https://www.youtube.com/watch?v=VUyBY72mwrQ)
+
+### Meta
+
+[Bring your monorepo down to size with sparse-checkout - The GitHub Blog](https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/)
+[Developing a plugin for meta. In my last post, I introduced meta and… | by Patrick Lee Scott | Medium](https://patrickleet.medium.com/developing-a-plugin-for-meta-bd2e9c39882d)
+[mateodelnorte/meta: tool for turning many repos into a meta repo. why choose many repos or a monolithic repo, when you can have both with a meta repo?](https://github.com/mateodelnorte/meta)
+[mateodelnorte/loop: loop through commands in fun and amazing ways!](https://github.com/mateodelnorte/loop)
 
 ## submodules
 

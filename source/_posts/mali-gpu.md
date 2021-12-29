@@ -2,9 +2,9 @@
 title: "Mali GPU"
 date: 2015-05-18 18:34:22
 categories:
-- comp.hardware
+  - comp.hardware
 tags:
-- mali
+  - mali
 toc: true
 ---
 

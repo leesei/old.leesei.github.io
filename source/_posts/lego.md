@@ -9,11 +9,17 @@ date: 2016-06-12 18:10:00
 ---
 
 [LEGO - YouTube](https://www.youtube.com/channel/UCP-Ng5SXUEt0VE-TXqRdL6g)
+[The LEGO Story - How it all started - YouTube](https://www.youtube.com/watch?v=qr_dTySMl7s)
+[The Economics of LEGO - YouTube](https://www.youtube.com/watch?v=zsHXFEOV83gs)
+[How are LEGO Minifigures Made? | LEGO Factory Behind The Scenes - YouTube](https://www.youtube.com/watch?v=ChZotngQ3_8)
 [【中外玩具网披露塑料拼插积木发展历史】 - 中外玩具网](https://news.ctoy.com.cn/show-31866.html)
 [史上最全乐高玩具大梳理！1 篇文章搞懂乐高玩具！|乐高|颗粒|德宝\_新浪网](http://k.sina.com.cn/article_6425065479_17ef6b80700100aaj1.html)
 
 [乐高 篇一：让我告诉你在乐高中国总部搭建新品 10261 过山车是种什么体验*开箱晒物*什么值得买](https://post.smzdm.com/p/731665/?nozhiyou)
 [乐高 篇二：那个你心心念念的乐高中国总部 是不是该了解一下？*生活记录*什么值得买](https://post.smzdm.com/p/728862/)
+
+[樂高新手入門 100 個 Lego 知識(一)：購買攻略篇 - 魯蛇實驗室](http://www.loserlab.tw/2016/04/lego-100-question-qa-1.html)
+[樂高新手入門 100 個 Lego 知識(二)：知識百科篇 - 魯蛇實驗室](http://www.loserlab.tw/2016/05/lego-100-question-qa-2.html)
 
 [投資樂高　比股票黃金更有賺頭？｜財經時事｜投資理財｜ 2015-12-27 ｜即時｜天下雜誌](https://www.cw.com.tw/article/article.action?id=5073501)
 
@@ -23,17 +29,65 @@ date: 2016-06-12 18:10:00
 [LEGO Bricks In The Making - YouTube](https://www.youtube.com/watch?v=C3oiy9eekzk)
 [How fan films shaped The Lego Movie - YouTube](https://www.youtube.com/watch?v=TVe5XPU10Zc)
 
+[The Brick Bible – The Scriptures in LEGO from Genesis to Revelation](https://thebrickbible.com/)
 [Lego Abominations | Evil Mad Scientist Laboratories](https://www.evilmadscientist.com/2006/lego-abominations/)
+[These What-If Scenarios Are Wonderful in Star Wars Lego Form](https://io9.gizmodo.com/with-the-help-of-legos-this-video-explores-a-series-of-1836935648/amp)
 [CSS LEGO Minifigure Maker](https://codepen.io/joshbader/pen/MZMzjr)
+
+[JK Brickworks - YouTube](https://www.youtube.com/user/truedimensions)
+[brickitect - YouTube](https://www.youtube.com/channel/UC-LJgOHir8UyxoboIe-cQZA)
 
 [LEGO® 樂高 網上商店 | HobbyDigi.com 電購網](https://www.hobbydigi.com/zh_hant_hk/lego)
 [我的 LEGO 篇五：我去香港逛 LEGO 打卡六家店，两手空空回\_\_什么值得买](https://post.smzdm.com/p/alpzgxwp/)
+
+## Stop motion
+
+[Beyond the Brick - YouTube](https://www.youtube.com/channel/UCwBVURsT1hSnFT8vGO6vSqw)
+[All New Bricks - YouTube](https://www.youtube.com/user/allnewbricks)
+[MaxTime TV - YouTube](https://www.youtube.com/channel/UCKZdlVZYMY4bDux-ep8J45g)
+[raptor5120 - YouTube](https://www.youtube.com/user/raptor5120) CGI that looks like stop motion
+[BrickBrosProductions - YouTube](https://www.youtube.com/channel/UCm2mA8FCaPP1ySSA8CL46YQ) LEGO in real life
+[Brickology - YouTube](https://www.youtube.com/channel/UCLfg320ARc0SCdgqRexWrOg)
+[Fancy Pants - YouTube](https://www.youtube.com/user/xxxfancypantsxxx)
+[Bricks Brought to Life - YouTube](https://www.youtube.com/c/bblanimation)
+MICHEALHICKHOXFilms https://www.youtube.com/user/MlCHAELH...
+ForestFire101 https://www.youtube.com/user/forrestf...
+Rioforce https://www.youtube.com/user/LukeActi...
+Paganomation https://www.youtube.com/user/Paganoma...
+BrickMotion https://www.youtube.com/user/IamBrick...
+onbeatman https://www.youtube.com/user/Onbeatman
+Legocloneaddict Productions https://www.youtube.com/user/legoclon...
+AkashLegoProductions https://www.youtube.com/channel/UCNyb...
+ForlornCreature https://www.youtube.com/user/ForlornC...
+Keshen8 https://www.youtube.com/user/Keshen8
+watsonfilms https://www.youtube.com/user/watsonfilms
+mobdeli https://www.youtube.com/user/mobdeli
+Aaron Legg https://www.youtube.com/user/LemonPuffs1
+HarryandBillyBrick https://www.youtube.com/user/HarryAnd...
+BrickDictator https://www.youtube.com/user/cashlego
+Jampot https://www.youtube.com/user/JampotAn...
+AKPstudios https://www.youtube.com/user/AKPstudios
+eananimation https://www.youtube.com/user/eanimation
+BrotherhoodWorkshop https://www.youtube.com/user/Brotherh...
+HamsterProductions https://www.youtube.com/user/frankfre...
+
+[Bricks in Motion](https://blog.bricksinmotion.com/)
+[The Brickfilmers Guild - Home](https://www.brickfilmersguild.com/)
+
+[Lego Animaiton Tutorials - YouTube](https://www.youtube.com/playlist?list=PLE95D8054545D1B0F) Fancy Pants
+[Tutorials - YouTube](https://www.youtube.com/playlist?list=PLNXqpK7MunN9ISWe5SRgQWgLs7_8mQH8b) Brickology
+[Brickfilm tutorials - YouTube](https://www.youtube.com/playlist?list=PLxC0tQQ3Is_FmS1s2URc7vK593An2dKHa) Gold Puffin
+[The Ultimate LEGO Animation Guide - YouTube](https://www.youtube.com/playlist?list=PLeXTJiny_fxFnLTr1GgEXJ4XFHkQXuKKP) Bricks Brought to Life
+[How to make LEGO Stop-motion with a Smartphone (iOS or Android!) - YouTube](https://www.youtube.com/watch?v=z0OJZqqB2VM)
+[How to Film Lego Stop Motion! | Beginners Tutorial - YouTube](https://www.youtube.com/watch?v=Q0Lj3ha3XF8)
+[Guide to Lego Stop Motion - YouTube](https://www.youtube.com/watch?v=byhude3fzAQ)
+[Guide to Lego Stop Motion 2 (How to make a LEGO movie) - YouTube](https://www.youtube.com/watch?v=H5YBJOfEO-s)
 
 ## Database
 
 [Building Instructions - service LEGO.com](https://www.lego.com/en-us/service/buildinginstructions)
 
-[LEGO Instructions Database](http://lego.brickinstructions.com/m/categoryList)
+[Search our LEGO Instructions database at BrickInstructions.com](http://lego.brickinstructions.com/en/search/general/new)
 [Brickset home page | Brickset: LEGO set guide and database](https://brickset.com/)
 [The LEGO Database by The Brick Show](http://brickshow.com/lego.asp)
 
@@ -80,9 +134,10 @@ MOC = My Own Creation
 [Imagine, Build and Trade LEGO MOCs - BrickLink MOC Edition](https://moc.bricklink.com/pages/moc/index.page) stud.io, with instructions
 [BrickLink - Studio](https://studio.bricklink.com/v2/build/gallery.page)
 [Brickshelf](http://www.brickshelf.com/)
+[Repubrick - REPUBRICK - Officicial and custom Lego building instructions](https://www.repubrick.com/index.php?lang=en)
 [MOCpages.com : Share your LEGO creations](http://www.moc-pages.com/)
 [Bricksafe](https://bricksafe.com/)
-[Pley.com - Monthly Activity box](https://www.pley.com/)
+[Brickmania | Custom Military Building Kits and BrickArms Weapons](https://www.brickmania.com/)
 
 [首页-DX 干燥设计 Design Xero-淘宝网](https://shop237482849.taobao.com/)
 [首页-MOC 图纸小店-淘宝网](https://shop126623282.taobao.com/)
@@ -97,9 +152,12 @@ Nathanael Kuipers, ex Lego designer
 [Sariel.pl » Ideas](http://sariel.pl/category/ideas/)
 [Sariel's LEGO® Workshop - YouTube](https://www.youtube.com/user/searme/featured)
 
+[Yoshihito ISOGAWA - YouTube](https://www.youtube.com/channel/UCPNU1kNoIec6un4cs8Cikbw)
+
 [LForces LEGO TECHNIC instructions](http://www.lforces.com/) MOC pirated by 開智
 [LegoForces - YouTube](https://www.youtube.com/channel/UCWnlx0RZC1idJjLC5nEw6iQ)
 
+[Mini LEGO Youtuber - YouTube](https://www.youtube.com/channel/UCHbNp6MZcG2lKUKcmjbBNuw)
 [DesignJunkie58 - YouTube](https://www.youtube.com/channel/UCdsE5oH05X89amDPlP02DNQ)
 [Charbel's LEGO TECHNIC Creations - YouTube](https://www.youtube.com/channel/UCCatxt6gCy3dvnVZnqMYa6w)
 
@@ -108,6 +166,11 @@ Nathanael Kuipers, ex Lego designer
 [LEGOstudio Homepage](http://www.isogawastudio.co.jp/legostudio/) 五十川芳仁
 
 [LEGO Macintosh classic with Wi-Fi and e‑paper display running docker](https://jann.is/lego-macintosh-classic/)
+[LGR - Building a Lego Apple 2 Computer! - YouTube](https://www.youtube.com/watch?v=_iPruO3p6v0)
+
+[Candy Cane Catapult | JK Brickworks](https://jkbrickworks.com/candy-cane-catapult/)
+[Office Worker | JK Brickworks](https://jkbrickworks.com/office-worker/)
+[Side Loading Garbage Truck | JK Brickworks](https://jkbrickworks.com/side-loading-garbage-truck/)
 
 [Sheepo's Garage: MAP & Bodyworks Instructions](https://www.sheepo.es/2014/12/map-jeep-willys-instructions.html#more) Paid
 [Sheepo's Garage Downloads - Google Drive](https://drive.google.com/drive/folders/0B-6-_3Ej69YUeHlZbXRUTUJCbHc)
@@ -133,6 +196,8 @@ Nathanael Kuipers, ex Lego designer
 [LEGO MOC-2141 Motorized Quad ATV 4x4 (Technic > Model > Off-Road 2014) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-2141/Nico71/motorized-quad-atv-4x4/#comments)
 [Motorized 4×4 Quad « Nico71's Creations](http://www.nico71.fr/motorized-4x4-quad/)
 
+[Making a Drone with Lego Motors and Propellers - YouTube](https://www.youtube.com/watch?v=wUVvQk7XLd4&t=662s)
+
 Crawler:
 [LEGO MOC-2168 Monster Truck (Technic > Model > Off-Road 2013) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-2168/Madoca1977/monster-truck/)
 [LEGO MOC-2041 Rock Crawler (Technic > Model > Off-Road 2014) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-2041/Madoca1977/rock-crawler/#comments)
@@ -140,6 +205,8 @@ Crawler:
 
 [LEGO TECHNIC Fun Buggy with Trailer](http://www.lforces.com/Buggy.html)
 [LEGO MOC-1812 PF Buggy 2 (updated) (Technic 2014) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-1812/Madoca1977/pf-buggy-2)
+
+[我的 LEGO MOC 篇三：MOC 的基本步骤—乐高建模工具 LDD 简易教程 及 汉街 LCS 开业礼复刻\_什么值得买](https://post.smzdm.com/p/a997ldl5/)
 
 [Military sets](http://brick4.com/search/set/?all=1&s=军事)
 
@@ -149,7 +216,6 @@ Mitu set:
 [米兔 F1，风驰电掣一整夏(全部图纸） - 小米社区官方论坛](http://bbs.xiaomi.cn/t-13634289)
 [燃情撒哈拉 | 手把手教学 深度改进米兔赛车! - 小米社区官方论坛](http://bbs.xiaomi.cn/t-13329894)
 [分享大神荒井円的一款 MOC： Jeep Wrangler 牧马人 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-32225303)
-[用十字轴拼了个四足机器人 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-14752540)
 
 [乐高版合金弹头坦克搭建图\_免费高速下载|百度网盘-分享无限制](https://pan.baidu.com/s/1EwjgfelaSI7AeVWdyv-nUw#list/path=%2F&parentPath=%2F我的资源)
 
@@ -162,34 +228,45 @@ Mitu set:
 [936 电磁大炮 之一 图片 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-15198946)
 [米兔越野车第二版 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-15115810)
 [米兔巡线小车 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-14835591)
-[用十字轴拼了个四足机器人 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-14752540)
 
 ### Regular Cars
 
+[All LEGO Speed Champions Compilation - Lego Speed Build for Collectors - YouTube](https://www.youtube.com/watch?v=QwN9hCr3_mk)
+[All Lego Speed Champions Cars ever made - Lego Speed Build Review - YouTube](https://www.youtube.com/watch?v=xdeMxCI115A)
+[LEGO Speed Champions - Digital Building Instructions - LEGO.com](https://www.lego.com/en-us/service/buildinginstructions/search#?search&theme=10000-20241)
+[Speed Champions | Brickset: LEGO set guide and database](https://brickset.com/sets/theme-Speed-Champions)
+[BrickLink Reference Catalog - Sets - Category Speed Champions](https://www.bricklink.com/catalogList.asp?catType=S&catString=842)
 [LEGO® 樂高 Speed Champions 超級賽車系列 | HobbyDigi.com 電購網](https://www.hobbydigi.com/zh_hant_hk/lego/themes/speed-champions)
 [Brick4.com - Speed+Champions](http://brick4.com/search/set/?s=Speed+Champions&all=1)
+[Brick4.com - 名车总动员 - 最实用的国产积木索引表](http://brick4.com/search/set/?s=%E5%90%8D%E8%BD%A6%E6%80%BB%E5%8A%A8%E5%91%98&all=1)
+[Brick4.com - 赛车 Racers - 最实用的国产积木索引表](http://brick4.com/search/set?t=11)
+[S 牌超级赛车\_淘宝搜索](https://s.taobao.com/search?q=S%E7%89%8C%E8%B6%85%E7%BA%A7%E8%B5%9B%E8%BD%A6)
+[名车总动员\_淘宝搜索](https://s.taobao.com/search?q=%E5%90%8D%E8%BD%A6%E6%80%BB%E5%8A%A8%E5%91%98)
+[【图片】S 牌超级赛车，共 16 款+2 款场景【国产积木吧】\_百度贴吧](https://tieba.baidu.com/p/5879087433)
+[森宝 607029-607032 FAMOUS CAR 系列](https://mp.weixin.qq.com/s?__biz=MzI2NTI4NDAxNg==&mid=2247566478&idx=1&sn=a7890aea7173de4cd1513472208a2e67)
+
 6776-6779
 6788-6791
 607013-607016
 607017-607020
 
-[S 牌超级赛车\_淘宝搜索](https://s.taobao.com/search?q=S牌超级赛车)
-[【图片】S 牌超级赛车，共 16 款+2 款场景【国产积木吧】\_百度贴吧](https://tieba.baidu.com/p/5879087433?red_tag=2673521036)
-[兼容 legao 男孩子超级赛车系列人仔益智力小学生儿童拼装积木玩具-淘宝网](https://item.taobao.com/item.htm?id=576215389658)
-[森宝积木玩具超级赛车系列兼容乐高跑车男孩儿童益智拼装生日礼物-淘宝网](https://item.taobao.com/item.htm?id=577054224451) S 牌, 754 积木玩具
-
-[兼容 legao 积木拼装汽车模型跑车超级赛车保时捷男孩城市极速玩具-淘宝网](https://item.taobao.com/item.htm?id=560953709357) Decool
-
-麦昆
-[S 牌 SY936/SY937 汽车总动员之星板牙闪电麦昆玩具拼装积木玩具-淘宝网](https://item.taobao.com/item.htm?id=573459046203)
-SY935 312pcs ¥44.90
-SY936 ¥49.90
-A 67 颗
-B 75 颗
-C 89 颗
-D 76 颗
-[S 牌正品超级赛车系列闪电麦昆拼装益智积木玩具 SY935-淘宝网](https://item.taobao.com/item.htm?id=573455456621) 56.8
-[S 牌正品超级赛车闪电麦昆电影取镜装人仔积木益智拼装玩具 SY936-淘宝网](https://item.taobao.com/item.htm?id=565785513604) 59
+[Speed Champions | Themes | Official LEGO® Shop US](https://www.lego.com/en-us/themes/speed-champions)
+[Chevrolet Corvette Z06 75870 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/chevrolet-corvette-z06-75870)
+[Porsche 919 Hybrid and 917K Pit Lane 75876 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/porsche-919-hybrid-and-917k-pit-lane-75876)
+[Mercedes-AMG GT3 75877 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/mercedes-amg-gt3-75877)
+[Bugatti Chiron 75878 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/bugatti-chiron-75878)
+[Scuderia Ferrari SF16-H 75879 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/scuderia-ferrari-sf16-h-75879)
+[McLaren 720S 75880 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/mclaren-720s-75880)
+[2016 Ford GT & 1966 Ford GT40 75881 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/2016-ford-gt-1966-ford-gt40-75881)
+[Ferrari FXX K & Development Center 75882 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/ferrari-fxx-k-development-center-75882)
+[Ferrari 488 GT3 “Scuderia Corsa” 75886 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/ferrari-488-gt3-scuderia-corsa-75886)
+[Porsche 919 Hybrid 75887 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/porsche-919-hybrid-75887)
+[Porsche 911 RSR and 911 Turbo 3.0 75888 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/porsche-911-rsr-and-911-turbo-3-0-75888)
+[McLaren Senna 75892 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/mclaren-senna-75892)
+[1974 Porsche 911 Turbo 3.0 75895 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/1974-porsche-911-turbo-3-0-75895)
+[LaFerrari 75899 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/laferrari-75899)
+[McLaren P1™ 75909 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/mclaren-p1-75909)
+[Nissan GT-R NISMO 76896 | Speed Champions | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/nissan-gt-r-nismo-76896)
 
 [Jerry Builds Bricks - LEGO Instructions for Famous Vehicles](http://jerrybuildsbricks.com/)
 [Designing a Supercar I. - Understanding the Basics](http://jerrybuildsbricks.com/designing-a-supercar-i/)
@@ -197,12 +274,47 @@ D 76 颗
 
 [Jerry Builds Bricks - YouTube](https://www.youtube.com/channel/UCEHimMYD5O94zM48-0zBC-g)
 [MOCs Designed by jerrybuildsbricks | Rebrickable - Build with LEGO](https://rebrickable.com/users/jerrybuildsbricks/mocs/)
+[Find LEGO MOCs with Building Instructions | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/?theme=601)
+
+### Cars
+
+[LEGO Cars TM - Digital Building Instructions - LEGO.com](https://www.lego.com/en-us/service/buildinginstructions/search#?theme=10000-20121)
+[Brick4.com - 赛车总动员 - 最实用的国产积木索引表](http://brick4.com/search/set?t=61) Cars
+[汽车赛车总动员 3 男孩积木闪电麦昆板牙酷姐撞车大赛拼装玩具 6-7 岁-淘宝网](https://item.taobao.com/item.htm?id=566667685505) BELA 10001-10014, 10685
+SY935 312pcs ¥44.90
+SY936 ¥49.90
+A 67 颗
+B 75 颗
+C 89 颗
+D 76 颗
+SY937
+SY778
+[S 牌正品超级赛车闪电麦昆电影取镜装人仔积木益智拼装玩具 SY936-淘宝网](https://item.taobao.com/item.htm?id=565785513604) ¥59
+LEGO 9484 (Bela 10013) Red's Water Rescue (Red and Acer) ¥39.0
 
 ### Rovers
 
 [lego opportunity rover - Google Search](https://www.google.com.hk/search?q=lego+opportunity+rover&oq=lego+opport&aqs=chrome.0.0j69i57j0l4.7839j0j7&sourceid=chrome&ie=UTF-8)
 
 [Mars Rover - Explore - LEGO.com](https://www.lego.com/en-gb/ideasproducts/explore/mars-rover-story)
+
+### Star Wars
+
+[A Yoda Christmas - LEGO Star Wars - YouTube](https://www.youtube.com/watch?v=l3WMeuU0byY)
+[The Star Wars MOC Index - LEGO Star Wars - Eurobricks Forums](https://www.eurobricks.com/forum/index.php?/forums/topic/69834-the-star-wars-moc-index/)
+[Find LEGO MOCs with Building Instructions | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/?theme=163) Star Wars Mini
+[lego star wars mini moc vechicles - Google Search](https://www.google.com/search?q=lego+star+wars+mini+moc+vechicles&tbm=isch&ved=2ahUKEwjvp8ynoqXoAhVjEqYKHXdMA3gQ2-cCegQIABAA&oq=lego+star+wars+mini+moc+vechicles&gs_l=img.3...6608.11366..11535...0.0..0.90.794.10......0....1..gws-wiz-img.......35i39j0i30j0i8i30.FP0HhXIyV-Y&ei=8LpyXu_vCeOkmAX3mI3ABw&bih=618&biw=1218)
+
+[LEGO Star Wars T-47 Airspeeder/Snowspeeder Instructions - YouTube](https://www.youtube.com/watch?v=JchCHfMsIOE)
+
+[LEGO MOC-23672 Mini X-WIng (Star Wars > Mini > Star Wars Episode 4/5/6 2019) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-23672/Cpt.%20Ammogeddon/mini-x-wing/#comments)
+
+[LEGO MOC-16921 SW Battle on Hoth mini diorama (Star Wars > Star Wars Episode 4/5/6 2018) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-16921/gol/sw-battle-on-hoth-mini-diorama/#comments)
+
+Mini Millennium Falcon
+[LEGO MOC-6071 Mini Millennium Falcon (Star Wars > Star Wars Episode 4/5/6 2016) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-6071/timeremembered/mini-millennium-falcon/)
+[Spaceships : Star Wars Eravana](https://www.repubrick.com/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=4255&virtuemart_category_id=180&Itemid=143&lang=en)
+[LEGO MOC-36401 Nin-Jato's Mini UCS 20th Anniversary Millennium Falcon (Solo) (Star Wars > Star Wars Episode 4/5/6 2020) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-36401/Force%20of%20Bricks/nin-jatos-mini-ucs-20th-anniversary-millennium-falcon-solo/#comments)
 
 ### Technic Chasis
 
@@ -267,13 +379,18 @@ AA battery box 8801 28-29
 [适用乐高 EV3/NXT 主控马达传感器连接线 乐高 lego 连接线 数据线-淘宝网](https://item.taobao.com/item.htm?id=554185937877)
 [乐高 wedo2.0 马达维修带线水晶头 8883/9686 马达维修带线卡头-淘宝网](https://item.taobao.com/item.htm?id=551031945053)
 
+[乐高 NXT/EV3 配件及扩展-BricksTech 板砖店-淘宝网](https://brickstech.world.taobao.com/category-1244341881.htm)
+
 NXT to PF cable
 [LEGO 乐高 EV3/ NXT 与 PF 电器兼容马达接口 转换线 格鲁夫推杆连接线-淘宝网](https://item.taobao.com/item.htm?id=537478885887)
 
 NXT to Dupont cable
 [micro:bit robotbit 乐高转杜邦数据 连接线用于乐高 LEGO EV3-淘宝网](https://item.taobao.com/item.htm?id=566177469415)
 
-[moc 零件遥控兼容乐高马达套件科技机械 PF 件电动电机配件拼装积木-淘宝网](https://item.taobao.com/item.htm?spm=a230r.1.14.115.5cdf6d7bHAj1ut&id=568830399078&ns=1&abbucket=12#detail)
+NXT to Dupont socket
+[NXT 端口扩展板 IO 扩展板 可搭配乐高 LEGO NXT 和 LED 发光件 摇摇棒-淘宝网](https://item.taobao.com/item.htm?id=534497681696)
+
+[moc 零件遥控兼容乐高马达套件科技机械 PF 件电动电机配件拼装积木-淘宝网](https://item.taobao.com/item.htm?id=568830399078&ns=1&abbucket=12#detail)
 
 [兼容乐高 EV3 大马达 中马达 wedo2.0 马达 兼容乐高 PF 动力组 电池盒-淘宝网](https://item.taobao.com/item.htm?id=560296725915)
 
@@ -309,17 +426,19 @@ NXT to Dupont cable
 [9 Incredibly Useful LEGO Hacks - YouTube](https://www.youtube.com/watch?v=LFccDA6YA0E)
 [LEGO LIFE HACKS - Easy DIY LEGO Ideas - It's a LEGO Life - YouTube](https://www.youtube.com/watch?v=wjmJWMQpxv0)
 [7 EASY LEGO MAGIC TRICKS - YouTube](https://www.youtube.com/watch?v=WPeG-x9Lz1A)
+[Top 10 LEGO ILLEGAL Building Techniques - YouTube](https://www.youtube.com/watch?v=83kMaEIHbJU)
 
 [只会用乐高搭积木娃就亏大了！学会这些玩法，一套顶十套|搭积木|乐高|宝宝\_新浪网](http://k.sina.com.cn/article_6378164272_17c2b103000100afo5.html)
 [它是乐高积木的黄金搭档，深藏功与名，却让所有人爱不释手|积木|黄金搭档|乐高\_新浪网](http://k.sina.com.cn/article_6419908578_17ea807e200100aqda.html) brick separator
 ![][./lego/brick-separator.jpg]
 [乐高零件收纳经验|用这些收纳盒组件零件墙，零件再多也不怕不怕啦*生活记录*什么值得买](https://post.smzdm.com/p/713582/)
+[乐高大神透露拼装技巧，超实用图纸，赶紧保存！ - 知乎](https://zhuanlan.zhihu.com/p/56143778)
 
 [How to Restore Discolored LEGO Parts! - YouTube](https://www.youtube.com/watch?v=HGagdufGvGM) 3% Hydrogen Perxoide + UV ray
 
 ### Technic
 
-[TechnicBRICKs: TBs TechTips](http://www.technicbricks.com/search/label/TBs TechTips)
+[TechnicBRICKs: TBs TechTips](http://www.technicbricks.com/search/label/TBs%20TechTips)
 [LEGO Technic, Mindstorms & Model Team - Eurobricks Forums](https://www.eurobricks.com/forum/index.php?/forums/forum/115-lego-technic-mindstorms-model-team/)
 
 [Fastest Lego Technic car powered by BuWizz - speed record breaker over 40 km/h - YouTube](https://www.youtube.com/watch?v=x7gxuGdgJH0)
@@ -341,6 +460,8 @@ NXT to Dupont cable
 [LEGO Engineering – Inspiration and support for LEGO-based engineering in the classroom](http://www.legoengineering.com/)
 [Top 10 MOST AMAZING LEGO Mini Engines Starting Up And Running [COOL] - YouTube](https://www.youtube.com/watch?v=dgP5ldlYItU)
 [10 MOST AMAZING Lego Machines - YouTube](https://www.youtube.com/watch?v=3_q8O8xQnlQ)
+[Build & Test Lego Engines: 1-cyl, opp-piston, S2, V2, F2, U2, W3, S4, H4, X4, radial-6 - YouTube](https://www.youtube.com/watch?v=p6-cB1AGPO8)
+[Build & Test Lego Engines: V8, U12, H16, X24, multirow-radial-42, S100 - YouTube](https://www.youtube.com/watch?v=bKKBBrQohLk)
 
 ### Steering
 
@@ -372,21 +493,25 @@ TL;DR (non return to center steering):
 
 ### Walker
 
+> see `robotics.md#walker`
+
 [Search | Rebrickable - Build with LEGO](https://rebrickable.com/search/?search_type=mocs&q=walker&top_theme=&min_year=1990&max_year=2018&min_parts=0&max_parts=5000)
 
+[Sariel.pl » Octopod](http://sariel.pl/2010/12/octopod/)
 [Sariel.pl » Octopod](http://sariel.pl/2010/12/octopod/)
 [Sariel.pl » Walking Mini Cooper](http://sariel.pl/2015/01/walking-mini-cooper/)
 [Sariel.pl » Theo Jansen’s Walker](http://sariel.pl/2011/09/theo-jansens-walker/)
 
 [Motorized Micro AT-TE | JK Brickworks](https://jkbrickworks.com/motorized-micro-at-te/)
+[Walking AT-TE Instructions | JK Brickworks](https://jkbrickworks.com/walking-at-te-instructions/)
 [Steampunk Walking Ship | JK Brickworks](https://jkbrickworks.com/steampunk-walking-ship)
+[LEGO Steampunk Walking Ship (Strandbeest) - YouTube](https://www.youtube.com/watch?v=b5E-VyQOfNM)
 
-[LEGO MOC-9119 EV3 Hexapod (Mindstorms > EV3 2016) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-9119/Artem 16/ev3-hexapod/#bi)
+[LEGO MOC-9119 EV3 Hexapod (Mindstorms > EV3 2016) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-9119/Artem%2016/ev3-hexapod/#bi)
+[Lego Quadruped Robot: 14 Steps](https://www.instructables.com/id/Lego-Quadruped-Robot/)
 
 [Squid Man : LEGO BOOST - YouTube](https://www.youtube.com/watch?v=KDfCnaLN9m4)
 [Lego boost - 怪物 - YouTube](https://www.youtube.com/watch?v=plTV-ue7pWQ)
-
-[Klann's Spider, EV3 Long Legs - DIY Walkers](https://www.diywalkers.com/klanns-spider-ev3-long-legs.html)
 
 [用十字轴拼了个四足机器人 - 小米社区官方论坛](http://bbs.xiaomi.cn/t-14752540)
 
@@ -425,12 +550,14 @@ TL;DR (non return to center steering):
 
 [LEGO Ideas - Home](https://ideas.lego.com/#all)
 
+[EvanBacon/Lego-Expo: Play with Lego brix anywhere using Expo](https://github.com/EvanBacon/Lego-Expo/)
+
 [Best Free Lego Building Software | Gizmo's Freeware](http://www.techsupportalert.com/content/best-free-lego-building-program.htm)
 [LDraw vs LDD vs stud.io? : lego](https://www.reddit.com/r/lego/comments/5zo7kq/ldraw_vs_ldd_vs_studio/)
 [What are the differences between LDraw and LDD (LEGO Digital Designer)? - Quora](https://www.quora.com/What-are-the-differences-between-LDraw-and-LDD-LEGO-Digital-Designer)
 [LDraw vs Mecabricks vs LDD for game models - Digital Building Tools - Rock Raiders United](https://www.rockraidersunited.com/topic/7898-ldraw-vs-mecabricks-vs-ldd-for-game-models/)
 
-[LEGO.com Digital Designer Virtual Building Software](http://ldd.lego.com/en-us/) **LDD**, official, [discontinued](http://www.brothers-brick.com/2016/01/21/lego-digital-designer-officially-defunded-and-unsupported-news/)
+[LEGO.com Digital Designer - LEGO.com US](https://www.lego.com/en-us/ldd) **LDD**, official, [discontinued](http://www.brothers-brick.com/2016/01/21/lego-digital-designer-officially-defunded-and-unsupported-news/)
 [Publish Your Design - Lego builder](http://www.publishyourdesign.com/design) web, rudimentary
 
 [Welcome to Holly-Wood.it](http://www.holly-wood.it/index-en.html) focuses on virtual LEGO building with the LDraw
@@ -438,7 +565,8 @@ TL;DR (non return to center steering):
 [LDraw.org - Home](http://ldraw.org/) CAD, database and file format
 [LeoCAD - Virtual LEGO CAD Software](http://www.leocad.org/)
 
-[BrickLink - Studio](https://studio.bricklink.com/v2/build/studio.page) stud.io, v2 has instructions maker
+[Studio Download [BrickLink]](https://www.bricklink.com/v3/studio/download.page) stud.io
+[BrickLink - Studio](https://www.bricklink.com/v2/build/studio.page) v2 has instructions maker
 [An Introduction to Bricklink Studio - YouTube](https://www.youtube.com/watch?v=j-_wOwXxLhc)
 
 [LDCad](http://www.melkert.net/LDCad)
@@ -517,6 +645,8 @@ TL;DR (non return to center steering):
 
 [LEGO Mecanum Wheels by JosephMarinier - Thingiverse](https://www.thingiverse.com/thing:2788377)
 [Lego Technic: Axle and Pin Connector Perpendicular Customizable by shusy - Thingiverse](https://www.thingiverse.com/thing:2490595)
+[DC Gearbox TT Motor to LEGO and Compatible Cross Axle ID: 3810 - \$3.95 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/3810)
+[Plastic Micro Servo Adapter for LEGO Cross - 16mm long ID: 4252 - \$0.75 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/4252)
 [About maxchambers3 - Thingiverse](https://www.thingiverse.com/maxchambers3/designs) several custom parts
 
 [LEGO Technic Forklift Beam by aguzinski - Thingiverse](https://www.thingiverse.com/thing:3093831)
@@ -554,15 +684,27 @@ TL;DR (non return to center steering):
 [DC-Motor Lego Housing by Philipp2000 - Thingiverse](https://www.thingiverse.com/thing:1973228)
 [Nema 8 - LEGO Technic compatible face-plate by GadgetWorkbench - Thingiverse](https://www.thingiverse.com/thing:2907018)
 [Motor RF-370 mount for Lego Technic & variator by ivanpost - Thingiverse](https://www.thingiverse.com/thing:3063358)
+[Simple method to couple and mount a DC motor on LEGO - DIY - YouTube](https://www.youtube.com/watch?v=UjFFrtOr7VQ)
+ball pen tubes: 2mm to 3.5mm; technic pins: 3.5mm to axle
+Use 1x2 Thin arms to get adjustable angles
+[LEGO compatible Brick Bracket for DC Gearbox TT Motor ID: 3815 - \$1.50 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/3815)
+
 [Lego-like motor mount for 28BYJ-48 Stepper Motor (improved) by rainerunsinn - Thingiverse](https://www.thingiverse.com/thing:1674077)
 [Lego compatible motor mount for 28BYJ-48 Stepper Motor by markbenson - Thingiverse](https://www.thingiverse.com/thing:151616)
 
 [Servo SG90 mount for Lego by ivanpost - Thingiverse](https://www.thingiverse.com/thing:2780938) !important
+[Servo-motor Adapted to Lego: 4 Steps (with Pictures)](https://www.instructables.com/id/Servo-motor-Adapted-to-Lego/)
+[Servo-motor Converted to Motor (with Speed & Direction Control): 4 Steps (with Pictures)](https://www.instructables.com/id/Servo-motor-Converted-to-Motor-with-Speed-Directio/)
 
+[Lego PIR Housing: 19 Steps (with Pictures)](https://www.instructables.com/id/Lego-PIR-Housing/)
 [PIR Sensor Brick Mount by badBrick - Thingiverse](https://www.thingiverse.com/thing:52910)
 [Lego Robot Sensors (Ultrasonic, IR, Button) by MechEngineerMike - Thingiverse](https://www.thingiverse.com/thing:2415906) !important
 [Lego Ultrasonic SR04 & Camera mount by ivanpost - Thingiverse](https://www.thingiverse.com/thing:3063269)
 [HC-SR04 Ultrasonic sensor holder (LEGO compatible) by markster1998 - Thingiverse](https://www.thingiverse.com/thing:2486264)
+
+[Lego Torch/Flashlight.](https://www.instructables.com/id/Lego-Torch/)
+[Lego Wireless Mouse Receiver: 5 Steps](https://www.instructables.com/id/Lego-Wireless-Mouse-Receiver/)
+[Lego AA Battery Holder: 10 Steps](https://www.instructables.com/id/Lego-AA-Battery-Holder/)
 
 ### Robotics Parts
 
@@ -620,6 +762,7 @@ Check [Philo's Home Page](http://www.philohome.com/) for technical info
 ### Boost
 
 [LEGO Powered Up VS LEGO Power Functions: In-depth Test & Comparison - YouTube](https://www.youtube.com/watch?v=bjcasrQeKqY) Power Functions 2.0, Bluetooth, Boost plug
+[NEW LEGO Powered Up motor VS LEGO Power Functions motor - YouTube](https://www.youtube.com/watch?v=dt6ipWP2e4Y)
 
 [LEGO Wireless Protocol 3.0.00 documentation](https://lego.github.io/lego-ble-wireless-protocol-docs/)
 
@@ -739,9 +882,9 @@ motors:
 [双鹰咔嗒 L 电机马 M 达科技 PF 摇控器锂电池盒积木 8293 机械动力组-淘宝网](https://item.taobao.com/item.htm?id=563990953646)
 [双鹰 cada 科技系列 pf 伺服电机 L 马达锂电池遥控器 moc 机械组动力套装-淘宝网](https://item.taobao.com/item.htm?id=567610042096)
 
-[双鹰咔嗒科技遥控军事导弹车 BM-21 火箭炮车-C61002 童拼插益智积木-淘宝网](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-17088616924.45.5a0b71691X4TjD&id=559104094878)
+[双鹰咔嗒科技遥控军事导弹车 BM-21 火箭炮车-C61002 童拼插益智积木-淘宝网](https://item.taobao.com/item.htm?id=559104094878)
 [国产最强科技组！咔嗒积木 C61001M1A2 全遥控坦克评测【月光砖厂】\_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av14222236)
-[双鹰咔嗒科技拼插装搭积木早教遥控 2 种变化机器人儿童男孩子玩具-淘宝网](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-17088616924.51.5a0b71691X4TjD&id=567443701194)
+[双鹰咔嗒科技拼插装搭积木早教遥控 2 种变化机器人儿童男孩子玩具-淘宝网](https://item.taobao.com/item.htm?id=567443701194)
 
 ### 乐拼
 
@@ -769,8 +912,8 @@ More expensive parts
 
 [首页-图思迪拼搭我的世界-淘宝网](https://le9o.taobao.com/shop/view_shop.htm?shop_id=60270364)
 
-[兼容乐高拼装积木 MOC 科技零件包 PF 配件电机马达红外线接收遥控器-淘宝网](https://item.taobao.com/item.htm?spm=a230r.1.14.60.3e127a4ceiH7Al&id=563760865543&ns=1&abbucket=12#detail)
-[moc 零件遥控兼容乐高马达套件科技机械 PF 件电动电机配件拼装积木-淘宝网](https://item.taobao.com/item.htm?spm=a230r.1.14.67.3caa7a4cfAYdes&id=568830399078&ns=1&abbucket=12#detail)
+[兼容乐高拼装积木 MOC 科技零件包 PF 配件电机马达红外线接收遥控器-淘宝网](https://item.taobao.com/item.htm?&id=563760865543&ns=1&abbucket=12#detail)
+[moc 零件遥控兼容乐高马达套件科技机械 PF 件电动电机配件拼装积木-淘宝网](https://item.taobao.com/item.htm?id=568830399078&ns=1&abbucket=12#detail)
 
 [电动科技零配件-乐高教育机器人俱乐部-淘宝网](https://shop194011402.world.taobao.com/category-1278776515.htm) motor, 液压推杆!
 
@@ -797,6 +940,8 @@ custom chassis and steering part
 
 [micro:bit 能量魔块电池盒 Armourbit 电源模块 兼容乐高 小喵科技-淘宝网](https://item.taobao.com/item.htm?id=592750620909) Kittenbot
 
+[Bluetooth Upgrade Kit | Tenka Inc.](https://circuitcubes.com/collections/kits/products/bluetooth-upgrade-kit)
+
 ### Other
 
 [BlueSmartControl - automate your remote LEGO® creations by Andreas Pockberger — Kickstarter](https://www.kickstarter.com/projects/1628872772/bluesmartcontrol-remote-lego-or-fischertechnik-cre) cannot fund
@@ -814,6 +959,14 @@ custom chassis and steering part
 [【图片】【知识】乐高式积木品牌一览（2015 修订版）【国产积木吧】\_百度贴吧](https://tieba.baidu.com/p/3544298694?red_tag=1166633683)
 [分享個人喜歡的積木品牌 @ Howard 的異想世界 :: 痞客邦 ::](http://ts510122.pixnet.net/blog/post/73952961-喜歡的積木品牌)
 [詳細國產積木評測. - 會員聊天室 - 人仔倉討論區(Minifigs Forum) 人仔倉, minifigs, minifigs.net, Lego, 香港樂高, 積木,City, Castle, Train, Space, Star Wars, Town - Powered by Discuz!](http://www.minifigs.net/forum/viewthread.php?tid=42360)
+[国产积木推荐：自己买过觉得质量、题材、设计都不错国产类积木*值客原创*什么值得买](https://post.smzdm.com/p/a839dm37/)
+
+[积木笔记 篇一：积木老亮的积木零件收纳方案*值客原创*什么值得买](https://post.smzdm.com/p/awxq634g/)
+[积木笔记 篇二：积木老亮谈高砖积木零件的辨别*值客原创*什么值得买](https://post.smzdm.com/p/amm524e4/)
+[积木笔记 篇三：积木入坑指南（一）国产积木都是“盗版”吗？*值客原创*什么值得买](https://post.smzdm.com/p/akm7vzo4/)
+[积木笔记 篇四：积木入坑指南（二）如何买到便宜的积木，网站介绍及虚拟搭建*值客原创*什么值得买](https://post.smzdm.com/p/ag82l33d/)
+[积木笔记 篇五：国产积木零件与乐高有多大差距？乐高、高砖、双鹰、小米零件积木零件对比评测*值客原创*什么值得买](https://post.smzdm.com/p/ar0v3d9q/)
+[积木笔记 篇六：积木入坑指南（三）玩积木的工具和书籍*值客原创*什么值得买](https://post.smzdm.com/p/a3gvkrz7/)
 
 Many Chinese company pirates LEGO designs, so called "复刻"
 
@@ -825,8 +978,8 @@ Good, with original sets:
 
 Mostly pirates LEGO:
 **森业/森宝/SY 品牌/S 牌 博乐/BELA [将牌/LELE](https://shop114604936.taobao.com/)** color issue
-**得高/DECOOL** pirates LEGO Technic, Super Heroes series, medium quality
-樂拼/Lepin follows LEGO tightly, "乐拼，和乐高拼了", medium quality
+得高/DECOOL pirates LEGO Technic, Super Heroes series, medium quality
+樂拼/Lepin follows LEGO tightly, "乐拼，和乐高拼了", medium quality, JQK 都是乐拼 砖不如将 公差大一点 底板翘 但是分包 印刷件好看 透明件干净一点
 益乐
 
 Original sets:
@@ -853,20 +1006,56 @@ Black list:
 
 ## Owned
 
-[巡洋舰越野车（Extreme Cruiser）（乐高 LEGO 8081、得高 DECOOL 3341、得高 DECOOL 3340） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/25/Extreme-Cruiser)
+[兼容乐高积木机械科技零配散件齿轮小颗粒拼插称斤玩具男孩益智车-淘宝网](https://item.taobao.com/item.htm?id=558509028014) 【土豪版】[散件包] ¥173.97
+
+[巡洋舰越野车（Extreme Cruiser）（乐高 LEGO 8081、得高 DECOOL 3341、得高 DECOOL 3340） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/25/Extreme-Cruiser) ¥70.3@2018-08
 [国产乐高式积木拼装 篇二：巡洋舰越野车（得高出品） by 记录生活点滴 | Brick4.com - 最实用的国产积木索引表](http://brick4.com/link/view/1215)
 
-[遥控积木机器人、战蝎（KAKA）（双鹰 DoubleE/咔搭 CaDA C51027） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/2621/KAKA)
-[遥控积木机器人、钻地车（DADA）（双鹰 DoubleE/咔搭 CaDA C51028） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/2622/DADA)
-[LEGO MOC-6604 Hatchback Type R (Technic 2017) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-6604/Madoca1977/hatchback-type-r/#comments)
+[遥控积木机器人、战蝎（KAKA）（双鹰 DoubleE/咔搭 CaDA C51027） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/2621/KAKA) ¥217.55@2018-08
+[遥控积木机器人、钻地车（DADA）（双鹰 DoubleE/咔搭 CaDA C51028） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/2622/DADA) ¥159.00@2018-08
+[移动起重机（Mobile Crane）（双鹰 DoubleE/咔搭 CaDA C51013） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/1279/Mobile-Crane) ¥126.42@2018-09
 
-[掀背式赛车 Type R（Hatchback Type R）（乐拼 LEPIN 20053、乐拼 LEPIN 20053B） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/496/Hatchback-Type-R) with B for blue/white
+[掀背式赛车 Type R（Hatchback Type R）（乐拼 LEPIN 20053、乐拼 LEPIN 20053B） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/496/Hatchback-Type-R) ¥217.6@2018-08 with B for blue/white
+[LEGO MOC-6604 Hatchback Type R (Technic 2017) | Rebrickable - Build with LEGO](https://rebrickable.com/mocs/MOC-6604/Madoca1977/hatchback-type-r/#comments)
 [【视频】乐拼小钢炮拼装完成，分享几个小技巧【国产积木吧】\_百度贴吧](https://tieba.baidu.com/p/5619695717?red_tag=1634642039)
 [LEGO Technic Hatchback Type R with SBrick - YouTube](https://www.youtube.com/watch?v=NvHmCMvDl68)
 [Hatchback Type R - Google Photos](https://photos.google.com/share/AF1QipOnTLr5ajAJi1nhJPsxla0rzyuN_3icMBgdi-9YhNFaZCyniL33zBfHRTFOrMgWeA?key=V1dCMnhRVDBHWmRCS3dsYVBub1R2SFJ0NG4xQzl3)
 
-[黑色亡命赛车（Getaway Racer）（乐高 LEGO 42046、得高 DECOOL 3417） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/60/Getaway-Racer)
-[方头仔：战神金刚：宇宙的保护神（Defender of the Universe）（得高 DECOOL 18002） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/7453/Defender-of-the-Universe)
+[黑色亡命赛车（Getaway Racer）（乐高 LEGO 42046、得高 DECOOL 3417） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/60/Getaway-Racer) ¥25.8@2018-10
+[方头仔：战神金刚：宇宙的保护神（Defender of the Universe）（得高 DECOOL 18002） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/7453/Defender-of-the-Universe) ¥35.5@2018-10
+
+[宝可梦：皮卡丘款巴士（Pokemon）（Keeppley K20206） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/15403/Pokemon) ¥32@2021-11
+
+6796-6799 ¥61.7@2018-10
+LEGO 75887 (S 牌 6799) Mercedes-AMG GT3
+LEGO 75878 (S 牌 6798) Bugatti Chiron
+LEGO 75879 (S 牌 6796) Scuderia Ferrari SF16-H
+LEGO 75880 (S 牌 6797) McLaren 720S
+
+6772ABCD ¥61.70@2018-10
+LEGO 75876 (S 牌 6772C) Porsche 919 Hybrid
+LEGO 75881 (S 牌 6772A, 6772B) 2016 Ford GT + 1996 Ford GT40
+LEGO 75912 (S 牌 6772D) Porsche 911 GT
+
+LEGO 75882 (S 牌 6786) Ferrari FXX K and Development Center ¥58.8
+LEGO 75888 (S 牌 6775) Porsche 911 RSR + Porsche 911 Turbo 3.0 ¥42.0
+LEGO 75899 (S 牌 6789) LaFerrari ¥18.90
+
+LEGO 8423 (Bela 10008) World Grand Prix Racing Rivalry (McQueen and Francesco) ¥28.0
+
+[中国风系列：醒狮（筑墨积木 12032） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/12112/) ¥83.4@2019-12
+
+[拼装积木动物仿生造型 鸟叔积木作品黑豹 积木 MOC 拼装 2018 新品-淘宝网](https://item.taobao.com/item.htm?id=568977891711) ¥51@2018-12
+[怪物猎人系列，火龙车，火龙坦克，原创 MOC 积木作品，雄火龙坦克-淘宝网](https://item.taobao.com/item.htm?id=582552037464) ¥72@2018-12
+[怪物猎人积木模型 Q 版雄火龙/苍火龙 原创 MOC 作品 乐享鸟叔积木-淘宝网](https://item.taobao.com/item.htm?id=583276193296) ¥42 each@2018-12
+
+[Tensegrity Sculpture – BuildaMOC](https://buildamoc.com/products/tensegrity-sculpture) ¥8.1@2021-01
+
+[插拼玩具男孩玩具拼插益智积木生日礼物拼装玩具 PG1942-PG1949-淘宝网](https://item.taobao.com/item.htm?id=586355047045) 8 人? ¥30@2019-12
+[玩具总动员 SY172 胡迪巴斯光年索克天王翠丝积木人仔儿童玩具单包-淘宝网](https://item.taobao.com/item.htm) 8 人? ¥30@2019-11
+人仔 ~¥3
+恐龙 大~¥10-6 小~¥4
+動物 ~¥3-4
 
 ## Wishlist
 
@@ -877,6 +1066,9 @@ Black list:
 - 8466 4x4 Offroader
 - 8048 Buggy
 - Rock Crawler
+
+[移动起重机 MK II （Mobile Crane MK II）（乐高 LEGO 42009、乐拼 LEPIN 20004、王牌 KING 90004） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/65/Mobile-Crane-MK-II)
+[紧凑式履带起重机（Compact Crawler Crane）（乐高 LEGO 42097） | Brick4.com - 最实用的国产积木索引表](http://brick4.com/set/11109/Compact-Crawler-Crane)
 
 With 米兔积木履带机器人, I should be able to make:
 
@@ -898,5 +1090,3 @@ With 米兔积木履带机器人, I should be able to make:
 [得高 3362 改 Jeep by cdxyz1215 | Brick4.com - 最实用的国产积木索引表](http://brick4.com/link/view/438)
 
 [【图片】《本吧首发》【大家好，我是飞虎】古笛积木生产厂房评测*古笛积木吧*百度贴吧](https://tieba.baidu.com/p/3846706049)
-
----

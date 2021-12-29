@@ -1,12 +1,12 @@
 ---
 title: Userscript
+date: 2015-05-22 11:58:47
 categories:
   - web
-toc: true
-date: 2015-05-22 11:58:47
 tags:
-- tampermonkey
-- greasemonkey
+  - tampermonkey
+  - greasemonkey
+toc: true
 ---
 
 # User Scripts
@@ -18,14 +18,17 @@ Userscripts are scripts that users install in their browser to make on-the-fly c
 
 [Tampermonkey - FAQ](http://tampermonkey.net/faq.php)
 
+[5:55](https://www.youtube.com/watch?v=cIXFhN8DFs0&t=355s) My Novel Reader 小说阅读器
+[6:37](https://www.youtube.com/watch?v=cIXFhN8DFs0&t=397s) JAV 老司机脚本
+[7:08](https://www.youtube.com/watch?v=cIXFhN8DFs0&t=428s) Search by Image 马赛克小图 变高清套图
+[8:05](https://www.youtube.com/watch?v=cIXFhN8DFs0&t=485s) Userscript+ 油猴脚本推荐
+
 ## writing userscript
 
 [Tampermonkey - Documentation](http://tampermonkey.net/documentation.php?ext=dhdg)
 [Script meta keys read by Greasy Fork](https://greasyfork.org/en/help/meta-keys)
 
 [Tutorials - GreaseSpot Wiki](https://wiki.greasespot.net/Tutorials)
-
-[Bypass Wait, Code & Login on Websites](https://greasyfork.org/en/scripts/2600-跳过网站等待-验证码及登录)
 
 ## script repo
 
@@ -35,11 +38,18 @@ Userscripts are scripts that users install in their browser to make on-the-fly c
 [OpenUserJS](https://openuserjs.org/)
 [Userscripts.org: Power-ups for your browser](https://userscripts.org/) [mirror](http://userscripts-mirror.org/)
 [MonkeyGuts Userscripts](https://monkeyguts.com/)
+[油小猴](https://www.baiduyun.wiki/)
+[Sleazy Fork - safe and useful adult user scripts](https://sleazyfork.org/en)
 
 ## installed userscripts
 
-[百度网盘直接下载助手](https://greasyfork.org/en/scripts/23635-百度网盘直接下载助手)
+[网盘直链下载助手](https://www.baiduyun.wiki/)
+
+[破解百度网盘限速 🔴 终极方法 🔴 支持全平台免登录、免安装。跑满你的宽带 - YouTube](https://www.youtube.com/watch?v=ix7JY_QOysU) adds `wp` to domain name
+
 [AdsBypasser](https://adsbypasser.github.io/)
+
+[Userscript+ : Show Site All UserJS](https://greasyfork.org/en/scripts/24508-userscript-show-site-all-userjs)
 
 ---
 

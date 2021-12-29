@@ -2,20 +2,24 @@
 title: "Khronos Group"
 date: 2015-01-05 15:58:27
 categories:
-- comp.lang
+  - comp.lang
 tags:
-- opengl
-- webgl
+  - opengl
+  - webgl
 toc: true
 ---
 
 [Khronos Group 3D Graphics Specs](http://www.wikiwand.com/en/Khronos_Group)
+
 - [OpenGL](http://www.wikiwand.com/en/OpenGL)
 - [OpenGL ES](http://www.wikiwand.com/en/OpenGL_ES) (subset of OpenGL for embedded systems)
 - [WebGL](http://www.wikiwand.com/en/WebGL) (share spec with OpenGL ES)
 
 EGL is an interface between Khronos rendering APIs (such as OpenGL ES or OpenVG) and the underlying native platform windowing system. EGL handles graphics context management, surface/bufferbinding, rendering synchronization, and enables "high-performance, accelerated, mixed-mode 2D and 3Drendering using other Khronos APIs."
 
+## OpenGL
+
+[OpenGL Programming Guide : Table of Contents](http://www.glprogramming.com/red/index.html)
 [OpenGL – Then and Now | Cognitive Waves](https://cognitivewaves.wordpress.com/2015/04/24/opengl-then-and-now/)
 
 ## Shading Languages
@@ -32,8 +36,8 @@ http://www0.cs.ucl.ac.uk/staff/ucacbbl/cigpu2008/slides/shader-vs-cuda.pdf
 
 ## [GPGPU](http://en.wikipedia.org/wiki/GPGPU)
 
-[CUDA](http://en.wikipedia.org/wiki/CUDA) provides an architecture for general-purpose computation in GPU, and is more flexible then shading languages in terms of memory access but lacks some of the graphic specific features. The program is loaded as "kernel" to the GPU without a need for graphic "shell". The host and kenels can communicate and synchronize with each other.
-CUDA sits on top of specific language such as  OpenCL, DirectX, CUDA C. 
+[CUDA](http://en.wikipedia.org/wiki/CUDA) provides an architecture for general-purpose computation in GPU, and is more flexible then shading languages in terms of memory access but lacks some of the graphic specific features. The program is loaded as "kernel" to the GPU without a need for graphic "shell". The host and kernels can communicate and synchronize with each other.
+CUDA sits on top of specific language such as OpenCL, DirectX, CUDA C.
 
 [OpenCL](http://en.wikipedia.org/wiki/OpenCL) is a framework for writing programs that execute across heterogeneous platforms consisting of central processing units (CPUs), graphics processing units (GPUs), digital signal processors (DSPs) and other processors.
 HLSL 5.0 for DirectX 11 is going to add new GPGPU functions like CUDA that also works for AMD's and Intel's GPU.
@@ -55,6 +59,7 @@ All OpenXXX are frameworks and API that require driver implementation by chip ve
 
 [Khronos OpenCL Registry](https://www.khronos.org/registry/OpenCL/)
 [OpenCL 1.2: High-Level Overview by AJ.Gullon | MooCow develop notes](http://kywk.github.io/moco/dev/graphic/opencl_opencl-12-high-level-overview.html)
+[Khronos Announces OpenCL 3.0: Hitting the Reset Button on Compute Frameworks - Print View](https://www.anandtech.com/print/15746/opencl-30-announced-hitting-reset-on-compute-frameworks) reverts to 1.2 API with optional extension
 
 x86 的 OpenCL 要注意的是 memory bus 的速度，因為 GPU 的記憶體和 RAM 的溝通很花時間，所以 x86 版本除了 AMD 的 APU 之外都要特別小心這件事
 
@@ -74,7 +79,7 @@ Mali T604 | Samsung Exynos 5250 | Nexus 10
 **Imageon** (formerly ATI Imageon, now Qualcomm's subsidary)
 https://developer.qualcomm.com/discover/chipsets-and-modems/adreno-gpu
 
-Adreno 305 | Qualcomm MSM8x2x, MSM8x3x, APQ8030 | 
+Adreno 305 | Qualcomm MSM8x2x, MSM8x3x, APQ8030 |
 Adreno 320 | Qualcomm S4 Pro (APQ8064, MSM8960T), S4 Prime | Nexus 4, XiaoMi2, Sony Xperia Z
 
 **Imagination PowerVR**
@@ -93,7 +98,7 @@ Tegra 3 T30L | Tegra 3 T30L | Nexus 7
 
 > see `web-3d.md`
 
-## Vulkan 
+## Vulkan
 
 [Vulkan - Industry Forged](https://www.khronos.org/vulkan/)
 [Vulkan (API) - Wikiwand](https://www.wikiwand.com/en/Vulkan_%28API%29)

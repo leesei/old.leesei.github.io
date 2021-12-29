@@ -2,13 +2,13 @@
 title: "Ruby settings"
 date: 2015-01-13 13:14:43
 categories:
-- comp.lang
+  - comp.lang
 tags:
-- python
-- settings
-- rvm
-- gem
-- package-manager
+  - python
+  - settings
+  - rvm
+  - gem
+  - package-manager
 toc: true
 ---
 
@@ -37,9 +37,9 @@ rvm alias create default ${RUBY_VERSION}
 ## `rvm` basics
 
 ```sh
-rvm list 
+rvm list
 rvm info    # general rvm info
-rvm gemdir  # current gem directory 
+rvm gemdir  # current gem directory
 ```
 
 ## modules

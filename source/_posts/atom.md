@@ -2,11 +2,11 @@
 title: "Atom"
 date: 2015-07-09 00:16:00
 categories:
-- app
+  - app
 tags:
-- atom
-- settings
-- package-manager
+  - atom
+  - settings
+  - package-manager
 toc: true
 ---
 
@@ -34,9 +34,9 @@ toc: true
 
 Terminology:
 
-| SublimeText | Atom        |
-| ----------- | ----------- |
-| Syntax      | Grammar     |
+| SublimeText | Atom    |
+| ----------- | ------- |
+| Syntax      | Grammar |
 
 ## Package Manager
 
@@ -188,6 +188,6 @@ symlink `~/.atom` would be overkill
 
 ### Linter
 
-[linter](https://atom.io/packages/linter)  ([Linters list](http://atomlinter.github.io/))
+[linter](https://atom.io/packages/linter) ([Linters list](http://atomlinter.github.io/))
 
 [Wallaby.js for Atom text editor · Artem Govorov](http://dm.gl/2015/08/31/wallaby-for-atom/)

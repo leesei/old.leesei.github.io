@@ -5,12 +5,24 @@ categories:
 toc: true
 date: 2015-06-21 18:58:50
 tags:
-- apache
-- notes
+  - apache
+  - notes
 ---
 
-[Stupid htaccess Tricks | Perishable Press](https://perishablepress.com/stupid-htaccess-tricks/)
 [Apache 2 Advanced Configuration on Unix-Like Systems - Tuts+ Code Article](http://code.tutsplus.com/articles/apache-2-advanced-configuration-on-unix-like-systems--net-26244)
+
+Apache Web server binary and package is called `httpd`.
+
+## .htaccess
+
+[Stupid htaccess Tricks | Perishable Press](https://perishablepress.com/stupid-htaccess-tricks/)
+[What is .htaccess? - Apache .htaccess Guide, Tutorials & Examples](http://www.htaccess-guide.com/)
+[Adding MIME types - Apache .htaccess Guide, Tutorials & Examples](http://www.htaccess-guide.com/adding-mime-types/)
+
+[Search results for htaccess Tutorials](https://www.hostinger.com/tutorials/?s=htaccess)
+[How do I disable directory listing | Hostinger Help Center](https://support.hostinger.com/en/articles/1583496-how-do-i-disable-directory-listing)
+
+[How to Password Protect Joomla’s Administrator Directory](https://www.ostraining.com/blog/joomla-cms/how-to-password-protect-joomla-s-administrator-directory/)
 
 ## Rewrite
 

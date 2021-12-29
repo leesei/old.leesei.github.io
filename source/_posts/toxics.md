@@ -3,12 +3,12 @@ title: Toxics
 categories:
   - science
 tags:
-  - 
+  -
 toc: true
 date: 2016-10-02 21:47:05
 ---
 
-Paracelsus, a 16th-century alchemist, and physician coined a great phrase: “All things are poison and nothing is without poison; only the dose makes a thing not a poison.” 
+Paracelsus, a 16th-century alchemist, and physician coined a great phrase: “All things are poison and nothing is without poison; only the dose makes a thing not a poison.”
 
 ## Poisons
 

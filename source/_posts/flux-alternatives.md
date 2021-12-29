@@ -3,12 +3,12 @@ title: Flux Alternatives
 toc: true
 date: 2015-12-04 12:12:24
 categories:
-- web
+  - web
 tags:
-- react-js
-- flux
-- javascript
-- web-dev
+  - react-js
+  - flux
+  - javascript
+  - web-dev
 ---
 
 Sometimes React.js alone may serve your need, you don't have to prematurely flux it.
@@ -23,11 +23,14 @@ And there are other strategies besides Flux for architecting your application.
 
 [voronianski/flux-comparison](https://github.com/voronianski/flux-comparison)
 
+[What is the best state container library for React?](https://medium.com/swlh/what-is-the-best-state-container-library-for-react-b6989a45f236)
+
 Gist of a modern data-driven app:
+
 - don’t use fat models
 - unidirectional data flow
-- *SINGLE* source of truth
-- mutate data via a *SINGLE* component
+- _SINGLE_ source of truth
+- mutate data via a _SINGLE_ component
 - data from server is just another input, not your model
 - [CQRS](http://martinfowler.com/bliki/CQRS.html)
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
@@ -81,7 +84,7 @@ Change detection with `Proxy`, a simplified version of what MobX does.
 
 [React.js the simple way — Medium](https://medium.com/@arqex/react-the-simple-way-cabdf1f42f12)
 
-Freezer by Javier Márquez (arqex) provides immutable state and event emitter that can replace Store and Action/Dispatcher. This greatly reduced the boilerplate and make the Flux flow more understandable. Since it is only a immutable state and event emitter, it is extremely flexible. You can adapt it to *your* style.
+Freezer by Javier Márquez (arqex) provides immutable state and event emitter that can replace Store and Action/Dispatcher. This greatly reduced the boilerplate and make the Flux flow more understandable. Since it is only a immutable state and event emitter, it is extremely flexible. You can adapt it to _your_ style.
 
 It is true that the state will change often. However, the immutability allows for optimization with [`PureComponent`](https://facebook.github.io/react/docs/react-api.html#react.purecomponent).
 
@@ -98,24 +101,23 @@ And use the above `componentDidUpdate()` code for monitoring component updates.
 
 ```js
 const AppContainer = React.createClass({
-  componentDidMount () {
-    State.on('update', (obj) => {
+  componentDidMount() {
+    State.on("update", (obj) => {
       this.forceUpdate();
     });
 
-    State.trigger('test:tick', State.get().tick);
+    State.trigger("test:tick", State.get().tick);
   },
 });
 
 // reaction.js or state.js
-State.on('test:tick', (tick) => {
+State.on("test:tick", (tick) => {
   console.log(`tick: ${tick}`);
-  State.get()
-    .set('tick', tick);
+  State.get().set("tick", tick);
 
   // trigger next tick
   tick++;
-  setTimeout(() => State.trigger('test:tick', tick), 1000);
+  setTimeout(() => State.trigger("test:tick", tick), 1000);
 });
 ```
 

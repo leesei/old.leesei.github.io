@@ -20,3 +20,6 @@ date: 2015-12-30 20:45:29
 [The quest to save today’s gaming history from being lost forever | Ars Technica](http://arstechnica.com/gaming/2015/06/the-quest-to-save-todays-gaming-history-from-being-lost-forever/)
 [Over 2,300 MS-DOS games now completely free to play at Internet Archive | Ars Technica](http://arstechnica.com/gaming/2015/01/over-2300-ms-dos-games-now-completely-free-to-play-at-internet-archive/)
 [Internet Archive releases hundreds of classic game console ROMs | Ars Technica](http://arstechnica.com/gaming/2013/12/internet-archive-releases-hundreds-of-classic-game-console-roms/)
+
+[Standing up for developers: youtube-dl is back | The GitHub Blog](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/)
+[dmca/2020-11-16-RIAA-reversal-effletter.pdf at master · github/dmca](https://github.com/github/dmca/blob/master/2020/11/2020-11-16-RIAA-reversal-effletter.pdf)

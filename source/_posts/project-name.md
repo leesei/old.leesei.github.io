@@ -25,3 +25,4 @@ date: 2016-01-21 02:38:25
 [Project Name Generator](http://online-generator.com/name-generator/project-name-generator.php)
 [Codename, codeword or project name: create them all using the generator](http://www.codenamegenerator.com/)
 [CrystalShards/name](http://crystalshards.xyz/name) Name powered by CrystalShards
+[petname — command-line utility in Rust // Lib.rs](https://lib.rs/crates/petname)

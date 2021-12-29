@@ -13,9 +13,11 @@ date: 2016-03-22 10:48:31
 [Lua (programming language) - Wikiwand](https://www.wikiwand.com/en/Lua_(programming_language%29)
 
 [The Programming Language Lua](http://www.lua.org/)
+[Lua: version history](http://www.lua.org/versions.html)
 [Lua: demo](http://www.lua.org/demo.html)
 [Lua: documentation](http://www.lua.org/docs.html)
 [Lua 5.1 Reference Manual](http://www.lua.org/manual/5.1/manual.html)
+[Lua 5.4 Reference Manual](http://www.lua.org/manual/5.4/manual.html)
 
 [Lua (programming language) - Wikiwand](https://www.wikiwand.com/en/Lua_%28programming_language%29)
 [lua-users wiki: Home Page](http://lua-users.org/wiki/)
@@ -24,7 +26,7 @@ date: 2016-03-22 10:48:31
 
 [Lua Short Reference](http://lua-users.org/files/wiki_insecure/users/thomasl/luarefv51single.pdf) (PDF)
 
-[Lua简明教程 | | 酷 壳 - CoolShell](https://coolshell.cn/articles/10739.html)
+[Lua 简明教程 | | 酷 壳 - CoolShell](https://coolshell.cn/articles/10739.html)
 
 [Metalua](http://metalua.luaforge.net/)
 
@@ -36,10 +38,11 @@ date: 2016-03-22 10:48:31
 [Lua: the world's most infuriating language](http://www.slideshare.net/jgrahamc/lua-the-worlds-most-infuriating-language)
 [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/)
 [Learn Lua in 15 minutes | Corona Labs](https://coronalabs.com/learn-lua/)
-[Programming in Lua (1st Edition)](http://www.lua.org/pil/contents.html) for Lua 5.0; 2nd Edition for 5.1; 3rd Edition for 5.2
+[Programming in Lua (1st Edition)](http://www.lua.org/pil/contents.html) for Lua 5.0; 2nd Edition for 5.1; 3rd Edition for 5.2；4th Edition for 5.3
 
 [LewisJEllis/awesome-lua: A curated list of quality Lua packages and resources.](https://github.com/LewisJEllis/awesome-lua)
 [mysandbox/lua at master · arch-jslin/mysandbox](https://github.com/arch-jslin/mysandbox/tree/master/lua)
+[pkulchenko/ZeroBraneEduPack: A collection of simple lessons, scripts, and demos in Lua, suitable for learning programming concepts.](https://github.com/pkulchenko/ZeroBraneEduPack)
 
 [Intro to Programming in Lua - YouTube](https://www.youtube.com/playlist?list=PLz-rYTT-2nIvtosMFa-OVURa5J9fAgtNU)
 [Learning Lua - YouTube](https://www.youtube.com/playlist?list=PLxgtJR7f0RBKGid7F2dfv7qc-xWwSee2O)
@@ -64,7 +67,6 @@ LuaJIT is faster then v8. However it conforms only to [Lua 5.1](http://www.lua.o
 [The LuaJIT Project](http://luajit.org/)
 [mkottman/AndroLua](https://github.com/mkottman/AndroLua)
 [luapower - The LuaJIT distribution for Windows, Linux and OS X](https://luapower.com/)
-[malkia/ufo: Portable distribution of LuaJIT with precompiled binaries, libraries and FFI bindings](https://github.com/malkia/ufo)
 
 [bobsayshilol/luajit-decomp: LuaJIT decompiler](https://github.com/bobsayshilol/luajit-decomp)
 
@@ -78,29 +80,29 @@ LuaJIT is faster then v8. However it conforms only to [Lua 5.1](http://www.lua.o
 
 ### Overview of Differences & Highlights
 
-* Whitespace sensitive blocks defined by indenting
-* All variable declarations are local by default
-* `export` keyword to declare global variables, `import` keyword to make local
-copies of values from a table
-* Parentheses are optional for function calls, similar to Ruby
-* Fat arrow, `=>`, can be used to create a function with a self argument
-* `@` can be prefixed in front of a name to refer to that name in `self`
-* `!` operator can be used to call a function with no arguments
-* Implicit return on functions based on the type of last statement
-* `:` is used to separate key and value in table literals instead of `=`
-* Newlines can be used as table literal entry delimiters in addition to `,`
-* \\ is used to call a method on an object instead of `:`
-* `+=`, `-=`, `/=`, `*=`, `%=`, `..=` operators
-* `!=` is an alias for `~=`
-* Table comprehensions, with convenient slicing and iterator syntax
-* Lines can be decorated with for loops and if statements at the end of the line
-* If statements can be used as expressions
-* Class system with inheritance based on metatable's `__index` property
-* Constructor arguments can begin with `@` to cause them to automatically be
-assigned to the object
-* Magic `super` function which maps to super class method of same name in a
-class method
-* `with` statement lets you access anonymous object with short syntax
+- Whitespace sensitive blocks defined by indenting
+- All variable declarations are local by default
+- `export` keyword to declare global variables, `import` keyword to make local
+  copies of values from a table
+- Parentheses are optional for function calls, similar to Ruby
+- Fat arrow, `=>`, can be used to create a function with a self argument
+- `@` can be prefixed in front of a name to refer to that name in `self`
+- `!` operator can be used to call a function with no arguments
+- Implicit return on functions based on the type of last statement
+- `:` is used to separate key and value in table literals instead of `=`
+- Newlines can be used as table literal entry delimiters in addition to `,`
+- \\ is used to call a method on an object instead of `:`
+- `+=`, `-=`, `/=`, `*=`, `%=`, `..=` operators
+- `!=` is an alias for `~=`
+- Table comprehensions, with convenient slicing and iterator syntax
+- Lines can be decorated with for loops and if statements at the end of the line
+- If statements can be used as expressions
+- Class system with inheritance based on metatable's `__index` property
+- Constructor arguments can begin with `@` to cause them to automatically be
+  assigned to the object
+- Magic `super` function which maps to super class method of same name in a
+  class method
+- `with` statement lets you access anonymous object with short syntax
 
 [An in-depth look into the MoonScript class implementation](http://leafo.net/guides/moonscript-classes.html)
 
@@ -111,7 +113,7 @@ class method
 
 ## Tools
 
-> how to create executables (without lua dependency)? 
+> how to create executables (without lua dependency)?
 > Luarock's build system (rockspec)?
 
 [amalg.lua](http://siffiejoe.github.io/lua-amalg/) dependency bundler
@@ -129,7 +131,7 @@ example of distributed Lua tools, srlua
 
 Lua itself is designed to be an "embedded language". Embedding the Lua Runtime to a C program is one of it's use case.
 
-It is used in VLC, Adode Photoshop Lightroom, World of Warcraft, AwesomeWM
+It is used in VLC, Adode Photoshop, Adode Lightroom, World of Warcraft, AwesomeWM
 [A stripped console-only Lua CLI for use with shell scripts - The VideoLAN Forums](https://forum.videolan.org/viewtopic.php?t=124590)
 
 ### Nginx
@@ -141,7 +143,7 @@ Lua + Nginx = magic
 ## Bindings
 
 LuaJIT provides an easy(-er) to use Foreign Function Interface.
-[FFI Tutorial](http://luajit.org/ext_ffi_tutorial.html)
+[FFI Library](http://luajit.org/ext_ffi.html)
 [Introduction to LuaJIT & How to bind CPP code base using LuaJIT FFI // Speaker Deck](https://speakerdeck.com/igdshare/introduction-to-luajit-how-to-bind-cpp-code-base-using-luajit-ffi)
 
 FFI is also backported to Lua.
@@ -167,25 +169,31 @@ LuaRocks is implemented upon Lua's [package](https://www.lua.org/manual/5.3/manu
 
 [Using LuaRocks to install packages in the current directory](http://leafo.net/guides/customizing-the-luarocks-tree.html)
 Rocks are installed to:
+
 - `/usr/share/lua/<version>/` (system rock tree)
 - `~/.luarocks` with `--local`
   Adding LuaRocks' `LUA_PATH` and `LUA_CPATH` to your environment:
+
 ```sh
 eval $(luarocks path --bin)
 lua -e 'print(package.path)'
 lua -e 'print(package.cpath)'
 ```
-  Add this to `~/.luarocks/config.lua` to make this the default:
-  `local_by_default=true`
+
+Add this to `~/.luarocks/config.lua` to make this the default:
+`local_by_default=true`
+
 - custom rock tree with `--tree ./lua_modules` to install to local folder
+
 ```lua
 -- modules_path.lua
 local version = _VERSION:match("%d+%.%d+")
 package.path = 'lua_modules/share/lua/' .. version .. '/?.lua;lua_modules/share/lua/' .. version .. '/?/init.lua' .. package.path
 package.cpath = 'lua_modules/lib/lua/' .. version .. '/?.so' .. package.path
 ```
-  the question mark is used to interpolate the package name
-  mimic `$(luarocks path)`
+
+the question mark is used to interpolate the package name
+mimic `$(luarocks path)`
 
 ### Rocks
 

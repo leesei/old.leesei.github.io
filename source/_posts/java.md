@@ -6,6 +6,7 @@ tags:
   - java
   - groovy
   - clojure
+  - guava
 toc: true
 date: 2016-03-04 12:07:53
 ---
@@ -34,9 +35,9 @@ JAVA_HOME=/usr/local/share/jdk1.8.0_91 java_app
 
 [Not all OpenJDK 12 builds include Shenandoah: Here's why - Red Hat Developer Blog](https://developers.redhat.com/blog/2019/04/19/not-all-openjdk-12-builds-include-shenandoah-heres-why/)
 [Main - Shenandoah - OpenJDK Wiki](https://wiki.openjdk.java.net/display/shenandoah/Main)
+[When Will Java 11 Replace Java 8 as the Default Java? - DZone Java](https://dzone.com/articles/when-will-java-11-replace-java-8-as-the-default-ja)
 
 [JavaPoly.js — Java(script) in the Browser](https://www.javapoly.com/)
-[google/guava](https://github.com/google/guava)
 
 ## Learn
 
@@ -77,12 +78,15 @@ mvn archetype:generate -DgroupId={project-packaging}
    -DinteractiveMode=false
 ```
 
+[Maven Multimodule Project: A Detailed View | by Anish Antony | Javarevisited | Medium](https://medium.com/javarevisited/maven-multimodule-project-a-detailed-view-e03a56e0d43d)
+
 ## Server
 
-[Java roadmap: Eclipse’s Jakarta EE enterprise Java takes shape | InfoWorld](https://www.infoworld.com/article/3269210/java/java-roadmap-eclipses-jakarta-ee-enterprise-java-takes-shape.html)
 [15 Java frameworks that give developers a boost | InfoWorld](https://www.infoworld.com/article/3263767/java/15-java-frameworks-that-give-developers-a-boost.html)
 
 [Project Grizzly](https://grizzly.java.net/)
+[Java SE 8: Creating a Basic REST Web Service using Grizzly, Jersey, and Maven](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/griz_jersey_intro/Grizzly-Jersey-Intro.html)
+
 [GlassFish Server](https://glassfish.java.net/)
 [DUBBO](http://dubbo.io/)
 
@@ -93,6 +97,14 @@ mvn archetype:generate -DgroupId={project-packaging}
 [Blade](https://lets-blade.com/)
 [lets-blade/blade: Lightning fast and elegant mvc framework for Java8](https://github.com/lets-blade/blade)
 
+### Jakarta EE
+
+[Java Platform, Enterprise Edition - Wikiwand](https://www.wikiwand.com/en/Java_Platform,_Enterprise_Edition) Java EE is rebranded as Jarkarta EE
+
+[Jakarta EE: Generation IV — A New Hope - DZone Java](https://dzone.com/articles/jakarta-ee-generation-iv-a-new-hope)
+[Java roadmap: Eclipse’s Jakarta EE enterprise Java takes shape | InfoWorld](https://www.infoworld.com/article/3269210/java/java-roadmap-eclipses-jakarta-ee-enterprise-java-takes-shape.html)
+[What's New With Jakarta NoSQL? (Part 1): Intro to Document With MongoDB - DZone Database](https://dzone.com/articles/whats-new-with-jakarta-nosql-part-i-introduction-t)
+
 ## Internals
 
 [JVM Optimization 101](http://www.infoq.com/presentations/jvm-optimization)
@@ -102,21 +114,20 @@ mvn archetype:generate -DgroupId={project-packaging}
 [JVM Primer Part 2 - Debugging memory issues](https://dev.to/rrampage/jvm-primer-part-2---debugging-performance-issues-1od)
 [How to Read a Thread Dump - DZone Java](https://dzone.com/articles/how-to-read-a-thread-dump)
 
-## Object Serialization
-
-[Java Object Serialization Specification: Contents](https://docs.oracle.com/javase/8/docs/platform/serialization/spec/serialTOC.html)
-[java.io](https://www.npmjs.com/package/java.io) A node implementation
-[jdeserialize](https://code.google.com/archive/p/jdeserialize/)
-
-[The Java serialization algorithm revealed | JavaWorld](http://www.javaworld.com/article/2072752/the-java-serialization-algorithm-revealed.html)
-[5 things you didn't know about ... Java Object Serialization](http://www.ibm.com/developerworks/library/j-5things1/)
-[Serialization and Deserialization in Java example using Serializable Interface | CodinGeek](http://www.codingeek.com/java/io/object-streams-serialization-deserialization-java-example-serializable-interface/) `transient` field will not be serialized
-
 ## Libraries
 
 [Comsat - Parallel Universe](http://www.paralleluniverse.co/comsat/) transparent concurrency for maximal
 http service scalability
 [Quasar - Parallel Universe](http://www.paralleluniverse.co/quasar/) lightweight threads and actors for the JVM, Kotlin compatible
+
+### Guava
+
+[google/guava: Google core libraries for Java](https://github.com/google/guava)
+[Home · google/guava Wiki](https://github.com/google/guava/wiki)
+[Overview (Guava: Google Core Libraries for Java HEAD-jre-SNAPSHOT API)](https://guava.dev/releases/snapshot-jre/api/docs/)
+
+[Guava | Baeldung](https://www.baeldung.com/category/guava/)
+[Thomas Ferris Nicolaisen - Google Guava](https://www.tfnico.com/presentations/google-guava)
 
 ---
 
@@ -136,11 +147,25 @@ JRuby history and compile to JVM in general. The project leads to the introducti
 
 ## GraalVM
 
-[GraalVM](https://www.graalvm.org/) Polyglot VM
+[GraalVM](https://www.graalvm.org/) ahead-of-time VM for compiled _polyglot_ binaries
 [Oracle's Graal project empowers language creation on the JVM | InfoWorld](https://www.infoworld.com/article/2688340/application-development/oracles-graal-project-empowers-language-creation-on-the-jvm.html)
+[GraalVM with Thomas Wuerthinger - Software Engineering Daily](https://softwareengineeringdaily.com/2018/08/03/graalvm-with-thomas-wuerthinger/)
+
+[Thomas Wuerthinger on GraalVM and Optimizing Java with Ahead-of-Time Compilation](https://www.infoq.com/podcasts/graalvm-optimizing-java/)
+[Maximizing Performance with GraalVM](https://www.infoq.com/presentations/graalvm-performance/)
 
 [Quarkus - Supersonic Subatomic Java](https://quarkus.io/)
 [Introducing Quarkus: a next-generation Kubernetes native Java framework - Red Hat Developer Blog](https://developers.redhat.com/blog/2019/03/07/quarkus-next-generation-kubernetes-native-java-framework/)
+[Quarkus beginners guide! - JAX London](https://jaxlondon.com/quarkus-beginners-guide-cheat-sheet/)
+[GraalVM Quarkus: Java Acceleration with Guillaume Smet and Emmanuel Bernard - Software Engineering Daily](https://softwareengineeringdaily.com/2019/11/14/graalvm-quarkus-java-acceleration-with-guillaume-smet-and-emmanuel-bernard/)
+[Microservices: Quarkus vs. Spring Boot - DZone Microservices](https://dzone.com/articles/microservices-quarkus-vs-spring-boot)
+
+## RoboVM
+
+[The Death of RoboVM | Linux Journal](https://www.linuxjournal.com/content/death-robovm) RoboVM was dead after Xamarin has been acquired by Microsoft
+
+[MobiDevelop's RoboVM Fork](http://robovm.mobidevelop.com/)
+[MobiVM/robovm: Ahead of time compiler for JVM bytecode targetting iOS, Mac OSX and Linux](https://github.com/MobiVM/robovm)
 
 # Derivatives
 
@@ -189,12 +214,12 @@ It utilizes invoke dynamic runtime on JVM 7+, Groovy 3 is expected to drop legac
 
 [The Groovy programming language - Learn](http://groovy-lang.org/learn.html)
 [The Groovy programming language - Documentation](http://groovy-lang.org/documentation.html)
-[Groovy web console - Recent scripts](http://groovyconsole.appspot.com/scripts)
 
 [Cédric Champeau's blog](http://melix.github.io/blog/) Blog of ex-Groovy contributor
 
 [The Grails Framework](https://grails.org/) A powerful Groovy-based web application framework for the JVM
 
+[Groovy 3.0 Adds New Java-Like Features](https://www.infoq.com/articles/groovy-3-new-features-java/)
 [5 reasons why Groovy programming language is still a valid choice in late 2018 | Codementor](https://www.codementor.io/szymonstpniak/5-reasons-groovy-programming-language-is-still-a-valid-choice-in-late-2018-npogilod3)
 
 ### Compiling Groovy
@@ -226,6 +251,8 @@ jar cvf myclasses.jar -C classes .
 [Google Closure · clojure/clojurescript Wiki](https://github.com/clojure/clojurescript/wiki/Google-Closure)
 [What Holds Me Back From Clojurescript | Jared Forsyth.com](https://jaredforsyth.com/2015/11/26/What-holds-me-back-from-Clojurescript/)
 [Courses with Free Content | PurelyFunctional.tv](https://purelyfunctional.tv/free-content/)
+
+[Pedestal](http://pedestal.io/)
 
 ## Eta
 

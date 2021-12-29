@@ -2,15 +2,15 @@
 title: "Regular expression"
 date: 2015-02-26 17:55:43
 categories:
-- comp.lang
+  - comp.lang
 tags:
-- formal-language
-- regex
-- javascript
-- python
-- ruby
-- perl
-- notes
+  - formal-language
+  - regex
+  - javascript
+  - python
+  - ruby
+  - perl
+  - notes
 toc: true
 ---
 
@@ -18,21 +18,29 @@ toc: true
 
 [The true power of regular expressions](https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html)
 
+[The Regular Expression Edition - by Guest Contributor - Why is this interesting?](https://whyisthisinteresting.substack.com/p/the-regular-expression-edition) history
+
 <!-- more -->
 
 ## Learning
 
 [Learn regular expressions in about 55 minutes](http://qntm.org/files/re/re.html)
+[Regex Learn - Step by step, from zero to advanced.](https://regexlearn.com/)
 [Regex Tutorial—From Regex 101 to Advanced Regex](http://www.rexegg.com/)
 [RegexOne - Learn Regular Expressions](http://regexone.com/)
 [Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns](http://www.regular-expressions.info/)
 [Tech Stuff - Regular Expressions - A Gentle User Guide and Tutorial](http://zytrax.com/tech/web/regex.htm)
 [zeeshanu/learn-regex: Learn regex the easy way](https://github.com/zeeshanu/learn-regex)
 [Learn Regular Expressions in 20 Minutes | Tutorialzine](http://tutorialzine.com/2014/12/learn-regular-expressions-in-20-minutes/)
+[RegexLearn And Other RegEx Resources](https://www.i-programmer.info/news/90-tools/15067-regexlearn-and-other-regex-resources.html)
 
 [Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions - YouTube](https://www.youtube.com/watch?v=EkluES9Rvak)
 
 [VerbalExpressions ♥ Open Source](http://verbalexpressions.github.io/)
+
+`[^abc]`, which is character by character not a or b or c,
+or negative lookahead: `a(?!b)`, which is a not followed by b
+or negative lookbehind: `(?<!a)b`, which is b not proceeded by a
 
 ## Visualizer
 
@@ -42,6 +50,8 @@ Use these visualizers to help you understand the regexes.
 
 [Regulex：JavaScript Regular Expression Visualizer.](http://jex.im/regulex/)
 [Regexper](http://www.regexper.com/) (JavaScript)
+[Regex for playground - IHateRegex](https://ihateregex.io/playground/)
+[RegExp playground](http://projects.verou.me/regexplained/)
 
 [txt2re: headache relief for programmers :: regular expression generator](http://txt2re.com/)
 
@@ -50,12 +60,14 @@ Use these visualizers to help you understand the regexes.
 These highlight matches in input test string.
 
 [Online regex tester and debugger: JavaScript, Python, PHP, and PCRE](https://regex101.com/) (with explanation)
+[RegExr: Learn, Build, & Test RegEx](https://regexr.com/) (JavaScript, PCRE) (with explanation)
 [RegExr: Learn, Build, & Test RegEx](http://www.regexr.com/) (JavaScript)
 [Regex Builder](http://ysmood.github.io/regex-builder/) (JavaScript)
 [Regex Tester - Javascript, PCRE, PHP](http://www.regexpal.com/)
 [RegExp playground](http://leaverou.github.io/regexplained/) (JavaScript)
 [ReFiddle](http://refiddle.com/) (JavaScript, Ruby, .Net)
 [Python Regex Tool](http://www.pythonregex.com/)
+[Rego - A Go regular expression tester](https://regoio.herokuapp.com/)
 [Rubular: a Ruby regular expression editor and tester](http://rubular.com/)
 
 ## #perfmatters
@@ -89,6 +101,8 @@ I think Perl's regex is the most expressive and portable (via wide support of Pe
 [PCRE - Perl Compatible Regular Expressions](https://pcre.org/)
 [PCRE Regular Expression Cheatsheet - Debuggex](https://www.debuggex.com/cheatsheet/regex/pcre)
 
+[google/re2: RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.](https://github.com/google/re2)
+
 `grep` support PCRE with `-P` option.
 
 ```sh
@@ -107,11 +121,24 @@ man 1 perlre
 echo "123\n456" | perl -n -e '/[15](\d+)/ && print "$1\n"'
 ```
 
+## RE2
+
+[Implementing Regular Expressions](http://swtch.com/~rsc/regexp/)
+[google/re2: RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.](https://github.com/google/re2)
+[Syntax · google/re2 Wiki](https://github.com/google/re2/wiki/Syntax)
+
+[Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+[Regular Expression Matching: the Virtual Machine Approach](https://swtch.com/~rsc/regexp/regexp2.html)
+[Regular Expression Matching in the Wild](https://swtch.com/~rsc/regexp/regexp3.html)
+there are no regular expressions that are pathological for the Thompson NFA implementation (used in Go)
+
 ## JavaScript
 
 JavaScript's Regex does not have look behind and named captures. Use [XRegExp](http://xregexp.com/) if you need them.
-> [Upcoming Regular Expression Features  |  Web  |  Google Developers](https://developers.google.com/web/updates/2017/07/upcoming-regexp-features) Chrome begin to support these features in 2018
 
+> [Upcoming Regular Expression Features | Web | Google Developers](https://developers.google.com/web/updates/2017/07/upcoming-regexp-features) Chrome begin to support these features in 2018
+
+[Cover - JavaScript RegExp](https://learnbyexample.github.io/learn_js_regexp/)
 [JavaScript Regular Expression Cheatsheet - Debuggex](https://www.debuggex.com/cheatsheet/regex/javascript)
 
 [JavaScript: an overview of the regular expression API](http://www.2ality.com/2011/04/javascript-overview-of-regular.html)
@@ -128,19 +155,31 @@ JavaScript's Regex does not have look behind and named captures. Use [XRegExp](h
 ## Python
 
 [Python Regular Expression Cheatsheet - Debuggex](https://www.debuggex.com/cheatsheet/regex/python)
+[The Ultimate Guide to using the Python regex module](https://towardsdatascience.com/the-ultimate-guide-to-using-the-python-regex-module-69aad9e9ba56)
+[Cover - Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/)
+
+[Python regex: How to use Python regular expressions | InfoWorld](https://www.infoworld.com/article/3608409/unleash-the-power-of-python-regular-expressions.html)
 
 [Regular Expression HOWTO — Python documentation](https://docs.python.org/3/howto/regex.html)
 [6.2. re — Regular expression operations — Python documentation](https://docs.python.org/3/library/re.html)
 [Python Regular Expressions - Google for Education — Google Developers](https://developers.google.com/edu/python/regular-expressions)
 
+[Regular Expressions: Regexes in Python (Part 1) – Real Python](https://realpython.com/regex-python/)
+[Regular Expressions: Regexes in Python (Part 2) – Real Python](https://realpython.com/regex-python-part-2/)
+
 [python - Named regular expression group "(?P<group_name>regexp)": what does "P" stand for? - Stack Overflow](http://stackoverflow.com/questions/10059673/named-regular-expression-group-pgroup-nameregexp-what-does-p-stand-for)
 
 [Kodos - The Python Regex Debugger](http://kodos.sourceforge.net/)
 [Google Code Archive - kiki-re](https://code.google.com/archive/p/kiki-re/)
+[Pythex: a Python regular expression editor](https://pythex.org/)
 
-## Ruby
+## Go
 
+[regexp package - regexp - pkg.go.dev](https://pkg.go.dev/regexp)
 
-## Other resources
+[golang's regexp and re2](https://groups.google.com/g/golang-nuts/c/r0_0S4tLshE)
+[Regexp tutorial and cheat sheet · YourBasic Go](https://yourbasic.org/golang/regexp-cheat-sheet/)
 
-[Implementing Regular Expressions](http://swtch.com/~rsc/regexp/)
+[oriser/regroup: Match regex group into go struct using struct tags and automatic parsing](https://github.com/oriser/regroup)
+
+[Find all named match groups and return as a map keyed by the group name](https://gist.github.com/eculver/d1338aa87e87890e05d4f61ed0a33d6e) like Python's `match.groupdict()`

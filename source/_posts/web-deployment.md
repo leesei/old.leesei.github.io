@@ -28,13 +28,10 @@ date: 2016-02-05 13:42:41
 [Caddy - The HTTP/2 Web Server with Automatic HTTPS](https://caddyserver.com/)
 
 [Fenix Web Server | Static Web Servers for the Desktop](https://fenixwebserver.com/)
-[live-server - npm](https://www.npmjs.com/package/live-server)
+[txchen/light-server: A lightweight cli static http server and it can watch files, execute commands and trigger livereload](https://github.com/txchen/light-server)
+[Live-server | A simple development http server with live reload capability.](http://tapiov.net/live-server/)
 
 [TinyWeb Server on Windows](https://ccm.net/faq/2568-tinyweb-server-on-windows)
-
-## Firewall Transversal
-
-[ngrok - secure introspectable tunnels to localhost](https://ngrok.com/)
 
 ## Benchmarking
 
@@ -50,9 +47,6 @@ Use `ab -k` (keepalive) to avoid testing connections (kernel responsibility)
 
 [k6.io - Performance testing for developers, like unit-testing, for performance](https://k6.io/)
 
-[Stresstests with Gatling by Niko Köbler - YouTube](https://www.youtube.com/watch?v=gOZvtBYzIVc)
-[Stéphane Landelle - Load Testing Done Right with Gatling - YouTube](https://www.youtube.com/watch?v=VUPTaPms210)
-
 [Siege Home](https://www.joedog.org/siege-home/)
 
 [Locust - A modern load testing framework](https://locust.io/) in Python
@@ -65,9 +59,13 @@ Use `ab -k` (keepalive) to avoid testing connections (kernel responsibility)
 
 ### Gatling
 
-[Gatling Project, Stress Tool](http://gatling.io/#/)
-[Gatling Load and Performance testing - Open-source load and performance testing](https://gatling.io/docs/current/)
+[Gatling Open-Source Load Testing - For DevOps and CI/CD](https://gatling.io/)
+[Gatling - Reference](https://gatling.io/docs/gatling/reference/current/)
 [52-technologies-in-2016/10-gatling](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/10-gatling/README.md)
+[Load Testing APIs and Websites with Gatling: It’s Never Too Late to Get Started](https://www.infoq.com/articles/load-testing-apis-gatling/)
+
+[Stresstests with Gatling by Niko Köbler - YouTube](https://www.youtube.com/watch?v=gOZvtBYzIVc)
+[Stéphane Landelle - Load Testing Done Right with Gatling - YouTube](https://www.youtube.com/watch?v=VUPTaPms210)
 
 ```scala
 import io.gatling.core.Predef._
@@ -95,6 +93,16 @@ class ParameterizedSimulation extends Simulation {
 ```sh
 ./gatling.sh -s <class> -on <result-basename> -rd <description>
 ```
+
+### OpenReplay
+
+[OpenReplay | Open-Source Session Replay](https://openreplay.com/)
+[openreplay/openreplay: OpenReplay is developer-friendly, open-source session replay.](https://github.com/openreplay/openreplay)
+
+## Large Deployments
+
+[Discord Backend Architecture Discussion - YouTube](https://www.youtube.com/watch?v=S3tLp_eKjbk)
+[How Twitch Live Streaming and Chat works through HTTP - Devtooling Twitch - YouTube](https://www.youtube.com/watch?v=X7AQ_f-ki3s)
 
 ## Storage
 

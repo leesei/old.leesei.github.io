@@ -29,6 +29,7 @@ bin/kaitai-struct-compiler -no-version-check
 ```
 
 Root level keys:
+
 - meta
 - seq
 - enums
@@ -55,24 +56,50 @@ Root level keys:
 ### Point Cloud
 
 [The PCD (Point Cloud Data) file format - Point Cloud Library (PCL)](http://pointclouds.org/documentation/tutorials/pcd_file_format.php)
-[PLY (file format) - Wikiwand](https://www.wikiwand.com/en/PLY_(file_format%29)
+[PLY (file format) - Wikiwand](<https://www.wikiwand.com/en/PLY_(file_format)>)
 [Wavefront .obj file - Wikiwand](https://www.wikiwand.com/en/Wavefront_.obj_file)
-[STL (file format) - Wikiwand](https://www.wikiwand.com/en/STL_(file_format%29)
+[Point Cloud XYZ (POINTCLOUDXYZ) Reader/Writer](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/pointcloudxyz/pointcloudxyz.htm)
+[STL (file format) - Wikiwand](https://www.wikiwand.com/en/STL_%28file_format%29)
 
-[3d - Can I generate Point Cloud from mesh? - Stack Overflow](https://stackoverflow.com/questions/27224934/can-i-generate-point-cloud-from-mesh)
+[glTF - Wikiwand](https://www.wikiwand.com/en/GlTF)
+[glTF Overview - The Khronos Group Inc](https://www.khronos.org/gltf/)
 
-[Point Cloud to Mesh · GitBook](http://fabacademy.org/2018/docs/FabAcademy-Tutorials/week5_3dscanning_and_printing/point_cloud_mesh.html)
+## PDF
+
+[PDF - Wikiwand](https://www.wikiwand.com/en/PDF)
+[PostScript - Wikiwand](https://www.wikiwand.com/en/PostScript)
+[c++ - PDF specifications for coders: Adobe or ISO? - Stack Overflow](https://stackoverflow.com/questions/14111831/pdf-specifications-for-coders-adobe-or-iso)
+[PDF File Format - What is a PDF file?](https://docs.fileformat.com/pdf/)
+[PDF file format: Basic structure [updated 2020] - Infosec Resources](https://resources.infosecinstitute.com/topic/pdf-file-format-basic-structure/)
+[PDF Specification Index – PDF Association](https://www.pdfa.org/resource/pdf-specification-index/)
+[Glossary of PDF terms – PDF Association](https://www.pdfa.org/glossary-of-pdf-terms/)
+[PDF 32000-1:2008](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf) 1.7 2008
+[PDF Reference, version 1.7](https://ghostscript.com/~robin/pdf_reference17.pdf) 1.7 2006
+[PDF Reference, Third Edition](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/pdf_reference_archives/PDFReference.pdf) 1.4 2001
+
+[Best tool for inspecting PDF files? - Stack Overflow](https://stackoverflow.com/questions/3549541/best-tool-for-inspecting-pdf-files)
+
+[PDF Tools | Didier Stevens](https://blog.didierstevens.com/programs/pdf-tools/)
+[Quickpost: About the Physical and Logical Structure of PDF Files | Didier Stevens](https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/)
+
+[QPDF: A Content-Preserving PDF Transformation System](http://qpdf.sourceforge.net/)
+
+[pdfminer/pdfminer.six: Community maintained fork of pdfminer - we fathom PDF](https://github.com/pdfminer/pdfminer.six)
+
+[dzzie/pdfstreamdumper: research tool for the analysis of malicious pdf documents. make sure to run the installer first to get all of the 3rd party dlls installed correctly.](https://github.com/dzzie/pdfstreamdumper) Windows App
+
+---
 
 ## Python
 
-[7.1. struct — Interpret bytes as packed binary data — Python 3 documentation](https://docs.python.org/3/library/struct.html)
+[7.1. struct — Interpret bytes as packed binary data — Python documentation](https://docs.python.org/3/library/struct.html)
 
 [Working with Binary Data in Python | DevDungeon](https://www.devdungeon.com/content/working-binary-data-python)
 
-[4. int.from_bytes — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#int.from_bytes)
-[4. int.to_bytes — Python 3 documentation](https://docs.python.org/3/library/stdtypes.html#int.to_bytes)
+[4. int.from_bytes — Python documentation](https://docs.python.org/3/library/stdtypes.html#int.from_bytes)
+[4. int.to_bytes — Python documentation](https://docs.python.org/3/library/stdtypes.html#int.to_bytes)
 
-[7.1. struct — Interpret bytes as packed binary data — Python 3 documentation](https://docs.python.org/3/library/struct.html)
+[7.1. struct — Interpret bytes as packed binary data — Python documentation](https://docs.python.org/3/library/struct.html)
 
 [Construct — Construct documentation](https://construct.readthedocs.io/en/latest/)
 

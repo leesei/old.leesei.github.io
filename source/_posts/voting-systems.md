@@ -23,8 +23,8 @@ tags:
 {% youtube orybDrUj4vA %}
 
 [Politics in the Animal Kingdom — CGP Grey](http://www.cgpgrey.com/politics-in-the-animal-kingdom/)
-
 [Election Basics: Crash Course Government and Politics #36 - YouTube](https://www.youtube.com/watch?v=48EZKXweGDo)
+[投票公平合理吗？为什么没有绝对的公平？阿罗不可能定理 - YouTube](https://www.youtube.com/watch?v=9Oisrp99L14)
 
 [Ten Ideas to Make Politics Less Rotten - Freakonomics Freakonomics](http://freakonomics.com/podcast/idea-must-die-election-edition/)
 
@@ -159,10 +159,16 @@ measure _misrepresentation error_, the difference of percentage points between w
 [The Trouble with the Electoral College - YouTube](https://www.youtube.com/watch?v=7wC42HgLA4k)
 {% youtube 7wC42HgLA4k %}
 
+[The Sneaky Plan to Subvert the Electoral College for the Next Election - YouTube](https://www.youtube.com/watch?v=tUX-frlNBJY)
+
+[Supreme Court Rules on Faithless Electors in the Electoral College - YouTube](https://www.youtube.com/watch?v=COmW6r23zas)
+
 [The Trouble with the Electoral College — CGP Grey](http://www.cgpgrey.com/blog/the-trouble-with-the-electoral-college.html)
 
 [What If the Electoral College is Tied? - YouTube](https://www.youtube.com/watch?v=sHEDXzOfENI)
 {% youtube sHEDXzOfENI %}
+
+[Why it’s mathematically impossible to share fair - YouTube](https://www.youtube.com/watch?v=GVhFBujPlVo) rounding issue
 
 ## Primary Election
 

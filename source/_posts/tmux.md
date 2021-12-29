@@ -2,11 +2,11 @@
 title: "Tmux"
 date: 2014-12-11 17:59:04
 categories:
-- app
+  - app
 tags:
-- shell-tool
-- tmux
-- tmuxifier
+  - shell-tool
+  - tmux
+  - tmuxifier
 toc: true
 ---
 
@@ -16,22 +16,25 @@ toc: true
 [tmux-plugins/tpm: Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
 
 [Terminal Multiplexers: Screen, Tmux - Hyperpolyglot](http://hyperpolyglot.org/multiplexers)
-[A Gentle Introduction to tmux – Hacker Noon](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
+[A Gentle Introduction to tmux. What is tmux? | by Alek Shnayder | HackerNoon.com | Medium](https://medium.com/hackernoon/a-gentle-introduction-to-tmux-8d784c404340)
 [A minimalist guide to tmux – Actualize – Medium](https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa)
 [tmux-plugins/tmux-sensible: basic tmux settings everyone can agree on](https://github.com/tmux-plugins/tmux-sensible)
+[jabirali/tmux-tilish: Plugin which makes tmux work and feel like i3wm](https://github.com/jabirali/tmux-tilish)
+
+[aaronjanse/3mux: Terminal multiplexer inspired by i3](https://github.com/aaronjanse/3mux)
 
 <!-- more -->
 
 ## Troubleshooting
 
-### tmux not loading bashrc 
+### tmux not loading bashrc
 
 tmux includes `.bash_profile`/`.profile` but not `.bashrc`
 
 You can add this line to `.bash_profile`/`.profile`:
 
 ```sh
-$echo case $- in *i*) . ~/.bashrc;; esac >> .bash_profile 
+$echo case $- in *i*) . ~/.bashrc;; esac >> .bash_profile
 ```
 
 ## reference

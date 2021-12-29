@@ -3,10 +3,10 @@ title: Angular
 categories:
   - web
 tags:
-- angular
-- javascript
-- frontend
-- web-dev
+  - angular
+  - javascript
+  - frontend
+  - web-dev
 toc: true
 date: 2016-06-08 18:23:30
 ---
@@ -32,9 +32,14 @@ Ivy is a new backwards-compatible Angular renderer focused on further speed impr
 
 [Tag Archive for "angular2" | Scotch](https://scotch.io/tag/angular2)
 
+[Why are developers still using Angular? - Aphinya Dechalert - Medium](https://medium.com/@PurpleGreenLemon/why-are-developers-still-using-angular-b9ef29d1f97f)
+
 [Angular 2 HTTP Requests with Observables | Scotch](https://scotch.io/tutorials/angular-2-http-requests-with-observables)
 [How to Implement Conditional Validation in Angular 2 Model-driven Forms | Scotch](https://scotch.io/tutorials/how-to-implement-conditional-validation-in-angular-2-model-driven-forms)
 [Debugging Angular 2 Apps with Augury | Scotch](https://scotch.io/tutorials/debugging-angular-2-apps-with-augury)
+
+[Angular 7 Series Part 1: Creating Enterprise-Level Applications](https://medium.com/better-programming/angular-7-series-part-1-create-enterprise-level-application-36c84786fa27)
+[Angular 7 Series Part-2: Creating a Custom Library - Better Programming - Medium](https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc)
 
 [ng-conf 2016 - YouTube](https://www.youtube.com/playlist?list=PLOETEcp3DkCq788xapkP_OU-78jhTf68j)
 

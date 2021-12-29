@@ -27,6 +27,7 @@ date: 2016-05-30 14:06:25
 [CISOfy/lynis: Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.](https://github.com/CISOfy/lynis)
 
 [How ASLR protects Linux systems from buffer overflow attacks | Network World](https://www.networkworld.com/article/3331199/linux/what-does-aslr-do-for-linux.amp.html)
+[Address Space Isolation and the Linux Kernel | Linux Journal](https://www.linuxjournal.com/content/address-space-isolation-and-linux-kernel)
 
 [Reverse Shell Cheat Sheet | pentestmonkey](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 
@@ -54,7 +55,7 @@ http://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf
 [Documentation · Wiki · AppArmor / apparmor · GitLab](https://gitlab.com/apparmor/apparmor/wikis/Documentation)
 [Ubuntu Manpage: AppArmor - kernel enhancement to confine programs to a limited set of resources.](http://manpages.ubuntu.com/manpages/bionic/man7/apparmor.7.html)
 
-[14.4. Introduction to AppArmor](https://debian-handbook.info/browse/stable/sect.apparmor.html)
+[14.4. Introduction to AppArmor](https://debian-handbook.info/browse/stable/sect.apparmor.html)
 
 ```sh
 sudo apt-get install apparmor-profiles apparmor-utils
@@ -67,8 +68,11 @@ sudo aa-enforce /etc/apparmor.d/*
 ## seccomp
 
 [seccomp - Wikiwand](https://www.wikiwand.com/en/Seccomp)
+[Sandboxing in Linux with zero lines of code](https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/amp/)
 
 ## Namespace
+
+[Linux namespaces - Wikiwand](https://www.wikiwand.com/en/Linux_namespaces)
 
 [Introduction to Linux namespaces - Part 1: UTS | Yet another enthusiast blog!](https://blog.yadutaf.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/)
 [Introduction to Linux namespaces - Part 2: IPC | Yet another enthusiast blog!](https://blog.yadutaf.fr/2013/12/28/introduction-to-linux-namespaces-part-2-ipc/)
@@ -77,12 +81,24 @@ sudo aa-enforce /etc/apparmor.d/*
 [Introduction to Linux namespaces – Part 5: NET | Yet another enthusiast blog!](https://blog.yadutaf.fr/2014/01/19/introduction-to-linux-namespaces-part-5-net/)
 [Docker for your users - Introducing user namespace | Yet another enthusiast blog!](https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/)
 
+[A deep dive into Linux namespaces – Chord Simple](http://ifeanyi.co/posts/linux-namespaces-part-1/)  
+[A deep dive into Linux namespaces, part 2 – Chord Simple](http://ifeanyi.co/posts/linux-namespaces-part-2/)
+[A deep dive into Linux namespaces, part 3 – Chord Simple](http://ifeanyi.co/posts/linux-namespaces-part-3/)
+[A deep dive into Linux namespaces, part 4 – Chord Simple](http://ifeanyi.co/posts/linux-namespaces-part-4/)
+
 [Namespaces in operation, part 1: namespaces overview [LWN.net]](http://lwn.net/Articles/531114/)
 [namespaces(7) - Linux manual page](http://man7.org/linux/man-pages/man7/namespaces.7.html)
 
 ## Cgroup
 
 Control groups
+
+[cgroups - Wikiwand](https://www.wikiwand.com/en/Cgroups)
+[cgroups(7) - Linux manual page](https://man7.org/linux/man-pages/man7/cgroups.7.html)
+
+[https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt](https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt)
+[https://www.kernel.org/doc/Documentation/cgroup-v2.txt](https://www.kernel.org/doc/Documentation/cgroup-v2.txt)
+[Control Group v2 — The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html)
 
 ## Containers
 
@@ -126,12 +142,15 @@ Two major computer processor security bugs, dubbed Meltdown and Spectre, affect 
 [New Spectre derivative bug haunts Intel processors | Network World](https://www.networkworld.com/article/3261087/cpu-processors/new-spectre-derivative-bug-haunts-intel-processors.html)
 [Microsoft, Google: We've found a fourth data-leaking Meltdown-Spectre CPU hole • The Register](https://www.theregister.co.uk/2018/05/21/spectre_meltdown_v4_microsoft_google/)
 
+[Spectre/Meltdown/L1TF/MDS Mitigation Costs On An Intel Dual Core + HT Laptop - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=Spec-Melt-L1TF-MDS-Laptop-Run)
+[The Performance Impact Of MDS / Zombieload Plus The Overall Cost Now Of Spectre/Meltdown/L1TF/MDS - Phoronix](https://www.phoronix.com/scan.php?page=article&item=mds-zombieload-mit&num=1)
+
 [speed47/spectre-meltdown-checker: Spectre & Meltdown vulnerability/mitigation checker for Linux](https://github.com/speed47/spectre-meltdown-checker)
 [IAIK/meltdown: This repository contains several applications, demonstrating the Meltdown bug.](https://github.com/IAIK/meltdown)
 
-## MDS
+## MDS/ZombieLoad
 
-[RIDL and Fallout: MDS attacks](https://mdsattacks.com/)
+[MDS Attacks: Microarchitectural Data Sampling](https://mdsattacks.com/)
 [ZombieLoad Attack](https://zombieloadattack.com/)
 
 [Microarchitectural Data Sampling (aka MDS, ZombieLoad, RIDL & Fallout) explained by Red Hat - YouTube](https://www.youtube.com/watch?v=Oeb-O4yKK2c)
@@ -142,3 +161,5 @@ Two major computer processor security bugs, dubbed Meltdown and Spectre, affect 
 [Deep Dive: Intel Analysis of Microarchitectural Data Sampling](https://software.intel.com/security-software-guidance/insights/deep-dive-intel-analysis-microarchitectural-data-sampling)
 
 [RIP Hyper-Threading? ChromeOS axes key Intel CPU feature over data-leak flaws – Microsoft, Apple suggest snub • The Register](https://www.theregister.co.uk/2019/05/14/intel_hyper_threading_mitigations/)
+
+[Intel CPUs can be exploited unless you disable hyper-threading, Linux dev claims | TechRadar](https://www.techradar.com/amp/news/intel-cpus-can-be-exploited-unless-you-disable-hyper-threading-linux-dev-claims)

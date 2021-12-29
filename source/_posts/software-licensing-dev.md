@@ -2,9 +2,9 @@
 title: "Software Licensing (dev)"
 date: 2015-06-27 16:33:18
 categories:
-- app
+  - app
 tags:
-- licence
+  - licence
 toc: true
 ---
 

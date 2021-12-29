@@ -1,7 +1,7 @@
 ---
 title: Noodles
 categories:
-  - 
+  -
 tags:
   - noodles
 toc: true

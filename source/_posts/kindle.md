@@ -24,13 +24,14 @@ Compares E-Ink eBook readers
 
 {% asset_img kindle-comparison-201604.png "Comparison between Kindle versions (201604)" %}
 
+[Kindle 2018 對比 : Kindle Paperwhite vs Kindle 8 vs Kindle Oasis - 發現好物 - 最新資訊 - 友和 YOHO - 網購電器及電子產品](https://www.yohohongkong.com/post/189-Kindle-2018-%E5%B0%8D%E6%AF%94-%3A-Kindle-Paperwhite-vs-Kindle-8-vs-Kindle-Oasis)
 [Kindle vs Kindle Paperwhite Comparison](http://www.whichtogo.com/kindle-paperwhite-vs-regular-kindle-touch-screen-e-reader)
 [Kindle Paperwhite 3 vs Kindle Voyage Comparison](http://www.whichtogo.com/kindle-paperwhite-vs-kindle-voyage)
 [Kindle Paperwhite 3 - Which Model & Accessories to Buy?](http://www.whichtogo.com/kindle-paperwhite-which-model-where-buy-accessories)
 
 [Amazon.com: Manage Your Content and Devices](https://www.amazon.com/mn/dcw/myx.html#/home/content/booksAll/dateDsc/)
 
-## Send-to-Kindle 
+## Send-to-Kindle
 
 [How to Put Free Ebooks on Your Amazon Kindle - Ebook Reader Reviews, Ratings & Comparisons](http://asia.pcmag.com/ebook-reader-reviews-ratings-comparisons/3493/feature/how-to-put-free-ebooks-on-your-amazon-kindle)
 

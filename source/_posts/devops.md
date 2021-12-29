@@ -1,9 +1,8 @@
 ---
 title: DevOps
 categories:
-  - web
-tags:
   - devops
+tags:
   - web-deploy
 toc: true
 date: 2016-02-17 23:26:12
@@ -12,16 +11,29 @@ date: 2016-02-17 23:26:12
 [DevOps - Wikiwand](http://www.wikiwand.com/en/DevOps)
 [System administrator - Wikiwand](http://www.wikiwand.com/en/System_administrator)
 
+[DevOps'ish](https://devopsish.com/)
+[The devo.ps blog | devo.ps](http://devo.ps/blog/)
+[OverOps Resource Center | OverOps](http://resources.overops.com/?resource=all)
+[Home - DevOps.com](https://devops.com/)
+[DevOps Glossary | Sumo Logic](https://www.sumologic.com/glossary/)
+
+[What's in a name? These DevOps tools come with strange backstories | ZDNet](https://www.zdnet.com/pictures/23-coding-and-devops-tools-with-great-stories-and-strange-sounding-names)
+
+[Try Tech Radar and get to know our technology stack | TSH.io](https://tsh.io/technology-radar)
+
 > see `gitops.md`
+> see `ci-cd.md`
 
 > devops topics includes: CI/CD, deployment
 > should this be `sysadmin.md`? IT operations = system administrators
 > being late to this game, the solutions I consider should be able to handle containers
 
 [WTF Is DevOps? | devo.ps](http://devo.ps/blog/wtf-is-devops/)
+[What is DevOps](https://devopsish.com/what-is-devops/)
 [What Is DevOps? | the agile admin](https://theagileadmin.com/what-is-devops/)
 [What the hell is DevOps ? - mazzakolinux](http://mazzakolinux.com/what-the-hell-is-devops/)
 [What the Hell is DevOps? | Toptal](https://www.toptal.com/devops/what-the-hell-is-devops) !important, 3 lanes highway
+[What is DevOps? - ravikirans.com](http://ravikirans.com/gentle-introduction-to-devops/)
 [DevOps 2.0](http://blog.launchdarkly.com/devops2/)
 [The 2018 DevOps RoadMap – Hacker Noon](https://hackernoon.com/the-2018-devops-roadmap-31588d8670cb)
 [Devops best practices: How to drive agility and operational excellence | InfoWorld](https://www.infoworld.com/article/3268053/devops/devops-best-practices-the-5-methods-you-should-adopt.html)
@@ -29,7 +41,20 @@ date: 2016-02-17 23:26:12
 [Ops School Curriculum — Ops School Curriculum 0.1 documentation](http://www.opsschool.org/en/latest/)
 [Checklist: Node.JS production best practices (August 2018) – Yoni Goldberg](https://goldbergyoni.com/checklist-best-practice-of-node-js-in-production/)
 
+[DevOps Definition: Focus, means, and expected results](https://github.blog/2020-10-07-devops-definition/)
+[GitHub Blog - DevOps automation: Tools and best practices for continuous integration and continuous delivery - The GitHub Blog](https://github.blog/2020-10-29-getting-started-with-devops-automation/)
+[What is operations in DevOps? The evolving role of Operations in DevOps](https://github.blog/2020-12-03-the-evolving-role-of-operations-in-devops/)
+[What is operations in DevOps? The evolving role of Operations in DevOps](https://github.blog/2020-12-03-the-evolving-role-of-operations-in-devops/)
+
+[DevOps Engineer Crash Course - Section 1](https://matduggan.com/devops-engineer-crash-course/)
+[DevOps Crash Course - Section 2: Servers](https://matduggan.com/devops-crash-course-section-2/)
+
+[SRE vs. DevOps: competing standards or close friends? | Google Cloud Blog](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends)
 [What's the Difference Between DevOps and SRE? - YouTube](https://www.youtube.com/watch?v=uTEL8Ff1Zvk) Dev vs Ops, `class SRE implements DevOps`
+
+[Top 10 challenges in scaling DevOps - datree](https://datree.io/devops-challenges/)
+[Getting started with DevOps, containers, and Kubernetes - datree](https://datree.io/devops-containers-kubernetes/)
+[DevOps Before and After Kubernetes - The New Stack](https://thenewstack.io/devops-before-and-after-kubernetes/)
 
 [DevOps: Fundamental Answers | Software Engineering Daily](https://softwareengineeringdaily.com/2015/08/31/devops-fundamental-answers/)
 [DevOps at TopTal with Demir Selmanovic - Software Engineering Daily](http://softwareengineeringdaily.com/2016/03/25/devops-toptal-demir-selmanovic/)
@@ -37,6 +62,7 @@ date: 2016-02-17 23:26:12
 [DevOps tools · GitHub](https://github.com/showcases/devops-tools)
 [Must have DevOps tools: make things right from the get-go | IT Svit Blog](https://itsvit.com/blog/must-devops-tools-make-things-right-get-go/)
 [Periodic Table of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools/)
+[12 Common Tools for Your DevOps Team - Tripwire for DevOps](https://www.tripwire.com/state-of-security/devops/common-tools-for-your-devops-team/)
 
 [Cloud Architecture Rambings](http://javaarchramble.blogspot.hk/)
 [RisingStack Engineering](https://blog.risingstack.com/)
@@ -51,12 +77,16 @@ date: 2016-02-17 23:26:12
 [the agile admin](http://theagileadmin.com/)
 [Standalone Sysadmin | A blog for IT Admins who do everything by an IT Admin who does everything](http://www.standalone-sysadmin.com/blog/)
 
+[5 GitHub Projects to make you a better DevOps Engineer ⚡ - DEV Community](https://dev.to/ankit01oss/5-github-projects-to-make-you-a-better-devops-engineer-2fkl)
+[trimstray/the-book-of-secret-knowledge: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.](https://github.com/trimstray/the-book-of-secret-knowledge)
+
 [Cloud Computing information, news, and how-to advice | InfoWorld](http://www.infoworld.com/category/cloud-computing/)
 [Data Center information, news, and how-to advice | InfoWorld](http://www.infoworld.com/category/data-center/)
 
 [Servers for Hackers](https://serversforhackers.com/)
 [High Velocity Ops](https://hvops.com/)
 
+[World's #1 Digital Cloud Certification Course & Training Provider - A Cloud Guru](https://acloudguru.com/) Merged with Linux Academy
 [Linux Training](https://linuxacademy.com/) non-free, search for free course with equivalent syllabus
 [Adrian Cockcroft's Blog: Ops, DevOps and PaaS (NoOps) at Netflix](http://perfcap.blogspot.hk/2012/03/ops-devops-and-noops-at-netflix.html)
 
@@ -89,6 +119,9 @@ Reddit:
 
 [Autopilot Pattern Applications](http://autopilotpattern.io/)
 
+[Welcome to WALKOFF’s documentation! — WALKOFF 1.0 documentation](https://walkoff.readthedocs.io/en/latest/)
+[nsacyber/WALKOFF: A flexible, easy to use, automation framework allowing users to integrate their capabilities and devices to cut through the repetitive, tedious tasks slowing them down. #nsacyber](https://github.com/nsacyber/WALKOFF)
+
 [Automating Infrastructure at HashiCorp with Mitchell Hashimoto - Software Engineering Daily](http://softwareengineeringdaily.com/2016/04/05/automating-infrastructure-hashicorp/)
 Deployment:
 Acquisition (of resources)
@@ -110,18 +143,31 @@ Takes app and deploy to machine
 [#CONF: Open Source Infrastructure - YouTube](https://www.youtube.com/playlist?list=PLDVc2EaAVPg-HLaFRHB4awByrtbkjBdV4)
 [Cluster Management at Google - YouTube](https://www.youtube.com/watch?v=VQAAkO5B5Hg)
 
-[Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html)
+[Ubuntu Server Guide | Ubuntu](https://ubuntu.com/server/docs)
 [Basic Setup For A New Linux Server | devo.ps](http://devo.ps/blog/basic-setup-for-a-new-linux-server/)
 [DevOps FoMO? Get up to speed on culture and continuous delivery with the DevOps Fundamentals Series — Thiago Almeida](http://www.talmeida.net/blog/devops-fundamentals-series?wt.mc_id=DX_309514)
 [A Transition Guide from System Admin to DevOps Engineer - Level UpLevel Up](https://www.level-up.one/a-transition-guide-from-system-admin-to-devops-engineer/)
 [The Saga of CI/CD and DevOps - Level UpLevel Up](https://www.level-up.one/saga-ci-cd-devops/)
-[OverOps Resource Center | OverOps](http://resources.overops.com/?resource=all)
 
 [OpenNebula | Flexible Enterprise Cloud Made Simple](http://opennebula.org/)
 
 [AWS re:Invent 2015: DevOps at Amazon: A Look at Our Tools and Processes (DVO202) - YouTube](https://www.youtube.com/watch?v=esEFaY0FDKc)
 
 [Diving Into Database DevOps - DZone Database](https://dzone.com/articles/diving-into-database-devops?fromrel=true)
+
+[What is a DevOps Engineer? | VictorOps](https://victorops.com/blog/what-is-a-devops-engineer)
+[Why do you need a DevOps engineer in your software project? | TSH.io](https://tsh.io/blog/devops-engineer/)
+[Site Reliability Engineering](https://www.capgemini.com/se-en/2020/09/site-reliability-engineering/)
+
+## Kubernetes
+
+[Getting started with DevOps, containers, and Kubernetes - datree](https://datree.io/devops-containers-kubernetes/)
+[Create and Manage Kubernetes Clusters with Cluster API and ArgoCD](https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd/)
+
+## Tilt
+
+[Tilt | Kubernetes for Prod, Tilt for Dev](https://tilt.dev/)
+[Tilt: Kubernetes Tooling with Dan Bentley - Software Engineering Daily](https://softwareengineeringdaily.com/2020/06/08/tilt-kubernetes-tooling-with-dan-bentley/)
 
 ## Juju
 
@@ -150,7 +196,21 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 [Supermicro IPMI](https://www.boston.co.uk/technical/2016/03/supermicro-ipmi.aspx)
 [Dell iDRAC 8 Enterprise Overview: Excellent server management](https://www.servethehome.com/dell-idrac-8-enterprise-overview/)
 
+## DevOps platform
+
+Bundle multiple aspects of devops into a platform
+
+[Devtron - The DevOps Accelerator](https://devtron.ai/)
+[devtron-labs/devtron: Software Delivery Workflow For Kubernetes](https://github.com/devtron-labs/devtron)
+
+[Devtron : Deploy your applications over k3s, Lightweight Kubernetes, in no-time - DEV Community](https://dev.to/abhinavd26/devtron-deploy-your-applications-over-k3s-lightweight-kubernetes-in-no-time-2k2g)
+
+[Make shipping applications more enjoyable. | KubeVela](https://kubevela.io/)
+[oam-dev/kubevela: The Modern Application Delivery Platform.](https://github.com/oam-dev/kubevela)
+
 ## Configuration Management (CM) tool
+
+[Refactr2019 - DevOps 101: Automation without frustration - Diana Rodriguez - YouTube](https://www.youtube.com/watch?v=ClsSY89t_o4)
 
 [7 Configuration Management (CM) Tools You Need to Know About](https://www.upguard.com/articles/the-7-configuration-management-tools-you-need-to-know)
 [Relationship between Vagrant, Docker, Chef and OpenStack (or similar products)? - Server Fault](http://serverfault.com/questions/538466/relationship-between-vagrant-docker-chef-and-openstack-or-similar-products)
@@ -164,7 +224,19 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 
 [Domen Kožar](https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/)
 
+[Linux Fu: System Administration Made Easier | Hackaday](https://hackaday.com/2017/11/09/linux-fu-system-administration-made-easier/)
+
+[Webmin](http://www.webmin.com/)
+
+[A remote server automation and deployment tool written in Ruby.](https://capistranorb.com/)
+
+[Cockpit Project](http://cockpit-project.org/) administer your GNU/Linux servers via a web browser
+[How to Install Cockpit on Ubuntu 18.04 - Alibaba Cloud Community](https://www.alibabacloud.com/blog/how-to-install-cockpit-on-ubuntu-18-04_594039)
+[How I use Cockpit for my home's Linux server management | Opensource.com](https://opensource.com/article/20/11/cockpit-server-management)
+
 > Chef is a bit more “developer friendly” while Puppet could be considered more oriented towards operations and sysadmin type of tasks.
+
+[r-darwish/topgrade: Upgrade everything](https://github.com/r-darwish/topgrade)
 
 ### verses
 
@@ -193,6 +265,14 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 
 > see `ansible.md`
 
+### Fabric
+
+[Welcome to Fabric! — Fabric documentation](http://www.fabfile.org/)
+[Python Tutorial: Fabric - 2020](https://www.bogotobogo.com/python/Fabric/python_Fabric.php)
+[How to use Fabric in Python](https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python)
+[How To Use Fabric To Automate Administration Tasks And Deployments | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments)
+[Getting Started With the Fabric Python Library](https://code.tutsplus.com/tutorials/getting-started-with-the-fabric-python-library--cms-30555)
+
 ### SaltStack
 
 [SaltStack](http://docs.saltstack.com/en/latest/)
@@ -211,7 +291,7 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 
 [Learn Chef](https://learn.chef.io)
 [Getting started with Chef](http://gettingstartedwithchef.com/)
-[Welcome - The resource for Chef cookbooks - Chef Supermarket](https://supermarket.chef.io/) [Github](https://github.com/chef-cookbooks)
+[Welcome - The resource for Chef cookbooks - Chef Supermarket](https://supermarket.chef.io/) [GitHub](https://github.com/chef-cookbooks)
 [chef-cookbooks-docker: Chef Cookbook for Docker](https://github.com/chef-cookbooks/docker)
 
 [DevOps | Chef](https://www.chef.io/solutions/devops/)
@@ -223,6 +303,12 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 
 [jimeh/chef-simple_users](https://github.com/jimeh/chef-simple_users)
 [jimeh/devbox](https://github.com/jimeh/devbox) Script that uses Vagrant and Chef to setup a VM
+
+### Clutch
+
+[Clutch · An extensible platform for infrastructure management.](https://clutch.sh/)
+
+[Announcing Clutch, the Open-source Platform for Infrastructure Tooling | by Daniel Hochman | Lyft Engineering](https://eng.lyft.com/announcing-clutch-the-open-source-platform-for-infrastructure-tooling-143d00de9713)
 
 ### Habitat
 
@@ -250,6 +336,10 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 [Why use Puppet for software-delivery automation and orchestration | InfoWorld](https://www.infoworld.com/article/3273572/devops/why-use-puppet-for-software-delivery-automation-and-orchestration.html)
 [Puppet development workflow with Git - engineering.talis.com](http://engineering.talis.com/articles/dynamic-puppet-environments-with-git/)
 
+### Capistrano
+
+[A remote server automation and deployment tool written in Ruby.](https://capistranorb.com/)
+
 ---
 
 > topics below overlaps with `container-ecosystem.md`, `web-deployment.md`
@@ -261,8 +351,9 @@ I prefer to use DHCP and connect the iDRAC LAN port only when necessary.
 
 [runit - a UNIX init scheme with service supervision](http://smarden.org/runit/)
 [cr.yp.to/daemontools.html](http://cr.yp.to/daemontools.html)
-[pm2](https://www.npmjs.com/package/pm2)
 [statd - Unix, Linux Command](http://www.tutorialspoint.com/unix_commands/statd.htm)
+[pm2](https://www.npmjs.com/package/pm2)
+[Automate Your Python Script with Process Manager 2 (PM2)](https://towardsdatascience.com/automate-your-python-script-with-pm2-463238ea0b65)
 
 [python-diamond/Diamond](https://github.com/python-diamond/Diamond)
 
@@ -286,6 +377,8 @@ Spinnaker is an open source, multi-cloud continuous delivery platform for releas
 
 ## Service Registration and Discovery
 
+> see `coreos.md`
+
 Registration: the process for publishing the availability of a service.
 Discovery: the process of looking up the available service.
 
@@ -305,6 +398,7 @@ Etcd > Zookeeper
 [Using etcd](https://coreos.com/etcd/)
 [etcd Documentation](https://etcd.readthedocs.io/en/latest/)
 [etcd-io/etcd: Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/etcd-io/etcd)
+[A Closer Look at Etcd: The Brain of a Kubernetes Cluster](https://medium.com/better-programming/a-closer-look-at-etcd-the-brain-of-a-kubernetes-cluster-788c8ea759a5)
 
 [We're open-sourcing etcdadm! Here's what it means for Kubernetes in production - Platform9](https://platform9.com/blog/were-open-sourcing-etcdadm-heres-what-it-means-for-kubernetes-in-production/)
 [platform9/etcdadm](https://github.com/platform9/etcdadm)
@@ -323,6 +417,8 @@ Etcd > Zookeeper
 [coreos/etcd: Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/coreos/etcd) [docs](https://coreos.com/etcd/docs/latest/)
 
 ### Consul
+
+> see `hashicorp.md#consul`
 
 ### SkyDNS/CoreDNS
 
@@ -378,6 +474,7 @@ Nerve register the service to Zookeeper cluster, Synapse subscribe to the servic
 [Learn Reactive Architecture For Free, At Your Own Pace | @lightbend](https://www.lightbend.com/blog/learn-reactive-architecture-for-free-at-your-own-pace)
 
 [Designing a Microservices Architecture for Failure | @RisingStack](https://blog.risingstack.com/designing-microservices-architecture-for-failure/)
+[5 patterns to make your microservice fault-tolerant](https://itnext.io/5-patterns-to-make-your-microservice-fault-tolerant-f3a1c73547b3)
 
 [关于高可用的系统 | | 酷 壳 - CoolShell](https://coolshell.cn/articles/17459.html)
 
@@ -405,13 +502,29 @@ Check every X minutes, recheck every Y minutes up to N times before generating a
 
 [Inspeqtor - application infrastructure monitoring](http://contribsys.com/inspeqtor/) [source](https://github.com/mperham/inspeqtor)
 
+[Kubernetes clients and dashboards: a comparison - Yolan Vloeberghs and Pieter Vincken — Ordina JWorks Tech Blog](https://ordina-jworks.github.io/cloud/2020/08/28/kubernetes-clients-comparison.html)
+
 [OpenZipkin · A distributed tracing system](http://zipkin.io/)
 [openzipkin/zipkin: Zipkin is a distributed tracing system](https://github.com/openzipkin/zipkin)
+
+[Observium](https://www.observium.org/)
+[uberchuckie/observium - Docker Hub](https://hub.docker.com/r/uberchuckie/observium)
+
+[Open Source Distributed Tracing: Why You Need It & How to Get Started - IOD](https://iamondemand.com/blog/open-source-distributed-tracing-why-you-need-it-how-to-get-started/)
+OpenCensus, OpenTracing, and OpenTelemetry
+
+[OpenTelemetry | Effective observability requires high-quality telemetry](https://opentelemetry.io/) OpenTelemetry is the next major version of the OpenTracing and OpenCensus projects
+[OpenTelemetry .NET reaches v1.0 | .NET Blog](https://devblogs.microsoft.com/dotnet/opentelemetry-net-reaches-v1-0/)
 
 [The OpenTracing project](https://opentracing.io/)
 [OpenTracing Overview](https://opentracing.io/docs/overview/)
 [OpenTracing API](https://github.com/opentracing)
 [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](http://research.google.com/pubs/pub36356.html)
+
+[Announcing Hubble - Network, Service & Security Observability for Kubernetes — Cilium](https://cilium.io/blog/2019/11/19/announcing-hubble)
+
+[Easy, proactive monitoring of processes, programs, files, directories, filesystems and hosts | Monit](https://mmonit.com/monit/)
+[Deploy monit in OpenShift :: major.io](https://major.io/2019/09/11/deploy-monit-in-openshift/)
 
 [Introduction - Netdata Documentation](https://docs.netdata.cloud/)
 [Multimeter » Linux Magazine](http://www.linuxpromagazine.com/Online/Features/Netdata)
@@ -439,6 +552,8 @@ Goals for a logging system:
 - error capturing (overlaps Health monitoring)
 - security information and event management (SIEM)
 
+One way is to persistent log to `fluentd` for 2 weeks and then store them in Elasticsearch
+
 [Centralized Logging and Monitoring | Technology Conversations](http://technologyconversations.com/2016/02/17/centralized-logging-and-monitoring/)
 
 [Customizing Kubernetes Logging (Part 1) – Google Cloud Platform - Community – Medium](https://medium.com/google-cloud/customizing-kubernetes-logging-part-1-a1e5791dcda8)
@@ -451,12 +566,22 @@ Goals for a logging system:
 
 [SIEM, AIOps, Application Management, Log Management, Machine Learning, and Compliance | Splunk](https://www.splunk.com/)
 
-[Sentry | Error Tracking Software — JavaScript, Python, PHP, Ruby, more](https://sentry.io/welcome/) SDK to collect log and errors
+[Application Monitoring and Error Tracking Software | Sentry](https://sentry.io/welcome/) cross platform SDK to collect log and errors
+[getsentry/sentry: Sentry is cross-platform application monitoring, with a focus on error reporting.](https://github.com/getsentry/sentry)
 
 [Graylog Log Management » ADMIN Magazine](http://www.admin-magazine.com/Articles/Installing-and-operating-the-Graylog-SIEM-solution)
 
 [Faster logging with SLF4J | What is coming to myhead](https://whatiscomingtomyhead.wordpress.com/2010/12/03/faster-logging-with-slf4j/)
 [SLF4J](http://www.slf4j.org/)
+
+#### Loki
+
+[Loki. Prometheus-inspired logging for cloud natives. | Grafana Labs](https://grafana.com/loki)
+[grafana/loki: Like Prometheus, but for logs.](https://github.com/grafana/loki)
+
+[Loki: Prometheus-inspired, open source logging for cloud natives | Grafana Labs Blog](https://grafana.com/blog/2018/12/12/loki-prometheus-inspired-open-source-logging-for-cloud-natives/)
+[Closer look at Grafana's user interface for Loki | Grafana Labs Blog](https://grafana.com/blog/2019/01/02/closer-look-at-grafanas-user-interface-for-loki/)
+[How We Designed Loki to Work Easily Both as Microservices and as Monoliths | Grafana Labs Blog](https://grafana.com/blog/2019/04/15/how-we-designed-loki-to-work-easily-both-as-microservices-and-as-monoliths/)
 
 ### Graphite
 
@@ -469,11 +594,7 @@ Graphite is a dashboard for single metric time series. It acts as the "sink" of 
 
 [Grafana - Beautiful Metrics, Analytics, dashboards and monitoring!](http://grafana.org/)
 [grafana/grafana: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB](https://github.com/grafana/grafana)
-
-[Loki. Prometheus-inspired logging for cloud natives. | Grafana Labs](https://grafana.com/loki)
-[Loki: Prometheus-inspired, open source logging for cloud natives | Grafana Labs Blog](https://grafana.com/blog/2018/12/12/loki-prometheus-inspired-open-source-logging-for-cloud-natives/)
-[Closer look at Grafana's user interface for Loki | Grafana Labs Blog](https://grafana.com/blog/2019/01/02/closer-look-at-grafanas-user-interface-for-loki/)
-[How We Designed Loki to Work Easily Both as Microservices and as Monoliths | Grafana Labs Blog](https://grafana.com/blog/2019/04/15/how-we-designed-loki-to-work-easily-both-as-microservices-and-as-monoliths/)
+[How to Setup InfluxDB, Telegraf and Grafana on Docker: Part 1 – The New Stack](https://thenewstack.io/how-to-setup-influxdb-telegraf-and-grafana-on-docker-part-1/)
 
 ### Prometheus
 
@@ -481,14 +602,29 @@ Graphite is a dashboard for single metric time series. It acts as the "sink" of 
 [Prometheus](https://github.com/prometheus)
 [Rancher Labs | Docker Monitoring Continued: Prometheus and Sysdig | Rancher Labs](http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/)
 
+[PromCat: Resource Catalog, Enterprise Prometheus Monitoring](https://sysdig.com/blog/promcat-prometheus-catalog/)
+
+[Docker Swarm monitoring - ITNEXT](https://itnext.io/docker-swarm-monitoring-4dfe88c72d56)
+
 [Prometheus 原理和源码分析](http://www.infoq.com/cn/articles/Prometheus-theory-source-code)
 [Monitoring Kubernetes with Prometheus, Grafana and Helm](https://rohanc.me/monitoring-kubernetes-prometheus-grafana/)
+[The Definitive Guide To Prometheus in 2019 – devconnected](http://devconnected.com/the-definitive-guide-to-prometheus-in-2019/)
+[Prometheus For Beginners - ITNEXT](https://itnext.io/prometheus-for-beginners-5f20c2e89b6c)
+[Monitoring Linux Processes using Prometheus and Grafana – devconnected](http://devconnected.com/monitoring-linux-processes-using-prometheus-and-grafana/)
+[使用 Prometheus 和 Grafana 打造 Flask Web App 監控預警系統 | TechBridge 技術共筆部落格](https://blog.techbridge.cc/2019/08/26/how-to-use-prometheus-grafana-in-flask-app/)
+
+[How to Set Up a Prometheus, Grafana and Alertmanager Monitoring Stack on DigitalOcean Kubernetes - DEV Community 👩‍💻👨‍💻](https://dev.to/digitalocean/how-to-set-up-a-prometheus-grafana-and-alertmanager-monitoring-stack-on-digitalocean-kubernetes-268j)
+[A quick introduction to Prometheus. Metrics on Kubernetes with grok exporter - Part 1 | Devdiaries](https://www.devdiaries.net/blog/Prometheus-On-Kubernetes-Part-1/)
+[Metrics from unstructured logs on Kubernetes. Sidecar pattern with grok exporter - Part 2 | Devdiaries](https://www.devdiaries.net/blog/Prometheus-On-Kubernetes-Part-2/)
 
 [Docker Daemon Metrics in Prometheus – Basilio Vera – Medium](https://medium.com/@basi/docker-swarm-metrics-in-prometheus-e02a6a5745a)
 [bvis/docker-prometheus-swarm: Sample prometheus that can be used as a sample to get Swarm cluster metrics](https://github.com/bvis/docker-prometheus-swarm)
 
 [Introducing Thanos: Prometheus at scale - Improbable](https://improbable.io/games/blog/thanos-prometheus-at-scale)
 [cortexproject/cortex: A multitenant, horizontally scalable Prometheus as a Service](https://github.com/cortexproject/cortex)
+
+[M3: Uber’s Open Source, Large-scale Metrics Platform for Prometheus](https://eng.uber.com/m3/)
+[M3 and Prometheus, Monitoring at Planet Scale for Everyone - Rob Skillington, Uber - YouTube](https://www.youtube.com/watch?v=EFutyuIpFXQ)
 
 [#168: Prometheus and Service Monitoring with Julius Volz from SoundCloud - The Changelog](https://changelog.com/168/)
 
@@ -503,11 +639,18 @@ Pull model, query metric exposition endpoints of service
 Export service (exporter) provides integration to services hard to instrumentation, Apache, Nginx, Linux
 Push gateway
 
+### Hygieia
+
+[Tech - Hygieia | Capital One](https://www.capitalone.com/tech/solutions/hygieia)
+[Hygieia/Hygieia: CapitalOne DevOps Dashboard](https://github.com/Hygieia/Hygieia)
+
 ### Nagios
 
 [Nagios - The Industry Standard In IT Infrastructure Monitoring](https://www.nagios.org/)
 [Nagios Plugins | The home of the official Nagios® Plugins](https://nagios-plugins.org/)
 [Introduction to Nagios-based Monitoring - YouTube](https://www.youtube.com/watch?v=hjzHI0mQXIE)
+
+[Home - Icinga](https://icinga.com/)
 
 Master and Agent architecture
 
@@ -565,3 +708,15 @@ Shinken is Nagios reimplemented in Python, compatible with Nagios configuration
 [Understanding StatsD and Graphite](https://blog.pkhamre.com/understanding-statsd-and-graphite/)
 
 StatsD, aggregate udp packets sent by service, not scalable
+
+## API Gateway
+
+[API Gateway - DevOps.com](https://devops.com/api-gateway/amp/)
+
+[API Gateways Are Going Through an Identity Crisis – Software Blog](https://blog.christianposta.com/microservices/api-gateways-are-going-through-an-identity-crisis/)
+[Do I Need an API Gateway if I Use a Service Mesh? – Software Blog](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/)
+[Review: API Gateway HTTP APIs - Cheaper and Faster REST APIs? | cloudonaut](https://cloudonaut.io/review-api-gateway-http-apis/)
+
+[Comparing a service mesh with API management in a microservice architecture - API Connect](https://developer.ibm.com/apiconnect/2018/11/13/service-mesh-vs-api-management/)
+[API Gateway vs Service Mesh - Aspen Mesh](https://aspenmesh.io/api-gateway-vs-service-mesh/)
+[Service Mesh vs API Gateway - Microservices in Practice - Medium](https://medium.com/microservices-in-practice/service-mesh-vs-api-gateway-a6d814b9bf56)

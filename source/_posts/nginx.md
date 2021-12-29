@@ -2,10 +2,10 @@
 title: "Nginx"
 date: 2014-12-11 17:57:51
 categories:
-- web
+  - web
 tags:
-- nginx
-- notes
+  - nginx
+  - notes
 toc: true
 ---
 
@@ -13,6 +13,7 @@ toc: true
 [nginx - ArchWiki](https://wiki.archlinux.org/index.php/Nginx)
 
 [fcambus/nginx-resources: A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine](https://github.com/fcambus/nginx-resources)
+[schenkd/nginx-ui: Nginx UI allows you to access and modify the nginx configurations files without cli.](https://github.com/schenkd/nginx-ui)
 
 ## References
 
@@ -25,8 +26,8 @@ toc: true
 [GettingStarted - Nginx Community](http://wiki.nginx.org/GettingStarted)
 [Pitfalls - Nginx Community](http://wiki.nginx.org/Pitfalls)
 
-[Nginx开发从入门到精通 — Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
-[agentzh_新浪博客](http://blog.sina.com.cn/openresty)
+[Nginx 开发从入门到精通 — Nginx 开发从入门到精通](http://tengine.taobao.org/book/index.html)
+[agentzh\_新浪博客](http://blog.sina.com.cn/openresty)
 [agentzh's Nginx Tutorials](http://openresty.org/download/agentzh-nginx-tutorials-en.html) [download](http://openresty.org/#eBooks) [source](https://github.com/openresty/nginx-tutorials)
 [Nginx Guide - Envato Tuts+ Code Tutorials](https://code.tutsplus.com/series/nginx-guide--cms-792)
 [nginx | 夢想家](https://datahunter.org/nginx)
@@ -50,6 +51,10 @@ toc: true
 [NGINX Docs | All-Active HA for NGINX Plus on the Google Cloud Platform](https://docs.nginx.com/nginx/deployment-guides/gcp-high-availability-all-active/)
 [NGINX Docs | Load Balancing Apache Tomcat Servers with NGINX Open Source and NGINX Plus](https://docs.nginx.com/nginx/deployment-guides/apache-tomcat-load-balancing-nginx-plus/)
 
+[Public IP Address API with two lines of Nginx config](https://www.ecalamia.com/blog/show-ip-api-nginx/)
+
+[Using NGINX to Serve .NET Core, Nodejs, or Static Contents - DZone Web Dev](https://dzone.com/articles/using-nginx-to-serve-net-core-nodejs-or-static-con)
+
 ## OpenResty
 
 [OpenResty - Official Site](http://openresty.org/en/) Nginx + module bundles
@@ -64,7 +69,7 @@ toc: true
 [agentzh's presentations](http://agentzh.org/#Presentations)
 
 [agentzh's Nginx Tutorials (version 2015.03.19)](https://openresty.org/download/agentzh-nginx-tutorials-en.html)
-[OpenResty最佳实践 - GitBook](https://www.gitbook.com/book/moonbingbing/openresty-best-practices/details)
+[OpenResty 最佳实践 - GitBook](https://www.gitbook.com/book/moonbingbing/openresty-best-practices/details)
 [Programming OpenResty · GitBook](https://www.gitbook.com/book/openresty/programming-openresty/details)
 [乱入 OpenResty 手册! — chaos2openResty 2.1.130619 documentation](http://chaos2.qiniudn.com/openresty/build/html/)
 [An Introduction To OpenResty (nginx + lua) - Part 1](http://openmymind.net/An-Introduction-To-OpenResty-Nginx-Lua/)
@@ -77,7 +82,7 @@ toc: true
 
 [Application of Lua in Nginx](http://agentzh.org/misc/slides/qcon-beijing-2015/)
 
-[由Lua 粘合的Nginx生态环境 -- agentzh tech-club.org 演讲听录 @ 2012-03-06 01:13 - Zoom.Quiet's PyBlosxom blogging](http://blog-zq-org.qiniucdn.com/pyblosxom/2012/03/) [slides](http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#8)
+[由 Lua 粘合的 Nginx 生态环境 -- agentzh tech-club.org 演讲听录 @ 2012-03-06 01:13 - Zoom.Quiet's PyBlosxom blogging](http://blog-zq-org.qiniucdn.com/pyblosxom/2012/03/) [slides](http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#8)
 
 [openresty/ngx_openresty: Turning Nginx into a Full-Fledged Scriptable Web Platform](https://github.com/openresty/ngx_openresty)
 [openresty/lua-nginx-module - C](https://github.com/openresty/lua-nginx-module)
@@ -99,7 +104,7 @@ toc: true
 ## Tengine
 
 [The Tengine Web Server](http://tengine.taobao.org/index.html) Taobao's fork
-[在新版Tengine中开启HTTP/2协议支持 | 柳志超博客](https://liuzhichao.com/2016/tengine-http2.html#more)
+[在新版 Tengine 中开启 HTTP/2 协议支持 | 柳志超博客](https://liuzhichao.com/2016/tengine-http2.html#more)
 [Difference between openresty and tengine · Issue #54 · openresty/openresty](https://github.com/openresty/openresty/issues/54)
 
 ## Amplify
@@ -115,9 +120,7 @@ toc: true
 
 ## Configuration
 
-> https://github.com/h5bp/server-configs-nginx
-> https://github.com/Umkus/nginx-boilerplate
-> https://github.com/perusio/nginx_ensite
+> https://github.com/h5bp/server-configs-nginx > https://github.com/Umkus/nginx-boilerplate > https://github.com/perusio/nginx_ensite
 
 [Configuration - Nginx Community](http://wiki.nginx.org/Configuration)
 
@@ -140,13 +143,21 @@ toc: true
 [How To Optimize Nginx Configuration | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-optimize-nginx-configuration)
 
 Main config filer (`nginx.conf`) sits in the Nginx config folder (e.g. `/etc/nginx`).
+
 > this config distro specific:
 > There are `sites-available/` and `sites-enabled/`, default setting file includes `sites-enabled/*`.
 > Server files are usually put in `sites-available/` and symlinked to `sites-enabled/`.
 
-Options are called *directives*. They can live inside blocks (contexts) which define the scope they apply. Contexts are hierarchical: `main`, (`http`, `mail`, `stream`), `server`, `location`.
+Options are called _directives_. They can live inside blocks (contexts) which define the scope they apply. Contexts are hierarchical: `main`, (`http`, `mail`, `stream`), `server`, `location`.
 
 An array directive (e.g.: `fastcgi_param`) is basically any directive that can be used more than once in a single context. Each subsequent declaration (in the same scope) will append the new information to what Nginx knows from the previous declarations. Any declaration in sub-scope will clear the declarations in the parent scope.
+
+### Access Control
+
+[NGINX Docs | Restricting Access with HTTP Basic Authentication](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
+[Protecting Folders with Nginx » KBeezie](http://kbeezie.com/protecting-folders-with-nginx/)
+
+[Dynamic Drive: .htaccess password generator](http://www.tools.dynamicdrive.com/password/)
 
 ### Snippets
 
@@ -177,8 +188,7 @@ An array directive (e.g.: `fastcgi_param`) is basically any directive that can b
 
 ### Debian/Ubuntu
 
-> https://github.com/JasonGiedymin/nginx-init-ubuntu
-> https://github.com/hulihanapplications/nginx-init-debian
+> https://github.com/JasonGiedymin/nginx-init-ubuntu > https://github.com/hulihanapplications/nginx-init-debian
 
 ```sh
 $ sudo service nginx
@@ -188,8 +198,7 @@ configtest    force-reload  reload        restart       start         status    
 ### systemd
 
 ```sh
-sudo systemctl enable nginx.service
-sudo systemctl start nginx.service
+sudo systemctl enable --now nginx.service
 ```
 
 ## Modules
@@ -197,15 +206,15 @@ sudo systemctl start nginx.service
 [3rdPartyModules - Nginx Community](http://wiki.nginx.org/3rdPartyModules)
 [Emiller's Guide to Nginx Module Development](http://www.evanmiller.org/nginx-modules-guide.html)
 
-Module        | Link
-------        | -----
-Auth Digest   | https://github.com/samizdatco/nginx-http-auth-digest
-nginx-jwt     | https://github.com/auth0/nginx-jwt
-Echo          | https://github.com/agentzh/echo-nginx-module
-Fancy Indexes | https://github.com/aperezdc/ngx-fancyindex
-Log If        | https://github.com/cfsego/ngx_log_if/
-PageSpeeed    | http://ngxpagespeed.com/ngx_pagespeed_example/
-MP4 streaming | http://nginx.org/en/docs/http/ngx_http_mp4_module.html
+| Module        | Link                                                   |
+| ------------- | ------------------------------------------------------ |
+| Auth Digest   | https://github.com/samizdatco/nginx-http-auth-digest   |
+| nginx-jwt     | https://github.com/auth0/nginx-jwt                     |
+| Echo          | https://github.com/agentzh/echo-nginx-module           |
+| Fancy Indexes | https://github.com/aperezdc/ngx-fancyindex             |
+| Log If        | https://github.com/cfsego/ngx_log_if/                  |
+| PageSpeeed    | http://ngxpagespeed.com/ngx_pagespeed_example/         |
+| MP4 streaming | http://nginx.org/en/docs/http/ngx_http_mp4_module.html |
 
 ---
 
@@ -230,8 +239,6 @@ server {
     location ^~ /secret_folder/ {
         auth_basic            "Restricted Area";
         # relative to this config file
-        # using Apache's `htpasswd -b htpasswd NewUser NewPassword` or
-        # http://www.tools.dynamicdrive.com/password/
         auth_basic_user_file  conf/htpasswd;
     }
 }
@@ -319,7 +326,9 @@ server {
 }
 ```
 
-### Reverse proxy `api.github.com`
+### Reverse proxy with `proxy_pass`
+
+[Using NGINX to Serve .NET Core, Nodejs, or Static Contents - DZone Web Dev](https://dzone.com/articles/using-nginx-to-serve-net-core-nodejs-or-static-con)
 
 Add this to `hosts`:
 
@@ -393,16 +402,29 @@ server {
 
 [Module ngx_http_api_module](http://nginx.org/en/docs/http/ngx_http_api_module.html)
 
-## HTTP2
+## HTTP/2
+
+> spun from SPDY from Google
+
+[HTTP/2](https://http2.github.io/)
 
 [HTTP 2.0 With Nginx - Servers for Hackers](https://serversforhackers.com/video/http-20-with-nginx)
 [How To Set Up Nginx with HTTP/2 Support on Ubuntu 16.04 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04)
+
+## HTTP/3
+
+> spun from QUIC from Google
+
+[HTTP/3 - HTTP over QUIC is the next generation by Daniel Stenberg - YouTube](https://www.youtube.com/watch?v=idViw4anA6E)
+[Understand HTTP3 in 5 minutes - Je suis un dev](https://www.jesuisundev.com/en/understand-http3-in-5-minutes/)
 
 ## CORS
 
 [enable cross-origin resource sharing](http://enable-cors.org/index.html)
 [Example Nginx configuration for adding cross-origin resource sharing (CORS) support to reverse proxied APIs](https://gist.github.com/Stanback/7145487)
 [Wide-open CORS config for nginx](https://gist.github.com/michiel/1064640)
+[How CORS (Cross-Origin Resource Sharing) Works? - The Startup - Medium](https://medium.com/swlh/how-cors-cross-origin-resource-sharing-works-79f959a84f0e)
+[Cross Origin Resource Sharing (Explained by Example) - YouTube](https://www.youtube.com/watch?v=Ka8vG5miErk)
 
 ## Node/Nginx
 
@@ -413,6 +435,7 @@ server {
 [How To Host Multiple Node.js Applications On a Single VPS with nginx, forever, and crontab | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-host-multiple-node-js-applications-on-a-single-vps-with-nginx-forever-and-crontab)
 [rubenv/node-systemd: Support for running node.js as a socket-activated service under systemd](https://github.com/rubenv/node-systemd)
 [Deploying Node.js with systemd · Ruben Vermeersch (rubenv)](https://rocketeer.be/articles/deploying-node-js-with-systemd/)
+[How to run a Node.js server with Nginx - LogRocket Blog](https://blog.logrocket.com/how-to-run-a-node-js-server-with-nginx/)
 
 ```nginx
 # node.conf

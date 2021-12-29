@@ -2,18 +2,20 @@
 title: "CoreOS"
 date: 2014-12-11 17:38:50
 categories:
-- container
+  - container
 tags:
-- shell-tool
-- container
-- devops
-- coreos
-- web-deploy
+  - shell-tool
+  - container
+  - devops
+  - coreos
+  - web-deploy
 ---
 
 # CoreOS
 
-[CoreOS is Linux for Massive Server Deployments](https://coreos.com/)
+> acquired by RedHat
+
+[CoreOS is Linux for Massive Server Deployments](https://coreos.com/) succeeded by Fedora Core OS
 [CoreOS - Wikiwand](https://www.wikiwand.com/en/CoreOS)
 
 [Orchestrating your containers with CoreOS, an introduction – Development the way it should be](https://jlordiales.me/2015/07/12/coreos/)
@@ -27,4 +29,4 @@ tags:
 [coreos/etcd: Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/coreos/etcd)
 [coreos/flannel: flannel is an etcd backed network fabric for containers](https://github.com/coreos/flannel/)
 
-[Docker Service Discovery Using Etcd and Haproxy ·](http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/)  [jwilder/docker-discover](https://hub.docker.com/r/jwilder/docker-discover/)
+[Docker Service Discovery Using Etcd and Haproxy ·](http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/) [jwilder/docker-discover](https://hub.docker.com/r/jwilder/docker-discover/)

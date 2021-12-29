@@ -2,31 +2,31 @@
 title: "Boot"
 date: 2015-05-10 22:07:17
 categories:
-- linux
+  - linux
 tags:
-- desktop
+  - desktop
 toc: true
 ---
 
 [Booting - Wikiwand](https://www.wikiwand.com/en/Booting#/SPL)
 
-POST -> BIOS/ROM code -> MBR of boot partition -> Bootloader -> 
-Kernel -> [`init`](https://wiki.archlinux.org/index.php/Init)/[`systemd`](https://wiki.archlinux.org/index.php/Systemd) -> 
+POST -> BIOS/ROM code -> MBR of boot partition -> Bootloader ->
+Kernel -> [`init`](https://wiki.archlinux.org/index.php/Init)/[`systemd`](https://wiki.archlinux.org/index.php/Systemd) ->
 shell/display manager (login) -> `startx`/`xinit` -> DE
 
 1. CPU starts in real mode, executes instruction at 0xFFFF0
-→ top of BIOS ROM
+   → top of BIOS ROM
 2. self test (POST), configuration of devices (e.g. PCI
-resource allocation), initialization of BIOS extensions
-(option ROMs)
+   resource allocation), initialization of BIOS extensions
+   (option ROMs)
 3. load first sector of boot device ("boot sector", MBR) to
-0x7C00  
-MBR relocates itself, loads first sector of active partition to
-0x7C00
+   0x7C00  
+   MBR relocates itself, loads first sector of active partition to
+   0x7C00
 4. boot sector loads "second stage" boot loader
-a. boot loader knows how to read kernel from file system
-b. usually loads kernel to an address > 1MB and switches to
-protected mode before jumping to kernel entry point
+   a. boot loader knows how to read kernel from file system
+   b. usually loads kernel to an address > 1MB and switches to
+   protected mode before jumping to kernel entry point
 
 ```
 +--------+----------------+----------------+----------+
@@ -50,7 +50,7 @@ protected mode before jumping to kernel entry point
 +--------+----------------+----------------+----------+
 ```
 
-[System Initialization (x86) - OSDev Wiki](http://wiki.osdev.org/System_Initialization_%28x86%29)
+[System Initialization (x86) - OSDev Wiki](<https://wiki.osdev.org/System_Initialization_(x86)>)
 [Linux startup process - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Linux_startup_process)
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Inside the Linux boot process](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
@@ -61,6 +61,10 @@ protected mode before jumping to kernel entry point
 [LinuxBoot](https://www.linuxboot.org/)
 
 [Some basics of MBR v/s GPT and BIOS v/s UEFI - Manjaro Linux](https://wiki.manjaro.org/index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI)
+[What’s the Difference Between GPT and MBR When Partitioning a Drive?](https://www.howtogeek.com/193669/whats-the-difference-between-gpt-and-mbr-when-partitioning-a-drive/)
+[MBR vs GPT: What's the Difference Between an MBR Partition and a GPT Partition? [Solved]](https://www.freecodecamp.org/news/mbr-vs-gpt-whats-the-difference-between-an-mbr-partition-and-a-gpt-partition-solved/)
+MBR: up to 2TB, 4 primary partitions
+GPT (Windows): 128 partitions, bootable only with UEFI
 
 ## Bootloader
 
@@ -73,15 +77,19 @@ SPL (secondary program loader) is needed when the static RAM cannot hold the who
 
 [TPL: SPL loading SPL](https://www.denx.de/wiki/pub/U-Boot/MiniSummitELCE2013/tpl-presentation.pdf)
 
+[Home · kexecboot/kexecboot Wiki](https://github.com/kexecboot/kexecboot/wiki) Kexecboot is a nice Linux-As-a-Bootloader implementation based on kexec.
+
 [WebHome < U-Boot < DENX](https://www.denx.de/wiki/U-Boot)
 [Das U-Boot - Wikiwand](https://www.wikiwand.com/en/Das_U-Boot)
 [Introduction to the U-Boot bootloader - YouTube](https://www.youtube.com/watch?v=e6wlg9ntPVY)
 [Embedded Linux Booting Process (Multi-Stage Bootloaders, Kernel, Filesystem) - YouTube](https://www.youtube.com/watch?v=DV5S_ZSdK0s)
 
+[Lennart Talks Up systemd's SD-Boot + Boot Loader Specification - Phoronix](https://www.phoronix.com/scan.php?page=news_item&px=ASG-2019-systemd-SD-Boot)
+
 ## Boot Partition
 
 [Master boot record - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Master_boot_record)
-[MBR (x86) - OSDev Wiki](http://wiki.osdev.org/MBR_(x86))
+[MBR (x86) - OSDev Wiki](<http://wiki.osdev.org/MBR_(x86)>)
 [GUID Partition Table - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/GUID_Partition_Table)
 [Make the most of large drives with GPT and Linux](http://www.ibm.com/developerworks/linux/library/l-gpt/index.html)
 [Converting to or from GPT](http://www.rodsbooks.com/gdisk/mbr2gpt.html)
@@ -93,6 +101,11 @@ SPL (secondary program loader) is needed when the static RAM cannot hold the who
 
 [Arch boot process - ArchWiki](https://wiki.archlinux.org/index.php/Arch_boot_process)
 [Boot with GRUB | Linux Journal](http://www.linuxjournal.com/article/4622)
+
+Flash BIOS with bare motherboard:
+
+- Flashback from Asus
+- Q-Flash Plus from Gigabyte
 
 ### OpenBIOS
 
@@ -111,8 +124,6 @@ http://www.tomshardware.com/news/win7-windows-7-mbr,10036.html
 http://www.sevenforums.com/general-discussion/17521-how-fix-mbr-through-command-prompt.html
 http://ubuntuforums.org/showthread.php?t=1014708
 
-[LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo - Home](http://www.linuxandubuntu.com/home)
-
 ## Bootable USB key
 
 Creating a bootable USB key in Linux is [straight forward](https://wiki.archlinux.org/index.php/USB_flash_installation_media).
@@ -130,17 +141,21 @@ sudo ddrescue ${iso} ${usb device} --force -D
 [jsamr/bootiso: A bash script to securely create a bootable USB device from one ISO file. Just curl it, chmod it and go!](https://github.com/jsamr/bootiso)
 See also my `iso2usb`.
 
-Note [some utils](http://antergos.com/wiki/article/create-a-working-live-usb/) modify the partition label of the ISO, that can cause problem during bootup.
+Note some utils modify the partition label of the ISO, that can cause problem during bootup.
 
-- [probonopd/SystemImageKit: Run (multiple) operating systems directly from image files. Add extensions, apps and configuration, which are one file each.](https://github.com/probonopd/SystemImageKit) Multiple ISOs
-- [UNetbootin][UNetbootin - Homepage and Downloads](http://unetbootin.github.io/) multiplatform, *support Windows ISO*  
+- [probonopd/SystemImageKit: Run (multiple) operating systems directly from image files. Add extensions, apps and configuration, which are one file each.](https://github.com/probonopd/SystemImageKit) multiple ISOs
+- [Ventoy](https://www.ventoy.net/en/index.html) Windows, Linux, _support Windows ISO_, multiple ISOs
+- [UNetbootin](http://unetbootin.github.io/) multiplatform, _support Windows ISO_  
   `unetbootin method=diskimage isofile="my.iso" installtype=USB targetdrive=/dev/sdc`
 - [Etcher](https://etcher.io/) multiplatform
-- [Rufus](https://rufus.ie/) Windows, fast, *support Windows ISO*
+- [Rufus](https://rufus.ie/) Windows, fast, _support Windows ISO_
+- [slacka/WoeUSB:](https://github.com/slacka/WoeUSB) _support Windows ISO_
 - Linux Live USB Creator
-- [Universal USB Installer](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) Windows, wine, fast, *support Windows ISO*
-- [YUMI - Multiboot USB Creator](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) Windows, wine, Multiple ISOs
+- [Universal USB Installer](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) Windows, wine, fast, _support Windows ISO_
+- [YUMI - Multiboot USB Creator](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) Windows, wine, multiple ISOs
 - Live USB Creator
+
+Ventoy also supports [Persistence Plugin](https://www.ventoy.net/en/plugin_persistence.html), where you can define a image file for persistent storage (per ISO).
 
 The Windows ISO cannot be `dd`-ed to USB flash. We must create a bootable NTFS partition then copy the contents over.
 
@@ -155,7 +170,7 @@ The Windows ISO cannot be `dd`-ed to USB flash. We must create a bootable NTFS p
 
 ## UEFI
 
-POST -> UEFI -> Boot Manager (in UEFI) -> 
+POST -> UEFI -> Boot Manager (in UEFI) ->
 UEFI application (in EFI System partition) -> Bootloader -> Kernel -> ...
 
 [Unified Extensible Firmware Interface - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
@@ -165,6 +180,18 @@ UEFI application (in EFI System partition) -> Bootloader -> Kernel -> ...
 [UEFI - OSDev Wiki](http://wiki.osdev.org/UEFI)
 [FGA: The EFI boot process.](http://homepage.ntlworld.com/jonathan.deboynepollard/FGA/efi-boot-process.html)
 [UEFI boot: how does that actually work, then?](https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/)
+[UEFI - Install Guide - Manjaro Linux](https://wiki.manjaro.org/index.php?title=UEFI_-_Install_Guide)
+
+[The Boot Loader Specification | systemd](https://systemd.io/BOOT_LOADER_SPECIFICATION)
+[systemd-boot](https://www.freedesktop.org/wiki/Software/systemd/systemd-boot/)
+[pop-os/kernelstub: A simple EFI boot manager manager for Linux](https://github.com/pop-os/kernelstub/)
+[pbatard/uefi-ntfs: UEFI:NTFS - Boot NTFS partitions from UEFI](https://github.com/pbatard/uefi-ntfs)
+
+[Linux on your laptop: A closer look at EFI boot options | ZDNet](https://www.zdnet.com/article/linux-on-your-laptop-a-closer-look-at-efi-boot-options/)
+[Linux on your laptop: Here's what you need to know about UEFI firmware | ZDNet](https://www.zdnet.com/article/linux-on-your-laptop-heres-what-you-need-to-know-about-uefi-firmware/)
+
+http://www.rodsbooks.com/refind/installing.html
+`refind-efi`
 
 ### howtogeek.com
 
@@ -174,6 +201,7 @@ UEFI application (in EFI System partition) -> Bootloader -> Kernel -> ...
 
 ### rodsbooks.com
 
+[A BIOS to UEFI Transformation](https://www.rodsbooks.com/bios2uefi/index.html)
 [Managing EFI Boot Loaders for Linux](http://www.rodsbooks.com/efi-bootloaders/)
 [Linux on UEFI: A Quick Installation Guide](http://www.rodsbooks.com/linux-uefi/)
 [The rEFInd Boot Manager](http://www.rodsbooks.com/refind/index.html)
@@ -202,7 +230,7 @@ Debian switched to `systemd` in 2015 with [Debian 8 Jessie](http://arstechnica.c
 [sysv-rc-conf - Run-level configuration for SysV like init script links](http://sysv-rc-conf.sourceforge.net/) UI tool
 
 https://github.com/Fleshgrinder/nginx-sysvinit-script  
-https://github.com/JasonGiedymin/nginx-init-ubuntu  
+https://github.com/JasonGiedymin/nginx-init-ubuntu
 
 ```sh
 $ sudo update-rc.d

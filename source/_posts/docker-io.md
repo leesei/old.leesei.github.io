@@ -2,13 +2,15 @@
 title: "Docker.io"
 date: 2014-12-11 17:38:50
 categories:
-- container
+  - container
 tags:
-- shell-tool
-- docker
-- devops
-- web-deploy
+  - shell-tool
+  - docker
+  - devops
+  - web-deploy
 ---
+
+[Mirantis acquires Docker Enterprise – TechCrunch](https://techcrunch.com/2019/11/13/mirantis-acquires-docker-enterprise/amp/)
 
 [Container Orchestration with Docker and Swarm](http://container.training/swarm-selfpaced.yml.html#1) !important
 [Docker Swarm Workshop](http://vfarcic.github.io/docker-swarm/#/cover)
@@ -20,10 +22,14 @@ tags:
 [Docker Reference Architecture: Designing Scalable, Portable Docker Container Networks - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
 [Deploy and scale containers with Docker native, open source orchestration PyCon 2017 - YouTube](https://www.youtube.com/watch?v=EuzoEaE6Cqs)
 
+[Dockercon 2021 | DockerCon 2021](https://docker.events.cube365.net/dockercon-live/2021)
+
 ## Docker Compose
 
-Compose is a tool for defining and running multi-containers Docker applications on a *single Docker host* or *cluster using standalone Docker Swarm*.
-For multi-hosts deployment on *Swarm mode* use `docker stack` on Docker 1.13+.
+Compose is a tool for defining and running multi-containers Docker applications on a _single Docker host_ or _cluster using standalone Docker Swarm_.
+For multi-hosts deployment on _Swarm mode_ use `docker stack` on Docker 1.13+.
+
+[docker/compose-switch](https://github.com/docker/compose-switch)
 
 Compose file can be [stacked](https://docs.docker.com/compose/extends/) for environment specific settings.
 
@@ -31,33 +37,42 @@ Docker [acquired Orchard](https://blog.docker.com/2014/07/welcoming-the-orchard-
 
 [Docker Compose | Docker](http://www.docker.com/products/docker-compose)  
 [Overview of Docker Compose | Docker Documentation](https://docs.docker.com/compose/overview/)  
-[Compose 1.6: New Compose file for defining networks and volumes | Docker Blog](https://blog.docker.com/2016/02/compose-1-6/) [Docker Compose Files Version 2 - YouTube](https://www.youtube.com/watch?v=EReEOMS7gsk)  
-[Compose file version 3 reference | Docker Documentation](https://docs.docker.com/compose/compose-file/)  
+[Compose 1.6: New Compose file for defining networks and volumes | Docker Blog](https://blog.docker.com/2016/02/compose-1-6/)
+[Docker Compose Files Version 2 - YouTube](https://www.youtube.com/watch?v=EReEOMS7gsk)  
+[Compose file | Docker Documentation](https://docs.docker.com/compose/compose-file/)  
 [Compose file version 2 reference | Docker Documentation](https://docs.docker.com/compose/compose-file/compose-file-v2/)  
+[Compose file version 3 reference | Docker Documentation](https://docs.docker.com/compose/compose-file/compose-file-v3/)  
 [Controlling startup order in Compose | Docker Documentation](https://docs.docker.com/compose/startup-order/) !important, wait for service  
+[The definitive Guide to Docker compose](https://gabrieltanner.org/blog/docker-compose)
+[Docker Compose tips for any developers - DEV Community 👩‍💻👨‍💻](https://dev.to/aminnairi/docker-compose-tips-for-any-developers-11j) create a second instance with shared volume to execute commands
+[How to deploy on remote Docker hosts with docker-compose - Docker Blog](https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/)
 
 Compose Version 3 added `deploy` key, which is ignored in `docker-compose up` for single node deployment. In swarm mode, `docker stack` (supported in 1.13+) will read the settings in `deploy` key and apply them with `docker service` calls internally.  
 [docker.github.io/compose-file.md at 8524552f99e5b58452fcb1403e1c273385988b71 · aanand/docker.github.io](https://github.com/aanand/docker.github.io/blob/8524552f99e5b58452fcb1403e1c273385988b71/compose/compose-file.md)  
 [docker service create | Docker Documentation](https://docs.docker.com/engine/reference/commandline/service_create/#create-services-using-templates) Template variables for swarm services
 
+[docker/awesome-compose: Awesome Docker Compose samples](https://github.com/docker/awesome-compose)
+
 [Docker Tip #60: What Really Happens When You Run docker-compose up? — Nick Janetakis](https://nickjanetakis.com/blog/docker-tip-60-what-really-happens-when-you-run-docker-compose-up)
 
-[A beginner’s guide to Docker — how to create a client/server side with docker-compose](https://medium.freecodecamp.org/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa)
-[How we happily dockerized our development environment (part 1/2) — Medium](https://medium.com/@aherve/how-we-happily-dockerized-our-development-environment-part-1-2-b05fd6927a53#.3rev8amcg)  
-[Dockerized development environment on steroids (part 2/2) — Medium](https://medium.com/@aherve/dockerized-development-environment-on-steroids-part-2-2-b800a65d0462#.21qoaievq)
+[A beginner’s guide to Docker — how to create a client/server side with docker-compose](https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-a-client-server-side-with-docker-compose-12c8cf0ae0aa/)
+[How we happily dockerized our development environment (part 1/2) | Hacker Noon](https://hackernoon.com/how-we-happily-dockerized-our-development-environment-part-1-2-b05fd6927a53#.3rev8amcg)
+[Dockerized development environment on steroids (part 2/2) | Hacker Noon](https://hackernoon.com/dockerized-development-environment-on-steroids-part-2-2-b800a65d0462#.235fodt6h)
 
+[From Docker to Docker compose way! - DEV Community](https://dev.to/this-is-learning/from-docker-to-docker-compose-way-56h)
 [Introduction to Docker Compose Tool for Multi-Container Applications | Linux.com | The source for Linux information](https://www.linux.com/learn/introduction-docker-compose-tool-multi-container-applications)  
 [Docker Volumes and Networks with Compose | Linux.com | The source for Linux information](https://www.linux.com/learn/docker-volumes-and-networks-compose)  
 [Docker tutorial: Get started with Docker Compose | InfoWorld](https://www.infoworld.com/article/3254689/devops/docker-tutorial-get-started-with-docker-compose.html)
+[You’re using docker-compose wrong - Earthly Blog](https://earthly.dev/blog/youre-using-docker-compose-wrong/)
 
-[使用docker-compose进行python开发 | YL Notes](http://yunlzheng.github.io/2015/06/06/dev-python-with-docker-compose/)  
-[Dockerizing Flask with Compose and Machine - from localhost to the cloud - Real Python](https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/) [realpython/orchestrating-docker](https://github.com/realpython/orchestrating-docker)  
+[使用 docker-compose 进行 python 开发 | YL Notes](http://yunlzheng.github.io/2015/06/06/dev-python-with-docker-compose/)  
+[Dockerizing Flask with Compose and Machine - from localhost to the cloud - Real Python](https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-from-localhost-to-the-cloud/) [realpython/orchestrating-docker](https://github.com/realpython/orchestrating-docker)
 
 [Docker Compose Tutorial: Orchestrate Containers for Development | Codeship | via @codeship](https://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/)  
 [Orchestrate Containers for Development with Docker Compose | via @codeship](https://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/)  
 [A Docker Container Pattern - Compose Configuration - Levvel](http://blog.levvel.io/blog-post/a-docker-container-pattern-compose-configuration/)  
 [Beyond Docker Compose](http://blog.xebialabs.com/2016/04/11/beyond-docker-compose/)  
-[Easy deploy a nodejs app to prod and staging with docker](https://medium.com/@theotow/easy-deploy-a-nodejs-app-to-prod-and-staging-with-docker-f7e6ff406b69) cascading Compose files  
+[Easy deploy a nodejs app to prod and staging with docker](https://medium.com/@theotow/easy-deploy-a-nodejs-app-to-prod-and-staging-with-docker-f7e6ff406b69) cascading Compose files
 
 [Docker Compose UI by Francesco Uliana](http://francescou.github.io/docker-compose-ui/)
 
@@ -122,13 +137,14 @@ Docker [acquired](https://blog.docker.com/2016/03/docker-welcomes-aurora-project
 
 ## Docker Swarm mode
 
-Docker 1.12 (June 2016) included *Swarm mode* (via SwarmKit) for Swarm capability without Docker Swarm standalone.
+Docker 1.12 (June 2016) included _Swarm mode_ (via SwarmKit) for Swarm capability without Docker Swarm standalone.
 [Docker 1.12: Now with Built-in Orchestration! | Docker Blog](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/)
 [DockerCon 2016: What's New in Docker - Docker 1.12 | via @codeship](https://blog.codeship.com/whats-new-docker/)
 [Comparing Swarm, Swarmkit and Swarm Mode | Sreenivas Makam's Blog](https://sreeninet.wordpress.com/2016/07/14/comparing-swarm-swarmkit-and-swarm-mode/)
 [swarm/README.md at master · docker/swarm](https://github.com/docker/swarm/blob/master/README.md#swarm-disambiguation)
 [Docker tutorial: Get started with Docker swarm mode | InfoWorld](https://www.infoworld.com/article/3259872/containers/docker-tutorial-get-started-with-docker-swarm-mode.html)
 [Container Orchestration with Docker and Swarm](http://container.training/swarm-selfpaced.yml.html)
+[What is Docker Swarm Mode and When Should You Use It? – CloudSavvy IT](https://www.cloudsavvyit.com/13049/what-is-docker-swarm-mode-and-when-should-you-use-it/)
 
 [Overview - User Guide| Alibaba Cloud Documentation Center](https://www.alibabacloud.com/help/doc-detail/52580.htm) Docker Swarm standalone vs Swarm mode
 [Docker Swarm vs Swarm Mode | Neil Cresswell | Pulse | LinkedIn](https://www.linkedin.com/pulse/docker-swarm-vs-mode-neil-cresswell/)
@@ -140,12 +156,13 @@ Docker 1.12 (June 2016) included *Swarm mode* (via SwarmKit) for Swarm capabilit
 [Swarm mode overview](https://docs.docker.com/engine/swarm/)
 [Getting started with swarm mode | Docker Documentation](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 [Setting up a Docker Swarm cluster using Docker in Docker | Callista Enterprise](http://callistaenterprise.se/blogg/teknik/2017/12/18/docker-in-swarm-mode-on-docker-in-docker/)
+[Docker Swarm » ADMIN Magazine](http://www.admin-magazine.com/Archive/2019/51/Scale-Your-Docker-Containers-with-Docker-Swarm)
 [Docker Swarm Mode - YouTube](https://www.youtube.com/playlist?list=PLkA60AVN3hh-jd4zGpRWHG8LIQUpBXBsM)
 
 [Swarm mode key concepts | Docker Documentation](https://docs.docker.com/engine/swarm/key-concepts/)
 Task: A Docker container and the commands to run inside the container. It is the atomic scheduling unit of swarm.  
 Service: definition of the tasks to execute on the worker nodes.  
-Stack: a collection of services that make up an application in a specific environment.  
+Stack: a collection of services that make up an application in a specific environment.
 
 [How nodes work | Docker Documentation](https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/)
 [How services work | Docker Documentation](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/)
@@ -171,6 +188,7 @@ Stack: a collection of services that make up an application in a specific enviro
 [All Hail the New Docker Swarm - Container Solutions](http://container-solutions.com/hail-new-docker-swarm/)
 [Docker Swarm Is Dead. Long Live Docker Swarm.](https://www.infoq.com/news/2016/06/dockercon-docker-swarm)
 [Running Services within a Docker Swarm - via @codeship | via @codeship](https://blog.codeship.com/running-services-within-docker-swarm/)
+[Docker Tips: Rollout and Rollback In Docker Swarm - Better Programming - Medium](https://medium.com/better-programming/rollout-and-rollback-in-docker-swarm-7f19e2fe2cd1)
 
 [One-shot containers with Docker Swarm](https://blog.alexellis.io/containers-on-swarm/)
 
@@ -236,13 +254,13 @@ The containers will be automatically prefixed with the service name.
 [Add bind-mounts or volumes | Docker Documentation](https://docs.docker.com/engine/reference/commandline/service_create/#add-bind-mounts-or-volumes)
 
 |       Key       |                              Value                              |
-|:---------------:|:---------------------------------------------------------------:|
-| `type`          | `mount` (default), `bind`, `tmpfs`                              |
-| `src`           | host path if `type`== `mount`; volume name if `type`== `volume` |
-| `dst`/`target`  | container path                                                  |
-| `volume-driver` | `local` (default), `flocker`, `glusterfs`, `ceph`               |
-| `volume-label`  | volume label                                                    |
-| `volume-opt`    | volume option                                                   |
+| :-------------: | :-------------------------------------------------------------: |
+|     `type`      |               `mount` (default), `bind`, `tmpfs`                |
+|      `src`      | host path if `type`== `mount`; volume name if `type`== `volume` |
+| `dst`/`target`  |                         container path                          |
+| `volume-driver` |        `local` (default), `flocker`, `glusterfs`, `ceph`        |
+| `volume-label`  |                          volume label                           |
+|  `volume-opt`   |                          volume option                          |
 
 `--mount` can specify driver and create volume, `--volume` (of `docker run`) can only bind existing volume
 
@@ -287,17 +305,20 @@ The services, containers and network will be automatically prefixed with the sta
 [Docker Inevitably Embraces Kubernetes Container Orchestration](https://www.nextplatform.com/2018/04/17/docker-inevitably-embraces-kubernetes-container-orchestration/)
 [Docker Clustering Tools Compared: Kubernetes vs Docker Swarm | Technology Conversations](https://technologyconversations.com/2015/11/04/docker-clustering-tools-compared-kubernetes-vs-docker-swarm/)
 
+[Docker Swarm vs. Kubernetes: What You Really Need To Know - DZone Cloud](https://dzone.com/articles/docker-swarm-vs-kubernetes-what-you-really-need-to)
+[Kubernetes vs. Docker: Comparing The Two Container Orchestration Giants! - DZone Cloud](https://dzone.com/articles/kubernetes-vs-docker-comparing-the-two-container-o)
+
 ### CLI
 
-* [swarm init](https://docs.docker.com/engine/reference/commandline/swarm_init/)
-* [swarm join](https://docs.docker.com/engine/reference/commandline/swarm_join/)
-* [service create](https://docs.docker.com/engine/reference/commandline/service_create/)
-* [service inspect](https://docs.docker.com/engine/reference/commandline/service_inspect/)
-* [service ls](https://docs.docker.com/engine/reference/commandline/service_ls/)
-* [service rm](https://docs.docker.com/engine/reference/commandline/service_rm/)
-* [service scale](https://docs.docker.com/engine/reference/commandline/service_scale/)
-* [service ps](https://docs.docker.com/engine/reference/commandline/service_ps/)
-* [service update](https://docs.docker.com/engine/reference/commandline/service_update/)
+- [swarm init](https://docs.docker.com/engine/reference/commandline/swarm_init/)
+- [swarm join](https://docs.docker.com/engine/reference/commandline/swarm_join/)
+- [service create](https://docs.docker.com/engine/reference/commandline/service_create/)
+- [service inspect](https://docs.docker.com/engine/reference/commandline/service_inspect/)
+- [service ls](https://docs.docker.com/engine/reference/commandline/service_ls/)
+- [service rm](https://docs.docker.com/engine/reference/commandline/service_rm/)
+- [service scale](https://docs.docker.com/engine/reference/commandline/service_scale/)
+- [service ps](https://docs.docker.com/engine/reference/commandline/service_ps/)
+- [service update](https://docs.docker.com/engine/reference/commandline/service_update/)
 
 #### Logging into container of a stack
 
@@ -359,6 +380,7 @@ docker exec -ti $docker_fullname /bin/bash
 ## Docker Machine
 
 You can use Docker Machine to:
+
 - Provision and manage [supported infrastructures](https://docs.docker.com/machine/drivers/)
 - Provision Swarm clusters
 
@@ -414,6 +436,7 @@ docker-machine rm node1
 
 Create IAM account and generate access key pair.
 Save to `~/.aws/credentials`:
+
 ```
 [default]
 aws_access_key_id = AKID1234567890
@@ -432,6 +455,7 @@ docker-machine create --driver amazonec2 --amazonec2-region us-west-2 node1
 [Digital Ocean example | Docker Documentation](https://docs.docker.com/machine/examples/ocean/#step-2-generate-a-personal-access-token)
 
 Create API token
+
 ```sh
 docker-machine create --driver digitalocean --digitalocean-access-token xxxxx node1
 ```

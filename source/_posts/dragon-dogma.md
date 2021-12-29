@@ -18,15 +18,16 @@ date: 2018-01-08 13:29:23
 ## Tips
 
 always clear quest from 6 Notice Boards before major plot advancement
+
 - Cassirdis
 - Encampment
 - Union Inn
 - Arsmith's Alehouse
 - Pawn Guild
-Use Godsbane (copied/bought at Black Cat) to suicide, faster than save/load
-Use lv9 augments to +% to point increase, then look for equipments that increase both physical and magic buff
-most items/monsters respawn after 7 days
-set to hard mode to reset progress, then change back to other mode
+  Use Godsbane (copied/bought at Black Cat) to suicide, faster than save/load
+  Use lv9 augments to +% to point increase, then look for equipments that increase both physical and magic buff
+  most items/monsters respawn after 7 days
+  set to hard mode to reset progress, then change back to other mode
 
 [30 Tips for Newcomers to Dragon's Dogma: Dark Arisen (PlayStation, Xbox, Steam) - YouTube](https://www.youtube.com/watch?v=xVPvXcQQ3lI)
 [Some things you may not know Dragon's Dogma Dark Arisen (Read Description) - YouTube](https://www.youtube.com/watch?v=yrelAlUsSAA)
@@ -55,20 +56,22 @@ http://andriasang.com/comuxs/dragons_dogma/
 ### Gold/Exp farming
 
 [Dragon's Dogma: Easy Gold for Beginners (No Cheating!) - YouTube](https://www.youtube.com/watch?v=yM3rAU_YSL8)
+
 - buy carrots in Cassardis
 - sleep for 3 days to get moldy carrots
 - sell them all
 
 [Dragons Dogma Dark Arisen - Easy Fast Powerlevel/Easy Gold (100k Gold/5 levels every 5min) - YouTube](https://www.youtube.com/watch?v=n1cayW1sL-4)
 [Dragon's Dogma - Farming Gold & Exp - YouTube](https://www.youtube.com/watch?v=sMySqhamy08) Great Wall
+
 - 3 days to response
 
 [Dragon's Dogma! EXP Farm! 600k+ Per Fight! - YouTube](https://www.youtube.com/watch?v=QRj7LFBm924) Killing Death in BitterBlack Isle
 
 ### Builds
 
-[Stat Growths | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.wikia.com/wiki/Stat_Growths)
-[Augments | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.wikia.com/wiki/Augments)
+[Stat Growths | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.fandom.com/wiki/Stat_Growths)
+[Augments | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.fandom.com/wiki/Augments)
 [Dragon's Dogma Stat Planner](http://stackoverflow.github.io/dragons-dogma-stat-planner/#af000000000000000000000000000000000000)
 
 Immolation
@@ -89,7 +92,7 @@ Warrior's first
 
 ## Bitterblack Isle
 
-[Bitterblack Isle | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.wikia.com/wiki/Bitterblack_Isle)
+[Bitterblack Isle | Dragon's Dogma Wiki | FANDOM powered by Wikia](http://dragonsdogma.fandom.com/wiki/Bitterblack_Isle)
 
 Create your pawn, visit pier in Cassardis at night, then you can talk with Olra travel to BitterBlack Isle
 
@@ -102,3 +105,7 @@ Use throwblast
 Ring of Perseverance
 [Dragon's Dogma! Increase Discipline Gain by 50-100%! Early method! - YouTube](https://www.youtube.com/watch?v=ZJOj9sFUBGE) with hard mode reset
 [How To Get The Ring Of Perseverance - YouTube](https://www.youtube.com/watch?v=evon6YpUcMA)
+
+## Affinity
+
+[How to Increase Affinity in Dragon's Dogma (The Easy Way)](https://screenrant.com/increase-affinity-dragons-dogma-guide/)

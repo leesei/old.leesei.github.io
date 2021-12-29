@@ -30,11 +30,13 @@ date: 2018-09-12 21:11:51
 [Free Online Arduino Class](https://www.instructables.com/class/Arduino-Class/)
 [Arduino Tutorials | Maker Pro](https://maker.pro/arduino/tutorial)
 [Arduino 101 » Linux Magazine](http://www.linux-magazine.com/Online/Features/Arduino-101)
+[Arduino Mini Course - YouTube](https://www.youtube.com/playlist?list=PLeJ_Vi9u6Kitus0uCM-Fb3bIYumS8XFRg)
 
 [Arduino Resources](http://robodino.org/resources/arduino)
 [AVR Tutorial](http://ladyada.net/learn/avr/index.html)
 [AVRbeginners.net - Your AVR starting point!](http://www.avrbeginners.net/)
 [AvrFreaks | Atmel Community](https://www.avrfreaks.net/)
+[Tracing the Origins of Arduino: Part 1: The AVR... | element14 | Arduino Tutorials](https://www.element14.com/community/docs/DOC-88981/l/tracing-the-origins-of-arduino-part-1-the-avr-microcontroller)
 
 [Programming Electronics Academy - YouTube](https://www.youtube.com/user/OSHJunkies) !important, systematic courses
 
@@ -80,6 +82,8 @@ Generic libraries not related to particular hardware
 
 [What are the differences between Arduino UNO and Leonardo ? - Speeli Summary](http://www.speeli.com/articles/view/What-are-the-differences-between-Arduino-UNO-and-Leonardo)
 [Dr. Monk's DIY Electronics Blog: Arduino Leonardo vs. Arduino Uno](http://www.doctormonk.com/2012/10/arduino-leonardo-vs-arduino-uno.html)
+
+[Designing the World’s Smallest Arduino! - The Startup - Medium](https://medium.com/swlh/designing-the-worlds-smallest-arduino-f0606934d6ac)
 
 [Arduino Uno Rev3](https://store.arduino.cc/usa/arduino-uno-rev3)
 ATMega328P, 53.4x68.6mm
@@ -154,6 +158,8 @@ ATmega32U4, 53.4x68.6mm, built-in USB support, can act as HID
 [Level Up Your Arduino Code: Timer Interrupts - YouTube](https://www.youtube.com/watch?v=2kr5A350H7E)
 [Level Up Your Arduino Code: External Interrupts - YouTube](https://www.youtube.com/watch?v=J61_PKyWjxU)
 
+[#328 ESP32 Secrets: Interrupts, and Deep-Sleep under the Hood - YouTube](https://www.youtube.com/watch?v=CJhWlfkf-5M)
+
 ## PWM
 
 [Arduino - SecretsOfArduinoPWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
@@ -184,7 +190,11 @@ ATmega32U4, 53.4x68.6mm, built-in USB support, can act as HID
 
 ## ISP mode
 
-Set _Programmer_ to Arduino ISP to program other micro-controllers
+To program other micro-controllers (e.g. ATTiny85)
+
+- Flash the ArduinoISP example
+- Connect a 10uF capacitor from RESET to GND
+- Set _Programmer_ to "Arduino as ISP" to ,
 
 [AVRISP versus AVRISP mkII | AVR Freaks](https://www.avrfreaks.net/forum/avrisp-versus-avrisp-mkii)
 
@@ -194,11 +204,11 @@ Set _Programmer_ to Arduino ISP to program other micro-controllers
 
 [Overview | Program an AVR or Arduino Using Raspberry Pi GPIO | Adafruit Learning System](https://learn.adafruit.com/program-an-avr-or-arduino-using-raspberry-pi-gpio-pins?view=all)
 
+[【Arduino 教學】實作 15- arduino 最小化(燒錄至 attiny85) - YouTube](https://www.youtube.com/watch?v=2nKEA6AUCZM&list=TLPQMTMxMTIwMTnqPdkGHZ0-uQ&index=2)
+
 ## Projects
 
 [10 Awesome Beginner Arduino Projects - Hackster.io](https://www.hackster.io/RoyTobby/10-awesome-beginner-arduino-projects-78a6a6)
-
-[Spiderin, a four-legs spider robot | Open Electronics](https://www.open-electronics.org/spiderin-a-four-legs-spider-robot/) principles of moving legs with servo motor
 
 [Arduino Blog » Build a 4-button arcade game out of LEGO](https://blog.arduino.cc/2018/08/17/build-a-4-button-arcade-game-out-of-lego/)
 [Arduino Arcade LEGO Games Box - Arduino Project Hub](https://create.arduino.cc/projecthub/LenkaDesign/arduino-arcade-lego-games-box-c05299)

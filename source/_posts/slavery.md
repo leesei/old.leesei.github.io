@@ -22,4 +22,3 @@ This is a study of modern slavery.
 The British banished slavery in the late 18th centuries, however slaves are of higher demand for laborious works in the southern parts of the States, which finally lead to the Civil War.
 
 The slave masters have to come up with reasons for keeping slave. This marks the beginning of the allegation that the African blacks is an inferior species to rationalize keeping them as slaves.
-

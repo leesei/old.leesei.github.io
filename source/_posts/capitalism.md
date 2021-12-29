@@ -2,9 +2,9 @@
 title: "Capitalism"
 date: 2015-04-17 14:36:53
 categories:
-- economics
+  - economics
 tags:
-- 
+  -
 ---
 
 [Paul Tudor Jones II: Why we need to rethink capitalism | Talk Video | TED.com](http://www.ted.com/talks/paul_tudor_jones_ii_why_we_need_to_rethink_capitalism)

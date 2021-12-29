@@ -2,9 +2,9 @@
 title: "Why is water transparent?"
 date: 2015-01-23 11:23:40
 categories:
-- philosophy
+  - philosophy
 tags:
-- physics
+  - physics
 ---
 
 [Why Is Water Transparent? - Quora](http://www.quora.com/Why-is-water-transparent)

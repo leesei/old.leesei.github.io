@@ -2,13 +2,13 @@
 title: "SketchUp"
 date: 2018-05-23 23:57:39
 categories:
-- app
+  - app
 tags:
-- desktop
+  - desktop
 toc: true
 ---
 
-[3D for Everyone | SketchUp](http://www.sketchup.com/) 
+[3D for Everyone | SketchUp](http://www.sketchup.com/)
 
 [Watch this Before You Get Started with SketchUp (2017) - YouTube](https://www.youtube.com/watch?v=xsteCTxxg1Y) !important
 
@@ -22,6 +22,7 @@ SketchUp Make was the free version, last release is 2017.
 [SketchUp for Web | SketchUp Knowledge Base](https://help.sketchup.com/en/article/3000315)
 
 [3D Warehouse](https://3dwarehouse.sketchup.com/) models for SketchUp
+[2D Interior Symbols (for Floor Plans) | 3D Warehouse](https://3dwarehouse.sketchup.com/model/786f8852-ff9b-4848-9625-e9047efc99da/2D-Interior-Symbols-for-Floor-Plans) by SketchUp School
 
 [Learn SketchUp | 3D Modeling Online | SKP File | SketchUp](https://www.sketchup.com/learn)
 [Sketchup Tutorials for Any Skill Level | Designer Hacks](http://designerhacks.com/sketchup-tutorials/)
@@ -34,7 +35,8 @@ Channels:
 
 ## Getting Started
 
-[Watch this Before You Get Started with SketchUp (2017) - YouTube](https://www.youtube.com/watch?v=xsteCTxxg1Y)
+[SketchUp: The Definitive Guide to Getting Started (2019) - SketchUp School](https://www.sketchupschool.com/sketchup-guide)
+[Watch This Before You Get Started With SketchUp (2019 Update) - YouTube](https://www.youtube.com/watch?v=022dqcoi05k)
 [SketchUp Beginners Start Here! - YouTube - YouTube](https://www.youtube.com/playlist?list=PLEQT0qjXe6zgmMMP6ZzoUDG_fdjcRmCQE)
 [SketchUp: Getting Started - YouTube - YouTube](https://www.youtube.com/playlist?list=PLJBkUSNRFD32IcKo0EuVXx-qnyb4kTkuP)
 
@@ -51,10 +53,14 @@ Channels:
 
 ## Interior design
 
+> see `home-improvements.md#interior-design`
+
 [SketchUp Skill Builder: Reference Images for Architecture - YouTube](https://www.youtube.com/watch?v=cfoQf_8YYxg)
 [Creating 3D Floor Plans in SketchUp Part 1 - The SketchUp Essentials #22 - YouTube](https://www.youtube.com/watch?v=Xt95mFCmkLk)
 [Creating Floor Plans from Images in SketchUp - The SketchUp Essentials #23 - YouTube](https://www.youtube.com/watch?v=paXB5_tNTUA)
+[SketchUp Floor Plan Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=-mCfv92oMa4)
 [SketchUp 8 Lessons: Advanced House Building - YouTube](https://www.youtube.com/watch?v=BUsUyaO1ghY)
+[SketchUp Interior Design Tutorial — How to Create a Floor Plan (in 7 EASY Steps) - YouTube](https://www.youtube.com/watch?v=KVDnb47KBy8)
 
 [SketchUp Model to Layout - Apartment - YouTube - YouTube](https://www.youtube.com/playlist?list=PLEQT0qjXe6zgr_T6Kk2fMiMgQMIRTl8a-)
 [Sketchup tutorial interior design - YouTube - YouTube](https://www.youtube.com/playlist?list=PL5RZqhTgVFoMwpzdC3ts1APVGllgfVNcB)

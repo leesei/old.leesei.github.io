@@ -2,19 +2,43 @@
 title: "Shell string expansion"
 date: 2014-12-08 12:03:44
 categories:
-- linux
+  - linux
 tags:
-- shell
-- notes
+  - shell
+  - notes
 ---
+
+## Parameter Expansion
+
+[Parameter Expansion - Bash Reference Manual](http://www.gnu.org/software/bash/manual/bash.html#Shell-Parameter-Expansion)
+[Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+
+[bash assign default value - Stack Overflow](https://stackoverflow.com/a/26899206)
+
+`${parameter-default}, ${parameter:-default}`
+The extra : makes a difference only when parameter has been declared, but is null.
+
+```bash
+unset EGGS
+echo 1 ${EGGS-spam}   # 1 spam
+echo 2 ${EGGS:-spam}  # 2 spam
+
+EGGS=
+echo 3 ${EGGS-spam}   # 3
+echo 4 ${EGGS:-spam}  # 4 spam
+
+EGGS=cheese
+echo 5 ${EGGS-spam}   # 5 cheese
+echo 6 ${EGGS:-spam}  # 6 cheese
+```
 
 ## string manipulation/expansion
 
 > After reading `fish` shell's philosophy, I now think using `sed` and other tools is better than relying on shell features.
 
-http://tldp.org/LDP/abs/html/string-manipulation.html
-http://wiki.bash-hackers.org/syntax/pe
-http://mintaka.sdsu.edu/GF/bibliog/latex/debian/bash.html
+[Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
+[Parameter expansion [Bash Hackers Wiki]](https://wiki.bash-hackers.org/syntax/pe)
+[Bash string processing](https://aty.sdsu.edu/bibliog/latex/debian/bash.html)
 [Bash One-Liners Explained, Part II: Working with strings - good coders code, great coders reuse](http://www.catonmat.net/blog/bash-one-liners-explained-part-two/)
 
 > TODO: add zsh manual

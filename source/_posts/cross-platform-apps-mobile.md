@@ -53,15 +53,18 @@ The new Cross-Platform is to share business logic, compile to native code and bi
 [HTML5 is dead. Long live HTML5! - CNET](http://www.cnet.com/news/html5-is-dead-long-live-html5/)
 [Your favourite app isn’t native](http://kennethormandy.com/journal/your-favourite-app-isnt-native) also feature some UI frameworks
 
-## Chirp
-
-[Chirp | Send data with sound](https://chirp.io/)
-
 ## Comparison
 
 [Examining performance differences between Native, Flutter, and React Native mobile development.](https://thoughtbot.com/blog/examining-performance-differences-between-native-flutter-and-react-native-mobile-development)
 [Flutter and Kotlin Multiplatform – Aldy Chrissandy – Medium](https://medium.com/@aldychris/flutter-and-kotlin-multiplatform-47d27ff08c1d)
 [Flutter and Kotlin Multiplatform relationship – Kt. Academy](https://blog.kotlin-academy.com/flutter-and-kotlin-multiplatform-relationship-890616005f57)
+
+[What are the main differences between ReactJS and React-Native? – Medium](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24)
+[What are the key difference between ReactNative and NativeScript? - Quora](https://www.quora.com/What-are-the-key-difference-between-ReactNative-and-NativeScript)
+
+[React native vs Flutter 2020 comparison - Kriss](https://kriss.io/react-native-vs-flutter-202-comparison/)
+
+[40 | React Native、Flutter 等，这些跨端方案怎么选？](https://time.geekbang.org/column/article/100733)
 
 ## PhoneGap/Cordova
 
@@ -145,12 +148,19 @@ Embedding the latest Chromium WebView to your app instead of using the system's 
 ### Ionic 4
 
 [Introducing Ionic 4: Ionic for Everyone | The Ionic Blog](https://blog.ionicframework.com/introducing-ionic-4-ionic-for-everyone/)
-[Announcing the Ionic React Beta | The Ionic Blog](https://blog.ionicframework.com/announcing-the-ionic-react-beta/)
+[Announcing Ionic React | The Ionic Blog](https://ionicframework.com/blog/announcing-ionic-react/)
+
+[Ionic 4 & Angular Tutorial For Beginners - Crash Course - YouTube](https://www.youtube.com/watch?v=r2ga-iXS5i4)
+[Ionic + React - Tutorial for Beginners 2020 - YouTube](https://www.youtube.com/watch?v=_03VKmdrxV8)
+
+Uses Stencil to compile to Web Components and supports multiple frameworks
 
 ### Capacitor
 
-[Capacitor: Universal Web Applications](https://capacitor.ionicframework.com/)
-Invoke Native SDKs on iOS, Android, Electron, and the Web with one code base.
+By Ionic team, inspired by React Native.
+Invoke native SDKs on iOS, Android, Electron, and the Web with one code base.
+
+[Capacitor: Cross-platform native runtime for web apps](https://capacitorjs.com/)
 
 [Capacitor in 2019: Native Progressive Web Apps for All | The Ionic Blog](https://blog.ionicframework.com/capacitor-in-2019-native-progressive-web-apps-for-all/)
 
@@ -170,28 +180,7 @@ Invoke Native SDKs on iOS, Android, Electron, and the Web with one code base.
 
 ## Flutter
 
-> see `mobile-os.md#google-fuchsia`
-
-[Flutter - Beautiful native apps in record time](https://flutter.dev/)
-Flutter is a native runtime written in C++, Skia and OpenGL. With Dart binging that provides a canvas interface and widgets for cross platform mobile application.
-
-[Google Developers Blog: Flutter: a Portable UI Framework for Mobile, Web, Embedded, and Desktop](https://developers.googleblog.com/2019/05/Flutter-io19.html)
-[Reflectly — From React Native to Flutter – Reflectly Engineering – Medium](https://medium.com/reflectly-engineering/reflectly-from-react-native-to-flutter-2e3dffced2ea)
-
-[Flutter | 9to5Google](https://9to5google.com/guides/flutter/)
-[Fuchsia Friday: How Flutter is paving the way for Fuchsia (and our first Fuchsia app!) | 9to5Google](https://9to5google.com/2018/03/02/fuchsia-friday-first-fuchsia-app/)
-
-[Flutter - Didier Boelens](https://www.didierboelens.com/)
-[Flutter on desktop, a real competitor to Electron – Flutter Community – Medium](https://medium.com/flutter-community/flutter-on-desktop-a-real-competitor-to-electron-4f049ea6b061)
-
-[Ins and Outs of Flutter Web - Flutter Community - Medium](https://medium.com/flutter-community/ins-and-outs-of-flutter-web-7a82721dc19a)
-[Why and how am I learning Flutter? – Flutter Community – Medium](https://medium.com/flutter-community/why-and-how-am-i-learning-flutter-2652c15c8113)
-
-[Flutter intro at Scale16x with Randal L. Schwartz and Wm Leler - YouTube](https://www.youtube.com/watch?v=O7TXamVRSbY)
-["Flutter: How we're building a UI framework for tomorrow at Google" by Eric Seidel - YouTube](https://www.youtube.com/watch?v=VUiVkDpikDI)
-
-[Flutter with Eric Seidel - Software Engineering Daily](https://softwareengineeringdaily.com/2018/07/09/flutter-with-eric-seidel/)
-[Flutter in Practice with Randal Schwartz - Software Engineering Daily](https://softwareengineeringdaily.com/2018/07/11/flutter-in-practice-with-randal-schwartz/)
+> see `flutter.md`
 
 ## Kotlin Multiplatform
 
@@ -206,13 +195,28 @@ Write React JSX and deploy to iOS and Android.
 [React Native | A framework for building native apps using React](http://facebook.github.io/react-native/)
 [facebook/react-native](https://github.com/facebook/react-native)
 
+[Hermes | Hermes](https://hermesengine.dev/)
+
+[React Native 0.62 and Flipper Will Change Your Mobile Development Experience and make it easier!](https://medium.com/javascript-in-plain-english/react-native-0-62-and-flipper-will-change-your-mobile-development-experience-and-make-it-easier-8945d345f644)
+
+[What I’ve Learned Building 4 React Native Apps Over 3 Years](https://medium.com/input-logic/what-ive-learned-building-4-react-native-apps-over-3-years-6b5035f8282d)
+[React Native FAQ - Red Shift](https://shift.infinite.red/react-native-faq-8dc5c1083baa)
+[Things about React Native I found the hard (but rewarding) way](https://blog.usejournal.com/things-about-react-native-i-found-the-hard-but-rewarding-way-1557a87a0c8)
+
 [State of React Native 2018 · React Native](https://facebook.github.io/react-native/blog/2018/06/14/state-of-react-native-2018) addressed most of Airbnb's issue
 [I picked up React Native as a web developer and here's what I've learned - DEV Community 👩‍💻👨‍💻](https://dev.to/walaura/i-picked-up-react-native-as-a-web-developer-and-here-s-what-i-ve-learned-59h6)
 [6 things to consider before you start with React Native](https://blog.pragmatists.com/6-things-to-consider-before-you-start-with-react-native-2c1aa03e4b54)
 [Six crucial tips for becoming a better React Native developer - SD Times](https://sdtimes.com/webdev/six-crucial-tips-for-becoming-a-better-react-native-developer/)
 [Performance Calendar » React Native – Sync & Async Rendering Performance](https://calendar.perfplanet.com/2018/react-native-sync-async/)
 
-[What are the main differences between ReactJS and React-Native? – Medium](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.67b15dwe5)
+[Free React Native Workshop - YouTube](https://www.youtube.com/playlist?list=PLqrUy7kON1mcz_YjiwElKqJezF7FdXBX_)
+
+[necolas/react-native-web: React Native for Web](https://github.com/necolas/react-native-web)
+[Overview | Getting started - Page ⋅ Storybook](https://necolas.github.io/react-native-web/docs/?path=/docs/overview-getting-started--page)
+[React-Native-Web: A Brief Introduction - Codersera](https://codersera.com/blog/react-native-web/)
+[React Native Web Vs React - A Comparison Guide For 2020 - Codersera](https://codersera.com/blog/react-native-web-vs-react-a-comparison-guide-for-2020/)
+
+[How to Make Your First React Native App - Flatlogic - Medium](https://medium.com/flatlogic/how-to-make-your-first-react-native-app-c79b0ad4b0a)
 
 [A Definitive React-Native Guide for React Developers | @RisingStack](https://blog.risingstack.com/a-definitive-react-native-guide-for-react-developers/)
 [React-Native Guide for React Developers - Part 2 | @RisingStack](https://blog.risingstack.com/a-definitive-react-native-guide-for-react-developers-part-2/)
@@ -222,6 +226,7 @@ Write React JSX and deploy to iOS and Android.
 
 [facebook/metro: 🚇 The JavaScript bundler for React Native.](https://github.com/facebook/metro)
 [Lazy Bundle Loading in React Native 🔥 – React Native Training – Medium](https://medium.com/react-native-training/lazy-bundle-loading-in-react-native-5f717b65482a)
+[ncuillery/rn-diff: Easier React Native upgrades by clearly expose changes from a version to another.](https://github.com/ncuillery/rn-diff)
 
 [Use React Native: site and newsletter](http://www.reactnative.com/)
 [A Deep Dive into React Native](http://www.reactnative.com/a-deep-dive-into-react-native/)
@@ -232,8 +237,7 @@ Write React JSX and deploy to iOS and Android.
 [zmxv: What I learned from building a React Native app](http://blog.zmxv.com/2015/09/what-i-learned-from-building-react.html)
 [Why React Native is Different](http://jlongster.com/Why-React-Native-is-Different)
 [Going mobile with React Native - React Kung Fu](http://reactkungfu.com/2015/07/going-mobile-with-react-native/)
-
-[How React Native constructs app layouts (and how Fabric is about to change it)](https://medium.freecodecamp.org/how-react-native-constructs-app-layouts-and-how-fabric-is-about-to-change-it-dd4cb510d055)
+[React Native Fabric - Why Am I So Excited? | QED42](https://www.qed42.com/blog/react-native-fabric-why-am-i-so-excited)
 
 [Build Mobile-Friendly Web Apps with React Native Web ― Scotch](https://scotch.io/tutorials/build-mobile-friendly-web-apps-with-react-native-web/amp)
 [One Day with React Native for Android - Corbt blog](https://corbt.com/posts/2015/09/16/one-day-with-react-native-for-android.html)
@@ -246,7 +250,30 @@ Write React JSX and deploy to iOS and Android.
 [AsyncDisplayKit | A UI Framework for Effortless Responsiveness](http://asyncdisplaykit.org/) used in iOS
 [Super Cool Material UI components in React Native! – Victor K Varghese – Medium](https://medium.com/@victorvarghese/super-cool-material-ui-components-in-react-native-dd7c4434bc26)
 
-[What are the key difference between ReactNative and NativeScript? - Quora](https://www.quora.com/What-are-the-key-difference-between-ReactNative-and-NativeScript)
+[infinitered/reactotron: A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.](https://github.com/infinitered/reactotron)
+
+### Fabric
+
+[React Native’s new architecture — Glossary of terms.](https://blog.g2i.co/guest-blogger-parashuram-n-react-natives-new-architecture-glossary-of-terms-a90cdb45a76e)
+[React Native Rearchitecture with G2i Team - Software Engineering Daily](https://softwareengineeringdaily.com/2019/02/22/react-native-rearchitecture-with-g2i-team/)
+[How React Native constructs app layouts (and how Fabric is about to change it)](https://www.freecodecamp.org/news/how-react-native-constructs-app-layouts-and-how-fabric-is-about-to-change-it-dd4cb510d055/)
+
+[The New React Native Architecture Explained](https://formidable.com/blog/2019/react-codegen-part-1/)
+[The New React Native Architecture Explained: Part Two](https://formidable.com/blog/2019/jsi-jsc-part-2/)
+[The New React Native Architecture Explained: Part Three](https://formidable.com/blog/2019/fabric-turbomodules-part-3/)
+[The New React Native Architecture Explained: Part Four](https://formidable.com/blog/2019/lean-core-part-4/)
+
+[React Native — A Bridge To Project Fabric — Part 1 - The Startup - Medium](https://medium.com/swlh/react-native-a-bridge-to-project-fabric-part-1-5af6a53c0d83)
+[React Native — A Bridge To Project Fabric — Part 2 - Chen Feldman - Medium](https://medium.com/@chenfeldmn/react-native-a-bridge-to-project-fabric-part-2-1f082415b881)
+[React Native — A Bridge To Project Fabric — Part 3 - Chen Feldman - Medium](https://medium.com/@chenfeldmn/react-native-a-bridge-to-project-fabric-part-3-ae495794c6b0)
+
+### Hermes
+
+[Hermes · JavaScript engine optimized for React Native](https://hermesengine.dev/)
+[facebook/hermes: Hermes is a small and lightweight JavaScript engine optimized for running React Native on Android.](https://github.com/facebook/hermes)
+
+[Hermes: A new open source JavaScript engine optimized for mobile apps](https://code.fb.com/android/hermes/)
+[Using Hermes · React Native](https://facebook.github.io/react-native/docs/hermes/)
 
 ### On the contrary
 
@@ -258,11 +285,13 @@ Write React JSX and deploy to iOS and Android.
 ### Project Generators
 
 [react-community/create-react-native-app: Create a React Native app on any OS with no build config.](https://github.com/react-community/create-react-native-app)
+[Rich-Harris/degit: Straightforward project scaffolding](https://github.com/Rich-Harris/degit)
 
 [Expo](https://expo.io/) SDK that provides native feature to React Native, also a distribution channel
 [expo/expo: Expo iOS/Android Client](https://github.com/expo/expo)
 [Feature Requests | Expo](https://expo.canny.io/feature-requests) check missing features
 [A Brief Introduction to Expo ← Alligator.io](https://alligator.io/react/expo-intro/)
+[Build a React Native App with Expo | by Mike Perrotta | Bits and Pieces](https://blog.bitsrc.io/building-a-react-native-app-with-expo-530ddef0e1ab)
 
 [Ignite 2.0 Has Landed!](https://infinite.red/ignite)
 [infinitered/ignite: The unfair starting CLI, Generator, and more for React Native](https://github.com/infinitered/ignite)
@@ -284,16 +313,15 @@ Write React JSX and deploy to iOS and Android.
 [Jasonette - Native App over HTTP](https://jasonette.com/)
 [Jasonette](https://github.com/Jasonette)
 
-[How to Turn Your Website into a Mobile App with 7 Lines of JSON](https://medium.freecodecamp.org/how-to-turn-your-website-into-a-mobile-app-with-7-lines-of-json-631c9c9895f5)
+[How to Turn Your Website into a Mobile App with 7 Lines of JSON](https://www.freecodecamp.org/news/how-to-turn-your-website-into-a-mobile-app-with-7-lines-of-json-631c9c9895f5/)
 
 ## Vue.js
 
+[WEEX](https://weex.apache.org/)
+[Native Mobile Apps with Weex and VueJS 2.0 – Hacker Noon](https://hackernoon.com/how-to-create-a-weex-vue2-project-6b94981bee4e)
+
 [Vue Native](https://vue-native.io/)
 [Introducing Vue Native – GeekyAnts Blog](https://blog.geekyants.com/introducing-vue-native-b66f71d50438)
-
-[weex](http://weex.incubator.apache.org/) enables the use of Vue to build native cross-platform UIs.
-
-[Native Mobile Apps with Weex and VueJS 2.0 – Hacker Noon](https://hackernoon.com/how-to-create-a-weex-vue2-project-6b94981bee4e)
 
 [Native apps with Vue.js: Weex or NativeScript? — chapter I](https://hackernoon.com/native-apps-with-vue-js-weex-or-nativescript-8d8f0bac041d)
 [Native apps with Vue.js: Weex or NativeScript? — chapter II](https://hackernoon.com/native-apps-with-vue-js-weex-or-nativescript-chapter-ii-6d1776da090d)
@@ -305,19 +333,12 @@ Write React JSX and deploy to iOS and Android.
 [Docs: Android](http://docs.nativescript.org/runtimes/android/)
 [Docs: iOS](http://docs.nativescript.org/runtimes/ios)
 
-[NativeScript 2.0 - the best way to build cross-platform native mobile apps](https://www.nativescript.org/blog/nativescript-2.0---the-best-way-to-build-cross-platform-native-mobile-apps)
-
 [Would Airbnb Have Fared Better With NativeScript Instead of React Native?](https://www.nativescript.org/blog/would-airbnb-have-fared-better-with-nativescript-instead-of-react-native) NativeScript take to solve Airbnb's problem with React Native
+[NativeScript 2.0 - the best way to build cross-platform native mobile apps](https://www.nativescript.org/blog/nativescript-2.0---the-best-way-to-build-cross-platform-native-mobile-apps) 2016-05
 
-[Creating Mobile Native Apps in JavaScript with NativeScript](http://www.infoq.com/news/2015/03/nativescript)
-[Building a Native App with JavaScript Using NativeScript](http://www.sitepoint.com/building-native-app-javascript-using-nativescript)
-
-[NativeScript – a Technical Overview - Telerik Developer NetworkTelerik Developer Network](http://developer.telerik.com/featured/nativescript-a-technical-overview/)
-[On NativeScript for Android - Telerik Developer NetworkTelerik Developer Network](http://developer.telerik.com/featured/nativescript-android/)
-[How NativeScript Works -Telerik Developer Network](http://developer.telerik.com/featured/nativescript-works/)
-[Styling Native Apps with CSS -Telerik Developer Network](http://developer.telerik.com/featured/styling-native-apps-css/)
-[Getting Started with NativeScript -Telerik Developer Network](http://developer.telerik.com/featured/getting-started-nativescript/)
-[Building Your Own NativeScript Modules for npm -Telerik Developer Network](http://developer.telerik.com/featured/building-your-own-nativescript-modules-for-npm/)
+[Technical Overview - NativeScript Docs](https://docs.nativescript.org/core-concepts/technical-overview)
+[An Introduction to NativeScript](https://code.tutsplus.com/articles/an-introduction-to-nativescript--cms-26771) 2016-07
+[Creating Mobile Native Apps in JavaScript with NativeScript](http://www.infoq.com/news/2015/03/nativescript) 2015-03
 
 ## Haxe
 
@@ -337,33 +358,46 @@ The language itself is similar to JavaScript. The `.hx` can be compiled to [mult
 [Haxe Entry Point](http://notes.underscorediscovery.com/haxe-entry-point/)
 [Learn Haxe](http://haxe.us/haxe_tutorial.html)
 
-[OpenFL - Creative expression for desktop, mobile, web and console platforms](http://www.openfl.org/)
+## OpenFL
+
+[OpenFL - Creative expression for desktop, mobile, web and console platforms](http://www.openfl.org/) Flash API on modern web
+
+## TotalCross
+
+[TotalCross | Open Source GUI Creator For Embedded, Mobile](https://totalcross.com/)
+[TotalCross Overview - TotalCross Platform](https://learn.totalcross.com/) also for embedded devices
+
+[TotalCross/KnowCodeXML: Library to allow developers to run Android XML UI + TotalCross on Linux ARM, iOS, Android and more...](https://github.com/TotalCross/KnowCodeXML) use Android XML for layout,
+
+[A new way to build cross-platform UIs for Linux ARM devices | Opensource.com](https://opensource.com/article/20/5/linux-arm-ui)
 
 ## Qt
 
-[Qt - Product - Qt Quick](http://www.qt.io/qt-quick/)
+> see `cross-platform-apps-desktop.md#qt`
+
+[Create high performance embedded systems | Qt](https://www.qt.io/qt-for-device-creation/)
 [Qt - Qt for Mobile App Development](http://www.qt.io/mobile-app-development/)
 
-[Qt Quick 5.4](http://doc.qt.io/qt-5/qtquick-index.html)
-[Qt QML 5.4](http://doc.qt.io/qt-5/qtqml-index.html)
-[QML Applications | Qt 5.4](http://doc.qt.io/qt-5/qmlapplications.html)
-[Tutorial – Writing QML Apps » Linux Magazine](http://www.linux-magazine.com/Issues/2018/211/Like-Qlockwork)
+[QT Supported Platforms](https://doc.qt.io/qt-5/supported-platforms.html)
+[Qt for Device Creation](https://doc.qt.io/QtForDeviceCreation/index.html)
+[Target Devices](https://doc.qt.io/QtForDeviceCreation/qtdc-supported-platforms.html)
 
 Part Four of Seif Project
 
-> see seif.md
+> see `seif.md`
 
-## Xamarin
+### Cross Compiling
 
-Microsoft acquired Xamarin and it is in Visual Studio.
-[Xamarin for Everyone | Xamarin Blog](https://blog.xamarin.com/xamarin-for-all)
+[Boot to Qt Software Stack](https://doc.qt.io/QtForDeviceCreation/qtb2-index.html)
 
-[Mobile Application Development to Build Apps in C# - Xamarin](http://xamarin.com/platform)
+[Cross-Compiling Qt for Embedded Linux Applications](https://doc.qt.io/archives/qt-4.8/qt-embedded-crosscompiling.html)
 
-[Under The Hood - Xamarin](http://developer.xamarin.com/guides/android/under_the_hood/)
-[iOS Under The Hood - Xamarin](http://developer.xamarin.com/guides/ios/under_the_hood/)
+## .NET
 
-## Dropbox
+> see `cross-platform-apps-desktop.md#xamarin`
+> see `cross-platform-apps-desktop.md#uno-platform`
+
+## Djinni
 
 [dropbox/djinni: A tool for generating cross-language type declarations and interface bindings.](https://github.com/dropbox/djinni) expose C library to Android and iOS
 
@@ -421,3 +455,5 @@ Supports premium (paid) and free addons.
 
 Appium is an open source test automation framework for use with native, hybrid and mobile web apps.
 It drives iOS and Android apps using the WebDriver protocol.
+
+[wix/Detox: Gray box end-to-end testing and automation framework for mobile apps](https://github.com/wix/Detox)

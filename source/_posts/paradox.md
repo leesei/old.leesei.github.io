@@ -5,11 +5,15 @@ categories:
 toc: true
 date: 2015-06-18 13:38:50
 tags:
-- paradox
+  - paradox
 ---
 
 [Paradox - Wikiwand](http://www.wikiwand.com/en/Paradox)
 [List of paradoxes - Wikiwand](http://www.wikiwand.com/en/List_of_paradoxes)
+
+[Paradoxes - YouTube](https://www.youtube.com/playlist?list=PL1lNrW4e0G8XVWIQoOlp_cM8PxDSqKgis) Up and Atom
+
+[一个反直觉的硬币游戏，伯特兰箱子悖论 - YouTube](https://www.youtube.com/watch?v=kq_Ey8l_1yc) Goat's paradox
 
 ## Time Travel
 
@@ -24,6 +28,7 @@ Grandfather
 
 [Why can't mathematics explain Zeno's Paradox? - Quora](http://www.quora.com/Why-cant-mathematics-explain-Zenos-Paradox)
 [Zeno’s Paradox of the Tortoise and Achilles](http://platonicrealms.com/encyclopedia/zenos-paradox-of-the-tortoise-and-achilles)
+[This Is How Physics, Not Math, Finally Resolves Zeno's Famous Paradox](https://www.forbes.com/sites/startswithabang/2020/05/05/this-is-how-physics-not-math-finally-resolves-zenos-famous-paradox/amp/)
 
 ## Russell's Paradox
 
@@ -36,20 +41,21 @@ Grandfather
 [Ship of Theseus - Wikiwand](http://www.wikiwand.com/en/Ship_of_Theseus)
 [I Have Died Many Times — CGP Grey](http://www.cgpgrey.com/blog/i-have-died-many-times)
 
-## Fermi Paradox
-
-[The Fermi Paradox — Where Are All The Aliens? (1/2) - YouTube](https://www.youtube.com/watch?v=sNhhvQGsMEc&feature=youtu.be)
-[The Fermi Paradox II — Solutions and Ideas – Where Are All The Aliens? - YouTube](https://www.youtube.com/watch?v=1fQkVqno-uI)
-[Fermi paradox - Wikiwand](http://www.wikiwand.com/en/Fermi_paradox)
-
 ## Simpson's Paradox
 
-A set of data can show opposite trends depending on *how it's grouped*. It is caused by the "lurking variable", usually a presumption on the distribution of the population.
+[Simpson's paradox - Wikiwand](https://www.wikiwand.com/en/Simpson%27s_paradox)
+[辛普森悖論 - Wikiwand](https://www.wikiwand.com/zh-hk/%E8%BE%9B%E6%99%AE%E6%A3%AE%E6%82%96%E8%AE%BA)
+
+A set of data can show opposite trends depending on _how it's grouped_. It is caused by the "lurking variable", usually a presumption on the distribution of the population.
 [How statistics can be misleading - Mark Liddell - YouTube](https://www.youtube.com/watch?v=sxYrzzy3cq8&index=9&list=PLJicmE8fK0EiEzttYMD1zYkT-SmNf323z)
 [Simpson's Paradox - YouTube](https://www.youtube.com/watch?v=ebEkn-BiW5k)
 
+[What is Simpson's paradox? - Quora](https://www.quora.com/What-is-Simpsons-paradox)
+
 Related: probabilistic comparison may not be transitive
 [The Most Powerful Dice - Numberphile - YouTube](https://www.youtube.com/watch?v=zzKGnuvX6IQ)
+
+[学霸为啥总不学习？寒门为啥总出贵子？帅哥为啥都是渣男？ - YouTube](https://www.youtube.com/watch?v=ctgheOhe1vE)
 
 ## False Positive Paradox
 

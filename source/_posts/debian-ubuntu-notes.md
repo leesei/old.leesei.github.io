@@ -27,8 +27,10 @@ toc: true
 
 ## Package managers
 
+[Ubuntu Repositories - pkgs.org](https://ubuntu.pkgs.org/)
+
 [What is the difference between dpkg and aptitude/apt-get? - Ask Ubuntu](http://askubuntu.com/questions/309113/what-is-the-difference-between-dpkg-and-aptitude-apt-get)
-[6.4. Frontends: aptitude, synaptic](http://debian-handbook.info/browse/stable/sect.apt-frontends.html)
+[6.4. Frontends: aptitude, synaptic](http://debian-handbook.info/browse/stable/sect.apt-frontends.html)
 [How to Use APT and Say Goodbye to APT-GET in Debian and Ubuntu](https://www.makeuseof.com/tag/how-to-use-apt-debian-ubuntu/)
 [APT Cheat Sheet - Packagecloud Blog](https://blog.packagecloud.io/eng/2015/03/30/apt-cheat-sheet/)
 [Apt-Cacher-NG User Manual](https://www.unix-ag.uni-kl.de/~bloch/acng/html/index.html)
@@ -190,6 +192,11 @@ apt install -y --allow-downgrades libtiff5=4.0.6-1 libtiff5-dev=4.0.6-1 libtiffx
 apt mark libtiff5=4.0.6-1 libtiff5-dev=4.0.6-1 libtiffxx5=4.0.6-1
 ```
 
+## Building `.deb` Package
+
+[sbuild - Debian Wiki](https://wiki.debian.org/sbuild)
+[Quickly build a Debian package with Docker | spkdev.net](https://www.spkdev.net/2015/03/03/quickly-build-a-debian-package-with-docker.html)
+
 ## Post-install
 
 [UbuntuUpdates - All package updates](https://www.ubuntuupdates.org/)
@@ -258,9 +265,16 @@ sudo update-initramfs -u -k all
 sudo update-initramfs -u -k `uname -r`
 sudo update-grub
 sudo reboot
+```
 
-# remove old kernel
+## remove old kernel
+
+```sh
 # list kernels
 dpkg --get-selections | grep linux-image
 sudo apt-get purge linux-image-X.X.XX-XX-generic
+
+# batch
+sudo su
+dpkg --get-selections | grep linux-image | grep deinstall | awk '{ print $1 }' | xargs dpkg --purge --force-all
 ```

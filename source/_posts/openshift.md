@@ -2,13 +2,13 @@
 title: "OpenShift"
 date: 2014-12-11 17:38:50
 categories:
-- container
+  - container
 tags:
-- shell-tool
-- docker
-- devops
-- openshift
-- web-deploy
+  - shell-tool
+  - docker
+  - devops
+  - openshift
+  - web-deploy
 ---
 
 # OpenShift
@@ -16,7 +16,7 @@ tags:
 OpenShift Origin is the upstream community project that backs Red Hat's [OpenShift Online](https://www.openshift.com/) service.
 
 [OpenShift Origin - Open Source Container Application Platform](https://www.openshift.org/)
-[OpenShift.io](https://openshift.io/) CI/CD for OpenShift Online, backed by 
+[OpenShift.io](https://openshift.io/) CI/CD for OpenShift Online, backed by
 [fabric8](https://fabric8.io/)
 
 [Welcome | About](https://docs.openshift.org/latest/welcome/index.html)
@@ -65,4 +65,3 @@ OpenShift 3 [adopts Kubernetes and Docker](https://blog.openshift.com/red-hat-ch
 [OpenStack Swift | SwiftStack](https://www.swiftstack.com/product/open-source/openstack-swift) S3 compatible object storage
 [OpenStack Docs: S3/Swift REST API Comparison Matrix](https://docs.openstack.org/swift/latest/s3_compat.html)
 [ovh/svfs: The Swift Virtual File System](https://github.com/ovh/svfs)
-

@@ -41,6 +41,9 @@ toc: true
 
 ['Material Shell' is an Impressive Tiling GNOME Shell Extension - OMG! Ubuntu!](https://www.omgubuntu.co.uk/2019/07/material-shell-tiling-gnome-shell-extension/amp)
 
+[bspwm - ArchWiki](https://wiki.archlinux.org/index.php/Bspwm)
+[baskerville/bspwm: A tiling window manager based on binary space partitioning](https://github.com/baskerville/bspwm)
+
 [Sway](http://swaywm.org/) i3 on Wayland
 [Sway - A Tiling Wayland i3-Compatible Compositor](https://www.fossmint.com/sway-a-tiling-wayland-i3-compatible-compositor/)
 
@@ -66,6 +69,9 @@ toc: true
 
 See also [WinSplit Revolution][] (Windows), [Divvy][] (Mac).
 
+[esjeon/krohnkite: A dynamic tiling extension for KWin](https://github.com/esjeon/krohnkite)
+[kwin-scripts/kwin-tiling: Tiling script for kwin](https://github.com/kwin-scripts/kwin-tiling)
+
 [gtile]: https://github.com/shuairan/gTile
 [quicktile]: https://github.com/ssokolow/quicktile
 [xtile]: http://www.giuspen.com/x-tile/
@@ -76,6 +82,13 @@ See also [WinSplit Revolution][] (Windows), [Divvy][] (Mac).
 [wumwum]: http://wumwum.sourceforge.net/
 [winsplit revolution]: http://winsplit-revolution.com/screenshots
 [divvy]: http://alternativeto.net/software/divvy/
+
+### `xdotool`
+
+[jordansissel/xdotool: fake keyboard/mouse input, window management, and more](https://github.com/jordansissel/xdotool)
+[Linux Fu: X Command | Hackaday](https://hackaday.com/2017/09/21/linux-fu-x-command/)
+[xdotool - fake keyboard/mouse input, window management, and more - semicomplete](https://www.semicomplete.com/projects/xdotool/)
+[Ubuntu Manpage: xdotool - command-line X11 automation tool](http://manpages.ubuntu.com/manpages/trusty/man1/xdotool.1.html)
 
 ## `wmctrl`
 
@@ -114,6 +127,9 @@ win2=$(xwininfo| awk '/^xwininfo: W/ { print $4 }')
 wmctrl -i -r $win1 -e 0,0,0,$((width/2)),$height
 wmctrl -i -r $win2 -e 0,$((width/2)),0,$((width/2)),$height
 ```
+
+[gnome - How to make application windows always on top in Linux mint? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/180790/how-to-make-application-windows-always-on-top-in-linux-mint)
+`wmctrl -r :SELECT: -b add,above`
 
 ## Node X11 interface
 

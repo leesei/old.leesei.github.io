@@ -9,6 +9,7 @@ tags:
   - cut
   - diff
   - find
+  - locate
   - grep
   - inotify-tools
   - openRTSP
@@ -24,22 +25,25 @@ tags:
 toc: true
 ---
 
-[All commands | commandlinefu.com](http://www.commandlinefu.com/commands/browse)
-[explainshell.com - match command-line arguments to their help text](http://explainshell.com/)
+[All commands | commandlinefu.com](https://www.commandlinefu.com/commands/browse)
+[explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
 [Core utilities - ArchWiki](https://wiki.archlinux.org/index.php/Core_utilities)
 [Tools & Reference - Linode Guides & Tutorials](https://www.linode.com/docs/tools-reference/)
-[Linux 101 Hacks eBook, by Ramesh Natarajan](http://www.thegeekstuff.com/linux-101-hacks-ebook/)
-[The Unix CD Bookshelf, v3.0](http://docstore.mik.ua/orelly/unix3/)
+[Linux 101 Hacks eBook, by Ramesh Natarajan](https://www.thegeekstuff.com/linux-101-hacks-ebook/)
+[The Unix CD Bookshelf, v3.0](https://docstore.mik.ua/orelly/unix3/)
 
-[TLDR pages](https://tldr.sh/)
 [Pantz.org Technical Reference Site](https://www.pantz.org/)
 
-[7 command-line tools for data science](http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html)
+[7 Command-Line Tools for Data Science • Blog • Data Science Workshops](https://www.datascienceworkshops.com/blog/seven-command-line-tools-for-data-science/)
+
+[Webminal - Learn and Practise Linux online, Programming online](https://www.webminal.org/)
+[Learn And Practice Linux Commands Online For FREE! - OSTechNix](https://www.ostechnix.com/learn-and-practice-linux-commands-online-for-free/)
 
 [5 Useful Tools to Remember Linux Commands Forever](https://www.tecmint.com/remember-linux-commands/amp/)
 [A - Z Linux Commands - Overview with Examples](https://www.tecmint.com/linux-commands-cheat-sheet/)
 [Everything CLI - It is all about the unix cli](https://www.everythingcli.org/)
 
+[My Favorite CLI Tools](https://switowski.com/blog/favorite-cli-tools)
 [My favorite command-line utilities](https://hackernoon.com/macbook-my-command-line-utilities-f8a121c3b019#.h92el0w0k)
 [Coreutils Gotchas](http://www.pixelbeat.org/docs/coreutils-gotchas.html#dd)
 [New zine: Bite Size Command Line! - Julia Evans](https://jvns.ca/blog/2018/08/05/new-zine--bite-size-command-line/)
@@ -49,18 +53,41 @@ toc: true
 [aharris88/awesome-cli-apps: A curated list of command line apps](https://github.com/aharris88/awesome-cli-apps)
 [herrbischoff/awesome-command-line-apps: Use your terminal shell to do awesome things.](https://github.com/herrbischoff/awesome-command-line-apps)
 [jlevy/the-art-of-command-line: Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)
-[nvbn/thefuck: Magnificent app which corrects your previous console command.](https://github.com/nvbn/thefuck)
+[CLI: improved](https://remysharp.com/2018/08/23/cli-improved)
+
+[denisidoro/navi: An interactive cheatsheet tool for the command-line](https://github.com/denisidoro/navi)
+[b4b4r07/enhancd: A next-generation cd command with your interactive filter](https://github.com/b4b4r07/enhancd)
+
+[Command line utilities — list of Rust libraries/crates // Lib.rs](https://lib.rs/command-line-utilities)
+[blindspot — command-line utility in Rust // Lib.rs](https://lib.rs/crates/blindspot)
+[Pueue — command-line utility in Rust // Lib.rs](https://lib.rs/crates/pueue)
+[bat — command-line utility in Rust // Lib.rs](https://lib.rs/crates/bat)
+[fd-find — command-line utility in Rust // Lib.rs](https://lib.rs/crates/fd-find)
+[Navi — command-line utility in Rust // Lib.rs](https://lib.rs/crates/navi)
+
+[t2b | A wicked-powerful text macro language for building binary files.](https://thosakwe.github.io/t2b/index.html)
+
 [facebook/PathPicker](https://github.com/facebook/pathpicker/) `fpp` provides interactive links to files in shell output
-[Pipecut Project Home](http://www.pipecut.org/)
 [How to do math on the Linux command line | Network World](https://www.networkworld.com/article/3268964/linux/how-to-do-math-on-the-linux-command-line.html)
+[jarun/Buku: Browser-independent bookmark manager](https://github.com/jarun/Buku)
 
 [rmdupes](https://xyne.archlinux.ca/projects/rmdupes/)
 
-## simple manpage
+[hollywood.computer](https://a.hollywood.computer/)
 
-[tldr-pages/tldr: Simplified and community-driven man pages](https://github.com/tldr-pages/tldr)
-[chrisallenlane/cheat: cheat allows you to create and view interactive cheatsheets on the command-line.](https://github.com/chrisallenlane/cheat)
+## Online manpages
+
+https://www.mankier.com/?q=%s Better coloring and TOC, with tldr
+http://www.die.net/search/?q=%s Better format for sending to Kindle
+http://man.cx/%s Better coloring and TOC
+
+[cheat.sh/:firstpage](https://cheat.sh/) [source](https://github.com/chubin/cheat.sh)
+
+[tldr | simplified, community driven man pages](https://tldr.ostera.io/) [source](https://github.com/tldr-pages/tldr)
 [bro: just get to the point!](http://bropages.org/)
+
+[cheat/cheat: cheat allows you to create and view interactive cheatsheets on the command-line.](https://github.com/cheat/cheat)
+[How to Create and View Interactive Cheatsheets on the Command-line | by Khuyen Tran | Towards Data Science](https://towardsdatascience.com/how-to-create-and-view-interactive-cheatsheets-on-the-command-line-6578641039ff?gi=50f17142521b)
 
 ## user management
 
@@ -99,11 +126,34 @@ passwd -l user    # lock user password
 
 [shell - Reload a Linux user's group assignments without logging out - Super User](http://superuser.com/questions/272061/reload-a-linux-users-group-assignments-without-logging-out)
 
-## Term recorder
+## Term recorder/sharing
 
 [chjj/ttystudio](https://github.com/chjj/ttystudio) record to GIF
 [theonewolf/TermRecord](https://github.com/theonewolf/TermRecord) record to HTML
 [asciinema/asciinema](https://github.com/asciinema/asciinema) record and post to [asciinema.org](asciinema.org).
+
+[butlerx/wetty: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)](https://github.com/butlerx/wetty)
+
+[yudai/gotty: Share your terminal as a web application](https://github.com/yudai/gotty)
+[Linux Fu: Share Terminal In Browser | Hackaday](https://hackaday.com/2018/12/21/linux-fu-share-terminal-in-browser/)
+
+## Pipes
+
+[All about pipes, by The Linux Information Project (LINFO)](http://www.linfo.org/pipes.html)
+[Pipecut Project Home](http://www.pipecut.org/)
+
+[akavel/up: Ultimate Plumber is a tool for writing Linux pipes with instant live preview](https://github.com/akavel/up)
+[Linux Fu: Up -- A Tool for Interactive Linux Pipe - YouTube](https://www.youtube.com/watch?s=Sh2uCM7iXps)
+
+## Command palette
+
+[denisidoro/navi: An interactive cheatsheet tool for the command-line](https://github.com/denisidoro/navi)
+[Introducing navi: an interactive cheatsheet tool by denisidoro | Katacoda](https://www.katacoda.com/denisidoro/scenarios/navi#)
+
+[pindexis/marker: The terminal command palette](https://github.com/pindexis/marker)
+[Linux Fu: Marker Is A Command Line Menu | Hackaday](https://hackaday.com/2018/10/24/linux-fu-marker-is-a-command-line-menu/)
+
+[nvbn/thefuck: Magnificent app which corrects your previous console command.](https://github.com/nvbn/thefuck)
 
 ## openRTSP
 
@@ -117,6 +167,19 @@ tar -tf tarball.tar.gz | head
 
 # skip 1 level (container folder)
 tar -xvf ZendFramework-1.7.2.tar.gz --strip 1
+
+# use multi-core compress tool
+# https://stackoverflow.com/questions/12313242/utilizing-multi-core-for-targzip-bzip-compression-decompression
+tar -I pbzip2 -cf OUTPUT_FILE.tar.bz2 paths_to_archive
+tar --use-compress-program=pigz -cf OUTPUT_FILE.tar.gz paths_to_archive
+```
+
+[Performing Incremental backups using tar | Unixmen](https://www.unixmen.com/performing-incremental-backups-using-tar/)
+[How to Create and Restore Incremental Backups with Tar on Linux - SnapShooter Documentation](https://snapshooter.com/learn/linux/incremental-tar)
+
+```sh
+tar --listed-incremental=tarfiles.list cvf images.tar images/ > tar.log
+tar --listed-incremental=tarfiles.list cvf images.1.tar images/ > tar.log
 ```
 
 ## grep
@@ -124,6 +187,9 @@ tar -xvf ZendFramework-1.7.2.tar.gz --strip 1
 [grep - Wikiwand](http://www.wikiwand.com/en/Grep)
 [Grep](http://www.grymoire.com/Unix/Grep.html)
 [grep is a beautiful tool](http://www.eriwen.com/tools/grep-is-a-beautiful-tool/)
+[Cover - GNU GREP and RIPGREP](https://learnbyexample.github.io/learn_gnugrep_ripgrep/)
+
+[Where GREP Came From - Computerphile - YouTube](https://www.youtube.com/watch?v=NTfOnGZUZDk)
 
 ```sh
 # list file name only
@@ -150,10 +216,6 @@ cat a b b | sort | uniq -u > c   # c is set difference a \ b
 
 [Doing Date Math on the Command Line, Part I | Linux Journal](https://www.linuxjournal.com/content/doing-date-math-command-line-part-i)
 [Doing Date Math on the Command Line - Part II | Linux Journal](https://www.linuxjournal.com/content/doing-date-math-command-line-part-ii)
-
-## pt
-
-[monochromegane/the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher)
 
 ## find
 
@@ -219,6 +281,28 @@ cd "$(find -inum 123456)"
 mv "$(find -inum 123456)" ../some/where/
 ```
 
+## locate
+
+[Linux ‘locate’ command examples | alvinalexander.com](https://alvinalexander.com/blog/post/linux-unix/use-linux-locate-command)
+[10 Useful 'locate' Command Practical Examples for Linux Newbies](https://www.tecmint.com/linux-locate-command-practical-examples/)
+
+## fzf
+
+[junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)
+[Examples · junegunn/fzf Wiki](https://github.com/junegunn/fzf/wiki/examples)
+
+[Vim universe. fzf - command line fuzzy finder - YouTube](https://www.youtube.com/watch?v=qgG5Jhi_Els)
+[Why you should be using fzf, the command line fuzzy finder](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
+
+<kbd>Tab</kbd> to select multiple items
+
+Pipe with other tools to provide fuzzy filtering interface
+[Fussy match `load-session` · Issue #59 · jimeh/tmuxifier](https://github.com/jimeh/tmuxifier/issues/59#issuecomment-529772274)
+
+## skim
+
+[lotabout/skim: Fuzzy Finder in rust!](https://github.com/lotabout/skim)
+
 ## rsync
 
 [rsync - man page](https://www.mankier.com/1/rsync)
@@ -255,6 +339,8 @@ rename 's/.txt$//' *
 # add '.txt' suffix
 rename 's/$/.txt/' *
 ```
+
+[nomino — command-line utility in Rust // Lib.rs](https://lib.rs/crates/nomino)
 
 ## sort
 
@@ -304,9 +390,56 @@ https://superuser.com/questions/125376/how-do-i-compare-binary-files-in-linux
 vimdiff <(xxd file1) <(xxd file2)
 ```
 
-## inotify-tools
+[so-fancy/diff-so-fancy: Good-lookin' diffs. Actually… nah… The best-lookin' diffs.](https://github.com/so-fancy/diff-so-fancy)
+[diffsitter — command-line utility in Rust // Lib.rs](https://lib.rs/crates/diffsitter)
 
-https://github.com/rvoicilas/inotify-tools
+## Text Searching
+
+[The Platinum Searcher: search source code, faster than ack - Progville](https://www.progville.com/tools/the-platinum-searcher-faster-than-ack/)
+[Releases · monochromegane/the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher/releases)
+
+[ripgrep is faster than {grep, ag, git grep, ucg, pt, sift} - Andrew Gallant's Blog](https://blog.burntsushi.net/ripgrep/)
+[Releases · BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep/releases)
+
+[Tutorial – ugrep » Linux Magazine](https://www.linux-magazine.com/Issues/2021/245/Tracked-Down?utm_source=Linux+Update&utm_campaign=Linux_Update_241_Copyleft_2021-21-07&utm_medium=email)
+
+## Split files
+
+[csplit invocation (GNU Coreutils 9.0)](https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html)
+[csplit - Split text files - IBM Documentation](https://www.ibm.com/docs/en/zos/2.3.0?topic=descriptions-csplit-split-text-files)
+
+[split invocation (GNU Coreutils 9.0)](https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html)
+[split - Split a file into manageable pieces - IBM Documentation](https://www.ibm.com/docs/en/zos/2.3.0?topic=descriptions-split-split-file-into-manageable-pieces)
+
+```sh
+csplit -f"bufferedsource." -b"%02d.log" bufferedsource.log "/.*Clicked NextStep/" "{*}"
+
+split -l 1000000 --additional-suffix=".log" -d bufferedsource.log "bufferedsource."
+```
+
+[bash - Using regex to tell csplit where to split the file - Stack Overflow](https://stackoverflow.com/questions/18364411/using-regex-to-tell-csplit-where-to-split-the-file)
+
+## Trim lines in place
+
+[Remove the last line from a file in Bash - Stack Overflow](https://stackoverflow.com/questions/4881930/remove-the-last-line-from-a-file-in-bash/17794626#17794626)
+
+```bash
+filename="bufferedsource.log"
+lines=2382577
+
+file_size="$(stat --format=%s "$filename")"
+trim_count="$(tail -n"$lines" "$filename" | wc -c)"
+end_position="$(echo "$file_size - $trim_count" | bc)"
+
+dd if=/dev/null of="$filename" bs=1 seek="$end_position"
+```
+
+## File watching
+
+[rvoicilas/inotify-tools: inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.](https://github.com/rvoicilas/inotify-tools)
+[Linux Fu: Watch That Filesystem | Hackaday](https://hackaday.com/2018/06/07/linux-fu-watch-that-filesystem/)
+
+[entr(1)](http://eradman.com/entrproject/)
 
 ## cpio
 
@@ -373,6 +506,12 @@ cowsay -l
 fortune | cowsay -f stegosaurus
 ```
 
+[Yaksay — command-line utility in Rust // Lib.rs](https://lib.rs/crates/yaksay)
+[dustinkirkland/hollywood](https://github.com/dustinkirkland/hollywood) multiple panels of noisy apps
+[genact — command-line utility in Rust // Lib.rs](https://lib.rs/crates/genact)
+[bartobri/no-more-secrets: A command line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers.](https://github.com/bartobri/no-more-secrets)
+[rusty-rain — command-line utility in Rust // Lib.rs](https://lib.rs/crates/rusty-rain)
+
 ## JSON manipulation
 
 [JSONSelect](http://jsonselect.org/#overview)
@@ -380,25 +519,43 @@ fortune | cowsay -f stegosaurus
 [maxogden/jsonmap: CLI JSON mapping/transformation utility](https://github.com/maxogden/jsonmap)
 [FGRibreau/jq.node: jq.node - like jq but WAY MORE powerful](https://github.com/FGRibreau/jq.node)
 
+[JMESPath — JMESPath](https://jmespath.org/) libray for multiple languages
+
+[jzelinskie/faq: Format Agnostic jQ](https://github.com/jzelinskie/faq)
+
+### Python
+
+[jmespath/jp: Command line interface to JMESPath - http://jmespath.org](https://github.com/jmespath/jp)
+
+[mahmoud/glom: ☄️ Python's nested data operator (and CLI), for all your declarative restructuring needs. Got data? Glom it! ☄️](https://github.com/mahmoud/glom)
+
+[asq — asq 1.3a documentation](https://asq.readthedocs.io/en/latest/)
+
+[Welcome to Flupy — flupy 1.0.2 documentation](https://flupy.readthedocs.io/en/latest/)
+
 ### [jq](https://stedolan.github.io/jq/)
 
 [jq Manual](https://stedolan.github.io/jq/manual/)
 [jqterm: jq as a service](https://jqterm.com/?query=.)
 [jq play](https://jqplay.org/)
+[jiq - JSON Incremental jq-filterer](https://jq.alhur.es/jiq/)
+
+[fiatjaf/jiq: jid on jq - interactive JSON query tool using jq expressions](https://github.com/fiatjaf/jiq)
 
 [jq/builtin.jq at master · stedolan/jq](https://github.com/stedolan/jq/blob/master/src/builtin.jq)
 [FAQ · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/FAQ#numbers)
 [Advanced Topics · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/Advanced-Topics)
 [Cookbook · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/Cookbook)
 [For JSONPath users · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/For-JSONPath-users)
-[Docs for Oniguruma Regular Expressions (RE.txt) · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/Docs-for-Oniguruma-Regular-Expressions-(RE.txt%29)
+[Docs for Oniguruma Regular Expressions (RE.txt) · stedolan/jq Wiki](<https://github.com/stedolan/jq/wiki/Docs-for-Oniguruma-Regular-Expressions-(RE.txt)>)
 [How to: Avoid Pitfalls · stedolan/jq Wiki](https://github.com/stedolan/jq/wiki/How-to:-Avoid-Pitfalls)
+[jq Cheet Sheet](https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4)
 
 [jq recipes](https://remysharp.com/drafts/jq-recipes)
 [JSON Tools: Jq - Hyperpolyglot](http://hyperpolyglot.org/json)
 [jq Primer: Munging JSON Data - Andrew Gibiansky](http://andrew.gibiansky.com/blog/command-line/jq-primer/)
 [jq is sed for JSON](https://robots.thoughtbot.com/jq-is-sed-for-json)
-[Reshaping JSON with jq | Programming Historian](http://programminghistorian.org/lessons/json-and-jq#the-pipe-)
+[Reshaping JSON with jq | Programming Historian](http://programminghistorian.org/lessons/json-and-jq)
 [Parsing JSON with jq](http://www.compciv.org/recipes/cli/jq-for-parsing-json/)
 [Wrestling JSON with jq by Arjan van der Gaag](http://arjanvandergaag.nl/blog/wrestling-json-with-jq.html)
 
@@ -442,6 +599,14 @@ tocsv(.)
 [How to convert arbirtrary simple JSON to CSV using jq? - Stack Overflow](https://stackoverflow.com/questions/32960857/how-to-convert-arbirtrary-simple-json-to-csv-using-jq)
 [Create JSON using jq from pipe-separated keys and values in bash - Stack Overflow](https://stackoverflow.com/questions/38860529/create-json-using-jq-from-pipe-separated-keys-and-values-in-bash)
 
+### jtc
+
+[ldn-softdev/jtc: JSON manipulation and transformation tool](https://github.com/ldn-softdev/jtc)
+
+### jql
+
+[JQL — command-line utility in Rust // Lib.rs](https://lib.rs/crates/jql)
+
 ## Toolbelt
 
 [ericfreese/rat: Compose shell commands to build interactive terminal applications](https://github.com/ericfreese/rat)
@@ -450,6 +615,8 @@ Perl for regex
 find
 grep
 pt
+ripgrep (rg)
 sed
 tr
-JSON manipulation
+[csvkit 1.0.3 — csvkit 1.0.3 documentation](https://csvkit.readthedocs.io/en/1.0.3/)
+[q - Text as Data](https://harelba.github.io/q/)

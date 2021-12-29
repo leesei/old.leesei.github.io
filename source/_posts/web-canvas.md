@@ -17,6 +17,8 @@ date: 2016-04-08 13:35:28
 [CanvasRenderingContext2D - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
 [HTMLCanvasElement - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)
 
+[Franks laboratory - YouTube](https://www.youtube.com/c/Frankslaboratory) Canvas power god
+
 [HTML5 Canvas [Book]](https://www.safaribooksonline.com/library/view/html5-canvas/9781449308032/)
 [HTML5 Canvas Tutorials](http://www.html5canvastutorials.com/)
 [Working with the Canvas | kirupa.com](https://www.kirupa.com/canvas/index.htm)
@@ -37,7 +39,11 @@ date: 2016-04-08 13:35:28
 [Optimize HTML5 canvas rendering with layering](http://www.ibm.com/developerworks/library/wa-canvashtml5layering/)
 [Myths and realities of canvas - JavaScript performance - 2D - HTML5 Game Devs Forum](http://www.html5gamedevs.com/topic/7735-myths-and-realities-of-canvas-javascript-performance/)
 
+[Why I no longer use D3.js. Every time I work on a project with… | by Paul Sweeney | Medium](https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a)
+`window.devicePixelRatio` allows zooming on canvas
+
 [[JSConfEU 2010] Ben Firshman: Lessons learnt pushing browsers to the limit - YouTube](https://www.youtube.com/watch?v=2gwxn8Lg910)
+[Creative Coding with Vanilla JavaScript and HTML Canvas - YouTube](https://www.youtube.com/playlist?list=PLYElE_rzEw_siuo-kkHh5h7Sk--6IPYNh) Franks laboratory
 
 ## AntV
 

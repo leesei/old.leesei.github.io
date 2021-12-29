@@ -11,6 +11,7 @@ date: 2016-07-15 17:49:42
 [10 Best Team Viewer Alternatives for Linux in 2019](https://www.fossmint.com/teamviewer-alternatives-for-linux/)
 
 [Apache Guacamole™](https://guacamole.apache.org/)
+[NoMachine - Free Remote Desktop For Everybody](https://www.nomachine.com/)
 
 [Virtual Network Computing - Wikiwand](https://www.wikiwand.com/en/Virtual_Network_Computing)
 [TightVNC: VNC-Compatible Free Remote Control / Remote Desktop Software](http://www.tightvnc.com/)

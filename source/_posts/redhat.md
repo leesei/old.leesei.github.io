@@ -1,12 +1,12 @@
 ---
 title: Redhat
 categories:
-- linux
+  - linux
 tags:
-- desktop
-- redhat
-- fedora
-- centos
+  - desktop
+  - redhat
+  - fedora
+  - centos
 toc: true
 date: 2016-04-24 23:25:51
 ---
@@ -30,9 +30,22 @@ Package Management: RPM (`dnf` after 22)
 Rawhide is the Fedora's rolling release
 [Releases/Rawhide - FedoraProject](https://fedoraproject.org/wiki/Releases/Rawhide?rd=Rawhide)
 
+## CentOS
+
+### Firewall
+
+[CentOS Linux 7 以 firewalld 指令設定防火牆規則教學 - G. T. Wang](https://blog.gtwang.org/linux/centos-7-firewalld-command-setup-tutorial/)
+[How To Open A Port In CentOS / RHEL 7 – The Geek Diary](https://www.thegeekdiary.com/how-to-open-a-ports-in-centos-rhel-7/)
+
+[5.3. Viewing the Current Status and Settings of firewalld Red Hat Enterprise Linux 7 | Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-viewing_current_status_and_settings_of_firewalld)
+[Open firewall port on CentOS 7 - Stack Overflow](https://stackoverflow.com/questions/24729024/open-firewall-port-on-centos-7)
+
 ## Package manager
 
 [DNF Package Manager For RPM-Based Linux Distributions - LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo](http://www.linuxandubuntu.com/home/dnf-package-manager-for-rpm-based-linux-distributions)
+[what is different between DNF and yum [Quick review] - Eldernode](https://blog.eldernode.com/what-is-different-between-dnf-and-yum/)
+
+[DNF command on CentOS 8 - what is DNF command - DNF tutorial](https://blog.eldernode.com/dnf-command-on-centos-8/)
 
 EPEL: AUR for CentOS
 [Top 8 YUM ThirdParty Repositories for CentOS and RHEL](https://www.tecmint.com/yum-thirdparty-repositories-for-centos-rhel/amp/)

@@ -17,11 +17,29 @@ date: 2018-06-12 13:35:14
 [Mesh networking extends IoT reach - O'Reilly Radar](http://radar.oreilly.com/2014/07/mesh-networking-extends-iot-reach.html)
 [Extracting value from the IoT - O'Reilly Radar](http://radar.oreilly.com/2014/06/extracting-value-from-the-iot.html)
 
+[Microcontrollers - YouTube](https://www.youtube.com/playlist?list=PLxLxbi4e2mYFkOe5whDbd8IzBVd1opbMb)
 [How Arduino is open-sourcing imagination | Massimo Banzi - YouTube](https://www.youtube.com/watch?v=UoBUXOOdLXY)
 
 ## IDE, Platforms and Frameworks
 
 > see `learn-to-code-kids.md#physical-programming-with-blocks`
+
+[Frameworks · PlatformIO](https://platformio.org/frameworks)
+
+[Home Assistant - Home Assistant](https://www.home-assistant.io/hassio/) Dash board
+[Lovelace UI - Home Assistant](https://www.home-assistant.io/lovelace/)
+[Lovelace: Custom Cards | Home Assistant Developer Documentation](https://developers.home-assistant.io/docs/frontend/custom-ui/lovelace-custom-card/)
+[Custom cards for Home Assistant](https://github.com/custom-cards)
+[Awesome Home Assistant](https://www.awesome-ha.com/)
+
+[Cheap DIY LED Light Strip | Self-Hosted Live Hack - YouTube](https://www.youtube.com/watch?v=aQyigSkcjMQ)
+Home Assistant and WLED
+[Aircoookie/WLED: Control WS2812B RGB LEDs with an ESP8266 over WiFi!](https://github.com/Aircoookie/WLED)
+
+### Pigweed
+
+[Pigweed: A collection of embedded libraries | Google Open Source Blog](https://opensource.googleblog.com/2020/03/pigweed-collection-of-embedded-libraries.html)
+[Google reveals Pigweed tools for embedded development - 9to5Google](https://9to5google.com/2020/03/19/google-pigweed-embedded-development/amp/)
 
 ### Firmata
 
@@ -31,9 +49,12 @@ Firmata is a generic protocol for communicating with microcontrollers from softw
 [firmata/arduino: Firmata firmware for Arduino](https://github.com/firmata/arduino)
 [firmata/protocol: Documentation of the Firmata protocol.](https://github.com/firmata/protocol)
 
+[sarahgp/p5bots: Use your microcontroller with p5.js](https://github.com/sarahgp/p5bots)
+
 ### Arduino IDE
 
 Arduino IDE can be used for Arduino-compatible boards. It provides a compile toolchain, editor, standard libraries and libraries convention for embedded system programming.
+[Using Arduino as an Embedded Development Platform](https://predictabledesigns.com/using-arduino-as-an-embedded-development-platform/?utm_source=EmailCampaign&omhide=true&EmailSubscriber=true)
 
 [Arduino - ArchWiki](https://wiki.archlinux.org/index.php/Arduino)
 `pacman -Sy arduino`
@@ -99,6 +120,21 @@ Linux: `~/Documents/Arduino/libraries/`
 [esp8266/arduino-esp8266fs-plugin: Arduino plugin for uploading files to ESP8266 file system](https://github.com/esp8266/arduino-esp8266fs-plugin)
 [me-no-dev/arduino-esp32fs-plugin: Arduino plugin for uploading files to ESP32 file system](https://github.com/me-no-dev/arduino-esp32fs-plugin)
 
+### Mbed OS
+
+Open source RTOS for ARM Cortex-M. Now supported by Arduino IDE.
+
+[Introduction - Mbed OS 5 | Mbed OS 5 Documentation](https://os.mbed.com/docs/mbed-os/v5.13/introduction/index.html)
+[Mbed OS Documentation | Tutorials](https://os.mbed.com/docs/latest/tutorials/serial-comm.html)
+
+[Arduino Blog » Why we chose to build the Arduino Nano 33 BLE core on Mbed OS](https://blog.arduino.cc/2019/07/31/why-we-chose-to-build-the-arduino-nano-33-ble-core-on-mbed-os/)
+
+### Mbed Linux OS
+
+Open source RTOS for ARM Cortex-A. Now supported by Arduino IDE.
+
+[Introduction - Arm Mbed Linux OS | Mbed Linux OS Documentation](https://os.mbed.com/docs/mbed-linux-os/v0.7/welcome/index.html)
+
 ### XOD
 
 [XOD](https://xod.io/)
@@ -115,10 +151,13 @@ Linux: `~/Documents/Arduino/libraries/`
 
 [Embedded Boards · PlatformIO](https://platformio.org/boards)
 
+[#264 PlatformIO for Arduino, ESP8266, and ESP32 Tutorial - YouTube](https://www.youtube.com/watch?v=0poh_2rBq7E)
+
 ### Control over Serial
 
 [Visualizing Data with Arduino](https://www.electroschematics.com/13439/visualizing-data-arduino/) Processing
 [Arduino Playground - Python](https://playground.arduino.cc/interfacing/python)
+[Arduino With Python: How to Get Started – Real Python](https://realpython.com/arduino-python/?__s=9yjm1swp7s426a4xisnd)
 
 ### Frameworks
 
@@ -132,11 +171,20 @@ Linux: `~/Documents/Arduino/libraries/`
 [Node-RED](http://nodered.org/) A visual tool for wiring the Internet of Things
 [Node-Red 簡介與快速安裝](https://www.arthurtoday.com/2016/10/node-red-introduction-and-installation.html)
 
-[NodeBots - The Rise of JS Robotics](http://nodebots.io/)
-[Cylon.js - JavaScript framework for robotics, physical computing, and the Internet of Things using Node.js](https://cylonjs.com/)
-[Gobot - Golang framework for robotics, physical computing, and the Internet of Things (IoT)](https://gobot.io/)
+[Zetta - An API-First Internet of Things (IoT) Platform - Free and Open Source Software](https://www.zettajs.org/)
+
 [Artoo - Ruby framework for robotics, physical computing, and the Internet of Things](http://artoo.io/)
-[JavaScript Robotics Platform Support (Johnny-Five)](http://johnny-five.io/platform-support/) execute JS on host for some board
+
+[Gobot - Golang framework for robotics, physical computing, and the Internet of Things (IoT)](https://gobot.io/)
+
+[Home :: TinyGo - Go on Microcontrollers and WASM](https://tinygo.org/)
+[tinygo-org/tinygo: Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.](https://github.com/tinygo-org/tinygo)
+[Arduino Blog » TinyGo on Arduino](https://blog.arduino.cc/2019/08/23/tinygo-on-arduino/)
+[TinyGo GO Compiler for Microcontrollers Now Works on Arduino Boards](https://www.cnx-software.com/2019/08/28/tinygo-go-compiler-for-microcontrollers-now-works-on-arduino-boards/amp/)
+
+[.NET nanoFramework – Making it easy to write C# code for embedded systems.](https://www.nanoframework.net/) ARM Cortex-M and ESP32
+[Qt on Microcontrollers - Get started Today!](https://www.qt.io/qt-for-mcu)
+[Learn from a real world example of Qt for MCUs with Verolt](https://www.qt.io/how-to-port-qt-to-mcus)
 
 ### Partition Size
 
@@ -153,8 +201,6 @@ ESP32 with Bluetooth Classic may need a expand to the partition
 
 [PyMite - Python Wiki](https://wiki.python.org/moin/PyMite)
 [MicroPython - Python for microcontrollers](https://micropython.org/)
-[What is CircuitPython? | Welcome to CircuitPython! | Adafruit Learning System](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython?view=all)
-[A Coming of Age for CircuitPython? – Hackster Blog](https://blog.hackster.io/a-coming-of-age-for-circuitpython-efb1b9c61aa3)
 [Pyxie -- A Little Python to C++ Compiler](http://www.sparkslabs.com/pyxie/index.html)
 
 [Using MicroPython in the wild - YouTube](https://www.youtube.com/watch?v=WI-nTf5iM84)
@@ -169,11 +215,48 @@ ESP32 with Bluetooth Classic may need a expand to the partition
 
 [User Guide — Pumbaa documentation](https://pumbaa.readthedocs.io/en/latest/user-guide.html) MicroPython on Simba
 
+### MicroPython
+
+> see `micro-bit.md#micropython`
+> see `espressif.md#micropython`
+
+[Code With Mu](https://codewith.mu/en/) offline MicroPython editor
+
+[MicroPython - Python for microcontrollers](http://micropython.org/)
+[Overview — MicroPython documentation](https://docs.micropython.org/en/latest/index.html)
+
+[MicroPython Basics: What is MicroPython?](https://www.digikey.hk/en/maker/projects/micropython-basics-what-is-micropython/1f60afd88e6b44c0beb0784063f664fc)
+
+### CircuitPython
+
+[CircuitPython](https://circuitpython.org/)
+
+[What is CircuitPython? | Welcome to CircuitPython! | Adafruit Learning System](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython?view=all)
+[A Coming of Age for CircuitPython? – Hackster Blog](https://blog.hackster.io/a-coming-of-age-for-circuitpython-efb1b9c61aa3)
+
+Adafruit's open source derivative of MicroPython
+[CircuitPython — Adafruit CircuitPython documentation](https://circuitpython.readthedocs.io/en/latest/README.html#differences-from-micropython)
+[CircuitPython vs MicroPython: Key Differences - Tutorial Australia](https://core-electronics.com.au/tutorials/circuitpython-vs-micropython-differences.html)
+
+[Adafruit CircuitPython — Adafruit CircuitPython documentation](https://circuitpython.readthedocs.io/en/)
+[adafruit/circuitpython: CircuitPython - a Python implementation for teaching coding with microcontrollers](https://github.com/adafruit/circuitpython)
+[adafruit/Adafruit_CircuitPython_Bundle: A bundle of useful CircuitPython libraries ready to use from the filesystem.](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+[adafruit/Adafruit_Blinka: Add CircuitPython hardware API and libraries to MicroPython & CPython devices](https://github.com/adafruit/Adafruit_Blinka)
+
+[CircuitPython in 2019 #circuitpython2019 « Adafruit Industries – Makers, hackers, artists, designers and engineers!](https://blog.adafruit.com/2019/01/28/circuitpython-in-2019/)
+[Overview | Welcome to CircuitPython! | Adafruit Learning System](https://learn.adafruit.com/welcome-to-circuitpython/overview)
+
+[Thea Flowers - Lessons learned from building a custom CircuitPython board](https://blog.thea.codes/lessons-learned-from-building-a-circuitpython-board/)
+[Customizing the Board Files | How to Add a New Board to CircuitPython | Adafruit Learning System](https://learn.adafruit.com/how-to-add-a-new-board-to-circuitpython/customizing-the-board-files?view=all)
+
 ## JavaScript for SoC
 
 > see `espressif#espruino`
 
+[Top 5 IoT Libraries for JavaScript Developers](https://blog.openreplay.com/top-5-iot-libraries-for-javascript-developers)
+
 [Johnny-Five: The JavaScript Robotics & IoT Platform](http://johnny-five.io/)
+[JavaScript Robotics Platform Support (Johnny-Five)](http://johnny-five.io/platform-support/) execute JS on host for some board
 
 [Duktape](http://duktape.org/)
 
@@ -182,6 +265,9 @@ ESP32 with Bluetooth Classic may need a expand to the partition
 [jerryscript-project/jerryscript: Ultra-lightweight JavaScript engine for the Internet of Things.](https://github.com/jerryscript-project/jerryscript)
 [Samsung/iotjs](https://github.com/Samsung/iotjs)
 [JerryScript & IoT.js: JavaScript for IoT from Samsung](http://www.infoq.com/news/2015/08/iotjs-jerryscript-samsung)
+
+[NodeBots - The Rise of JS Robotics](http://nodebots.io/)
+[Cylon.js - JavaScript framework for robotics, physical computing, and the Internet of Things using Node.js](https://cylonjs.com/)
 
 ### Espruino
 
@@ -194,6 +280,22 @@ ESP32 with Bluetooth Classic may need a expand to the partition
 [BBC micro:bit - Espruino](http://www.espruino.com/MicroBit)
 
 [How to Flash/Install Espruino on an ESP8266 Dev Board/Microcontroller (MacOS) - YouTube](https://www.youtube.com/watch?v=j9xwgeE9u8E)
+
+## Go for SoC
+
+[Gobot - Golang framework for robotics, drones, and the Internet of Things (IoT)](https://gobot.io/)
+
+[Embedded Go | Bare-metal programming with Go.](https://embeddedgo.github.io/)
+[embeddedgo (Embedded Go)](https://github.com/embeddedgo)
+
+[ziutek/emgo: Emgo: Bare metal Go (language for programming embedded systems)](https://github.com/ziutek/emgo)
+
+## Toit
+
+[Toit - IoT software platform for the ESP32](https://toit.io/)
+
+[Toit open-source language claims to be 30x faster than MicroPython on ESP32 - CNX Software](https://www.cnx-software.com/2021/11/28/toit-open-source-language-claims-to-be-30x-faster-than-micropython-on-esp32/)
+[Microsoft Azure IoT, Balena, Particle, or Toit - Choosing the Right IoT Development Platform - CNX Software](https://www.cnx-software.com/2021/08/06/microsoft-azure-iot-balena-particle-toit-iot-development-platform-comparision/)
 
 ## Connectivity
 
@@ -213,6 +315,8 @@ ESP8266 is a common Wifi chipset. ESP32 is the next generation with Bluetooth an
 
 [LoRa Module VS nRF24 VS Generic RF Module || Range & Power Test - YouTube](https://www.youtube.com/watch?v=nP6YuwNVoPU)
 
+[Chirp | Send data with sound](https://chirp.io/)
+
 ### Wifi
 
 ESP8266
@@ -227,8 +331,10 @@ HC-05/HC-06/HC-10 are common Wifi modules using ESP8266
 [Arduino - ArduinoBoardBT](https://www.arduino.cc/en/Main/ArduinoBoardBT)
 
 [Connect Arduino Uno to Android Via Bluetooth: 6 Steps](https://www.instructables.com/id/Connect-Arduino-Uno-to-Android-via-Bluetooth/)
-[Bluetooth Basics: How to Control an LED Using a Smartphone and Arduino  | Arduino | Maker Pro](https://maker.pro/arduino/tutorial/bluetooth-basics-how-to-control-led-using-smartphone-arduino)
+[Bluetooth Basics: How to Control an LED Using a Smartphone and Arduino | Arduino | Maker Pro](https://maker.pro/arduino/tutorial/bluetooth-basics-how-to-control-led-using-smartphone-arduino)
 [Communicate with Your Arduino Through Android](https://www.allaboutcircuits.com/projects/communicate-with-your-arduino-through-android/)
+
+[arduino-libraries/ArduinoBLE: ArduinoBLE library for Arduino](https://github.com/arduino-libraries/ArduinoBLE/)
 
 ### LPWAN/LoRA/6LoWPAN
 
@@ -345,6 +451,7 @@ http://wiki.ps2dev.org/ps3:hardware:sixaxis
 [Ubuntu MATE for the Raspberry Pi 2 and Raspberry Pi 3 | Ubuntu MATE](https://ubuntu-mate.org/raspberry-pi/)
 [pi-top | pi-topOS](https://www.pi-top.com/products/os#download)
 [Armbian – Linux for ARM development boards](https://www.armbian.com/)
+[FydeOS/chromium_os_for_raspberry_pi: Build your Chromium OS for Raspberry Pi 3B/3B+](https://github.com/FydeOS/chromium_os_for_raspberry_pi)
 
 [Home Edition Download — Neverware](https://www.neverware.com/freedownload) formerly Flint OS
 [FydeOS - 面向未来的云驱动操作系统 | 为中国用户打造的 Chrome OS](https://fydeos.com/) formerly Flint OS, Chinese fork
@@ -384,12 +491,24 @@ http://wiki.ps2dev.org/ps3:hardware:sixaxis
 
 ---
 
+# Smart home
+
+[The Hook Up - YouTube](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
+
+[My new house is gonna be MAGIC - YouTube](https://www.youtube.com/watch?v=xm740EdgOTM)
+
+[How to build a Linux-powered smart home | TechRadar](https://www.techradar.com/how-to/how-to-build-a-linux-smart-home)
+
+---
+
 # Software Platforms
 
 [Mozilla IoT](https://iot.mozilla.org/)
 [Mozilla IoT - WebThings Gateway](https://iot.mozilla.org/gateway/)
 [Mozilla IoT - WebThings Framework](https://iot.mozilla.org/framework/)
 [Introducing Mozilla WebThings - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2019/04/introducing-mozilla-webthings/)
+
+[openHAB](https://www.openhab.org/) [GitHub Org](https://github.com/openhab)
 
 ---
 
@@ -402,6 +521,7 @@ http://wiki.ps2dev.org/ps3:hardware:sixaxis
 There are SBC (single board computer) and MCU (micro controller unit). MCU also acts as co-processor of other system.
 
 [ExplainingComputers.com: Single Board Computers](https://www.explainingcomputers.com/sbc.html)
+[Welcome to the Single Board Computer Database](https://www.hackerboards.com/home.php)
 [Raspberry Pi Alternatives | Linux Journal](https://www.linuxjournal.com/content/raspberry-pi-alternatives)
 [Downsides to Raspberry Pi Alternatives | Linux Journal](https://www.linuxjournal.com/content/downsides-raspberry-pi-alternatives)
 [Raspberry Pi Alternatives: Top Single Board Computers [2019]](https://itsfoss.com/raspberry-pi-alternatives/)
@@ -419,6 +539,7 @@ There are SBC (single board computer) and MCU (micro controller unit). MCU also 
 
 [When to Use Micro Processors vs. Micro Controllers - YouTube](https://www.youtube.com/watch?v=Rai8dAkcDLk)
 [The Next Generation of High-Powered Microcontrollers « Adafruit Industries – Makers, hackers, artists, designers and engineers!](https://blog.adafruit.com/2018/06/26/the-next-generation-of-high-powered-microcontrollers/)
+[The Amazing \$1 Microcontroller - Jay Carlson](https://jaycarlson.net/microcontrollers/)
 
 [You know you have a memory problem when... | Memories of an Arduino | Adafruit Learning System](https://learn.adafruit.com/memories-of-an-arduino?view=all)
 
@@ -441,6 +562,8 @@ Many of them uses sysfs interface
 
 [radxa/pyRock: Python GPIO module for rockchip platform](https://github.com/radxa/pyRock) RK3188
 
+[dotnet/iot: This repo includes .NET Core implementations for various IoT boards, chips, displays and PCBs.](https://github.com/dotnet/iot)
+
 Firefly RK3288
 [zhansb/pyFireflyP](https://github.com/zhansb/pyFireflyP)
 [shawn-github/rk3288-gpio-control: rk3288 游戏机，gpio 作为输出和按键](https://github.com/shawn-github/rk3288-gpio-control)
@@ -456,6 +579,25 @@ Firefly RK3288
 ## Raspberry Pi
 
 > see `raspberry-pi.md`
+
+## Raspberry Pi Pico
+
+RP2040
+
+- ARM Cortex-M0+ @133Mhx (dual-core)
+- 264KB RAM, 2MB flash (up to 16MB)
+- 2 SPI
+- 2 I2C
+- 2 UART
+- 3 12-bit ADC
+- 16-bit PWM
+
+[Meet Raspberry Silicon: Raspberry Pi Pico now on sale at $4 - Raspberry Pi](https://www.raspberrypi.org/blog/raspberry-pi-silicon-pico-now-on-sale/)
+[Buy a Raspberry Pi Pico – Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-pico/)
+[Getting Started with Raspberry Pi Pico – Raspberry Pi](https://www.raspberrypi.org/documentation/pico/getting-started/)
+[Getting started with Raspberry Pi Pico - Introduction | Raspberry Pi Projects](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/)
+[Raspberry Pi Enters Microcontroller Game With $4 Pico | Hackaday](https://hackaday.com/2021/01/20/raspberry-pi-enters-microcontroller-game-with-4-pico/)
+[Raspberry Pi Pico: Tutorials, Pinout, Everything You Need to Know | Tom's Hardware](https://www.tomshardware.com/amp/news/raspberry-pi-pico-tutorials-pinout-everything-you-need-to-know)
 
 ## AllWinner
 
@@ -488,29 +630,52 @@ Firefly RK3288
 
 ## STM
 
+[STM32 - Wikiwand](https://www.wikiwand.com/en/STM32)
+[STM32 Arm Cortex MCUs - 32-bit Microcontrollers - STMicroelectronics](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
+[Decipher the naming of STM32 MCUs | Michał Derkacz](https://ziutek.github.io/2018/05/07/stm32_naming_scheme.html)
+[How to Understand the STM32 Family’s Naming Convention](https://www.digikey.hk/en/maker/blogs/2020/understanding-stm32-naming-conventions)
+
+[STM32 Blue Pill vs Black Pill Microcontroller Boards - YouTube](https://www.youtube.com/watch?v=QCdnO43RBK4)
+
+STM32F411
+
+- ARM Cortex-M4F @100MHz 3.3V
+- DSP and FPU
+- 512K Flash, 128K RAM
+- 11 timers
+- 3 I2C
+
 STM32F103
-ARM Cortex-M3 @72MHz 3.3V
-some pins are 5V tolerant
-2 12-bit ADC
-16-bit PWM, frequency up to 32MHz
-15 interrupts
-[STM32F103C8 - Mainstream Performance line, ARM Cortex-M3 MCU with 64 Kbytes Flash, 72 MHz CPU, motor control, USB and CAN - STMicroelectronics](https://www.st.com/en/microcontrollers/stm32f103c8.html)
+
+- ARM Cortex-M3 @72MHz 3.3V
+- 64K Flash, 20K RAM
+- some pins are 5V tolerant
+- 2 12-bit ADC
+- 2 I2C
+- 16-bit PWM, frequency up to 32MHz
+- 15 interrupts, 7 timers
+  [STM32F103C8 - Mainstream Performance line, ARM Cortex-M3 MCU with 64 Kbytes Flash, 72 MHz CPU, motor control, USB and CAN - STMicroelectronics](https://www.st.com/en/microcontrollers/stm32f103c8.html)
 
 STM32F030
-ARM Cortex-M0 @45MHz 3.3V
-some pins are 5V tolerant
-1 12-bit ADC
-2 I2C
-entry-level model
-[STM32F030C8 - Mainstream ARM Cortex-M0 Value line MCU with 64 Kbytes Flash, 48 MHz CPU - STMicroelectronics](https://www.st.com/en/microcontrollers/stm32f030c8.html)
-[Datasheet Review of an STM32 Microcontroller (Blog + Video) | PREDICTABLE DESIGNS](https://predictabledesigns.com/stm32-microcontroller-datasheet-review/)
+
+- ARM Cortex-M0 @45MHz 3.3V
+- some pins are 5V tolerant
+- 1 12-bit ADC
+- 2 I2C
+- entry-level model
+  [STM32F030C8 - Mainstream ARM Cortex-M0 Value line MCU with 64 Kbytes Flash, 48 MHz CPU - STMicroelectronics](https://www.st.com/en/microcontrollers/stm32f030c8.html)
+  [Datasheet Review of an STM32 Microcontroller (Blog + Video) | PREDICTABLE DESIGNS](https://predictabledesigns.com/stm32-microcontroller-datasheet-review/)
 
 [Blue Pill - STM32duino wiki](http://wiki.stm32duino.com/index.php?title=Blue_Pill)
 [LeafLabs Documentation Index — Maple Documentation](http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/latest/index-2.html)
+[#345 ESP32 vs STM32: Which one is better (Bluepill)? - YouTube](https://www.youtube.com/watch?v=boF4cX338k4)
 
+[Home | STM32-base project](https://stm32-base.org/)
 [Arduino for STM32 - Index page](http://www.stm32duino.com/)
 [Boards Manager package - STM32duino wiki](http://wiki.stm32duino.com/index.php?title=Boards_Manager_package)
+[stm32duino/Arduino_Core_STM32: STM32 core support for Arduino](https://github.com/stm32duino/Arduino_Core_STM32)
 [Libraries · rogerclarkmelbourne/Arduino_STM32 Wiki](https://github.com/rogerclarkmelbourne/Arduino_STM32/wiki/Libraries)
+[How to use STM32 boards with Arduino IDE and how fast are they? (incl. surprise) - YouTube](https://www.youtube.com/watch?v=337rDuCGeYs)
 
 [Let's code with STM32 NUCLEO | Open Electronics](https://www.open-electronics.org/lets-code-with-stm32-nucleo/)
 [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide - YouTube](https://www.youtube.com/watch?v=EaZuKRSvwdo)
@@ -527,7 +692,7 @@ entry-level model
 
 > see `arduino.md`
 
-### Beaglebone
+## Beaglebone
 
 [BeagleBoard.org - community supported open hardware computers for making](https://beagleboard.org/)
 
@@ -549,6 +714,10 @@ The CPU used includes two Programmable Realtime Units (PRUs), which have access 
 [Webduino Bit - 最 HOT 的物聯網開發板！](https://bit.webduino.io/site/zh_tw/index.html)
 micro:bit clone using ESP32
 
+## 8051
+
+[[FREE] Free Microcontroller Tutorial - 8051 Microcontroller Udemy Coupon](https://couponscorpion.com/it-software/free-microcontroller-tutorial-8051-microcontroller/amp/)
+
 ## Blocks with SoC
 
 ### EV3/NXT
@@ -560,6 +729,8 @@ micro:bit clone using ESP32
 [Home - Mindstorms LEGO.com](https://www.lego.com/en-us/mindstorms)
 [LEGO EV3 & NXT hacks and robots](http://www.philohome.com/nxt.htm)
 [The NXT STEP is EV3 - LEGO® MINDSTORMS® Blog](http://www.thenxtstep.com/)
+
+[Python for EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 
 [LEGO Mindstorms NXT / EV3 Cable & Crimping Tool DIY - YouTube](https://www.youtube.com/watch?v=p1rhdOg9sVc) file your crimping tool
 [Lego Mindstorms EV3 Review - A lack of enthusiasm - YouTube](https://www.youtube.com/watch?v=wLupj65qJHg) RCX (1998) -> NXT (2006) -> RV3 (2013)
@@ -705,6 +876,17 @@ Pieces are little bit smaller than LEGO pieces, so _not compatible_
 
 [首页-机智猫少儿创客机器人-淘宝网](https://shop150832632.taobao.com/index.htm)
 
+### Sony toio
+
+[toio（トイオ）公式サイト](https://toio.io/)
+[Sony Global - Toy platform toio™ | Stories | Sony Design](https://www.sony.net/SonyInfo/design/stories/toio/)
+
+### Elekit
+
+[ELEKIT](https://www.elekit.co.jp/en/)
+[Elekit - HobbySearch Toy Store](https://www.1999.co.jp/eng/search?typ1_c=119&cat=&target=Series&searchkey=Elekit)
+[这就是男人的浪漫！液压传动的巨大机械手臂终于做完啦！ - YouTube](https://www.youtube.com/watch?v=gkkmmnv6MqU)
+
 ### Mitu
 
 [米兔积木机器人 - 小米商城](https://www.mi.com/toyblock/)
@@ -744,3 +926,8 @@ Pieces are little bit smaller than LEGO pieces, so _not compatible_
 
 [MickMake - YouTube](https://www.youtube.com/channel/UC7GMT3ohvYEAJFDenzj9EMQ)
 [8 Bits and a Byte - YouTube](https://www.youtube.com/channel/UCsxNFv5K7ZdeTBDwh6D-ukQ?app=desktop)
+[GreatScott! - YouTube](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+[DavidHuangLab - YouTube](https://www.youtube.com/channel/UC2pfQLCfrLWwyJlP31MmmFw)
+
+[Daniele Tartaglia - YouTube](https://www.youtube.com/channel/UCwMjr5HocO6S363x_-jzsmA)
+[4 INCREDIBLE project with old CD/DVDrom - YouTube](https://www.youtube.com/watch?v=cO7-pSsbCP0&t=614s)

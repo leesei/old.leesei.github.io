@@ -13,10 +13,9 @@ date: 2016-09-11 01:06:23
 
 [Summons Board - Gungho](https://www.facebook.com/SummonsBoard.Gungho?_rdr)
 [召喚圖板 Summons Board 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/B.php?bsn=25691)
-[召唤图板吧_百度贴吧](http://tieba.baidu.com/f?kw=召唤图板&ie=utf-8)
+[召唤图板吧\_百度贴吧](http://tieba.baidu.com/f?kw=召唤图板&ie=utf-8)
 
-
-[召喚圖板(Summons Board) APK下載 | 召喚圖板 | 青怡攻略](http://sb.yeeapps.com/02/apk.php)
+[召喚圖板(Summons Board) APK 下載 | 召喚圖板 | 青怡攻略](http://sb.yeeapps.com/02/apk.php)
 
 ## Coin Dungeon
 
@@ -27,12 +26,12 @@ date: 2016-09-11 01:06:23
 
 [モンスターのスキル・リーダースキル・能力を知ろう！ | サモンズボード運営サイト](https://sb.gungho.jp/member/ability/)
 
-弱毒 -0.4倍
-毒 -0.8倍
-猛毒 -3倍
-超毒 -12.5倍
+弱毒 -0.4 倍
+毒 -0.8 倍
+猛毒 -3 倍
+超毒 -12.5 倍
 超猛毒 -？倍 (待各位測試提供)
-超絕毒 - 25倍
+超絕毒 - 25 倍
 
 ## 圖鑑/分析
 

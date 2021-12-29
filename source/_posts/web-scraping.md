@@ -2,9 +2,9 @@
 title: "Web Scraping"
 date: 2017-11-20 10:29:27
 categories:
-- web
+  - web
 tags:
-- scraping
+  - scraping
 toc: true
 ---
 
@@ -14,6 +14,10 @@ toc: true
 [lorien/awesome-web-scraping: List of libraries, tools and APIs for web scraping and data processing.](https://github.com/lorien/awesome-web-scraping)
 [BruceDone/awesome-crawler: A collection of awesome web crawler,spider in different languages](https://github.com/BruceDone/awesome-crawler)
 [THE SCRAPINGHUB BLOG](https://blog.scrapinghub.com/)
+[A guide to Web Scraping without getting blocked · daolf](https://www.daolf.com/posts/avoiding-being-blocked-while-scraping-ultimate-guide/)
+[A guide to Web Scraping without getting blocked](https://www.scrapingninja.co/blog/web-scraping-without-getting-blocked)
+[Introduction to web scraping](https://librarycarpentry.org/lc-webscraping/)
+[Image Scraping with Python - Towards Data Science](https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d)
 
 [Big Data: What is Web Scraping and how to use it | IT Svit Blog](https://itsvit.com/blog/big-data-what-is-web-scraping-and-how-to-use-it/)
 [Big Data Scraping vs Web Data Crawling | IT Svit Blog](https://itsvit.com/big-data/big-data-scraping-vs-web-data-crawling/)
@@ -44,6 +48,7 @@ toc: true
 [GoogleChrome/puppeteer: Headless Chrome Node API](https://github.com/GoogleChrome/puppeteer) !important
 [Try Puppeteer](https://try-puppeteer.appspot.com/)
 [puppeteer/api.md at master · GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-page)
+[Migrating Puppeteer to TypeScript - Chrome Developers](https://developer.chrome.com/blog/puppeteer-typescript/)
 
 [Introduction to Puppeteer](https://flaviocopes.com/puppeteer/)
 [Automating Google Chrome with Node.js - Tutorialzine](https://tutorialzine.com/2017/08/automating-google-chrome-with-node-js) with Puppeteer
@@ -52,9 +57,22 @@ toc: true
 [Tutorial: User Interface Testing with Jest and Puppeteer](https://www.valentinog.com/blog/ui-testing-jest-puppetteer/)
 [Browser automation revisited - meet Puppeteer](https://nemethgergely.com/puppeteer-browser-automation/)
 [Puppeteer – Headless Chrome in a Container – zwischenzugs](https://zwischenzugs.com/2017/10/16/puppeteer-headless-chrome-in-a-container/)
+[📷 How to take a screenshot of a webpage with JavaScript in Node.js (using puppeteer) - DEV Community 👩‍💻👨‍💻](https://dev.to/benjaminmock/how-to-take-a-screenshot-of-a-page-with-javascript-1e7c)
+[How to set up a Headless Chrome Node.js server in Docker - LogRocket Blog](https://blog.logrocket.com/how-to-set-up-a-headless-chrome-node-js-server-in-docker/)
 
-[Getting Started with Headless Chrome  |  Web  |  Google Developers](https://developers.google.com/web/updates/2017/04/headless-chrome)
+[Getting Started with Headless Chrome | Web | Google Developers](https://developers.google.com/web/updates/2017/04/headless-chrome)
 [Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)
+
+### Playwright
+
+> binding in Node.js, Python, Java, .NET
+
+[Fast and reliable end-to-end testing for modern web apps | Playwright](https://playwright.dev/)
+
+[microsoft/playwright: Node.js library to automate Chromium, Firefox and WebKit with a single API](https://github.com/microsoft/playwright)
+[microsoft/playwright-sharp: .NET version of the Playwright testing and automation library.](https://github.com/microsoft/playwright-sharp)
+
+[Mastering Web Scraping in Python: Avoid Blocking Like a Ninja - ZenRows](https://www.zenrows.com/blog/stealth-web-scraping-in-python-avoid-blocking-like-a-ninja)
 
 ## Python
 
@@ -64,9 +82,18 @@ toc: true
 [MechanicalSoup/MechanicalSoup: A Python library for automating interaction with websites.](https://github.com/MechanicalSoup/MechanicalSoup)
 [Welcome to MechanicalSoup’s documentation!](https://mechanicalsoup.readthedocs.io/en/stable/)
 
+[Requests-HTML: HTML Parsing for Humans (writing Python 3)! — requests-HTML documentation](https://requests-html.kennethreitz.org/)
+
+[Web Scraping 101 with Python](https://www.scrapingninja.co/blog/web-scraping-101-with-python)
+[A beginner's guide to web scraping with Python | Opensource.com](https://opensource.com/article/20/5/web-scraping-python)
+
 [Practical Introduction to Web Scraping in Python – Real Python](https://realpython.com/python-web-scraping-practical-introduction/)
 [An Intro to Web Scraping With lxml and Python – Python Tips](https://pythontips.com/2018/06/20/an-intro-to-web-scraping-with-lxml-and-python/)
+[Web Scraping with Python: A Comprehensive Tutorial](https://www.supars.com/web-scraping-with-python-a-comprehensive-tutorial/) requests+BeautifulSoup
 
+[Download Course Materials with A Simple Python Crawler](https://towardsdatascience.com/download-course-materials-with-a-simple-python-crawler-94e06d5f84b5) XPath
+
+[Mastering Web Scraping in Python: From Zero to Hero - ZenRows](https://www.zenrows.com/blog/mastering-web-scraping-in-python-from-zero-to-hero)
 [Web scraping and parsing with Beautiful Soup & Python - YouTube](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfV1MIRBOcqClP6VZXsvyZS)
 
 [Newspaper3k: Article scraping & curation — newspaper documentation](https://newspaper.readthedocs.io/en/latest/)
@@ -92,6 +119,9 @@ toc: true
 
 [How to perform web-scraping using Node.js – Bits and Pieces](https://blog.bitsrc.io/https-blog-bitsrc-io-how-to-perform-web-scraping-using-node-js-5a96203cb7cb)
 [How to Perform Web-Scraping using Node.js- Part 2 – Bits and Pieces](https://blog.bitsrc.io/how-to-perform-web-scraping-using-node-js-part-2-7a365aeedb43)
+
+[ChukwuEmekaAjah/beautiful-dom: A JavaScript library that models essential HTML DOM API methods and properties relevant for extracting data from crawled web pages or XML documents](https://github.com/ChukwuEmekaAjah/beautiful-dom)
+[Beautiful-dom; a HTML parser built with TypeScript - DEV Community 👩‍💻👨‍💻](https://dev.to/ajahso4/beautiful-dom-a-html-parser-built-with-typescript-26op)
 
 [cheeriojs/cheerio: Fast, flexible, and lean implementation of core jQuery designed specifically for the server.](https://github.com/cheeriojs/cheerio)
 
