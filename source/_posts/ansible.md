@@ -97,6 +97,7 @@ Jeff Geerling
 
 [Ansible Workshop](http://vfarcic.github.io/ansible-workshop/#/cover)
 [Ansible Q&A: It Can't Make Your Breakfast Yet - CenturyLink Cloud Developer Center](https://www.ctl.io/developers/blog/post/ansible-cant-make-breakfast)
+[Ansible Tutorial for Beginners: Playbook & Examples | Spacelift.io](https://spacelift.io/blog/ansible-tutorial)
 
 ## Admin UI
 
@@ -150,13 +151,14 @@ Accelerated: temporary daemon will be created that only allows connections only 
 
 ## Variables
 
-[Variables — Ansible Documentation](http://docs.ansible.com/ansible/playbooks_variables.html)
+[Variables — Ansible Documentation](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html)
 [Jinja2 filters — Ansible Documentation](http://docs.ansible.com/ansible/playbooks_filters.html)
 [Jinja2 tests — Ansible Documentation](https://docs.ansible.com/ansible/playbooks_tests.html)
 [List of Builtin Filters](http://jinja.pocoo.org/docs/dev/templates/#builtin-filters)
 [Simplifying JSON Response Mocks With Jinja - sasheldon.com](http://sasheldon.com/blog/2013/12/14/simplifying-json-response-mocks-with-jinja/)
 
 [[Howto] Introduction to Ansible variables – /home/liquidat](https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/)
+[How to Use Different Types of Ansible Variables (Examples) | Spacelift.io](https://spacelift.io/blog/ansible-variables)
 
 ## Fact
 
