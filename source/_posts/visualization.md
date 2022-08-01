@@ -297,6 +297,8 @@ Server-client architecture, with Python, JS, Scala, R clients
 
 [Data Preprocessing And Visualization In C++ - Towards Data Science](https://towardsdatascience.com/data-preprocessing-and-visualization-in-c-6d97ed236f3b)
 
+[Introduction of Data Structure and algorithm](https://www.scaler.com/topics/data-structures/what-is-data-structure/)
+
 ## Julia
 
 [Gadfly.jl](http://gadflyjl.org/stable/)
