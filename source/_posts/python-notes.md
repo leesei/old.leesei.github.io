@@ -105,6 +105,7 @@ This provides `python3.exe`
 [Learn Python By Example - PythonForBeginners.com](https://www.pythonforbeginners.com/)
 [Python tutorial - beginner Python tutorial](http://zetcode.com/lang/python/)
 [9 Free Online Courses for Python Beginners](https://www.makeuseof.com/python-online-course-free/)
+[Learn Python Programming - Scaler Topics](https://www.scaler.com/topics/python/)
 
 [trinket - Python 3](https://trinket.io/features/python3) playground, with Skulpt
 [python-utils.com](https://www.python-utils.com/)
